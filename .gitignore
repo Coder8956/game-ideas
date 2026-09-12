@@ -1,0 +1,10 @@
+**/*.csproj
+**/*.sln
+2026-0912-avoidance/program/demo-unity-avoidance/.codely.packages/
+2026-0912-avoidance/program/demo-unity-avoidance/.codely-cli/
+2026-0912-avoidance/program/demo-unity-avoidance/.idea/
+2026-0912-avoidance/program/demo-unity-avoidance/Library/
+2026-0912-avoidance/program/demo-unity-avoidance/Logs/
+2026-0912-avoidance/program/demo-unity-avoidance/obj/
+2026-0912-avoidance/program/demo-unity-avoidance/screenshots/
+2026-0912-avoidance/program/demo-unity-avoidance/Temp/
