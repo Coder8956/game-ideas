@@ -2,13 +2,10 @@ using UnityEngine;
 
 /// <summary>
 /// 主游戏流程控制器：
-/// 1. 初始化时收集场景中所有MoveKey、玩家（GamePlayer）与掉落点（DropPoint），
-///    统一禁用MoveKey与玩家的功能（准备阶段不可交互；掉落点的生成节奏由本控制器驱动，准备阶段不生成）
+/// 1. 初始化时收集场景中所有MoveKey与玩家（GamePlayer），统一禁用其功能（准备阶段不可交互）
 /// 2. 自动进入开始流程：准备倒计时结束后开始游戏，启用所有MoveKey与玩家的功能
 /// 3. 准备阶段时长可在Inspector中配置，设为0则初始化后立即开始
 /// 4. 准备阶段在控制台按整秒输出剩余倒计时秒数，倒计时结束输出游戏开始提示
-/// 5. 游戏开始后将所有DropPoint随机排序，按可配置的生成间隔依次从各DropPoint生成掉落物（掉落物沿Y轴负方向坠落）；
-///    所有DropPoint都生成过物体后再次随机打乱顺序，无限循环生成
 /// </summary>
 public class GameController : MonoBehaviour
 {
@@ -27,17 +24,11 @@ public class GameController : MonoBehaviour
     /// <summary>准备阶段持续时间（秒），倒计时结束自动开始游戏</summary>
     [SerializeField] private float m_readyDuration = 3f;
 
-    /// <summary>掉落物生成间隔（秒），游戏进行中每隔该时长从下一个DropPoint生成一个掉落物</summary>
-    [SerializeField, Min(0.1f)] private float m_dropInterval = 1f;
-
     /// <summary>场景中所有MoveKey缓存</summary>
     private MoveKey[] m_moveKeys;
 
     /// <summary>场景中所有玩家缓存</summary>
     private GamePlayer[] m_players;
-
-    /// <summary>场景中所有DropPoint缓存</summary>
-    private DropPoint[] m_dropPoints;
 
     /// <summary>当前游戏状态</summary>
     private GameState m_state = GameState.Ready;
@@ -47,12 +38,6 @@ public class GameController : MonoBehaviour
 
     /// <summary>上一次已输出的整秒倒计时（-1表示尚未输出过），用于避免同一秒内重复输出</summary>
     private int m_lastCountdownSecond = -1;
-
-    /// <summary>随机排序后的掉落点序列索引，指向下一个应生成物体的DropPoint</summary>
-    private int m_dropIndex;
-
-    /// <summary>距下一次生成掉落物的剩余时间（秒），小于等于0时立即生成</summary>
-    private float m_dropTimer;
 
     // ==================== 生命周期 ====================
 
@@ -74,13 +59,6 @@ public class GameController : MonoBehaviour
         }
         SetPlayersEnabled(false);
 
-        // 获取所有掉落点（含未激活对象，保证后续激活的也纳入流程），其生成节奏由本控制器在游戏流程中统一驱动
-        m_dropPoints = FindObjectsByType<DropPoint>(FindObjectsInactive.Include, FindObjectsSortMode.None);
-        if (m_dropPoints.Length == 0)
-        {
-            Debug.LogWarning("[GameController] 场景中未找到任何DropPoint。", this);
-        }
-
         // 进入准备阶段，倒计时结束后自动开始游戏
         m_state = GameState.Ready;
         m_readyTimer = m_readyDuration;
@@ -89,15 +67,10 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        switch (m_state)
+        // 仅准备阶段需要逐帧驱动倒计时；游戏进行中无逐帧逻辑
+        if (m_state == GameState.Ready)
         {
-            case GameState.Ready:
-                UpdateReadyCountdown();
-                break;
-
-            case GameState.Playing:
-                HandleDropping();
-                break;
+            UpdateReadyCountdown();
         }
     }
 
@@ -140,12 +113,6 @@ public class GameController : MonoBehaviour
         Debug.Log("[GameController] 游戏开始！", this);
         SetMoveKeysEnabled(true);
         SetPlayersEnabled(true);
-
-        // 游戏开始后将所有DropPoint随机排序，随后按该顺序开始轮流生成掉落物
-        ShuffleDropPoints();
-        m_dropIndex = 0;
-        // 归零使首个掉落物在游戏开始的当帧立即从排序后的第一个DropPoint生成
-        m_dropTimer = 0f;
     }
 
     /// <summary>批量设置所有MoveKey的点击功能开关</summary>
@@ -172,44 +139,6 @@ public class GameController : MonoBehaviour
         }
     }
 
-    // ==================== 掉落物生成 ====================
-
-    /// <summary>
-    /// 掉落流程：按生成间隔依次从随机排序后的DropPoint生成掉落物；
-    /// 所有DropPoint都生成过一次后重新随机打乱，索引归零继续循环，游戏进行中无限执行
-    /// </summary>
-    private void HandleDropping()
-    {
-        if (m_dropPoints == null || m_dropPoints.Length == 0)
-            return;
-
-        m_dropTimer -= Time.deltaTime;
-        if (m_dropTimer > 0f)
-            return;
-
-        // 用累加而非直接重置，保留超出间隔的帧耗，保证生成节奏不随帧率漂移
-        m_dropTimer += m_dropInterval;
-
-        // 所有DropPoint都生成过物体后再次随机打乱，继续下一轮循环
-        if (m_dropIndex >= m_dropPoints.Length)
-        {
-            ShuffleDropPoints();
-            m_dropIndex = 0;
-        }
-
-        m_dropPoints[m_dropIndex++].Spawn();
-    }
-
-    /// <summary>将所有DropPoint随机排序（Fisher-Yates洗牌）</summary>
-    private void ShuffleDropPoints()
-    {
-        for (int i = m_dropPoints.Length - 1; i > 0; i--)
-        {
-            int j = Random.Range(0, i + 1);
-            (m_dropPoints[i], m_dropPoints[j]) = (m_dropPoints[j], m_dropPoints[i]);
-        }
-    }
-
     // ==================== 公开接口 ====================
 
     /// <summary>当前是否处于游戏进行中</summary>
@@ -223,10 +152,4 @@ public class GameController : MonoBehaviour
 
     /// <summary>获取准备阶段剩余时间（秒）</summary>
     public float GetRemainingReadyTime() => Mathf.Max(0f, m_readyTimer);
-
-    /// <summary>获取掉落物生成间隔（秒）</summary>
-    public float GetDropInterval() => m_dropInterval;
-
-    /// <summary>设置掉落物生成间隔（秒），小于0.1秒按0.1处理</summary>
-    public void SetDropInterval(float interval) => m_dropInterval = Mathf.Max(0.1f, interval);
 }
