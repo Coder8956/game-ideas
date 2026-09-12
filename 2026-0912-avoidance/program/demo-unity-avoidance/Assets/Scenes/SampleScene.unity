@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156765709}
+  - component: {fileID: 156765710}
   m_Layer: 0
   m_Name: DropPoints
   m_TagString: Untagged
@@ -154,6 +155,36 @@ Transform:
   - {fileID: 391754509}
   m_Father: {fileID: 1970924745}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &156765710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156765708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6284582a3d8c684b821086e459b08d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropPoints
+  m_dropTable:
+  - Prefab: {fileID: 7768590651612841739, guid: 681686540a4f58c42a45c896fb071ee5, type: 3}
+    Interval: 1
+    SpawnTransform: {fileID: 1405294252}
+    FallSpeed: 1
+  - Prefab: {fileID: 7768590651612841739, guid: 681686540a4f58c42a45c896fb071ee5, type: 3}
+    Interval: 5
+    SpawnTransform: {fileID: 2108113325}
+    FallSpeed: 1
+  - Prefab: {fileID: 7768590651612841739, guid: 681686540a4f58c42a45c896fb071ee5, type: 3}
+    Interval: 5
+    SpawnTransform: {fileID: 233355624}
+    FallSpeed: 1
+  - Prefab: {fileID: 7768590651612841739, guid: 681686540a4f58c42a45c896fb071ee5, type: 3}
+    Interval: 5
+    SpawnTransform: {fileID: 391754509}
+    FallSpeed: 1
+  m_destroyY: -6
 --- !u!1 &233355623
 GameObject:
   m_ObjectHideFlags: 0
