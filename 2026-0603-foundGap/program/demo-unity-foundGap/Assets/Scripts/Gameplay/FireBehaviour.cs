@@ -12,6 +12,7 @@ using UnityEngine.InputSystem;
 /// 4. 发射后武器沿发射方向（自身 Z 轴正方向）以可配置速度匀速飞行
 /// 5. 目标与停止距离可配置：武器距目标到达停止距离时停止运动，
 ///    并成为目标的子物体（保持世界位置与朝向，随目标移动）；目标未设置时武器不停止
+/// 6. 开火间隔可配置：两次发射之间的最小间隔（秒），间隔未到时按下发射键不发射
 /// </summary>
 public class FireBehaviour : MonoBehaviour
 {
@@ -29,6 +30,9 @@ public class FireBehaviour : MonoBehaviour
 
     [Tooltip("武器沿发射方向的飞行速度（米/秒）")]
     [SerializeField] private float m_speed = 20f;
+
+    [Tooltip("开火间隔（秒）：两次发射之间的最小间隔，0 = 无间隔限制")]
+    [SerializeField] private float m_fireInterval = 0.5f;
 
     [Tooltip("发射按键，默认：鼠标左键")]
     [SerializeField] private InputActionProperty m_fireAction = new InputActionProperty(
@@ -50,6 +54,9 @@ public class FireBehaviour : MonoBehaviour
     /// <summary>已发射的武器列表（Update 中驱动其飞行）</summary>
     private readonly List<GameObject> m_flyingWeapons = new List<GameObject>();
 
+    /// <summary>开火间隔剩余时间（秒），为 0 时可再次发射</summary>
+    private float m_fireCooldownTimer;
+
     /// <summary>m_weaponPrefab 未赋值的警告是否已输出过（避免每次发射刷屏）</summary>
     private bool m_weaponPrefabMissingWarned;
 
@@ -70,7 +77,13 @@ public class FireBehaviour : MonoBehaviour
 
     void Update()
     {
-        // 按下发射键：发射一枚武器
+        // 开火间隔计时递减，归零后可再次发射
+        if (m_fireCooldownTimer > 0f)
+        {
+            m_fireCooldownTimer -= Time.deltaTime;
+        }
+
+        // 按下发射键：发射一枚武器（Fire 内部处理开火间隔）
         if (WasActionPressedThisFrame(m_fireAction))
         {
             Fire();
@@ -83,14 +96,21 @@ public class FireBehaviour : MonoBehaviour
 
     /// <summary>
     /// 发射一枚武器（便于 UI、测试等外部调用）：
-    /// 1. 出生点 = 目标位置沿目标→相机方向偏移 m_spawnDistanceFromTarget（与相机距离无关）；
+    /// 1. 开火间隔未到时忽略本次发射，发射成功后进入间隔计时
+    /// 2. 出生点 = 目标位置沿目标→相机方向偏移 m_spawnDistanceFromTarget（与相机距离无关）；
     ///    目标未设置时回退为相机位置沿相机 Z 方向偏移 m_spawnDistanceFromTarget
-    /// 2. 武器朝向 = 相机朝向（武器自身 Z 轴正方向即发射方向）
-    /// 3. 加入飞行列表，由每帧 AdvanceFlight 推进：沿 Z 轴正方向匀速飞行，到达目标停止距离时停止并挂到目标下；
-    /// 相机或武器预制体缺失时只警告一次并忽略本次发射。
+    /// 3. 武器朝向 = 相机朝向（武器自身 Z 轴正方向即发射方向）
+    /// 4. 加入飞行列表，由每帧 AdvanceFlight 推进：沿 Z 轴正方向匀速飞行，到达目标停止距离时停止并挂到目标下；
+    /// 相机或武器预制体缺失时只警告一次并忽略本次发射（不消耗开火间隔）。
     /// </summary>
     public void Fire()
     {
+        // 开火间隔未到：忽略本次发射
+        if (m_fireCooldownTimer > 0f)
+        {
+            return;
+        }
+
         Camera fireCamera = GetFireCamera();
         if (fireCamera == null)
         {
@@ -124,6 +144,9 @@ public class FireBehaviour : MonoBehaviour
 
         GameObject weapon = Instantiate(m_weaponPrefab, spawnPosition, cameraTransform.rotation);
         m_flyingWeapons.Add(weapon);
+
+        // 发射成功：重置开火间隔计时
+        m_fireCooldownTimer = m_fireInterval;
     }
 
     /// <summary>
@@ -247,6 +270,18 @@ public class FireBehaviour : MonoBehaviour
 
     /// <summary>设置武器飞行速度（米/秒）</summary>
     public void SetSpeed(float speed) => m_speed = speed;
+
+    /// <summary>获取开火间隔（秒）</summary>
+    public float GetFireInterval() => m_fireInterval;
+
+    /// <summary>设置开火间隔（秒）</summary>
+    public void SetFireInterval(float interval) => m_fireInterval = interval;
+
+    /// <summary>是否处于开火间隔中（当前无法发射）</summary>
+    public bool IsInCooldown() => m_fireCooldownTimer > 0f;
+
+    /// <summary>获取开火间隔剩余时间（秒）</summary>
+    public float GetRemainingCooldown() => Mathf.Max(0f, m_fireCooldownTimer);
 
     /// <summary>获取命中目标</summary>
     public Transform GetTarget() => m_target;
