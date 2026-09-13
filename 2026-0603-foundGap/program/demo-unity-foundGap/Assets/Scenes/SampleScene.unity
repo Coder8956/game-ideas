@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -381,6 +382,44 @@ MonoBehaviour:
         m_Flags: 0
       m_Flags: 0
     m_Reference: {fileID: 0}
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9eedb573a00a94a893c06e51cc22d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FireBehaviour
+  m_weaponPrefab: {fileID: 2147071190336038488, guid: 57d0b29de5b6865478e40ca1faee4544, type: 3}
+  m_camera: {fileID: 0}
+  m_speed: 1
+  m_fireAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Fire
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: cc9dcefb-6899-478c-b210-05e088d7c39c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: d8a2fec1-4c5a-4436-9ad6-edbb91b9aeec
+        m_Path: <Mouse>/leftButton
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Fire
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_target: {fileID: 7517039326253900488}
+  m_spawnDistanceFromTarget: 5
+  m_stopDistance: 0.1
 --- !u!1 &376484116
 GameObject:
   m_ObjectHideFlags: 0
