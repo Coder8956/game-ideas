@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace UGU.Runtime.Message
 {
@@ -133,6 +134,7 @@ namespace UGU.Runtime.Message
         public bool Publish(string msg, object arg = null)
         {
             if (msg == null) throw new ArgumentNullException(nameof(msg));
+            Debug.Log($"[MsgDispatcher] 派发消息: {msg}");
             if (!m_handlers.TryGetValue(msg, out var list) || list.Count == 0) return false;
 
             // 快照迭代：回调内再次订阅/退订不会修改正在遍历的列表，避免抛异常
