@@ -134,8 +134,8 @@ namespace UGU.Runtime
                 () => HeadingDeviated());
 
             // 调试日志：输出状态切换，不需要可删除
-            Machine.StateChanged += (from, to) =>
-                Debug.Log($"[UGTankEnemyBrain] {from?.ToString() ?? "无"} → {to}", this);
+            // Machine.StateChanged += (from, to) =>
+            //     Debug.Log($"[UGTankEnemyBrain] {from?.ToString() ?? "无"} → {to}", this);
 
             StartMachine(BrainState.WaitingForNavMesh);
         }
