@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 139921051}
   - component: {fileID: 139921050}
   m_Layer: 0
-  m_Name: NavMesh Surface
+  m_Name: TankTerrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: ef4fa1df18668e84a911b7ef48fd618e, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: bdb6a5d6e95d0b34fbeba7b3bd35e175, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &139921051
 Transform:
