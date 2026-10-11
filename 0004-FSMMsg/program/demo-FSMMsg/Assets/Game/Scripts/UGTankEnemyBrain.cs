@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UGU.Runtime.FSM;
@@ -14,6 +15,10 @@ namespace UGU.Runtime
     /// <para>3. 运动中若发现朝向偏离路径方向，先停下转向、对准后再继续移动。</para>
     /// 状态机流转：等待 NavMesh 就绪 → 选点 → 转向 → 前进（到达/路径失效 → 重新选点；
     /// 选点失败 → 短暂等待后重试）。状态切换由 <see cref="FSMMachine"/> 统一驱动。
+    /// <para>避让：本物体上的 Trigger 碰撞体（Collider.isTrigger = true）检测到 Tag 为
+    /// Enemy 或 Player 的对象进入范围时，任意状态转移打断当前行为进入避让状态——
+    /// 范围内存在玩家则直接远离玩家（所有敌方坦克都远离玩家）；均为敌方坦克时按基本
+    /// 交通规则（靠右行驶）互相避让；威胁离开触发器后恢复到进入避让前的状态继续巡逻。</para>
     /// 轮子滚动复用 <see cref="UGTankWheels"/> 组件，表现与玩家坦克一致。
     /// </summary>
     [RequireComponent(typeof(NavMeshAgent))]
@@ -36,6 +41,9 @@ namespace UGU.Runtime
 
             /// <summary>选点失败后的短暂等待，计时结束重新选点</summary>
             Waiting,
+
+            /// <summary>避让：Enemy/Player 进入 Trigger 范围后打断当前行为，按规则避让</summary>
+            Avoiding,
         }
 
         [Header("巡逻")]
@@ -60,6 +68,15 @@ namespace UGU.Runtime
         [SerializeField]
         private UGTankWheels m_wheels;
 
+        [Header("避让")]
+        [Tooltip("避让目标点与当前位置的距离（米）")]
+        [SerializeField]
+        private float m_avoidDistance = 6f;
+
+        [Tooltip("避让期间重新计算避让方向的间隔（秒），用于跟随移动中的目标")]
+        [SerializeField]
+        private float m_avoidRecomputeInterval = 0.25f;
+
         /// <summary>转向对准的判定容差（度），达到该偏差内视为已对准</summary>
         private const float TurnTolerance = 3f;
 
@@ -81,6 +98,27 @@ namespace UGU.Runtime
         /// <summary>选点失败后的重试倒计时</summary>
         private float m_retryTimer;
 
+        /// <summary>处于避让触发器范围内的威胁（Tag 为 Enemy 或 Player 的碰撞体）</summary>
+        private readonly List<Collider> m_threats = new List<Collider>();
+
+        /// <summary>进入避让前的状态；威胁离开触发器后据此恢复</summary>
+        private BrainState m_stateBeforeAvoid;
+
+        /// <summary>避让方向重算倒计时</summary>
+        private float m_avoidRecomputeTimer;
+
+        /// <summary>当前避让目标点（已采样到 NavMesh 上）</summary>
+        private Vector3 m_avoidPoint;
+
+        /// <summary>当前避让朝向（避让目标点方向的角度）</summary>
+        private float m_avoidYaw;
+
+        /// <summary>进入避让前代理是否持有巡逻目标点，用于避让结束后恢复</summary>
+        private bool m_savedHasPath;
+
+        /// <summary>进入避让前代理的巡逻目标点</summary>
+        private Vector3 m_savedDestination;
+
         private void Start()
         {
             if (m_agent == null) m_agent = GetComponent<NavMeshAgent>();
@@ -95,6 +133,13 @@ namespace UGU.Runtime
             if (m_wheels == null)
                 Debug.LogWarning($"{name}: 缺少 UGTankWheels 组件，轮子滚动动画不可用（巡逻仍正常进行）。", this);
 
+            // 避让检测依赖 Trigger 碰撞体与刚体，缺一不可
+            var trigger = GetComponent<Collider>();
+            if (trigger == null || !trigger.isTrigger)
+                Debug.LogWarning($"{name}: 缺少 Trigger 碰撞体（Collider.isTrigger = true），避让检测不可用。请在根物体上添加触发器并勾选 Is Trigger。", this);
+            if (GetComponent<Rigidbody>() == null)
+                Debug.LogWarning($"{name}: 缺少 Rigidbody 组件，Trigger 事件不会触发，避让检测不可用。", this);
+
             m_path = new NavMeshPath();
             m_lastYaw = transform.eulerAngles.y;
 
@@ -107,6 +152,7 @@ namespace UGU.Runtime
             Machine.AddState(BrainState.Turning, new TurningState(this));
             Machine.AddState(BrainState.Moving, new MovingState(this));
             Machine.AddState(BrainState.Waiting, new WaitingState(this));
+            Machine.AddState(BrainState.Avoiding, new AvoidingState(this));
 
             // —— 注册转移 ——
             // NavMesh 就绪后开始选点
@@ -132,6 +178,31 @@ namespace UGU.Runtime
                 () => HasArrived() || IsPathInvalid());
             Machine.AddTransition(BrainState.Moving, BrainState.Turning,
                 () => HeadingDeviated());
+
+            // 任意状态转移（优先于普通转移求值）：Enemy/Player 进入 Trigger 范围 → 打断当前行为进入避让
+            Machine.AddAnyTransition(BrainState.Avoiding, () => HasAvoidThreat());
+
+            // 避让结束（威胁离开 Trigger 范围）→ 恢复到进入避让前的状态
+            Machine.AddTransition(BrainState.Avoiding, BrainState.Moving,
+                () => !HasAvoidThreat() && m_stateBeforeAvoid == BrainState.Moving);
+            Machine.AddTransition(BrainState.Avoiding, BrainState.Turning,
+                () => !HasAvoidThreat() && m_stateBeforeAvoid == BrainState.Turning);
+            Machine.AddTransition(BrainState.Avoiding, BrainState.Waiting,
+                () => !HasAvoidThreat() && m_stateBeforeAvoid == BrainState.Waiting);
+            Machine.AddTransition(BrainState.Avoiding, BrainState.WaitingForNavMesh,
+                () => !HasAvoidThreat() && m_stateBeforeAvoid == BrainState.WaitingForNavMesh);
+            Machine.AddTransition(BrainState.Avoiding, BrainState.PickingDestination,
+                () => !HasAvoidThreat() && m_stateBeforeAvoid != BrainState.Moving
+                    && m_stateBeforeAvoid != BrainState.Turning
+                    && m_stateBeforeAvoid != BrainState.Waiting
+                    && m_stateBeforeAvoid != BrainState.WaitingForNavMesh);
+
+            // 记录进入避让前的状态，供避让结束后恢复
+            Machine.StateChanged += (from, to) =>
+            {
+                if (to != null && to.Equals(BrainState.Avoiding) && from != null)
+                    m_stateBeforeAvoid = (BrainState)from;
+            };
 
             // 调试日志：输出状态切换，不需要可删除
             // Machine.StateChanged += (from, to) =>
@@ -245,6 +316,122 @@ namespace UGU.Runtime
             return false;
         }
 
+        // —— 避让检测：基于本物体上的 Trigger 碰撞体（Collider.isTrigger = true）——
+
+        /// <summary>进入 Trigger 范围：仅关注 Tag 为 Enemy 或 Player 的对象。</summary>
+        private void OnTriggerEnter(Collider other)
+        {
+            if (IsAvoidThreat(other) && !m_threats.Contains(other))
+                m_threats.Add(other);
+        }
+
+        /// <summary>离开 Trigger 范围：从威胁列表中移除。</summary>
+        private void OnTriggerExit(Collider other)
+        {
+            m_threats.Remove(other);
+        }
+
+        /// <summary>是否为需要避让的威胁（Tag 为 Enemy 或 Player）。</summary>
+        private static bool IsAvoidThreat(Collider other)
+        {
+            return other != null && (other.CompareTag("Enemy") || other.CompareTag("Player"));
+        }
+
+        /// <summary>范围内是否存在威胁；顺带清理已被销毁的碰撞体。</summary>
+        private bool HasAvoidThreat()
+        {
+            for (var i = m_threats.Count - 1; i >= 0; i--)
+            {
+                if (m_threats[i] == null) m_threats.RemoveAt(i);
+            }
+
+            return m_threats.Count > 0;
+        }
+
+        /// <summary>
+        /// 计算并缓存当前避让目标点与朝向，并设置给代理。
+        /// 玩家优先：范围内存在玩家时直接远离玩家（满足“所有敌方坦克都远离玩家”）；
+        /// 否则对每个敌方坦克按基本交通规则（靠右行驶）互相避让。
+        /// </summary>
+        private void RecomputeAvoidance()
+        {
+            var origin = transform.position;
+            var dir = ComputeAvoidDirection(origin);
+            m_avoidPoint = SampleAvoidPoint(origin, dir);
+            m_avoidYaw = GetYawTowards(origin, m_avoidPoint);
+            m_agent.SetDestination(m_avoidPoint);
+        }
+
+        /// <summary>
+        /// 计算避让方向：范围内存在玩家 → 远离最近的玩家（玩家优先）；
+        /// 全部为敌方坦克 → 远离对方并叠加自身右侧偏置（“靠右行驶”交通规则，双方错身通过）。
+        /// </summary>
+        private Vector3 ComputeAvoidDirection(Vector3 origin)
+        {
+            // 玩家优先：取最近的玩家，直接远离
+            Transform player = null;
+            var playerSqrDistance = float.MaxValue;
+            foreach (var threat in m_threats)
+            {
+                if (threat == null || !threat.CompareTag("Player")) continue;
+                var sqrDistance = (threat.transform.position - origin).sqrMagnitude;
+                if (sqrDistance < playerSqrDistance)
+                {
+                    playerSqrDistance = sqrDistance;
+                    player = threat.transform;
+                }
+            }
+
+            if (player != null)
+            {
+                var toPlayer = player.position - origin;
+                toPlayer.y = 0f;
+                return toPlayer.sqrMagnitude > 0.0001f ? -toPlayer.normalized : transform.forward;
+            }
+
+            // 全部为敌方坦克：基本交通规则避让（远离对方 + 自身右侧偏置）
+            var sum = Vector3.zero;
+            var count = 0;
+            foreach (var threat in m_threats)
+            {
+                if (threat == null) continue;
+                var toOther = threat.transform.position - origin;
+                toOther.y = 0f;
+                if (toOther.sqrMagnitude > 0.0001f)
+                {
+                    sum += -toOther.normalized + transform.right;
+                    count++;
+                }
+            }
+
+            if (count == 0) return transform.forward;
+            var dir = sum / count;
+            dir.y = 0f;
+            return dir.sqrMagnitude > 0.0001f ? dir.normalized : transform.forward;
+        }
+
+        /// <summary>把避让目标点采样到 NavMesh 上；失败时在避让方向近处回退采样，仍失败则原地等待。</summary>
+        private Vector3 SampleAvoidPoint(Vector3 origin, Vector3 dir)
+        {
+            var target = origin + dir.normalized * m_avoidDistance;
+            if (NavMesh.SamplePosition(target, out var hit, m_avoidDistance, NavMesh.AllAreas))
+                return hit.position;
+
+            if (NavMesh.SamplePosition(origin + dir.normalized * 2f, out hit, 5f, NavMesh.AllAreas))
+                return hit.position;
+
+            return origin;
+        }
+
+        /// <summary>计算从 from 指向 to 的朝向角（Y 轴欧拉角）；两点几乎重合时保持当前朝向。</summary>
+        private float GetYawTowards(Vector3 from, Vector3 to)
+        {
+            var dir = to - from;
+            dir.y = 0f;
+            if (dir.sqrMagnitude < 0.01f) return transform.eulerAngles.y;
+            return Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
+        }
+
         /// <summary>等待 NavMesh 就绪；就绪后由转移条件放行到选点。</summary>
         private sealed class WaitingForNavMeshState : FSMState
         {
@@ -319,6 +506,67 @@ namespace UGU.Runtime
                 var yaw = m_owner.transform.eulerAngles.y;
                 m_owner.m_lastYaw = yaw;
                 m_owner.m_wheels.Drive(Vector3.Dot(m_owner.m_agent.velocity, m_owner.transform.forward), 0f);
+            }
+        }
+
+        /// <summary>
+        /// 避让：Enemy/Player 进入 Trigger 范围后由任意状态转移打断进入。
+        /// 玩家优先直接远离；敌方坦克间按“靠右行驶”交通规则互相避让。
+        /// 与巡逻一致采用「先转向、再运动」：先原地转向避让朝向，对准后向避让点前进。
+        /// 威胁离开触发器后由转移条件恢复到进入避让前的状态。
+        /// </summary>
+        private sealed class AvoidingState : FSMState
+        {
+            private readonly UGTankEnemyBrain m_owner;
+
+            public AvoidingState(UGTankEnemyBrain owner) => m_owner = owner;
+
+            public override void OnEnter()
+            {
+                // 保存巡逻目标点，避让结束后恢复；暂停代理，先原地转向避让方向
+                m_owner.m_savedHasPath = m_owner.m_agent.hasPath;
+                m_owner.m_savedDestination = m_owner.m_agent.hasPath ? m_owner.m_agent.destination : Vector3.zero;
+                m_owner.m_agent.isStopped = true;
+                m_owner.m_lastYaw = m_owner.transform.eulerAngles.y;
+                m_owner.m_avoidRecomputeTimer = 0f;
+                m_owner.RecomputeAvoidance();
+            }
+
+            public override void OnUpdate(float deltaTime)
+            {
+                // 定时重算避让方向，跟随移动中的目标（威胁已离开时由转移条件接管恢复）
+                m_owner.m_avoidRecomputeTimer -= deltaTime;
+                if (m_owner.m_avoidRecomputeTimer <= 0f)
+                {
+                    m_owner.RecomputeAvoidance();
+                    m_owner.m_avoidRecomputeTimer = m_owner.m_avoidRecomputeInterval;
+                }
+
+                // 先转向：未对准时暂停移动、原地旋转，驱动轮子呈现转向滚动
+                if (!m_owner.TurnTowards(m_owner.m_avoidYaw))
+                {
+                    m_owner.m_agent.isStopped = true;
+                    if (m_owner.m_wheels == null) return;
+                    var yaw = m_owner.transform.eulerAngles.y;
+                    var turnRate = Mathf.DeltaAngle(m_owner.m_lastYaw, yaw) / Mathf.Max(deltaTime, 1e-4f);
+                    m_owner.m_lastYaw = yaw;
+                    m_owner.m_wheels.Drive(0f, turnRate);
+                    return;
+                }
+
+                // 已对准：放行代理向避让点前进，驱动轮子呈现前进滚动
+                m_owner.m_agent.isStopped = false;
+                if (m_owner.m_wheels == null) return;
+                var forwardYaw = m_owner.transform.eulerAngles.y;
+                m_owner.m_lastYaw = forwardYaw;
+                m_owner.m_wheels.Drive(Vector3.Dot(m_owner.m_agent.velocity, m_owner.transform.forward), 0f);
+            }
+
+            public override void OnExit()
+            {
+                // 恢复进入避让前保存的巡逻目标点，使巡逻无感续跑
+                if (m_owner.m_savedHasPath)
+                    m_owner.m_agent.SetDestination(m_owner.m_savedDestination);
             }
         }
 
