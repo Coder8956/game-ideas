@@ -52,4 +52,14 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     {
         return Instance.m_posBank.transform.position;
     }
+
+    public static Vector3 GetPosHome()
+    {
+        return Instance.m_posHome.transform.position;
+    }
+
+    public static Vector3 GetPosSaloon()
+    {
+        return Instance.m_posSaloon.transform.position;
+    }
 }

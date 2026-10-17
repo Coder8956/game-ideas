@@ -10,6 +10,17 @@ public class DepositGoldState : MinerBaseState
     {
         base.OnEnter();
         Ani.Play(MinerAniState.Talk);
+        Miner.AddToWealth(Miner.GoldCarried);
+        Miner.ClearGoldCarried();
+    }
+
+    public override void CheckTransitions()
+    {
+        base.CheckTransitions();
+        if (m_stateDuration > 2)
+        {
+            m_fsm.ChangeState(MinerState.EnterMineState);
+        }
     }
 
     public override void OnExit()
