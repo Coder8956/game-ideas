@@ -111,19 +111,6 @@ namespace UGU.Runtime
         }
 
         /// <summary>
-        /// 安装初始当前状态（仅替换指针，不触发 OnEnter；如需进入时执行 OnEnter 请改用 ChangeState）。
-        /// </summary>
-        public void SetCurrentState(string stateKey)
-        {
-            if (!TryGetState(stateKey, out m_currentState))
-            {
-                return;
-            }
-
-            m_currentStateName = stateKey;
-        }
-
-        /// <summary>
         /// 设置全局状态（须先注册）。
         /// 全局状态不属于任何具体状态，每帧先于当前状态执行 OnUpdate 与 CheckTransitions。
         /// </summary>
