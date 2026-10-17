@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 447
+  controlID: 1585
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 448
+  controlID: 1586
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -847,10 +847,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 64298
+      - m_Data: 64048
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
+      - m_Data: -75802
       - m_Data: -69942
       - m_Data: -29718
       - m_Data: -21810
@@ -903,7 +904,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 575
+  controlID: 1611
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -929,7 +930,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 474
+  controlID: 1612
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1006,7 +1007,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic Motions
+    - Assets/Art/Human/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1030,7 +1031,11 @@ MonoBehaviour:
     - m_Data: 0
     - m_Data: 58314
     - m_Data: 59024
-    - m_Data: 59044
+    - m_Data: 62576
+    - m_Data: 64038
+    - m_Data: 64320
+    - m_Data: 64452
+    - m_Data: 64458
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1059,15 +1064,14 @@ MonoBehaviour:
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 64298
+    - m_Data: 64048
     m_LastClickedID:
-      m_Data: 64298
+      m_Data: 64048
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 58314
     - m_Data: 59024
     - m_Data: 62576
-    - m_Data: 64038
     - m_Data: 64320
     - m_Data: 64452
     - m_Data: 64458
@@ -1098,8 +1102,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 64298
-    m_LastClickedInstanceID: 64298
+    - m_Data: 64048
+    m_LastClickedInstanceID: 64048
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
