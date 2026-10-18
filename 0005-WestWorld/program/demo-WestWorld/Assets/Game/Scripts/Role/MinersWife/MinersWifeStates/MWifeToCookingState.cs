@@ -12,7 +12,6 @@ public class MWifeToCookingState : MWifeBaseState
         base.OnEnter();
         Ani.Play(MinerWAniState.WalkForward);
         NMAgent.destination = GameManager.GetPosHomeToPot();
-        MinersWife.SetCooking(true);
     }
 
     public override void CheckTransitions()

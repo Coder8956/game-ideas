@@ -1,4 +1,5 @@
 using UGU.Runtime;
+using UMiniFramework.Runtime;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -44,6 +45,8 @@ public class Miner : MonoBehaviour
     public int Thirst => m_thirst;
     public int Fatigue => m_fatigue;
 
+    private UMEventListener m_dishOKListener;
+
     public void Init()
     {
         m_fsm = gameObject.AddComponent<UGUFSM>();
@@ -63,7 +66,14 @@ public class Miner : MonoBehaviour
 
         m_fsm.ChangeState(MinerState.Idle);
 
+        m_dishOKListener = new UMEventListener(GMEvent.DishOKInHome, OnDishOK);
+        UMOEvent.AddListener(m_dishOKListener);
         // m_fatigue = 4;
+    }
+
+    private void OnDishOK(UMEventContentBase content)
+    {
+        m_fsm.ChangeState(MinerState.EnterMineState);
     }
 
     private void Update()

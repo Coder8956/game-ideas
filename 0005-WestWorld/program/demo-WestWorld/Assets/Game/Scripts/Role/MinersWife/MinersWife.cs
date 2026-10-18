@@ -69,6 +69,7 @@ public class MinersWife : MonoBehaviour
 
     public void UpdateToiletCD()
     {
+        if (m_cooking) return;
         if (m_toToilet) return;
         m_toiletCD++;
         if (m_toiletCD >= ToiletTime)
@@ -114,6 +115,8 @@ public class MinersWife : MonoBehaviour
 
     public void ToCooking(UMEventContentBase content)
     {
+        SetCooking(true);
+        if (m_toToilet) return;
         m_fsm.ChangeState(MinerWState.ToCooking);
     }
 

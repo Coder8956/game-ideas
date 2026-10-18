@@ -1,4 +1,5 @@
 using UGU.Runtime;
+using UMiniFramework.Runtime;
 
 public class MWifeCookingState : MWifeBaseState
 {
@@ -10,6 +11,19 @@ public class MWifeCookingState : MWifeBaseState
     {
         base.OnEnter();
         Ani.Play(MinerWAniState.Talk);
+        GameManager.ShowDish(true);
+    }
+
+    public override void CheckTransitions()
+    {
+        base.CheckTransitions();
+        if (m_stateDuration > 3)
+        {
+            MinersWife.SetCooking(false);
+            GameManager.ShowDish(false);
+            m_fsm.ChangeState(MinerWState.GoThinkJob);
+            UMOEvent.Dispatch(GMEvent.DishOKInHome);
+        }
     }
 
     public override void OnExit()

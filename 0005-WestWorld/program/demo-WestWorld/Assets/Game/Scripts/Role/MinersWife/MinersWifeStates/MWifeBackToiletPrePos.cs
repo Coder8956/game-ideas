@@ -9,6 +9,12 @@ public class MWifeBackToiletPrePos : MWifeBaseState
     public override void OnEnter()
     {
         base.OnEnter();
+        if (MinersWife.Cooking)
+        {
+            m_fsm.ChangeState(MinerWState.ToCooking);
+            return;
+        }
+
         Ani.Play(MinerWAniState.WalkForward);
         NMAgent.destination = MinersWife.PreToiletPos;
     }

@@ -12,6 +12,7 @@ public class GMLaunchState : UGUFSMStateBase
         UMLauncher.Work();
 
         UMOEvent.AddEvent(GMEvent.MinerInHome);
+        UMOEvent.AddEvent(GMEvent.DishOKInHome);
     }
 
     public override void CheckTransitions()

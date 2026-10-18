@@ -4,6 +4,7 @@ using UnityEngine;
 public static class GMEvent
 {
     public const string MinerInHome = "MinerInHome";
+    public const string DishOKInHome = "DishOKInHome";
 }
 
 public static class GMState
@@ -30,6 +31,8 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     private GameObject m_roleMiner;
     private GameObject m_roleMinersWife;
 
+    private GameObject m_dishHome;
+
     protected override void OnInitialize()
     {
         m_posGoldmine = GameObject.Find("PosGoldmine");
@@ -45,6 +48,8 @@ public class GameManager : UGUBaseGameSystem<GameManager>
 
         m_roleMiner = GameObject.Find("RoleMiner");
         m_roleMinersWife = GameObject.Find("RoleMinersWife");
+
+        m_dishHome = GameObject.Find("Home/Pot").transform.GetChild(0).gameObject;
 
         m_fsm = gameObject.AddComponent<UGUFSM>();
 
@@ -105,9 +110,14 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     {
         return Instance.m_posHomeToilet.transform.position;
     }
-    
+
     public static Vector3 GetPosHomeToPot()
     {
         return Instance.m_posHomePot.transform.position;
+    }
+
+    public static void ShowDish(bool val)
+    {
+        Instance.m_dishHome.SetActive(val);
     }
 }

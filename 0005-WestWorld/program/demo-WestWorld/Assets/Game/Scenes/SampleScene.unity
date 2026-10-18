@@ -2883,7 +2883,7 @@ GameObject:
   - component: {fileID: 404819375}
   - component: {fileID: 404819374}
   m_Layer: 0
-  m_Name: Dish
+  m_Name: DishHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
