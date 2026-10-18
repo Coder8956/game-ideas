@@ -2009,12 +2009,12 @@ GameObject:
   - component: {fileID: 266141400}
   - component: {fileID: 266141399}
   m_Layer: 5
-  m_Name: Text-Fatigue
+  m_Name: Text-FatigueW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &266141398
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2029,9 +2029,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1760938072}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 693.3686, y: -238.4779}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 365.4418, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &266141399
@@ -2416,12 +2416,12 @@ GameObject:
   - component: {fileID: 324382394}
   - component: {fileID: 324382393}
   m_Layer: 5
-  m_Name: Text-MoneyInBank
+  m_Name: Text-CookStateW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &324382392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2436,9 +2436,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1760938072}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 693.3686, y: -96.1593}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 365.4418, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324382393
@@ -3348,6 +3348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 475420282}
+  - component: {fileID: 475420283}
   m_Layer: 0
   m_Name: PosHomeDishwaster
   m_TagString: Untagged
@@ -3370,6 +3371,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 493278013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &475420283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475420281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda0411ebc52b054b8d67f776ead54a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UGUtils.Runtime::UGU.Runtime.UGUGizDrawGOPoint
+  m_isDraw: 1
+  m_radius: 0.1
+  m_gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &485016609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3527,6 +3543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 518894673}
+  - component: {fileID: 518894674}
   m_Layer: 0
   m_Name: PosHomeMopping
   m_TagString: Untagged
@@ -3549,6 +3566,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 493278013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518894674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518894672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda0411ebc52b054b8d67f776ead54a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UGUtils.Runtime::UGU.Runtime.UGUGizDrawGOPoint
+  m_isDraw: 1
+  m_radius: 0.1
+  m_gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &523311221
 GameObject:
   m_ObjectHideFlags: 0
@@ -4082,6 +4114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 623509483}
+  - component: {fileID: 623509484}
   m_Layer: 0
   m_Name: PosHome
   m_TagString: Untagged
@@ -4098,12 +4131,27 @@ Transform:
   m_GameObject: {fileID: 623509482}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.98, y: 0, z: 1.71}
+  m_LocalPosition: {x: -2.44, y: 0, z: 1.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 493278013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &623509484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623509482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda0411ebc52b054b8d67f776ead54a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UGUtils.Runtime::UGU.Runtime.UGUGizDrawGOPoint
+  m_isDraw: 1
+  m_radius: 0.1
+  m_gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &630952034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4567,6 +4615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 686468178}
+  - component: {fileID: 686468179}
   m_Layer: 0
   m_Name: PosHomeBed
   m_TagString: Untagged
@@ -4589,6 +4638,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 493278013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &686468179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686468177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda0411ebc52b054b8d67f776ead54a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UGUtils.Runtime::UGU.Runtime.UGUGizDrawGOPoint
+  m_isDraw: 1
+  m_radius: 0.1
+  m_gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &691016596
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,6 +5165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14d7f4a9fa0f0b34eac2bfedd43c1146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinersWife
+  PreToiletPos: {x: 0, y: 0, z: 0}
+  PreToiletState: 
 --- !u!195 &766746754
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5113,7 +5179,7 @@ NavMeshAgent:
   m_Radius: 0.3
   m_Speed: 3.5
   m_Acceleration: 8
-  avoidancePriority: 50
+  avoidancePriority: 49
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
@@ -5132,6 +5198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780839478}
+  - component: {fileID: 780839479}
   m_Layer: 0
   m_Name: PosHomeToilet
   m_TagString: Untagged
@@ -5154,6 +5221,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 493278013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &780839479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780839477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda0411ebc52b054b8d67f776ead54a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UGUtils.Runtime::UGU.Runtime.UGUGizDrawGOPoint
+  m_isDraw: 1
+  m_radius: 0.1
+  m_gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &799468772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7453,6 +7535,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1106009532}
+  - component: {fileID: 1106009533}
   m_Layer: 0
   m_Name: PosHomeW
   m_TagString: Untagged
@@ -7475,6 +7558,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 493278013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1106009533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106009531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda0411ebc52b054b8d67f776ead54a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UGUtils.Runtime::UGU.Runtime.UGUGizDrawGOPoint
+  m_isDraw: 1
+  m_radius: 0.1
+  m_gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &1147266540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8152,6 +8250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1308703925}
+  - component: {fileID: 1308703926}
   m_Layer: 0
   m_Name: PosHomePot
   m_TagString: Untagged
@@ -8174,6 +8273,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 493278013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1308703926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308703924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda0411ebc52b054b8d67f776ead54a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UGUtils.Runtime::UGU.Runtime.UGUGizDrawGOPoint
+  m_isDraw: 1
+  m_radius: 0.1
+  m_gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &1319052908
 GameObject:
   m_ObjectHideFlags: 0
@@ -9538,12 +9652,12 @@ GameObject:
   - component: {fileID: 1652988033}
   - component: {fileID: 1652988032}
   m_Layer: 5
-  m_Name: Text-Thirst
+  m_Name: Text-ThirstW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1652988031
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9558,9 +9672,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1760938072}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 693.3686, y: -167.3186}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 365.4418, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652988032

@@ -1,6 +1,11 @@
 using UGU.Runtime;
 using UnityEngine;
 
+public static class GMEvent
+{
+    public const string MinerInHome = "MinerInHome";
+}
+
 public static class GMState
 {
     public const string Launch = "GMLaunch";
@@ -99,5 +104,10 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     public static Vector3 GetPosHomeToilet()
     {
         return Instance.m_posHomeToilet.transform.position;
+    }
+    
+    public static Vector3 GetPosHomeToPot()
+    {
+        return Instance.m_posHomePot.transform.position;
     }
 }

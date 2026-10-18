@@ -1,4 +1,5 @@
 using UGU.Runtime;
+using UMiniFramework.Runtime;
 
 public class SleepTilRestedState : MinerBaseState
 {
@@ -11,16 +12,8 @@ public class SleepTilRestedState : MinerBaseState
         base.OnEnter();
 
         Ani.Play(MinerAniState.Talk);
-    }
-
-    public override void CheckTransitions()
-    {
-        base.CheckTransitions();
-        if (m_stateDuration > 2)
-        {
-            Miner.ClearFatigue();
-            m_fsm.ChangeState(MinerState.EnterMineState);
-        }
+        UMOEvent.Dispatch(GMEvent.MinerInHome);
+        Miner.ClearFatigue();
     }
 
     public override void OnExit()

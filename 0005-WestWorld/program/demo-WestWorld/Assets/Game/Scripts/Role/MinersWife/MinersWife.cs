@@ -1,6 +1,6 @@
 using UGU.Runtime;
+using UMiniFramework.Runtime;
 using UnityEngine;
-using UnityEngine.AdaptivePerformance;
 using UnityEngine.UI;
 
 public static class MinerWState
@@ -18,6 +18,8 @@ public static class MinerWState
     public const string Global = "MinerW=Global";
     public const string ToToilet = "MinerW=ToToilet";
     public const string BackToiletPre = "MinerW=BackToiletPre";
+    public const string ToCooking = "MinerW=ToCooking";
+    public const string Cooking = "MinerW=Cooking";
 }
 
 public static class MinerWAniState
@@ -54,6 +56,8 @@ public class MinersWife : MonoBehaviour
 
     public Vector3 PreToiletPos;
     public string PreToiletState;
+
+    public UMEventListener m_onMinerInHome;
 
     // ── 公开接口 ─────────────────────────────────────────────
 
@@ -94,14 +98,23 @@ public class MinersWife : MonoBehaviour
         m_fsm.AddState(MinerWState.Global, new MWifeGlobalState(m_fsm));
         m_fsm.AddState(MinerWState.ToToilet, new MWifeToToiletState(m_fsm));
         m_fsm.AddState(MinerWState.BackToiletPre, new MWifeBackToiletPrePos(m_fsm));
+        m_fsm.AddState(MinerWState.ToCooking, new MWifeToCookingState(m_fsm));
+        m_fsm.AddState(MinerWState.Cooking, new MWifeCookingState(m_fsm));
 
         m_fsm.SetGlobalState(MinerWState.Global);
         m_fsm.ChangeState(MinerWState.Idle);
+        m_onMinerInHome = new UMEventListener(GMEvent.MinerInHome, ToCooking);
+        UMOEvent.AddListener(m_onMinerInHome);
     }
 
     public void UpdateStateTip(string content)
     {
         GameObject.Find("Text-StateTipW").GetComponent<Text>().text = $"妻子状态:{content}";
+    }
+
+    public void ToCooking(UMEventContentBase content)
+    {
+        m_fsm.ChangeState(MinerWState.ToCooking);
     }
 
     private void Update()
@@ -112,9 +125,9 @@ public class MinersWife : MonoBehaviour
     private void UpdateUI()
     {
         GameObject.Find("Text-ToToiletW").GetComponent<Text>().text = $"去厕所CD:{m_toiletCD}/{ToiletTime}";
-        // GameObject.Find("Text-MoneyInBank").GetComponent<Text>().text = $"存款:{m_moneyInBank}";
-        // GameObject.Find("Text-Thirst").GetComponent<Text>().text = $"口渴:{m_thirst}";
-        // GameObject.Find("Text-Fatigue").GetComponent<Text>().text = $"疲劳:{m_fatigue}";
+        GameObject.Find("Text-CookStateW").GetComponent<Text>().text = $"做饭:{m_cooking}";
+        GameObject.Find("Text-ThirstW").GetComponent<Text>().text = $"";
+        GameObject.Find("Text-FatigueW").GetComponent<Text>().text = $"";
     }
 
     public void ResetToilet()

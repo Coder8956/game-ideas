@@ -62,6 +62,8 @@ public class Miner : MonoBehaviour
         m_fsm.AddState(MinerState.EnterSaloon, new EnterSaloonState(m_fsm));
 
         m_fsm.ChangeState(MinerState.Idle);
+
+        // m_fatigue = 4;
     }
 
     private void Update()
