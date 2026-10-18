@@ -20,7 +20,6 @@ public class MWifeCookingState : MWifeBaseState
         if (m_stateDuration > 3)
         {
             MinersWife.SetCooking(false);
-            GameManager.ShowDish(false);
             m_fsm.ChangeState(MinerWState.GoThinkJob);
             UMOEvent.Dispatch(GMEvent.DishOKInHome);
         }

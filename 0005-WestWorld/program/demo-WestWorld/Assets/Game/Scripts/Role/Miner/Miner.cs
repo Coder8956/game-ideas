@@ -73,7 +73,7 @@ public class Miner : MonoBehaviour
 
     private void OnDishOK(UMEventContentBase content)
     {
-        m_fsm.ChangeState(MinerState.EnterMineState);
+        m_fsm.ChangeState(MinerState.EatStew);
     }
 
     private void Update()
