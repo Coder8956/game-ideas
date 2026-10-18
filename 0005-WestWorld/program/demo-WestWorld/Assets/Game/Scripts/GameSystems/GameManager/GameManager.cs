@@ -13,8 +13,13 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     private UGUFSM m_fsm;
     private GameObject m_posGoldmine;
     private GameObject m_posBank;
-    private GameObject m_posHome;
     private GameObject m_posSaloon;
+    private GameObject m_posHome;
+    private GameObject m_posHomeW;
+    private GameObject m_posHomeBed;
+    private GameObject m_posHomeToilet;
+    private GameObject m_posHomeDishwaster;
+    private GameObject m_posHomePot;
 
     private GameObject m_roleMiner;
     private GameObject m_roleMinersWife;
@@ -23,8 +28,13 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     {
         m_posGoldmine = GameObject.Find("PosGoldmine");
         m_posBank = GameObject.Find("PosBank");
-        m_posHome = GameObject.Find("PosHome");
         m_posSaloon = GameObject.Find("PosSaloon");
+        m_posHomeW = GameObject.Find("PosHomeW");
+        m_posHome = GameObject.Find("PosHome");
+        m_posHomeBed = GameObject.Find("PosHomeBed");
+        m_posHomeToilet = GameObject.Find("PosHomeToilet");
+        m_posHomeDishwaster = GameObject.Find("PosHomeDishwaster");
+        m_posHomePot = GameObject.Find("PosHomePot");
 
         m_roleMiner = GameObject.Find("RoleMiner");
         m_roleMinersWife = GameObject.Find("RoleMinersWife");
@@ -41,6 +51,7 @@ public class GameManager : UGUBaseGameSystem<GameManager>
         m_fsm.ChangeState(GMState.Launch);
 
         m_roleMiner.GetComponent<Miner>().Init();
+        m_roleMinersWife.GetComponent<MinersWife>().Init();
     }
 
     public static Vector3 GetPosGoldmine()
@@ -56,6 +67,11 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     public static Vector3 GetPosHome()
     {
         return Instance.m_posHome.transform.position;
+    }
+    
+    public static Vector3 GetPosHomeW()
+    {
+        return Instance.m_posHomeW.transform.position;
     }
 
     public static Vector3 GetPosSaloon()

@@ -1,16 +1,27 @@
-using UnityEngine;
+using UGU.Runtime;
 
-public class MWifeIdleState : MonoBehaviour
+public class MWifeIdleState : MWifeBaseState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public MWifeIdleState(UGUFSM fsm) : base(fsm)
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void OnEnter()
     {
-        
+        base.OnEnter();
+        Ani.Play(MinerWAniState.Idle);
+    }
+
+    public override void CheckTransitions()
+    {
+        base.CheckTransitions();
+        if (m_stateDuration > 2)
+        {
+            m_fsm.ChangeState(MinerWState.GoHome);
+        }
+    }
+
+    public override void OnExit()
+    {
     }
 }
