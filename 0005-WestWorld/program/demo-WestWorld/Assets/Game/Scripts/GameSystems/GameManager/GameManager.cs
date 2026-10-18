@@ -20,6 +20,7 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     private GameObject m_posHomeToilet;
     private GameObject m_posHomeDishwaster;
     private GameObject m_posHomePot;
+    private GameObject m_posHomeMopping;
 
     private GameObject m_roleMiner;
     private GameObject m_roleMinersWife;
@@ -35,6 +36,7 @@ public class GameManager : UGUBaseGameSystem<GameManager>
         m_posHomeToilet = GameObject.Find("PosHomeToilet");
         m_posHomeDishwaster = GameObject.Find("PosHomeDishwaster");
         m_posHomePot = GameObject.Find("PosHomePot");
+        m_posHomeMopping = GameObject.Find("PosHomeMopping");
 
         m_roleMiner = GameObject.Find("RoleMiner");
         m_roleMinersWife = GameObject.Find("RoleMinersWife");
@@ -68,7 +70,7 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     {
         return Instance.m_posHome.transform.position;
     }
-    
+
     public static Vector3 GetPosHomeW()
     {
         return Instance.m_posHomeW.transform.position;
@@ -77,5 +79,20 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     public static Vector3 GetPosSaloon()
     {
         return Instance.m_posSaloon.transform.position;
+    }
+
+    public static Vector3 GetPosHomeBed()
+    {
+        return Instance.m_posHomeBed.transform.position;
+    }
+
+    public static Vector3 GetPosHomeMopping()
+    {
+        return Instance.m_posHomeMopping.transform.position;
+    }
+
+    public static Vector3 GetPosHomeWashingDishes()
+    {
+        return Instance.m_posHomeDishwaster.transform.position;
     }
 }
