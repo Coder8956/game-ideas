@@ -36,6 +36,7 @@ public class MWifeToToiletState : MWifeBaseState
         if (m_toiletTimer > 5)
         {
             MinersWife.ResetToilet();
+            m_fsm.ChangeState(MinerWState.BackToiletPre);
         }
     }
 

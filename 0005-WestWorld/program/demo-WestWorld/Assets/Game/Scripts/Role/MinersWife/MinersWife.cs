@@ -1,5 +1,6 @@
 using UGU.Runtime;
 using UnityEngine;
+using UnityEngine.AdaptivePerformance;
 using UnityEngine.UI;
 
 public static class MinerWState
@@ -51,6 +52,9 @@ public class MinersWife : MonoBehaviour
 
     private UGUFSM m_fsm;
 
+    public Vector3 PreToiletPos;
+    public string PreToiletState;
+
     // ── 公开接口 ─────────────────────────────────────────────
 
     /// <summary>设置做饭开关（炖菜开始置 true、炖完置 false）。</summary>
@@ -66,6 +70,8 @@ public class MinersWife : MonoBehaviour
         if (m_toiletCD >= ToiletTime)
         {
             m_toToilet = true;
+            PreToiletPos = transform.position;
+            PreToiletState = m_fsm.CurrentStateName;
             m_fsm.ChangeState(MinerWState.ToToilet);
         }
     }
