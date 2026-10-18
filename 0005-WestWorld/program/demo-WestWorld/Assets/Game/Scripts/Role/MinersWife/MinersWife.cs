@@ -1,6 +1,5 @@
 using UGU.Runtime;
 using UnityEngine;
-using UnityEngine.AdaptivePerformance;
 using UnityEngine.UI;
 
 public static class MinerWState
@@ -17,6 +16,7 @@ public static class MinerWState
     public const string WashingDishes = "MinerW=WashingDishes";
     public const string Global = "MinerW=Global";
     public const string ToToilet = "MinerW=ToToilet";
+    public const string BackToiletPre = "MinerW=BackToiletPre";
 }
 
 public static class MinerWAniState
@@ -52,7 +52,7 @@ public class MinersWife : MonoBehaviour
     private UGUFSM m_fsm;
 
     // ── 公开接口 ─────────────────────────────────────────────
-    
+
     /// <summary>设置做饭开关（炖菜开始置 true、炖完置 false）。</summary>
     public void SetCooking(bool cooking)
     {
@@ -87,6 +87,7 @@ public class MinersWife : MonoBehaviour
         m_fsm.AddState(MinerWState.WashingDishes, new MWifeWashingDishesState(m_fsm));
         m_fsm.AddState(MinerWState.Global, new MWifeGlobalState(m_fsm));
         m_fsm.AddState(MinerWState.ToToilet, new MWifeToToiletState(m_fsm));
+        m_fsm.AddState(MinerWState.BackToiletPre, new MWifeBackToiletPrePos(m_fsm));
 
         m_fsm.SetGlobalState(MinerWState.Global);
         m_fsm.ChangeState(MinerWState.Idle);
