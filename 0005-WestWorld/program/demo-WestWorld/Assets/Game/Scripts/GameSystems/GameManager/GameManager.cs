@@ -95,4 +95,9 @@ public class GameManager : UGUBaseGameSystem<GameManager>
     {
         return Instance.m_posHomeDishwaster.transform.position;
     }
+
+    public static Vector3 GetPosHomeToilet()
+    {
+        return Instance.m_posHomeToilet.transform.position;
+    }
 }

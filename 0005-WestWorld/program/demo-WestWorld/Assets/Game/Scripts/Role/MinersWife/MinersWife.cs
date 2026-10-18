@@ -1,5 +1,6 @@
 using UGU.Runtime;
 using UnityEngine;
+using UnityEngine.AdaptivePerformance;
 using UnityEngine.UI;
 
 public static class MinerWState
@@ -14,6 +15,8 @@ public static class MinerWState
     public const string Mopping = "MinerW=Mopping";
     public const string GoWashingDishes = "MinerW=GoWashingDishes";
     public const string WashingDishes = "MinerW=WashingDishes";
+    public const string Global = "MinerW=Global";
+    public const string ToToilet = "MinerW=ToToilet";
 }
 
 public static class MinerWAniState
@@ -38,14 +41,33 @@ public class MinersWife : MonoBehaviour
     // ── 属性（只读）──────────────────────────────────────────
     public bool Cooking => m_cooking;
 
+
+    private bool m_toToilet = false;
+    public bool ToToilet => m_toToilet;
+
+    private int m_toiletCD = 0;
+
+    private const int ToiletTime = 30;
+
     private UGUFSM m_fsm;
 
     // ── 公开接口 ─────────────────────────────────────────────
-
+    
     /// <summary>设置做饭开关（炖菜开始置 true、炖完置 false）。</summary>
     public void SetCooking(bool cooking)
     {
         m_cooking = cooking;
+    }
+
+    public void UpdateToiletCD()
+    {
+        if (m_toToilet) return;
+        m_toiletCD++;
+        if (m_toiletCD >= ToiletTime)
+        {
+            m_toToilet = true;
+            m_fsm.ChangeState(MinerWState.ToToilet);
+        }
     }
 
     public void Init()
@@ -63,7 +85,10 @@ public class MinersWife : MonoBehaviour
         m_fsm.AddState(MinerWState.Mopping, new MWifeMoppingState(m_fsm));
         m_fsm.AddState(MinerWState.GoWashingDishes, new MWifeGoWashingDishesState(m_fsm));
         m_fsm.AddState(MinerWState.WashingDishes, new MWifeWashingDishesState(m_fsm));
+        m_fsm.AddState(MinerWState.Global, new MWifeGlobalState(m_fsm));
+        m_fsm.AddState(MinerWState.ToToilet, new MWifeToToiletState(m_fsm));
 
+        m_fsm.SetGlobalState(MinerWState.Global);
         m_fsm.ChangeState(MinerWState.Idle);
     }
 
@@ -72,11 +97,22 @@ public class MinersWife : MonoBehaviour
         GameObject.Find("Text-StateTipW").GetComponent<Text>().text = $"妻子状态:{content}";
     }
 
+    private void Update()
+    {
+        UpdateUI();
+    }
+
     private void UpdateUI()
     {
-        // GameObject.Find("Text-GoldCarried").GetComponent<Text>().text = $"口袋金块:{m_goldCarried}";
+        GameObject.Find("Text-ToToiletW").GetComponent<Text>().text = $"去厕所CD:{m_toiletCD}/{ToiletTime}";
         // GameObject.Find("Text-MoneyInBank").GetComponent<Text>().text = $"存款:{m_moneyInBank}";
         // GameObject.Find("Text-Thirst").GetComponent<Text>().text = $"口渴:{m_thirst}";
         // GameObject.Find("Text-Fatigue").GetComponent<Text>().text = $"疲劳:{m_fatigue}";
+    }
+
+    public void ResetToilet()
+    {
+        m_toToilet = false;
+        m_toiletCD = 0;
     }
 }
