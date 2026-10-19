@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1707955845, guid: a6be9a48ac3c849448fb228657174aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: PlayMaker.Editor.dll::HutongGames.PlayMaker.Editor.PlayMakerSettings
+  _performanceSettings:
+    _animationFx: 1
+  _fsmLogViewSettings:
+    _compactMode: 0
+    _collapseLoops: 1
+    _showTimeCode: 1
+    _showExitEntries: 0
+    _showNodeIcons: 0
+    _showLabels: 0
+    _showDuration: 1
+    _showActions: 0
+  _fsmGraphViewSettings:
+    _snapping: 1
+    _showMinimap: 1
+    _defaultLinkStyle: 1
+    _defaultZoom: 1
+    _minZoom: 0.1
+    _maxZoom: 1.5
+    _mouseWheelZoomSensitivity: 1
+  _actionBrowserSettings:
+    _useFilters: 1
+  _projectDatabaseSettings:
+    _scanProjectAfterImportingPackage: 1
+  _defaultColorPalette: {fileID: 0}
+  _variableTypes: []
+  _assemblies: []
+  _showHierarchyIcons: 1
+  _animateFoldouts: 1
+  _debugVariableValues: 1
+  _usageFinderDiagnostics: 0
+  _dimFinishedActions: 1
+  _showDeleteButtons: 0
+  _syncOwnerSelection: 1
+  _generatedCodePath: Assets/PlayMaker/Generated
