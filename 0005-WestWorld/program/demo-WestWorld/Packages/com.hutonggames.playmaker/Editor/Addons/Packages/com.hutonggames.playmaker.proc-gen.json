@@ -1,0 +1,163 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.proc-gen",
+    "_displayName": "Procedural Generation",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Procedural generation actions.",
+    "_description": "",
+    "_helpUrl": "",
+    "_icon": "Procedural",
+    "_tags": [
+        "Actions",
+        "2D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Maps/FilterCellsBridgeDiagonals.cs",
+            "_guid": "3628411fa592416c9dd20b1ada4af997",
+            "_checkSum": "f2896084f4a816f32adfbcef0b00aa09"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Maps/FilterCellsJoinAllRegions.cs",
+            "_guid": "32332a89ab514a26993184cdb7c13ba8",
+            "_checkSum": "1dca1672fc5205ff61da60d95cc1c53b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Maps/FilterCellsKeepLargestRegions.cs",
+            "_guid": "d22588284fa74dbdb4d995f12ef56ed7",
+            "_checkSum": "e9e63c9307b0ba749328d552019f454b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Maps/FilterCellsRemoveSmallRegions.cs",
+            "_guid": "b9113d408e8a42f283ecb42f0b5184fe",
+            "_checkSum": "277bf7a86350affe0b62f8ece2f52348"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Maps/GenerateCellularAutomataCells.cs",
+            "_guid": "b5fac370de29466c91ad8504ac87b3e2",
+            "_checkSum": "d897e031fb0f1b5d524e6c10a1121dad"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Maps/GenerateDLACells.cs",
+            "_guid": "e4d36fae48a34178a2c7103bfb2c36ee",
+            "_checkSum": "e43326b6680e4f42fc0084ec9e5be269"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Maps/GenerateDrunkenWalkCells.cs",
+            "_guid": "a43cf3437f9f43a88d949aae716753c2",
+            "_checkSum": "7483fd214c2046cf3fed1cb69b67f3e0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Rects/BuildRandomRects.cs",
+            "_guid": "e2ba920ee2924271aead5699e101f45d",
+            "_checkSum": "c77c597b2e5bfdbe64410476591593d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Rects/BuildRectConnections.cs",
+            "_guid": "e9814d89ce3747079a687232f0d8cb9e",
+            "_checkSum": "34b69bab943a082083f7b524a56863bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Rects/BuildRectConnectors.cs",
+            "_guid": "d2132e9857524c3fbbcf14eab5d077bd",
+            "_checkSum": "37fab8ee0346f9b8bc297a07c1cb97e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Sprites/BuildRandomSpriteFromLayers.cs",
+            "_guid": "8ca66a88a1b94ad2a77d28ef8f505193",
+            "_checkSum": "607fd106ba09bffcd635d9d4d092e2c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Strings/BuildRandomFakeCode.cs",
+            "_guid": "c2e60121fa8e416d8d8d5b4031398de2",
+            "_checkSum": "8ad7ebdbb2b05320f47b1410e0307405"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Strings/BuildRandomName.cs",
+            "_guid": "e4072185b4474751a2bb899cb1ca70cc",
+            "_checkSum": "05ccc33c339f21b388a14f92d9c2aeb8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Strings/BuildRandomPassword.cs",
+            "_guid": "93b536823d1a4652bcbb47a2f6c7f781",
+            "_checkSum": "c38a0e42e31841b89b89edd04b7a3419"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Strings/BuildRandomString.cs",
+            "_guid": "4215235eaa3640039f325bd4e78cde28",
+            "_checkSum": "78cff6f77837e85d95775f38f4afbd5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Strings/BuildRandomUsername.cs",
+            "_guid": "2b8bdb2bc087452c862d6574babb92fe",
+            "_checkSum": "597273c85a628fb1b9ba896f89ed2e35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Tilemaps/TilemapBakeAllRuleTiles.cs",
+            "_guid": "ad15c2ffe9c84c9c8338b4ee10f52f54",
+            "_checkSum": "bd8df9c06be307b5d91b7ee99246448a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Tilemaps/TilemapBakeRuleTile.cs",
+            "_guid": "c5c02943f4c543618b78347628cc73ec",
+            "_checkSum": "36f80f72b0500c019139179b9802eba4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Tilemaps/TilemapFillRectPattern.cs",
+            "_guid": "d9f223269b0946c4b7de883fe36002e6",
+            "_checkSum": "d9aa67967459adaff0d8ecb28d15b9b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Tilemaps/TilemapReplaceTile.cs",
+            "_guid": "a8dc59db6c3c4be3820d9313c5323adf",
+            "_checkSum": "64435f1e06ac02221d9e499de3cd3d07"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Tilemaps/TilemapReplaceTilePattern.cs",
+            "_guid": "85a0de556f12446d923401c6404f0b69",
+            "_checkSum": "64cf33ed32bab10f3495f2df204c9a86"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Utility/CellularAutomataCaveGenerator.cs",
+            "_guid": "0255c52791c10b8498735d706ea1c893",
+            "_checkSum": "39b63f159d3f47dbba1dc107e5294620"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Utility/DLAGenerator.cs",
+            "_guid": "a5b6f4a97265e8c4188cb9d43b67f85b",
+            "_checkSum": "86e853b6114db9a631a93f3458e51e2d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Utility/DrunkenWalkGenerator.cs",
+            "_guid": "c2e3443204ea4396b5f48c8877a379ff",
+            "_checkSum": "e5fe46a8e32c5d16eac60cd6e2c00e73"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Utility/MakeTilesFromRuleTileSprites.cs",
+            "_guid": "6eff09479f3249129d9e45cabf6b039e",
+            "_checkSum": "e7e1a69b0b15352fbab5c8cf040592fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ProcGen/Utility/PatternUtil.cs",
+            "_guid": "91f6a4fad14a4e68a825fb3ed8326d9c",
+            "_checkSum": "0f32262b00c086b4cc274aa811c09b45"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b77",
+    "_datePublished": "2026-07-26",
+    "_timeCode": 134295525663803307
+}

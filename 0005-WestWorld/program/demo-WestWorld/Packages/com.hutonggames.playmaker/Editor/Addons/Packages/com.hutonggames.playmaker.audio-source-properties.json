@@ -1,0 +1,163 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-source-properties",
+    "_displayName": "Audio Source Properties",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for less common AudioSource properties.",
+    "_description": "In most cases these properties are setup at edit time. These actions allow you to get or set these audio source properties at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AudioSource.html",
+    "_icon": "Audio/AudioSource",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetBypassEffects.cs",
+            "_guid": "c8de69926f2c63346b2c1dcf90a4fabf",
+            "_checkSum": "1752592f6bc3498e676c3301aaa92ef5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetBypassListenerEffects.cs",
+            "_guid": "8c4ec40ceef29294684f635ed0643148",
+            "_checkSum": "d5a570773f5eac6cab3e8fd300078de8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetBypassReverbZones.cs",
+            "_guid": "030a83bc4b7d7714e841f049e29f340a",
+            "_checkSum": "0f992f74ee4fb3de87407886cca91190"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetCustomCurve.cs",
+            "_guid": "425748f291961d54b9aa62421e8a4cc3",
+            "_checkSum": "21918931476d64cd2870d94ae51ffab3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetDopplerLevel.cs",
+            "_guid": "69779ed92142ecc40bc62898c2e60161",
+            "_checkSum": "64ae98a75a424208f54362f14067e08c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetIgnoreListenerPause.cs",
+            "_guid": "940be916592ee4642a05478201c99694",
+            "_checkSum": "dc2b2f0ef9280e8577ab6d56a70af77c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetIgnoreListenerVolume.cs",
+            "_guid": "23068c83084960a4db83c9ffdc6a4ef9",
+            "_checkSum": "5a0612bc2a66410ad15bcfedc0692d49"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetIsPlaying.cs",
+            "_guid": "bca8a1f04f6489747b726174e26de55b",
+            "_checkSum": "dee5650bb4cd42c34e0c357650d3346e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetIsVirtual.cs",
+            "_guid": "26418513988f6de40b6976d1c3195fca",
+            "_checkSum": "73fab398f59b6c184f3a3aac2e479fa1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetLoop.cs",
+            "_guid": "48bcd1346759c9341b92447201213a8c",
+            "_checkSum": "67f7e2cba1f028778fcf50e2e4bc85aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetMaxDistance.cs",
+            "_guid": "e57ad1cc2970978409a18e1067987b51",
+            "_checkSum": "2cf3b02ed6af1c5ccd84cd5aff276e90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetMinDistance.cs",
+            "_guid": "e0183048c066524489fc8593d5f276fb",
+            "_checkSum": "61098789acce576fa5c0768fee4870a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetMute.cs",
+            "_guid": "79a46cb137571c9439b044adbed8c493",
+            "_checkSum": "de80a913066f0b516b53833b33e0931a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetOutputAudioMixerGroup.cs",
+            "_guid": "c78cb8cc29dff0241bcdd504de8ebe26",
+            "_checkSum": "f8310c763f0f4ce60b6ba4b4366bb694"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetOutputData.cs",
+            "_guid": "a75f41685f753744ab838fa1b930db91",
+            "_checkSum": "ae0fca3147f85a14670368de758b633c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetPanStereo.cs",
+            "_guid": "bf44486c3af26674a88f6fbe75677122",
+            "_checkSum": "37d52b4f7167d1fb97d9010311b40b67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetPitch.cs",
+            "_guid": "149804d4a36388146a817e85b126cbac",
+            "_checkSum": "df705791e1824aef2c4bcccd06de971e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetPlayOnAwake.cs",
+            "_guid": "0cbba95971e811b4daaa2a9ac337bd05",
+            "_checkSum": "dcc01256eaa58f68ff31fb54ca38eb4a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetPriority.cs",
+            "_guid": "c9de2c675a2712b43b2a8454608893f1",
+            "_checkSum": "93b9ea31c524c1fef21cbba6dc4447c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetReverbZoneMix.cs",
+            "_guid": "562a0b4acc5a2f741ba4281e5fa96ae3",
+            "_checkSum": "083e5d997b562d14cb9ebc7259717a56"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetRolloffMode.cs",
+            "_guid": "6db917bc599e76c4f8a4298a663838a4",
+            "_checkSum": "f958f3ae40e89fc9f69f3b52d2894de4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetSpatialBlend.cs",
+            "_guid": "52940f20bf9c7a344a69f76a0c147869",
+            "_checkSum": "1747d660639fcf660b8bdd0a41bf9cf5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetSpectrumData.cs",
+            "_guid": "43ed2a437bef51e428a72c0152809a6c",
+            "_checkSum": "24e8be0d6dfdd723da42e2a3ec8accb7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetSpread.cs",
+            "_guid": "2bc487b86658ccf448cd9a8bf9a33f3f",
+            "_checkSum": "826619d1f2a852ba9e69934d4c643a5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetTimeSamples.cs",
+            "_guid": "861b68ae1158e8341ad0015e155b5d24",
+            "_checkSum": "7cfe756d77397358f24e0a84ffcc4a1b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Properties/AudioSourceGetVelocityUpdateMode.cs",
+            "_guid": "954cdf285ed4bca478a7b1cb5ea64c75",
+            "_checkSum": "2d758108e8f92890d2eb626cd0a98308"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479623453740
+}

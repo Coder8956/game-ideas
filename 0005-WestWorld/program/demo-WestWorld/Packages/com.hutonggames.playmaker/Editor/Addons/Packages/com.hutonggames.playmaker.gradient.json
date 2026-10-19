@@ -1,0 +1,77 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.gradient",
+    "_displayName": "Gradient",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to change Gradient properties at runtime.",
+    "_description": "In most cases these properties are defined at edit time. These actions allow you to get or set them at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Gradient.html",
+    "_icon": "Colors/Gradient",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientGetAlphaKeys.cs",
+            "_guid": "c4cfd58281e58974cbc40730a1fb14d8",
+            "_checkSum": "6356ee7e9c233e95aa7fb2e2c0078634"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientGetColorKeys.cs",
+            "_guid": "602e8b012dcfaca47bad8f03c543df6c",
+            "_checkSum": "1de43af50f1cabcc0c24da3ed8a7ffb0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientGetColorSpace.cs",
+            "_guid": "66d254b467625234fa686848e0f74310",
+            "_checkSum": "19a5221676c220bbea6f75ce2436e432"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientGetMode.cs",
+            "_guid": "03157fe2a26227d4bbd0dd52887bb4f9",
+            "_checkSum": "6673ce1f1fb625a1f602e4d0ed48737b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientSetAlphaKeys.cs",
+            "_guid": "c8a5bc91e56e2cb4691d3d029eefbbb2",
+            "_checkSum": "2435083ea7ca06a9aa89084673030755"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientSetColorKeys.cs",
+            "_guid": "c221a6b6a5a202144a644af6dc86e305",
+            "_checkSum": "9b3faac1209c96ea4f31729ec26430d8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientSetColorSpace.cs",
+            "_guid": "c0269776472bec048be5183f56fcba8f",
+            "_checkSum": "661c2b319617baf64fe35d76a70bc26f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientSetKeys.cs",
+            "_guid": "93c6d8ab1eb10464fb1ddbdccba7c61f",
+            "_checkSum": "a6660dd501388bf99b89277177a84770"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Gradient/Properties/GradientSetMode.cs",
+            "_guid": "dbcd207606f6a2c4fa1dc08422ae557c",
+            "_checkSum": "ed55a8da1562ebd2066112de14c12702"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479551218154
+}

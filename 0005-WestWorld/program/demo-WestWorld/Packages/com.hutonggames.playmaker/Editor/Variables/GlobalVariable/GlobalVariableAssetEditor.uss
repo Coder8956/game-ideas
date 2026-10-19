@@ -1,0 +1,42 @@
+.hutong-global-variable-asset-editor__editor-container {
+    margin-top: 16px;
+    margin-left: -3px;
+}
+
+VariableValueField {
+    margin-right: 5px;
+}
+
+.hutong-global-variable-asset-editor__field {
+    margin-right: 5px;
+}
+
+.hutong-global-variable-asset-editor__changed-event {
+    margin-left: 0;
+    margin-right: 3px;
+}
+
+.hutong-global-variable-asset-editor__changed-event > Label {
+    width: 100px;
+    min-width: 100px;
+}
+
+.hutong-global-variable-asset-editor__help-box {
+    margin-left: 0;
+}
+
+.hutong-global-variable-asset-editor__editor-container > PropertyField {
+    margin-right: 0;
+}
+
+.hutong-global-variable-asset-editor__save-mode > PopupField {
+    margin-right: 3px;
+}
+
+.hutong-asset-editor__header {
+    margin-left: 3px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    -unity-font-style: bold;
+}
+

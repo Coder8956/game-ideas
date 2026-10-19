@@ -1,0 +1,64 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-acceleration",
+    "_displayName": "Input Device Acceleration",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Acceleration"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to get device acceleration information.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Input-accelerationEvents.html",
+    "_icon": "Input/Acceleration",
+    "_tags": [
+        "Actions",
+        "Mobile",
+        "Input"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Acceleration/InputGetAcceleration.cs",
+            "_guid": "cb81dfdb943d06e4b9961200464955af",
+            "_checkSum": "6d58004361a700f0ad3e227fd63f830e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Acceleration/InputGetAccelerationEventCount.cs",
+            "_guid": "728ca17dc96c1be4cb4bf4829e948437",
+            "_checkSum": "e788eeb2402ac4fb42091851de629453"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Acceleration/InputGetAccelerationEvents.cs",
+            "_guid": "637768af105f3fc45bbca8a8280654db",
+            "_checkSum": "c53a8a5c84c5e3627798a060923055ec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Acceleration/InputGetDeviceOrientation.cs",
+            "_guid": "25c35f47ebb05094c9b0420c66d3f034",
+            "_checkSum": "e20bb6978fbb138025db2203550fd441"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Acceleration/AccelerationEvent/AccelerationEventGetAcceleration.cs",
+            "_guid": "312ef4389a49dad4bafbb1320af01924",
+            "_checkSum": "513247a51312ed2cce04a4341d678606"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Acceleration/AccelerationEvent/AccelerationEventGetDeltaTime.cs",
+            "_guid": "039deb3b5d3136145849a59e50bbf6d6",
+            "_checkSum": "0a23a7dd9ce8df457b8c281e63230c2f"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479441306326
+}

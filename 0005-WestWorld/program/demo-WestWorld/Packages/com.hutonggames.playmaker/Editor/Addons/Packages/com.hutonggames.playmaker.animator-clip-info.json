@@ -1,0 +1,63 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animator-clip-info",
+    "_displayName": "Animator Clip Info",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/AnimatorClipInfo"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Information about clip being played and blended by the Animator..",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AnimatorClipInfo.html",
+    "_icon": "Animation/Animator",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/AnimatorClipInfo/AnimatorClipInfoGetClip.cs",
+            "_guid": "28e04559ea35f164fa74218c453e6ca2",
+            "_checkSum": "e83a8e12b394a605e7fd0d0bf78f2980"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/AnimatorClipInfo/AnimatorClipInfoGetWeight.cs",
+            "_guid": "eb016a142c3b9974a8cbfbc6b57e1b7a",
+            "_checkSum": "3dea44addbb7ad3197d4523c29be439e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/AnimatorClipInfo/AnimatorGetCurrentAnimatorClipInfo.cs",
+            "_guid": "296f6ed4c20adf84fb8b6b99f46757a1",
+            "_checkSum": "d070211b1e67ce2ca10fe430196e0349"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/AnimatorClipInfo/AnimatorGetCurrentAnimatorClipInfoCount.cs",
+            "_guid": "bffc7d6db9904364fb189017dfde7113",
+            "_checkSum": "022746fea4bf3a7ddf3251784b5bb92d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/AnimatorClipInfo/AnimatorGetNextAnimatorClipInfo.cs",
+            "_guid": "2959db7c78265f348a117b2a5f8b5286",
+            "_checkSum": "56f41e6446e5224d95399a16f74169fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/AnimatorClipInfo/AnimatorGetNextAnimatorClipInfoCount.cs",
+            "_guid": "d30163ca182dd444e82ad0a0e5f7c448",
+            "_checkSum": "568cf1ccdba9b100d909e437f51948dd"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479202566137
+}

@@ -1,0 +1,73 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-settings",
+    "_displayName": "Audio Settings",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Audio Settings normally set at edit time.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AudioSettings.html",
+    "_icon": "Audio/AudioSettings",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsGetDriverCapabilities.cs",
+            "_guid": "23e706ec308c95442b215c055d80a41b",
+            "_checkSum": "6f7237c6dfee6474670a689c2b9297e5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsGetDspTime.cs",
+            "_guid": "1da268d466c182646a7ca57e0b02bb4c",
+            "_checkSum": "276ebb2d4e10a6f1fcbaa0d91a3bfeb0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsGetOutputSampleRate.cs",
+            "_guid": "998453f9f0d51aa4caaeb2582ccff91f",
+            "_checkSum": "4222a1972a303ef472d45dcd1bafb0cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsGetSpatializerPluginName.cs",
+            "_guid": "48f4da5572833a1468ee1e9ff5cc32c2",
+            "_checkSum": "a88c30df01904cb24df0db7e8815fe98"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsGetSpeakerMode.cs",
+            "_guid": "0eeb4bf03b1c6a4438c205626bb0f3f9",
+            "_checkSum": "ae60c53327a098855597d304677d4f25"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsOnAudioConfigurationChanged.cs",
+            "_guid": "c04940f7ada426e4b9dd50e57771ba47",
+            "_checkSum": "02cd0f5d0c4872203f293d921eeed486"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsSetOutputSampleRate.cs",
+            "_guid": "6f54409f9aa585345858b7afc7fb43c2",
+            "_checkSum": "dec92b83923e7425e8733d1923842c57"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSettings/AudioSettingsSetSpeakerMode.cs",
+            "_guid": "9110f151287927b4c8c117377de097e0",
+            "_checkSum": "f58bb4325e54c1412182b4e37a99e7c3"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479369303702
+}

@@ -1,0 +1,34 @@
+.hutong-regions-list-view {
+    margin: 8px;
+}
+
+.hutong-regions-list-view__title {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.hutong-regions-list-view__list-view {
+    background-color: var(--hutong-editor-list-view-background-color);
+}
+
+.hutong-regions-list-view__list-view .unity-list-view__reorderable-handle {
+    margin-top: 6px;
+}
+
+.hutong-region-list-view-item {
+    margin-left: -6px;
+    flex-direction: row;
+    align-items: center;
+    height: 28px;
+}
+
+.hutong-region-list-view-item__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.hutong-region-list-view-item__toggle {
+    margin-top: 3px;
+    margin-left: 0;
+}

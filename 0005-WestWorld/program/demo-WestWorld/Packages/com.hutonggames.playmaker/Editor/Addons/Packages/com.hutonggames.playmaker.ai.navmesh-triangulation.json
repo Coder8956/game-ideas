@@ -1,0 +1,73 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ai.navmesh-triangulation",
+    "_displayName": "NavMeshTriangulation",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to access MavMesh triangulation information at runtime.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AI.NavMeshTriangulation.html",
+    "_icon": "AI/NavMeshTriangulation",
+    "_tags": [
+        "Actions",
+        "AI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshCalculateTriangulation.cs",
+            "_guid": "b356178d3363d1b4fac806a8561cfa86",
+            "_checkSum": "50b53328a7f9ad00059225219fbe948b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshTriangulation.cs",
+            "_guid": "ac4d823af42407942988aa9d9d02dfc2",
+            "_checkSum": "8627fe9125e6cb03ce0d8b33d68e2fcc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshTriangulationGetAreas.cs",
+            "_guid": "14147f267164e4a45865cb092a29d39e",
+            "_checkSum": "bd393e09112f8c7f0d2e2e64ab214d0a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshTriangulationGetIndices.cs",
+            "_guid": "26e890ca28d8fa54683ce8d623f5b952",
+            "_checkSum": "885e33aa0c4c4a422e58f54a1ca63cb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshTriangulationGetVertices.cs",
+            "_guid": "c2a66ebc1c0e75d4c802d450a7bc5f11",
+            "_checkSum": "7f4f13b42bf3df38d84613f88a1f6381"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshTriangulationSetAreas.cs",
+            "_guid": "d9c9a12f4adfcf14688a32d764d036d2",
+            "_checkSum": "d0ec35af62ba5592e0321cd37a26d1f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshTriangulationSetIndices.cs",
+            "_guid": "55c1b059ce427e04e8793623292163cd",
+            "_checkSum": "cc71c5d72634ef10082038defa4a48ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshTriangulation/NavMeshTriangulationSetVertices.cs",
+            "_guid": "e512f4a2559564549b17ded779dc1bf4",
+            "_checkSum": "9fd4469d235990f5d867c2e7e161d5c7"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479332117145
+}

@@ -1,0 +1,20 @@
+.root {
+    --open-in-window-icon: resource("d_SearchJump Icon");
+    /* Unity's dark theme background color */
+    --md-color-page-background: #383838;
+    /* Slightly brighter than default for better contrast */
+    --md-color-header: #aeaeae;
+    --md-color-text: #c4c4c4;
+    /* Slightly darker than Unity's line color for subtle separation */
+    --md-color-line: rgba(255,255,255,.1);
+    /* Slightly lighter than background for subtle distinction */
+    --md-color-code-block-background: #404040;
+    /* Brighter text for better contrast in code blocks */
+    --md-color-code-block-text: #d4d4d4;
+    --md-color-block-quote-border: #555555;
+    --md-color-block-quote-text: #b0b0b0;
+    /* Darker than background for contrast */
+    --md-color-table-header-background: #2d2d2d;
+    --md-color-table-header-text: #c4c4c4;
+    --md-color-table-border: #2a2a2a;
+}

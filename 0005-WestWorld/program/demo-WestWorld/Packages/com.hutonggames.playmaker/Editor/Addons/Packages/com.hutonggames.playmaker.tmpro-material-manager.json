@@ -1,0 +1,113 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.tmpro-material-manager",
+    "_displayName": "TextMeshPro Material Manager",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to access the TextMeshPro Material Manager.",
+    "_description": "Normally these are setup at edit time, but you can use these actions to change settings at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/api/TMPro.TMP_MaterialManager.html",
+    "_icon": "TMPro",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerAddFallbackMaterialReference.cs",
+            "_guid": "f64d4e4bcd87cb94ea5a27bfbf330914",
+            "_checkSum": "ef267ae6e62c1c4a35b88b2b78b315e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerAddMaskingMaterial.cs",
+            "_guid": "d5f266371175c0942b224f6796a16d0b",
+            "_checkSum": "6beb42b3236a26f099c0211c4b85875c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerCleanupFallbackMaterials.cs",
+            "_guid": "1950bd8c8a56e0a4cba31314d4190358",
+            "_checkSum": "8529ca1a438e89d3044652d12b1a014e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerClearMaterials.cs",
+            "_guid": "e57cbd60dd87bb54d8aa531d3922b4f3",
+            "_checkSum": "d73ee32a60d50a4629d7e114c6df214a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerCopyMaterialPresetProperties.cs",
+            "_guid": "e8e684fe18fbb144cbb504f49efd0e78",
+            "_checkSum": "1e035b25552afdf5da766fb9d7cf4cfa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerGetBaseMaterial.cs",
+            "_guid": "31e51c09f1680004e86fca8543142f9e",
+            "_checkSum": "3d6e8ce2a3745c5dcc7fa6a2ba59b45a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerGetFallbackMaterial.cs",
+            "_guid": "584b3d08a34247448b7bb178a6e63295",
+            "_checkSum": "fd78332a9509a6021da7eedafc3dbb54"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerGetMaterialForRendering.cs",
+            "_guid": "a374c3dd3a1de514bb567308769578f5",
+            "_checkSum": "3abaf465593cb1dd1ec78539cf401c37"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerGetStencilID.cs",
+            "_guid": "e0093399893f6e448ba7a1b3ea930795",
+            "_checkSum": "485406be8ad84fe873c2654d2e479227"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerGetStencilMaterial.cs",
+            "_guid": "9929be5e9f117da46949b2169a6c0109",
+            "_checkSum": "b16b315548c95826735a830a490544ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerReleaseBaseMaterial.cs",
+            "_guid": "35da6491c87991541807390948461d75",
+            "_checkSum": "84ed9032ac58275610b3ff7821df346d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerReleaseFallbackMaterial.cs",
+            "_guid": "fe4c40d5809b98f489e1a21a037ffe6d",
+            "_checkSum": "9ca416c3f7dc632d5fd03406fafc6faf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerReleaseStencilMaterial.cs",
+            "_guid": "66184ccf288ecef43ad365bf046844f1",
+            "_checkSum": "a89309b24202099a81c66d4c90acdd35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerRemoveFallbackMaterialReference.cs",
+            "_guid": "77291c44005648a42925453d70b1af51",
+            "_checkSum": "dbe6daa738e1250491bf393d149df67d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerRemoveStencilMaterial.cs",
+            "_guid": "5b39d953db4fb8140a67e4bfe946e703",
+            "_checkSum": "6831bcfeb75ae796a5f17ed6315843b1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_MaterialManager/TMP_MaterialManagerSetStencil.cs",
+            "_guid": "82b384bca3f30f140b561c007323d9dc",
+            "_checkSum": "3781d8b8b31e8a1e5149c9fc78e908ef"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479359508137
+}

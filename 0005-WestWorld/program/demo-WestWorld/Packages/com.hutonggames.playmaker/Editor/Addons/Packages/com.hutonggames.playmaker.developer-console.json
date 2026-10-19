@@ -1,0 +1,58 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.developer-console",
+    "_displayName": "Developer Console",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Debug/DeveloperConsole"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Control the runtime Developer Console shown in Development Builds.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Debug.html",
+    "_icon": "Debug/DeveloperConsole",
+    "_tags": [
+        "Actions",
+        "Debug"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Debug/DeveloperConsole/DebugClearDeveloperConsole.cs",
+            "_guid": "712b23fa6f2cea04897f60d377a6d174",
+            "_checkSum": "f90d7ba529252f10b9afba5657d07e5a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Debug/DeveloperConsole/DebugGetDeveloperConsoleEnabled.cs",
+            "_guid": "163f2a2e05bdccd40a6de6ce1bc0e729",
+            "_checkSum": "89453453df3d8b64f7288f74411b5a43"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Debug/DeveloperConsole/DebugGetDeveloperConsoleVisible.cs",
+            "_guid": "b7358b219110dc54685ad19d04889f1f",
+            "_checkSum": "3addff9f4c4abea0d8859757cbb9b936"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Debug/DeveloperConsole/DebugSetDeveloperConsoleEnabled.cs",
+            "_guid": "26f77a0672db977408d96da349e7089d",
+            "_checkSum": "a3df2621816215b662c2a540fbf1f757"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Debug/DeveloperConsole/DebugSetDeveloperConsoleVisible.cs",
+            "_guid": "c6ee489c0ce8d8e4091130b930d4e60a",
+            "_checkSum": "05db2c36f783b58824dfbd1150e4a673"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479363249989
+}

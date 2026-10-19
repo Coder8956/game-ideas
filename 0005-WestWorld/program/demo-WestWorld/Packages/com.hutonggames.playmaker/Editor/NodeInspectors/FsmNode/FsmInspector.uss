@@ -1,0 +1,45 @@
+.hutong-fsm-inspector {
+    flex-grow: 1;
+}
+
+.hutong-fsm-inspector__settings-header {
+    margin-top: 8px;
+}
+
+.hutong-fsm-inspector__settings-panel {
+    margin: 8px;
+}
+
+.hutong-controls-header__header {
+    background-color: var(--hutong-editor-colors-header-background);
+    flex-direction: row;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 2px;
+}
+
+:root {
+    flex-grow: 1;
+}
+
+#variables {
+    flex-grow: 1;
+}
+
+#events {
+    flex-grow: 1;
+}
+
+#header-foldout {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+TemplateContainer {
+    flex-grow: 1;
+}
+
+#unity-content {
+    flex-grow: 1;
+}

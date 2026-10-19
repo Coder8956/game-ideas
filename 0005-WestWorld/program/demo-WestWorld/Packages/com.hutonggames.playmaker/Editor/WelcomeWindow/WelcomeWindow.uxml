@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/WelcomeWindow/WelcomeWindow.uss?fileID=7433441132597879392&amp;guid=51ece68fac254504a10f64d21f66dae0&amp;type=3#WelcomeWindow" />
+    <ui:VisualElement name="header" class="hutong-welcome-window-header">
+        <ui:VisualElement name="logo" class="hutong-welcome-window__logo" />
+        <ui:Label tabindex="-1" text="Version" parse-escape-sequences="true" display-tooltip-when-elided="true" name="version" style="position: absolute; right: 0; bottom: 0;" />
+    </ui:VisualElement>
+    <uie:Toolbar>
+        <uie:ToolbarToggle label="Getting Started" />
+        <uie:ToolbarToggle label="What&apos;s New" />
+        <uie:ToolbarToggle label="Change Log" />
+        <uie:ToolbarToggle label="Known Issues" />
+    </uie:Toolbar>
+    <ui:ScrollView style="flex-grow: 1;">
+        <ui:VisualElement name="content" class="hutong-welcome-window__content" />
+    </ui:ScrollView>
+</ui:UXML>

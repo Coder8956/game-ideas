@@ -1,0 +1,68 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.screen-capture",
+    "_displayName": "Screen Capture",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Screen Capture actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/ScreenCapture.html",
+    "_icon": "Rendering/ScreenCapture",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture/Actions/SaveScreenshot.cs",
+            "_guid": "85cb2d72376e4b2abd33c3a10f5c55fc",
+            "_checkSum": "8d401f1b0cacc95fa417f2be9eaeb986"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture/Actions/ScreenCaptureCaptureScreenshot.cs",
+            "_guid": "e31288d0adcc1f642b1055e99bc16e1f",
+            "_checkSum": "8e78bb78ca39f0b1e9677e591b675830"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture/Actions/ScreenCaptureCaptureScreenshotAsTexture.cs",
+            "_guid": "f593e7d6d0140e84e8a4f8fbaa1a0983",
+            "_checkSum": "d9ea8e837b5c1002ab183734a8a43f2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture/Actions/ScreenCaptureCaptureScreenshotAsTexture__Stereo.cs",
+            "_guid": "c5601a020344e4c4aa7f69ffc54a8844",
+            "_checkSum": "3f9a6a2fa7700651c1bd82f78f0f41cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture/Actions/ScreenCaptureCaptureScreenshotIntoRenderTexture.cs",
+            "_guid": "c9561d2fecdb0614e8fa69240b957e01",
+            "_checkSum": "cade1ec7b6a8a935cc1997362d590aeb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture/Actions/ScreenCaptureCaptureScreenshot__Stereo.cs",
+            "_guid": "d1cf7681375eea445abbfd4d6564ddd0",
+            "_checkSum": "0fc9c45aa539d2d62ec30b3015d65082"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/ScreenCapture/Variables/ScreenCapture_StereoScreenCaptureMode.cs",
+            "_guid": "f860b94ccfce1354dbe37f652be81af9",
+            "_checkSum": "b5426ded2b89cc204a44025d86dfb328"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479688106048
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement class="hutong-object-pool__name-row" >
+        <ui:Image name="icon" class="hutong-object-pool__icon"/>
+        <ui:Label name="name" value="Pool Name" class="hutong-object-pool__name"/>
+    </ui:VisualElement>
+    <ui:VisualElement class="hutong-object-pool__panel" >
+    <uie:ObjectField label="Prefab" focusable="false" name="prefab" />
+    <ui:IntegerField label="Pool Size" readonly="true" tooltip="The current total number of objects owned by this pool. This is Active Count plus inactive pooled objects." name="total-count" />
+    <ui:IntegerField label="Max Size" readonly="true" tooltip="The configured hard cap for the total number of objects this pool can own." name="max-size" />
+    <ui:IntegerField label="Active Count" readonly="true" tooltip="Number of instances currently in use and not yet been returned." name="active-count" />
+    </ui:VisualElement>
+</ui:UXML>

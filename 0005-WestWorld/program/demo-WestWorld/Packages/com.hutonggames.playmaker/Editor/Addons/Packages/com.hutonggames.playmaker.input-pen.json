@@ -1,0 +1,124 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-pen",
+    "_displayName": "Input Pen",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to get pen input.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Input.html",
+    "_icon": "Input/Pen",
+    "_tags": [
+        "Actions",
+        "Mobile",
+        "Input"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/InputClearLastPenContactEvent.cs",
+            "_guid": "10b0c546254e2e24ca1c457d318a1182",
+            "_checkSum": "bdbd4711abcefba1e680073fe2c57826"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/InputGetPenEvent.cs",
+            "_guid": "2cbc520be75a4f628b2a6dc7cc7a2ea2",
+            "_checkSum": "360e2c896bde2d948a4e067cfefbe124"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/InputGetPenEventCount.cs",
+            "_guid": "efd8938f9c77b49459d1b8ae3d03933d",
+            "_checkSum": "5b66dc096c5f2a936d026d4265f12ed8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/InputResetPenEvents.cs",
+            "_guid": "fef0e0d4d098c2d4dbd8998fec8539cb",
+            "_checkSum": "9bdafba9eaae01b6ce2e86dc2b1ba04c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataGetContactType.cs",
+            "_guid": "bc000a8cb74ff5340aecac7b91d730dc",
+            "_checkSum": "2b4ef1dd143d488f3b81cd491b95385a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataGetDeltaPos.cs",
+            "_guid": "bcccd71267af73f43965df628105a7d7",
+            "_checkSum": "f97a24ee3ab2369fd5e4d146847fa3cf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataGetPenStatus.cs",
+            "_guid": "45e58ebb617846c42bc434c2a7c93803",
+            "_checkSum": "4c1ba891938c6cabb02673a0f84a5069"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataGetPosition.cs",
+            "_guid": "8b82a0e4c706a3d419706796514634a4",
+            "_checkSum": "e3134f07b8ccfc67fe98feb6b0e306fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataGetPressure.cs",
+            "_guid": "907213ba668e6a644b37dc2f5042f653",
+            "_checkSum": "5e207e754f43b96e8d806d10f84e16a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataGetTilt.cs",
+            "_guid": "e4308bfb74dadaa44835c57f4df12aee",
+            "_checkSum": "cca3bec8f6f8ffacfc089ebeffed764f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataGetTwist.cs",
+            "_guid": "cfa8195b25a06bd45a13498cb7f73a5d",
+            "_checkSum": "493f6186346a8197e0b7570033416405"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataSetContactType.cs",
+            "_guid": "cd4b437e1243cdd45833b4a4c0181ab4",
+            "_checkSum": "fbefd856a09524e96dc9862bb61266f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataSetDeltaPos.cs",
+            "_guid": "32441c3b426dd0d4587b5f5672c82c45",
+            "_checkSum": "6fc92387d40cdff2518d496517200912"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataSetPenStatus.cs",
+            "_guid": "e7b5ae0c6ee202742b82f3a76067443d",
+            "_checkSum": "5ba35c2e44c4b0fc2cc3e94adc04cfb7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataSetPosition.cs",
+            "_guid": "8b70ec5e1a3709240a10f44d225e8bfc",
+            "_checkSum": "713e89f296734c72f8b96ebaf413bb39"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataSetPressure.cs",
+            "_guid": "bd297b9a5e01919458c94b47439c0781",
+            "_checkSum": "9112d370c7a8f5da17ccecb87507fe8a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataSetTilt.cs",
+            "_guid": "603d1812525596f4481fb975d227c533",
+            "_checkSum": "5c5e3def0d968ec81c24f5562902347f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Pen/PenData/PenDataSetTwist.cs",
+            "_guid": "14c1c9216a807f749b740c43ac44a68e",
+            "_checkSum": "727353125ffa16efb22427fc001a294b"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479393409577
+}

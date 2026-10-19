@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Core/GroupAsset/GroupAssetEditor.uss" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/AssetEditorStyles.uss" />
+    <ui:VisualElement class="hutong-asset-editor__name-row">
+        <HutongGames.PlayMaker.Editor.IconStyleButton />
+        <ui:Label name="name" binding-path="m_Name" tooltip="Edit the asset name to rename the group" class="hutong-asset-editor__name" />
+    </ui:VisualElement>
+    <ui:TextField name="description" is-delayed="true" multiline="true" binding-path="_description" class="hutong-editable-label hutong-asset-editor__description pm-host--better-text-field"/>
+    <ui:Toggle name="auto-group" label="AutoGroup" />
+</ui:UXML>

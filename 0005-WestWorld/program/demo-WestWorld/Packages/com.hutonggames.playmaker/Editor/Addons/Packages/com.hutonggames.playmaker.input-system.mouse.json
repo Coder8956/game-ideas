@@ -1,0 +1,83 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.mouse",
+    "_displayName": "Mouse",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System Mouse actions.",
+    "_description": "Normally you would use PlayerInput and Actions for more flexibility, but you can use these actions to access the Mouse directly.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.Mouse.html",
+    "_icon": "InputSystem/Mouse",
+    "_tags": [
+        "Actions",
+        "InputSystem"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseCheckButtonIsPressed.cs",
+            "_guid": "7032816bce6f4eaeb0b7893b88e1b836",
+            "_checkSum": "375be014df5679684f9ef2f318a8ec2c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseCheckButtonWasPressedThisFrame.cs",
+            "_guid": "d74f4a3a99984089adf4439073ae98dd",
+            "_checkSum": "2bad880f0cf46558bd6db28aac1975c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseCheckButtonWasReleasedThisFrame.cs",
+            "_guid": "529c280e402b41c5ba7e11048e30d6ac",
+            "_checkSum": "1139885abb24e5b434f90acfab3d48ec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseGetClickCount.cs",
+            "_guid": "26a673caf58b41dc8d1bd5c4bdf9d83c",
+            "_checkSum": "2786951f2244e9db4224517e4da7b0ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseGetDelta.cs",
+            "_guid": "61b46073f7d441eeac1d9eb36b448321",
+            "_checkSum": "f01e9f9503ad0101415a38b85817cbf0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseGetPosition.cs",
+            "_guid": "c74d5fafdb384186bc09f0ec6bc1f1e5",
+            "_checkSum": "dfe1f6d6ef28ba7d8d0ffc07677f4106"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseGetScroll.cs",
+            "_guid": "743fcbd635994d97b001ac789b175c8a",
+            "_checkSum": "633a152de6dac9ac432a486a022587a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseGetScrollX.cs",
+            "_guid": "f740e230c1ed49b2982294d4ad0ad25a",
+            "_checkSum": "ffc422a318e6f7c16784882a23b8aa67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Actions/MouseGetScrollY.cs",
+            "_guid": "6e2dcc2dc82940d3bd6002f449b318a2",
+            "_checkSum": "83c1c5a6988aad2bdb6c6389d948cfc4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Mouse/Variables/MouseButton.cs",
+            "_guid": "561c846c6cdd60d4ea6db4363c1fb572",
+            "_checkSum": "fa48651d6655016ac3ad7580ef996171"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b81",
+    "_datePublished": "2026-08-11",
+    "_timeCode": 134309371730458706
+}

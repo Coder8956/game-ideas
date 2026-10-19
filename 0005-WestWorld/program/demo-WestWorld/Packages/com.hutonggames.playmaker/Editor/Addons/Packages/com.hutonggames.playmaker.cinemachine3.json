@@ -1,0 +1,774 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.cinemachine3",
+    "_displayName": "Cinemachine 3",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.cinemachine",
+            "MinimumVersion": "3.0.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "6000.0.0",
+    "_summary": "Actions and variables for Cinemachine 3.",
+    "_description": "Adds PlayMaker support for Cinemachine 3 in Unity 6+",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/index.html",
+    "_icon": "Cinemachine",
+    "_tags": [
+        "Actions",
+        "Camera"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/CinemachineTargetGroupMembers.cs",
+            "_guid": "9c0a2157b6e44469ba35ec179b7caf9e",
+            "_checkSum": "977506063ba76633c2b77a256a8ed409"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/HutongGames.PlayMaker.Cinemachine.asmdef",
+            "_guid": "095ed43f95f44d6aa0a380a6ee7f1ec8",
+            "_checkSum": "f6b32b429b145d7da2e88401b9783cfc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/BoundingSphere.cs",
+            "_guid": "ec6c89f31ab04a80a940f08459f4f61d",
+            "_checkSum": "e79619f9ab4fd3f7452579576ccaa34a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineBrain.cs",
+            "_guid": "01e34cc6468746e483d248f168457584",
+            "_checkSum": "d7465e9b1df19af563ed9eae5ebc65e4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineCamera.cs",
+            "_guid": "720a8fe3dddb4e9a8b2ed35bfa5e32c7",
+            "_checkSum": "41ba4d5568c1e3d4257bc161faec5d95"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineConfiner2D.cs",
+            "_guid": "d79d15c0aa034d6aa28d2f4715c2b267",
+            "_checkSum": "501e08a38331a018c620769d85518937"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineFollow.cs",
+            "_guid": "70e7bb6ce4e14203a7769f55d2a97368",
+            "_checkSum": "3c2ac87645d9e8b990d186f416156785"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineImpulseListener.cs",
+            "_guid": "73283b3376df4bd8a4790f5c8c4c4d8d",
+            "_checkSum": "03d2c31837689dea366f1d2c6ba7614f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineImpulseSource.cs",
+            "_guid": "31260ef6c63e4b2e86cfee1535ae0e35",
+            "_checkSum": "9b4a3a4d0eeb871af9a0548fc0a842bc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineInputAxisController.cs",
+            "_guid": "654494c3f3d74a27bd0db8fd1b87b628",
+            "_checkSum": "bc930d650790b0bdeb6048eb24799429"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineMixingCamera.cs",
+            "_guid": "5d751ba76b604eb6a3df2d7a4b24bc16",
+            "_checkSum": "8486b683a2b3af2fed54602cb3b2d4cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineOrbitalFollow.cs",
+            "_guid": "4b77fd8f5d634f4db05008fd405ef4d1",
+            "_checkSum": "d5956c83b837aa894ee3ed611d73302b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineOrbitalFollowOrbitStyles.cs",
+            "_guid": "110753f8f9e8441d8674cac8841ff728",
+            "_checkSum": "ebb896788e22a7b0b99e3b163da6cd12"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineOrbitalFollowReferenceFrames.cs",
+            "_guid": "a6d957dbb3984270bf45ef339d261097",
+            "_checkSum": "f47dd0c3ef2a307305d689751b42a01e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachinePositionComposer.cs",
+            "_guid": "1648f271aa0e42278bf66561ecf35793",
+            "_checkSum": "8aef78cf5d7bd0fecf9ac42016d881e5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineRotationComposer.cs",
+            "_guid": "c5f4433902a74c77a7d65a23ca308403",
+            "_checkSum": "21dd8f60350d0e9aee383db355e4c924"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineTargetGroup.cs",
+            "_guid": "1365ea8a7e99481f8860824236c2ef73",
+            "_checkSum": "6fac7fb39c0e77e982bc2276adb08e56"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineTargetGroupPositionModes.cs",
+            "_guid": "48e4ec717f2646fb93fd40c2d2b6493b",
+            "_checkSum": "c5aada63c20d1a9b31a344382249d362"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineTargetGroupRotationModes.cs",
+            "_guid": "a19818eb4f17413395dd4e98f10d4967",
+            "_checkSum": "8a0bb8d5fd085932eb1a6fc67b7f3844"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineTargetGroupTarget.cs",
+            "_guid": "1f2b95bfc05a4b848a694c4c27eb8af0",
+            "_checkSum": "b2765846c1329f15eaab4518101a74c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineTargetGroupUpdateMethods.cs",
+            "_guid": "d0f354768a18421da305979ff74abcea",
+            "_checkSum": "8b20b99e3371b4105e43363af6ba7dde"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineThirdPersonFollow.cs",
+            "_guid": "841dca0907fb4e8ea27dc91cd9540115",
+            "_checkSum": "bca2b37ed2475664a6189470d51a3f84"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/CinemachineVirtualCameraBase.cs",
+            "_guid": "5b91e747987f46b0b1c4385bc2cfe43c",
+            "_checkSum": "f321c2b65187101dcbfd6a011b927af3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/ImpulseChannelMask.cs",
+            "_guid": "ed95fc15c5984d54ad7713b6c3b06143",
+            "_checkSum": "46007b7165312b184b1a766cb2e1fe4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Variables/OutputChannels.cs",
+            "_guid": "18c905d58b7340bca872835df856c6c5",
+            "_checkSum": "846b82c9b97880f6439b3882b16aa419"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineBrain/CinemachineBrainGetActiveVirtualCamera.cs",
+            "_guid": "df4e0fdc327a4809b80729bf9a8e494a",
+            "_checkSum": "1d5074edfd65d21421e14fe71f0c6c2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineBrain/CinemachineBrainGetIsBlending.cs",
+            "_guid": "c835ec9384f74312b80041b70b8f36c3",
+            "_checkSum": "85a6a5b4b93b441cf27e3e48135de3ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineBrain/CinemachineBrainGetOutputCamera.cs",
+            "_guid": "f9dcfc22b6b4477f90fd8b1367ce3903",
+            "_checkSum": "e271f48db46023ffe231ceb663406016"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineBrain/CinemachineBrainManualUpdate.cs",
+            "_guid": "8214c6a742354330ba48ff92eea3b497",
+            "_checkSum": "6668cd9ea780bfc940bac416bd444eee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineBrain/CinemachineBrainResetState.cs",
+            "_guid": "56bd6aab23be4b0da2f7cd4e718b5f52",
+            "_checkSum": "dc66387f84057413725caf99162ba8c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraForcePosition.cs",
+            "_guid": "aca76c3b75a44e09b5d5cea6ec523ede",
+            "_checkSum": "40cf7ba98f5f5cefddbe015180d1d7db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraGetDescription.cs",
+            "_guid": "99f140cc1470418cb99ccdb699b29310",
+            "_checkSum": "b2c02ff15a638cb4d42cbabc78587eda"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraGetFollow.cs",
+            "_guid": "26926c19b1224438bb626817c60a39c2",
+            "_checkSum": "4563be8d1aa821055ef6eeca67cecffb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraGetLookAt.cs",
+            "_guid": "da5548ca85f24318a2c5d088220a0374",
+            "_checkSum": "ea77eea4101c97a6369fdcf5b4cbfa23"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraGetName.cs",
+            "_guid": "c7d799a593b540fcb1c1b926094c14f1",
+            "_checkSum": "3881bb37e94c6d65fbc166449694ad4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraGetOutputChannel.cs",
+            "_guid": "75e523c4dcf34eacbf11ab39d778ab49",
+            "_checkSum": "27df1f705eef3e4c8e98213d6da471c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraGetPriority.cs",
+            "_guid": "8971611f4dc74ea2b8d49e34c7a4f96b",
+            "_checkSum": "0d7bd90a21b0a142e51f8b3963f5954e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraPrioritize.cs",
+            "_guid": "3989794d27b54c57a142bba9deb723c1",
+            "_checkSum": "786cf697d98a9a6d410c78df6fdf5645"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraSetFollow.cs",
+            "_guid": "3eddbb9f241646188d1e349278fb6a72",
+            "_checkSum": "d3400aaa8d8f348b4f747bfada0e229c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraSetLookAt.cs",
+            "_guid": "8e6126f75dec4049a8124d97815a8b82",
+            "_checkSum": "16cb8c64d433492318875d6c1816afee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraSetOutputChannel.cs",
+            "_guid": "b6b91218f3c54273814f84ba65fd94c3",
+            "_checkSum": "8eedb2f38fa3d264fcf4b0d5212cb7eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineCamera/CinemachineCameraSetPriority.cs",
+            "_guid": "970bbe4bd315406f875440a81a8368a5",
+            "_checkSum": "9499c4a16702e87d916956754c441ce0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineConfiner2D/CinemachineConfiner2DGetBoundingShape.cs",
+            "_guid": "3fc0508ad7864c3685030bbcbc747ae0",
+            "_checkSum": "51f62b57c7e6e63ffc05e6ff916cc2b0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineConfiner2D/CinemachineConfiner2DGetBoundingShapeIsBaked.cs",
+            "_guid": "42639f476add42cab8a97ab91f9ffdc0",
+            "_checkSum": "b06f8f98f32bfad5a72c5edd69663359"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineConfiner2D/CinemachineConfiner2DGetDamping.cs",
+            "_guid": "4cc3efdfb23d4abda7f4ebac27fdf084",
+            "_checkSum": "34a3d205b8bccb28ae1868b9b7ccc1a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineConfiner2D/CinemachineConfiner2DGetSlowingDistance.cs",
+            "_guid": "08df2f77fa144759a827bf453d85b884",
+            "_checkSum": "b2edf0fbd678090a45d2b79b6d43ecec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineConfiner2D/CinemachineConfiner2DSetBoundingShape.cs",
+            "_guid": "dd6d40f8ed03442ab10ddffed59147de",
+            "_checkSum": "1ad3de03b01246409a75e0f84a20594f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineConfiner2D/CinemachineConfiner2DSetDamping.cs",
+            "_guid": "1a6e22d27b784886898355715d09216c",
+            "_checkSum": "2c7dc2051bdbe1597d1e36568239bd94"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineConfiner2D/CinemachineConfiner2DSetSlowingDistance.cs",
+            "_guid": "adad777884ec4f8dab61c5523e4c35bb",
+            "_checkSum": "2c503a164b1a0cd2d1cb729c902f31cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineFollow/CinemachineFollowGetFollowOffset.cs",
+            "_guid": "a3d9aa3c8b164866a605bfd577c47149",
+            "_checkSum": "8e6a5281dd3e9e36559dc26c012a3362"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineFollow/CinemachineFollowSetFollowOffset.cs",
+            "_guid": "31f7b88a23fd48ea8e9c5dccb4127e3b",
+            "_checkSum": "230003d0ae4dc6824ba00f4173b91813"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseManagerClear.cs",
+            "_guid": "4c4ef7a5f895445fad77d8879b5955b3",
+            "_checkSum": "fb9a0e5e5af00c3c4a90ae5cb3c8cc93"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseManagerGetImpulseAt.cs",
+            "_guid": "8d64809f91c14ce59c09eb8a62e6cb8d",
+            "_checkSum": "61e9d393cd648e8c7deceb577d43f7a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseManagerGetImpulseMagnitudeAt.cs",
+            "_guid": "6487bb70ad5142a2ba0c679626730493",
+            "_checkSum": "6df82f75c2587b755c2ca0e76faae799"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseManagerGetStrongestImpulseAt.cs",
+            "_guid": "ba7364c1ef554f02b8f5dca96ce8799d",
+            "_checkSum": "f7567d75742aa88023662487e12c5e8d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseManagerListen.cs",
+            "_guid": "9f4fe2b716e649a38f9602a0e4e17891",
+            "_checkSum": "3e9289fb9ef49d00c4bdb23df08131d8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseSourceGenerateImpulse.cs",
+            "_guid": "8cf7e1249bb5477da7fb4be7b649db24",
+            "_checkSum": "b58ecd4d1795d150612b8af6a3693b9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseSourceGenerateImpulseAtPositionWithVelocity.cs",
+            "_guid": "78b0bd8472ee4edda2534be4a87ee8d7",
+            "_checkSum": "46a2fe627522a126973f3321717c303b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseSourceGenerateImpulseWithForce.cs",
+            "_guid": "e39365b9d7694f4eb071c70c2ce02cd2",
+            "_checkSum": "a709c8052081f1c0929a9f2ed5460cf3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulse/CinemachineImpulseSourceGenerateImpulseWithVelocity.cs",
+            "_guid": "4df18e276eb84c85a5e1fba57db64a3e",
+            "_checkSum": "9d48e02e9b6296349178fca79b080449"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerGetChannelMask.cs",
+            "_guid": "e813a39314514cfe94f16ffbc71d3b75",
+            "_checkSum": "136f01ea10faacbaaea1eeb9a2c79704"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerGetGain.cs",
+            "_guid": "1af263af938a46f28cd15be31ec1960d",
+            "_checkSum": "f716c03ea32a11713cd0fb8b099aab4c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerGetUse2DDistance.cs",
+            "_guid": "4fd6f4378bde44008da769a1690f8ba4",
+            "_checkSum": "cd8bc922aa5a94f41cfbc73ace2b4b65"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerGetUseCameraSpace.cs",
+            "_guid": "104a5264bf5b44d28639cc8c0179d0c1",
+            "_checkSum": "21d07821c32436e9a52e11a12b8c14ab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerSetChannelMask.cs",
+            "_guid": "ae725136745e48fc9b5a72b52e3f39b4",
+            "_checkSum": "59b9dd4440c581e0c4b0a9780ee168cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerSetGain.cs",
+            "_guid": "70797ea9574a4a7897d2f7c0ba3867e5",
+            "_checkSum": "ce583361dcbfb6e5c99bafeea1671270"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerSetUse2DDistance.cs",
+            "_guid": "e0d8d6f0e6e144cfbb863af3faf9c0c3",
+            "_checkSum": "c92fb0f2be4d8b36edf81493e1d47fd4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineImpulseListener/CinemachineImpulseListenerSetUseCameraSpace.cs",
+            "_guid": "53ec7a3709364d1bb61b9ddfc43d4df0",
+            "_checkSum": "06ac44c45dd2dae8752e8d550451fa5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineInputAxisController/CinemachineInputAxisControllerGetIgnoreTimeScale.cs",
+            "_guid": "e1f323aa75cd4185b8f198fd6b344b6c",
+            "_checkSum": "9289960ee8d9baf58eb995e4f7442e77"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineInputAxisController/CinemachineInputAxisControllerGetScanRecursively.cs",
+            "_guid": "4def216fa0854661ba4ebde45856f5c0",
+            "_checkSum": "daf1595727870cbbd4ecc840d64587f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineInputAxisController/CinemachineInputAxisControllerGetSuppressInputWhileBlending.cs",
+            "_guid": "57f49aa786aa47e59cdb0914497f28d0",
+            "_checkSum": "edadb31abfab75fb89f69de7e0493497"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineInputAxisController/CinemachineInputAxisControllerSetIgnoreTimeScale.cs",
+            "_guid": "eeea55b47c624f10ac45eca6587dbe77",
+            "_checkSum": "c8084d707ead796cf7bdfe378dc90306"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineInputAxisController/CinemachineInputAxisControllerSetScanRecursively.cs",
+            "_guid": "c4379b270e5d43c18f09902cc3ccb9f1",
+            "_checkSum": "a0b6c784f0bba49027e34ae5b711d5f3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineInputAxisController/CinemachineInputAxisControllerSetSuppressInputWhileBlending.cs",
+            "_guid": "4a395bdd035e4dd0a63f3fc41a48f6b1",
+            "_checkSum": "6721537352bf8b531b8226aaa6bd8abb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineMixingCamera/CinemachineMixingCameraGetChildCount.cs",
+            "_guid": "5fb4130db90b49f9a052fe0e0fce3890",
+            "_checkSum": "e24bab56e9b7785b75da42d3299e6dfc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineMixingCamera/CinemachineMixingCameraGetChildWeight.cs",
+            "_guid": "f62276b054c2436c89f3afab9199e997",
+            "_checkSum": "178e2ee1521bd99c38b5202e7d12f21e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineMixingCamera/CinemachineMixingCameraGetWeight.cs",
+            "_guid": "1fbd2cecf4f049d39260ef58ef9d60a2",
+            "_checkSum": "b95bac007a22bdc465ef37eee1eafd39"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineMixingCamera/CinemachineMixingCameraSetChildWeight.cs",
+            "_guid": "b8c914725e1540fe886e1da75d60ab5c",
+            "_checkSum": "a16b15a56e4b6acae74aa5122261edeb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineMixingCamera/CinemachineMixingCameraSetWeight.cs",
+            "_guid": "7d3d8925293747b1907c25dc4dc0ebef",
+            "_checkSum": "6c31c205856ee2ab0da96a38f2f0841c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowGetOrbitStyle.cs",
+            "_guid": "5ea59cf260484a9281d457fdd31acfd3",
+            "_checkSum": "67756a0131eac497777de97ca4e9e277"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowGetRadius.cs",
+            "_guid": "f3b8ef5194384bcdae6fbe7ae21392e8",
+            "_checkSum": "72276877a0ae2ca0ed4944e6627f64e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowGetRecenteringTarget.cs",
+            "_guid": "307987f7ad234123bdd7aa4f5d0cb9a5",
+            "_checkSum": "f7a370ff80a0428eb162a2a7b92e80c9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowGetTargetOffset.cs",
+            "_guid": "1c67d8edce1d49e3b0bb47363c5589cd",
+            "_checkSum": "58b58b0121064bb267c84aa2860fa025"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowSetOrbitStyle.cs",
+            "_guid": "e9b72dde323e4101ab95ba274247fefc",
+            "_checkSum": "0a63cf2d0e45761fa5f2279406732d4f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowSetRadius.cs",
+            "_guid": "7799d124d2f745bc8780a0e8bb675d6a",
+            "_checkSum": "88d4cca89e5dae708bdf7d30c83b5ba0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowSetRecenteringTarget.cs",
+            "_guid": "9198b9ef9fd44eb2a944537036c99860",
+            "_checkSum": "80801b42d93eb4bb0b3eab23c9992050"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineOrbitalFollow/CinemachineOrbitalFollowSetTargetOffset.cs",
+            "_guid": "c7311d16c42a4936b20a57cfa3477edf",
+            "_checkSum": "7bca22552ac57b59683415dea48f5946"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerGetCameraDistance.cs",
+            "_guid": "b7b4e0e8bd01450f9d6a8646ff4c76c7",
+            "_checkSum": "037f35c3b2eb396b612ecea3d1486164"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerGetCenterOnActivate.cs",
+            "_guid": "6f2459af7cd447f5af3e3057c1760450",
+            "_checkSum": "3a54ae8d0613873caeded19f87e4fc47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerGetDamping.cs",
+            "_guid": "8c3d1d776ed84406b22f52c4d9ef98a7",
+            "_checkSum": "448dd73801392f941e69bad1951221a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerGetDeadZoneDepth.cs",
+            "_guid": "8e3fd70743c24363bad8b42b2e760566",
+            "_checkSum": "c9f9bcc709049482a0ac28581bf1874a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerGetTargetOffset.cs",
+            "_guid": "8670afb650594b6d8d570ecba2bf56f9",
+            "_checkSum": "5cf441b414df353d3b71930ff30b8de6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerSetCameraDistance.cs",
+            "_guid": "c7c49cf7c565485390d9c699d28ed045",
+            "_checkSum": "2ab2f14789fbaceecc96ba876a7cc075"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerSetCenterOnActivate.cs",
+            "_guid": "d78c7d8c69c04dc6904c25b6e83dbb08",
+            "_checkSum": "198837b92a9997e644c1bd54b280a509"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerSetDamping.cs",
+            "_guid": "dcccf8c9bfd54c29ab3470357dbdccb4",
+            "_checkSum": "54960fb011260c4375efb871aa8d5c4d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerSetDeadZoneDepth.cs",
+            "_guid": "78a7205b25524c849b4e72e6d5b73722",
+            "_checkSum": "f31ca37682b595d9a80783c8e68fd22f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachinePositionComposer/CinemachinePositionComposerSetTargetOffset.cs",
+            "_guid": "43f2f97124e24da483d1fa5bcc9fb8fc",
+            "_checkSum": "dee3e01330851c69fc4f7ceb439940f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineRotationComposer/CinemachineRotationComposerGetCenterOnActivate.cs",
+            "_guid": "2eff3ad12f9e4a40be26e60e9835d633",
+            "_checkSum": "235731090fa829ba2ad7271b53538ef3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineRotationComposer/CinemachineRotationComposerGetDamping.cs",
+            "_guid": "a8f31f7556084843b874a325728fbbba",
+            "_checkSum": "a2b83b5792ee5a6a3ddf45255c80cec8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineRotationComposer/CinemachineRotationComposerGetTargetOffset.cs",
+            "_guid": "6d6ef1d5220944d483ab6d8bf79a4e41",
+            "_checkSum": "6641d6b2799fe5c79e0341a75eab4413"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineRotationComposer/CinemachineRotationComposerSetCenterOnActivate.cs",
+            "_guid": "245829c6e7f647c2a5d9bd3d6221796f",
+            "_checkSum": "6c61dbce8fcde06290f07bfa43f9f81d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineRotationComposer/CinemachineRotationComposerSetDamping.cs",
+            "_guid": "65b84ff23d924e198fd807c9f3b54e04",
+            "_checkSum": "687c85580a95ac711286e45dc6fc7536"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineRotationComposer/CinemachineRotationComposerSetTargetOffset.cs",
+            "_guid": "94aeed3d90e9464b908a3d7e9eaf76b7",
+            "_checkSum": "5315b5875c8e6dee1b242e4dd7d23382"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/BoundingSphereGetPosition.cs",
+            "_guid": "3fe25192ee54407ab9e1efc7140a0c4a",
+            "_checkSum": "35941cdc4efbc51d6fa103f4003b427d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/BoundingSphereGetRadius.cs",
+            "_guid": "1311a33db2e6427c920de0cbbaf1ba0b",
+            "_checkSum": "c1ddffea737d4826c5bd32f6f5e14265"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupAddMember.cs",
+            "_guid": "53c3ab7d42484bf0bb0dcde8dcab3513",
+            "_checkSum": "0935603c28b570e6007b704b7bf7d9e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupClearMembers.cs",
+            "_guid": "1ee7bb50f8f148ee95ddb31ec6d7ed67",
+            "_checkSum": "9e08577b1b8dd948b38d335c3319108a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupDoUpdate.cs",
+            "_guid": "da0fb597f2cf49cfac7c6955136bb744",
+            "_checkSum": "536fe74c11e49c3379f7900e3ee9b7c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupFindMember.cs",
+            "_guid": "30090ae43d3549eaa0a013fc7831d01f",
+            "_checkSum": "c45438fea0f4855c4b76b9b7ef8b344f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetBoundingBox.cs",
+            "_guid": "6102f56529ae4cfca9aa4653da258ece",
+            "_checkSum": "fec5838e7fe85bff902259fd4f27e986"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetBoundingSphere.cs",
+            "_guid": "0ad88fd86276437096198a467fdc2cad",
+            "_checkSum": "2cea76edb821ec667c1ab40e762f75a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetIsEmpty.cs",
+            "_guid": "c88fbf8bd8c94d30bd6d8ce7d60dda1c",
+            "_checkSum": "033dab507f040167024c6fbc7c373b6e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetMemberCount.cs",
+            "_guid": "dc71f253db174b83b344416d19059c4d",
+            "_checkSum": "4c7b4a521cdbd2c8a61a0b1a271148d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetMemberRadius.cs",
+            "_guid": "9d6b46d38e9a431e946012f31f9868b4",
+            "_checkSum": "a28a5d9b4564980931d41a1b2fa96e8e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetMemberTarget.cs",
+            "_guid": "ecb601473326471f80d277f8d1fca6cb",
+            "_checkSum": "0d608588ecd9ca8b98c8813782b94cd2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetMemberWeight.cs",
+            "_guid": "d08ad8d4a3514c65ac96c7eb9ca9a585",
+            "_checkSum": "796125ee746e9c110bb5e006edc33168"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetOrAddTarget.cs",
+            "_guid": "507ff74c92f14a7ba350c8e2a44591fe",
+            "_checkSum": "c022256275a6d4e0cfc8055aa7056b1b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetPositionMode.cs",
+            "_guid": "adf3911d164843f9bcc535c66f5f5b41",
+            "_checkSum": "c7ed4d865a0490af24a6dcff0aabd997"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetRotationMode.cs",
+            "_guid": "d5534064b87a4df29a50bc8a7aef32d9",
+            "_checkSum": "82e623193c459d73fbe0a7d1b5aa2f92"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetTargets.cs",
+            "_guid": "6ea8bc46e29c4d7f8cd552893269dc5c",
+            "_checkSum": "bffb9ab2e769302c7b76bd2ae282a3d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupGetUpdateMethod.cs",
+            "_guid": "05810fa90e294cc7bd0871b72a816279",
+            "_checkSum": "2de73fa6ed5fd15fec16c56a942a42eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupRemoveMember.cs",
+            "_guid": "a79424837c4343c4aef19c7d88526fd4",
+            "_checkSum": "0cd4bb2aa10ce0f72583c68f9929ed45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupRemoveMemberAt.cs",
+            "_guid": "75d82670cab74694bf3a3cd2b79324d5",
+            "_checkSum": "07e8ad0f004f1bf0ed04212c80d81fb3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupSetMemberRadius.cs",
+            "_guid": "1902e72e375d4a899bc8458e42617c5d",
+            "_checkSum": "83b350c3f0be3e202119cde2b06d5601"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupSetMemberTarget.cs",
+            "_guid": "0b750067713b4bd4a90a9ca4122e671c",
+            "_checkSum": "21769e26c2fb7b40485b654d69dd83d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupSetMemberWeight.cs",
+            "_guid": "c06707e4e1b94a118b19f19262a732cb",
+            "_checkSum": "12e80df7c2c35c5a46df69d904f7e06a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupSetPositionMode.cs",
+            "_guid": "f45d7d4026764060a3b5db3147483ba9",
+            "_checkSum": "6d9fceee5186f88f5d40d6e6c56ead45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupSetRotationMode.cs",
+            "_guid": "8d3e929615304630833b17b6a467bc35",
+            "_checkSum": "af0866c5ee56e45894d03a17047a5923"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupSetTargets.cs",
+            "_guid": "2fbe31dd81a84c95bf4882f17f1dfa3b",
+            "_checkSum": "c844eec89992e75af31af7399a8a7306"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupSetUpdateMethod.cs",
+            "_guid": "5d95fe1367ff422fbe7f3e386f52ee53",
+            "_checkSum": "8b4ec94157faf39cea0feed27b28da9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupTargetGetRadius.cs",
+            "_guid": "407c8ebfb7ff455b8eea12c1fd3aef18",
+            "_checkSum": "ff62e3b9ca5ec80ec43bd633169ddf6f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupTargetGetTarget.cs",
+            "_guid": "7887712a2428496e8b01b3f2f598b35a",
+            "_checkSum": "966855cf90c235291933b4bf0defdb92"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupTargetGetWeight.cs",
+            "_guid": "9c9b863c7b6b432e8748fd35b7ab6a64",
+            "_checkSum": "34c8a7b4143b2e5d4f773bdb436cf6d2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupTargetSetRadius.cs",
+            "_guid": "49e62d7aa3fe4df9ba5470f143af1df8",
+            "_checkSum": "db7059a33e4aca41ef541c5809adf82a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupTargetSetTarget.cs",
+            "_guid": "695e321269124587aa708461b5659ee4",
+            "_checkSum": "b85580befb5e6fddace7f129a98f1637"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupTargetSetWeight.cs",
+            "_guid": "5aa6b9414ebb4e31bb204b6f514e68c4",
+            "_checkSum": "cc2a10bc72cbc1bef3f3b3ad0cbb57a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineTargetGroup/CinemachineTargetGroupTargetSetWeightByDistance.cs",
+            "_guid": "1b9bfa5975294233b4a2d57d12690a53",
+            "_checkSum": "8870d8e8e2bfe824d108a6e4c6341e2c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowGetCameraDistance.cs",
+            "_guid": "b6c95f820a654cc3995ebc718d70dcb1",
+            "_checkSum": "288e84e3dfbd4d6458bb32fb8da8ff1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowGetCameraSide.cs",
+            "_guid": "1258b536903646d3a6ad4d4447d3480b",
+            "_checkSum": "c9604ef29cec2eb5095a2c2ba1df913a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowGetDamping.cs",
+            "_guid": "1dbc8b630a824ca2b547531696d7ef50",
+            "_checkSum": "643042c343b6a9d5da26196e78ef84bc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowGetShoulderOffset.cs",
+            "_guid": "2d3040dd340d4f5295c84ec73b0aa36e",
+            "_checkSum": "32af014bb216c4d2f891c75124ea8952"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowGetVerticalArmLength.cs",
+            "_guid": "0d601a3987954752925718251184e3c8",
+            "_checkSum": "398e3e2e686b16a11eeda909eb01ff2a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowSetCameraDistance.cs",
+            "_guid": "9d5746e7027545ebb6b5db89b836860e",
+            "_checkSum": "0ddd8564bc40aeecfcff5b33b8b645b7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowSetCameraSide.cs",
+            "_guid": "1662c2697d9c46eb8433fbafdeec6339",
+            "_checkSum": "fe4b7a73a84080c7e8456f5c93f822aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowSetDamping.cs",
+            "_guid": "f96a2b1f1d0942b2aaaf1edbe1c10940",
+            "_checkSum": "5284d2aad307d67328d3180bc7b4f765"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowSetShoulderOffset.cs",
+            "_guid": "3b6b7b5425f44d7dbd4d1b3a8155b804",
+            "_checkSum": "5717ac79e1af6f47b92ebb7abc1f4be4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Cinemachine/Actions/CinemachineThirdPersonFollow/CinemachineThirdPersonFollowSetVerticalArmLength.cs",
+            "_guid": "b25f27d990364a9abfa99a0c8ec5e0c4",
+            "_checkSum": "b9a141e0a6e972586ce5b7fdbabac86d"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479385151058
+}

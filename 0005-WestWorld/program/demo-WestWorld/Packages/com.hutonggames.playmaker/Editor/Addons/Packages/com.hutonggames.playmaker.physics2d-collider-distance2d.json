@@ -1,0 +1,84 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics2d-collider-distance2d",
+    "_displayName": "Collider Distance 2D",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for ColliderDistance2D.",
+    "_description": "Represents the separation or overlap of two Collider2D.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/ColliderDistance2D.html",
+    "_icon": "Physics 2D/Collider2D/ColliderDistance2D",
+    "_tags": [
+        "Actions",
+        "Physics",
+        "2D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DGetDistance.cs",
+            "_guid": "5b3eb8294b5c8a146a0f6bf970a40686",
+            "_checkSum": "892ca74567089adb21c7b83902f86b47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DGetIsOverlapped.cs",
+            "_guid": "213a2019ad177dd409999fa19a760dc9",
+            "_checkSum": "c849cc8fa4fe3332dccb629410057d41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DGetIsValid.cs",
+            "_guid": "b1fb156069b2661438f8bd8bb4c9de15",
+            "_checkSum": "97b1c9992ed45b3bcab72be406e13984"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DGetNormal.cs",
+            "_guid": "acb22454394ed494e9280f563e42667e",
+            "_checkSum": "6a9e7b2bcdbedb54658ae170981e630d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DGetPointA.cs",
+            "_guid": "b952ff5d0280cd742b6f56f434300b74",
+            "_checkSum": "4dfb8926d596799c2b6db39c2d32d48d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DGetPointB.cs",
+            "_guid": "b9200017ad5380140a9a09686927f23a",
+            "_checkSum": "31a2fbee6d9de63908610fcc2834f77b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DSetDistance.cs",
+            "_guid": "8acf6fb53fd8ba149893c7b9bd151eea",
+            "_checkSum": "581bbdf9dbe939a0e805157d1bf93b6b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DSetIsValid.cs",
+            "_guid": "963bd5af4afac9c4f88b970cfdece64e",
+            "_checkSum": "e4fa6a0b81e5a5205121c9977c818915"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DSetPointA.cs",
+            "_guid": "6b0c07cb887befd4cafb1b08fcc6bcc5",
+            "_checkSum": "2a2f8c105bf52ce31c9bac36ab52e375"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/ColliderDistance2D/ColliderDistance2DSetPointB.cs",
+            "_guid": "22e625b2acc415444a3293b04fad258e",
+            "_checkSum": "9e812f1822fd450b67555f5caf85a9ce"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479512227310
+}

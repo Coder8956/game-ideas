@@ -1,0 +1,128 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.line-renderer",
+    "_displayName": "Line Renderer",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for the Line Renderer component.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/LineRenderer.html",
+    "_icon": "Rendering/LineRenderer",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererBakeMesh.cs",
+            "_guid": "7241a4c08f02bfa41b46385bf3fd7a37",
+            "_checkSum": "e3ef0b7664bf8fa36512ea5d5772dfe3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererBakeMesh__Camera.cs",
+            "_guid": "d1cabf1c948d4c6469f82b4cf1021d57",
+            "_checkSum": "1fb6d493ad5ff754c988b49292d5b75e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererGetPosition.cs",
+            "_guid": "2b749114f8caf1a4191d07a892eb0cd7",
+            "_checkSum": "6a489962a0a386fbd4b00507ee0244dc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererGetPositionCount.cs",
+            "_guid": "182b489ea87cecd4e93aa37b64f8f805",
+            "_checkSum": "b77a4bc6d493f3c961a78db9fd186850"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererGetPositions.cs",
+            "_guid": "a6db0b5630b27d5409621cc04b1ef46e",
+            "_checkSum": "1d9aeed80003ea71ba1728cee984cc33"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetColorGradient.cs",
+            "_guid": "5d65c2fd66c823a488343595d7ce05af",
+            "_checkSum": "e188235fdeeaf009fd831ee2dad192c7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetEndColor.cs",
+            "_guid": "74e61bb982c417a48b7719f72879778e",
+            "_checkSum": "e412d210673a8e407004125760befb3b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetEndWidth.cs",
+            "_guid": "bb31568c0eb5a574cb6e6f71ff878f24",
+            "_checkSum": "6b77d57b05852b5fb807d852a27e8f30"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetLoop.cs",
+            "_guid": "9b9a86eb5ea405741ae72752e11f7ecb",
+            "_checkSum": "fecc405074e53da7b85c5cb99a1d0c42"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetPosition.cs",
+            "_guid": "3939b7e817ab555428a5ec3726b997b4",
+            "_checkSum": "7ffb780fc42437d046e13948cc8131c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetPositionCount.cs",
+            "_guid": "de3d0dd4e47217c4f94b335909a863ec",
+            "_checkSum": "3269258f2beaaa9ad468beb20194a0a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetPositions.cs",
+            "_guid": "8a8504994e776e24c9d6a3002db2a431",
+            "_checkSum": "72445a871abd458fc096a04ee2c1da64"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetStartColor.cs",
+            "_guid": "7538e3459d4d1be469942432530f49cd",
+            "_checkSum": "2c99f5ec0acfbfc45c3656f4ccf7602d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetStartWidth.cs",
+            "_guid": "d69ad4313cc66404aa9bbaf659bf40eb",
+            "_checkSum": "f37a58e3ebad3ce0b13c0b42e9efc294"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetTextureScale.cs",
+            "_guid": "672491aedd74c6449b3a5dcff34c05f7",
+            "_checkSum": "dac265f4277657c683d7865c4e87f258"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetUseWorldSpace.cs",
+            "_guid": "7e286025dd94c7745b3c202b992753b3",
+            "_checkSum": "be2226bac293f62f8c4df03c614d82f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetWidthCurve.cs",
+            "_guid": "ff0f8bd295498c648ad8e6edda385a12",
+            "_checkSum": "dec6448126ddbd405a281504d5140c7c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSetWidthMultiplier.cs",
+            "_guid": "0858fdce1546e684c8389086aa05414b",
+            "_checkSum": "c981b9c151f209389c505cd6cbea0d69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/LineRendererSimplify.cs",
+            "_guid": "28fb79f87d9ecb045978fc5e550e927a",
+            "_checkSum": "5bb388af3ca9aea7feaa8747f4e30be2"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479383690250
+}

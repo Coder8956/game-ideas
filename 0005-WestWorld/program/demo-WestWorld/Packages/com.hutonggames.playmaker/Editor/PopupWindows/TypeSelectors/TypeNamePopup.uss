@@ -1,0 +1,34 @@
+.hutong-type-name-popup {
+    padding: 10px;
+}
+
+.hutong-type-name-popup__type-name {
+    flex-shrink: 0;
+    margin-right: 0;
+}
+
+.hutong-type-name-popup__type-name > Label {
+    width: 30px;
+}
+
+.hutong-type-name-popup__error {
+    background-color: var(--hutong-editor-colors-error-background);
+    border-radius: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    padding: 4px;
+}
+
+.hutong-type-name-popup__auto-complete {
+    border-color: var(--unity-colors-helpbox-border);
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 4px;
+    flex-grow: 1;
+}
+
+.unity-list-view__item {
+    -unity-text-align: middle-left;
+}

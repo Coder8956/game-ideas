@@ -1,0 +1,102 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.display",
+    "_displayName": "Display",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Provides access to a display / screen for rendering operations. E.g., controlling multiple displays.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Display.html",
+    "_icon": "System/Display",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayActivate.cs",
+            "_guid": "46c442a35ea3a91428cea8641168b8db",
+            "_checkSum": "ce94195f42178f1822b789ee5b927101"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetActive.cs",
+            "_guid": "29887974f75be5e4b9937eb0be8995ed",
+            "_checkSum": "f3c31380d6f7b7701c21c057e9281640"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetActiveEditorGameViewTarget.cs",
+            "_guid": "00947969edb0b2e4e80563a85ee58e98",
+            "_checkSum": "0a4be5feafedf4a9d36323edf4853440"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetDisplay.cs",
+            "_guid": "944f30ef721447debd92e9adb5ad5bbc",
+            "_checkSum": "b58566365047d14a0496cd5c29ebd6b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetDisplays.cs",
+            "_guid": "4a65562440edc3e458b0ce5e43ff417c",
+            "_checkSum": "66654b1315c77856cb3dbceb6cbb1852"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetRenderingHeight.cs",
+            "_guid": "72c011ae05132ce4b9f666fa34868e0a",
+            "_checkSum": "2c7614e5ae4886c44dbb352d6eee5cb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetRenderingWidth.cs",
+            "_guid": "92b5b4c9a53ba814fb8490c1ba4e67a6",
+            "_checkSum": "8e9319e593790e85c018d9fd41f27a88"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetRequiresBlitToBackbuffer.cs",
+            "_guid": "0eafc1c251587fd4593f8f6edad038a6",
+            "_checkSum": "433d9eae3b36670c8cf070f1a3d97f31"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetRequiresSrgbBlitToBackbuffer.cs",
+            "_guid": "ef73afc80608fc547b5f19ac32db8273",
+            "_checkSum": "2a3003971e92580d43cc74e6fbf32313"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetSystemHeight.cs",
+            "_guid": "37a29cf542d9fce4da6e0e313a85d141",
+            "_checkSum": "9c11e1290620f86d1cceade1185a2c6c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayGetSystemWidth.cs",
+            "_guid": "e758449b65a692846b4cb76d66b5ee4e",
+            "_checkSum": "5c784594a84e39b63ebe55099beb2aaf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayOnDisplaysUpdated.cs",
+            "_guid": "18cca4ca501701f4b8f805a582d14c00",
+            "_checkSum": "2cedb12c370c232588c1899dca83ee8e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplayRelativeMouseAt.cs",
+            "_guid": "9c215a262bedd654d9c34c0c6dd036d2",
+            "_checkSum": "65ca3b7837c00bf4afdd1a064d2a5423"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Display/DisplaySetRenderingResolution.cs",
+            "_guid": "b9713cf7a36a1c34aa14952b1ef9f79e",
+            "_checkSum": "01585e339d791fc641a22ad0f84a9d9a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479264626744
+}

@@ -1,0 +1,73 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ugui-layout-element",
+    "_displayName": "uGUI Layout Element",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to manipulate a Layout Element.",
+    "_description": "Normally Layout Elements are setup in the Unity Editor, but you can use these actions to change settings at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/script-LayoutElement.html",
+    "_icon": "UI",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetFlexibleHeight.cs",
+            "_guid": "6850bec53ebab3c4e9ff14c8059529bb",
+            "_checkSum": "e6cbfd676a10ed4348076c23ac1c8d18"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetFlexibleWidth.cs",
+            "_guid": "0574e32cc65802842a2bd02a13c3bda6",
+            "_checkSum": "9260ebd4e06b2138bddf9a0a95d1baa4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetIgnoreLayout.cs",
+            "_guid": "36046c58465180541815bd5792547883",
+            "_checkSum": "4e96523af5a50f420534f0330a9cc52c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetLayoutPriority.cs",
+            "_guid": "190d05dffc7b2074d86695d29002e998",
+            "_checkSum": "d8d1cb2894e51c4f7194781b2484c945"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetMinHeight.cs",
+            "_guid": "cbef6235c41d2db4a9ade10bca336487",
+            "_checkSum": "bcd2e16d3ce0e4a397722e3789da49be"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetMinWidth.cs",
+            "_guid": "882c23eb324509b4d8a4255038ab5460",
+            "_checkSum": "a23609520bdbc5a202fa47b2046590ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetPreferredHeight.cs",
+            "_guid": "1df63d25b1dbfa24d8a6706565d3fff5",
+            "_checkSum": "ccabcc11999971f4b546bf27e7e2b933"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/LayoutElement/LayoutElementSetPreferredWidth.cs",
+            "_guid": "d7b542e40cf217a4c8f44fc983acb91d",
+            "_checkSum": "7de2b68aecc48f263d8c5ae9c6a2cd77"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479560949498
+}

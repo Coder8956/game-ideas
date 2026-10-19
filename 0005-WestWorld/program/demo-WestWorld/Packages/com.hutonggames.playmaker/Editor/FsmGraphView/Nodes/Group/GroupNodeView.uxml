@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/Nodes/Group/GroupNodeView.uss?fileID=7433441132597879392&amp;guid=b55171be8ba248a5849325afcb5c2ed1&amp;type=3#GroupNodeView" />
+    <ui:VisualElement name="frame" class="hutong-group-view__frame">
+        <ui:VisualElement name="header" class="hutong-group-view__header">
+            <ui:VisualElement name="icon" class="hutong-node-view__icon" />
+            <ui:Label name="title" text="Group" class="pm-host--editable-label unity-text-element unity-label hutong-node-view__title hutong-group-view__title" />
+            <ui:VisualElement name="lock-contents" class="hutong-node-view__lock-contents" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" class="hutong-node-view__selection-border" />
+</ui:UXML>

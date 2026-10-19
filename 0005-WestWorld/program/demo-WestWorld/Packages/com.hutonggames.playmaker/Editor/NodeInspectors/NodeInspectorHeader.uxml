@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <ui:VisualElement picking-mode="Ignore" name="row" class="hutong-node-inspector-header__title-row" style="flex-direction: row;">
+        <HutongGames.PlayMaker.Editor.IconStyleButton class="hutong-node-inspector-header__color-button" />
+        <ui:TextField picking-mode="Ignore" text="Name" name="name" class="hutong-editable-label hutong-node-inspector-header__name" />
+        <ui:Button text="Edit" name="edit" focusable="false" enable-rich-text="false" class="hutong-node-inspector-header__edit-button" />
+        <ui:Button name="settings" focusable="false" class="hutong-node-inspector-header__settings-button" tooltip="Settings" />
+    </ui:VisualElement>
+    <ui:ScrollView>
+    </ui:ScrollView>
+    <ui:VisualElement name="errors-panel" class="hutong-node-inspector-header__errors-panel"/>
+    <ui:VisualElement name="prefab-panel" class="hutong-prefab-panel"/>
+</ui:UXML>

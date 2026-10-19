@@ -1,0 +1,728 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics-articulation-body",
+    "_displayName": "Physics ArticulationBody",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for Physics Articulation Bodies.",
+    "_description": "The main purpose of physics articulations is to provide a realistic physics behavior for commercial and industrial non-gaming applications that involve joints.\n\nFor example, they make it a lot easier than the regular Joints to simulate robotic arms and kinematic chains.",
+    "_helpUrl": "https://docs.unity3d.com/Manual/physics-articulations.html",
+    "_icon": "Physics/ArticulationBody",
+    "_tags": [
+        "Actions",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyAddForce.cs",
+            "_guid": "3d907de3c9f221d49b024c7d74588848",
+            "_checkSum": "142ea6a7e2aa3aedc1a2258ec207fa56"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyAddForceAtPosition.cs",
+            "_guid": "7bd5edaeed9fe2c45967d2a511d0ba8d",
+            "_checkSum": "e794d9266b9a2552371a18a1e90a07a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyAddRelativeForce.cs",
+            "_guid": "c53870c545b2cbb4e88b1f1179fa8581",
+            "_checkSum": "c20f1c81e74bcdd14f01a8ca4222ae54"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyAddRelativeTorque.cs",
+            "_guid": "0d81260738346fc43b3701b530b8df53",
+            "_checkSum": "7c4bedda8a2e274a1251537358b4d94b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyAddTorque.cs",
+            "_guid": "67d6e4269a9f59c42bb00e9d1fcce915",
+            "_checkSum": "7277dc34fc13b13b6c674029525c9eb6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAccumulatedForce.cs",
+            "_guid": "de38a13059fbed34fa45a7d2e05ea39f",
+            "_checkSum": "2677e537ac7e43c7548276fcacf39466"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAccumulatedForce__Step.cs",
+            "_guid": "b5d1682fb4071954a85d3c4d4a9adb84",
+            "_checkSum": "63bf4f33af473db771473200fe651811"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAccumulatedTorque.cs",
+            "_guid": "e4981e5610ef8fe4e88156fb10954086",
+            "_checkSum": "9f67869d2ecc646b62aa33163c71d1ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAccumulatedTorque__Step.cs",
+            "_guid": "8de5db05ac2796b43808209c2bfa27c6",
+            "_checkSum": "aaf2e6cded8821b01fe739d594ca5eb3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAnchorPosition.cs",
+            "_guid": "2dff30548f27a9c42b0f4f6431127c33",
+            "_checkSum": "c0c62b661ae423f3c59c97f9f80e3a07"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAnchorRotation.cs",
+            "_guid": "ec8e65f65707ded41badd8bf1c76dca4",
+            "_checkSum": "218ad3c7802ce6766909839f8eb4254d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAngularDamping.cs",
+            "_guid": "7cc63ae7cfc7e8044abb5ae03d2c83e9",
+            "_checkSum": "d01192f51d7ab3c90a2328a339d96a1f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAngularVelocity.cs",
+            "_guid": "396cd62f042f52849938f69a6724b22a",
+            "_checkSum": "2eef4c88930532586b2ae542be57085e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAutomaticCenterOfMass.cs",
+            "_guid": "82c8eb9d911182b4f9a839814e74ccea",
+            "_checkSum": "97f27ad1f61ad80e560ea05953b6ec00"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetAutomaticInertiaTensor.cs",
+            "_guid": "a330c87589d3f9e4f81f9c3b2c43010a",
+            "_checkSum": "453bfd0ce8216294b4cd3596a0a7d219"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetCenterOfMass.cs",
+            "_guid": "00d7f140c3a074c4f97960471915529e",
+            "_checkSum": "8df169e4683368f3855860f957f05e35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetClosestPoint.cs",
+            "_guid": "a9d02e4b9cd57c6439183b25ea65b923",
+            "_checkSum": "f79ea267bd24c15ef26d5b8e0b4efc63"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetCollisionDetectionMode.cs",
+            "_guid": "b5f77516fa5b8ed45be6c9afcb9f6a2b",
+            "_checkSum": "4f932a8297678783b70f1a0df7ff569c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetDofCount.cs",
+            "_guid": "d15c331ea726de24698ec4e4ca9430d8",
+            "_checkSum": "f10a2e7cc539d2896e78837b82e68447"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetDofStartIndices.cs",
+            "_guid": "2567a78c6ef7a004f9ef68d3ce76e421",
+            "_checkSum": "2cecab6a05025ad92e99b7631c7ae62c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetDriveForces.cs",
+            "_guid": "90c546e32ea70d24cb26c1c8b7fc94f4",
+            "_checkSum": "c72b6d093e59b2c81daf5a830a9172bb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetDriveTargets.cs",
+            "_guid": "9ceadaf740b211f4e873cc05d086230b",
+            "_checkSum": "9a87e1fc5cc0e1b16513a7385c85bbca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetDriveTargetVelocities.cs",
+            "_guid": "19bdd00917c5f5944a57c61159119376",
+            "_checkSum": "7cf789c88268d031e5f12eb32646e3d2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetExcludeLayers.cs",
+            "_guid": "7f2fa17d02d3196438c083a8d8cba82d",
+            "_checkSum": "13790759a80dccae2eecfb9e61a6b0d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetImmovable.cs",
+            "_guid": "58c0fd7b3ed0daf4c8e579edc9d883e7",
+            "_checkSum": "b2ff2b863d9ede8a61d7664e1e7b12a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetIncludeLayers.cs",
+            "_guid": "24d4ad3619226c243a7b33713adf154f",
+            "_checkSum": "afe4f86ccae24a492c94af3bbcea0809"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetIndex.cs",
+            "_guid": "0bf52497be5f1b446a05324fc85bba2a",
+            "_checkSum": "3689bbda9df5ad4ecd28a44323fd5335"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetInertiaTensor.cs",
+            "_guid": "62b0586e93c55254bb54d2a403d44fda",
+            "_checkSum": "c71bf63efd287b73afbd3bf5adf71adf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetInertiaTensorRotation.cs",
+            "_guid": "4e60ddd84cc2aa849acc5bb35d3a8eb3",
+            "_checkSum": "5af04d50f1348858e69a59b9c26b5b1c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetIsRoot.cs",
+            "_guid": "88ba7e79fa0def94fab5f9665ef13812",
+            "_checkSum": "5cfb06c0f987c95e0fe9c7919698957b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointAccelerations.cs",
+            "_guid": "d180c201bf225854c8dd3f85c6c7d8c9",
+            "_checkSum": "772735ba14d4119c1558ecba558b1099"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointCoriolisCentrifugalForces.cs",
+            "_guid": "edf52bdbc5708064586afdbe4a0026a5",
+            "_checkSum": "7e1ed57235983b24175f0a49618e79cd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointExternalForces.cs",
+            "_guid": "5b616f0bfc9413b448956b6dcb493609",
+            "_checkSum": "c5ee228e90f3b4d6a51f05ecaaf3f62a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointForces.cs",
+            "_guid": "63bbf439fa4f2bd429d82063764a3741",
+            "_checkSum": "1b3befc6b7150e0bea9246fe9559f3f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointFriction.cs",
+            "_guid": "c532511ad94b53b4ea0e982516afbf55",
+            "_checkSum": "1b807d706a6525984530f34ad829584a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointGravityForces.cs",
+            "_guid": "c7a142cb961c0754da1401277d6ff74e",
+            "_checkSum": "af7e24874e1d3072c39d5a911c01732c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointPositions.cs",
+            "_guid": "e58ceb1f7cf4c0a4399decf3304ebb14",
+            "_checkSum": "2fd31f36e6e0b4364250e5e6b44b6cfc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointType.cs",
+            "_guid": "fed633f135f44f745acfc05afe9b371a",
+            "_checkSum": "c0b1ec1f0a1d76a04d1f1b36e2f6bf9f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetJointVelocities.cs",
+            "_guid": "d3bf1b95df254ec49846b58ac03790ab",
+            "_checkSum": "26da5ee49d0831a66a1530baaf94795b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetLinearDamping.cs",
+            "_guid": "b03040f79d6ef1b428e51e8ed83c6d94",
+            "_checkSum": "dddf5ffdf6be0007cd2b22fef4030aae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetLinearLockX.cs",
+            "_guid": "6cb7076463f10dd4699d22f589ecef3c",
+            "_checkSum": "edba725df658cbd68d10c86df74cb08b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetLinearLockY.cs",
+            "_guid": "6d5d1eba2435ec9439cd5b29026d981c",
+            "_checkSum": "9250084eeaf2ababc4f14f6af4afedaa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetLinearLockZ.cs",
+            "_guid": "ad04c0187f6c6244fa33e8181ee3dd87",
+            "_checkSum": "809554060ac5dd6d3d3705123dac4103"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetMass.cs",
+            "_guid": "9d2e82eb3438d9347ab970dba07c88f1",
+            "_checkSum": "8e5139c310bd46363089898f701739fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetMatchAnchors.cs",
+            "_guid": "a3f8f7c5189e9fa428c5e7e786a3e24f",
+            "_checkSum": "14eeafb48da7ce4fbf52830486bd817c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetMaxAngularVelocity.cs",
+            "_guid": "b645d151d7ca0304094889264052a372",
+            "_checkSum": "d0d02e3cac53bb831a9ffb432b99ffd7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetMaxDepenetrationVelocity.cs",
+            "_guid": "6be9116bc3fb2d846b9a34995d665050",
+            "_checkSum": "26674504fe0b37802ead248258ed9fcd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetMaxJointVelocity.cs",
+            "_guid": "843bf6f9443161b45878bdd844ae40ed",
+            "_checkSum": "75384d1cfc291d931430fb5dbdcff8c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetMaxLinearVelocity.cs",
+            "_guid": "d044e06a39427f148a4c99410376868f",
+            "_checkSum": "60ebabe84742f76a8b2df345fb034d96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetParentAnchorPosition.cs",
+            "_guid": "7d7f2ba4ed6c71449abfb1fde7a2b587",
+            "_checkSum": "a983039d94caebe29969cee578566c5a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetParentAnchorRotation.cs",
+            "_guid": "998ffe91070431b4f9d814a4005098a7",
+            "_checkSum": "73823e1c9fd29c827aacc1bc53df4625"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetPointVelocity.cs",
+            "_guid": "843eec11fcb56b845a1be1e3bd69746e",
+            "_checkSum": "a3e9c744a53f92ca3881c9248812d622"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetRelativePointVelocity.cs",
+            "_guid": "ba393f2fdd9c3b84fbfbfb5d070c6ef2",
+            "_checkSum": "9a3b2206407c03b5ff4cfa84b85cb628"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetSleepThreshold.cs",
+            "_guid": "c2da2638b802c77478213024077ac904",
+            "_checkSum": "b165e1b991d29dd480b08ff394b01d41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetSolverIterations.cs",
+            "_guid": "154e4efc62fdea445b1b07b04e0d0228",
+            "_checkSum": "58596cc501e92a3830158cc6492890a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetSolverVelocityIterations.cs",
+            "_guid": "a3bf12cfab367f641a8f58a15c88fce2",
+            "_checkSum": "b6d1100302341b3042e442518de80bc3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetSwingYLock.cs",
+            "_guid": "aba5730f0e2260943acc60603e253bb8",
+            "_checkSum": "0539e3445dea8ada97aa0051f0cd351e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetSwingZLock.cs",
+            "_guid": "cb377140572c1054592147ce5d0e086f",
+            "_checkSum": "d3132e27a1c241c93ebb131a32518347"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetTwistLock.cs",
+            "_guid": "3f09b0090273e2842a89d41b0dc81809",
+            "_checkSum": "5f516c62380fe85493e87e3ec88800af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetUseGravity.cs",
+            "_guid": "cb9a7adf49bd8e64e82630f8cfafba95",
+            "_checkSum": "0d359ac6d6765602caa01e9ccf29c3ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetVelocity.cs",
+            "_guid": "f10f2f28999072e42b58ae06d1cca0d0",
+            "_checkSum": "354c35acdf769192169e3d206677dd9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyGetWorldCenterOfMass.cs",
+            "_guid": "64de1b3a1c018084484d2a77d07f9a07",
+            "_checkSum": "b8445bfc4fe8781b219f7274b361f1f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyIsSleeping.cs",
+            "_guid": "e8bce7131432c334d83b0039b1f10edd",
+            "_checkSum": "63a20bc2c98b27ee41683d97617659bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyResetCenterOfMass.cs",
+            "_guid": "c83e1d68915105d4ea1ad96a150c7d92",
+            "_checkSum": "bb12be45880a2dfb8df41e92b9714bd2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyResetInertiaTensor.cs",
+            "_guid": "d71af1b9528a06a4da8a45354bbd3be0",
+            "_checkSum": "94292c4f47276f77dda5a6a027d30b18"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetAnchorPosition.cs",
+            "_guid": "4ab965dccb4d2b54fac934c1dc57c933",
+            "_checkSum": "043ec45a07ab6a9354971b72347d352b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetAnchorRotation.cs",
+            "_guid": "491a8d49291a6c740a989a9fb90b5559",
+            "_checkSum": "9e8574ad59dce0e506092b21ed4c82ae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetAngularDamping.cs",
+            "_guid": "422386f2cbde79f49abe1677089d92da",
+            "_checkSum": "7197b81527d5bd79a1216188a393b53b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetAngularVelocity.cs",
+            "_guid": "3f2fc7d3a67233b4cb200e6d477fc8ae",
+            "_checkSum": "1be1c177564e10e6fddcfec7cdbde622"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetAutomaticCenterOfMass.cs",
+            "_guid": "edcadb2469f72cf48957a1e8e5ea1935",
+            "_checkSum": "9823a710adb20b1c03fe9e2baa8ab8cf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetAutomaticInertiaTensor.cs",
+            "_guid": "144fae5260bbd3f48b4f541874af9229",
+            "_checkSum": "cace08b26e1be737d3711549ddab8344"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetCenterOfMass.cs",
+            "_guid": "7c992001703dc7745aa82df218209bf1",
+            "_checkSum": "0b99e916ab2a91ae7c742b1c49c5e440"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetCollisionDetectionMode.cs",
+            "_guid": "2394a36705a8fe642aa855cf2e6cbd08",
+            "_checkSum": "79552ac96f0ddce267dc53ef48a6f7af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveDamping.cs",
+            "_guid": "2d30a2418b1a66d42a91c7d97a49c510",
+            "_checkSum": "ad7d48f626799ff261da65f94f354be3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveForceLimit.cs",
+            "_guid": "da2774e4dc37a3040a3f473a3d065921",
+            "_checkSum": "d9aeb582493bad217aea4f22eb7226ec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveLimits.cs",
+            "_guid": "a587a535eea541b4eaac0d90c82c10cc",
+            "_checkSum": "6f3bd2a8dbc32aac8cf0ba88099b0235"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveStiffness.cs",
+            "_guid": "3cfb60524c6711d4e81d39e2b1a7b6c4",
+            "_checkSum": "7a3820dbf1432dc9c24dbc26d62fcfff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveTarget.cs",
+            "_guid": "ed2d6f924c7823f4c8a1c37c536ce514",
+            "_checkSum": "f6ca9c5228eec4398d4f0c46518cd4b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveTargets.cs",
+            "_guid": "c7018ce92749b6c488bae191583ff54b",
+            "_checkSum": "523ab43873aa69e0aa499e56c0002c56"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveTargetVelocities.cs",
+            "_guid": "3967636f0b982204d891f19e6bb2f31a",
+            "_checkSum": "bc5ec68339b680d113b945f71a8ea951"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetDriveTargetVelocity.cs",
+            "_guid": "6fb4acf1596f51c45ab670262d478d29",
+            "_checkSum": "05960dfaaa46a0e809a51dd3e87faac7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetExcludeLayers.cs",
+            "_guid": "7e8f7f83a311641458d17e4c6f954421",
+            "_checkSum": "7d622c318db642debd6c2fb7ad775619"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetImmovable.cs",
+            "_guid": "93d2f449b6a46c84f943b8bef2e8cca2",
+            "_checkSum": "fe35a1bcc4f8857bf5d611fbc3fb82c3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetIncludeLayers.cs",
+            "_guid": "9152a1e7583b270428e1d08b5e538b51",
+            "_checkSum": "fc89ae1f0b9ab3feb6e9a3d97a0f576c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetInertiaTensor.cs",
+            "_guid": "b319eeed67dae7e43a090a5099c751e0",
+            "_checkSum": "2991b572e452b54ca9a2d43f8f91be76"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetInertiaTensorRotation.cs",
+            "_guid": "ce51cd4a74217b04dac9cbbca08bae7b",
+            "_checkSum": "d4aff303f57fbe41f9c6f7076f7e411f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetJointForces.cs",
+            "_guid": "ec19f98c4e26deb4dbbd8d3df5f358ed",
+            "_checkSum": "fa7da39b0064d1da74d85a69605ca7c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetJointFriction.cs",
+            "_guid": "7b968db188ef15942872e90e59efeac7",
+            "_checkSum": "481eb7e04d4e0386f686047a605e7346"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetJointPositions.cs",
+            "_guid": "ba128120c49793f47920913882635b70",
+            "_checkSum": "51f97ee24a727754455f3b41fc7845d7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetJointType.cs",
+            "_guid": "c8117fb8012054e4aa34ec1f7daedf84",
+            "_checkSum": "d027f48b68b8d59cf35a0565a3e9d400"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetJointVelocities.cs",
+            "_guid": "801a1bcc53374884b853037ca34b9a18",
+            "_checkSum": "efc0095ca623cecc67426d3ac4e4f4a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetLinearDamping.cs",
+            "_guid": "4f742785671d0364fb85b41173ae778e",
+            "_checkSum": "c8e63dae5b0d6115e57e894b2767a516"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetLinearLockX.cs",
+            "_guid": "16de0db5804e2534fbff5c2533ddcdc1",
+            "_checkSum": "08ae80c124ea1e563366a6cdceea00b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetLinearLockY.cs",
+            "_guid": "4a802524c848a6b449cb4931cbd440fb",
+            "_checkSum": "00f66a0f01aec4cceb3400a361e46a98"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetLinearLockZ.cs",
+            "_guid": "72a06a075d8e6f74ba26dc33fc34b2dc",
+            "_checkSum": "8562cb58d359cb07e119ccaa786d6283"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetMass.cs",
+            "_guid": "6cc1e13fd8099474cb7595c7239b1da4",
+            "_checkSum": "6a1082799fc3d4d97e5d8ef354453de0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetMatchAnchors.cs",
+            "_guid": "e9fb1cbec7f74714f9798dd9b22b0fbb",
+            "_checkSum": "2c96708543da5e338af72e3dd1d141ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetMaxAngularVelocity.cs",
+            "_guid": "a2abc068be615d74e8b7cc9434d7b99c",
+            "_checkSum": "3600156be7ec0f0380f7a667f91895fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetMaxDepenetrationVelocity.cs",
+            "_guid": "0e0f41f512e333940b52be76eaa76135",
+            "_checkSum": "6f11b17a30f30ea8847cab1f61892e29"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetMaxJointVelocity.cs",
+            "_guid": "d42e7d0200788b44d92b11f3a10844e4",
+            "_checkSum": "413a68bc9f21bf6d5659a8ac380ff251"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetMaxLinearVelocity.cs",
+            "_guid": "f1f6b75a7124c8f49a01cd7322e68c27",
+            "_checkSum": "f87df5f37eeb357cc91646ea085f3ba0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetParentAnchorPosition.cs",
+            "_guid": "a27d23b94e94b544bb0be12d29de538b",
+            "_checkSum": "7be12e1e46352aac50432f216a323aff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetParentAnchorRotation.cs",
+            "_guid": "440a3ca3253a72b4c88330840e648d42",
+            "_checkSum": "d19d767dea419259e17646f7d2ed9b52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetSleepThreshold.cs",
+            "_guid": "2efd023eb0498c34297df1df15cffcc5",
+            "_checkSum": "18988259993f97c17ef3ffb3e2aecfbb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetSolverIterations.cs",
+            "_guid": "50a756f99caea614b8ece6d72f69c486",
+            "_checkSum": "b91671e4d805fb4e341a8586a5fbaf8a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetSolverVelocityIterations.cs",
+            "_guid": "1c7c35f02ff37b345953daac54674515",
+            "_checkSum": "515c688a62adf8f3ac6abd2ec8aa3555"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetSwingYLock.cs",
+            "_guid": "166dc14967f38844fb62d6ead5431d5c",
+            "_checkSum": "b46308cec2cbf70f51428dc41aff41f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetSwingZLock.cs",
+            "_guid": "f1458e9825ffabc47866496e8260950f",
+            "_checkSum": "f7a270d2374c74238d28d8a7312f4cd3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetTwistLock.cs",
+            "_guid": "b1572f5f899db664fbb8a2ed4b6a4052",
+            "_checkSum": "8645ef59c9d4b7147bce354e5743cd16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetUseGravity.cs",
+            "_guid": "be1645821c6e6614d89368daedf86a44",
+            "_checkSum": "c872f2f705c3805afd37cc1cc2cdfe4c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySetVelocity.cs",
+            "_guid": "5f7877071d6786d4e84014889e117a34",
+            "_checkSum": "249ca34dd4dd7eba780bd59b56b1d665"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySleep.cs",
+            "_guid": "645d4d38a92b8dc408ec291d203c4d77",
+            "_checkSum": "3868d38e41b1ed538202814189ec1758"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodySnapAnchorToClosestContact.cs",
+            "_guid": "8e9a099f303c21c4fafc2d8e02b5203a",
+            "_checkSum": "e59e5af8f171981fa5c10de82ccfaaf5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyTeleportRoot.cs",
+            "_guid": "fbfdb2f5867b06d4587c3e606023b8e9",
+            "_checkSum": "71a888b3d103bcaad5c821e569aacd96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationBodyWakeUp.cs",
+            "_guid": "2cb8af9be94304f419d5c9b349bfbee5",
+            "_checkSum": "58f108dfacb0039a9e32b462d0bed946"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetDamping.cs",
+            "_guid": "7bac96ebec1e2894383a80bf09d28f24",
+            "_checkSum": "2df7cc9fb642cbbe9230b4fade7d5d14"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetDriveType.cs",
+            "_guid": "f7b418bbd0b3c1d4384cae9825ab23f1",
+            "_checkSum": "43796850bfa7ed2361754ebc2ffdd2f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetForceLimit.cs",
+            "_guid": "55ab42d7507533d44932377f5ac8ca58",
+            "_checkSum": "a137b5dc184cff6802779b86f8904a2c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetLowerLimit.cs",
+            "_guid": "60a3155fbd7094246af3156670ef9ba5",
+            "_checkSum": "ec2afcbb5ed0cf470cd7ef12a82333cd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetStiffness.cs",
+            "_guid": "7f8b283eaf492d94787b8c80f3759544",
+            "_checkSum": "35361c47eec8503e43a0ff8bde83aae8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetTarget.cs",
+            "_guid": "957f6ca082685f44d9d3def33e362867",
+            "_checkSum": "f4963fd5ac9e5e11fea068ab6e1968c9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetTargetVelocity.cs",
+            "_guid": "2005e62c0722d4a44bf98ac306b724bb",
+            "_checkSum": "979a966124bcd1aaea9c96c32433df86"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveGetUpperLimit.cs",
+            "_guid": "82f6e52ac532f774dbe6521824618cba",
+            "_checkSum": "9aafcab1f0da9ff7275056053ed6cefa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetDamping.cs",
+            "_guid": "464ecc359c831034094e12d52607ed10",
+            "_checkSum": "4a625be5b67fdbdf889e42d8f7ab054b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetDriveType.cs",
+            "_guid": "821b7874eb8c4a740a5fa34a1108e2b5",
+            "_checkSum": "fee9946fb6b03e9de1f5fb67439842f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetForceLimit.cs",
+            "_guid": "89ec88c53c7551c4984c9096bc1eb75c",
+            "_checkSum": "681f0990208b124000ddd9e5ab998624"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetLowerLimit.cs",
+            "_guid": "2254875b17202b14b8e7492a3394d17c",
+            "_checkSum": "7fb0d28ee924082b3e4924daeccd8397"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetStiffness.cs",
+            "_guid": "ee777f52b40bf7c46999d14f27600af6",
+            "_checkSum": "e75c8010b23b556c95cda28765c10b15"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetTarget.cs",
+            "_guid": "8656a43d36af31d4ab8335052d544de2",
+            "_checkSum": "30c39d06db5f1d743e975b87171a9807"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetTargetVelocity.cs",
+            "_guid": "ee2aa451c596b7141896de6b45ba9f05",
+            "_checkSum": "83eafe2bd2fda7b048f30f4a2f00ee8e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationDrive/ArticulationDriveSetUpperLimit.cs",
+            "_guid": "97bff1dbdbee60d4cb9a4f5520a57a03",
+            "_checkSum": "c79d90dca86a329578b5c7bab5b855be"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationJacobian/ArticulationJacobianGetColumns.cs",
+            "_guid": "99aaccc89dd0d8344a085eb4d30ddd50",
+            "_checkSum": "56e92cfe2cb9053cabd7676d419898d3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationJacobian/ArticulationJacobianGetElements.cs",
+            "_guid": "4dcacc2c79a7d3d429b8b309c833b6c3",
+            "_checkSum": "9a0edf85ed6385ea90a7002db1a282f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationJacobian/ArticulationJacobianGetRows.cs",
+            "_guid": "c202f23857744484bad3fc338244af48",
+            "_checkSum": "3203afef6300871c434e1225c2ca5aa0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationJacobian/ArticulationJacobianSetColumns.cs",
+            "_guid": "1c2b9aef96234d24cb668e8ac6d9684b",
+            "_checkSum": "388c9c3e4f5363aa9541d68a9cc53ca4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationJacobian/ArticulationJacobianSetElements.cs",
+            "_guid": "4950c16021ac3ff4aa5dc09f7548676d",
+            "_checkSum": "c2abd6c3b403c551d20eca9c61a51ffc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationJacobian/ArticulationJacobianSetRows.cs",
+            "_guid": "f3c3decb4bf238d4e9b5444b1066f344",
+            "_checkSum": "38c0b03bc4a004152bf39df4c4fd1c85"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationReducedSpace/ArticulationReducedSpaceGetDofCount.cs",
+            "_guid": "211db2e96dc7c3149bf6cffe07d54ac8",
+            "_checkSum": "96cf000b7e338a610bd1ef4fa1f52b4d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/ArticulationBody/ArticulationReducedSpace/ArticulationReducedSpaceSetDofCount.cs",
+            "_guid": "928f4cdb688d21249839cd62754f08b3",
+            "_checkSum": "426c6527c76120fb53fca8876167d694"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b77",
+    "_datePublished": "2026-07-26",
+    "_timeCode": 134295525676507853
+}

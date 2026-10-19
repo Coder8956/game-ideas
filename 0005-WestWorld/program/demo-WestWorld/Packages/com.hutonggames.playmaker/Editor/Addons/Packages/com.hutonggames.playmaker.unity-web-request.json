@@ -1,0 +1,77 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.unity-web-request",
+    "_displayName": "UnityWebRequest",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for sending web requests with UnityWebRequest.",
+    "_description": "Send HTTP requests, download text, bytes, textures, and files, post form data, and upload files.",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Networking.UnityWebRequest.html",
+    "_icon": "Web",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestActions.cs",
+            "_guid": "0bbec378d7a74a8fb87fa40920d18ce5",
+            "_checkSum": "1b4d8801bdf8e2c2ca373dd920e87436"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestDownloadAudioClip.cs",
+            "_guid": "72ebd92c13664ef6a552db39a0613ded",
+            "_checkSum": "0ebad09c8a263b837c876cfcc36ebd26"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestDownloadBytes.cs",
+            "_guid": "06ee6802293646769ef88b151aa4806c",
+            "_checkSum": "efd05f178adebcdef4b352fbdca1b8e4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestDownloadFile.cs",
+            "_guid": "46b1bf35b0004b80bef67b5d4ba90191",
+            "_checkSum": "3a3668355f055a3121b7c82b61c3d52b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestDownloadText.cs",
+            "_guid": "60e926d3a5014460ad9a8e9bed7d2363",
+            "_checkSum": "d28b245a97ddc67c0baf82af2753e214"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestDownloadTexture.cs",
+            "_guid": "d4d068ca23f2493b9185753c1a38b84f",
+            "_checkSum": "2063cb403744cdcee109291e3b059371"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestPostForm.cs",
+            "_guid": "9b0f11d1113c423eb9738bc08569f670",
+            "_checkSum": "b7e4a24acf61be2681df59b975fd7ce5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestSend.cs",
+            "_guid": "75b729120b5842c5b5a4d2d5c42be623",
+            "_checkSum": "e3c07d26860da4892c0b53a2d8242969"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Web/Actions/UnityWebRequest/UnityWebRequestUploadFile.cs",
+            "_guid": "d412acb6185148d485a353b27640d244",
+            "_checkSum": "a180eb31171bdc49f1f26b2b4d913bda"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b79",
+    "_datePublished": "2026-08-04",
+    "_timeCode": 134303431433522944
+}

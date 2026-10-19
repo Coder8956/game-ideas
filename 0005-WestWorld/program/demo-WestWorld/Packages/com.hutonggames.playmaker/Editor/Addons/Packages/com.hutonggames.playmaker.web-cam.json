@@ -1,0 +1,195 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.web-cam",
+    "_displayName": "WebCam",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Variables/WebCamDevice.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Variables/WebCamKind.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Variables/WebCamTexture.cs"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "WebCam actions.",
+    "_description": "WebCam actions require camera permission on supported platforms. Add the permission text in Edit > Project Settings > Player > Other Settings > Configuration > Camera Usage Description.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/WebCamTexture.html",
+    "_icon": "WebCam",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamDevice/WebCamDeviceGetAvailableResolutions.cs",
+            "_guid": "838622885409aef4ea0046b4b15a0840",
+            "_checkSum": "78d9c8d6d47dacb8c0bc85a8cf570efd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamDevice/WebCamDeviceGetDepthCameraName.cs",
+            "_guid": "70fb361b25224a34db104da0341929e8",
+            "_checkSum": "c2e062b9f4418c00387899d5ad68ef70"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamDevice/WebCamDeviceGetIsAutoFocusPointSupported.cs",
+            "_guid": "2af698d1766361449896f77d6c26135f",
+            "_checkSum": "84fcbd2af04529a995b88aed523299da"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamDevice/WebCamDeviceGetIsFrontFacing.cs",
+            "_guid": "557939409b614474f990354f40dc04ee",
+            "_checkSum": "03ea5051df59328fa308e2cf274a1365"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamDevice/WebCamDeviceGetKind.cs",
+            "_guid": "c18b049bc9c9a294cb76c01941361ee1",
+            "_checkSum": "aa0bcf1fa5cfb01c1da819b8919b1eaa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamDevice/WebCamDeviceGetName.cs",
+            "_guid": "d901bad472e46bd449e29194b88ac362",
+            "_checkSum": "81b7ceaee3ec4483977d6d6061ccb8e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetAutoFocusPoint.cs",
+            "_guid": "dc3d9c51973f2e54e9e4121e8761054c",
+            "_checkSum": "0c1d61131d7a3a65d4842bf2a5cba1df"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetDeviceName.cs",
+            "_guid": "17a9b8788ddbd2a4eb64b73e162bb7fc",
+            "_checkSum": "59c877cdae9a82d077140a907a1cb387"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetDevices.cs",
+            "_guid": "83b45aab523620240b52663834fe511b",
+            "_checkSum": "d2d3d6149eeeaa174d87c927e93aa664"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetDidUpdateThisFrame.cs",
+            "_guid": "3e0193a54e524b145bb734bd861305f7",
+            "_checkSum": "00861a05fb31af75c8199efb19786587"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetIsDepth.cs",
+            "_guid": "679f89e576fd6c04392b6f2708ca11e9",
+            "_checkSum": "ac9d7cf81653637ae662440046e87fba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetIsPlaying.cs",
+            "_guid": "7ab4a98681bdef0468dd068609f93874",
+            "_checkSum": "106865409254865a1eb5295bc1fab010"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetPixel.cs",
+            "_guid": "5bd775e9278193d44a3fe5cb21efb1c2",
+            "_checkSum": "c068ef2fe99963255e70b8465e90da29"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetPixels.cs",
+            "_guid": "63e59b377584b7944abb3b3668b4fa9a",
+            "_checkSum": "a001696dd7b653d5b58b10093952960c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetPixels32.cs",
+            "_guid": "1c706a5f28596ea42aa5c3433c454caf",
+            "_checkSum": "33454f40296569090056e1b3567dff52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetPixels321.cs",
+            "_guid": "907138306ced25b479799dc91e54cdb0",
+            "_checkSum": "6afb8db280e835d2cdbfa3b3fc12f88c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetRequestedFPS.cs",
+            "_guid": "a2452f1a7a1f25e4789875ff368bd536",
+            "_checkSum": "660a141f3098aeaee3399a613263b368"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetRequestedHeight.cs",
+            "_guid": "a4dec0a030ddb2248907a3cd0c82f0e2",
+            "_checkSum": "da5732327f29a7e90db80ea823554ad5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetRequestedWidth.cs",
+            "_guid": "bae84b07a7bd28142a246c04600418e3",
+            "_checkSum": "cb0e84a56354bd473956b461836e80aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetVideoRotationAngle.cs",
+            "_guid": "beb51efffe985254085886a574151a0f",
+            "_checkSum": "38612709d82042e63c6194cea1ed347e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureGetVideoVerticallyMirrored.cs",
+            "_guid": "ed717fc3fbd69124c9c5fb86201d7164",
+            "_checkSum": "fd4974eb1e6d2d5e1e5ee4d9e0a3bb16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTexturePause.cs",
+            "_guid": "ca28d7693c2d8bf49a5f190c2f968071",
+            "_checkSum": "6fc3137805eaf4e617e2d4b9e7cf7c3e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTexturePlay.cs",
+            "_guid": "c413dab856b3ca84db08927073c30d61",
+            "_checkSum": "d55e8e7cf843d51e085141cc67aa128c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureSetAutoFocusPoint.cs",
+            "_guid": "4403c070fe058654fb66492a9fcb7f73",
+            "_checkSum": "0e34d804956eccd997c6c8415a644758"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureSetDeviceName.cs",
+            "_guid": "04da12a7b22406044adf303575c4ce08",
+            "_checkSum": "ed4353005a3188aa2a0505bf2ef05f71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureSetRequestedFPS.cs",
+            "_guid": "6da3d37bba58c98458d96c9e3a6b5f56",
+            "_checkSum": "d7f32d79fc402d53e6cad73a4a336378"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureSetRequestedHeight.cs",
+            "_guid": "be2b6895fe04a01448c039950aeac283",
+            "_checkSum": "e4a71e81623cc1df263297f8b0b53c94"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureSetRequestedWidth.cs",
+            "_guid": "c6521cdb760e50b428e4a6b816e8982f",
+            "_checkSum": "8ca93382437350a5b4440c5e8b4a1249"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/WebCam/WebCamTexture/WebCamTextureStop.cs",
+            "_guid": "5545817561197d343836987e96b2e4d4",
+            "_checkSum": "31584eb1778bca63f4b2c505e1ad0012"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Variables/WebCamDevice.cs",
+            "_guid": "919599d93925b4b43ad45bc86e1c71f5",
+            "_checkSum": "35edd9903529443c4b5f194d7d8eaa93"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Variables/WebCamKind.cs",
+            "_guid": "0dd5066d7a8150f48bba70c47ae93ee1",
+            "_checkSum": "152242be5422f5786fe1ec8ccc357928"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Variables/WebCamTexture.cs",
+            "_guid": "3b67c9b900688a540a8acc5aea39907e",
+            "_checkSum": "951e2d50ce07487a70df190fa4c30a8a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479404902510
+}

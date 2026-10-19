@@ -1,0 +1,51 @@
+.hutong-enum-definition-editor {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.hutong-enum-definition-editor__flags-info {
+    margin-top: 4px;
+}
+
+.hutong-enum-definition-editor__preview-scroll {
+    margin-top: 4px;
+    height: 220px;
+}
+
+.hutong-enum-definition-editor__preview {
+    min-height: 220px;
+    flex-grow: 1;
+    white-space: normal;
+    font-size: 12px;
+}
+
+.hutong-enum-definition-editor__errors {
+    margin-top: 4px;
+}
+
+.hutong-enum-definition-editor__header {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    -unity-font-style: bold;
+}
+
+.hutong-enum-definition-editor__output-folder{
+    margin-right: 4px;
+}
+
+.hutong-enum-definition-editor__generate-row {
+    flex-direction: row;
+}
+
+.hutong-enum-definition-editor__generate-button {
+    height: 28px;
+}
+
+.hutong-enum-definition-editor__delete-button {
+    height: 28px;
+}
+
+.hutong-enum-definition-editor__info {
+    margin-top: 8px;
+}

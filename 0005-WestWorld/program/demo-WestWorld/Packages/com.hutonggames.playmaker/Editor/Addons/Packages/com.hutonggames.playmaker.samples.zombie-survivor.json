@@ -1,0 +1,957 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.samples.zombie-survivor",
+    "_displayName": "Zombie Survivor Game",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Assets/Samples/PlayMaker/Games/ZombieSurvivor",
+        "Assets/Samples/PlayMaker/Shared"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.hash"
+    ],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "A Vampire Survivors style auto-shooter.",
+    "_description": "# Zombie Survivor\n\nA Vampire Survivors style auto-shooter.\n\n{height=300}![screenshot](Packages/com.hutonggames.playmaker/Editor/Addons/Packages/com.hutonggames.playmaker.samples.zombie-survivor.jpg)\n\n## Features\n\n- Infinite generated map using terrain chunks.\n- Endless enemy waves with difficulty scaling over time.\n- Multiple weapons with level ups.\n- Shields that push enemies away.\n- Enemy damage number popups.\n- Player health and XP bars.\n- Object pools for enemies, projectiles, fx, etc.",
+    "_helpUrl": "",
+    "_icon": "GameIcon",
+    "_tags": [
+        "Samples",
+        "Games",
+        "2D"
+    ],
+    "_requiresTmpEssentials": true,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Documentation.asset",
+            "_guid": "91d875c54c77f2c4a8afc00e85609150",
+            "_checkSum": "b0ba04da148fa5f29c60031e31ec1d2e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/ZombieSurvivor.asset",
+            "_guid": "c6fb0d919f6a8d34aa5bce7a533a86c6",
+            "_checkSum": "87f477d3d13709317042183e2dded0bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/ZombieSurvivor.unity",
+            "_guid": "a42f4e467910ce540a132acf717c223a",
+            "_checkSum": "e67a36bbd2b2ed90bebe8f0c5c6d67f8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/EnemyWaves.asset",
+            "_guid": "be9c216f42117d24c962f98006d97554",
+            "_checkSum": "bc8b88eaad82afd9a62fc79265942f3f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Levels.asset",
+            "_guid": "2b10de14bc5ae874abe600f30ac392ab",
+            "_checkSum": "87fb0c28e87d70f18de6af4cb84df3b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Upgrades.asset",
+            "_guid": "4847c9d35ed4c944a963faca0c11ab9e",
+            "_checkSum": "e5ced31f4c99d67db8da1b608b44674b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/UpgradeTypes.asset",
+            "_guid": "cb616865b09ffd34c80352e69fb479e8",
+            "_checkSum": "fe17c15421d7e802f5a90d5fc70035dc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/AddXP.asset",
+            "_guid": "95a3b0996980e0e45b05dd02e3be723d",
+            "_checkSum": "1664cd929fd37135457a660a803d13dd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/Heal.asset",
+            "_guid": "517e9ea9177584c42aa1de51fdcc76a4",
+            "_checkSum": "b5484379b3830e4942bc9f848baf674b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/Hero.asset",
+            "_guid": "90260e5f6122a484faebf41804f790b5",
+            "_checkSum": "feba62933ebccf34b449f72957ccc1b5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/Hit.asset",
+            "_guid": "65bcdaa7f288a8948856e4473415cacb",
+            "_checkSum": "bf751fd3a1864573bca9cdd0e4d67958"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/KnockBack.asset",
+            "_guid": "c7611a95f5bf359418c0260d07ef03f1",
+            "_checkSum": "53d5f2f6b8c68460f077832adad7ac4d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/LevelUp.asset",
+            "_guid": "fac816d79b26234449669ee471e1654a",
+            "_checkSum": "a4c484f8d1e64be261e2aa215260f8dc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/NumberSprites.asset",
+            "_guid": "619546bb4cf3047489d6c41d31a258b8",
+            "_checkSum": "7e547f0b3a48ec727cb43d24ef65a9cc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/OrbCollected.asset",
+            "_guid": "a122c605ceba39849ba09ee7deff7ab2",
+            "_checkSum": "2eaf268a3b76717bfc055266458ba69c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/OrbPickupDistance.asset",
+            "_guid": "1259678b9fdc2fc408e44567a42d7e4a",
+            "_checkSum": "34f2f7ef157c05cefe53682ea8f5bf06"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/OrbsCollected.asset",
+            "_guid": "705deadd18b4dbc429802bbe705b99d7",
+            "_checkSum": "511c647a5f6f2dfbcfb995630b702ffb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/PlayerLevel.asset",
+            "_guid": "80cea488ade998d4a8d866089c040e39",
+            "_checkSum": "de430985d73acd25b216f5532615d3c9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/PlayerXP.asset",
+            "_guid": "64765bd05ddfd1f4098b8f8ae6119aba",
+            "_checkSum": "7853a968ee93a4ce5218fab46b5e39ce"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/SpawnedChunks.asset",
+            "_guid": "71fcd678c29be9642a8e9c30ff036af2",
+            "_checkSum": "fc32d895b69a52dd4d452a063b0c08eb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Globals/Upgrade.asset",
+            "_guid": "9fa8e3693f8fe6749bf6f3e9c081f20d",
+            "_checkSum": "083d5fc4872732afc06403620b3b8991"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/HitPopup.prefab",
+            "_guid": "2f6c1a014a4e02041bbbcaea9927c5a9",
+            "_checkSum": "2466032b7096dec8edc3211761c666f0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Orb.prefab",
+            "_guid": "91b455aec4e850646b3d816749bd425b",
+            "_checkSum": "765fa8c53a2fc5d2ac47de70e1654edf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/UpgradeUI.prefab",
+            "_guid": "3ec6140806fabae488d04d2eacfc1acd",
+            "_checkSum": "7713fa6830dd9666bc8e6c8c04c007f0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/hero.png",
+            "_guid": "6a5b613a94fa41d4d87b56249df42549",
+            "_checkSum": "a59329c1a81ed06f0d9de8320865f4bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/orb.png",
+            "_guid": "355ed79abdfdd9a439bcd7473c8de950",
+            "_checkSum": "54cf1da21edb8567beff8761c7e87ae2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Templates/Health.asset",
+            "_guid": "d4400f56309dfae4ca5452eea563a1b7",
+            "_checkSum": "621e559f7bfe3089f0289b50ffc4930b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Templates/MoveTowardsTargetWithPauses.asset",
+            "_guid": "2d95dffd984329a46b69a2480e66360a",
+            "_checkSum": "af508c18bebfd5f651824f8607fe4c7b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Templates/SimpleProjectile.asset",
+            "_guid": "ba6f3ae434226d94cbc9a394d93a5acb",
+            "_checkSum": "27bf3158db305e56b9e1137c47a9adc2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Templates/TakeDamage.asset",
+            "_guid": "62f799fdf1db833479bc39192d9b8fad",
+            "_checkSum": "d2dc01905e6f35ca5a0c5e04ebd0dc72"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Tilemap/Terrain.prefab",
+            "_guid": "6e680e993370cd44e816fc744d5f5a60",
+            "_checkSum": "975e843cdb499ec2ee3d4310bcf165dc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Definitions/EnemyStats.asset",
+            "_guid": "c09c259ba59a8f345aff3869234dd3c2",
+            "_checkSum": "8be0ff6bcc0f15e1cf705d59bdefa41c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Definitions/EnemyWave.asset",
+            "_guid": "96485fbd7e9cf4f4dbaecb7d1d3f40ef",
+            "_checkSum": "9759395326f36e6ce1c22b1c4b34fcb7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Definitions/LevelInfo.asset",
+            "_guid": "35dcc890822b3a14e82dcbc9ce08cf9e",
+            "_checkSum": "76bc5c96ad119b16224785fd0a0b4bff"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Definitions/Upgrade.asset",
+            "_guid": "3c25107ccf98a9841b7d57eb812945eb",
+            "_checkSum": "6a860cf8c43065e0971e76a8ffcb8835"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Definitions/UpgradeProgress.asset",
+            "_guid": "feced6056cb5471459bde6d066d52ab2",
+            "_checkSum": "e1fc79e01f9602072bb8eca0963c0582"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Definitions/UpgradeType.asset",
+            "_guid": "42980f87c2abcd94ab4f6eb9cc1f3c06",
+            "_checkSum": "d1e18784975418f3a6d729681d4284e9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/DataTables/Definitions/UpgradeUI.asset",
+            "_guid": "fbfe01bb6c97c0549a1a2e79234335d7",
+            "_checkSum": "b11dd6ff6aef8b76936ba0cead0ef1d0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Enemies/Bat.prefab",
+            "_guid": "9081bf44584c6ef44a9328f02d1e2a37",
+            "_checkSum": "d5c60e854f01901fcd1a292cd34f1d4c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Enemies/Carcass.prefab",
+            "_guid": "c47b5ca6113da204d99bafcc7cc5406a",
+            "_checkSum": "5393c09bc630b9519228a94311aba1e0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Enemies/Enemy.asset",
+            "_guid": "aef1ef00c064289409afc796b4b36d7a",
+            "_checkSum": "86950c753254ebdbe3eeca3796596c7e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Enemies/Maggot.prefab",
+            "_guid": "43b77a9712a83124d8d960d4fd89a468",
+            "_checkSum": "18d8a94366cfdced6326019d63e37182"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Enemies/Zombie.prefab",
+            "_guid": "5017b17f1f6ab3d4ba6657aadd3596ed",
+            "_checkSum": "75711b29a8d748eb4cedffd7dd7d64a5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Enemies/ZombieGiant.prefab",
+            "_guid": "3036edd85d63f124e8990fd03281e915",
+            "_checkSum": "54c70396a8e69a9f04cc771f9cd6fe20"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Knife/Knife Level 2.prefab",
+            "_guid": "682b18e63284c0c4ca7cd9922d50f798",
+            "_checkSum": "873d20795bd72a5a310ff10c76c8027c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Knife/Knife Level 3.prefab",
+            "_guid": "4bee481883b7815419772055ca3dce60",
+            "_checkSum": "ff66fe3895f8b06143044620519d43e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Knife/Knife.prefab",
+            "_guid": "a29fe6c852636f743a60993d5d1bf64f",
+            "_checkSum": "c8a3c68ca1f25959e45a27edd1b66220"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_1.prefab",
+            "_guid": "b23e4fc64ae9ba24aac7410c4fcf0113",
+            "_checkSum": "2f1e814fd2a313f831b39bea65551732"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_10.prefab",
+            "_guid": "380d575449278644a8c213d151d19746",
+            "_checkSum": "64ec18fc6cb38af272001eba89f58396"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_2.prefab",
+            "_guid": "f38c6935f8338834db3031c434fce99c",
+            "_checkSum": "307b8fb73122d29e357b488b210e4b69"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_3.prefab",
+            "_guid": "ec85760ab1770d1488aea1c512947bf4",
+            "_checkSum": "0eebd771f266dbfe1af2c18428075db1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_4.prefab",
+            "_guid": "66c59ef880afc2e4b93ed6d235b6b177",
+            "_checkSum": "ac83c6bf8c2592499c5b4eecac6cc827"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_5.prefab",
+            "_guid": "eebc7370029c55c4dbfe9c3cdde348e9",
+            "_checkSum": "6b5b84336e6fe9eba06a93758f2475e1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_6.prefab",
+            "_guid": "6cdbe3d8c12524c49bd1546341339594",
+            "_checkSum": "4787de5306d2757e6d68ddcc602f4663"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_7.prefab",
+            "_guid": "afbfe91a288707748ac3bf2dd78f18c2",
+            "_checkSum": "31355691ca40e8d249d3dffe1f73a002"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_8.prefab",
+            "_guid": "9d54a09e394a30d4bbbb2f917f030c4b",
+            "_checkSum": "61e2fa0da3704ddcb5f64ed6ab665dc4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/rocks_9.prefab",
+            "_guid": "4aa7e54f27f48124fbf529d551722edf",
+            "_checkSum": "f206c5b8b49072dd09d8a3552568bd62"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/TerrainChunk.prefab",
+            "_guid": "3210b48587c749f4095d592ad23b6804",
+            "_checkSum": "c978504f77db1c52f1532700582a8818"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/TerrainSpawnCheck.prefab",
+            "_guid": "820f616bec193c647a1bae5e55688e82",
+            "_checkSum": "8e4dbd3cbf9f9ab53522d5b107d2c206"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Prefabs/Terrain/TerrainSpawnChecks.prefab",
+            "_guid": "8fcc617c00da9144a813015f4c536d5d",
+            "_checkSum": "f8bfb190babb5db50f42ee8c5e44c4d8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Enemies/bat.png",
+            "_guid": "97b9569f8b9696346a541d6bf08824e9",
+            "_checkSum": "bc0122025d677a725f2964581b789091"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Enemies/brain.png",
+            "_guid": "3de3ca291bf603d4ab04ca637bd40b41",
+            "_checkSum": "b1b1c8f0b12d6e49ab8fadccabf6f167"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Enemies/carcass.png",
+            "_guid": "f7ec28514af6a85428667accc1cf53c0",
+            "_checkSum": "8555469dd5bc512cdb9f9349d42dcdef"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Enemies/maggot.png",
+            "_guid": "1e73788e77b31424780874199fd4f857",
+            "_checkSum": "da6ffe2403365f7a2c6ace1898bbf885"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Enemies/maggot2.png",
+            "_guid": "b2057b0e9f8adcc4186c8a9656b77625",
+            "_checkSum": "0bdd7499098ba5aa80a9f8950abc4485"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Enemies/skeleton-bat.png",
+            "_guid": "09b2a6a70da04c14a8501a31ac397e4c",
+            "_checkSum": "eb4a2ccddca48dc12ce66e95e0b38bdc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Enemies/skeleton.png",
+            "_guid": "734a4018774f4f14abbf7b88fb0b3178",
+            "_checkSum": "1f7ce9a0e2df372f623b0d8898318e0e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Fonts/boxy_bold_fat.png",
+            "_guid": "e2204470de4b00d4ca33164f81a58ec8",
+            "_checkSum": "c31fb6ae5a2a6caefe2c45a2a461e45d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Fonts/LICENCES.txt",
+            "_guid": "29252a09c81e70646b9513ade7f12d6d",
+            "_checkSum": "7b9d1f44569334d17afada78445ab00a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Icons/attractor.png",
+            "_guid": "ce09fc931b1091e49aee7c354706a4ac",
+            "_checkSum": "7b5907a713d427fd171a56ca21b21b2a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Icons/fireball-icon.png",
+            "_guid": "a94439de6227ef049b607225e64b7d5c",
+            "_checkSum": "f955e775d9aaebfca39889730e688636"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Icons/health-icon.png",
+            "_guid": "e4c80768a1dd7d54a9531bf1fcab1363",
+            "_checkSum": "16c6e447f68a2ee3426ec018c93a2387"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Icons/knife-icon.png",
+            "_guid": "3c3507376a99f5a49be585c733d3f06b",
+            "_checkSum": "0f9bba4732cba68d4675ee2d7395a37c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Icons/lightning.png",
+            "_guid": "2fc9ca47700835f49b8bd5775074d9bc",
+            "_checkSum": "b7025c1821c666caf24591137426c58b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Icons/shield-icon.png",
+            "_guid": "e4f27ef03815d36458315bf97afe7c70",
+            "_checkSum": "9ec574f2fcfd2dc0ce0377c3d929b5fa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Icons/sword-icon.png",
+            "_guid": "2af022eb2b6f59c42bb297e76393e015",
+            "_checkSum": "5a69b2cde821464aae2585470d4ab230"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Terrain/Attribution.txt",
+            "_guid": "3b4f775ea66193441a98a1781e14e81e",
+            "_checkSum": "d9561221412c9591e0c3f8a3c269ab08"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Terrain/grass.png",
+            "_guid": "c97de4f55e4b2fd43b7dad64691e5f11",
+            "_checkSum": "7ca9d5c49c76a64bf6b30ecc2cfe8f26"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Terrain/terrain.png",
+            "_guid": "c1c3a53b547c7f94ca8d4d30328969c4",
+            "_checkSum": "c6dafe8d907c61cdaf12a1d766e709b5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/UI/License.txt",
+            "_guid": "816a1d4ab9b8e4740baafef8bfae34c8",
+            "_checkSum": "0e3fe94b5557d7356868a73bd711a2e4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/UI/panel-border-001.png",
+            "_guid": "b0de0695b641a2b4eb260cb00ea0989b",
+            "_checkSum": "9ffd87bbc2c730696cc164ad378a481c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/UI/panel-border-031.png",
+            "_guid": "efc29538b458ca843bbf34dd4b7873ad",
+            "_checkSum": "8b89fe65a465cf59a5480811941a790a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Weapons/knife.png",
+            "_guid": "04448468502528349bae181acbeeb4ce",
+            "_checkSum": "74a62c73e1b5576a2628040598a4dcb4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Sprites/Weapons/shields.png",
+            "_guid": "24ffecff370292442bfc173cbeadca2b",
+            "_checkSum": "795f8fcf94de814c029658edd76a0a87"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Tilemap/Tiles/grass_1.asset",
+            "_guid": "2d3053cc7ccc892498a51410e8a56a50",
+            "_checkSum": "ae1f210c89b6e466c2a52d1ce18b261d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Tilemap/Tiles/grass_2.asset",
+            "_guid": "ab5e9d78f61cb5e4eb7799979b841e79",
+            "_checkSum": "c20604ea0d7a0133a7be9a8071179548"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/ZombieSurvivor/Tilemap/Tiles/grass_3.asset",
+            "_guid": "03c026f26dd6ee04eb26abf20fabf5dc",
+            "_checkSum": "90f13a9eaeba3c37529f39ffc9e2140b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
+            "_guid": "1e791f30eb3e9d84e84f065801a5e960",
+            "_checkSum": "f82b5a4cbaa2c47f63b84edbe3d5bf5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Samples.asset",
+            "_guid": "ee5f617a22ae3614793f6ae5d52cc6ba",
+            "_checkSum": "3a1d9e3595f33697d28e48dadbdb462f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/beep.mp3",
+            "_guid": "f2e8a6a4e637a3e47a3825fc1cbdd7f0",
+            "_checkSum": "17ce0037a19ac7ca0f66bf80cb3eddaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/dataChirp.mp3",
+            "_guid": "d356acd0857defe44993ff1b59654fe3",
+            "_checkSum": "a11207e31c18ccc68569e8446ffa7d64"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/doorServos.mp3",
+            "_guid": "fe51bc757964761458c6d5b6fc899d7e",
+            "_checkSum": "fbfb470edcc97c9bf61d6cd46e770a86"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/pressurePlate.mp3",
+            "_guid": "7d5d54edd899d644e8995de4d63baea2",
+            "_checkSum": "9895286c39e7440dcc3b921879ca45a0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/SampleAudioMixer.mixer",
+            "_guid": "1665e9ccdc7e04d4c91405e69a0198ab",
+            "_checkSum": "74a74291a9bbbd00ec32aebe4cb06271"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortAlarm.mp3",
+            "_guid": "46c2c82b71852604f90f60d57bc9e4d1",
+            "_checkSum": "27115bdaedc138bbf215d834a8bbfdaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortBeep.mp3",
+            "_guid": "f8b7b72fcd4468b4288f6f86b3064f50",
+            "_checkSum": "a752a3ab3b115549133bf60e1597b455"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/success.wav",
+            "_guid": "3992fab729161bd4c80bb597a0dcdd42",
+            "_checkSum": "bd5aa70b8142da7a08f9b4c4b2a9d818"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/synthBeep.mp3",
+            "_guid": "3c689c46bcf2d8b4fae30f3169e72aa8",
+            "_checkSum": "36a5fc181a8bcfe1ac698770c6f82a1e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Black.ttf",
+            "_guid": "76348cbe618aaf24685419c3d653a07b",
+            "_checkSum": "e631d2735799aa943d93d301abf423d2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Bold.ttf",
+            "_guid": "42efd3313ae7c0448a792a49e622525e",
+            "_checkSum": "85d339d916479f729938d2911b85bf1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Light.ttf",
+            "_guid": "54ee4b17b85421342a80262adfa1c9f1",
+            "_checkSum": "2fe27d9d10cdfccb1baef28a45d5ba90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Regular.ttf",
+            "_guid": "84a15c2272c6de849816aa30935f3896",
+            "_checkSum": "2d36b1a925432bae7f3c53a340868c6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Thin.ttf",
+            "_guid": "94af4a26a50b2a4439d9a26e1141c1f9",
+            "_checkSum": "9a77fbaa85fa42b73e3b96399daf49c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/OFL.txt",
+            "_guid": "f022cc97c71d75940a9f2ca64f4418d8",
+            "_checkSum": "99aa8fee7ed71044ae773b92d79ab24c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF - Fallback.asset",
+            "_guid": "528c8856f21cc8b42bf5158fcb8dedb3",
+            "_checkSum": "569a29093b0a8f4eff204f8f60053ccd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF.asset",
+            "_guid": "3b973c8e584b61e4784fbee61a60a21a",
+            "_checkSum": "84389414ce2d65f79b5f779bbb3f83ea"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Roboto-Bold.ttf",
+            "_guid": "144b338c0044550479b6d8ac7872fe73",
+            "_checkSum": "ee7b96fa85d8fdb8c126409326ac2d2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Checker.mat",
+            "_guid": "fddf13eac51d6c04da368778921c9bae",
+            "_checkSum": "9cf2cfdfd2564166590696788c03ec97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Default.mat",
+            "_guid": "f7bbdc9c6dbee914d811845bdd27fec0",
+            "_checkSum": "042abdfb79e484c238bbefcc88832353"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Grid.mat",
+            "_guid": "45d6431d5737c9942aab2ea5f40f4fa8",
+            "_checkSum": "1eed8c1fc0b5d52845007fdb5a2460bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Ground.mat",
+            "_guid": "78d9bf08434302945a528d19f61d0c68",
+            "_checkSum": "d788d02ddfce9154bb74403fc1b62018"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Laser.mat",
+            "_guid": "74e31ab6eaff9604086b8bfb2f5ac9e6",
+            "_checkSum": "351dc65df041b594d17421e07e26dab9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Player.mat",
+            "_guid": "660ac48001db659448315c97245df61a",
+            "_checkSum": "d5cefb5294afa77e35f5f25d48168e96"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Red.mat",
+            "_guid": "0958838b7ccb9b846bf5bf4f107530ba",
+            "_checkSum": "6d1684c571298d52f0ba8cc5dab9a317"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Skybox.mat",
+            "_guid": "e9b1a22031bea8e4785888857a897c00",
+            "_checkSum": "5fefc95ed4d7e1b20bdd04eff875292b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/SkyboxDawn.mat",
+            "_guid": "342cf32b16983a94faf9f63c0535b269",
+            "_checkSum": "b9e8c6756cd989fcfc51e8efb1baafd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Floor32x01x32.fbx",
+            "_guid": "de0de8b009a1acd42846fe9db10fe150",
+            "_checkSum": "c09fa117a2e78f146bb8134508d61cb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Hill32x07x32.fbx",
+            "_guid": "5cacea182896d0d45a3e56e31cb505e2",
+            "_checkSum": "d06500a0273195b0d981cf0df174792f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicMaterial",
+            "_guid": "23e5aa8fa6a583949802532a1b73fee2",
+            "_checkSum": "cded2b73c0531b2d9e594ec010f8da5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicsMaterial2D",
+            "_guid": "db0bdc520e4f01a41bfa0d2954842661",
+            "_checkSum": "c4475fa5a0bc8b4d117ca1232ff0b01f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/AutoUpdate.prefab",
+            "_guid": "23da1eef7a529f446b1d8373caa22239",
+            "_checkSum": "1cacfc82c029079a194ebacc1a794f0c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Cube.prefab",
+            "_guid": "583d6eb741ffa524395dc0e13b74c1a2",
+            "_checkSum": "36a5bbef629da48ba2a5ea78895852b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/EventSystem.prefab",
+            "_guid": "2e16bc28d47957841b658e2b5e980dae",
+            "_checkSum": "006f76dd746ad740bf89cd640b911d6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Floor32x01x32.prefab",
+            "_guid": "e8abf9f0f83d0a244ba8d3e71b5334b9",
+            "_checkSum": "a6cb37ee0e57a870910c5c07fe780969"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Hill32x07x32.prefab",
+            "_guid": "295074861b42b3043bc8cbc09e918e56",
+            "_checkSum": "4a94a4c09bd234703f58becf1cf2ac3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/RadarBlip.prefab",
+            "_guid": "b0178bbc0dda35d4787bc07426038800",
+            "_checkSum": "7f368a7d266174583eaf84510223e885"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Stage32x32.prefab",
+            "_guid": "64354fef861314c4c9e8e470494fa5f3",
+            "_checkSum": "cb65539a0dc9f9853d0b751f33b2e695"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/AxisBillboardRibbon.cs",
+            "_guid": "55ce84e98fff3f1468a589458f2545b7",
+            "_checkSum": "f98ec916a4339e136fd386846376aed7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/PlayModePhysics2DSetup.cs",
+            "_guid": "5f2fa1a23f5d49a3a6659a4d3ff95e2f",
+            "_checkSum": "81f7c7517bf1847df90e591df5b72c6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SimpleFaceCameraBillboard.cs",
+            "_guid": "8194cd5718cc4629a0670c4b14d364c1",
+            "_checkSum": "8a06e92d2b2f0620b4109e867af2dc05"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SpriteNearFade.cs",
+            "_guid": "3a0c97bf5bdd480790fea80ef055b59b",
+            "_checkSum": "033122fb7165e0753866ba0a7fa6da6c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeParticle.shader",
+            "_guid": "5911c31b8fe44662b71a5ca0e4401c8c",
+            "_checkSum": "6da1b1a4a68c6151ae49987ecf020b1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeStandardDither.shader",
+            "_guid": "e32711c84d9641afb5d59a5fb19de20c",
+            "_checkSum": "d286e9f48121e378ab95fcbd95d5aff1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/Skybox Gradient.shader",
+            "_guid": "8b20b5c1b1c710d4da9e67331b096e31",
+            "_checkSum": "4566804149b4495a5e1d5b6026f77909"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopCircle.png",
+            "_guid": "39220fd80b39dd44a96de8693c4eee7c",
+            "_checkSum": "6ca29670ba230e243bc8e5a5d8d2f7e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopSquare.png",
+            "_guid": "409e07c936448a541b7fe5e19136841a",
+            "_checkSum": "ab8176ea0e80508377687e2d39a1bd93"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledCircle.png",
+            "_guid": "beb01e11cc8b2784c9dc20f845348db1",
+            "_checkSum": "df951fae597e49963f5ed99a75ad1c02"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledSquare.png",
+            "_guid": "604db4374a8a1a14e86d4b59df5ff081",
+            "_checkSum": "3a467d61bd583a03ce4950bbf3b83b2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/checker.png",
+            "_guid": "01d8784180eb8ea4dbe826f07e471b18",
+            "_checkSum": "76f41ee6a3f97b92890886951cac774c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Grid.png",
+            "_guid": "dda43d596acd98a4b940ebcec5c510b9",
+            "_checkSum": "7c18af9b79ce4a58ca2db56123b186e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/GridBright.png",
+            "_guid": "83e8d34777238f1439158c659ed2d4cb",
+            "_checkSum": "d571d666138fa79484fb9794c8c57cdf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/SolidWhite.png",
+            "_guid": "5921146df0c6d27448c69ea18ea1ed84",
+            "_checkSum": "0c987eb8aa29df0620678b1c6ed23ee4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Transparent.png",
+            "_guid": "dc52f68efbe025248b5bdcfcb7150e2a",
+            "_checkSum": "265145c064b8d066d4fcbf72a04f7165"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Checker.mat",
+            "_guid": "a6dfc9b8b030f444f9bf9a8bb95e4ec4",
+            "_checkSum": "74b394da8619c44a87f1ae2b081a4df9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Default.mat",
+            "_guid": "66083b4abef770341991fcbb6828db55",
+            "_checkSum": "b3e1a1f08a8b0f4c91481e208f01480d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Grid.mat",
+            "_guid": "75a649f7bc2340247b338440bdb19ebe",
+            "_checkSum": "376106f45f9753987b5896c245b83836"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
+            "_guid": "212b8995053a83e4aa6208246bbaad84",
+            "_checkSum": "f019b61740735448be27f97aed2b2059"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
+            "_guid": "13c039b2b9edf494382d0277d57dd8d7",
+            "_checkSum": "98760c5c514c73bbf4c28971adb17b6f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/Editor/PlayModePhysics2DSetupEditor.cs",
+            "_guid": "4dd52637d24f40ee819dcf69d6886d73",
+            "_checkSum": "e162694ac92bc28a8830145f933e1b42"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/URP/DistanceFade_URP_LitDither.shader",
+            "_guid": "13297d6c083dc034e826a46df4044c30",
+            "_checkSum": "5114d038b9a307b93a4cbbfe05813512"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/Characters/ShapeCharacters.png",
+            "_guid": "7492883ae6b6e634c9a445a2e76ca5c6",
+            "_checkSum": "1b0ce3c2a6083e8d6797c7aaa0766f1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/ArrowUp.png",
+            "_guid": "74e39b9f04820d84394b7e28e196e851",
+            "_checkSum": "374dcdf7451b807584c0c58b8c2cfc0b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Card.png",
+            "_guid": "dce7c6101a8a886468de51df84bf41ad",
+            "_checkSum": "a12a6e132dbe9d7cccccd47dff93d0bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/CardHighlight.png",
+            "_guid": "0107dbaaaf5b26d44a1c354e06e5b679",
+            "_checkSum": "4f9194cb712cb306d581b92a9a460744"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/info-background.png",
+            "_guid": "6b370e82d0721824d995bdc03451f29b",
+            "_checkSum": "4f420e4b3256fee9c0e61db8e6f8a555"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Reticle-Simple.png",
+            "_guid": "52973ca95abd7c04896c7920ecb65c6d",
+            "_checkSum": "2daee1f9612ad4863e9ede01c362c15d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/SprintIcon.png",
+            "_guid": "f08e787a07b26c64d983e842e6d0bb2d",
+            "_checkSum": "d8846aeb3a9198d91ddd3da49250b46a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/sword_silver.png",
+            "_guid": "84f2f87b85b9f454d963aa0d561f15e0",
+            "_checkSum": "1ad92a48bbc7af56b4897e3242f6f7cd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/UI-Arrow.png",
+            "_guid": "4871407a71980914ca6f287aadab65ef",
+            "_checkSum": "c36b935e2c77818ee6d9323a7f53a021"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/BlueUI.png",
+            "_guid": "c2e093b169260c341ba07dfb96995e7e",
+            "_checkSum": "d791ab7a5a8f5de97d7bd94e02093c8b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/ExtraUI.png",
+            "_guid": "f03e9fe579d803544b04726a47d42d48",
+            "_checkSum": "db8bf41719f1eb7f2fa0a2baa7c074ec"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/GreyUI.png",
+            "_guid": "fbfe51f381ccd6341a42a1ccb8806ed6",
+            "_checkSum": "f0b1fd3e6d68c0816b2886599d7eb0df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/License.txt",
+            "_guid": "82baf4ad16dac7c4eb10fd0f5b833726",
+            "_checkSum": "7834f429eccd41168be8186cd1460d94"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/panel_border_grey.png",
+            "_guid": "e07b108c722d76041b936aa79ff394d3",
+            "_checkSum": "aea30485c7c4f1cda49de7f8ced82e27"
+        }
+    ],
+    "_usages": {
+        "_actions": [
+            "HutongGames.AnimateFloatCosineWave",
+            "HutongGames.AnimateFloatLinear",
+            "HutongGames.PlayMaker.Actions.BroadcastEvent",
+            "HutongGames.PlayMaker.Actions.CameraSetTransparencySortAxis",
+            "HutongGames.PlayMaker.Actions.CameraSetTransparencySortMode",
+            "HutongGames.PlayMaker.Actions.CheckFloatGreaterThan",
+            "HutongGames.PlayMaker.Actions.CheckFloatLessThanOrEqual",
+            "HutongGames.PlayMaker.Actions.CheckIntGreaterThan",
+            "HutongGames.PlayMaker.Actions.CheckIntGreaterThanOrEqual",
+            "HutongGames.PlayMaker.Actions.CheckIntLessThan",
+            "HutongGames.PlayMaker.Actions.CheckIntLessThanOrEqual",
+            "HutongGames.PlayMaker.Actions.CheckListContains",
+            "HutongGames.PlayMaker.Actions.Collider2DOverlapCollider",
+            "HutongGames.PlayMaker.Actions.DataComponentGetFieldValue",
+            "HutongGames.PlayMaker.Actions.DataRecordGetValues",
+            "HutongGames.PlayMaker.Actions.DataTableAddRow",
+            "HutongGames.PlayMaker.Actions.DataTableCheckIsEmpty",
+            "HutongGames.PlayMaker.Actions.DataTableClear",
+            "HutongGames.PlayMaker.Actions.DataTableFindRow",
+            "HutongGames.PlayMaker.Actions.DataTableGetCellValue",
+            "HutongGames.PlayMaker.Actions.DataTableGetRowValues",
+            "HutongGames.PlayMaker.Actions.DataTableSetCellValue",
+            "HutongGames.PlayMaker.Actions.DataTableTrimRandom",
+            "HutongGames.PlayMaker.Actions.DataTableWidgetRebuild",
+            "HutongGames.PlayMaker.Actions.FloatAdd",
+            "HutongGames.PlayMaker.Actions.FloatSetValue",
+            "HutongGames.PlayMaker.Actions.FloatSubtract",
+            "HutongGames.PlayMaker.Actions.ForEachDataTableRecord",
+            "HutongGames.PlayMaker.Actions.ForEachListItem",
+            "HutongGames.PlayMaker.Actions.GameObjectActivate",
+            "HutongGames.PlayMaker.Actions.GameObjectDeactivate",
+            "HutongGames.PlayMaker.Actions.GameObjectDestroy",
+            "HutongGames.PlayMaker.Actions.GameObjectFind",
+            "HutongGames.PlayMaker.Actions.GameObjectGetData",
+            "HutongGames.PlayMaker.Actions.GameObjectGetDataField",
+            "HutongGames.PlayMaker.Actions.GameObjectInstantiateAtTransform",
+            "HutongGames.PlayMaker.Actions.GameObjectSetName",
+            "HutongGames.PlayMaker.Actions.GameObjectSetValue",
+            "HutongGames.PlayMaker.Actions.GetRandomGameObject",
+            "HutongGames.PlayMaker.Actions.GetRandomTransform",
+            "HutongGames.PlayMaker.Actions.HashVector2",
+            "HutongGames.PlayMaker.Actions.InputGetAxisVector2",
+            "HutongGames.PlayMaker.Actions.IntegerAdd",
+            "HutongGames.PlayMaker.Actions.IntegerOperator",
+            "HutongGames.PlayMaker.Actions.IntegerSetValue",
+            "HutongGames.PlayMaker.Actions.IntegerSubtract",
+            "HutongGames.PlayMaker.Actions.ListAdd",
+            "HutongGames.PlayMaker.Actions.Loop",
+            "HutongGames.PlayMaker.Actions.LoopSkip",
+            "HutongGames.PlayMaker.Actions.LoopSkip__CheckInt",
+            "HutongGames.PlayMaker.Actions.LoopState",
+            "HutongGames.PlayMaker.Actions.MathfMax",
+            "HutongGames.PlayMaker.Actions.ObjectPoolCreate",
+            "HutongGames.PlayMaker.Actions.ObjectPoolReleaseObject",
+            "HutongGames.PlayMaker.Actions.ObjectPoolSpawnObjectAtPosition",
+            "HutongGames.PlayMaker.Actions.ObjectPoolSpawnObjectAtTransform",
+            "HutongGames.PlayMaker.Actions.ObjectPoolSpawnObjectsAtTransformRadial2D",
+            "HutongGames.PlayMaker.Actions.OnVariableValueChanged",
+            "HutongGames.PlayMaker.Actions.RandomGetFloatInRange",
+            "HutongGames.PlayMaker.Actions.RandomGetPointInCircle",
+            "HutongGames.PlayMaker.Actions.RandomGetPointInCollider2D",
+            "HutongGames.PlayMaker.Actions.RandomGetPointInRectRing",
+            "HutongGames.PlayMaker.Actions.ResumeGame",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DMoveTowardsTarget",
+            "HutongGames.PlayMaker.Actions.SceneManagement.SceneManagerReloadActiveScene",
+            "HutongGames.PlayMaker.Actions.SendEvent",
+            "HutongGames.PlayMaker.Actions.SendEventToGameObject",
+            "HutongGames.PlayMaker.Actions.SendEventToScenePath",
+            "HutongGames.PlayMaker.Actions.SpriteNumberDisplay",
+            "HutongGames.PlayMaker.Actions.SpriteRendererAnimate",
+            "HutongGames.PlayMaker.Actions.SpriteRendererFlipXToFaceDirection",
+            "HutongGames.PlayMaker.Actions.SpriteRendererFlipXToFaceTarget",
+            "HutongGames.PlayMaker.Actions.SpriteRendererSetAlpha",
+            "HutongGames.PlayMaker.Actions.TimerCheckDone",
+            "HutongGames.PlayMaker.Actions.TimerStart",
+            "HutongGames.PlayMaker.Actions.TMP_TextSetText__Integer",
+            "HutongGames.PlayMaker.Actions.TransformAlignToDirection2D",
+            "HutongGames.PlayMaker.Actions.TransformCheckIsCloseToTarget",
+            "HutongGames.PlayMaker.Actions.TransformCheckIsVisible",
+            "HutongGames.PlayMaker.Actions.TransformFindAncestor",
+            "HutongGames.PlayMaker.Actions.TransformGetChildCount",
+            "HutongGames.PlayMaker.Actions.TransformGetParent",
+            "HutongGames.PlayMaker.Actions.TransformGetPosition2D",
+            "HutongGames.PlayMaker.Actions.TransformMoveAwayFromTarget",
+            "HutongGames.PlayMaker.Actions.TransformMoveTowardsTarget",
+            "HutongGames.PlayMaker.Actions.TransformSetLocalScale",
+            "HutongGames.PlayMaker.Actions.TransformSetPosition__XY",
+            "HutongGames.PlayMaker.Actions.TransformTranslate",
+            "HutongGames.PlayMaker.Actions.TransformTranslate2D",
+            "HutongGames.PlayMaker.Actions.UI.CloseModalCanvas",
+            "HutongGames.PlayMaker.Actions.UI.DataTableWidgetOnRowAction",
+            "HutongGames.PlayMaker.Actions.UI.FilledImageMeterSetValues",
+            "HutongGames.PlayMaker.Actions.UI.OpenModalCanvas",
+            "HutongGames.PlayMaker.Actions.UI.SpriteMeterSetValues",
+            "HutongGames.PlayMaker.Actions.WaitForAnyKeyDown",
+            "HutongGames.PlayMaker.Actions.WaitForIntervalFromRate",
+            "HutongGames.PlayMaker.Actions.WaitForNextFrame",
+            "HutongGames.PlayMaker.Actions.WaitForRandomTime",
+            "HutongGames.PlayMaker.Actions.WaitForSeconds"
+        ]
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349229856698913
+}

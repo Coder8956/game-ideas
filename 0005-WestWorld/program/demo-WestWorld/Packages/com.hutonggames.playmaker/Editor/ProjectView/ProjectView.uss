@@ -1,0 +1,250 @@
+
+.hutong-project-view {
+    flex-grow: 1;
+}
+
+.hutong-dimmed {
+    opacity: 0.3;
+}
+
+.hutong-project-view__filters-panel {
+    background-color: var(--unity-colors-toolbar-background);
+    position: absolute;
+    top: 25px;
+    right: 18px;
+}
+
+.hutong-editor__toolbar-settings-menu {
+    /*background-color: initial;*/
+    background-image: var(--hutong-editor-settings-icon);
+    border-width: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    -unity-slice-top: 0;
+    -unity-slice-bottom: 0;
+    flex-shrink: 0;
+    width: 16px;
+    max-width: 16px;
+    height: 16px;
+    align-self: center;
+}
+
+.hutong-project-search-toolbar {
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.hutong-project-search-toolbar__search-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 50px;
+}
+
+.hutong-project-search-toolbar__button {
+    flex-shrink: 0;
+    background-size: 16px 16px;
+    width: 20px;
+    height: 20px;
+    border-right-width: 0;
+}
+
+.hutong-project-search-toolbar__refresh-button {
+    background-image: var(--hutong-editor-refresh-icon);
+}
+
+.hutong-project-search-toolbar__expand-all-button {
+    background-image: var(--hutong-editor-expand-all-icon);
+}
+
+.hutong-project-search-toolbar__collapse-all-button {
+    background-image: var(--hutong-editor-collapse-all-icon);
+}
+.hutong-project-search-toolbar__show-paths-button {
+    background-image: var(--hutong-editor-show-paths-icon);
+}
+
+.hutong-project-tree-view {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.hutong-project-search-target {
+    flex-direction: row;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 18px;
+    flex-grow: 0;
+    background-color: var(--unity-colors-inspector_titlebar-background);
+}
+
+.hutong-project-search-target__icon {
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right: 4px;
+}
+
+.hutong-project-search-target__label {
+    -unity-text-align: middle-left;
+}
+
+.hutong-project-search-target__info {
+    -unity-text-align: middle-left;
+    margin-left: 5px;
+    opacity: 0.5;
+    flex-grow: 1;
+}
+
+/*
+.hutong-folder-record > Label {
+    opacity: 0.5;
+}
+
+.hutong-record-view__compact-folder > Label {
+    opacity: 0.5;
+}*/
+
+.hutong-tree-view-row {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.hutong-tree-view-header {
+    -unity-font-style: bold;
+}
+
+.hutong-tree-view-icon {
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right: 4px;
+}
+
+.hutong-tree-view-label {
+    -unity-text-align: middle-left;
+}
+
+.hutong-tree-view-header {
+    -unity-font-style: bold;
+}
+
+.hutong-tree-view-count-label {
+    -unity-text-align: middle-left;
+    margin-left: 8px;
+    opacity: 0.5;
+    flex-grow: 1;
+}
+
+.hutong-folder-record > Label {
+    opacity: 0.5;
+}
+
+.hutong-record-view__compact-folder > Label {
+    opacity: 0.5;
+}
+
+.hutong-action-titlebar__icon {
+    margin-right: 2px;
+    margin-left: -22px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.hutong-action-titlebar__title {
+    -unity-font-style: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.hutong-action-titlebar__summary {
+    -unity-font-style: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+}
+
+.hutong-action-summary {
+    flex-direction: row;
+}
+
+.hutong-action-summary__parameter {
+    -unity-font-style: bold;
+}
+
+.hutong-action-summary__icon
+{
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+
+.unity-collection-view__item--selected {
+    background-color: var(--hutong-editor-selected-item-color);
+}
+
+Label {
+    color: var(--unity-colors-default-text);
+}
+
+
+.hutong-project-view-filters-popup {
+    border-color: var(--unity-colors-inspector_titlebar-border_accent);
+    border-width: 1px;
+}
+
+.hutong-project-view-filters-popup__toggle-panel {
+    border-bottom-color: var(--unity-colors-inspector_titlebar-border_accent);
+    border-bottom-width: 1px;
+    padding: 4px;
+    flex-grow: 1;
+}
+
+.hutong-project-view-filters-popup__presets {
+    align-items: center;
+    flex-direction: row-reverse;
+    border-bottom-width: 0;
+}
+
+.hutong-project-view-filters-popup__presets > ToolbarButton {
+    border-right-width: 0;
+}
+
+.hutong-project-view-filters-popup__toggle {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    max-height: 23px;
+}
+
+.hutong-project-view-filters-popup__icon {
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+}
+
+.hutong-project-tree-view__prev-record {
+    background-image: var(--unity-back-icon);
+    background-size: 10px 10px;
+    border-right-width: 0;
+    width: 20px;
+    height: 100%;
+}
+
+.hutong-project-tree-view__next-record {
+    background-image: var(--unity-forward-icon);
+    background-size: 10px 10px;
+    width: 20px;
+    height: 100%;
+}

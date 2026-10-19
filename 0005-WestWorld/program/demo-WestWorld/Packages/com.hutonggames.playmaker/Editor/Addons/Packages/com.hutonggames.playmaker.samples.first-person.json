@@ -1,0 +1,1146 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.samples.first-person",
+    "_displayName": "First Person Samples",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Assets/Samples/PlayMaker/FirstPerson",
+        "Assets/Samples/PlayMaker/Shared"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Shows how to make first person games.",
+    "_description": "A variety of samples that show different aspects of making a first person game.",
+    "_helpUrl": "",
+    "_icon": "LearnIcon",
+    "_tags": [
+        "Samples"
+    ],
+    "_requiresTmpEssentials": true,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Documentation.asset",
+            "_guid": "3ad543db609dc5d4e9de44de4844537a",
+            "_checkSum": "42197e0f1f4ebe299bd06beba484c26c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/FirstPerson.asset",
+            "_guid": "e0ed5bda9b9c2f44c8598c51c6147b35",
+            "_checkSum": "a2930c9254d6a51779392b2be7d8ae8e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Audio/License.txt",
+            "_guid": "45a652296f9ec3a4a97b82cb0858f3e5",
+            "_checkSum": "6e7eb700ee284460e29f3c5d8874c816"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Audio/pepSound2.ogg",
+            "_guid": "6ead6573941c3484aadcfb6b6ece8c9b",
+            "_checkSum": "73446909ca6ca34dad8ef6d8d9c77580"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Audio/pepSound3.ogg",
+            "_guid": "c965b9ef3cae269498b7e906e2946287",
+            "_checkSum": "f6b242f06051b85ee42a6f1a3ebf818b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Data/TargetInfo.asset",
+            "_guid": "ef845f94537b37d428f7aec5bdb00a53",
+            "_checkSum": "49ea877d736bf896e75d7ae27d0d2f4b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/CallElevator.asset",
+            "_guid": "1ad5d6628a35a5a4b9f97ea6f6f8505a",
+            "_checkSum": "16aeec484191c123c73c3f07217df7f0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/CoinCount.asset",
+            "_guid": "b1414e55947680648ad53ffdc72d63aa",
+            "_checkSum": "4cf0b22081b8eb59424045f9ee997ba0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/Damage.asset",
+            "_guid": "204b91074f2fdc0428e7d97dac242279",
+            "_checkSum": "44c8cd733a7be0ad2fec1d92cc8fed2f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/Drop.asset",
+            "_guid": "75aff394e8569b943a3032c7588fd99e",
+            "_checkSum": "f4d3f2ebacde4ebc48d8d3bec0fe6c90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/Fire.asset",
+            "_guid": "e9a86f4b6d4f0424fa88edb7cbdb6b56",
+            "_checkSum": "e0cc345b5deb1696fed5ade7af61263f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/GemCount.asset",
+            "_guid": "4dc1c2f8f2e377644a8263b4ebd49b57",
+            "_checkSum": "f596769ada5ac42ad78de05aa71a3767"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/HaveKeycard.asset",
+            "_guid": "c06f6fb5f0561cb4380b214c85b5c6bf",
+            "_checkSum": "2cd048680d64e0fa5bdb588de811907f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/Interact.asset",
+            "_guid": "01d0d3b2290674b4c8f3b4b43c746487",
+            "_checkSum": "9c69f007ae839a2141229ae381dc2072"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/Pickup.asset",
+            "_guid": "cedc32e33f6cf99499b07f9404f879a7",
+            "_checkSum": "1eed65ceaf4e5fbd8f9e83939dc9425a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/RecoilFire.asset",
+            "_guid": "212555ed7f2de5b4db689a2ee683886b",
+            "_checkSum": "8c96d57971a4c26aface990fc2fbf256"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Globals/UpdateUI.asset",
+            "_guid": "9d8484baf2f5ba442b55d32872beda72",
+            "_checkSum": "7303f839d857fcf87360614f8daa681c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Materials/Green.mat",
+            "_guid": "ed770b5c6cafc104d95e6497856ebd4d",
+            "_checkSum": "44fd6b17d443652c48e2c3be9ac6c89d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Materials/MuzzleFlashes.mat",
+            "_guid": "c05c2203df9a11547a3247aee88a0e25",
+            "_checkSum": "1b3c2dfa798708c53880065c178d4ac0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Materials/Yellow.mat",
+            "_guid": "3646e7a8726069147af8a94a9712417f",
+            "_checkSum": "3b2b3e2da60f44bd2bdaaa89538dbe53"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/button-square.fbx",
+            "_guid": "616a438d75a9c3d4697de6dbb20c4263",
+            "_checkSum": "c8400a0a9006cac4db5051702f156a3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/toast.fbx",
+            "_guid": "4d6e6de22485b854fb7e5ace4b1a6cd1",
+            "_checkSum": "5449a4b602482c37426391c072219719"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/toaster.fbx",
+            "_guid": "e03b82e6e3ef7cd4dac59617b1e3405b",
+            "_checkSum": "c4fef195306016901922946bece8e068"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Prefabs/CallButton.prefab",
+            "_guid": "22f4a15ea12f9814fb98fdd3779df646",
+            "_checkSum": "931e3c1805a22a63f193e8be5250596d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Prefabs/Coin.prefab",
+            "_guid": "482245e4bd44dc249b7a7e3c09e4faeb",
+            "_checkSum": "987a9b54d662098b1932181130b85305"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Prefabs/Explosion.prefab",
+            "_guid": "f4fe69e2611ff7e469a2501af78e9d7a",
+            "_checkSum": "949bd4881af8a311a9c49516b9ab27dd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Prefabs/Gem.prefab",
+            "_guid": "9c362036012ecc145af47f8cb5006b6f",
+            "_checkSum": "43fd85c67e4b1e9ef850aab769c7cabb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Prefabs/HitFX.prefab",
+            "_guid": "78c5d54dbbe14ad4badeaed4982b7655",
+            "_checkSum": "c3a429bf47604a24a2ddb9b44185dfe9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Prefabs/MuzzleLight.prefab",
+            "_guid": "80f9f2f333b21cb4284b34c5236a18cc",
+            "_checkSum": "fd68bcc12c6acc5d111693072c6f3b8a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/boxy_bold_fat_font.png",
+            "_guid": "00223179cd32c244f838750760ade970",
+            "_checkSum": "c31fb6ae5a2a6caefe2c45a2a461e45d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/LICENCES.txt",
+            "_guid": "18281a9f7b17ef74d8e6d2cf32143047",
+            "_checkSum": "7b9d1f44569334d17afada78445ab00a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/MuzzleFlash.png",
+            "_guid": "33a9b42bf04b38548a902485a44660ea",
+            "_checkSum": "f6e5ddae53aa64fd5ca7381d8b16215e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Templates/FalloffDamage.asset",
+            "_guid": "7bbfa3f3699c3024db13bf3927edcda2",
+            "_checkSum": "9b0a862ddfb09ac8240b719be76e7131"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Templates/InteractButton.asset",
+            "_guid": "7f165c4cbfac9a945844d98b90bb7aef",
+            "_checkSum": "7a47a74836b459ae577b589144347564"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Templates/TakeDamage.asset",
+            "_guid": "ac00dd0296a741940a66b62240bc031d",
+            "_checkSum": "b32b30753b053626abcda06f2be3bf0f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Materials/URP/Green.mat",
+            "_guid": "059a868bd628a4c4296825a6a97bc094",
+            "_checkSum": "c1431e0905bbbf0d88a9609cf2a9f187"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Materials/URP/Yellow.mat",
+            "_guid": "2c16cbcc14489154ea3d3d45359c74cf",
+            "_checkSum": "da8268642adca0ed345d15fe894cf920"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-a.fbx",
+            "_guid": "94f9bee67b2e3364dba9b690b8070b98",
+            "_checkSum": "9ee4b2c74952e6ace07bd07bfbdbce88"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-b.fbx",
+            "_guid": "35d183e70ca404b429d0c6adc200a1e8",
+            "_checkSum": "c3ef0dcbe2d23ffde9b5755a0163f1f0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-c.fbx",
+            "_guid": "3a632e89aec46534a87f3fab64b3975e",
+            "_checkSum": "03fc7ed6a6570e44ceced84a68c8319c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-d.fbx",
+            "_guid": "ddbc6810aadc0514099b8fa5c54f79d2",
+            "_checkSum": "a684208e61c3e0596caffadc0436d73e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-e.fbx",
+            "_guid": "fa4626887dba76945baf700f64327d03",
+            "_checkSum": "69184f6639452de12ced9b034709f708"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-f.fbx",
+            "_guid": "f112b99fea027684db587a8c65ca72fd",
+            "_checkSum": "691b7a0a32971f7bdcbfa29441910619"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-g.fbx",
+            "_guid": "f8ca6c09ade83ab4abae85e3e7d803e9",
+            "_checkSum": "40ab41a04fdf9bfd6a015c41f9601040"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-h.fbx",
+            "_guid": "ef05b9739b8d9a14b9a400afb15323e5",
+            "_checkSum": "13af0af081e29ff7dce0b9990ff714f5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-i.fbx",
+            "_guid": "0491ddf1fbe73534c996b9955d965aa2",
+            "_checkSum": "bcddcec9df98e5567aa9febce35fe190"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-j.fbx",
+            "_guid": "77ff4565a0d4fcb45b881b9f751c8652",
+            "_checkSum": "9e7a2789087befb9c98b398309ddcaed"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-k.fbx",
+            "_guid": "6d1bb8099ce63964299d7223d2057394",
+            "_checkSum": "f83e3838d5c6d3b5d1db81dccfbc2139"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-l.fbx",
+            "_guid": "61b61492763088748a9c641654a40906",
+            "_checkSum": "22322bfab315e26354d45393847ebca0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-m.fbx",
+            "_guid": "4519964c540991642af354981ebdea5a",
+            "_checkSum": "3024a09e3685682076db7e4492973135"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-n.fbx",
+            "_guid": "630f4ad12ac5df44c84a2923bd493a06",
+            "_checkSum": "ec9a67ddb0feae0ee8ae86628a9a7209"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-o.fbx",
+            "_guid": "5545850aaa3889b40ac506f748b4382d",
+            "_checkSum": "c3376110eab30fcc27410ded3db858ca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-p.fbx",
+            "_guid": "cbb189b101570294fa167c015d12285b",
+            "_checkSum": "22887f6eb2b404a5bc62305631a69ffd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-q.fbx",
+            "_guid": "ce205c4dba2819245a2bc5a29b7a93da",
+            "_checkSum": "ac21bf197f27acee311e81f11df5b264"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/blaster-r.fbx",
+            "_guid": "917b1955c59c6bf4f98714b90b7d4c0e",
+            "_checkSum": "014f1a184d1f986845173f2461a38fee"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/bullet-foam-thick.fbx",
+            "_guid": "11381fd043fb4a34d81db6d97b95e3cf",
+            "_checkSum": "6f0f6a587b258c8af6d8799f9b9784fc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/bullet-foam-tip-thick.fbx",
+            "_guid": "9529698ba0c95c24694b1483f8a7f8c7",
+            "_checkSum": "41fdcb6cfaa23803c3bab239c97a4a5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/bullet-foam-tip.fbx",
+            "_guid": "fdcab524b69666f44b031d99c2793c36",
+            "_checkSum": "dab7c5b7cb5a75b9a1a65b3c1195fce1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/bullet-foam.fbx",
+            "_guid": "ea271a1ea6d1a9a41a036ce6ca715dc5",
+            "_checkSum": "3a8f26932cf1abf7232a5be3af471f00"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/clip-large.fbx",
+            "_guid": "ba8b7ea9ade56c347bc85efcf00657b1",
+            "_checkSum": "7eda6fae7b497a6a0c69473120c75442"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/clip-small.fbx",
+            "_guid": "6375f77bc2ceb2b47a78b9109f20fd8f",
+            "_checkSum": "0fab7ee4ccb0a480191e1a933e5a1dcf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/crate-medium.fbx",
+            "_guid": "464e3c7d1d318954c9feb5a552e110fb",
+            "_checkSum": "5c72552c74d18822d1fb904b0938244b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/crate-small.fbx",
+            "_guid": "37d63f454072c6f42b115e4295e7d3a5",
+            "_checkSum": "6aded02995a67b49a6bf0deb8cea9188"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/crate-wide.fbx",
+            "_guid": "9abfd820e6ae3e6439931d15e394bb9f",
+            "_checkSum": "698d035d90ea0d2bc0327ab7d8a998e6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/grenade-a.fbx",
+            "_guid": "7901f393e5222a3419f53309c397ca38",
+            "_checkSum": "ff0df74bd69bbd13185ab43fc36eb720"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/grenade-b.fbx",
+            "_guid": "ef256e172f17b1c45804534f1f6e8d92",
+            "_checkSum": "2c0315e0cdd50e13419c4193e41a2a4f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/License.txt",
+            "_guid": "b9e51167b82006e4580d9cdfc632e6cc",
+            "_checkSum": "15feead50675c5483710c5fd92300408"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/scope-large-a.fbx",
+            "_guid": "3cfb278d04ff30443b22ba3e9ebb0c96",
+            "_checkSum": "ae971e0b8d4bf0b7bbe61b3d1a0e49e3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/scope-large-b.fbx",
+            "_guid": "36de4548c5c2a83439e64c8fb114d582",
+            "_checkSum": "1d9feb9ffaf0ee1e08136264623f76ee"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/scope-small.fbx",
+            "_guid": "f52c42bbca65e9d4cacc37beb250921c",
+            "_checkSum": "cdf931d88a0632b93736ef3e1ff2d31c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/silencer-larger.fbx",
+            "_guid": "37b5f32ca7d100c4a8f73ea0eea17535",
+            "_checkSum": "51d71fcd68d33321f20a8259324890bd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/silencer-small.fbx",
+            "_guid": "965303a38087a5e4994ec3877df1a035",
+            "_checkSum": "70bef2a32e2dd810a4363fa359068c54"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/smoke.fbx",
+            "_guid": "9eac3b7bd1506eb4fb81c4af88f89aae",
+            "_checkSum": "105459ee1b509a5478539efce17c5ddf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/target-detail.fbx",
+            "_guid": "1b25a87368f704146b3bf680f5cff779",
+            "_checkSum": "e6d868e620ca8b6af9e977bacd62db08"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/target-fragment-large.fbx",
+            "_guid": "044067dec44e30b4d9e0a0442a7792ca",
+            "_checkSum": "ae58341a9a3d9d2ffb5828fb5184410c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/target-fragment-small.fbx",
+            "_guid": "61bc82e0c8b2ce04f8525185c4468be6",
+            "_checkSum": "5ff0cb8e154e294956019d0405c1be58"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/target-large.fbx",
+            "_guid": "632e8a8823abd914ba2a1ac952026cf7",
+            "_checkSum": "cebe7520e7e1ba0b3121eed69a58d9f9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/target-small.fbx",
+            "_guid": "752d5db6bb7b8bb49937876f0befc298",
+            "_checkSum": "cb73374c272f6766df6deffc8368b098"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Doors/AutomaticDoor.unity",
+            "_guid": "2cc7d9d0c70e24d4d8938e2fe117af03",
+            "_checkSum": "eacbe81c812e0ef1b0992975d73de6da"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Doors/ButtonDoor.unity",
+            "_guid": "9caad9d6ad39e1c44b59cc1a906bc17f",
+            "_checkSum": "9b99baa1b76b6673c1f01fd1b1d9a500"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Doors/LockedDoor.unity",
+            "_guid": "39c103c39c945134688f4413d8272675",
+            "_checkSum": "024187b0673671984eb686cedb08fc74"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Doors/PressurePlateDoor.unity",
+            "_guid": "6e74f736f7aebae4bb3c817c6f5fccb3",
+            "_checkSum": "74846e4936f4d6440ed309f1e3b8a9d4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Enemies/Patrol.unity",
+            "_guid": "7a25e75d1feafc6468dc0691dbd675a0",
+            "_checkSum": "be4e47ecc2679b0f2e5a0cb220aadfee"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Interaction/CollectItems.unity",
+            "_guid": "5ba8f5fcd5745f9418082e7273830169",
+            "_checkSum": "01919166d79691c3b127930dde8509b8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Interaction/PickUpObject.unity",
+            "_guid": "b0dc29711240c3f47bb148835df3f784",
+            "_checkSum": "4e83e7dff522d3353e9ac6ee8863a28a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Interaction/PushObjects.unity",
+            "_guid": "e66c5118a59d6414d959ce92470f88dd",
+            "_checkSum": "fb3222aed5a4e23f383180d96576db43"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Interaction/TargetData.unity",
+            "_guid": "452de6c2e892d834ab9670dfac9f82e6",
+            "_checkSum": "a7ae73c9e6985ef6c3532a30edd432e8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Interaction/ThrowObject.unity",
+            "_guid": "8ee17723609aa1a4f8e8d80273122bf6",
+            "_checkSum": "e65f4ddc5ed753877f84573b0b9d95a7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Interaction/UseInteractable.unity",
+            "_guid": "29862ad35daf00741b1e60ebfc23edcc",
+            "_checkSum": "4e9c457da6b7a835611c6f51497ed48b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Interaction/UseObject.unity",
+            "_guid": "c62b041a2b968744cbbba1d763f39f8f",
+            "_checkSum": "0ebdf132053d7c49114f174f3b2e7d13"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/01_SimpleMove.unity",
+            "_guid": "77561b56391839145b6ad9444cf7247e",
+            "_checkSum": "d4ca6bd8f81930c4e907da304d1067b4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/02_WalkAndRun.unity",
+            "_guid": "bedb3c16714478b4a959cfa5c8689152",
+            "_checkSum": "b0a114471768727b94b01423674572e5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/03_WalkRunAndJump.unity",
+            "_guid": "5f7f6f8896f63d148a58e4d98768e72d",
+            "_checkSum": "e22a262c1d71d43a778251a7a3ce5c22"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/04_HierarchicalController.unity",
+            "_guid": "0dd82f7e003b49d49b2a20ef15dad3bd",
+            "_checkSum": "3c641b479665ce524e5c4f0054164641"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/05_SprintStamina.unity",
+            "_guid": "3ddb1e7b3f51164439eebeba98771735",
+            "_checkSum": "62637019c8fe74af7bf29bd14f833d25"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/06_CrouchToggle.unity",
+            "_guid": "21982ff368e6a7340a6046f01074789c",
+            "_checkSum": "0f3b535435fa801d06818c917e32a273"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/07_CrouchHold.unity",
+            "_guid": "c3923996c4442124e976b3559600a5e8",
+            "_checkSum": "ba8a948c381b7ac8981790ef6db9796b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/08_ClimbLadder.unity",
+            "_guid": "86e053ab5b2321843b30fe814801de59",
+            "_checkSum": "dd95ad9e4340b7e8aa284b91edc1a4d8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Movement/09_ClimbWall.unity",
+            "_guid": "d549f086c152dfe4ca4b0d8c8ad5b4dd",
+            "_checkSum": "4f5ddbe1fbfcb0394a26339bfbcca43c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Shooting/01_Handgun.unity",
+            "_guid": "a0195ef2a30f2a047805740c81c04328",
+            "_checkSum": "a18841a5c7015fbcac9d9dddcb83ea52"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Shooting/02_Rifle.unity",
+            "_guid": "bb9c9ac0bfb6a9f4f99cc4bb7b3d3054",
+            "_checkSum": "0393ea502aaba4806ae32daafa79c0d8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Shooting/03_Shotgun.unity",
+            "_guid": "0f3efd7e538474d49a976e38be9da7c5",
+            "_checkSum": "032d0bc6d50d06485e596f87e0068c8e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Shooting/SwitchingWeapons.unity",
+            "_guid": "413303c815c92c74f8b195bae1ae3980",
+            "_checkSum": "d5d0a11da3ea5ba4c5fd08aacd89179a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Transport/Elevator.unity",
+            "_guid": "4f37159c58b8a3549a1647235ba9c3cb",
+            "_checkSum": "1b59b72a1d4f955023778f49edc50981"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Scenes/Transport/MovingPlatforms.unity",
+            "_guid": "7b62d3870dc017b4295e613a1fd0ba1e",
+            "_checkSum": "f03aca6e39297d20321c6c7954b98600"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/address-card.png",
+            "_guid": "5e08d8a6993cd7247824be7c8381873b",
+            "_checkSum": "162c6d13902da00aba05d374d2cb70e3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/button_round_line.png",
+            "_guid": "4f3c21d9dab44554eaa1b04d9d701084",
+            "_checkSum": "77163519af4b780e9c097ffe9076a8d3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/card_target.png",
+            "_guid": "9c6107bdb7a2dd44082d0a8e137d9222",
+            "_checkSum": "81025992e956ee4af329c48e9db90998"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/coin_gold.png",
+            "_guid": "9811ea325b83d4d4da9ebd176f36ba76",
+            "_checkSum": "466ddd15bcd360a298c419a2eca68862"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/empty.png",
+            "_guid": "a20d19f9df6bba048971bae3d8b0c143",
+            "_checkSum": "2fd724a24647ded3615ad8e21e7fa8cb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/gem_green.png",
+            "_guid": "55d6e6283700f2046b6a1bf7846a521f",
+            "_checkSum": "08f70bd8c3f5a6444e7d23cda5b4ef37"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/ladder-enter-top.png",
+            "_guid": "f7bbdf67e88fa9343968d23518212de7",
+            "_checkSum": "202adbe33bf3417b412769d70baad4b3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/ladder-exit-left.png",
+            "_guid": "ed905550fea22e243b6ec2d37f59e99a",
+            "_checkSum": "74b461d0df24f7ea10d55195390a3a3b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/ladder-exit-right.png",
+            "_guid": "4a94a1f8e850cbd4483c32fa5fcbece8",
+            "_checkSum": "47922b5c8524c2b7401bbc1ccba552c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/ladder.png",
+            "_guid": "4062017cdde82aa4384809ab41f0b565",
+            "_checkSum": "ed79f1e33da3036f746456fc4275661d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Sprites/UI/License.txt",
+            "_guid": "f0690d188ee434744b09b22ed822b81d",
+            "_checkSum": "6e218f571c7374ca6c1fabc8c55c5bfc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/Textures/colormap.png",
+            "_guid": "0e8b754a1e8dfcc4ea91390604d18e90",
+            "_checkSum": "d399396bd54b6d062c41eaf42b99ac44"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/FirstPerson/Models/Blaster Kit/Textures/variation-a.png",
+            "_guid": "8fa56331e2bdd024fb31979d0ae41394",
+            "_checkSum": "10ebf6e40aa16c984c2ef55e6e195431"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
+            "_guid": "1e791f30eb3e9d84e84f065801a5e960",
+            "_checkSum": "f82b5a4cbaa2c47f63b84edbe3d5bf5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Samples.asset",
+            "_guid": "ee5f617a22ae3614793f6ae5d52cc6ba",
+            "_checkSum": "3a1d9e3595f33697d28e48dadbdb462f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/beep.mp3",
+            "_guid": "f2e8a6a4e637a3e47a3825fc1cbdd7f0",
+            "_checkSum": "17ce0037a19ac7ca0f66bf80cb3eddaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/dataChirp.mp3",
+            "_guid": "d356acd0857defe44993ff1b59654fe3",
+            "_checkSum": "a11207e31c18ccc68569e8446ffa7d64"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/doorServos.mp3",
+            "_guid": "fe51bc757964761458c6d5b6fc899d7e",
+            "_checkSum": "fbfb470edcc97c9bf61d6cd46e770a86"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/pressurePlate.mp3",
+            "_guid": "7d5d54edd899d644e8995de4d63baea2",
+            "_checkSum": "9895286c39e7440dcc3b921879ca45a0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/SampleAudioMixer.mixer",
+            "_guid": "1665e9ccdc7e04d4c91405e69a0198ab",
+            "_checkSum": "74a74291a9bbbd00ec32aebe4cb06271"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortAlarm.mp3",
+            "_guid": "46c2c82b71852604f90f60d57bc9e4d1",
+            "_checkSum": "27115bdaedc138bbf215d834a8bbfdaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortBeep.mp3",
+            "_guid": "f8b7b72fcd4468b4288f6f86b3064f50",
+            "_checkSum": "a752a3ab3b115549133bf60e1597b455"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/success.wav",
+            "_guid": "3992fab729161bd4c80bb597a0dcdd42",
+            "_checkSum": "bd5aa70b8142da7a08f9b4c4b2a9d818"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/synthBeep.mp3",
+            "_guid": "3c689c46bcf2d8b4fae30f3169e72aa8",
+            "_checkSum": "36a5fc181a8bcfe1ac698770c6f82a1e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Black.ttf",
+            "_guid": "76348cbe618aaf24685419c3d653a07b",
+            "_checkSum": "e631d2735799aa943d93d301abf423d2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Bold.ttf",
+            "_guid": "42efd3313ae7c0448a792a49e622525e",
+            "_checkSum": "85d339d916479f729938d2911b85bf1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Light.ttf",
+            "_guid": "54ee4b17b85421342a80262adfa1c9f1",
+            "_checkSum": "2fe27d9d10cdfccb1baef28a45d5ba90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Regular.ttf",
+            "_guid": "84a15c2272c6de849816aa30935f3896",
+            "_checkSum": "2d36b1a925432bae7f3c53a340868c6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Thin.ttf",
+            "_guid": "94af4a26a50b2a4439d9a26e1141c1f9",
+            "_checkSum": "9a77fbaa85fa42b73e3b96399daf49c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/OFL.txt",
+            "_guid": "f022cc97c71d75940a9f2ca64f4418d8",
+            "_checkSum": "99aa8fee7ed71044ae773b92d79ab24c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF - Fallback.asset",
+            "_guid": "528c8856f21cc8b42bf5158fcb8dedb3",
+            "_checkSum": "569a29093b0a8f4eff204f8f60053ccd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF.asset",
+            "_guid": "3b973c8e584b61e4784fbee61a60a21a",
+            "_checkSum": "84389414ce2d65f79b5f779bbb3f83ea"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Roboto-Bold.ttf",
+            "_guid": "144b338c0044550479b6d8ac7872fe73",
+            "_checkSum": "ee7b96fa85d8fdb8c126409326ac2d2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Checker.mat",
+            "_guid": "fddf13eac51d6c04da368778921c9bae",
+            "_checkSum": "9cf2cfdfd2564166590696788c03ec97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Default.mat",
+            "_guid": "f7bbdc9c6dbee914d811845bdd27fec0",
+            "_checkSum": "042abdfb79e484c238bbefcc88832353"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Grid.mat",
+            "_guid": "45d6431d5737c9942aab2ea5f40f4fa8",
+            "_checkSum": "1eed8c1fc0b5d52845007fdb5a2460bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Ground.mat",
+            "_guid": "78d9bf08434302945a528d19f61d0c68",
+            "_checkSum": "d788d02ddfce9154bb74403fc1b62018"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Laser.mat",
+            "_guid": "74e31ab6eaff9604086b8bfb2f5ac9e6",
+            "_checkSum": "351dc65df041b594d17421e07e26dab9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Player.mat",
+            "_guid": "660ac48001db659448315c97245df61a",
+            "_checkSum": "d5cefb5294afa77e35f5f25d48168e96"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Red.mat",
+            "_guid": "0958838b7ccb9b846bf5bf4f107530ba",
+            "_checkSum": "6d1684c571298d52f0ba8cc5dab9a317"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Skybox.mat",
+            "_guid": "e9b1a22031bea8e4785888857a897c00",
+            "_checkSum": "5fefc95ed4d7e1b20bdd04eff875292b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/SkyboxDawn.mat",
+            "_guid": "342cf32b16983a94faf9f63c0535b269",
+            "_checkSum": "b9e8c6756cd989fcfc51e8efb1baafd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Floor32x01x32.fbx",
+            "_guid": "de0de8b009a1acd42846fe9db10fe150",
+            "_checkSum": "c09fa117a2e78f146bb8134508d61cb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Hill32x07x32.fbx",
+            "_guid": "5cacea182896d0d45a3e56e31cb505e2",
+            "_checkSum": "d06500a0273195b0d981cf0df174792f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicMaterial",
+            "_guid": "23e5aa8fa6a583949802532a1b73fee2",
+            "_checkSum": "cded2b73c0531b2d9e594ec010f8da5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicsMaterial2D",
+            "_guid": "db0bdc520e4f01a41bfa0d2954842661",
+            "_checkSum": "c4475fa5a0bc8b4d117ca1232ff0b01f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/AutoUpdate.prefab",
+            "_guid": "23da1eef7a529f446b1d8373caa22239",
+            "_checkSum": "1cacfc82c029079a194ebacc1a794f0c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Cube.prefab",
+            "_guid": "583d6eb741ffa524395dc0e13b74c1a2",
+            "_checkSum": "36a5bbef629da48ba2a5ea78895852b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/EventSystem.prefab",
+            "_guid": "2e16bc28d47957841b658e2b5e980dae",
+            "_checkSum": "006f76dd746ad740bf89cd640b911d6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Floor32x01x32.prefab",
+            "_guid": "e8abf9f0f83d0a244ba8d3e71b5334b9",
+            "_checkSum": "a6cb37ee0e57a870910c5c07fe780969"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Hill32x07x32.prefab",
+            "_guid": "295074861b42b3043bc8cbc09e918e56",
+            "_checkSum": "4a94a4c09bd234703f58becf1cf2ac3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/RadarBlip.prefab",
+            "_guid": "b0178bbc0dda35d4787bc07426038800",
+            "_checkSum": "7f368a7d266174583eaf84510223e885"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Stage32x32.prefab",
+            "_guid": "64354fef861314c4c9e8e470494fa5f3",
+            "_checkSum": "cb65539a0dc9f9853d0b751f33b2e695"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/AxisBillboardRibbon.cs",
+            "_guid": "55ce84e98fff3f1468a589458f2545b7",
+            "_checkSum": "f98ec916a4339e136fd386846376aed7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/PlayModePhysics2DSetup.cs",
+            "_guid": "5f2fa1a23f5d49a3a6659a4d3ff95e2f",
+            "_checkSum": "81f7c7517bf1847df90e591df5b72c6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SimpleFaceCameraBillboard.cs",
+            "_guid": "8194cd5718cc4629a0670c4b14d364c1",
+            "_checkSum": "8a06e92d2b2f0620b4109e867af2dc05"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SpriteNearFade.cs",
+            "_guid": "3a0c97bf5bdd480790fea80ef055b59b",
+            "_checkSum": "033122fb7165e0753866ba0a7fa6da6c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeParticle.shader",
+            "_guid": "5911c31b8fe44662b71a5ca0e4401c8c",
+            "_checkSum": "6da1b1a4a68c6151ae49987ecf020b1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeStandardDither.shader",
+            "_guid": "e32711c84d9641afb5d59a5fb19de20c",
+            "_checkSum": "d286e9f48121e378ab95fcbd95d5aff1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/Skybox Gradient.shader",
+            "_guid": "8b20b5c1b1c710d4da9e67331b096e31",
+            "_checkSum": "4566804149b4495a5e1d5b6026f77909"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopCircle.png",
+            "_guid": "39220fd80b39dd44a96de8693c4eee7c",
+            "_checkSum": "6ca29670ba230e243bc8e5a5d8d2f7e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopSquare.png",
+            "_guid": "409e07c936448a541b7fe5e19136841a",
+            "_checkSum": "ab8176ea0e80508377687e2d39a1bd93"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledCircle.png",
+            "_guid": "beb01e11cc8b2784c9dc20f845348db1",
+            "_checkSum": "df951fae597e49963f5ed99a75ad1c02"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledSquare.png",
+            "_guid": "604db4374a8a1a14e86d4b59df5ff081",
+            "_checkSum": "3a467d61bd583a03ce4950bbf3b83b2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/checker.png",
+            "_guid": "01d8784180eb8ea4dbe826f07e471b18",
+            "_checkSum": "76f41ee6a3f97b92890886951cac774c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Grid.png",
+            "_guid": "dda43d596acd98a4b940ebcec5c510b9",
+            "_checkSum": "7c18af9b79ce4a58ca2db56123b186e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/GridBright.png",
+            "_guid": "83e8d34777238f1439158c659ed2d4cb",
+            "_checkSum": "d571d666138fa79484fb9794c8c57cdf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/SolidWhite.png",
+            "_guid": "5921146df0c6d27448c69ea18ea1ed84",
+            "_checkSum": "0c987eb8aa29df0620678b1c6ed23ee4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Transparent.png",
+            "_guid": "dc52f68efbe025248b5bdcfcb7150e2a",
+            "_checkSum": "265145c064b8d066d4fcbf72a04f7165"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Checker.mat",
+            "_guid": "a6dfc9b8b030f444f9bf9a8bb95e4ec4",
+            "_checkSum": "e0277095193c86e0211c1fc00e9a72e1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Default.mat",
+            "_guid": "66083b4abef770341991fcbb6828db55",
+            "_checkSum": "e5972691dc8c3091d45dc1f18380f6f4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Grid.mat",
+            "_guid": "75a649f7bc2340247b338440bdb19ebe",
+            "_checkSum": "65881387487da380b25f09bf3075ff5b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
+            "_guid": "212b8995053a83e4aa6208246bbaad84",
+            "_checkSum": "f019b61740735448be27f97aed2b2059"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
+            "_guid": "13c039b2b9edf494382d0277d57dd8d7",
+            "_checkSum": "98760c5c514c73bbf4c28971adb17b6f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/Editor/PlayModePhysics2DSetupEditor.cs",
+            "_guid": "4dd52637d24f40ee819dcf69d6886d73",
+            "_checkSum": "e162694ac92bc28a8830145f933e1b42"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/URP/DistanceFade_URP_LitDither.shader",
+            "_guid": "13297d6c083dc034e826a46df4044c30",
+            "_checkSum": "5114d038b9a307b93a4cbbfe05813512"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/Characters/ShapeCharacters.png",
+            "_guid": "7492883ae6b6e634c9a445a2e76ca5c6",
+            "_checkSum": "1b0ce3c2a6083e8d6797c7aaa0766f1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/ArrowUp.png",
+            "_guid": "74e39b9f04820d84394b7e28e196e851",
+            "_checkSum": "374dcdf7451b807584c0c58b8c2cfc0b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Card.png",
+            "_guid": "dce7c6101a8a886468de51df84bf41ad",
+            "_checkSum": "a12a6e132dbe9d7cccccd47dff93d0bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/CardHighlight.png",
+            "_guid": "0107dbaaaf5b26d44a1c354e06e5b679",
+            "_checkSum": "4f9194cb712cb306d581b92a9a460744"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/info-background.png",
+            "_guid": "6b370e82d0721824d995bdc03451f29b",
+            "_checkSum": "4f420e4b3256fee9c0e61db8e6f8a555"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Reticle-Simple.png",
+            "_guid": "52973ca95abd7c04896c7920ecb65c6d",
+            "_checkSum": "2daee1f9612ad4863e9ede01c362c15d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/SprintIcon.png",
+            "_guid": "f08e787a07b26c64d983e842e6d0bb2d",
+            "_checkSum": "d8846aeb3a9198d91ddd3da49250b46a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/sword_silver.png",
+            "_guid": "84f2f87b85b9f454d963aa0d561f15e0",
+            "_checkSum": "1ad92a48bbc7af56b4897e3242f6f7cd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/UI-Arrow.png",
+            "_guid": "4871407a71980914ca6f287aadab65ef",
+            "_checkSum": "c36b935e2c77818ee6d9323a7f53a021"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/BlueUI.png",
+            "_guid": "c2e093b169260c341ba07dfb96995e7e",
+            "_checkSum": "d791ab7a5a8f5de97d7bd94e02093c8b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/ExtraUI.png",
+            "_guid": "f03e9fe579d803544b04726a47d42d48",
+            "_checkSum": "db8bf41719f1eb7f2fa0a2baa7c074ec"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/GreyUI.png",
+            "_guid": "fbfe51f381ccd6341a42a1ccb8806ed6",
+            "_checkSum": "f0b1fd3e6d68c0816b2886599d7eb0df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/License.txt",
+            "_guid": "82baf4ad16dac7c4eb10fd0f5b833726",
+            "_checkSum": "7834f429eccd41168be8186cd1460d94"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/panel_border_grey.png",
+            "_guid": "e07b108c722d76041b936aa79ff394d3",
+            "_checkSum": "aea30485c7c4f1cda49de7f8ced82e27"
+        }
+    ],
+    "_usages": {
+        "_actions": [
+            "HutongGames.PlayMaker.Actions.AnimationCurveEvaluateScaled",
+            "HutongGames.PlayMaker.Actions.Audio.AudioSourcePlayClipAtTransform",
+            "HutongGames.PlayMaker.Actions.Audio.AudioSourcePlayOneShot",
+            "HutongGames.PlayMaker.Actions.BoolSetValue",
+            "HutongGames.PlayMaker.Actions.CharacterControllerApplyObjectPush",
+            "HutongGames.PlayMaker.Actions.CharacterControllerApplyPlatformMotion",
+            "HutongGames.PlayMaker.Actions.CharacterControllerCheckHasHeadroom",
+            "HutongGames.PlayMaker.Actions.CharacterControllerCheckIsFalling",
+            "HutongGames.PlayMaker.Actions.CharacterControllerCheckIsGrounded__SphereCast",
+            "HutongGames.PlayMaker.Actions.CharacterControllerClimb",
+            "HutongGames.PlayMaker.Actions.CharacterControllerCrouch",
+            "HutongGames.PlayMaker.Actions.CharacterControllerFall",
+            "HutongGames.PlayMaker.Actions.CharacterControllerJump",
+            "HutongGames.PlayMaker.Actions.CharacterControllerMove",
+            "HutongGames.PlayMaker.Actions.CharacterControllerMoveOnGround",
+            "HutongGames.PlayMaker.Actions.CharacterControllerPushObjects",
+            "HutongGames.PlayMaker.Actions.CharacterControllerSetHeight",
+            "HutongGames.PlayMaker.Actions.CharacterControllerSimpleMove",
+            "HutongGames.PlayMaker.Actions.CheckBoolEquals",
+            "HutongGames.PlayMaker.Actions.CheckDistanceToTarget",
+            "HutongGames.PlayMaker.Actions.CheckFloatLessThan",
+            "HutongGames.PlayMaker.Actions.CheckFloatLessThanOrEqual",
+            "HutongGames.PlayMaker.Actions.CheckIntEquals",
+            "HutongGames.PlayMaker.Actions.CheckIntGreaterThanOrEqual",
+            "HutongGames.PlayMaker.Actions.CheckIntLessThan",
+            "HutongGames.PlayMaker.Actions.CheckListContains",
+            "HutongGames.PlayMaker.Actions.CheckListCount",
+            "HutongGames.PlayMaker.Actions.ConvertBoolToFloat",
+            "HutongGames.PlayMaker.Actions.ConvertStringToInteger",
+            "HutongGames.PlayMaker.Actions.ConvertStringToStringMap",
+            "HutongGames.PlayMaker.Actions.CursorSetLockState",
+            "HutongGames.PlayMaker.Actions.CursorSetVisible",
+            "HutongGames.PlayMaker.Actions.DataComponentGetFieldValue",
+            "HutongGames.PlayMaker.Actions.DataRecordUpdateUI",
+            "HutongGames.PlayMaker.Actions.DebugLog",
+            "HutongGames.PlayMaker.Actions.EventSystemInteractAtCursor",
+            "HutongGames.PlayMaker.Actions.ExpressionEvaluatorEvaluate__float",
+            "HutongGames.PlayMaker.Actions.FindValidRandomPosition",
+            "HutongGames.PlayMaker.Actions.FloatAddClamped",
+            "HutongGames.PlayMaker.Actions.FloatSetValue",
+            "HutongGames.PlayMaker.Actions.FloatSubtract",
+            "HutongGames.PlayMaker.Actions.ForEachListItem",
+            "HutongGames.PlayMaker.Actions.GameObjectActivate",
+            "HutongGames.PlayMaker.Actions.GameObjectActivateSolo",
+            "HutongGames.PlayMaker.Actions.GameObjectDeactivate",
+            "HutongGames.PlayMaker.Actions.GameObjectDestroy",
+            "HutongGames.PlayMaker.Actions.GameObjectDockWithInteractable",
+            "HutongGames.PlayMaker.Actions.GameObjectGetDataRecord",
+            "HutongGames.PlayMaker.Actions.GameObjectInstantiateAtPosition",
+            "HutongGames.PlayMaker.Actions.GameObjectInstantiateAtTransform",
+            "HutongGames.PlayMaker.Actions.GameObjectSetActive",
+            "HutongGames.PlayMaker.Actions.GameObjectUndockFromInteractable",
+            "HutongGames.PlayMaker.Actions.GetFsmInteger",
+            "HutongGames.PlayMaker.Actions.GetFsmString",
+            "HutongGames.PlayMaker.Actions.GetRandomGameObject",
+            "HutongGames.PlayMaker.Actions.InputConsumeKeyDown",
+            "HutongGames.PlayMaker.Actions.InputGetAxisVector2",
+            "HutongGames.PlayMaker.Actions.InputGetAxisVector3",
+            "HutongGames.PlayMaker.Actions.InputGetButton",
+            "HutongGames.PlayMaker.Actions.InputGetButtonDown",
+            "HutongGames.PlayMaker.Actions.InputGetKey",
+            "HutongGames.PlayMaker.Actions.InputGetKeyActivation",
+            "HutongGames.PlayMaker.Actions.InputGetKeyDown",
+            "HutongGames.PlayMaker.Actions.InputGetKeyUp",
+            "HutongGames.PlayMaker.Actions.InputMouseLook",
+            "HutongGames.PlayMaker.Actions.InputMousePickEvent",
+            "HutongGames.PlayMaker.Actions.IntegerAdd",
+            "HutongGames.PlayMaker.Actions.IntegerSetValue",
+            "HutongGames.PlayMaker.Actions.IntegerSubtract",
+            "HutongGames.PlayMaker.Actions.InteractorClearActiveInteraction",
+            "HutongGames.PlayMaker.Actions.InteractorSuppressInteractable",
+            "HutongGames.PlayMaker.Actions.InteractorUpdate",
+            "HutongGames.PlayMaker.Actions.ListAddUnique",
+            "HutongGames.PlayMaker.Actions.ListFind",
+            "HutongGames.PlayMaker.Actions.ListGetNextItem",
+            "HutongGames.PlayMaker.Actions.ListRemove",
+            "HutongGames.PlayMaker.Actions.Loop",
+            "HutongGames.PlayMaker.Actions.MaterialSetMainColor",
+            "HutongGames.PlayMaker.Actions.MathfMoveTowards",
+            "HutongGames.PlayMaker.Actions.ObjectCheckIsNotNull",
+            "HutongGames.PlayMaker.Actions.ObjectCheckNameStartsWith",
+            "HutongGames.PlayMaker.Actions.ObjectDestroy",
+            "HutongGames.PlayMaker.Actions.OnFsmStateChanged",
+            "HutongGames.PlayMaker.Actions.OnTriggerEnter",
+            "HutongGames.PlayMaker.Actions.OnTriggerExit",
+            "HutongGames.PlayMaker.Actions.OnVariableValueChanged",
+            "HutongGames.PlayMaker.Actions.ParticleSystemPlay",
+            "HutongGames.PlayMaker.Actions.PhysicsCheckCollider",
+            "HutongGames.PlayMaker.Actions.PhysicsRaycast__GameObject",
+            "HutongGames.PlayMaker.Actions.QuaternionEuler",
+            "HutongGames.PlayMaker.Actions.QuaternionLerp",
+            "HutongGames.PlayMaker.Actions.QuaternionSlerp",
+            "HutongGames.PlayMaker.Actions.RandomGetDirectionInCone",
+            "HutongGames.PlayMaker.Actions.RandomGetFloatAroundCenter",
+            "HutongGames.PlayMaker.Actions.RaycastHitGetDistance",
+            "HutongGames.PlayMaker.Actions.RaycastHitGetGameObject",
+            "HutongGames.PlayMaker.Actions.RendererGetMaterial",
+            "HutongGames.PlayMaker.Actions.RigidbodyAddForce",
+            "HutongGames.PlayMaker.Actions.RigidbodyDrop",
+            "HutongGames.PlayMaker.Actions.RigidbodyMoveTowardsPosition",
+            "HutongGames.PlayMaker.Actions.RigidbodyMoveTowardsTarget",
+            "HutongGames.PlayMaker.Actions.RigidbodyPickUp",
+            "HutongGames.PlayMaker.Actions.RigidbodySetIsKinematic",
+            "HutongGames.PlayMaker.Actions.RigidbodyThrow",
+            "HutongGames.PlayMaker.Actions.RunTemplate",
+            "HutongGames.PlayMaker.Actions.SceneManagement.SceneManagerReloadActiveScene",
+            "HutongGames.PlayMaker.Actions.SendEvent",
+            "HutongGames.PlayMaker.Actions.SendEventToFsmComponent",
+            "HutongGames.PlayMaker.Actions.SendEventToGameObject",
+            "HutongGames.PlayMaker.Actions.SendEventToRegion",
+            "HutongGames.PlayMaker.Actions.SpriteSetValue",
+            "HutongGames.PlayMaker.Actions.StringSetValue",
+            "HutongGames.PlayMaker.Actions.StringSwitch",
+            "HutongGames.PlayMaker.Actions.TMP_TextSetText",
+            "HutongGames.PlayMaker.Actions.TMP_TextSetText__Integer",
+            "HutongGames.PlayMaker.Actions.TransformFindChild",
+            "HutongGames.PlayMaker.Actions.TransformGetChild",
+            "HutongGames.PlayMaker.Actions.TransformGetLocalEulerAngles",
+            "HutongGames.PlayMaker.Actions.TransformLookAtTarget",
+            "HutongGames.PlayMaker.Actions.TransformRotate__XYZ",
+            "HutongGames.PlayMaker.Actions.TransformRotateY",
+            "HutongGames.PlayMaker.Actions.TransformSetLocalRotation",
+            "HutongGames.PlayMaker.Actions.TransformSetLocalRotationX",
+            "HutongGames.PlayMaker.Actions.TransformSetLocalRotationZ",
+            "HutongGames.PlayMaker.Actions.TransformSetLocalScaleX",
+            "HutongGames.PlayMaker.Actions.TransformSetParent",
+            "HutongGames.PlayMaker.Actions.TransformSetValue",
+            "HutongGames.PlayMaker.Actions.TransformTrackPosition",
+            "HutongGames.PlayMaker.Actions.TweenInteger",
+            "HutongGames.PlayMaker.Actions.TweenPosition",
+            "HutongGames.PlayMaker.Actions.TweenTransformLocalPosition",
+            "HutongGames.PlayMaker.Actions.UI.GraphicSetColor",
+            "HutongGames.PlayMaker.Actions.UI.ImageSetSprite",
+            "HutongGames.PlayMaker.Actions.Vector3AddXYZ",
+            "HutongGames.PlayMaker.Actions.Vector3SetValue",
+            "HutongGames.PlayMaker.Actions.WaitForNextFrame",
+            "HutongGames.PlayMaker.Actions.WaitForSeconds"
+        ]
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349229812956207
+}

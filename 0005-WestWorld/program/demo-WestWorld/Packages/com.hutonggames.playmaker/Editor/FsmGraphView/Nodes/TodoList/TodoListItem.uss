@@ -1,0 +1,21 @@
+.hutong-todo-list-item {
+    flex-direction: row;
+}
+
+.hutong-todo-list-item--completed {
+    opacity: 0.5;
+}
+
+/*
+ScrollView {
+    background-color: rgba(0,0,0,0.2);
+}*/
+
+.hutong-todo-list-item__text-field {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.hutong-todo-list-item__toggle {
+    margin-top: 3px;
+}

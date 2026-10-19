@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Core/CategoryListView/CategoryListView.uss?fileID=7433441132597879392&amp;guid=3a11d61561cec9240b1f2fa733109076&amp;type=3#CategoryListView" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <uie:Toolbar class="hutong-category-list-view__toolbar">
+        <uie:ToolbarToggle focusable="false" name="expand" class="hutong-category-list-view__expand-toggle" />
+        <uie:ToolbarButton name="settings-menu" class="hutong-category-list-view__settings-button" />
+    </uie:Toolbar>
+    <ui:VisualElement name="custom-editor" />
+    <ui:VisualElement name="list-container" class="hutong-category-list-view__list-container">
+        <ui:VisualElement name="sticky-headers" class="hutong-category-list-view__sticky-headers" style="display: none;">
+            <ui:VisualElement name="sticky-header-content" class="hutong-category-list-view__sticky-header-content" />
+        </ui:VisualElement>
+        <ui:ListView focusable="true" fixed-item-height="20" />
+    </ui:VisualElement>
+</ui:UXML>

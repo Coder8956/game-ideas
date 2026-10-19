@@ -1,0 +1,62 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.hash",
+    "_displayName": "Hash Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/Hash"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to generate Hashes.",
+    "_description": "Hashes are useful in situations where you need to compare two values. They are often used in procedural generation code.",
+    "_helpUrl": "",
+    "_icon": "Utility/Hash",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Hash/HashInt.cs",
+            "_guid": "3654b2019a4a7a84fb0f2244181999c7",
+            "_checkSum": "c98103257b659f889daa19c1f841bcdf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Hash/HashInt2.cs",
+            "_guid": "c3d3547cfa644c5887d52eb7eac72353",
+            "_checkSum": "3b90430aa0890ad638ade7182cc7879c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Hash/HashInt3.cs",
+            "_guid": "28a1f9152d0fdaa4183ffe63901bd51c",
+            "_checkSum": "f2d9f1a7379fe2bfb02455b238cad05b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Hash/HashString.cs",
+            "_guid": "b8d19f5aaf3444fca46c3138ddc47c8d",
+            "_checkSum": "12161bc30a28e8d32377c650811791e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Hash/HashVector2.cs",
+            "_guid": "2ab54b66226681544b3fb97e723d2e62",
+            "_checkSum": "5af38a4badbd4deb852577489ef23d21"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Hash/HashVector3.cs",
+            "_guid": "1864aebfcc062944995105efebaf3b5f",
+            "_checkSum": "792b8f4f0f06af0f4653c5b11b9c8122"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479330559558
+}

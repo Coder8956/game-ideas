@@ -1,0 +1,637 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.samples.proc-gen",
+    "_displayName": "Procedural Generation Samples",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Assets/Samples/PlayMaker/Procedural",
+        "Assets/Samples/PlayMaker/Shared"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.proc-gen",
+        "com.hutonggames.playmaker.nav-grid"
+    ],
+    "_upmDependencies": [
+        "com.unity.2d.tilemap.extras"
+    ],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Examples of procedural and random generation.",
+    "_description": "# Procedural Generation Samples\r\n\r\nPlayMaker 2 includes a growing set of **runtime procedural generation examples**, each demonstrating a classic algorithm that can be combined, customized, or extended with FSM logic.\r\n\r\n{height=300}![screenshot](Packages/com.hutonggames.playmaker/Editor/Addons/Packages/com.hutonggames.playmaker.samples.proc-gen.jpg)\n\n---\n\n## Maps\n\nThese samples show how various [**Procedural actions**](category:Actions/Procedural) can be combined with \nsimple **tilemap actions** like [**TilemapFillRect**](action:TilemapFillRect) and [**TilemapSetCells**](action:TilemapSetCells), to build entire levels.\r\n\r\n\r\n### Overview\r\n\r\n| Sample | Algorithm | Description |\r\n|---------|------------|--------------|\r\n| ****Rogue Map**** | Grid-based Rooms + Corridors | Classic **Rogue-like dungeon generator.** <br>Places rectangular rooms on a grid and connects them with corridors. <br>Great for traditional dungeon layouts. |\r\n| ****Cave Map**** | Diffusion-Limited Aggregation (DLA) | **Particles grow and stick** to form vein-like clusters. <br>Produces organic, branching cave systems. <br>Perfect for alien biomes or mineral formations. |\r\n| ****Tunnel Map**** | Drunkard’s Walk | Random “walkers” **carve tunnels through rock**. <br>Creates twisty labyrinths and mine-like passages. <br>Easy to tune for density or direction. |\r\n| ****Caverns Map**** | Cellular Automata | Starts from random noise, then **smooths into natural caves**. <br>Ideal for large caverns, underground lakes, or organic interiors. |\r\n\r\r\n\r\n### Tips\r\n\r\n- You can **chain generators** for hybrid maps — e.g. use *Rogue Map* to create rooms, then apply *Caverns Map* smoothing to round the interiors.  \r\n- Use [**TilemapFillRect**](action:TilemapFillRect) to quickly reset areas between tests.  \r\n- For consistent results across multiple procedural actions, initialize Random once per scene using [**RandomInitState**](action:RandomInitState).  \r\r\n\r\r\n\r\n### Next Steps\r\n\r\nThese examples form the foundation for advanced procedural systems in PlayMaker 2.  \n\r\nUpcoming samples will explore:\r\n\r\n- **Perlin / Simplex Noise** heightmaps  \r\n- **Voronoi / Region Partitioning**  \r\n- **Wave Function Collapse** for tile-based patterns  \r\n- **Hybrid Techniques** combining rooms, tunnels, and noise-based terrain\r\n\r\r\nLet us know on the forums what you'd like to see!",
+    "_helpUrl": "",
+    "_icon": "LearnIcon",
+    "_tags": [
+        "Samples",
+        "2D"
+    ],
+    "_requiresTmpEssentials": true,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Documentation.asset",
+            "_guid": "20981146f561bd343bc55b592409dd83",
+            "_checkSum": "8007d6635b7837fe4de9cdab1f2b3173"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Prefabs/Boid.prefab",
+            "_guid": "49acb81403aebb94f9df1240b517365e",
+            "_checkSum": "ed783ff033d5eca75b8e547c030773a7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Prefabs/citizen.prefab",
+            "_guid": "d17362ceb03466d4b94f3ab80e4fd188",
+            "_checkSum": "94dc1f1c730906b4ee514fba4f569a10"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/RandomCharacters.unity",
+            "_guid": "ce861eb44c9d3824f97d537495376e5e",
+            "_checkSum": "63c8114c932e7909c2002a9d8cc152ba"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/boid.png",
+            "_guid": "29935499922a6024cbecfc01afc7af66",
+            "_checkSum": "c2874d6d1a3e76513b144b7e32f5bcdd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/wall.png",
+            "_guid": "d916e34952edf2a4c972a81a82bd4955",
+            "_checkSum": "e045290cb042221394a5292b2c0110c9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Prototype.prefab",
+            "_guid": "be2448b020d60c04bae263f51806c45d",
+            "_checkSum": "26b2cd6f13cae2cc393e98126bf344f3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/TileCostProfile.asset",
+            "_guid": "0c49bf1723e41bf499747187622ca487",
+            "_checkSum": "33497044ee2021db7fb906997bdae1d7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/01_RogueMap.unity",
+            "_guid": "e21d4eb6337c8004fa68bd8b84e4a888",
+            "_checkSum": "69d556278f6fcf10fda20028f3a425dc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/02_StartEndRooms.unity",
+            "_guid": "4d5cb26cc08b22142992db2ce9962f23",
+            "_checkSum": "9b61b51e1ed322bf06844ccb72f68aaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/03_Pathfinding.unity",
+            "_guid": "1971f74b291359148942705402a84534",
+            "_checkSum": "8fbc94551878433dc3db04a52cd5dc60"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/03_Pathfinding_Costs.unity",
+            "_guid": "83e6f2418330d7e478f3c4f484a21e42",
+            "_checkSum": "dd76c6708f0b5fee69510d5f83537cce"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/CaveMap.unity",
+            "_guid": "887baaf85c768f547a5f7f143fc31a84",
+            "_checkSum": "849f066f7b2e32f6bda25adce8395fc7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/CavernsMap.unity",
+            "_guid": "e380901c43c1dab418f3153a82098ba4",
+            "_checkSum": "26ad0cebc4d896708df10852237708f7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Scenes/Maps/TunnelMap.unity",
+            "_guid": "23164fcc50e33e941afb22de1c1d857c",
+            "_checkSum": "43d91cf3cf13e41b83263618de7fb433"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/bodies.png",
+            "_guid": "19307fb02af5c0442aa892b1e1d45e9c",
+            "_checkSum": "60e00f8a064596822064a062e7a5705e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/hair.png",
+            "_guid": "b24ddf798c2d32a49a7ed9d97483849c",
+            "_checkSum": "3f628ec8b0e591a427f04164a5ea1451"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/hats.png",
+            "_guid": "fc66359167d24a54ca381260605d38e4",
+            "_checkSum": "9412a84fe4b502ee4602c3f43c0cbc2f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/License.txt",
+            "_guid": "90c30d83c07d0b04081a889c8a48d606",
+            "_checkSum": "ddefc8464f867b16b2feca4b42a79460"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/pants.png",
+            "_guid": "1472a0c93dd1f6841a905a5c8f30cfd5",
+            "_checkSum": "296745a216fe8a78de2c3d82ebe46614"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/shields.png",
+            "_guid": "47fe4704419170d43b563cadf3222a77",
+            "_checkSum": "0ba0f354cf1ff3cd33bea048f63dc96d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/tops.png",
+            "_guid": "2f25fe7ea78417b4a877e0d323a8c32d",
+            "_checkSum": "f1e08a5e51630415ab0b621e6d641308"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Character/weapons.png",
+            "_guid": "b2a005b5145b9074797276ac74c29386",
+            "_checkSum": "71b4e511f6f78179de81964250234422"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Terrain/Attribution.txt",
+            "_guid": "69a21b47ec46caa4da0de0d3547ea7d8",
+            "_checkSum": "d9561221412c9591e0c3f8a3c269ab08"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Terrain/grass.png",
+            "_guid": "1750a099eb92d8947acffc06d10cbf44",
+            "_checkSum": "7ca9d5c49c76a64bf6b30ecc2cfe8f26"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Sprites/Terrain/terrain.png",
+            "_guid": "d13a2c46b1889a9409733a8c3f43ba26",
+            "_checkSum": "c6dafe8d907c61cdaf12a1d766e709b5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/brick_0.asset",
+            "_guid": "d9d1a75058c959440b1d25af6b73c8b1",
+            "_checkSum": "b84c3aad12b4090e64bffe221d0e5875"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/grass_1.asset",
+            "_guid": "d11bc6e4d893bea46baf03becde0702c",
+            "_checkSum": "2c75fe532214b8d10af8ed7090374dfc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/grass_2.asset",
+            "_guid": "e53d62d0a5abd2345bc3d5f17af77983",
+            "_checkSum": "4638910f5e88afcae483384b68293826"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/grass_3.asset",
+            "_guid": "60540388f5bed854d9205e9c1244f0b6",
+            "_checkSum": "c16369c219f6411ee1ee649717f761ca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/ground_0.asset",
+            "_guid": "a50bc665334a96f4c93e4e618a5bb82a",
+            "_checkSum": "42958ef400b3a96edc227f3b7d3652dd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/lava_0.asset",
+            "_guid": "b0653db56f6a4774caf9b661a4f3e6b7",
+            "_checkSum": "587e92464a068045b29a4d7eccc6ff2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/poppies_0.asset",
+            "_guid": "fc00cde4d2f4a0440bc0cb91fcf24f6d",
+            "_checkSum": "c5afb3ad28d1ab882610a09c866a199c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/Tiles/wall.asset",
+            "_guid": "8ff9754e243269846b1d105c436a8611",
+            "_checkSum": "9209a5b3b4a63b1f222ed339d699031a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/DungeonRuleTile/Sprites/Dungeon.png",
+            "_guid": "395136bc4e5baaf449cb00c5442753bc",
+            "_checkSum": "f1b2694564783de65370218eeac2c59f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Procedural/Tilemaps/DungeonRuleTile/Tiles/Dungeon.asset",
+            "_guid": "e883275dc32427148bb40661d8fbbe9d",
+            "_checkSum": "d0d311b682738f7fd4ef95af2cc45b8a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
+            "_guid": "1e791f30eb3e9d84e84f065801a5e960",
+            "_checkSum": "f82b5a4cbaa2c47f63b84edbe3d5bf5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Samples.asset",
+            "_guid": "ee5f617a22ae3614793f6ae5d52cc6ba",
+            "_checkSum": "3a1d9e3595f33697d28e48dadbdb462f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/beep.mp3",
+            "_guid": "f2e8a6a4e637a3e47a3825fc1cbdd7f0",
+            "_checkSum": "17ce0037a19ac7ca0f66bf80cb3eddaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/dataChirp.mp3",
+            "_guid": "d356acd0857defe44993ff1b59654fe3",
+            "_checkSum": "a11207e31c18ccc68569e8446ffa7d64"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/doorServos.mp3",
+            "_guid": "fe51bc757964761458c6d5b6fc899d7e",
+            "_checkSum": "fbfb470edcc97c9bf61d6cd46e770a86"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/pressurePlate.mp3",
+            "_guid": "7d5d54edd899d644e8995de4d63baea2",
+            "_checkSum": "9895286c39e7440dcc3b921879ca45a0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/SampleAudioMixer.mixer",
+            "_guid": "1665e9ccdc7e04d4c91405e69a0198ab",
+            "_checkSum": "74a74291a9bbbd00ec32aebe4cb06271"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortAlarm.mp3",
+            "_guid": "46c2c82b71852604f90f60d57bc9e4d1",
+            "_checkSum": "27115bdaedc138bbf215d834a8bbfdaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortBeep.mp3",
+            "_guid": "f8b7b72fcd4468b4288f6f86b3064f50",
+            "_checkSum": "a752a3ab3b115549133bf60e1597b455"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/success.wav",
+            "_guid": "3992fab729161bd4c80bb597a0dcdd42",
+            "_checkSum": "bd5aa70b8142da7a08f9b4c4b2a9d818"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/synthBeep.mp3",
+            "_guid": "3c689c46bcf2d8b4fae30f3169e72aa8",
+            "_checkSum": "36a5fc181a8bcfe1ac698770c6f82a1e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Black.ttf",
+            "_guid": "76348cbe618aaf24685419c3d653a07b",
+            "_checkSum": "e631d2735799aa943d93d301abf423d2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Bold.ttf",
+            "_guid": "42efd3313ae7c0448a792a49e622525e",
+            "_checkSum": "85d339d916479f729938d2911b85bf1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Light.ttf",
+            "_guid": "54ee4b17b85421342a80262adfa1c9f1",
+            "_checkSum": "2fe27d9d10cdfccb1baef28a45d5ba90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Regular.ttf",
+            "_guid": "84a15c2272c6de849816aa30935f3896",
+            "_checkSum": "2d36b1a925432bae7f3c53a340868c6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Thin.ttf",
+            "_guid": "94af4a26a50b2a4439d9a26e1141c1f9",
+            "_checkSum": "9a77fbaa85fa42b73e3b96399daf49c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/OFL.txt",
+            "_guid": "f022cc97c71d75940a9f2ca64f4418d8",
+            "_checkSum": "99aa8fee7ed71044ae773b92d79ab24c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF - Fallback.asset",
+            "_guid": "528c8856f21cc8b42bf5158fcb8dedb3",
+            "_checkSum": "569a29093b0a8f4eff204f8f60053ccd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF.asset",
+            "_guid": "3b973c8e584b61e4784fbee61a60a21a",
+            "_checkSum": "84389414ce2d65f79b5f779bbb3f83ea"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Roboto-Bold.ttf",
+            "_guid": "144b338c0044550479b6d8ac7872fe73",
+            "_checkSum": "ee7b96fa85d8fdb8c126409326ac2d2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Checker.mat",
+            "_guid": "fddf13eac51d6c04da368778921c9bae",
+            "_checkSum": "9cf2cfdfd2564166590696788c03ec97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Default.mat",
+            "_guid": "f7bbdc9c6dbee914d811845bdd27fec0",
+            "_checkSum": "042abdfb79e484c238bbefcc88832353"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Grid.mat",
+            "_guid": "45d6431d5737c9942aab2ea5f40f4fa8",
+            "_checkSum": "1eed8c1fc0b5d52845007fdb5a2460bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Ground.mat",
+            "_guid": "78d9bf08434302945a528d19f61d0c68",
+            "_checkSum": "d788d02ddfce9154bb74403fc1b62018"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Laser.mat",
+            "_guid": "74e31ab6eaff9604086b8bfb2f5ac9e6",
+            "_checkSum": "351dc65df041b594d17421e07e26dab9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Player.mat",
+            "_guid": "660ac48001db659448315c97245df61a",
+            "_checkSum": "d5cefb5294afa77e35f5f25d48168e96"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Red.mat",
+            "_guid": "0958838b7ccb9b846bf5bf4f107530ba",
+            "_checkSum": "6d1684c571298d52f0ba8cc5dab9a317"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Skybox.mat",
+            "_guid": "e9b1a22031bea8e4785888857a897c00",
+            "_checkSum": "5fefc95ed4d7e1b20bdd04eff875292b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/SkyboxDawn.mat",
+            "_guid": "342cf32b16983a94faf9f63c0535b269",
+            "_checkSum": "b9e8c6756cd989fcfc51e8efb1baafd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Floor32x01x32.fbx",
+            "_guid": "de0de8b009a1acd42846fe9db10fe150",
+            "_checkSum": "c09fa117a2e78f146bb8134508d61cb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Hill32x07x32.fbx",
+            "_guid": "5cacea182896d0d45a3e56e31cb505e2",
+            "_checkSum": "d06500a0273195b0d981cf0df174792f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicMaterial",
+            "_guid": "23e5aa8fa6a583949802532a1b73fee2",
+            "_checkSum": "cded2b73c0531b2d9e594ec010f8da5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicsMaterial2D",
+            "_guid": "db0bdc520e4f01a41bfa0d2954842661",
+            "_checkSum": "c4475fa5a0bc8b4d117ca1232ff0b01f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/AutoUpdate.prefab",
+            "_guid": "23da1eef7a529f446b1d8373caa22239",
+            "_checkSum": "1cacfc82c029079a194ebacc1a794f0c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Cube.prefab",
+            "_guid": "583d6eb741ffa524395dc0e13b74c1a2",
+            "_checkSum": "36a5bbef629da48ba2a5ea78895852b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/EventSystem.prefab",
+            "_guid": "2e16bc28d47957841b658e2b5e980dae",
+            "_checkSum": "006f76dd746ad740bf89cd640b911d6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Floor32x01x32.prefab",
+            "_guid": "e8abf9f0f83d0a244ba8d3e71b5334b9",
+            "_checkSum": "a6cb37ee0e57a870910c5c07fe780969"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Hill32x07x32.prefab",
+            "_guid": "295074861b42b3043bc8cbc09e918e56",
+            "_checkSum": "4a94a4c09bd234703f58becf1cf2ac3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/RadarBlip.prefab",
+            "_guid": "b0178bbc0dda35d4787bc07426038800",
+            "_checkSum": "7f368a7d266174583eaf84510223e885"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Stage32x32.prefab",
+            "_guid": "64354fef861314c4c9e8e470494fa5f3",
+            "_checkSum": "cb65539a0dc9f9853d0b751f33b2e695"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/AxisBillboardRibbon.cs",
+            "_guid": "55ce84e98fff3f1468a589458f2545b7",
+            "_checkSum": "f98ec916a4339e136fd386846376aed7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/PlayModePhysics2DSetup.cs",
+            "_guid": "5f2fa1a23f5d49a3a6659a4d3ff95e2f",
+            "_checkSum": "81f7c7517bf1847df90e591df5b72c6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SimpleFaceCameraBillboard.cs",
+            "_guid": "8194cd5718cc4629a0670c4b14d364c1",
+            "_checkSum": "8a06e92d2b2f0620b4109e867af2dc05"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SpriteNearFade.cs",
+            "_guid": "3a0c97bf5bdd480790fea80ef055b59b",
+            "_checkSum": "033122fb7165e0753866ba0a7fa6da6c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeParticle.shader",
+            "_guid": "5911c31b8fe44662b71a5ca0e4401c8c",
+            "_checkSum": "6da1b1a4a68c6151ae49987ecf020b1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeStandardDither.shader",
+            "_guid": "e32711c84d9641afb5d59a5fb19de20c",
+            "_checkSum": "d286e9f48121e378ab95fcbd95d5aff1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/Skybox Gradient.shader",
+            "_guid": "8b20b5c1b1c710d4da9e67331b096e31",
+            "_checkSum": "4566804149b4495a5e1d5b6026f77909"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopCircle.png",
+            "_guid": "39220fd80b39dd44a96de8693c4eee7c",
+            "_checkSum": "6ca29670ba230e243bc8e5a5d8d2f7e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopSquare.png",
+            "_guid": "409e07c936448a541b7fe5e19136841a",
+            "_checkSum": "ab8176ea0e80508377687e2d39a1bd93"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledCircle.png",
+            "_guid": "beb01e11cc8b2784c9dc20f845348db1",
+            "_checkSum": "df951fae597e49963f5ed99a75ad1c02"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledSquare.png",
+            "_guid": "604db4374a8a1a14e86d4b59df5ff081",
+            "_checkSum": "3a467d61bd583a03ce4950bbf3b83b2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/checker.png",
+            "_guid": "01d8784180eb8ea4dbe826f07e471b18",
+            "_checkSum": "76f41ee6a3f97b92890886951cac774c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Grid.png",
+            "_guid": "dda43d596acd98a4b940ebcec5c510b9",
+            "_checkSum": "7c18af9b79ce4a58ca2db56123b186e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/GridBright.png",
+            "_guid": "83e8d34777238f1439158c659ed2d4cb",
+            "_checkSum": "d571d666138fa79484fb9794c8c57cdf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/SolidWhite.png",
+            "_guid": "5921146df0c6d27448c69ea18ea1ed84",
+            "_checkSum": "0c987eb8aa29df0620678b1c6ed23ee4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Transparent.png",
+            "_guid": "dc52f68efbe025248b5bdcfcb7150e2a",
+            "_checkSum": "265145c064b8d066d4fcbf72a04f7165"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Checker.mat",
+            "_guid": "a6dfc9b8b030f444f9bf9a8bb95e4ec4",
+            "_checkSum": "74b394da8619c44a87f1ae2b081a4df9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Default.mat",
+            "_guid": "66083b4abef770341991fcbb6828db55",
+            "_checkSum": "b3e1a1f08a8b0f4c91481e208f01480d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Grid.mat",
+            "_guid": "75a649f7bc2340247b338440bdb19ebe",
+            "_checkSum": "376106f45f9753987b5896c245b83836"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
+            "_guid": "212b8995053a83e4aa6208246bbaad84",
+            "_checkSum": "f019b61740735448be27f97aed2b2059"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
+            "_guid": "13c039b2b9edf494382d0277d57dd8d7",
+            "_checkSum": "98760c5c514c73bbf4c28971adb17b6f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/Editor/PlayModePhysics2DSetupEditor.cs",
+            "_guid": "4dd52637d24f40ee819dcf69d6886d73",
+            "_checkSum": "e162694ac92bc28a8830145f933e1b42"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/URP/DistanceFade_URP_LitDither.shader",
+            "_guid": "13297d6c083dc034e826a46df4044c30",
+            "_checkSum": "5114d038b9a307b93a4cbbfe05813512"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/Characters/ShapeCharacters.png",
+            "_guid": "7492883ae6b6e634c9a445a2e76ca5c6",
+            "_checkSum": "1b0ce3c2a6083e8d6797c7aaa0766f1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/ArrowUp.png",
+            "_guid": "74e39b9f04820d84394b7e28e196e851",
+            "_checkSum": "374dcdf7451b807584c0c58b8c2cfc0b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Card.png",
+            "_guid": "dce7c6101a8a886468de51df84bf41ad",
+            "_checkSum": "a12a6e132dbe9d7cccccd47dff93d0bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/CardHighlight.png",
+            "_guid": "0107dbaaaf5b26d44a1c354e06e5b679",
+            "_checkSum": "4f9194cb712cb306d581b92a9a460744"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/info-background.png",
+            "_guid": "6b370e82d0721824d995bdc03451f29b",
+            "_checkSum": "4f420e4b3256fee9c0e61db8e6f8a555"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Reticle-Simple.png",
+            "_guid": "52973ca95abd7c04896c7920ecb65c6d",
+            "_checkSum": "2daee1f9612ad4863e9ede01c362c15d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/SprintIcon.png",
+            "_guid": "f08e787a07b26c64d983e842e6d0bb2d",
+            "_checkSum": "d8846aeb3a9198d91ddd3da49250b46a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/sword_silver.png",
+            "_guid": "84f2f87b85b9f454d963aa0d561f15e0",
+            "_checkSum": "1ad92a48bbc7af56b4897e3242f6f7cd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/UI-Arrow.png",
+            "_guid": "4871407a71980914ca6f287aadab65ef",
+            "_checkSum": "c36b935e2c77818ee6d9323a7f53a021"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/BlueUI.png",
+            "_guid": "c2e093b169260c341ba07dfb96995e7e",
+            "_checkSum": "d791ab7a5a8f5de97d7bd94e02093c8b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/ExtraUI.png",
+            "_guid": "f03e9fe579d803544b04726a47d42d48",
+            "_checkSum": "db8bf41719f1eb7f2fa0a2baa7c074ec"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/GreyUI.png",
+            "_guid": "fbfe51f381ccd6341a42a1ccb8806ed6",
+            "_checkSum": "f0b1fd3e6d68c0816b2886599d7eb0df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/License.txt",
+            "_guid": "82baf4ad16dac7c4eb10fd0f5b833726",
+            "_checkSum": "7834f429eccd41168be8186cd1460d94"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/panel_border_grey.png",
+            "_guid": "e07b108c722d76041b936aa79ff394d3",
+            "_checkSum": "aea30485c7c4f1cda49de7f8ced82e27"
+        }
+    ],
+    "_usages": {
+        "_actions": [
+            "HutongGames.PlayMaker.Actions.BuildRandomName",
+            "HutongGames.PlayMaker.Actions.BuildRandomRects",
+            "HutongGames.PlayMaker.Actions.BuildRandomSpriteFromLayers",
+            "HutongGames.PlayMaker.Actions.BuildRectConnections",
+            "HutongGames.PlayMaker.Actions.BuildRectConnectors",
+            "HutongGames.PlayMaker.Actions.FilterCellsKeepLargestRegions",
+            "HutongGames.PlayMaker.Actions.GameObjectInstantiateAtPosition",
+            "HutongGames.PlayMaker.Actions.GameObjectReactivate",
+            "HutongGames.PlayMaker.Actions.GameObjectSetName",
+            "HutongGames.PlayMaker.Actions.GenerateCellularAutomataCells",
+            "HutongGames.PlayMaker.Actions.GenerateDrunkardsWalkCells",
+            "HutongGames.PlayMaker.Actions.ListGetItem",
+            "HutongGames.PlayMaker.Actions.ListSetValue",
+            "HutongGames.PlayMaker.Actions.LoopGrid2D",
+            "HutongGames.PlayMaker.Actions.NavGridApplyTileCostProfile",
+            "HutongGames.PlayMaker.Actions.NavGridBuildFromTilemaps",
+            "HutongGames.PlayMaker.Actions.NavGridDebugCosts",
+            "HutongGames.PlayMaker.Actions.NavGridDebugPath",
+            "HutongGames.PlayMaker.Actions.NavGridFindPath",
+            "HutongGames.PlayMaker.Actions.NavGridSmoothPath",
+            "HutongGames.PlayMaker.Actions.RandomGetPointInCircle",
+            "HutongGames.PlayMaker.Actions.RandomInitState",
+            "HutongGames.PlayMaker.Actions.SceneManagement.SceneManagerReloadActiveScene",
+            "HutongGames.PlayMaker.Actions.SpriteRendererSetSprite",
+            "HutongGames.PlayMaker.Actions.TilemapClearCells",
+            "HutongGames.PlayMaker.Actions.TilemapClearRects",
+            "HutongGames.PlayMaker.Actions.TilemapFillRect",
+            "HutongGames.PlayMaker.Actions.TilemapFillRectPattern",
+            "HutongGames.PlayMaker.Actions.TilemapReplaceTilePattern",
+            "HutongGames.PlayMaker.Actions.TilemapSetCells",
+            "HutongGames.PlayMaker.Actions.TransformWrapAcrossScreen",
+            "HutongGames.PlayMaker.Procedural.GenerateDLACells"
+        ]
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349229982261635
+}

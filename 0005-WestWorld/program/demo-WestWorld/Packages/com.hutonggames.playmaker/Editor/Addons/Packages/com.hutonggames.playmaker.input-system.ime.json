@@ -1,0 +1,54 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.ime",
+    "_displayName": "Keyboard IME Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/IME",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Variables"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "InputSystem Keyboard IME actions.",
+    "_description": "Input Method Editors (IMEs) convert keystrokes to characters in another language.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.Keyboard.html",
+    "_icon": "InputSystem/Keyboard",
+    "_tags": [
+        "Actions",
+        "InputSystem"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/IME/KeyboardSetIMECursorPosition.cs",
+            "_guid": "649b29530eb95a44f85762f7bc33464e",
+            "_checkSum": "0d4dff43a717291875e6f20ad75e5b5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/IME/KeyboardSetIMEEnabled.cs",
+            "_guid": "c4824af256e4ec54daab967f59c4594e",
+            "_checkSum": "bb3963dd8ccd981925b5fab9d7feab5a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Variables/Key.cs",
+            "_guid": "0d8fca16a8d0e714e9b6eddaea5b837e",
+            "_checkSum": "d1c65e8e04ccb637226b09e0cb1eca27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Variables/Keyboard.cs",
+            "_guid": "3cb85264599f4efc985de4193c71c8d6",
+            "_checkSum": "df8204681962851c0ce914f76ea01d4a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b81",
+    "_datePublished": "2026-08-11",
+    "_timeCode": 134309371796445207
+}

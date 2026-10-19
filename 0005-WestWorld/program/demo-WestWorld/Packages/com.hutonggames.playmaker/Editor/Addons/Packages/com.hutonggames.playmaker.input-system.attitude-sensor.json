@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.attitude-sensor",
+    "_displayName": "AttitudeSensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AttitudeSensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System AttitudeSensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.AttitudeSensor.html",
+    "_icon": "InputSystem/AttitudeSensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AttitudeSensor/Actions/AttitudeSensorGetAttitude.cs",
+            "_guid": "7acabc4ec2b84f4a812ae2fcf398a77c",
+            "_checkSum": "ec414c2a1e10bd54b7b238d582dec4b0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AttitudeSensor/Constants/AttitudeSensorCurrentValue.cs",
+            "_guid": "4d0c495bd98449c6afa35e83b9b977e3",
+            "_checkSum": "53c2f83fdbde0ae9648da378ac902a14"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AttitudeSensor/Variables/AttitudeSensor.cs",
+            "_guid": "5f79a970cf464f3195b28e0a8a1ee7d2",
+            "_checkSum": "2c7901f2f61d17b60c9551a1d55732cd"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479458519520
+}

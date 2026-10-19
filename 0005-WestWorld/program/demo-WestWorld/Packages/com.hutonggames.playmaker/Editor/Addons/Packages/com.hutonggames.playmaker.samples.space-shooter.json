@@ -1,0 +1,1162 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.samples.space-shooter",
+    "_displayName": "Space Shooter",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Assets/Samples/PlayMaker/Games/SpaceShooter",
+        "Assets/Samples/PlayMaker/Shared"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.flight",
+        "com.hutonggames.playmaker.proc-gen"
+    ],
+    "_upmDependencies": [
+        "com.unity.inputsystem"
+    ],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "3D space shooter with 6DOF controls and enemy AI.",
+    "_description": "# Space Shooter\n\nA 3d space shooter with mission objectives and enemy AI.\n\n{height=300}![screenshot](Packages/com.hutonggames.playmaker/Editor/Addons/Packages/com.hutonggames.playmaker.samples.space-shooter.jpg)\n\nNOTE: This sample uses the new Input System.\n\n## Features\n\n- Uses [Data Tables](docs:guides/using-data-tables/) to define missions and messages.\n- Uses [Flight addon](docs:actions/flight-actions/) for 3d flight controls and AI.\n- Uses [TargetManagers](docs:guides/ui-widgets/target-managers/) for OffScreen and Target  Indicators.\n- Uses [Interactables](docs:guides/interactables/) system for pickups.\n- Uses [DataComponents](docs:components/data-component/) to define PickupInfo.\n- Uses [Object Pools](docs:actions/object-pool-actions/) for laser bolts.\n\n## Input Action Map\n\nInput actions are defined in the **SpaceShooter** input action map.\n",
+    "_helpUrl": "",
+    "_icon": "GameIcon",
+    "_tags": [
+        "Samples",
+        "Games",
+        "AI",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": true,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Documentation.asset",
+            "_guid": "4b943671e736ac7499537583c87a9008",
+            "_checkSum": "213e91ce2346bd81748fa32280a09c83"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/SpaceShooter.asset",
+            "_guid": "d2086211abbfaf44397de14ace8b0d02",
+            "_checkSum": "4bedf37fdeb6e5011567b2dd1d6cdff3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/SpaceShooter.inputactions",
+            "_guid": "3a07b21c404742348949c74ca16f0f66",
+            "_checkSum": "5afbce6592ad256ed5bc2e6ff608d31f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/engineCircular_001.ogg",
+            "_guid": "96496f59aae2e8642ad3741dd9b5cf81",
+            "_checkSum": "8eaebd542fcff893440a2b6abd8a0cb7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/impactMetal_003.ogg",
+            "_guid": "51ba838ffcbe47345968cb96bdf1b3a5",
+            "_checkSum": "b652b9e24462f22edf77a5ca1e5cd0b5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/License1.txt",
+            "_guid": "0599f07162ce98a45941e1a32ec3d25b",
+            "_checkSum": "6e7eb700ee284460e29f3c5d8874c816"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/License2.txt",
+            "_guid": "1ed04091f72881a4da102df1d945b0d9",
+            "_checkSum": "7c755b78f7e20c68ff3bd523fe37aac7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/lowFrequency_explosion_000.ogg",
+            "_guid": "ee2ad48ae03f2874084d08fd2d503a95",
+            "_checkSum": "cd7f327ff8728d94a3858d358ad532a4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/pepSound1.ogg",
+            "_guid": "ecb269a2fbe957c4e9c2919e288bda9a",
+            "_checkSum": "8513ed41beeaf4633f1dd225725efb14"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/select_007.ogg",
+            "_guid": "4f90b2eb663b4e94ea53f34d93bbcd4b",
+            "_checkSum": "18ea061d9baad6bb708545fb941f5e6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/select_008.ogg",
+            "_guid": "85582d5603484314cb350065205d23d1",
+            "_checkSum": "ca6226d68368abb61ddc3f158535cd97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Audio/zap1.ogg",
+            "_guid": "928c92158415c5c4dacd7a0db7d8137f",
+            "_checkSum": "01fc78ad700fbb88f14cde3cf9f4fa91"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/Greetings.asset",
+            "_guid": "ad3ec587fb0a33641af0fb00e492be90",
+            "_checkSum": "3326a84a9628903dc05ef78d7eca60a7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/Message.asset",
+            "_guid": "71188d0254f87c94aa04c691711cd18d",
+            "_checkSum": "3e6db16f181beb88504488fa5691ec16"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/Mission - Combat Tutorial.asset",
+            "_guid": "fc0b4f17e9b568741ab9ee3964a4b14a",
+            "_checkSum": "ee4bf3d203cd619605b3c96b6002a2ff"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/Mission - Movement Tutorial.asset",
+            "_guid": "23aab7101f805584ebcce6f76c452483",
+            "_checkSum": "b2555a150de2ceed86f2dd4f9194bd0d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/Mission - SOS.asset",
+            "_guid": "ad239fb83eab4004984a37043c5c59a7",
+            "_checkSum": "184ca7dc6c606bbaec61043d2e80d41a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/PickupInfo.asset",
+            "_guid": "4f1030f0b561b5e448b4e27b14d3482c",
+            "_checkSum": "256d2b8ca3214f9381799dc63db48a59"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/Sender.asset",
+            "_guid": "fbb14217996788a4faf4bac75a4a7d51",
+            "_checkSum": "680b02bcfd2720136bde8fdaf01b8bf5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/Senders.asset",
+            "_guid": "9412823d0299e44429ff7c88f33b61d0",
+            "_checkSum": "624fce91cc08b2ef02d3048af4e7f2d4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/SOS Progress.asset",
+            "_guid": "6f1ea602e83c7654d91b85c26c824625",
+            "_checkSum": "0fe220158cb9059acc8271a2ecdaf0fe"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Data/SOS Setback.asset",
+            "_guid": "dcde05aa50e9f6d4aa52424a4fc1634d",
+            "_checkSum": "a87e176e49c74192b7f5cd6dcbf98344"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/AddTarget.asset",
+            "_guid": "bf4d13d0565f3fb428e1e09227791c04",
+            "_checkSum": "7eccf672878db276fa3e14909d6ba11c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/ClearComms.asset",
+            "_guid": "14a111cf82ebefa4db9fc56a87aa1a2d",
+            "_checkSum": "b7774105ae9c54c96b92aaa7e3f96a53"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/ClearTarget.asset",
+            "_guid": "4efc9924313a1d4479d37e30e5cbf847",
+            "_checkSum": "e558269b307e08644eb0dbbcfe81b25f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/Comms.asset",
+            "_guid": "9601603206944ea428d084f0cd767b1e",
+            "_checkSum": "bd91ac30bee1ea0b7519528bfbff23e6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/CommsMessage.asset",
+            "_guid": "67aedc310c91c6244997e6292091b25a",
+            "_checkSum": "a09627c6b7662733b2f727e73fd329e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/Hit.asset",
+            "_guid": "52f5a0b46eff39f458620423518905d4",
+            "_checkSum": "f48f2941787c114c4faffa18d3d64acb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/Insults.asset",
+            "_guid": "ff869a1e3edab1b4bbd9f56a7babab98",
+            "_checkSum": "93b41f597f0b3df515991c7537d163de"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/MissionFailed.asset",
+            "_guid": "36bd05ed3618d5941b4c93c5c731c6bb",
+            "_checkSum": "3c340e280a603a5efb690384c8a7d03a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/MissionProgress.asset",
+            "_guid": "48e8936e609689a4f9cdf525a390e25f",
+            "_checkSum": "06d70cbdfd841cfd8149a2032244c625"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/MissionSucceeded.asset",
+            "_guid": "7949448e98dbb5249aaeee29f7942dde",
+            "_checkSum": "fbcddb261df0f130d61b9672e0f0d1ee"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/Pickup.asset",
+            "_guid": "227c6757a0363ee419f139bf5a1b5e97",
+            "_checkSum": "9121c4aa186cc47e0c2524e899a55fff"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/Player.asset",
+            "_guid": "83edc230e11e69b4db061a0ea91ccf12",
+            "_checkSum": "fe3a4c479289b67ff3b0a29363f26967"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/Repair.asset",
+            "_guid": "02d2b83f72c3838499fa5d35266fef2f",
+            "_checkSum": "db8ff9c9fa5a3b402d963d73f55673c4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Globals/UpdateMessage.asset",
+            "_guid": "16566394c9f60db47aec486cbfcf6d0c",
+            "_checkSum": "05fa72b250275823514eb36d9baf6868"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Material/DistanceFadeFogParticles.mat",
+            "_guid": "7eb87eaaf6cbf034d945a7bda2f9ee8b",
+            "_checkSum": "5675f9fffaa27362994289c061eea50d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Material/Explosion.mat",
+            "_guid": "3c0a63d49d72ccf469398f7ca71a96b6",
+            "_checkSum": "54e80ca4fcd9fe99bcd1a71f312790ce"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Material/LaserHit.mat",
+            "_guid": "f949aed352478684dbca3128dc0c3c70",
+            "_checkSum": "4eb0f03e93ae41d1ceee0c85360636e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Material/LightGlow.mat",
+            "_guid": "a5df88b540aea884fb94198912ba6c3f",
+            "_checkSum": "c8d9bf33b99a3973ef0335f58e1c88e6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Material/Trail.mat",
+            "_guid": "10cb45589984eb042aafe2652d7f9a09",
+            "_checkSum": "dc3365bca2752ded340ba42c8dbb9e66"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Scenes/SpaceShooter.unity",
+            "_guid": "6753429ad853d90409f5fcead39491a5",
+            "_checkSum": "ba5387be549250507dc8703a90d1cfe2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/6-dof-flight-controls.png",
+            "_guid": "baaf6f8ffafcb5147a0c17a1baba4bd0",
+            "_checkSum": "0f3237773bf1cf1aebdb3c9162354c4e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/chevron-up.png",
+            "_guid": "da7d7803a22603948856a56c1505b9d4",
+            "_checkSum": "4ade2936787d9634a754c80f4e7dbf43"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/flight-icon.png",
+            "_guid": "8e54c6784c150ec45889205db682779c",
+            "_checkSum": "1cf8a67b3e69aca3db6747c4c4f30722"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/glow.png",
+            "_guid": "b824754b588c54544a3b4589cca6a82d",
+            "_checkSum": "d5acb08c42efe175b7946dd368ce5e2c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/laser-bolt-green.png",
+            "_guid": "3cfbeb45ad5db5449b3cb13cc98a6fc2",
+            "_checkSum": "3c3a8e1f7799271d3f18aa332d7c9c20"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/laser-bolt.png",
+            "_guid": "64200a832f4d1e44094e4a292435c1dd",
+            "_checkSum": "1cdfa72b94236df71a6e33dc17b74485"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/laser-cap.png",
+            "_guid": "2cc860d045db7a147b89e807bb4dfdc7",
+            "_checkSum": "296f669298387ddbd5be2357282964ee"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/laser-hit.png",
+            "_guid": "2420272832a2138449729b9a53e0e2cb",
+            "_checkSum": "64030193e6c1d985d36f57c18131d817"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/target-bracket.png",
+            "_guid": "1f04958282c00474aaac19095e417498",
+            "_checkSum": "5232c742f02984167fd2c7ac6c400c90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Templates/AddMessage.asset",
+            "_guid": "94c2d579f4d926242b28058083dbbff8",
+            "_checkSum": "fc0f15d408d09460be3cd8d50a5cfa02"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Templates/CommEntry.asset",
+            "_guid": "a8cfa333d417b3e48b0c81b401064b7f",
+            "_checkSum": "ac61ece8f6cc0cd92fc49fa1172b8be5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Templates/Health.asset",
+            "_guid": "fab2e1c795ac0b54d81b28381d66becb",
+            "_checkSum": "c7b9f4c46927d4cc194547d470a2684e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Textures/nebula.png",
+            "_guid": "9fb108c515d58da41a93b563daad1ada",
+            "_checkSum": "89d74cf5711ebf63189c8f70d1fd5f75"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Textures/SpaceBox.mat",
+            "_guid": "3cf38247642ba4b429dfc283e56efbb5",
+            "_checkSum": "b96995b24679c568dd98e7c406c1b441"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Textures/SpaceBox.png",
+            "_guid": "a152b48f9e426884684cd005fb40b30e",
+            "_checkSum": "fd2cd9a1fdf927180d9d78533b9040b7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Textures/trail.png",
+            "_guid": "d319c44e84c3f294ca049a92d232ec78",
+            "_checkSum": "8fb0de295f849f1a5c17cdd9e636c7fd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid-urp.mat",
+            "_guid": "82bc0eb4e317dfa459bd794aa6837713",
+            "_checkSum": "37c675041e0c7958881cc2cc6fa34a80"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid.mat",
+            "_guid": "72a6055e565ec564bb1b03a0b7e223cc",
+            "_checkSum": "55de3d61ccfb64a6bfde6920784d0b39"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid1.fbx",
+            "_guid": "38d3837a8aeb55c4b81f043ea40efd20",
+            "_checkSum": "8fe5720c04d9ef498259d70d064a3136"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid2.fbx",
+            "_guid": "acf7f4b2d126b344dbf11c7f01751bb7",
+            "_checkSum": "61482ca19b1bcb541f14fc1cf8248fe3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid3.fbx",
+            "_guid": "7c1975eb2decb9449899f9c780f0bc66",
+            "_checkSum": "4d050fb135fa523518934f9b7edb105f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid4.fbx",
+            "_guid": "2e1c8096244c50444a8fbf5564286edd",
+            "_checkSum": "3160885d4f9a8ce3722b7728daf3e1db"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid5.fbx",
+            "_guid": "ebc02bfbb5295f24ba5747036cd9ea34",
+            "_checkSum": "193d2cbc288a8f6af97bca07bd00a414"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/asteroid6.fbx",
+            "_guid": "de16cb0b694986847a68bc4b967a0f8a",
+            "_checkSum": "6e98963ff4fa5fd3696434cc947ad4ba"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/License.txt",
+            "_guid": "3565930fecbfbcc4f86c916e3511e097",
+            "_checkSum": "c007b48f04868ad2b040636c49c102f6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Beacon/Beacon-URP.mat",
+            "_guid": "344b6803157950a45896b32b94790f5e",
+            "_checkSum": "a9fa3d1ee5ceaa1607dd8572eaaf31d7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Beacon/Beacon.fbx",
+            "_guid": "4b7613cfe1fe9af4fa0ca16180cdb57b",
+            "_checkSum": "484f40a2f8bc9606fdbfa06d6cd64398"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Beacon/Beacon.mat",
+            "_guid": "71e6edc9c655a674d8e159ad387e62c6",
+            "_checkSum": "5a0e8818b8d7dc13624769587fcc5ea9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Beacon/color.png",
+            "_guid": "143a769d34a24fb43bb4616323b8c3d5",
+            "_checkSum": "7bc13c1815f44910ab608ff29fee6912"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Beacon/License.txt",
+            "_guid": "4cee6f11fa91b0b458ad62385c2ea491",
+            "_checkSum": "fd2f54e3a9e7c370da5559080d9edf43"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Beacon/metallic.png",
+            "_guid": "b69f74ed739fee94e9236cf1c87a310c",
+            "_checkSum": "72e79db348808e73b6cb15e7935530f1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Beacon/normal.png",
+            "_guid": "e17232c6a247d404da8cab6b2a29155c",
+            "_checkSum": "61256e3087f018bfe5379916c803181c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_cargoA.fbx",
+            "_guid": "cb119ed165b888b4da292b57de77bb77",
+            "_checkSum": "40aa261fe01bcdb34156580d4f429f1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_cargoB.fbx",
+            "_guid": "159d2d6f510896c45955b1db47f8dc0f",
+            "_checkSum": "0ba5beb0cf9e46e08e6da450aae6f485"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_miner.fbx",
+            "_guid": "6e0a429832603c742b7e0d092b0ccbf7",
+            "_checkSum": "e55fe6fcd1953a4665e20d4710fd9310"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_racer.fbx",
+            "_guid": "54001f59f1c950f45a3095105461043b",
+            "_checkSum": "3f58eadb3dd3e2f48c1ebaaf1be5de3f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_speederA.fbx",
+            "_guid": "a46c16528e2d45146baebf8141f8447f",
+            "_checkSum": "93d2baab273a707068489ef055d7f12d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_speederB.fbx",
+            "_guid": "57f39d0c2959a1b498ffd175c813a08b",
+            "_checkSum": "b8e0b22d0f66857cdc3ae4ab57c59e2d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_speederC.fbx",
+            "_guid": "f325ef6eec57e7d438feac3e4b03d916",
+            "_checkSum": "180f7c65470f46c414aaedf04bbfba3b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/craft_speederD.fbx",
+            "_guid": "79fb27844ccb18d40a1a42900b4d9991",
+            "_checkSum": "03b4d2a814750b5cc6189f73ced39eb0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/License.txt",
+            "_guid": "a16c613809c1921499d2b020ddf47b90",
+            "_checkSum": "15ac9b53356d415a81972aebede16841"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Turret/color.png",
+            "_guid": "486a1fa41418b6142b4a55114a8e0eb9",
+            "_checkSum": "1e62fc245ef4635ff75bf15e1d0fa1bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Turret/License.txt",
+            "_guid": "fdff10fbf1e96c44787d243a2ef3e22e",
+            "_checkSum": "fd2f54e3a9e7c370da5559080d9edf43"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Turret/metallic.png",
+            "_guid": "7f2dc64a99bc0dc42973a9e6d5eebe78",
+            "_checkSum": "74e4214bbe38806cb7fd6a4754e37670"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Turret/normal.png",
+            "_guid": "b63be867f5441914292f79b5ac97cbcc",
+            "_checkSum": "8b323c365375ef62473ed7b34443adb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Turret/Turret-URP.mat",
+            "_guid": "622cbd8a71890334c852a0c166a7a53a",
+            "_checkSum": "a042a472ebe1e9e7ac779aa8dfbdc5e5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Turret/Turret.fbx",
+            "_guid": "768347bf68bb1144589c3ef2154f1851",
+            "_checkSum": "38dce7811a4f864e76e87b96083c84c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/Turret/Turret.mat",
+            "_guid": "5b0898d4b630fd742b27a5ea2918aac3",
+            "_checkSum": "22a9a749ad46be13e39a508faaf858f0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/UltimateSpaceships/License.txt",
+            "_guid": "2cad7f13306b2cf408b98100441ef9ca",
+            "_checkSum": "e33845c1e50511621169b3e648566d32"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Asteroids/Asteroid1.prefab",
+            "_guid": "1ed8aaf88df20f54285bc4ca150a1bde",
+            "_checkSum": "b6927d284286b5255e4a27af698419d3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Asteroids/Asteroid2.prefab",
+            "_guid": "a91e599ac3fbda7469120a43267fadaa",
+            "_checkSum": "53c4623b4cd22e2b80f6358ff36bdece"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Asteroids/Asteroid3.prefab",
+            "_guid": "097515c1308cb3e4e95ca820ca123779",
+            "_checkSum": "0385714e7854679a29912c1a390dff21"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Asteroids/Asteroid4.prefab",
+            "_guid": "2ebf750733e4bfa46ab8be46666b8116",
+            "_checkSum": "31968d5b01a208c2714f53c55f36ef5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Asteroids/Asteroid5.prefab",
+            "_guid": "b1391f5475a201045baa08011cd1aa12",
+            "_checkSum": "4f6c71d4e901439072ee495f34595865"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Asteroids/Asteroid6.prefab",
+            "_guid": "1e900059191deb946b7aedd8b2a91948",
+            "_checkSum": "5728ee8af0edf85e5f71039be7441bd7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Enemies/Pirate.prefab",
+            "_guid": "6bb4476d478b2504cad857d0f5ac6bf7",
+            "_checkSum": "396994421dbd07a08151dcd71a789467"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Enemies/Sentry.prefab",
+            "_guid": "8120624428d1d954a9ca54f9236e52cc",
+            "_checkSum": "ad94822445579597099a2489733224e3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/HUD/Message.prefab",
+            "_guid": "dc6bd8d1d6484ae43ac144989f5b8677",
+            "_checkSum": "96807e20dff03340c9a22ae580d23e96"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/HUD/OffscreenArrow.prefab",
+            "_guid": "5874a22af03a86a43b0f8205ad55b22d",
+            "_checkSum": "badab4a88a25ca6124f2e2ac4e66bcb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/HUD/TargetBracket.prefab",
+            "_guid": "f9eb0257f9803d94ca1639cc5e6c5064",
+            "_checkSum": "88c83eab644bb0939b483926aaae6486"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Missions/Beacon Dark.prefab",
+            "_guid": "2d316f56abd20ae459474e3d5621239c",
+            "_checkSum": "8217ecde1daf2a911cb90263bebfb393"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Missions/Beacon.prefab",
+            "_guid": "699b1e812b952dd4785c10adae4dd6b7",
+            "_checkSum": "d97fed2aad0a5adbd163001d1743229a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Missions/Wreck.prefab",
+            "_guid": "46c4ded3b1253f446bd0a1df88741a1d",
+            "_checkSum": "5d316bd9ef2ec811ca3b7e39f5ec22d1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/Explosion.prefab",
+            "_guid": "b33b0f90d13fc194c95a1539763d6396",
+            "_checkSum": "d61667f6ae57a6b945b3a2d9daeb9229"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/LargeExplosion.prefab",
+            "_guid": "bcd7abb2fa135e24988eceb6bed3ba1f",
+            "_checkSum": "b5c3142dffea9c014596277e155cb754"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/LaserBolt.prefab",
+            "_guid": "7bef0abb19a477f4296e654cbec52e5d",
+            "_checkSum": "6b6dc47f76da60584d5a8188180854be"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/LaserFlash.prefab",
+            "_guid": "0b981eb0fcb116b41a4e64e7e26c390a",
+            "_checkSum": "ee7139e8cda22bd94cb22939f4fba8b9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Prefabs/Weapons/LaserHit.prefab",
+            "_guid": "32e3ff21a3dd19a4c83ff8c3441ee5be",
+            "_checkSum": "bbe0670965eb7615413e2c7973549e98"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/Pickups/beacon.png",
+            "_guid": "ee7d460fa1fe3d841af96ed193f1704e",
+            "_checkSum": "61303fbf90d583457d3a9b96f4bcbf46"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/smokeParticleAssets/blackSmoke00.png",
+            "_guid": "b79967e7cd9132942a17cf2efa83333b",
+            "_checkSum": "3cdbe2ce1cc1be1310e4cbea1f1637d3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/smokeParticleAssets/explosion01.png",
+            "_guid": "a715d315a4efec547814c013ab2a0914",
+            "_checkSum": "0369314d4dcf93c5b9106360475ffa3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Sprites/smokeParticleAssets/license.txt",
+            "_guid": "ba2e1468831c76648b7033bf82bf54a1",
+            "_checkSum": "33e40592549e45611ba1f50732032c41"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/textures/asteroid_pack_01_DefaultMaterial_BaseColor.png",
+            "_guid": "0ab191963fd721e4c8c2b066951cf332",
+            "_checkSum": "61055b95a9795a718143500d3109c1a3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/asteroid-pack-01/textures/asteroid_pack_01_DefaultMaterial_Normal_Ut.png",
+            "_guid": "86c1508363894db4db56ecbe52c5b5dd",
+            "_checkSum": "85e1f6d92411b625afea5888f074c517"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/Textured/craft_cargoA.mat",
+            "_guid": "39866d0d44ceaa840b1f1bb0cc5ad6ed",
+            "_checkSum": "a03e05a2305b4ca035f5ebe399aaea0f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/Textured/craft_cargoA.png",
+            "_guid": "1750da39e28fd444685282a210f90916",
+            "_checkSum": "c9a231810e567a5afe5b1226b37e337b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/Textured/craft_cargoA_textured.fbx",
+            "_guid": "71f8fcf6fe1846845ad308be9c3c58e4",
+            "_checkSum": "a9a071ed3b8c0dd83d1526f72a7fb2ce"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/SpaceKit/Textured/craft_cargoA_URP.mat",
+            "_guid": "2add15d2038d6134e8eb536944ad8ae9",
+            "_checkSum": "e0ed3bd86a32ab75822a5a313303f082"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/UltimateSpaceships/Striker/color.png",
+            "_guid": "4ae59662496128e459901a7f3dc89a30",
+            "_checkSum": "552babd8c81ddd8ce7d42e8cef3cf749"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/UltimateSpaceships/Striker/metallic.png",
+            "_guid": "5d5c6b9ff55649f46bf9005e06ce672d",
+            "_checkSum": "189a2bdc3903a47ca9ad828f79a4ace7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/UltimateSpaceships/Striker/mixed_AO.png",
+            "_guid": "520c596adcf79b144b288401eb674ad2",
+            "_checkSum": "8fc95bd8dd5c0728a61ca2da6d847d67"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/UltimateSpaceships/Striker/Striker-URP.mat",
+            "_guid": "83eb89100bd2e9d4e9d99aa6d87c0e3d",
+            "_checkSum": "c33c3b18320ffa7f151c0c0cd43c7ffe"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/UltimateSpaceships/Striker/Striker.fbx",
+            "_guid": "7055df69a00ddd1479a1b1e2f5f483d3",
+            "_checkSum": "2372f5b8c30fd72764f194eef683296a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/SpaceShooter/Models/UltimateSpaceships/Striker/Striker.mat",
+            "_guid": "85289700dcc55bc418a4fe59b3de3d87",
+            "_checkSum": "1a3a2ffc51d6bcff11ec2ba24af6ebca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
+            "_guid": "1e791f30eb3e9d84e84f065801a5e960",
+            "_checkSum": "f82b5a4cbaa2c47f63b84edbe3d5bf5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Samples.asset",
+            "_guid": "ee5f617a22ae3614793f6ae5d52cc6ba",
+            "_checkSum": "3a1d9e3595f33697d28e48dadbdb462f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/beep.mp3",
+            "_guid": "f2e8a6a4e637a3e47a3825fc1cbdd7f0",
+            "_checkSum": "17ce0037a19ac7ca0f66bf80cb3eddaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/dataChirp.mp3",
+            "_guid": "d356acd0857defe44993ff1b59654fe3",
+            "_checkSum": "a11207e31c18ccc68569e8446ffa7d64"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/doorServos.mp3",
+            "_guid": "fe51bc757964761458c6d5b6fc899d7e",
+            "_checkSum": "fbfb470edcc97c9bf61d6cd46e770a86"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/pressurePlate.mp3",
+            "_guid": "7d5d54edd899d644e8995de4d63baea2",
+            "_checkSum": "9895286c39e7440dcc3b921879ca45a0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/SampleAudioMixer.mixer",
+            "_guid": "1665e9ccdc7e04d4c91405e69a0198ab",
+            "_checkSum": "74a74291a9bbbd00ec32aebe4cb06271"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortAlarm.mp3",
+            "_guid": "46c2c82b71852604f90f60d57bc9e4d1",
+            "_checkSum": "27115bdaedc138bbf215d834a8bbfdaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortBeep.mp3",
+            "_guid": "f8b7b72fcd4468b4288f6f86b3064f50",
+            "_checkSum": "a752a3ab3b115549133bf60e1597b455"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/success.wav",
+            "_guid": "3992fab729161bd4c80bb597a0dcdd42",
+            "_checkSum": "bd5aa70b8142da7a08f9b4c4b2a9d818"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/synthBeep.mp3",
+            "_guid": "3c689c46bcf2d8b4fae30f3169e72aa8",
+            "_checkSum": "36a5fc181a8bcfe1ac698770c6f82a1e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Black.ttf",
+            "_guid": "76348cbe618aaf24685419c3d653a07b",
+            "_checkSum": "e631d2735799aa943d93d301abf423d2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Bold.ttf",
+            "_guid": "42efd3313ae7c0448a792a49e622525e",
+            "_checkSum": "85d339d916479f729938d2911b85bf1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Light.ttf",
+            "_guid": "54ee4b17b85421342a80262adfa1c9f1",
+            "_checkSum": "2fe27d9d10cdfccb1baef28a45d5ba90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Regular.ttf",
+            "_guid": "84a15c2272c6de849816aa30935f3896",
+            "_checkSum": "2d36b1a925432bae7f3c53a340868c6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Thin.ttf",
+            "_guid": "94af4a26a50b2a4439d9a26e1141c1f9",
+            "_checkSum": "9a77fbaa85fa42b73e3b96399daf49c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/OFL.txt",
+            "_guid": "f022cc97c71d75940a9f2ca64f4418d8",
+            "_checkSum": "99aa8fee7ed71044ae773b92d79ab24c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF - Fallback.asset",
+            "_guid": "528c8856f21cc8b42bf5158fcb8dedb3",
+            "_checkSum": "569a29093b0a8f4eff204f8f60053ccd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF.asset",
+            "_guid": "3b973c8e584b61e4784fbee61a60a21a",
+            "_checkSum": "84389414ce2d65f79b5f779bbb3f83ea"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Roboto-Bold.ttf",
+            "_guid": "144b338c0044550479b6d8ac7872fe73",
+            "_checkSum": "ee7b96fa85d8fdb8c126409326ac2d2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Checker.mat",
+            "_guid": "fddf13eac51d6c04da368778921c9bae",
+            "_checkSum": "9cf2cfdfd2564166590696788c03ec97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Default.mat",
+            "_guid": "f7bbdc9c6dbee914d811845bdd27fec0",
+            "_checkSum": "042abdfb79e484c238bbefcc88832353"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Grid.mat",
+            "_guid": "45d6431d5737c9942aab2ea5f40f4fa8",
+            "_checkSum": "1eed8c1fc0b5d52845007fdb5a2460bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Ground.mat",
+            "_guid": "78d9bf08434302945a528d19f61d0c68",
+            "_checkSum": "d788d02ddfce9154bb74403fc1b62018"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Laser.mat",
+            "_guid": "74e31ab6eaff9604086b8bfb2f5ac9e6",
+            "_checkSum": "351dc65df041b594d17421e07e26dab9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Player.mat",
+            "_guid": "660ac48001db659448315c97245df61a",
+            "_checkSum": "d5cefb5294afa77e35f5f25d48168e96"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Red.mat",
+            "_guid": "0958838b7ccb9b846bf5bf4f107530ba",
+            "_checkSum": "6d1684c571298d52f0ba8cc5dab9a317"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Skybox.mat",
+            "_guid": "e9b1a22031bea8e4785888857a897c00",
+            "_checkSum": "5fefc95ed4d7e1b20bdd04eff875292b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/SkyboxDawn.mat",
+            "_guid": "342cf32b16983a94faf9f63c0535b269",
+            "_checkSum": "b9e8c6756cd989fcfc51e8efb1baafd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Floor32x01x32.fbx",
+            "_guid": "de0de8b009a1acd42846fe9db10fe150",
+            "_checkSum": "c09fa117a2e78f146bb8134508d61cb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Hill32x07x32.fbx",
+            "_guid": "5cacea182896d0d45a3e56e31cb505e2",
+            "_checkSum": "d06500a0273195b0d981cf0df174792f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicMaterial",
+            "_guid": "23e5aa8fa6a583949802532a1b73fee2",
+            "_checkSum": "cded2b73c0531b2d9e594ec010f8da5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicsMaterial2D",
+            "_guid": "db0bdc520e4f01a41bfa0d2954842661",
+            "_checkSum": "c4475fa5a0bc8b4d117ca1232ff0b01f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/AutoUpdate.prefab",
+            "_guid": "23da1eef7a529f446b1d8373caa22239",
+            "_checkSum": "1cacfc82c029079a194ebacc1a794f0c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Cube.prefab",
+            "_guid": "583d6eb741ffa524395dc0e13b74c1a2",
+            "_checkSum": "36a5bbef629da48ba2a5ea78895852b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/EventSystem.prefab",
+            "_guid": "2e16bc28d47957841b658e2b5e980dae",
+            "_checkSum": "006f76dd746ad740bf89cd640b911d6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Floor32x01x32.prefab",
+            "_guid": "e8abf9f0f83d0a244ba8d3e71b5334b9",
+            "_checkSum": "a6cb37ee0e57a870910c5c07fe780969"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Hill32x07x32.prefab",
+            "_guid": "295074861b42b3043bc8cbc09e918e56",
+            "_checkSum": "4a94a4c09bd234703f58becf1cf2ac3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/RadarBlip.prefab",
+            "_guid": "b0178bbc0dda35d4787bc07426038800",
+            "_checkSum": "7f368a7d266174583eaf84510223e885"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Stage32x32.prefab",
+            "_guid": "64354fef861314c4c9e8e470494fa5f3",
+            "_checkSum": "cb65539a0dc9f9853d0b751f33b2e695"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/AxisBillboardRibbon.cs",
+            "_guid": "55ce84e98fff3f1468a589458f2545b7",
+            "_checkSum": "f98ec916a4339e136fd386846376aed7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/PlayModePhysics2DSetup.cs",
+            "_guid": "5f2fa1a23f5d49a3a6659a4d3ff95e2f",
+            "_checkSum": "81f7c7517bf1847df90e591df5b72c6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SimpleFaceCameraBillboard.cs",
+            "_guid": "8194cd5718cc4629a0670c4b14d364c1",
+            "_checkSum": "8a06e92d2b2f0620b4109e867af2dc05"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SpriteNearFade.cs",
+            "_guid": "3a0c97bf5bdd480790fea80ef055b59b",
+            "_checkSum": "033122fb7165e0753866ba0a7fa6da6c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeParticle.shader",
+            "_guid": "5911c31b8fe44662b71a5ca0e4401c8c",
+            "_checkSum": "6da1b1a4a68c6151ae49987ecf020b1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeStandardDither.shader",
+            "_guid": "e32711c84d9641afb5d59a5fb19de20c",
+            "_checkSum": "d286e9f48121e378ab95fcbd95d5aff1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/Skybox Gradient.shader",
+            "_guid": "8b20b5c1b1c710d4da9e67331b096e31",
+            "_checkSum": "4566804149b4495a5e1d5b6026f77909"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopCircle.png",
+            "_guid": "39220fd80b39dd44a96de8693c4eee7c",
+            "_checkSum": "6ca29670ba230e243bc8e5a5d8d2f7e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopSquare.png",
+            "_guid": "409e07c936448a541b7fe5e19136841a",
+            "_checkSum": "ab8176ea0e80508377687e2d39a1bd93"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledCircle.png",
+            "_guid": "beb01e11cc8b2784c9dc20f845348db1",
+            "_checkSum": "df951fae597e49963f5ed99a75ad1c02"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledSquare.png",
+            "_guid": "604db4374a8a1a14e86d4b59df5ff081",
+            "_checkSum": "3a467d61bd583a03ce4950bbf3b83b2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/checker.png",
+            "_guid": "01d8784180eb8ea4dbe826f07e471b18",
+            "_checkSum": "76f41ee6a3f97b92890886951cac774c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Grid.png",
+            "_guid": "dda43d596acd98a4b940ebcec5c510b9",
+            "_checkSum": "7c18af9b79ce4a58ca2db56123b186e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/GridBright.png",
+            "_guid": "83e8d34777238f1439158c659ed2d4cb",
+            "_checkSum": "d571d666138fa79484fb9794c8c57cdf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/SolidWhite.png",
+            "_guid": "5921146df0c6d27448c69ea18ea1ed84",
+            "_checkSum": "0c987eb8aa29df0620678b1c6ed23ee4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Transparent.png",
+            "_guid": "dc52f68efbe025248b5bdcfcb7150e2a",
+            "_checkSum": "265145c064b8d066d4fcbf72a04f7165"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Checker.mat",
+            "_guid": "a6dfc9b8b030f444f9bf9a8bb95e4ec4",
+            "_checkSum": "74b394da8619c44a87f1ae2b081a4df9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Default.mat",
+            "_guid": "66083b4abef770341991fcbb6828db55",
+            "_checkSum": "b3e1a1f08a8b0f4c91481e208f01480d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Grid.mat",
+            "_guid": "75a649f7bc2340247b338440bdb19ebe",
+            "_checkSum": "376106f45f9753987b5896c245b83836"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
+            "_guid": "212b8995053a83e4aa6208246bbaad84",
+            "_checkSum": "f019b61740735448be27f97aed2b2059"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
+            "_guid": "13c039b2b9edf494382d0277d57dd8d7",
+            "_checkSum": "98760c5c514c73bbf4c28971adb17b6f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/Editor/PlayModePhysics2DSetupEditor.cs",
+            "_guid": "4dd52637d24f40ee819dcf69d6886d73",
+            "_checkSum": "e162694ac92bc28a8830145f933e1b42"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/URP/DistanceFade_URP_LitDither.shader",
+            "_guid": "13297d6c083dc034e826a46df4044c30",
+            "_checkSum": "5114d038b9a307b93a4cbbfe05813512"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/Characters/ShapeCharacters.png",
+            "_guid": "7492883ae6b6e634c9a445a2e76ca5c6",
+            "_checkSum": "1b0ce3c2a6083e8d6797c7aaa0766f1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/ArrowUp.png",
+            "_guid": "74e39b9f04820d84394b7e28e196e851",
+            "_checkSum": "374dcdf7451b807584c0c58b8c2cfc0b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Card.png",
+            "_guid": "dce7c6101a8a886468de51df84bf41ad",
+            "_checkSum": "a12a6e132dbe9d7cccccd47dff93d0bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/CardHighlight.png",
+            "_guid": "0107dbaaaf5b26d44a1c354e06e5b679",
+            "_checkSum": "4f9194cb712cb306d581b92a9a460744"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/info-background.png",
+            "_guid": "6b370e82d0721824d995bdc03451f29b",
+            "_checkSum": "4f420e4b3256fee9c0e61db8e6f8a555"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Reticle-Simple.png",
+            "_guid": "52973ca95abd7c04896c7920ecb65c6d",
+            "_checkSum": "2daee1f9612ad4863e9ede01c362c15d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/SprintIcon.png",
+            "_guid": "f08e787a07b26c64d983e842e6d0bb2d",
+            "_checkSum": "d8846aeb3a9198d91ddd3da49250b46a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/sword_silver.png",
+            "_guid": "84f2f87b85b9f454d963aa0d561f15e0",
+            "_checkSum": "1ad92a48bbc7af56b4897e3242f6f7cd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/UI-Arrow.png",
+            "_guid": "4871407a71980914ca6f287aadab65ef",
+            "_checkSum": "c36b935e2c77818ee6d9323a7f53a021"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/BlueUI.png",
+            "_guid": "c2e093b169260c341ba07dfb96995e7e",
+            "_checkSum": "d791ab7a5a8f5de97d7bd94e02093c8b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/ExtraUI.png",
+            "_guid": "f03e9fe579d803544b04726a47d42d48",
+            "_checkSum": "db8bf41719f1eb7f2fa0a2baa7c074ec"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/GreyUI.png",
+            "_guid": "fbfe51f381ccd6341a42a1ccb8806ed6",
+            "_checkSum": "f0b1fd3e6d68c0816b2886599d7eb0df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/License.txt",
+            "_guid": "82baf4ad16dac7c4eb10fd0f5b833726",
+            "_checkSum": "7834f429eccd41168be8186cd1460d94"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/panel_border_grey.png",
+            "_guid": "e07b108c722d76041b936aa79ff394d3",
+            "_checkSum": "aea30485c7c4f1cda49de7f8ced82e27"
+        }
+    ],
+    "_usages": {
+        "_actions": [
+            "HutongGames.AnimateFloatPulse",
+            "HutongGames.PlayMaker.Actions.AnimatedListAddItem",
+            "HutongGames.PlayMaker.Actions.AnimatedListClear",
+            "HutongGames.PlayMaker.Actions.AnimatedListRemoveItem",
+            "HutongGames.PlayMaker.Actions.Audio.AudioSourcePlayClipAtTransform",
+            "HutongGames.PlayMaker.Actions.Audio.AudioSourcePlayOneShot",
+            "HutongGames.PlayMaker.Actions.Audio.AudioSourcePlayOneShot__VolumeScale",
+            "HutongGames.PlayMaker.Actions.Audio.AudioSourceStop",
+            "HutongGames.PlayMaker.Actions.BroadcastEvent",
+            "HutongGames.PlayMaker.Actions.CheckAngleToTarget__Radius",
+            "HutongGames.PlayMaker.Actions.CheckDistanceToPoint",
+            "HutongGames.PlayMaker.Actions.CheckDistanceToTarget",
+            "HutongGames.PlayMaker.Actions.CheckFloatGreaterThan",
+            "HutongGames.PlayMaker.Actions.CheckFloatLessThan",
+            "HutongGames.PlayMaker.Actions.CheckIntGreaterThan",
+            "HutongGames.PlayMaker.Actions.ComponentDisable",
+            "HutongGames.PlayMaker.Actions.DataComponentGetRecord",
+            "HutongGames.PlayMaker.Actions.DataRecordGetValues",
+            "HutongGames.PlayMaker.Actions.DataRecordSetValue",
+            "HutongGames.PlayMaker.Actions.DataTableGetRandomRecord",
+            "HutongGames.PlayMaker.Actions.DataTableGetRecord",
+            "HutongGames.PlayMaker.Actions.DataTableGetRowValues",
+            "HutongGames.PlayMaker.Actions.DebugVariable",
+            "HutongGames.PlayMaker.Actions.EvaluateBooleanExpression",
+            "HutongGames.PlayMaker.Actions.FadeOutLight",
+            "HutongGames.PlayMaker.Actions.FindValidRandomPosition",
+            "HutongGames.PlayMaker.Actions.FlickerCanvasGroup",
+            "HutongGames.PlayMaker.Actions.FlightAgentAimAtTarget",
+            "HutongGames.PlayMaker.Actions.FlightAgentAimRelativeToTarget",
+            "HutongGames.PlayMaker.Actions.FlightAgentApplyInput",
+            "HutongGames.PlayMaker.Actions.FlightAgentSetMovePercent",
+            "HutongGames.PlayMaker.Actions.FloatAddClamped",
+            "HutongGames.PlayMaker.Actions.FxDriverLight",
+            "HutongGames.PlayMaker.Actions.GameObjectActivate",
+            "HutongGames.PlayMaker.Actions.GameObjectDeactivate",
+            "HutongGames.PlayMaker.Actions.GameObjectDestroy",
+            "HutongGames.PlayMaker.Actions.GameObjectDockWithTransform",
+            "HutongGames.PlayMaker.Actions.GameObjectEnableFsmComponent",
+            "HutongGames.PlayMaker.Actions.GameObjectFindWithTag",
+            "HutongGames.PlayMaker.Actions.GameObjectGetFsmTemplateComponent",
+            "HutongGames.PlayMaker.Actions.GameObjectInstantiateAtPosition",
+            "HutongGames.PlayMaker.Actions.GameObjectInstantiateAtTransform",
+            "HutongGames.PlayMaker.Actions.GameObjectSetName",
+            "HutongGames.PlayMaker.Actions.GameObjectSetValue",
+            "HutongGames.PlayMaker.Actions.GetFsmColor",
+            "HutongGames.PlayMaker.Actions.GetFsmFloat",
+            "HutongGames.PlayMaker.Actions.InputActionAssetEnable",
+            "HutongGames.PlayMaker.Actions.InputActionCheckIsPressed",
+            "HutongGames.PlayMaker.Actions.InputActionMouseVirtualJoystick",
+            "HutongGames.PlayMaker.Actions.InputActionReadFloatValue",
+            "HutongGames.PlayMaker.Actions.InputGetKeyDown",
+            "HutongGames.PlayMaker.Actions.InstantiateRandomObjectsInSphere",
+            "HutongGames.PlayMaker.Actions.IntegerAdd",
+            "HutongGames.PlayMaker.Actions.IntegerMultiply",
+            "HutongGames.PlayMaker.Actions.InteractorUpdate",
+            "HutongGames.PlayMaker.Actions.LightSetIntensity",
+            "HutongGames.PlayMaker.Actions.Loop",
+            "HutongGames.PlayMaker.Actions.ObjectCheckIsNull",
+            "HutongGames.PlayMaker.Actions.ObjectPoolReleaseObject",
+            "HutongGames.PlayMaker.Actions.ObjectPoolSpawnObjectAtTransform",
+            "HutongGames.PlayMaker.Actions.ObjectSetName",
+            "HutongGames.PlayMaker.Actions.ParticleSystemWrapInSphere",
+            "HutongGames.PlayMaker.Actions.PhysicsRaycast__GameObject",
+            "HutongGames.PlayMaker.Actions.PhysicsRaycastGetAimPoint",
+            "HutongGames.PlayMaker.Actions.SceneManagement.SceneManagerReloadActiveScene",
+            "HutongGames.PlayMaker.Actions.SendEvent",
+            "HutongGames.PlayMaker.Actions.SendEventToGameObject",
+            "HutongGames.PlayMaker.Actions.SendFsmEvent",
+            "HutongGames.PlayMaker.Actions.SetFsmString",
+            "HutongGames.PlayMaker.Actions.SpriteRendererSetAlpha",
+            "HutongGames.PlayMaker.Actions.StatDecrease",
+            "HutongGames.PlayMaker.Actions.TargetManagerAddTarget",
+            "HutongGames.PlayMaker.Actions.TargetManagerRemoveTarget",
+            "HutongGames.PlayMaker.Actions.TargetWidgetGetInfo",
+            "HutongGames.PlayMaker.Actions.TargetWidgetGetTarget",
+            "HutongGames.PlayMaker.Actions.TimeSetTimeScale",
+            "HutongGames.PlayMaker.Actions.TMP_TextSetColor",
+            "HutongGames.PlayMaker.Actions.TMP_TextSetText",
+            "HutongGames.PlayMaker.Actions.TMP_TextSetText__Float",
+            "HutongGames.PlayMaker.Actions.TransformCheckHasChildren",
+            "HutongGames.PlayMaker.Actions.TransformFastProjectile",
+            "HutongGames.PlayMaker.Actions.TransformFindChild",
+            "HutongGames.PlayMaker.Actions.TransformGetChildren",
+            "HutongGames.PlayMaker.Actions.TransformGetDistanceToTarget",
+            "HutongGames.PlayMaker.Actions.TransformGetNextSibling",
+            "HutongGames.PlayMaker.Actions.TransformListWrapInSphere",
+            "HutongGames.PlayMaker.Actions.TransformLookAtPoint",
+            "HutongGames.PlayMaker.Actions.TransformLookAtTarget",
+            "HutongGames.PlayMaker.Actions.TransformOnChildCountChanged",
+            "HutongGames.PlayMaker.Actions.TransformSetRotation",
+            "HutongGames.PlayMaker.Actions.TransformSetValue",
+            "HutongGames.PlayMaker.Actions.TransformShakePosition",
+            "HutongGames.PlayMaker.Actions.TransformTrackPosition",
+            "HutongGames.PlayMaker.Actions.TransformTrackRotation",
+            "HutongGames.PlayMaker.Actions.TweenCanvasGroupAlpha",
+            "HutongGames.PlayMaker.Actions.UI.CanvasGroupSetAlpha",
+            "HutongGames.PlayMaker.Actions.UI.FilledImageMeterSetValues",
+            "HutongGames.PlayMaker.Actions.UI.FilledImageMeterUpdate",
+            "HutongGames.PlayMaker.Actions.UI.GraphicSampleGradient",
+            "HutongGames.PlayMaker.Actions.UI.GraphicSetAlpha",
+            "HutongGames.PlayMaker.Actions.UI.GraphicSetColor",
+            "HutongGames.PlayMaker.Actions.UI.ImageSetSprite",
+            "HutongGames.PlayMaker.Actions.WaitForAnyKeyDown",
+            "HutongGames.PlayMaker.Actions.WaitForNextFrame",
+            "HutongGames.PlayMaker.Actions.WaitForSeconds"
+        ]
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349229942867598
+}

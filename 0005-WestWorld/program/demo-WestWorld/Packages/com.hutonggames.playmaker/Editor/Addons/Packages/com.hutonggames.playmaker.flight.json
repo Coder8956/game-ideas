@@ -1,0 +1,195 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.flight",
+    "_displayName": "Flight System",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight",
+        "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/Flight"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Flight system for 3d space games.",
+    "_description": "",
+    "_helpUrl": "",
+    "_icon": "Flight",
+    "_tags": [
+        "Actions",
+        "AI",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Flight.txt",
+            "_guid": "09324fa6f4fb4556bfda6216819f05d1",
+            "_checkSum": "9157fc1347ceca18b95f46acc35d8681"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightThrusterFX.cs",
+            "_guid": "3de1472a9b5f4986833ab69d02b62048",
+            "_checkSum": "312cfe515d26460b0a4ead93f40e38d2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightAgent.cs",
+            "_guid": "be41b117dae245ae8a855b41897a17aa",
+            "_checkSum": "2dee4025a6d7b64bd40f9ba49ecc3ae5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightAgentVariable.cs",
+            "_guid": "e87338f5a9e14048b88147cf593e5414",
+            "_checkSum": "a67aa1442ff6e01b260abb0770e4ea63"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightFlowAroundModifier.cs",
+            "_guid": "6be7a9ef7d4d4df0b68eaf4eccbb2f4a",
+            "_checkSum": "6870bdadc56e39533395ceb777005778"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightMotor.cs",
+            "_guid": "7017e668b56a45979513760905aef6e5",
+            "_checkSum": "662f0e5c90cb3f69f6acca95641f3bc6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightMotorDebug.cs",
+            "_guid": "437da41d114a4a14bd129c8d86ab3cc5",
+            "_checkSum": "a8a02550b6848ee6a37cfc64addd202b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightMotorVariable.cs",
+            "_guid": "405afa1d4e2e4f8e9a424b41dcb39e63",
+            "_checkSum": "5c3d02c639c56665454acc2025bd5b10"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightObject.cs",
+            "_guid": "913216cd37604753ac56b4a529544aaf",
+            "_checkSum": "9e45aaac60cfed8306ab9214a8f21c5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightObjectsScanner.cs",
+            "_guid": "11ef7a4de1e0414a97dbd2c49bfc71ae",
+            "_checkSum": "1ae9ed8c1ff5bd7f9a20f7ceae782b7e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightObjectVariable.cs",
+            "_guid": "c4cea96875ec4cf2bcfbefa2dfaa933d",
+            "_checkSum": "8fccdabf55d67e3e1e722a902fa5ee16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightRepellerModifier.cs",
+            "_guid": "a1fcedc21a844d10bc729fafdf54df84",
+            "_checkSum": "d60f888f43f12e440153e48d1976bf71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/FlightThruster.cs",
+            "_guid": "5a285d23b8e84bb1bda5ea7b1e410546",
+            "_checkSum": "962bd0c0b788870f1cd8880d8c50788d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/IFlightAgentModifier.cs",
+            "_guid": "a336871f16424a648e02bdf836a75985",
+            "_checkSum": "a58b735698ed665e1df015d350dddc8d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/Components/IFlightObjectTargetsConsumer.cs",
+            "_guid": "bb2180deb93a4073b252388dcc6b22cc",
+            "_checkSum": "8194bc7a027554708236aa3dbee551bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentAimAtPosition.cs",
+            "_guid": "4f0fc3f3746f4174a4d837e130190189",
+            "_checkSum": "1ec808e4fb7473761df79106729db838"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentAimAtTarget.cs",
+            "_guid": "8a7acf74f7c341d382208d516fb468c2",
+            "_checkSum": "f78aeff1a83ff8b59e3a83ea2678ab4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentAimInDirection.cs",
+            "_guid": "5ed23481eaf14428bda403424d5e428d",
+            "_checkSum": "162a9fe10c2fb022a2a95f9790a493ee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentAimLeadTarget.cs",
+            "_guid": "f261cd9c7fab4b8d82e751f2bcf96793",
+            "_checkSum": "defd92f9d72257be45269391c9acd340"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentAimRelativeToTarget.cs",
+            "_guid": "8fea3ae87a7e4c2da26e8b7967e4bfe2",
+            "_checkSum": "07353f3c206093c6e8b8dea014ec6431"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentApplyInput.cs",
+            "_guid": "d576a4a8d5784f0e8a81734f62e162c3",
+            "_checkSum": "0d1d39ffcd634ddd1ead96a2f6984342"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentClearAim.cs",
+            "_guid": "ab4e53fbe3404167a966ad900625774b",
+            "_checkSum": "051c0345c4bfe97bd908022f2a8c500a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentClearMove.cs",
+            "_guid": "fd25b17a6fbf4771b03f3d0e116842d0",
+            "_checkSum": "f7e0e313993b9b02460957784e34973d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentClearTurn.cs",
+            "_guid": "e81c21c823e142038014588c9793f84d",
+            "_checkSum": "02631474b5c9d87088060e77ae685cc4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentSetFlightAssistMode.cs",
+            "_guid": "9c32ab5b560e406a8d26170e415adfba",
+            "_checkSum": "00c8cb6ced6cb6bfe0e9c279e68ca4f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentSetMovePercent.cs",
+            "_guid": "9c1afb34d1fd4529b0dc694aa0c99ff6",
+            "_checkSum": "09176bf8ad4679eef7e81ae63ede81a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightAgent/FlightAgentSetTurnPercent.cs",
+            "_guid": "15e3ae0d13024ada9d0314854996dfc8",
+            "_checkSum": "bc4d634ce574f748d87a15c643f5756e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightObject/FlightObjectGetData.cs",
+            "_guid": "5aa8f7cf4e354bfca4d61d04f1c51b88",
+            "_checkSum": "0e4d4aebe185c082df5704ad7dd29dca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightObject/FlightObjectGetRadius.cs",
+            "_guid": "8241dd21476341b484cf3767524031df",
+            "_checkSum": "e62bf9fcfb19a016a79987117fce10a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Physics/Flight/FlightObject/FlightObjectGetType.cs",
+            "_guid": "da3f698f68714ee18a1344fd457dfd52",
+            "_checkSum": "32cd3b96ba93ecfbf23283e7c233a5ee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/Flight/FlightMotorEditor.cs",
+            "_guid": "8f58d3faf5bb48be86d4a32599583d7b",
+            "_checkSum": "5cabcfeb2898e6cdb91b262974d3a1d2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/Flight/PilotProfilePropertyDrawer.cs",
+            "_guid": "26b1274f1d5f4132ab9f88951b3d9ad7",
+            "_checkSum": "00ecf1e3ec97017c6c5ad24aa73980cd"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b87",
+    "_datePublished": "2026-09-15",
+    "_timeCode": 134339847644896852
+}

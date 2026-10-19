@@ -1,0 +1,258 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animator-advanced",
+    "_displayName": "Animator Advanced Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Less used animator actions.",
+    "_description": "These include actions used to get properties normally set at edit time.\n\nNote: This package includes Id/Hash variants of actions that are more performant, but the built-in actions include optimizations to cache Id/Hash values, so the performance difference is probably not critical.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Animator.html",
+    "_icon": "Animation/Animator",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorApplyBuiltinRootMotion.cs",
+            "_guid": "d0044118b4efad5489f380c0259b78e5",
+            "_checkSum": "7dd799d46d5dced654a84a4ab580f7fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorCrossFadeInFixedTime__Hash.cs",
+            "_guid": "cd12174796f97f847b328ff282d64df9",
+            "_checkSum": "5f4728cb764e146bc3e09210824061d8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorCrossFade__Hash.cs",
+            "_guid": "6eec89fdf01f528448a7a19a365ef8db",
+            "_checkSum": "db99301a3d1277a66c45865bec558089"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetApplyRootMotion.cs",
+            "_guid": "b270316c1ad42344da7fbad70a994288",
+            "_checkSum": "87c5cda910f5eef2d9dbe48d33e02533"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetBool__Id.cs",
+            "_guid": "4552c76b1e3c97c4084df52db1457204",
+            "_checkSum": "2102fa8458d8beb1b5d149fea84d2f5e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetCullingMode.cs",
+            "_guid": "ccaa7111a27c8074a9a3842fe44357a5",
+            "_checkSum": "3759ae2d9f0a216bbfd4b92d4169a520"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetFireEvents.cs",
+            "_guid": "70a310408f2e9b14cb5f494df9f4ebe8",
+            "_checkSum": "404415818aad57f1b167897f11c51444"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetFloat__Id.cs",
+            "_guid": "841e79ce76313ad4f8bb7347b4d599fb",
+            "_checkSum": "a9e6ae160f47cdb56ea47741074afa51"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetGravityWeight.cs",
+            "_guid": "c33c999c8ebaf1449bf3a94112ff411d",
+            "_checkSum": "e41c7424ea3a907bdea627de704072fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetHasBoundPlayables.cs",
+            "_guid": "38799aa849ba12f4cb3c271e5f3772de",
+            "_checkSum": "83598ca75c4821b99b5f890820313a80"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetHasRootMotion.cs",
+            "_guid": "cd7dae96ef94d2945bd04ae6cc313ad7",
+            "_checkSum": "e9ba4f40fe18a1e6360a89e7800648a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetHasTransformHierarchy.cs",
+            "_guid": "b4267b108c7cdff4b98d77571955594c",
+            "_checkSum": "948a216a2b0a0b5617766495d4958a70"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetInteger__Id.cs",
+            "_guid": "afb43ec7526492a4ba45b5ebe7ac6ffd",
+            "_checkSum": "197f83e4d4494bf0cef12abe9911cb92"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetIsHuman.cs",
+            "_guid": "dcce31cac7d52514a92deab344c53066",
+            "_checkSum": "26bfdb3cd8a8b1b1ca2394f6730133b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetIsInitialized.cs",
+            "_guid": "7f61fcb5b30b1ea4194e9e1b3822b205",
+            "_checkSum": "cc4973c825729df3ea9564f292eca9fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetIsOptimizable.cs",
+            "_guid": "bec5bd9b5636e2349957d90ebca0fa88",
+            "_checkSum": "69dad836946afc3db698f7d8e4544402"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetKeepAnimatorStateOnDisable.cs",
+            "_guid": "b3b65ad42ee72ab468093ab0f9a0c68d",
+            "_checkSum": "f335a266f9061789b90d5b5f070df6b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetLayerCount.cs",
+            "_guid": "33033b42eb62bdf41bfb57f67cedc9d3",
+            "_checkSum": "225771094473fea9c9e40837a8a691a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetLayerIndex.cs",
+            "_guid": "debf88a18520fcc46bda46f530e757ab",
+            "_checkSum": "ccf7afa5175fec495cd69329ee91e130"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetLayerName.cs",
+            "_guid": "cf12d1de31984fc449d477b203999584",
+            "_checkSum": "cef18b75ed102d7e8f9319cff8e0169c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetLayersAffectMassCenter.cs",
+            "_guid": "176a2840615445f469785597168b61f6",
+            "_checkSum": "109845c622852ad8aac4f827478d4718"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetLayerWeight.cs",
+            "_guid": "37a430cf496a604438e3e8c789a28eab",
+            "_checkSum": "0676c71b1f934cc8d55cabf4c21f1496"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetLogWarnings.cs",
+            "_guid": "127a14c79b8273c41883ae1f4c292a3b",
+            "_checkSum": "8c3ebb1e4c497b4060eff2526c473b14"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetParameterCount.cs",
+            "_guid": "90860d0b92917794e96c487bc2e735a6",
+            "_checkSum": "5bd44fe61e09ff1956d25bb86bc5d3b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetParameters.cs",
+            "_guid": "2285df5f5271fb74b8d0d3e50b09e257",
+            "_checkSum": "18849ca7ebd347df102b195b1ad213ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetRuntimeAnimatorController.cs",
+            "_guid": "f9c6e5ac34e913642b789e0d48f49759",
+            "_checkSum": "78d83ef1e4d39e67d9ea3c9c9a9a9fc0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetStabilizeFeet.cs",
+            "_guid": "d1110ec95fa051241b61b88aaa7d1ce1",
+            "_checkSum": "b97489a2ed6a6650ef02f461b9fb0fdf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetUpdateMode.cs",
+            "_guid": "496900f7e47df4a4491bd6eaf816b6ed",
+            "_checkSum": "4b6eae383bbbbded044051f3d7af9f9d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorGetWriteDefaultValuesOnDisable.cs",
+            "_guid": "913edfdc852105c4fb4d2c4fd4b456fd",
+            "_checkSum": "0a0dce1ed593221a5552353847606e2a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorIsParameterControlledByCurve.cs",
+            "_guid": "9afaeb078d8e8df4c90245c1aa7606a1",
+            "_checkSum": "3df95f2cf13e9f74b52286228fa7bedf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorIsParameterControlledByCurve__Id.cs",
+            "_guid": "0ce38f27f4ba00c4180de97ad1079ab3",
+            "_checkSum": "c33a1419d45f30cc81bc1d08a63cb99f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorPlayInFixedTime__Hash.cs",
+            "_guid": "496442a2c6b43ae41a6c86af4b0d56b1",
+            "_checkSum": "fbf9ed2e185df38c10f866ee9d04f9fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorPlay__Hash.cs",
+            "_guid": "d03fd9405f1b85c45b585022a480f7a9",
+            "_checkSum": "d2505d5ea3218442efa6dcbb7b526590"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorResetTrigger__Id.cs",
+            "_guid": "c21d8e5e99ad7ce47b6e1219708d0420",
+            "_checkSum": "c11a51a54517e30536660eff79c63605"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetApplyRootMotion.cs",
+            "_guid": "efb95263ed24cb644b7f6f6901d36826",
+            "_checkSum": "5e205e1fe6e9ef3753b0d3a279ec11d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetBool__Id.cs",
+            "_guid": "e36321bc3f19f064cb1544c9e0f0a3b3",
+            "_checkSum": "1e4dbf23b8898bb8315db3bea5bd8b17"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetCullingMode.cs",
+            "_guid": "85df545d75f3bfe4ea409a9023832c66",
+            "_checkSum": "241409ddc10ff67f5d626259eb1b4c94"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetFloatWithDamping__Id.cs",
+            "_guid": "bca1a34672d65eb49b361d955d0b1b5b",
+            "_checkSum": "2c03420357c0208dfb4af48dd8f7b8b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetFloat__Id.cs",
+            "_guid": "9f3fb2d113844db4abf48f49557b64e1",
+            "_checkSum": "feb868f6984e84e8d5fad546ea0aa3a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetInteger__Id.cs",
+            "_guid": "c44ef44605bd25544ad2df701dfe3d04",
+            "_checkSum": "474024d14d4c926b6c7d28fd5886ecc6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetLogWarnings.cs",
+            "_guid": "2ed6b3777a8b10148bc5c79ed3d0a060",
+            "_checkSum": "6b85c2ca3fd4df386291d1730d271dd1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetRuntimeAnimatorController.cs",
+            "_guid": "bab132dfb9f186846978afb357dc2c15",
+            "_checkSum": "10b57362fe2373e59a2eaf0ab34b7128"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorSetTrigger__Id.cs",
+            "_guid": "4905e835cc4aeb44daa441342144d259",
+            "_checkSum": "ef0d93ece158c8fc5a1a237408a3dd5e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorStringToHash.cs",
+            "_guid": "39ac6f0f3adb9e44bb57f75b1e43267d",
+            "_checkSum": "e9c190dff72aae18cc23d504c44d9592"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Advanced/AnimatorUpdate.cs",
+            "_guid": "5c74ccf9d80169c4c85f77216098a71b",
+            "_checkSum": "678309ac4fee0a0846028f62cb6a4534"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b82",
+    "_datePublished": "2026-08-19",
+    "_timeCode": 134316296198203934
+}

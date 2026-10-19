@@ -1,0 +1,13 @@
+﻿using System;
+using HutongGames.PlayMaker.UGUIEvents;
+using JetBrains.Annotations;
+
+namespace HutongGames.PlayMaker.Actions.EventSystems
+{
+    [Serializable, PublicAPI]
+    [ActionDescription("Called when a pointer exits the object. " + SystemEvents.UIEventsNotes)]
+    [ActionCategory(Category.InputEvents)]
+    public class OnPointerExitEvent : BasePointerEventAction<OnPointerExitEventProxyComponent>
+    {
+    }
+}

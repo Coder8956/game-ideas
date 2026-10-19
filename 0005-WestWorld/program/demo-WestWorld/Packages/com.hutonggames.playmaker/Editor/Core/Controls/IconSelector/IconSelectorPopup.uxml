@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Core/Controls/IconSelector/IconSelectorPopup.uss?fileID=7433441132597879392&amp;guid=aceda703ec144b048c675da796a5df7d&amp;type=3#IconSelectorPopup" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/PopupStyles.uss" />
+    <ui:Label text="Standard" class="hutong-popup-header" />
+    <ui:ScrollView>
+        <ui:VisualElement name="icon-grid" class="hutong-icon-selector-popup__icon-grid" />
+    </ui:ScrollView>
+    <ui:VisualElement class="hutong-popup-footer">
+        <ui:Button tabindex="-1" text="OK" display-tooltip-when-elided="true" name="ok" class="hutong-icon-selector-popup__ok-button" />
+        <ui:Button tabindex="-1" text="Cancel" display-tooltip-when-elided="true" name="cancel" />
+    </ui:VisualElement>
+</ui:UXML>

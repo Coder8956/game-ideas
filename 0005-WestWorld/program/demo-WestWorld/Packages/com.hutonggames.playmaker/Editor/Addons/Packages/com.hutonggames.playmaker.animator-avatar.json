@@ -1,0 +1,93 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animator-avatar",
+    "_displayName": "Animator Avatar Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control the animator Avatar.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Manual/AvatarCreationandSetup.html",
+    "_icon": "Animation/Animator",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetAngularVelocity.cs",
+            "_guid": "f9d1eee00814cbb49acbb0fc21d467fc",
+            "_checkSum": "aa4f72eceb0cbce7e2d8d428ab8cb13e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetAvatar.cs",
+            "_guid": "62f16df73f1dfb94fb269e7f47ceabf5",
+            "_checkSum": "a1a7da86d71acdf56ca108bcb14803e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetAvatarRoot.cs",
+            "_guid": "7213e898d18682e46a289e639a55d3b8",
+            "_checkSum": "6d8af667ffeca042b980dcacb349bd7e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetDeltaPosition.cs",
+            "_guid": "82ec3d369158e434eb04e47e79aa9690",
+            "_checkSum": "80690848800498e69b780b0064931fa7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetDeltaRotation.cs",
+            "_guid": "13358d518af6a8240a723f15e23c8dd8",
+            "_checkSum": "bdd48f4e450aaec9e42f8ef5c8df9af5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetHumanScale.cs",
+            "_guid": "b2bfbe9a7177fce4088c06fc555e8b48",
+            "_checkSum": "9e36cb1784f45765b47e4fc6e88a584b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetIsMatchingTarget.cs",
+            "_guid": "ef3427f1387dbec4d893ada33e8c11b4",
+            "_checkSum": "fba97c99f13fc8b9efd721f7d14575e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetTargetPosition.cs",
+            "_guid": "06e2c0a9efef87c499f6245062fec729",
+            "_checkSum": "552c43f8b9b398adb7e60d4c7e78b5ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorGetTargetRotation.cs",
+            "_guid": "16b29885d936c5348bf250b1d9c81484",
+            "_checkSum": "56951ded4e322f365d7430d3723ca4f3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorInterruptMatchTarget.cs",
+            "_guid": "708ac3812169edd4dbe8348d251d6387",
+            "_checkSum": "d2b2fa36e3b116e402bf5a63e1c3ebe1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorSetAvatar.cs",
+            "_guid": "b06ef7470d427a0489fdd6d8daa892a6",
+            "_checkSum": "890cc1dd0c102b38ad0c95c15bb285a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Avatar/AnimatorSetTarget.cs",
+            "_guid": "b97dcd1e46fa61f4c8e3dd6424b48103",
+            "_checkSum": "e5d7c1540104b50e46653da446c8d513"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479199470156
+}

@@ -1,0 +1,29 @@
+.hutong-about-window-header {
+    background-image: resource('playMakerHeader');
+    -unity-background-scale-mode: scale-to-fit;
+    height: 47px;
+    max-height: 47px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.hutong-about-window-version {
+    flex-direction: row-reverse;
+    padding: 8px 8px 2px 8px;
+}
+
+.hutong-about-window-unity-version {
+    flex-direction: row-reverse;
+    padding: 0 8px 8px 8px;
+}
+
+.hutong-about-window-description {
+    padding: 8px;
+    flex-grow: 1;
+    white-space: normal;
+}
+
+.hutong-about-window-website-button {
+    height: 22px;
+    margin: 8px;
+}

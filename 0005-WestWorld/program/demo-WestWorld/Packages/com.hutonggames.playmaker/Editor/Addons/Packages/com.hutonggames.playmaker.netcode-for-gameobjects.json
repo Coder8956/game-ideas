@@ -1,0 +1,67 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.netcode-for-gameobjects",
+    "_displayName": "Netcode for GameObjects",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/NetcodeForGameObjects",
+        "Packages/com.hutonggames.playmaker/Editor/Modules/NetcodeForGameObjects"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.networking"
+    ],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.netcode.gameobjects",
+            "MinimumVersion": "",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "",
+    "_summary": "Netcode for GameObjects for PlayMaker Networking.",
+    "_description": "ALPHA RELEASE\n\nThis backend is in active development. Actions, components, setup requirements, and serialization details may change before the final release.\n\nAdds a PlayMaker Networking backend for Unity Netcode for GameObjects.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@latest/",
+    "_icon": "Network",
+    "_tags": [
+        "Actions",
+        "Network"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/NetcodeForGameObjects/HutongGames.PlayMaker.NetcodeForGameObjects.asmdef",
+            "_guid": "273fe3140d994af1857c37157185f692",
+            "_checkSum": "6a81990053ee9275c864088d711e87be"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/NetcodeForGameObjects/Actions/NetcodeForGameObjectsActions.cs",
+            "_guid": "62a02019d05643978b388c4314ad1d38",
+            "_checkSum": "87c91be274716156f54d28b003b54060"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/NetcodeForGameObjects/Components/PlayMakerClientNetworkTransform.cs",
+            "_guid": "b8f7e8ea722a49379d0c3881cd61fc82",
+            "_checkSum": "0c3b87403519acaf5bfb70fefeaa47a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/NetcodeForGameObjects/Events/NetcodeObjectProxyComponent.cs",
+            "_guid": "d0a3a3fb3dfd4cd5873165bad07ea868",
+            "_checkSum": "35edb8e61a4ebe30a546cfa77712348f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/NetcodeForGameObjects/HutongGames.PlayMaker.NetcodeForGameObjects.Editor.asmdef",
+            "_guid": "41da719a97bb4a499e6a021e0e43c52e",
+            "_checkSum": "926f1c6c8a48dfa1a71c7f637ee40965"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349229939737940
+}

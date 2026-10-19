@@ -1,0 +1,69 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-compass",
+    "_displayName": "Input Compass",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to get device compass information.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Compass.html",
+    "_icon": "Input/Compass",
+    "_tags": [
+        "Actions",
+        "Mobile",
+        "Input"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass/CompassGetEnabled.cs",
+            "_guid": "10a00d7de94b00e40b769321dd965124",
+            "_checkSum": "213d4664cbda2e14cf7b3c3bfca8be65"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass/CompassGetHeadingAccuracy.cs",
+            "_guid": "0d2f4f0b99a7e804daf114b0bd2fcd39",
+            "_checkSum": "d92be3ebc885afa0a7bd3e1e6178232d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass/CompassGetMagneticHeading.cs",
+            "_guid": "32df20e7f8bc31f48bbe225ac9a60142",
+            "_checkSum": "58145a6f5d7f587fc3bbc95f89f90404"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass/CompassGetRawVector.cs",
+            "_guid": "c87caa8aec6c69741b85d7aea8680905",
+            "_checkSum": "13b33ee7efd22d9b776d530c66e6c234"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass/CompassGetTimestamp.cs",
+            "_guid": "81148e278b9b9124ab5cdfa3f9e7a1b5",
+            "_checkSum": "6ee4de5751169f5be66757e346e00ade"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass/CompassGetTrueHeading.cs",
+            "_guid": "c3b9911e709f35e45944ed78b87a31e5",
+            "_checkSum": "fdc69daf4a3052eba6af27b92497f8f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/Compass/CompassSetEnabled.cs",
+            "_guid": "e4429f58648945e43ad7d9bbac1501e7",
+            "_checkSum": "1799c3bc9bda9adc48d60360fe868fc2"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479275195454
+}

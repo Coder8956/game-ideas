@@ -1,0 +1,26 @@
+.hutong-icon-style-popup {
+}
+
+.hutong-icon-style-popup__header {
+    color: #d2d2d2;
+    -unity-font-style: bold;
+}
+
+.hutong-icon-style-popup__color-palettes {
+    flex-shrink: 0;
+}
+
+.hutong-icon-style-popup > ScrollView {
+    flex-grow: 1;
+    background-color: #383838
+}
+
+.hutong-icon-style-popup__ok-button {
+    width: 100px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.hutong-icon-style-popup__cancel-button {
+    height: 20px;
+}

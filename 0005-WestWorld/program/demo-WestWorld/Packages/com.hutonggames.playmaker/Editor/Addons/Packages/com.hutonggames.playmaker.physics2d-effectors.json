@@ -1,0 +1,404 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics2d-effectors",
+    "_displayName": "Physics2D Effectors",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for Physics2D Effectors.",
+    "_description": "Normally these are set up in the editor, but you can use these actions to change settings at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/Manual/Effectors2D.html",
+    "_icon": "Physics 2D/Effector2D",
+    "_tags": [
+        "Actions",
+        "Physics",
+        "2D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/Effector2DGetColliderMask.cs",
+            "_guid": "840de676a7e2e394b950b9e3c7123673",
+            "_checkSum": "c28aaa124c88c4e3e4d6dae6986a97f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/Effector2DGetUseColliderMask.cs",
+            "_guid": "898626f4d43151646a06e7d0207d1072",
+            "_checkSum": "a1274294f6d85667039a2d3462ffac63"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/Effector2DSetColliderMask.cs",
+            "_guid": "0ef15175e29f859488f7636dab467b39",
+            "_checkSum": "2129c3f4d46742d2a0f41c863692ea32"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/Effector2DSetUseColliderMask.cs",
+            "_guid": "0760726659cb22640a27d61145354f3a",
+            "_checkSum": "3d9f7f0b3af87be0b3814647742dc1a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DGetAngularDrag.cs",
+            "_guid": "9f435de41785a544ba24aea331fab00b",
+            "_checkSum": "385e0647449aadbc5c871af818af6834"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DGetDrag.cs",
+            "_guid": "46b35a727b295ca41956f8777e3ce4e6",
+            "_checkSum": "7f52c809ba59a37ffa74f701f8ae1978"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DGetForceAngle.cs",
+            "_guid": "d90bf4a8bf572f54ab86eaa0ca910ebd",
+            "_checkSum": "161369bd4b462ca3da9023adf173b214"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DGetForceMagnitude.cs",
+            "_guid": "d661073ebff75dc40bb146cc8cc00a8c",
+            "_checkSum": "7921dc9baa13a9022c6d6cb8c6cc9799"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DGetForceTarget.cs",
+            "_guid": "ef46e6f834872dc42b41c6a5f2e2920d",
+            "_checkSum": "48017540ed04dd01b1087c11e72be33b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DGetForceVariation.cs",
+            "_guid": "9bdfc973ca614bc4d94d3a1035bd503c",
+            "_checkSum": "406aacf3bd798fdddc16a8d0b8e3dfed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DGetUseGlobalAngle.cs",
+            "_guid": "fc85773aab8ed4e438c8a083a9a7803b",
+            "_checkSum": "12e80ef57c11c52f97669263681069f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DSetAngularDrag.cs",
+            "_guid": "3ddf34925a9ab414688163d8555dbe27",
+            "_checkSum": "fd07d1c79f2a33ed5c75b58855d8ce52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DSetDrag.cs",
+            "_guid": "23e89960b43f37c4fb4234da8038b065",
+            "_checkSum": "cbc532248d83c81d946025e694361665"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DSetForceAngle.cs",
+            "_guid": "78711cafbcc7b8347853f4e7168cd1ad",
+            "_checkSum": "3429bb2a2195b99d5a970e9cc92b1a8a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DSetForceMagnitude.cs",
+            "_guid": "8494ccb0f50a21e4aa96c0f2c502cb16",
+            "_checkSum": "dc01437b20c8484888122bd10feb31c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DSetForceTarget.cs",
+            "_guid": "6070420bff86a1941b325b6446f4b849",
+            "_checkSum": "b2caa1469d1b4e0e496048eec2d656ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DSetForceVariation.cs",
+            "_guid": "c87e154749dfc9e46938d89ac79b4b9b",
+            "_checkSum": "2dd0207bb065c68cd6561ab292372961"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/AreaEffector2D/AreaEffector2DSetUseGlobalAngle.cs",
+            "_guid": "4b29b21a6fc767543bc8dd24acf2150a",
+            "_checkSum": "27d174d1eded25b0a0f74cb91dda5fd1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DGetAngularDrag.cs",
+            "_guid": "32216c360781dfb459c5cbea8e911151",
+            "_checkSum": "c24139d22aca49b3ce638e72c6d2afb2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DGetDensity.cs",
+            "_guid": "718aaa1dd4a7b284386aa52f3796cd2f",
+            "_checkSum": "a6d2e869631df51f697c098150930f4f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DGetFlowAngle.cs",
+            "_guid": "672c35fd01af2604bb3f72587c606006",
+            "_checkSum": "57cd5d6c2a236bb7abca928d0cb44364"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DGetFlowMagnitude.cs",
+            "_guid": "eecc195b1f0964f4c97003c6bd47518e",
+            "_checkSum": "ee64bceb71cebeacc2239bc2cbbb90be"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DGetFlowVariation.cs",
+            "_guid": "13271a2869aa9f94fb4122fd43c1aacf",
+            "_checkSum": "2771badf8bfa033e3d6563af35ae4e33"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DGetLinearDrag.cs",
+            "_guid": "b30d6305665a7ae469fb9af61cb4ec19",
+            "_checkSum": "88c003bc2cb1d74db7df3ecd4cf03a6c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DGetSurfaceLevel.cs",
+            "_guid": "6f549096958add8438e8d3361634d18c",
+            "_checkSum": "1a585410ef3a84e202d253faacaafe38"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DSetAngularDrag.cs",
+            "_guid": "c5356f9f21c0d9549a0a2aef81573daa",
+            "_checkSum": "56e654900373cb731ddb939fd3ab677e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DSetDensity.cs",
+            "_guid": "d1ed3ca51673640439f8f79455d81137",
+            "_checkSum": "d1a38edd4e04a58316d9070507265e8d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DSetFlowAngle.cs",
+            "_guid": "de6e359888061cf47be35365e4371055",
+            "_checkSum": "231827bd74723fd7748c871c0cd67317"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DSetFlowMagnitude.cs",
+            "_guid": "31bdd16bb79818c4c818b1fd0c82fa86",
+            "_checkSum": "215b03cffbbf2d4067511f1f927e7594"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DSetFlowVariation.cs",
+            "_guid": "9bab8c99c4b99f24290a1ea80860b5b7",
+            "_checkSum": "faa4e41e77f0a09c37e5a79269736bc0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DSetLinearDrag.cs",
+            "_guid": "b567fadcdb560cd4e9034e0bf732cc60",
+            "_checkSum": "f8a6fb814ef11b52bb1c84e09086369b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/BuoyancyEffector2D/BuoyancyEffector2DSetSurfaceLevel.cs",
+            "_guid": "a76537e96094466478d0b1caa4fcd9e4",
+            "_checkSum": "51bfe35fbf1aee3bc1ba85d5bb929cea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DGetRotationalOffset.cs",
+            "_guid": "1386ad1d7c403af46817b5e055c9c06e",
+            "_checkSum": "3cd7015aea7ab6fae660f6b5d906417a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DGetSideArc.cs",
+            "_guid": "169aa4e4ebdfc9348a291fc222aab5a5",
+            "_checkSum": "e3aeea8471b39354b7b7bf9c7174e9be"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DGetSurfaceArc.cs",
+            "_guid": "2c0a56842c6d6af4d8f25bd142727bc4",
+            "_checkSum": "a98c06b03860ee10a07ecd75874d2101"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DGetUseOneWay.cs",
+            "_guid": "674c010829204fe4b941d34aaec3cc36",
+            "_checkSum": "57e6e62a9bc7aeb6cce3140ce427f587"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DGetUseOneWayGrouping.cs",
+            "_guid": "82f4f3058f8449243b6bfdf6012cfff8",
+            "_checkSum": "c41085bee1ee0e448bb17c4543650473"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DGetUseSideBounce.cs",
+            "_guid": "97b7bcb7310cc6a48b171aa799902d53",
+            "_checkSum": "97d989296be1943530af9ca064f5dce2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DGetUseSideFriction.cs",
+            "_guid": "b69482598780e9e4ebf9a5cd535f31ed",
+            "_checkSum": "05bd0ee35107c2997c10f975253bbd69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DSetRotationalOffset.cs",
+            "_guid": "64edb1ed34cf2e2459a47db09b736369",
+            "_checkSum": "180c5510aeed825d94c8b39187622889"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DSetSideArc.cs",
+            "_guid": "21c4d4247e4d36548ae70c42a3eebb91",
+            "_checkSum": "19f52c73b2f49a2020d236a9383ffbb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DSetSurfaceArc.cs",
+            "_guid": "6828aa1b4bf716b4baef0b5521525265",
+            "_checkSum": "ca4a8ffde31a5b614fd4af11407051c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DSetUseOneWay.cs",
+            "_guid": "de192213521191942bcb35d0d8647a40",
+            "_checkSum": "271ac947c3367a46003b70e5de1946b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DSetUseOneWayGrouping.cs",
+            "_guid": "3bad2faafdfa12d4dbf3a54b57d7a1dc",
+            "_checkSum": "30261a86e5df4817e0b1f3ce07535cc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DSetUseSideBounce.cs",
+            "_guid": "ca1b3252008cb5849b43d63868305d44",
+            "_checkSum": "4aca3c4ba2462dff9be5d0f9389ac2ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PlatformEffector2D/PlatformEffector2DSetUseSideFriction.cs",
+            "_guid": "99ef77134a248e04ab9a35c865ee2687",
+            "_checkSum": "2f8f78fee598d81ee2b7c2f3793b5e11"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetAngularDrag.cs",
+            "_guid": "ada0db6be5f370042b4fadbc609edc67",
+            "_checkSum": "72223ea9077822ba2adfced96ecd3ea2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetDistanceScale.cs",
+            "_guid": "efcfa7536ba58c54db83dbb25c7ae8a9",
+            "_checkSum": "d7d7689db6fb09cb20699eccf797f9fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetDrag.cs",
+            "_guid": "5f5243cffaffd47459254ba0f94ab59f",
+            "_checkSum": "627a76f73d6a733137c2707b7f2d4ce1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetForceMagnitude.cs",
+            "_guid": "58b535d99621bdf469d47cc272eed3b8",
+            "_checkSum": "67f968071ba56345ab40d7d59c99d08c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetForceMode.cs",
+            "_guid": "fc65e2ac09b20b249b9afc0b3d31edf6",
+            "_checkSum": "4a59bb47fb0f346b71225e3eaf9488e4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetForceSource.cs",
+            "_guid": "699e176f0c3937c40bb19566edae8c46",
+            "_checkSum": "54226cbf7235ca0fd55e8226efd33f9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetForceTarget.cs",
+            "_guid": "988f19842c38d3245afc865c09a63de0",
+            "_checkSum": "4aeea93b68619230d78150da1824e035"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DGetForceVariation.cs",
+            "_guid": "ffb17a8980578824281a1164edb3840f",
+            "_checkSum": "8d2cb8d8b23f52f12f7846b11c45c978"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetAngularDrag.cs",
+            "_guid": "5110ed50fc4272c4093dd603085649fe",
+            "_checkSum": "647121eb8461bcc090abbd8253e07bc5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetDistanceScale.cs",
+            "_guid": "0091b9de68bd8d449bc736a987f3500f",
+            "_checkSum": "95ab8faa290c827a3ba12febb64a219b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetDrag.cs",
+            "_guid": "3437b28e73420474580c95a6e1970c98",
+            "_checkSum": "6047fd4f1e09864740e877923baef3c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetForceMagnitude.cs",
+            "_guid": "454e7a9be002d7b43a6a5145f631f548",
+            "_checkSum": "0ee229dcc03c81a54483b491d1359ea6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetForceMode.cs",
+            "_guid": "6e77998f97a2e8f41a88797ae5955797",
+            "_checkSum": "ad590c1580452bd24fcdfa00e9fc5ec9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetForceSource.cs",
+            "_guid": "ab1ed561596895d4ab2691cd73635996",
+            "_checkSum": "bef1c36d0653a9d05b03bbf842e81cfd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetForceTarget.cs",
+            "_guid": "70666368082b51243b993ca1edb2c6c1",
+            "_checkSum": "b80591c6d10685c4b1cb30ea6ccdf6d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/PointEffector2D/PointEffector2DSetForceVariation.cs",
+            "_guid": "bca56b1a90a47d246918c0b935a76959",
+            "_checkSum": "58b559af801dd63f37cbef6e16b2e673"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DGetForceScale.cs",
+            "_guid": "a2aeb0dd18af60b47bc73821423aea0e",
+            "_checkSum": "642864277644c1245ce7aff918d4ed7f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DGetSpeed.cs",
+            "_guid": "9830d582c1ec5ec46bb5b8e55d213afd",
+            "_checkSum": "5ed34d16bb627bcd187a9043f0316cdd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DGetSpeedVariation.cs",
+            "_guid": "120de0d602f7c6342a61ca2ab4838c4f",
+            "_checkSum": "17a135fbecfbcefc077d6fbcb2adfa77"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DGetUseBounce.cs",
+            "_guid": "de416546e301a20438533dda9bc85b68",
+            "_checkSum": "36971036c59704735cc762e1dd7c7620"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DGetUseContactForce.cs",
+            "_guid": "f8b3b6560ce7f9043a4cf8939376be59",
+            "_checkSum": "cf87459634ab8cc4a2dda026e3926982"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DGetUseFriction.cs",
+            "_guid": "0e32f4f3ccaf5c346a4f14e34021e2f4",
+            "_checkSum": "6a574cbd8c1dc4ed5b7b316193a8cb4a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DSetForceScale.cs",
+            "_guid": "0c0757611f549894c8c6f73476139f11",
+            "_checkSum": "591cc71dd9e451ddee8b7d274a517b90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DSetSpeed.cs",
+            "_guid": "c16039767f58411479c16b496a40d3f6",
+            "_checkSum": "fa15ec712c3ed3a6e90cd5fdd50a3daa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DSetSpeedVariation.cs",
+            "_guid": "1eaf5e58f41fa6445929cc1a41d00e7f",
+            "_checkSum": "4581a479af4ea592e477544ed61bdf6f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DSetUseBounce.cs",
+            "_guid": "503e886fcc0ad4a4daeb03ae3c1cea6f",
+            "_checkSum": "d6d81b87fe66954fd1a5e6b352333bd9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DSetUseContactForce.cs",
+            "_guid": "4084967d949f2f64ab494da02c493908",
+            "_checkSum": "eff48cd3641cb90978216271f196575b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Effector2D/SurfaceEffector2D/SurfaceEffector2DSetUseFriction.cs",
+            "_guid": "84a7971f9eef06747ac09e5eeaed91ba",
+            "_checkSum": "32bae8c37135c377a4623445a04cf4a5"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479513651183
+}

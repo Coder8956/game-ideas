@@ -1,0 +1,427 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ai.navmesh-builder",
+    "_displayName": "NavMesh Builder",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildDebugSettings",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to build NavMesh data at runtime.",
+    "_description": "You likely don't need to use NavMeshBuilder directly for most Unity projects, as you can typically use the built-in NavMesh baking system within the Unity Editor or the NavMeshSurface component for runtime generation. However, NavMeshBuilder provides more control for advanced scenarios, such as runtime generation or custom algorithms.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AI.NavMeshBuilder.html",
+    "_icon": "AI/NavMeshBuilder",
+    "_tags": [
+        "Actions",
+        "AI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/NavMeshBuilderBuildNavMeshData.cs",
+            "_guid": "9285971eb5f69ef4c83e16fce36ded2c",
+            "_checkSum": "7d633136aa0bcc3f75ea4b92faf33d57"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/NavMeshBuilderCancel.cs",
+            "_guid": "e7cfe05f743c92b4aa722af6eef35916",
+            "_checkSum": "64d0422f1ea43d116b53a3aee8a30134"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/NavMeshBuilderCollectSources.cs",
+            "_guid": "541802713c0e5f44d952404a11fd9e22",
+            "_checkSum": "d2f57b080c66bf5d141e128bad34ebc1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/NavMeshBuilderCollectSources1.cs",
+            "_guid": "7d4b1510dae58d4439096fd6640fa009",
+            "_checkSum": "b13c0874526444360169253078f84e5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/NavMeshBuilderCollectSources2.cs",
+            "_guid": "156206b22d5f8964aa218be09e425cd9",
+            "_checkSum": "78488050ac395805899f7ad9ceea0391"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/NavMeshBuilderCollectSources3.cs",
+            "_guid": "465a8ef70fc678f4dae7daa7f813de00",
+            "_checkSum": "ea4ffd21e045e50c93d85c002cc6fa57"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/NavMeshBuilderUpdateNavMeshData.cs",
+            "_guid": "6f957716aa6fdc54da4c72389a55e7e5",
+            "_checkSum": "f35a5c30bd4449486385db66a2b7ecdd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/Variables/NavMeshBuildDebugFlags.cs",
+            "_guid": "0bbdc8afa158ac141bfc0924870fa14a",
+            "_checkSum": "cef4af6f06f15d6a2a2cdf5c7044c12f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/Variables/NavMeshBuildDebugSettings.cs",
+            "_guid": "f0a212281ac95164d901313e473d8a29",
+            "_checkSum": "251a8db123549d012af7a9119ff1ae20"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/Variables/NavMeshBuildMarkup.cs",
+            "_guid": "4cc093f664111bb48a9a0a1bdd8a00a3",
+            "_checkSum": "28486c9f9e1f30f923b60c784a10ec4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/Variables/NavMeshBuildSource.cs",
+            "_guid": "72f52c9323c1a094894aa261125e49ff",
+            "_checkSum": "2618f93591dac75bae46e7ad0c5881a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/Variables/NavMeshBuildSourceShape.cs",
+            "_guid": "b6b0082060cefb242a42de622f9b6c81",
+            "_checkSum": "6a5e41edb86ad7ef7f7b05bfecbe69a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuilder/Variables/NavMeshCollectGeometry.cs",
+            "_guid": "6216143ffd11ec7458b8cc77b9ea8f62",
+            "_checkSum": "e0685917b22d45ea95291239b41d5a87"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildDebugSettings/NavMeshBuildDebugSettingsGetFlags.cs",
+            "_guid": "3a0cac4bf2f24e141a70ae83fdfcc9df",
+            "_checkSum": "937cb8ff93bc5e0d76609a48c2527804"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildDebugSettings/NavMeshBuildDebugSettingsSetFlags.cs",
+            "_guid": "3320a2fb30bf72b4e950c15f80e58afb",
+            "_checkSum": "dd66b111686aa25e353075e9ad2ac114"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetApplyToChildren.cs",
+            "_guid": "541de0b2ded86e84da7cfffc3135b9e0",
+            "_checkSum": "4a0914db59fe54bb8a340479d665a5f3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetArea.cs",
+            "_guid": "af616b7b2d8cf7b42a6a70fd5c4b810d",
+            "_checkSum": "9a8bc4d77cdced87dc57c000bd65e111"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetGenerateLinks.cs",
+            "_guid": "0b13e0442cdd779448c27703b509abc1",
+            "_checkSum": "08ab56bca3db15fb298401997e483cbc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetIgnoreFromBuild.cs",
+            "_guid": "39cbd2d78ca889a49b0ca38004ffdfc9",
+            "_checkSum": "51301fee6be55b78bc414cac4f6b8aa3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetOverrideArea.cs",
+            "_guid": "4a6743b025b52ab4e85236517f0514a4",
+            "_checkSum": "7b0c5de0e5eec0420ef41bfe8dacd4f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetOverrideGenerateLinks.cs",
+            "_guid": "1e4ae91baf13bd9418c12cf2ce01c79a",
+            "_checkSum": "ca2fb593025194d96aab0281a982a82c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetOverrideIgnore.cs",
+            "_guid": "5bd36db40296e3b499ee54986ce2fde2",
+            "_checkSum": "7a5d2073d91c9214c569aa0feb1b7b41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupGetRoot.cs",
+            "_guid": "28b45842a7180f14783ea27af557e406",
+            "_checkSum": "99743622e96143bad96336bc6acf90d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetApplyToChildren.cs",
+            "_guid": "da94fff385bb81b458632cf07f4a3b3d",
+            "_checkSum": "2f66d6c32c202ac4d8c5181ba40f1c3e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetArea.cs",
+            "_guid": "b1e091645a7f7674b841f149ec4747b4",
+            "_checkSum": "ab50f15b1bf63b8a34ffa30ec51fe3a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetGenerateLinks.cs",
+            "_guid": "06977bf0814ced741b522541efc21eca",
+            "_checkSum": "baa851e855cfe12bb76cd807746a886c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetIgnoreFromBuild.cs",
+            "_guid": "24afa0897a17d5047b8c514e526ed485",
+            "_checkSum": "4c4f0d845d4e3550e8e8cf1ff06dbaee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetOverrideArea.cs",
+            "_guid": "bc2b22700e754d8429038570958a9e0a",
+            "_checkSum": "db801245b2f096d69c3ff15213240463"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetOverrideGenerateLinks.cs",
+            "_guid": "9b6ecefc8e665fc448b7b05c0fb3939e",
+            "_checkSum": "f8ee28c526f1a1129a2f5f9390d08e80"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetOverrideIgnore.cs",
+            "_guid": "61c95fa86974e494b99a2d870e85b4cf",
+            "_checkSum": "1ced1df3c71e06a90347a2ce2ca00eda"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildMarkup/NavMeshBuildMarkupSetRoot.cs",
+            "_guid": "b1dc7b799799aad4a8f02b9022a79bea",
+            "_checkSum": "cdc804cc3b72e138a85d733d3f463174"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetAgentClimb.cs",
+            "_guid": "5448f5516394e6a4a9f9462d0876d3c8",
+            "_checkSum": "c05b6d77ed15edcecc6595642cc27150"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetAgentHeight.cs",
+            "_guid": "f5d13df8f068e0c428f7fb2579ad7bf7",
+            "_checkSum": "f7064386bcabd2cbc6b07d0728698547"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetAgentRadius.cs",
+            "_guid": "42fc95e372dd51941a2e9090a0c4b510",
+            "_checkSum": "0a3811b32b24f1882fe04a0ff1dbbabf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetAgentSlope.cs",
+            "_guid": "e4fbb3bf08d844e45b15c37b0add1b5f",
+            "_checkSum": "6d1b9f9d763adaa32792336684b48dff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetAgentTypeID.cs",
+            "_guid": "641c03f597894f5419e0bb8ab642352c",
+            "_checkSum": "cc20fdc2b38c8b0acc9ce811b6728849"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetBuildHeightMesh.cs",
+            "_guid": "ac47f9e1eced9f6438a90473d937ae75",
+            "_checkSum": "1591fb651747cc3eba9584666ddff74a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetDebug.cs",
+            "_guid": "6e3f582439e55194988da95febd69f7f",
+            "_checkSum": "9b47d45885eb4a7cdcad11dc2418b3f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetLedgeDropHeight.cs",
+            "_guid": "6309a031c5876cb4b9583a1c8ec6a613",
+            "_checkSum": "8387cc0cfd06e5c24f698aae34bfbfd7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetMaxJobWorkers.cs",
+            "_guid": "eb18e831eac3bc94c99998d0c373ee92",
+            "_checkSum": "02bcbb62fd7775904fe4f6d08de495f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetMaxJumpAcrossDistance.cs",
+            "_guid": "9e72012895d61f04a8ee431c38b136d5",
+            "_checkSum": "4bdc9eb86be33b6794781fa0874bca29"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetMinRegionArea.cs",
+            "_guid": "bb9aacf9efbd9314eb04bda9e67d07a1",
+            "_checkSum": "9ee850d03ac8e9e289d857b0fc38fbc0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetOverrideTileSize.cs",
+            "_guid": "fba0e64a01911094e838a71ef43d6bf5",
+            "_checkSum": "5fed488fb0814f836562a959e2304897"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetOverrideVoxelSize.cs",
+            "_guid": "9586167b620661841b59fc555fc597f4",
+            "_checkSum": "936338338c1d6fb2bd13448e0790223c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetPreserveTilesOutsideBounds.cs",
+            "_guid": "2a88f1ba18ec9be46b2d773e3818d942",
+            "_checkSum": "9df09e060e93cca18d974d7a4d11c683"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetTileSize.cs",
+            "_guid": "6f0550610b27e7644995ff4dcd77032e",
+            "_checkSum": "2f7d20dac54a53c6ebcb247cb17f781d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsGetVoxelSize.cs",
+            "_guid": "796047b8bf82d0f40970e5b27bef2ade",
+            "_checkSum": "a58c3cc714b9ec37514fedb4a27e0a88"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetAgentClimb.cs",
+            "_guid": "be6e1d9848411a44ab117bb86fa01a70",
+            "_checkSum": "1f2b7c402593623f1146c61fe9f597c3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetAgentHeight.cs",
+            "_guid": "2c761ae62fa96224fb3e8fa4fe4cb918",
+            "_checkSum": "da7f7c4495f330ef03f9eebdc6b74af3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetAgentRadius.cs",
+            "_guid": "f607ae490cc46aa4c81c90292a51e95c",
+            "_checkSum": "7a136d9a02129c20a4b1aeb184b2249d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetAgentSlope.cs",
+            "_guid": "cdfd3d6ec1ae23145900e59fe766d557",
+            "_checkSum": "f05f520a357acfbb099ad1ab17186ba6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetAgentTypeID.cs",
+            "_guid": "649ce616099e0ee41930209a7b6fb6dc",
+            "_checkSum": "1ac629bd25fc94176e35d527c09f71f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetBuildHeightMesh.cs",
+            "_guid": "a7fa4790aa9e3f54cad6db742ac18aae",
+            "_checkSum": "0931ab9b56a1792ca6fe2da547a7d731"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetDebug.cs",
+            "_guid": "ab31f2d1f5cb5be47baece9b98417345",
+            "_checkSum": "e50877914ca4650fb1ea86c80ce10386"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetLedgeDropHeight.cs",
+            "_guid": "06a2578c739f7534a8b1b4dcd148fc19",
+            "_checkSum": "7600b73750a26d2e671f8f6f80274657"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetMaxJobWorkers.cs",
+            "_guid": "2dec59e520a759749b47c2a4c7de3d73",
+            "_checkSum": "7910244439bedb7fd2a0d9dd76d498d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetMaxJumpAcrossDistance.cs",
+            "_guid": "0753e2a816975db4fbfc20254be873fb",
+            "_checkSum": "3120db9d487433f72289f159fc456aa5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetMinRegionArea.cs",
+            "_guid": "e6f6d14ff28065b41a76383918e2a4f9",
+            "_checkSum": "bfd7bedd52881bb5167fb48f654337e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetOverrideTileSize.cs",
+            "_guid": "09a7541f7fdb66e4997cadfc352ca147",
+            "_checkSum": "aa2e21f9cfe3c199ef89b91889ee9efc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetOverrideVoxelSize.cs",
+            "_guid": "4c006f9b9ff93344b9677930111733ba",
+            "_checkSum": "3358d38a5b89f7bf86cb3c0db488b76d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetPreserveTilesOutsideBounds.cs",
+            "_guid": "c1c0392defc55044db6e44bf111f95eb",
+            "_checkSum": "d0ec1d8277cd12ee3c21924109b6971c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetTileSize.cs",
+            "_guid": "8dcbc65b8a14035459ef68243ca525fb",
+            "_checkSum": "b2c43464cb86717b484e095005440ba1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsSetVoxelSize.cs",
+            "_guid": "e625c8818fefb6a44ba196c768394101",
+            "_checkSum": "406187d525a71670f04fa79fd1760eeb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSettings/NavMeshBuildSettingsValidationReport.cs",
+            "_guid": "375fe2fd4b6d7f74eab9fffe197ceebe",
+            "_checkSum": "f6c0e511fe20cfc1b113da2cfb9a0c23"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceGetArea.cs",
+            "_guid": "5be6dfab938739346887fe2f076049b1",
+            "_checkSum": "949390e3ef321c310c85fc184e009419"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceGetComponent.cs",
+            "_guid": "4056ecc2ed48475478f51a1c94cce392",
+            "_checkSum": "e9b75671bb273be27f62907b301f3546"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceGetGenerateLinks.cs",
+            "_guid": "8e28905ef249c584ba82e8d0ed077652",
+            "_checkSum": "14ad0befaafb10e924a7c0681c697039"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceGetShape.cs",
+            "_guid": "6ffc09da8b85eab4eb7de9aad57a6bf5",
+            "_checkSum": "31184f9843cb1127caaa1df009b965f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceGetSize.cs",
+            "_guid": "bfb9100c18683d74fa2c155f00eb4cd0",
+            "_checkSum": "c14daeb165f0b68d66e12698f30d0f64"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceGetSourceObject.cs",
+            "_guid": "723c3d741c9e19d41abf0ecd46cb2b6e",
+            "_checkSum": "eaf88268ab071c86caec1cff56226056"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceGetTransform.cs",
+            "_guid": "dcc27108b1d714f4ab9f830da6f20d2d",
+            "_checkSum": "f8e455aa147513ec79474959e93367c7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceSetArea.cs",
+            "_guid": "d2dd465b5af9be34e87f704420ea803c",
+            "_checkSum": "187dc78f847ec6e517bb0ec146a6125a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceSetComponent.cs",
+            "_guid": "61c356f78e0412941a0bc8cd0618caaa",
+            "_checkSum": "6fc5a4fdb41bab4e49a2c8ee2ed40c95"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceSetGenerateLinks.cs",
+            "_guid": "8789e49e1d001ca4ebbec766509ef20e",
+            "_checkSum": "a86ac3c5bba44d59e826bbf61369b295"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceSetShape.cs",
+            "_guid": "4bc737dd657ae7d43b6792a63a5ae62a",
+            "_checkSum": "d0ac7b3967ec1014f78392876fbed54a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceSetSize.cs",
+            "_guid": "1a573fc23d6497e4485acc04ea4c66bf",
+            "_checkSum": "ade1e0fefcf00296a11184055550effc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceSetSourceObject.cs",
+            "_guid": "88ffc35952d81ee45a55f22b7a5c1e4f",
+            "_checkSum": "95e3eca670433fa509ce9539d5bdff71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshBuildSource/NavMeshBuildSourceSetTransform.cs",
+            "_guid": "ebc72e7eaed508e4e930a4a54c113f67",
+            "_checkSum": "3d8c8e5450e7cfd50029a42bb5ed9dbf"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b71",
+    "_datePublished": "2026-06-16",
+    "_timeCode": 134261105723006888
+}

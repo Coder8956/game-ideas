@@ -1,0 +1,12 @@
+.hutong-todo-list-field {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.hutong-todo-list-field .unity-list-view__reorderable-handle {
+    justify-content: center;
+}
+
+.hutong-todo-list-field .unity-list-view__reorderable-item__container {
+    padding-left: 2px;
+}

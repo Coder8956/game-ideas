@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.gravity-sensor",
+    "_displayName": "GravitySensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/GravitySensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System GravitySensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.GravitySensor.html",
+    "_icon": "InputSystem/GravitySensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/GravitySensor/Actions/GravitySensorGetGravity.cs",
+            "_guid": "13a40c431a31480eaa1a56de5a51a8e7",
+            "_checkSum": "312d399bba86c103351f05cf52f4092f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/GravitySensor/Constants/GravitySensorCurrentValue.cs",
+            "_guid": "1d983be6bc0d4cb799a71d38dc0d5b58",
+            "_checkSum": "0cc6ec008364d1caace1e1e890d6cc5c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/GravitySensor/Variables/GravitySensor.cs",
+            "_guid": "fa73bc6712a246728cbd6d26b9bf7f41",
+            "_checkSum": "f29c65d50620addc8c8ba9e06e9e6553"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479519773283
+}

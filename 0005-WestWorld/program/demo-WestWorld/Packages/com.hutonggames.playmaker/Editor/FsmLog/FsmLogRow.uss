@@ -1,0 +1,274 @@
+:root {
+    --log-selection-color: rgb(0, 165, 255);
+    --error-text-color: rgb(228, 100, 100);
+    --error-background-color: rgb(50, 0, 0);
+}
+
+.hutong-fsm-log-row {
+    flex-direction: row;
+    flex-grow: 1;
+    height: 30px;
+    align-items: center;
+    padding-left: 5px;
+    background-color: var(--hutong-log-colors-row-background);
+    border-top-width: 1px;
+    border-top-color: var(--hutong-log-colors-row-border);
+    
+}
+
+.hutong-enter-regions-log-row {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.hutong-fsm-log-row--debug-dimmed {
+    opacity: 0.5;
+}
+
+.hutong-fsm-log-row__time-code {
+    width: 65px;
+    flex-shrink: 0;
+    color: var(--hutong-log-colors-timecode);
+}
+
+.hutong-fsm-log-row__event-log {
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hutong-fsm-log-row__event {
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.hutong-fsm-log-row--compact-mode .hutong-fsm-log-row__event {
+    width: 100px;
+    opacity: 1;
+}
+
+.hutong-fsm-log-row__event-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    flex-shrink: 0;
+    opacity: 0.8;
+}
+
+.hutong-fsm-log-row__event-label {
+    width: 60px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    -unity-font-style: bold;
+    opacity: 0.75;
+}
+
+.hutong-fsm-log-row__log {
+    flex-grow: 1;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+    overflow: hidden;
+}
+
+.hutong-fsm-log-row__log-indent {
+    flex-shrink: 0;
+}
+
+.hutong-fsm-log-row__log-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.hutong-action-log-row {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+}
+.hutong-action-log-row__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-left: 3px;
+}
+
+.hutong-action-log-row__text {
+    color: white;
+}
+
+.hutong-fsm-log-row__log-text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+.hutong-enter-regions-log-row__region-button {
+    height: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0;
+    opacity: 0.6;
+}
+
+.hutong-enter-regions-log-row__region-button--selected {
+    opacity: 1;
+    border-color: var(--log-selection-color);
+}
+
+.hutong-fsm-log-row__highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left-width: 6px;
+    border-color: white;
+    background-color: white;
+    opacity: 0;
+}
+
+.hutong-fsm-log-row__highlight:hover {
+    opacity: 0;
+}
+
+/*
+.hutong-fsm-log-row__selected {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    opacity: 0;
+}
+
+.unity-collection-view__item--selected .hutong-fsm-log-row__selected {
+    opacity: 0.2;
+}*/
+
+/*
+.hutong-fsm-log-row__active {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left-width: 6px;
+    border-color: rgb(0, 255, 0);
+    opacity: 0;
+}*/
+
+.hutong-fsm-log-row--active .hutong-fsm-log-row__active {
+    opacity: 1;
+}
+
+.hutong-fsm-log-row--active .hutong-fsm-log-row__time-code {
+    color: var(--hutong-log-colors-timecode-active);
+}
+
+.unity-editor--paused .hutong-fsm-log-row--active .hutong-fsm-log-row__time-code {
+    color: var(--hutong-log-colors-timecode-paused);
+}
+
+.hutong-fsm-log-row__loop-count {
+    -unity-text-align: middle-right;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-right: 4px;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 16px;
+}
+
+.hutong-fsm-log-row__loop-count--error {
+    background-color: var(--error-background-color);
+    color: var(--error-text-color);
+}
+
+.hutong-fsm-log-row__duration {
+    opacity: 0.75;
+    width: 55px;
+    flex-shrink: 0;
+    max-width: 55px;
+    -unity-text-align: upper-right;
+    min-width: 55px;
+    margin-right: 5px;
+}
+
+.hutong-fsm-log-row__duration--dimmed {
+    opacity: 0.25;
+}
+
+.global-error .hutong-fsm-log-row__log-indent {
+    display: none;
+}
+
+.global-error .hutong-fsm-log-row__log-text {
+    color: var(--error-text-color);
+    -unity-font-style: normal;
+}
+
+.global-error .hutong-fsm-log-row__log {
+    background-color: var(--error-background-color);
+    border-top-color: black;
+    border-bottom-color: black;
+}
+
+.global-error .hutong-fsm-log-row__event-icon {
+    opacity: 1;
+}
+
+.global-error .hutong-fsm-log-row__active {
+    border-color: red;
+}
+
+.unity-editor--paused .hutong-fsm-log-row__active {
+    border-color: yellow;
+}
+
+
+.hutong-fsm-log-row__custom-log {
+    width: 100%;
+    padding-left: 0;
+    flex-direction: row;
+    border-width: 0;
+}
+
+.hutong-event-log-row {
+    flex-direction: row;
+    flex-grow: 1;
+    padding-right: 5px;
+    align-items: center;
+}
+
+.hutong-event-log-row__name {
+    margin-right: 3px;
+}
+
+.hutong-event-log-row__icon {
+    margin-right: 2px;
+    opacity: 0.5;
+}
+.hutong-event-log-row__sent-by {
+    width: 18px;
+    height: 18px;
+}
+
+

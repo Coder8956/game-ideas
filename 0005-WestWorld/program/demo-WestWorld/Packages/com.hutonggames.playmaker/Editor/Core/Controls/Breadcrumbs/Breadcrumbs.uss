@@ -1,0 +1,51 @@
+.hutong-breadcrumbs {
+    flex-direction: row;
+    align-items: center;
+}
+
+.hutong-editor-icon-tint {
+    -unity-background-image-tint-color: var(--hutong-editor-colors-icon-tint);
+}
+
+.hutong-breadcrumbs__item {
+    height: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    flex-direction: row;
+    max-width: 200px;
+    align-items: center;
+}
+
+.hutong-breadcrumbs__item--selected {
+    flex-shrink: 0;
+    -unity-font-style: bold;
+    color: var(--hutong-editor-colors-bold-text);
+}
+
+.hutong-breadcrumbs__item:hover {
+    background-color: var(--unity-colors-button-background);
+}
+
+.hutong-breadcrumbs__item-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.hutong-breadcrumbs__item-label {
+    flex-shrink: 1;
+    border-width: 0;
+    overflow: hidden;
+    margin-left: 2px;
+}
+
+.hutong-breadcrumbs__item-arrow {
+    width: 12px;
+    height: 100%;
+    border-left-width: 1px;
+    border-left-color: var(--unity-colors-toolbar-background);
+    background-size: 4px 12px;
+    background-position-x: 6px;
+    flex-shrink: 0;
+}

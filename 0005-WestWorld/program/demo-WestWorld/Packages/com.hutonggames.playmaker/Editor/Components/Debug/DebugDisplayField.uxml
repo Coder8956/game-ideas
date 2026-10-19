@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Components/BaseDebugComponentEditor.uss?fileID=7433441132597879392&amp;guid=cfa93beed26a4c4ab5223527fa35c8df&amp;type=3#BaseDebugComponentEditor" />
+    <uie:PropertyField binding-path="_anchorTo" label="Anchor Panel To" name="anchor-to" />
+    <ui:VisualElement name="game-object-panel" class="game-object-panel">
+        <uie:PropertyField name="game-object-anchor" binding-path="_gameObjectAnchor" label="GameObject Anchor" class="unity-property-field__inspector-property"/>
+        <ui:VisualElement name="game-object-panel" class="offset-row">
+            <uie:PropertyField name="offset" binding-path="_offset" label="Offset" class="offset-value"/>
+            <uie:PropertyField name="offset-type" binding-path="_offsetType" label="" class="offset-type"/>
+        </ui:VisualElement>
+        <uie:PropertyField name="max-distance" binding-path="_maxDistance" label="Max Distance" />
+    </ui:VisualElement>
+    <ui:VisualElement name="debug-panel" class="debug-panel">
+        <ui:VisualElement name="anchors-column" class="anchors-column">
+            <ui:RadioButtonGroup name="anchor-position" binding-path="_anchor" class="anchor-position">
+                <ui:RadioButton value="0" tooltip="Top Left" class="anchor-button top-left" />
+                <ui:RadioButton value="1" tooltip="Top" class="anchor-button top-center" />
+                <ui:RadioButton value="2" tooltip="Top Right" class="anchor-button top-right" />
+                <ui:RadioButton value="3" tooltip="Left" class="anchor-button middle-left" />
+                <ui:RadioButton value="4" tooltip="Center" class="anchor-button middle-center" />
+                <ui:RadioButton value="5" tooltip="Right" class="anchor-button middle-right" />
+                <ui:RadioButton value="6" tooltip="Bottom Left" class="anchor-button bottom-left" />
+                <ui:RadioButton value="7" tooltip="Bottom" class="anchor-button bottom-center" />
+                <ui:RadioButton value="8" tooltip="Bottom Right" class="anchor-button bottom-right" />
+            </ui:RadioButtonGroup>
+        </ui:VisualElement>
+        <ui:VisualElement name="debug-column" class="debug-column" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,76 @@
+.hutong-toggles-toolbar {
+    width: 100%;
+    height: 30px;
+    min-height: 30px;
+    padding-left: 2px;
+}
+
+.hutong-toggles-toolbar__toggle {
+    flex-direction: row-reverse;
+    height: 24px;
+    min-width: 50px;
+    max-width: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-width: 1px;
+    border-radius: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-right: 0;
+    opacity: 0.3;
+    border-color: transparent;
+}
+
+.hutong-toggles-toolbar__toggle:hover {
+    opacity: 0.6;
+}
+
+.hutong-toggles-toolbar__toggle:checked {
+    /*border-color: var(--editor-colors-label-text);*/
+    opacity: 1;
+    border-width: 1px;
+    border-color: var(--unity-colors-toolbar-border);
+}
+
+.hutong-toggles-toolbar__toggle-icon {
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
+
+.hutong-toggles-toolbar__toggle TextElement {
+    text-overflow: ellipsis;
+    margin-left: 2px;
+    margin-right: 2px;
+    -unity-text-align: middle-left;
+}
+
+.hutong-toggles-toolbar__toggle--icon-only TextElement {
+    display: none;
+}
+
+.hutong-toggles-toolbar__toggle--icon-only {
+    min-width: 26px;
+}
+
+.hutong-search-filters-toolbar {
+    width: 100%;
+    height: 30px;
+}
+
+.hutong-search-filters-toolbar__toggle {
+    min-width: 50px;
+    max-width: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+    margin: 5px;
+    margin-right: 0;
+}

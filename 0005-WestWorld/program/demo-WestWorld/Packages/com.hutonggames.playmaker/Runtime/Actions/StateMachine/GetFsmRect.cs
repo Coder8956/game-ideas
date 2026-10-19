@@ -1,0 +1,14 @@
+﻿using JetBrains.Annotations;
+using UnityEngine;
+
+namespace HutongGames.PlayMaker.Actions
+{
+    [System.Serializable]
+    [PublicAPI]
+    [ActionCategory(Category.StateMachine)]
+    [ActionDescription("Get the value of a Rect variable in another FSM.")]
+    public class GetFsmRect : BaseGetFsmVariableAction<Rect, RectVariable, RectRef, RectVar>
+    {
+        // All work is done in base class, but we need the concrete type to serialize.
+    }
+}

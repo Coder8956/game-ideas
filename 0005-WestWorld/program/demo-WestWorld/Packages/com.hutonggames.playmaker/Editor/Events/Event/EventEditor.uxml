@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Events/Event/EventEditor.uss?fileID=7433441132597879392&amp;guid=68b81f870004aa84f8fdd654899a271a&amp;type=3#EventEditor" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <ui:VisualElement class="hutong-event-editor__name-row">
+        <HutongGames.PlayMaker.Editor.IconStyleButton />
+        <ui:TextField picking-mode="Ignore" label="Name" name="name" is-delayed="true" class="hutong-event-editor__name" />
+    </ui:VisualElement>
+    <ui:Label text="Error" name="error" picking-mode="Ignore" class="error-text hutong-editor-error-text hutong-event-editor__name-error" />
+    <ui:TextField name="description" is-delayed="true" multiline="true" binding-path="_description" class="hutong-editable-label hutong-event-editor__tooltip pm-host--better-text-field"/>
+    <ui:HelpBox name="info" class="hutong-event-editor__info" />
+    <uie:PropertyField binding-path="_data" />
+</ui:UXML>

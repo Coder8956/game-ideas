@@ -1,0 +1,151 @@
+.hutong-editor-settings {
+    margin-left: 9px;
+    margin-top: 1px;
+}
+
+.hutong-editor-settings__scroll-view {
+    flex-grow: 1;
+}
+
+.hutong-editor-settings__row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.hutong-editor-settings__row IntegerInput {
+    flex-grow: 0;
+}
+
+.hutong-editor-settings__title {
+    -unity-font-style: bold;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.hutong-zoom-setting {
+    flex-shrink: 1;
+}
+
+.hutong-zoom-setting > Label {
+    flex-shrink: 1;
+    min-width: 10px;
+}
+
+.hutong-zoom-setting FloatInput {
+    width: 40px;
+    min-width: 40px;
+}
+
+.hutong-editor-settings__header {
+    font-size: 12px;
+    -unity-font-style: bold;
+}
+
+.hutong-editor-settings__header-row {
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+.hutong-settings-card {
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: var(--unity-colors-window-border);
+    background-color: var(--unity-colors-alternated_rows-background);
+    margin: 6px 4px;
+    padding: 10px;
+}
+
+.hutong-editor-settings-button {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    cursor: link;
+    opacity: 0.8;
+}
+
+.hutong-editor-settings__reset-all-button {
+    margin-left: 4px;
+    margin-top: 8px;
+    max-width: 130px;
+}
+
+.hutong-setting {
+    max-width: 400px;
+    margin-left: 0;
+}
+
+.hutong-setting > Label {
+    min-width: 150px;
+    max-width: 255px;
+}
+
+.hutong-path {
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+/* The main row container */
+.multi-column {
+    flex-direction: row;
+    align-items: flex-end; /* Aligns the bottom of the label with the bottom of the inputs */
+    padding: 4px 0;
+}
+
+.setting-label {
+    width: 150px; /* Keep this consistent with your other labels for a clean vertical line */
+    flex-shrink: 0;
+}
+
+/* Container for the 3 columns */
+.column-container {
+    flex-direction: row;
+    /* Remove justify-content: flex-end */
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+/* Individual Column */
+.value-column {
+    width: 60px;
+    margin-right: 8px; /* Space between the columns */
+}
+
+/* Small headers above the inputs */
+.column-header {
+    font-size: 9px;
+    -unity-font-style: bold;
+    color: var(--unity-colors-label-text-secondary);
+    margin-bottom: 2px;
+    margin-left: 4px;
+}
+
+.setting-row {
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 0;
+}
+
+.setting-label {
+    width: 150px; /* Aligns with all your other labels */
+}
+
+.compact-mode-limit > .unity-integer-field__input {
+    width: 35px;
+    min-width: 35px;
+}
+
+.input-group {
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Constrain the box so it doesn't look like a huge text field */
+.input-group .unity-integer-field {
+    width: 45px;
+    margin-right: 6px;
+}
+
+.unit-suffix {
+    font-size: 10px;
+    color: var(--unity-colors-label-text-secondary);
+}

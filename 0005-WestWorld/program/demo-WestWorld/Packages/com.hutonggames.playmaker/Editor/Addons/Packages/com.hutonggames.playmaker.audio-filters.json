@@ -1,0 +1,513 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-filters",
+    "_displayName": "Audio Filters",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Audio Filters normally setup at edit time. Use these actions to control filter settings at runtime.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Manual/class-AudioEffect.html",
+    "_icon": "Audio/AudioReverbFilter",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterGetDelay.cs",
+            "_guid": "2b472e691ba33fd44b5e28822ed4e2a9",
+            "_checkSum": "3f7838c918e682150dc711f3f006c285"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterGetDepth.cs",
+            "_guid": "6770c0767eab4944290766dbf04c136e",
+            "_checkSum": "574ba703d7fa2c0ff2bbca5d6d8e1a31"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterGetDryMix.cs",
+            "_guid": "dd0975d7ee328224081683703d6631c4",
+            "_checkSum": "010ce290b720b8bf53a9e519597bcd64"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterGetRate.cs",
+            "_guid": "1e358997e7c9cb04182044eeb5f45058",
+            "_checkSum": "b20fa8fd92315baa98cc13959b828889"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterGetWetMix1.cs",
+            "_guid": "db204739b51bbab48be2e91a6c6248c6",
+            "_checkSum": "7f1878ae83e2a77b53e2e62addb96022"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterGetWetMix2.cs",
+            "_guid": "6be2d5e2db1cb45468c445ca3390e6f4",
+            "_checkSum": "774d783a8b89015751dc63c4a5c64f85"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterGetWetMix3.cs",
+            "_guid": "27b63a5bd8563524ea0f741bdd0e289d",
+            "_checkSum": "1155079bfee0b73b130c971d657c119f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterSetDelay.cs",
+            "_guid": "d3696a6155178564b8e240672f502078",
+            "_checkSum": "160c498e76bcbcbe0b86fc98ea92edd5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterSetDepth.cs",
+            "_guid": "8346277471b36214082cabce0f9c1d30",
+            "_checkSum": "b9fada54f7f367df878a24f985ef305a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterSetDryMix.cs",
+            "_guid": "8520747492b73134d80c1ed5d09f48cf",
+            "_checkSum": "8004a8fd2f2ba4d93de8751f4f9acee9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterSetRate.cs",
+            "_guid": "0de3a7357c11edc488949b3621c1c2ed",
+            "_checkSum": "c476e9a0cb59ddbec7bd7ec9a70b65a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterSetWetMix1.cs",
+            "_guid": "5d96f4f9afd65204788d6069aaa1767c",
+            "_checkSum": "c56e33f219d412d0f81e4a19d8481a4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterSetWetMix2.cs",
+            "_guid": "5993bb00056453a479c7137e9e7000e2",
+            "_checkSum": "ae73f2901c5da217fbfb88f57dd636e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioChorusFilter/AudioChorusFilterSetWetMix3.cs",
+            "_guid": "730b6199ea7b48e4ea0f259f247d2ae9",
+            "_checkSum": "353ff6bdb3832c2bf0e6338d103cd290"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioDistortionFilter/AudioDistortionFilterGetDistortionLevel.cs",
+            "_guid": "44f239ff9a2394c45a024da1bcf5a699",
+            "_checkSum": "9b27775728766dd260693b724a1424ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioDistortionFilter/AudioDistortionFilterSetDistortionLevel.cs",
+            "_guid": "c63ed6496e3f3964ea0b945f0b3aad28",
+            "_checkSum": "cff8fcccf503cb1f63e74ea77525725b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterGetDecayRatio.cs",
+            "_guid": "15a8ca579593ae84989ce9430b156284",
+            "_checkSum": "bbc193b62231a01e352d67cf4e0a85f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterGetDelay.cs",
+            "_guid": "a0e69486da9122c4d89f7306563e6f8a",
+            "_checkSum": "cf1d7027e5edb06ff9410373470ba898"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterGetDryMix.cs",
+            "_guid": "b90e740f74d42bd41bdb1719be15a9f5",
+            "_checkSum": "fc408c72352ab1860d96e6b215fe4772"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterGetWetMix.cs",
+            "_guid": "8e0098a3eeb5ee74cb660197d8f12b32",
+            "_checkSum": "dc2129dbc73ea3063a62744a438e0840"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterSetDecayRatio.cs",
+            "_guid": "aecbc1469ab67db49a17585c8d3905d9",
+            "_checkSum": "9c54d551e27ce8ab4c1dbced69373b31"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterSetDelay.cs",
+            "_guid": "356f0cbe398e4cd44a665b7b2f91d569",
+            "_checkSum": "883c47041ec3ae7174cdb9cadd0ba6ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterSetDryMix.cs",
+            "_guid": "42db66378e80eac48af45db7d33b6cf1",
+            "_checkSum": "17386a3dbcbbb12c2e551eeab2631526"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioEchoFilter/AudioEchoFilterSetWetMix.cs",
+            "_guid": "9d58e77d5abb93641b63e6042510cb2d",
+            "_checkSum": "6f8d92abd3c402348d885531ce2eecae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioHighPassFilter/AudioHighPassFilterGetCutoffFrequency.cs",
+            "_guid": "1940daed7be9d2d4abb76b6c95ae6fa2",
+            "_checkSum": "bbd7a877caecacd50899cc6801e35d10"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioHighPassFilter/AudioHighPassFilterGetHighpassResonanceQ.cs",
+            "_guid": "9293c5f70e439c2458db6b03ee8fd4e8",
+            "_checkSum": "26b78bdbd92e555b11b2fa6902f5c0e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioHighPassFilter/AudioHighPassFilterSetCutoffFrequency.cs",
+            "_guid": "82db8ae15bad1294097cf93404ab2067",
+            "_checkSum": "5691d456fcae1d0f058c44c8903cc8b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioHighPassFilter/AudioHighPassFilterSetHighpassResonanceQ.cs",
+            "_guid": "aaff027b7ec7b754a91ea3284bf3e781",
+            "_checkSum": "442350846f5f8d8f9c4bfd31c99128a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioLowPassFilter/AudioLowPassFilterGetCustomCutoffCurve.cs",
+            "_guid": "9cd7429918246444ba88016b36fd49c9",
+            "_checkSum": "c756708ff30c3bbe4ffdf84265ff46cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioLowPassFilter/AudioLowPassFilterGetCutoffFrequency.cs",
+            "_guid": "36780f4c557ba8c459db72b931a95878",
+            "_checkSum": "fa3baa7098b7de3c2147df5d1b7591e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioLowPassFilter/AudioLowPassFilterGetLowpassResonanceQ.cs",
+            "_guid": "fd668d78a650f83409af193318dddc83",
+            "_checkSum": "c1970335ba617f86c0aa0f9e22e5e24b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioLowPassFilter/AudioLowPassFilterSetCustomCutoffCurve.cs",
+            "_guid": "25ac852b2c13334499ab8115a6e4ecf9",
+            "_checkSum": "4a41c507f7f4109c7999b31cc632b695"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioLowPassFilter/AudioLowPassFilterSetCutoffFrequency.cs",
+            "_guid": "50acd5473bb4e844699ed8c64efb863f",
+            "_checkSum": "d2a85fca5cd3923be06375552e6d115e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioLowPassFilter/AudioLowPassFilterSetLowpassResonanceQ.cs",
+            "_guid": "1924c5f48adbecb43bf6e2d298032dd9",
+            "_checkSum": "d6fa1eb6370f20f3befc1cff77ca3b7e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetDecayHFRatio.cs",
+            "_guid": "7a9bb9f601ad60148bc0bf019b203646",
+            "_checkSum": "9d4056ea44939f9c21f28e89fe1c8d36"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetDecayTime.cs",
+            "_guid": "d81286dc6a1191442b034a5bb65b3a76",
+            "_checkSum": "445526c5878010cb413639ad4edba8f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetDensity.cs",
+            "_guid": "096587a422b37e04c979c958aba37c69",
+            "_checkSum": "476acfd0c9df4f89a906ecb6b7b40457"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetDiffusion.cs",
+            "_guid": "d1defc7f09ebdf74a98a969da5820283",
+            "_checkSum": "b1dbee94e6fb375e891f395e3fc7b15a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetDryLevel.cs",
+            "_guid": "9c7abca93ae4dc04ea06dad830c83000",
+            "_checkSum": "e5eedcbec439ad438aee35c05f7f68f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetHfReference.cs",
+            "_guid": "80959912e7ad65245b52d540721307dc",
+            "_checkSum": "80c0b796e83a3e467895e81550105abb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetLfReference.cs",
+            "_guid": "0dbab080f9c95c74880a3333ded01840",
+            "_checkSum": "ddac3c9e5fbfb56964e240afe353e159"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetReflectionsDelay.cs",
+            "_guid": "d4365cb63af0fb5479688c35bbe72031",
+            "_checkSum": "e08e1645e1360076d8740eb2207ebf4c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetReflectionsLevel.cs",
+            "_guid": "ea44dd94a8d99894fae378333905f4bb",
+            "_checkSum": "c7d3218f8d57e06dd1e3c8360c6ef7db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetReverbDelay.cs",
+            "_guid": "25ac4d211452086428804bb94ad8ad43",
+            "_checkSum": "e61291f0104c73921c947e0d97ace206"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetReverbLevel.cs",
+            "_guid": "f09ed659c0d511c4993e933281afdc28",
+            "_checkSum": "69860d2982b27e110d80dfe130e2c344"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetReverbPreset.cs",
+            "_guid": "e05d58c79bd99f8408c412b1f998a6d7",
+            "_checkSum": "c0261a6e01c015f09b611bfec1f6d03f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetRoom.cs",
+            "_guid": "b19de7a8290b01e4286e8a897c1aa194",
+            "_checkSum": "96eb3ad3588b423ff25442a9f651a29e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetRoomHF.cs",
+            "_guid": "798310e7b1fae5e40a701eb2606e85b2",
+            "_checkSum": "686977934795c1ab65e097f03a07aa67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterGetRoomLF.cs",
+            "_guid": "f4dffc11e01981d479c4469d96d489a4",
+            "_checkSum": "3d6f99280201a38d6a0c6764d49b471d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetDecayHFRatio.cs",
+            "_guid": "14851dadb95a4094e8741e08ebec10b1",
+            "_checkSum": "3c97b6a46a97f50f6c3a0d1828221b51"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetDecayTime.cs",
+            "_guid": "102c8b9f42a136c49892a4602d2b442e",
+            "_checkSum": "a949288b17434d59bc2349ff5227b2b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetDensity.cs",
+            "_guid": "7029ff33007027f46a599d9be6f697ad",
+            "_checkSum": "8aeae7e2c9ee0a84da975c602cd88c3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetDiffusion.cs",
+            "_guid": "b7ab8bf6073882748b366784e61ac081",
+            "_checkSum": "cc95a246fd2b795d0ac913f49a624192"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetDryLevel.cs",
+            "_guid": "9c6fc7eb4df7e284ba647b9abaa0a8b1",
+            "_checkSum": "6bdecb5a0ed57a98d1400a281c5c51c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetHfReference.cs",
+            "_guid": "0ca58f745e4d32b40b4f23c46fd4375d",
+            "_checkSum": "77c5a45b078a8a5ac9e8c484a3ff9c6b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetLfReference.cs",
+            "_guid": "911e0cb271ceccf428391c997cede3ad",
+            "_checkSum": "71cd9ebd4b2ce4207a78c58fc8648828"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetReflectionsDelay.cs",
+            "_guid": "941a2bfe228679c44a2848471659e12b",
+            "_checkSum": "a25251826d8e903cec8708e8c5c99913"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetReflectionsLevel.cs",
+            "_guid": "6dd7dfa946a5f43428e8a2a9fbbdbd0a",
+            "_checkSum": "802a90067a2904ff860fdeadbe2f14bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetReverbDelay.cs",
+            "_guid": "e463ccded98092f47ae423827cfe0d31",
+            "_checkSum": "22dff2930254816c9d435245886fb052"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetReverbLevel.cs",
+            "_guid": "83167961efc2435458a4da8aac630e51",
+            "_checkSum": "c9e6098d044a5f589dc45fe72527de2d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetReverbPreset.cs",
+            "_guid": "72a5f94f50d36084bb30b8ea1eb971af",
+            "_checkSum": "cfe9799040023fdf95acd95b38e9e924"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetRoom.cs",
+            "_guid": "d2533a54ec7a4ea4d99ba3327e4a64b0",
+            "_checkSum": "2194beb1c74c8894469f43f0198461f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetRoomHF.cs",
+            "_guid": "b09dd281915d9a241b2eb9e4dfe6a7e6",
+            "_checkSum": "d36197f5607277a83b6c7b7d5bb6d03a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbFilter/AudioReverbFilterSetRoomLF.cs",
+            "_guid": "e6a52a67e9ea4a24eb5ed9d5e9d4c794",
+            "_checkSum": "0397305d8d98ad122de6ad0a41084c70"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetDecayHFRatio.cs",
+            "_guid": "31bd2f84095f3304696a7cf045626713",
+            "_checkSum": "7d1dbfa41acd6f49f984f484049be2c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetDecayTime.cs",
+            "_guid": "f8744ab29e3f68f4e95d203c401c0fca",
+            "_checkSum": "7e1d27081b55ad11876f8ed7abb37942"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetDensity.cs",
+            "_guid": "c044585551ee5044fbfced72316ba4a8",
+            "_checkSum": "f649f024354788043e0d3782f7e190ad"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetDiffusion.cs",
+            "_guid": "4fa4e5ab6728dc2468707b97788887ad",
+            "_checkSum": "da4e38f8b5952478ebfe770f94532db7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetHFReference.cs",
+            "_guid": "5da902909eea0bc4d840962fbd967044",
+            "_checkSum": "824eef14a5f69cad16756ac46dc6dd17"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetLFReference.cs",
+            "_guid": "b9194ae63c837ba439d56639b862720e",
+            "_checkSum": "6e73a7b9b4a0a33a81063f18ab4ee972"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetMaxDistance.cs",
+            "_guid": "499549347db12274ea9ebf7eef24a389",
+            "_checkSum": "375082c13aca5f7c277a95ff2846d5a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetMinDistance.cs",
+            "_guid": "1076a4c47fad5844799e3a36a797083b",
+            "_checkSum": "fb2c88a84e2f47440f07fab8dd4ae7c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetReflections.cs",
+            "_guid": "2cf2af13e1000954b9ae826bf3e8a1f1",
+            "_checkSum": "b7923164856f605ee0f7ab3bd2ff16a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetReflectionsDelay.cs",
+            "_guid": "68a41b0a56b2a964f84965ece4e7e31f",
+            "_checkSum": "a3b2663d5dc196558c76864f5c02a9c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetReverb.cs",
+            "_guid": "1c81115252b71824ab3e2c69584c46fb",
+            "_checkSum": "e605a596cf7498e5b2d77736dc9c0ff5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetReverbDelay.cs",
+            "_guid": "176c7ed2c5b468d4a94c8252c8d40c0a",
+            "_checkSum": "ce66a9fcfa456c5f7f294d53822d540f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetReverbPreset.cs",
+            "_guid": "be8f6c42ccea20c42a0d497a1116f3f4",
+            "_checkSum": "8035c915322646009b62376d3d359348"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetRoom.cs",
+            "_guid": "d5fb3c34f5c31854898bae4647a61ee7",
+            "_checkSum": "a4ef31d00e394c959c8d9472d7124fcb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetRoomHF.cs",
+            "_guid": "eebb5f29dba7f6d4bab3367942d98a19",
+            "_checkSum": "d63b6d979e8724d0b45f477122c58820"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneGetRoomLF.cs",
+            "_guid": "3d804143a0fd3eb40b2a04d98f65fe8e",
+            "_checkSum": "6b9d8f0a9a79010b381acb97a924a3b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetDecayHFRatio.cs",
+            "_guid": "41f69d453c2fbe14b93d014c184f7d34",
+            "_checkSum": "8f11689f1ef2396b60c07db9331c1b7c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetDecayTime.cs",
+            "_guid": "39d06dd6909e4e242b2c949f2237df89",
+            "_checkSum": "c1a91777aee64c463412879efb67cd0b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetDensity.cs",
+            "_guid": "c37982d93f5394347b17baf88828274f",
+            "_checkSum": "1defaaa6f526212f9add1310d45a6ca8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetDiffusion.cs",
+            "_guid": "a5106d39d7ed8b54fb25f3db1d14840e",
+            "_checkSum": "1a38a2f8ac78e338190b3e1a971b79e6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetHFReference.cs",
+            "_guid": "0c0477c3dcdf7a2418b4a166d1ee4a36",
+            "_checkSum": "10a79c5e4a08dc3446503eb35e171d34"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetLFReference.cs",
+            "_guid": "bdd134120d14f234d9de34c59cbbd818",
+            "_checkSum": "6443ff66ec0e31480a59cdffddcf41fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetMaxDistance.cs",
+            "_guid": "d20a4c76fc844734babc2dd421f9ecb8",
+            "_checkSum": "ebd6048af27d9fc24498901137ff816a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetMinDistance.cs",
+            "_guid": "128d88eb9b38726458a6292f24f7e4cd",
+            "_checkSum": "4274ae64e1ca2939ba8f00137001724c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetReflections.cs",
+            "_guid": "2cac18e04d6c432409fe73a9f22868be",
+            "_checkSum": "5efd52515f42e55d9c40393e517cb0dc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetReflectionsDelay.cs",
+            "_guid": "f5f5b684bf4bdb9419b45b47e1123f74",
+            "_checkSum": "94dea77a5fa943df929b2cf84a91faa9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetReverb.cs",
+            "_guid": "fe32e98868d5a87498146c912d887f82",
+            "_checkSum": "e2c8e371ded4b5bb1449184cdb83f30e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetReverbDelay.cs",
+            "_guid": "35f81237608e91a4d94fc2864f5e8678",
+            "_checkSum": "4e53b0e59cce1c48e47109a44e1c9991"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetReverbPreset.cs",
+            "_guid": "3aea5d4045cc6f64e872e34a715274a8",
+            "_checkSum": "f0af0a69a556dce62d3e0ca411a20d5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetRoom.cs",
+            "_guid": "2843ca2729db6e64c8edc48555bafa12",
+            "_checkSum": "091076b78d78082bcc8d7d00a6f1621f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetRoomHF.cs",
+            "_guid": "ac4fd971b4f9b714db0666649524fe3e",
+            "_checkSum": "de82cfb14b01eb1ef81baaa32469c5bb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Filters/AudioReverbZone/AudioReverbZoneSetRoomLF.cs",
+            "_guid": "deb24c0fd7271734e8ae4eb50c7f608e",
+            "_checkSum": "c1bddf6e455aac44be43fde30bf0a6b4"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479654633654
+}

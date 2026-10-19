@@ -1,0 +1,50 @@
+﻿
+using JetBrains.Annotations;
+using System;
+using UnityEngine;
+
+
+namespace HutongGames.PlayMaker.Actions
+{
+	
+	
+	[System.Serializable]
+	[PublicAPI]
+	[ActionCategory(Category.String)]
+	[ActionDescription("Reports the zero-based index position of the last occurrence of a specified Unico" +
+		"de character or string within this instance. The method returns -1 if the charac" +
+		"ter or string is not found in this instance. ")]
+	[HelpURL("https://learn.microsoft.com/en-us/dotnet/api/system.string.lastindexof")]
+	public sealed class StringLastIndexOfChar : BaseAction
+	{
+		
+		[Tooltip("The String.")]
+		[SerializeField]
+		private StringRef _string;
+		
+		[Tooltip("Value.")]
+		[SerializeField]
+		private CharVar _value;
+		
+		[Tooltip("Store the result in Integer variable.")]
+		[SerializeField]
+		[WriteOnly]
+		private IntegerRef _result;
+		
+		public override bool CanExecute()
+		{
+			return CheckParameters(_string, _value, _result);
+		}
+		
+		public override void Execute()
+		{
+			//System.String.LastIndexOf(System.Char);
+			_result.Value = _string.Value.LastIndexOf(_value.Value);
+		}
+		
+		public override string GetSummary()
+		{
+			return "Last Index Of {_string} {_value} -> {_result}";
+		}
+	}
+}

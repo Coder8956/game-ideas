@@ -1,0 +1,26 @@
+{
+    "name": "HutongGames.PlayMaker.Editor",
+    "rootNamespace": "HutongGames.PlayMaker.Editor",
+    "references": [
+        "GUID:c962d2d6c5bcddc4d96bb4473abd6dde",
+        "GUID:1c85f1f376040df479a168030af00808",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:8c4dd21966739024fbd72155091d199e",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:08e4feaaff2710f49b21be6f0ba1c420"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

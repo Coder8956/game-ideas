@@ -1,0 +1,143 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animation-clip",
+    "_displayName": "Animation Clip",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to change animation clip settings at runtime.",
+    "_description": "In most cases animation clips are setup at edit time. These actions allow you to get or set animation clip properties at runtime. For example, you can change the frame rate of an animation, or the wrap mode.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AnimationClip.html",
+    "_icon": "Animation/AnimationClip",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipAddEvent.cs",
+            "_guid": "fb91ae25495431142b65e5cf36f50137",
+            "_checkSum": "a073c599405f5e7b06e4afb595475fcb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipClearCurves.cs",
+            "_guid": "ce3f10c8e3d191545bb5bb1f87bb69eb",
+            "_checkSum": "3203d41511722d550914def29bca746c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipEnsureQuaternionContinuity.cs",
+            "_guid": "6f89f7144d3f65e43be617eadac00000",
+            "_checkSum": "1948440efb27c924b3e0dcdfc5e621c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetEmpty.cs",
+            "_guid": "d1ef391bac45a5146a49097f859305ae",
+            "_checkSum": "f8073ce3992887e16b3062e9a0fa404a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetEvents.cs",
+            "_guid": "cf75ee5f405cadb479e54b1f95b45ce9",
+            "_checkSum": "2087466beb988ef2d9d924e312b86d15"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetFrameRate.cs",
+            "_guid": "557475a3d626f844d855bf8b71dd53ba",
+            "_checkSum": "17a6ab60a5cabf0020f7c391c90f6eb7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetHasGenericRootTransform.cs",
+            "_guid": "c67ecc368f6da7544bb98d4f52ef216e",
+            "_checkSum": "96e04a3891d36efef6f8e42dfd6ac828"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetHasMotionCurves.cs",
+            "_guid": "0d2f7b2b24983014aa746dbc26ecc554",
+            "_checkSum": "93b9b9c72a32fe691720ccc3a08bed45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetHasMotionFloatCurves.cs",
+            "_guid": "924a935fd32b4c24faa7658e07c2962d",
+            "_checkSum": "b8392b4c3fee087fd0c2cf52ef6c67f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetHasRootCurves.cs",
+            "_guid": "04545505f2c873a41b287e9342b96a50",
+            "_checkSum": "3d8e7d8114299e2241171f8d4a9c8562"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetHumanMotion.cs",
+            "_guid": "da73462ddf8df1a4fbfe59b070124c5c",
+            "_checkSum": "36ce651a32e889202878839f27ed099b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetLegacy.cs",
+            "_guid": "ed4bca5be712fdc4ba2f5d41655037b4",
+            "_checkSum": "a9e6281e2a61e8f8e66f9fc6ee2159c9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetLength.cs",
+            "_guid": "597a5b3502c21194eb64c9bfbf7c9fb8",
+            "_checkSum": "9476c2c9a27ac40afed8c108fdb04c6d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetLocalBounds.cs",
+            "_guid": "66c10ba5b52f2034fb19a202e36fcec2",
+            "_checkSum": "84936e134fddf8624270acd135a92b66"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipGetWrapMode.cs",
+            "_guid": "ddf45a5bcf9861e45ae1b7907323bac4",
+            "_checkSum": "adf78f07c943ba5afd0c4ca51ea45e59"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipSampleAnimation.cs",
+            "_guid": "3a615728a1a4632449d869fbf05c2c48",
+            "_checkSum": "16e76048415d12cf4fc51710eba66af5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipSetEvents.cs",
+            "_guid": "d3c7949f95364c1408caddf56819ec69",
+            "_checkSum": "58ad26d78d5878e12b40365aa17bd182"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipSetFrameRate.cs",
+            "_guid": "17a46b6362173764d8376618b4aaa0ce",
+            "_checkSum": "8b672f9b42d4901952f7393be73e0baf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipSetLegacy.cs",
+            "_guid": "4107353cc53557a49b285104e6d6b5fa",
+            "_checkSum": "ddb8d0827f18aff23cbbbf31c7b83924"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipSetLocalBounds.cs",
+            "_guid": "f16d1a6aa9fce7c4b9eef7f4f1424977",
+            "_checkSum": "6b4fffb46c9c3ed7ba351c9f39cebc30"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/AnimationClipSetWrapMode.cs",
+            "_guid": "c49df76446dd65e48baf9bcbd8380184",
+            "_checkSum": "1aabbe236c3621cd9d75e66bfaa122c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationClip/CapturePoseAsAnimationClip.cs",
+            "_guid": "f461e06ed3da474d9e5a9d86f9e10ea9",
+            "_checkSum": "f42a7f18e4735683a1898cbd9579ba9d"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479377410602
+}

@@ -1,0 +1,62 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.texture-memory",
+    "_displayName": "Texture Memory",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Memory"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Access Texture memory information.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Texture.html",
+    "_icon": "Rendering/Texture",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Memory/TextureGetCurrentTextureMemory.cs",
+            "_guid": "ce600172cf83aaf448a70f7196c2023c",
+            "_checkSum": "f5cbace27bea69e55b0bd2c59558dcdb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Memory/TextureGetDesiredTextureMemory.cs",
+            "_guid": "154f34aa20a3ce3499a632ff1935e5f5",
+            "_checkSum": "57200a155c9f5cf1c4bfc87b4e99eded"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Memory/TextureGetNonStreamingTextureCount.cs",
+            "_guid": "3d313d9f5a7bd9449bd248e871f99b3e",
+            "_checkSum": "45b8efdb475cbfa432c2177e095401f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Memory/TextureGetNonStreamingTextureMemory.cs",
+            "_guid": "839210623dab36f4d81d08d79f8e0557",
+            "_checkSum": "5b96dca623b203d12542785fe7ac75b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Memory/TextureGetTargetTextureMemory.cs",
+            "_guid": "f5234baa2a5074043a783e71b6e114f2",
+            "_checkSum": "3fd5172bfd9fe39bf7ca57b04ee9bb15"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Memory/TextureGetTotalTextureMemory.cs",
+            "_guid": "e2c6a8415b02c034a8af0886ee7e221d",
+            "_checkSum": "b5af6fb3a4ebbe1569a7c034d82fec56"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479298788535
+}

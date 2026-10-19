@@ -1,0 +1,278 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.render-settings",
+    "_displayName": "Render Settings",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control Render Settings at runtime.",
+    "_description": "The Render Settings contain values for a range of visual elements in your Scene, like fog and ambient light.\n\nNormally these settings are set up at edit time, but you can use these actions to change them at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/RenderSettings.html",
+    "_icon": "Rendering/RenderSettings",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetAmbientEquatorColor.cs",
+            "_guid": "ff6375c60934a76418fbcc2aa4be91bc",
+            "_checkSum": "69a01a0d92a328cef079d424aa0ae0d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetAmbientGroundColor.cs",
+            "_guid": "68ab492819d9c5b48a98bd60084acf4d",
+            "_checkSum": "50b7ad05625f86eb17120c221823be4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetAmbientIntensity.cs",
+            "_guid": "e53ddb41215e0054cb713bba32f0c0b8",
+            "_checkSum": "2f1a904cc033e9e6c054757eeab040bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetAmbientLight.cs",
+            "_guid": "27f7df9beedd9d14a981bbf78290437e",
+            "_checkSum": "eb307d3c6acc5be9e9d52d9f40a76049"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetAmbientMode.cs",
+            "_guid": "2e422c8dcea3f2946b8a4f76f8f52af7",
+            "_checkSum": "954f1021fb018e3620a1aeb531f393f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetAmbientProbe.cs",
+            "_guid": "23090095a934cd940911a9288ae43363",
+            "_checkSum": "00a6817bd6eac7338d0d7ae726a59e33"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetAmbientSkyColor.cs",
+            "_guid": "c93a1691c9b66764ca35e2329a9f3e72",
+            "_checkSum": "cbb72b77b90f71a3103f4de130b2fb55"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetCustomReflectionTexture.cs",
+            "_guid": "daf1968f06cccd442816062855d475b7",
+            "_checkSum": "0869ee4b0353e119cdbe3ffb6961c549"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetDefaultReflectionMode.cs",
+            "_guid": "d84fb4cd6dbdb0b43a8075ec3fe6b1da",
+            "_checkSum": "d1d0339e23c7c40f9e2b572a54a6e33a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetDefaultReflectionResolution.cs",
+            "_guid": "b5f977a8592087a4699d9e8dbef47a78",
+            "_checkSum": "29171cc668c41ce2655dab34beb8251f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFlareFadeSpeed.cs",
+            "_guid": "72526c4a4f51a674e898ef749b8b77ec",
+            "_checkSum": "62a1ccf2c5b5b3b14a7c0497a6a3ff22"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFlareStrength.cs",
+            "_guid": "b3fc9eb792d50514db8800a9a2a8abfe",
+            "_checkSum": "a1389d0815a5208f2836352d0eecb195"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFog.cs",
+            "_guid": "cfe560611fd81ac4e8eb0ca58daa4abb",
+            "_checkSum": "c24f6e57e5944a6c3f7067a1f8c543ee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFogColor.cs",
+            "_guid": "8d31b121c30ca8d45b045794f9ae58cd",
+            "_checkSum": "5086069ce8281b754cdbcacb45ffcb33"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFogDensity.cs",
+            "_guid": "879eadeb3e90cb94ebe36ce25f90d52a",
+            "_checkSum": "180cb3cdb03b28a404ea851f80fbd4ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFogEndDistance.cs",
+            "_guid": "63eabaa0faec1e240afb04d643f4b268",
+            "_checkSum": "ba8a625efb21d113ad972568559e2222"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFogMode.cs",
+            "_guid": "7bb2f48a296ee7f43b441de2c59f37a3",
+            "_checkSum": "4bfbdb0d84e88e99c533c1119d550407"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetFogStartDistance.cs",
+            "_guid": "66f2c6bf6ddeb5343992cfa2cb192b7f",
+            "_checkSum": "fb3eda1e4f9ca1ac82c53f515f83192f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetHaloStrength.cs",
+            "_guid": "c508f31349a8a7f42a1bba04cadf240a",
+            "_checkSum": "1a3a90331efe0d9349f7ee63c74e29d3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetReflectionBounces.cs",
+            "_guid": "707b106d591dd054f8b29b46c202c4d8",
+            "_checkSum": "4444057518f8b0c48b75bbe9aa439274"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetReflectionIntensity.cs",
+            "_guid": "55be245de36bda14182bfd4d0f75c36a",
+            "_checkSum": "149fcc12e717fdaadd299084720e353c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetSkybox.cs",
+            "_guid": "d42760797caca66409e212090b71a9c4",
+            "_checkSum": "a6673fde9827bb136007537e839e3399"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetSubtractiveShadowColor.cs",
+            "_guid": "262b0610a271c9e43b2b514c3ace73e3",
+            "_checkSum": "8ae31d61f708002d7af125021f410c21"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsGetSun.cs",
+            "_guid": "0e1bfa7c9e78a3f49a7de169a84e6107",
+            "_checkSum": "50f2b2edfb9b6edb5b796c9364236ab7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetAmbientEquatorColor.cs",
+            "_guid": "85c9dfc5acc40b84f852f99e160208c6",
+            "_checkSum": "f75ced49bf3702dc87b4461e47d6f7a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetAmbientGroundColor.cs",
+            "_guid": "331873126faf0a44ca5887f1bf100036",
+            "_checkSum": "49ddfd343a1d6f04a3325aa9dff05c81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetAmbientIntensity.cs",
+            "_guid": "1d3a989292929254189faec70611166f",
+            "_checkSum": "7423ea41a82d7e81a69c8fd572391f6d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetAmbientLight.cs",
+            "_guid": "c0c333574eeb3c64cab726570976e1b2",
+            "_checkSum": "85b1de9b1055a36cf6be484ddaec444f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetAmbientMode.cs",
+            "_guid": "af3c229a7b09ead458bfd4b5f7a925d7",
+            "_checkSum": "a8d8427944bb05bcdf3df1b5f8ba2ed7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetAmbientProbe.cs",
+            "_guid": "49461db3dffca024e9eb5d01462afa12",
+            "_checkSum": "1f6a81c576620fa10be2d3eea3bccf1c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetAmbientSkyColor.cs",
+            "_guid": "ada2bf5cdb1e2584cb924a62e4742219",
+            "_checkSum": "2ddcca3a060f240c82107e337f344f21"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetCustomReflectionTexture.cs",
+            "_guid": "59921a5cbe51b4344a53973bec620d25",
+            "_checkSum": "16b1c2e7755736e7d82f2cff2826d494"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetDefaultReflectionMode.cs",
+            "_guid": "62fccf12b9ef9a34284738077d3830dd",
+            "_checkSum": "f83c7de2853b1fb4382963f038b8ac16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetDefaultReflectionResolution.cs",
+            "_guid": "774c1e6a6cb6cfc45a5d2f658608b1d0",
+            "_checkSum": "0469ab3421daf207bbc7960bf1bd1fd6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFlareFadeSpeed.cs",
+            "_guid": "51a9d8673d75cf6449324d170d562c0b",
+            "_checkSum": "af86e36005f12993363e3ae7f46fa3f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFlareStrength.cs",
+            "_guid": "1ebd933011987a64c8514ee68234bf47",
+            "_checkSum": "360ce568af3d1030d09015e1450933c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFog.cs",
+            "_guid": "4bac2aae1474c064db947fdaae34403c",
+            "_checkSum": "a4227d8bbd71680f08f675a2cb80ac6e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFogColor.cs",
+            "_guid": "df674fd4f8c32f24aaabb5f8b5d0f42c",
+            "_checkSum": "e708c25c793a39ac37bb3720c5d17a6c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFogDensity.cs",
+            "_guid": "2edac253594ce714e8412b45b71ce74b",
+            "_checkSum": "6185ddfe3f66a24a0d32f806ee3cade5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFogEnabled.cs",
+            "_guid": "c32e2e3b778340f7af7afc0e40262bfe",
+            "_checkSum": "98c6f7f0ddc58278e906ead8d0dc1b1e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFogEndDistance.cs",
+            "_guid": "da8d75862420baa4e82ef087c37390d5",
+            "_checkSum": "332bfe4eaf6319f22e2b53c7062684d5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFogMode.cs",
+            "_guid": "4083d18909db0014f9cfc91b5b62e6bb",
+            "_checkSum": "1a71ddb2a94e7c4e984f58fecd120a99"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetFogStartDistance.cs",
+            "_guid": "22bc705656fbf1b4383788f4416e6d3f",
+            "_checkSum": "8f4e693dc8624d275ac9639dba6776ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetHaloStrength.cs",
+            "_guid": "43ecd4c318913704d9af285cc7a90673",
+            "_checkSum": "21b8c4af7b73f3c09c5870e441c37bba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetReflectionBounces.cs",
+            "_guid": "e2eaa3b092bbe164d9cd0cb578b92364",
+            "_checkSum": "ecb6b9d07deb376a3682cd99389b8563"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetReflectionIntensity.cs",
+            "_guid": "b2130a34595dbb549b63c7ebb4d0f3f4",
+            "_checkSum": "ccb8b0f30baf515b8e1b08a24176744e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetSkybox.cs",
+            "_guid": "95f71c01d3c095f479c605b017eee905",
+            "_checkSum": "73753852efa8ba3e9e06ef95a722bf53"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetSubtractiveShadowColor.cs",
+            "_guid": "c24170005916bd649b1e681c3a2c36b3",
+            "_checkSum": "a378a04ad595664a6502e6ccd6b8f780"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderSettings/RenderSettingsSetSun.cs",
+            "_guid": "846ace074db09dd4e880e5c88fc63080",
+            "_checkSum": "d42cc1cb3946afff83b9963473df2330"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479401566558
+}

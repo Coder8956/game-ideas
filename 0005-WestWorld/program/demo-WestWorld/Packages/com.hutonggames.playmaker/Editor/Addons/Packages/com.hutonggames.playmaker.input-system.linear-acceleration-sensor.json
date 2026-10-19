@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.linear-acceleration-sensor",
+    "_displayName": "LinearAccelerationSensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LinearAccelerationSensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System LinearAccelerationSensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.LinearAccelerationSensor.html",
+    "_icon": "InputSystem/LinearAccelerationSensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LinearAccelerationSensor/Actions/LinearAccelerationSensorGetAcceleration.cs",
+            "_guid": "35d9288969f9402ebb0a857ce47e4431",
+            "_checkSum": "e57f9daeadf232cecbc01f22edf512ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LinearAccelerationSensor/Constants/LinearAccelerationSensorCurrentValue.cs",
+            "_guid": "7143d7bbb1854459af9e3b50ecd018d7",
+            "_checkSum": "fc2d51f16ee8d72d59ea8c191fdafb2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LinearAccelerationSensor/Variables/LinearAccelerationSensor.cs",
+            "_guid": "9c7f5a22294743b3b8b01564468a417c",
+            "_checkSum": "bb5ec17af5b5963c56b965d41cc72bee"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479388832565
+}

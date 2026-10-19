@@ -1,0 +1,167 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.texture",
+    "_displayName": "Texture",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Control Texture parameters at runtime.",
+    "_description": "Most of the time these parameters are set at edit time, but you can use these actions to control the setup at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Texture.html",
+    "_icon": "Rendering/Texture",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetAnisoLevel.cs",
+            "_guid": "d1dde9f4f8a052e438a8bb3c4b936dcc",
+            "_checkSum": "7f4670f8b5bd61ffe3a96e699cbd51c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetDimension.cs",
+            "_guid": "aeeef91dc64536247a722d4f7abc265d",
+            "_checkSum": "c956753bf67ed49536a70f667038702c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetFilterMode.cs",
+            "_guid": "0a0d22dfbd7f99844a9c5b7eb8146abf",
+            "_checkSum": "34cdf7aeba71d8fbdcd2167dc809bc9d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetGenerateAllMips.cs",
+            "_guid": "9fd9c154b04407141aac3b2418700523",
+            "_checkSum": "5e736f510d20c1527668bc21b33fcafb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetGraphicsFormat.cs",
+            "_guid": "6551a0287cf992d4fac585cfaa9580ec",
+            "_checkSum": "12bf5d059072206033c7dce7602f59e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetHeight.cs",
+            "_guid": "a088ba2167f755b4cba817e621369dae",
+            "_checkSum": "d2c27c8b2e106544c96d683fde8ef7b1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetIsDataSRGB.cs",
+            "_guid": "baaf3e26d5025924aa83f91367518210",
+            "_checkSum": "c2c65f17a419053ec935a1cd2083e8c3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetIsReadable.cs",
+            "_guid": "049ebe453cc87d24999e27114949b842",
+            "_checkSum": "83c33725857473eb32a10a25410fd087"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetMipMapBias.cs",
+            "_guid": "795c9b2c82077004c96f6a99aa78a1b9",
+            "_checkSum": "48a8d5cbd6dace40eed4dc3a4453f012"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetMipmapCount.cs",
+            "_guid": "15af292527bb18f44a99b2bb70c780fc",
+            "_checkSum": "e5b94c7e677096318138e421b4a7f584"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetTexelSize.cs",
+            "_guid": "bbcaadcb4832bec45a9cfa192de9c4f6",
+            "_checkSum": "b5956ee7646e443e18b473a47c9a359d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetWidth.cs",
+            "_guid": "6426b45ca58dfc948b70904a3c81ce8e",
+            "_checkSum": "5da0e0451651a372753553299b2730fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetWrapMode.cs",
+            "_guid": "e0fcb2ec498f5284291bc116f8fe6b1c",
+            "_checkSum": "581afd00eebd0cb02069a27d2aae1f1c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetWrapModeU.cs",
+            "_guid": "7d964a6b33ed57749a9aa30069905ec0",
+            "_checkSum": "341a25015bd2841ad8d0a23ca65eedea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetWrapModeV.cs",
+            "_guid": "ad17d83167a46f14bab5a7933ba11c8f",
+            "_checkSum": "947dca12a7ed88058cc0eabc18a484d8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureGetWrapModeW.cs",
+            "_guid": "06b76874c71b88e46aad1abbe5608465",
+            "_checkSum": "c0c81c8f044c6440d9ce56dc0ba5dac7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetAnisoLevel.cs",
+            "_guid": "7fd10f9e1b403ea4e943be4182bb5aae",
+            "_checkSum": "2432c436c649a79575f86103f0215f2d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetAnisotropicFiltering.cs",
+            "_guid": "a007dc5cf9baa244ab061f25ef7728f7",
+            "_checkSum": "f888b083e5ec233f91362b680c43f5a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetDimension.cs",
+            "_guid": "c4ff9003d76025c4a827f7be3956e697",
+            "_checkSum": "0651ede349055402c3d82aa8afac13c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetFilterMode.cs",
+            "_guid": "edff1e1c478290741a68642298a2aaf7",
+            "_checkSum": "df916bb6ccf6e3ba1e35393d9fdfa827"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetHeight.cs",
+            "_guid": "a9b416c9592095942a8c692171b76e64",
+            "_checkSum": "2c044427ce074e1936cc8a08e969a033"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetMipMapBias.cs",
+            "_guid": "4bacd66383e362642ac6851c6f81bb6a",
+            "_checkSum": "3bd176bfa95c3c8316ce7f0f8d402bb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetWidth.cs",
+            "_guid": "b70f5bf33dac5ca408daea5256e92d62",
+            "_checkSum": "77c8fc1303f2c8a461964cb341957862"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetWrapMode.cs",
+            "_guid": "c00270c88b923ff458f5c225304e2583",
+            "_checkSum": "9e7523cf75b220d2094cd1541f059598"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetWrapModeU.cs",
+            "_guid": "126c4e889070c984184b021fce0226ae",
+            "_checkSum": "4203578d5ace287e2978d5173f4a7983"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetWrapModeV.cs",
+            "_guid": "0ba444f86ee36924eb793c80b7b52a3c",
+            "_checkSum": "f083804ea59bb2168340bfcb82657d8f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/TextureSetWrapModeW.cs",
+            "_guid": "5c57db548e77d0a408e09d00f61242c9",
+            "_checkSum": "12c835097d755ffa48d3e2b188bb624d"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479382279919
+}

@@ -1,0 +1,98 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animation-curve",
+    "_displayName": "Animation Curve",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to change animation curve settings at runtime.",
+    "_description": "In most cases animation curves setup at edit time. These actions allow you to get or set animation curve properties at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AnimationCurve.html",
+    "_icon": "Animation/AnimationCurve",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveAddKey.cs",
+            "_guid": "54c32f886c1ceb649b2b5ec4321079e4",
+            "_checkSum": "e80d8f0ec152b40682540acb7d2ad2db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveClearKeys.cs",
+            "_guid": "9c82674fbf6e0384a8fadedafa18e3f3",
+            "_checkSum": "fb5b2054e3f82a0660ec33b2ac323ad8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveConstant.cs",
+            "_guid": "49d3743ab71dbed4d9f43bdb39cebd43",
+            "_checkSum": "9ab3c083fe4f48eb3886ea4545223fd3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveCopyFrom.cs",
+            "_guid": "cde9120a07c6aba4192905e2c36a1ec0",
+            "_checkSum": "050616e5d0c1080e2362c43285373d35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveGetKeys.cs",
+            "_guid": "ea5641337629ec9429b4edeb741218f0",
+            "_checkSum": "599f7eb920b1567e6a6bffc78dc074a7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveGetLength.cs",
+            "_guid": "410dc37ebe9ddb2459f14725ecfb522c",
+            "_checkSum": "c3aa676873c879aa2e83144936c9a64b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveGetPostWrapMode.cs",
+            "_guid": "22e54355233b26d42b7969eb26dd1ad3",
+            "_checkSum": "a05107202758cd9e8fd8ec92a6c6ef90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveGetPreWrapMode.cs",
+            "_guid": "96a3724bc2c0bb54ead3f5f925d05986",
+            "_checkSum": "8601731308ff5bc7176f431039025c28"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveRemoveKey.cs",
+            "_guid": "6332b1801921076459ce433077d42e4a",
+            "_checkSum": "1f4c75c15cfef890c06260ea543ca53f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveSetKeys.cs",
+            "_guid": "1e457aeee3e31444996771a819b70a0b",
+            "_checkSum": "cc94993170d444709a8e1579e70261a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveSetPostWrapMode.cs",
+            "_guid": "84e7553b4adddb44f8e1b21e7ca9aa2c",
+            "_checkSum": "fec370be22ff8ddb6447cdbb19f79127"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveSetPreWrapMode.cs",
+            "_guid": "cb9478c65d7179840b8b0020346c2b46",
+            "_checkSum": "8de56a29dbe53c0c271a36fbbb5719c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/AnimationCurve/Advanced/AnimationCurveSmoothTangents.cs",
+            "_guid": "5dca7be89ffb422448388e46af221532",
+            "_checkSum": "10c9670fbfb871454f336162f3725619"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479361740497
+}

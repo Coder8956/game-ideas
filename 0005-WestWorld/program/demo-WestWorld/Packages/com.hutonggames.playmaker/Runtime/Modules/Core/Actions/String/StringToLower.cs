@@ -1,0 +1,33 @@
+﻿
+using JetBrains.Annotations;
+using UnityEngine;
+
+
+namespace HutongGames.PlayMaker.Actions
+{
+	
+	
+	[System.Serializable]
+	[PublicAPI]
+	[ActionCategory(Category.String)]
+	[ActionDescription("Returns a copy of this string converted to lowercase. ")]
+	[HelpURL("https://learn.microsoft.com/en-us/dotnet/api/system.string.tolower")]
+	public sealed class StringToLower : BaseAction
+	{
+		
+		[Tooltip("The String.")]
+		[SerializeField]
+		private StringRef _string;
+		
+		[Tooltip("Store the result in String variable.")]
+		[SerializeField]
+		[WriteOnly]
+		private StringRef _result;
+		
+		public override bool CanExecute() => CheckParameters(_string, _result);
+
+		public override void Execute() => _result.Value = _string.Value.ToLower();
+
+		public override string GetSummary() => "To Lower {_string} -> {_result}";
+	}
+}

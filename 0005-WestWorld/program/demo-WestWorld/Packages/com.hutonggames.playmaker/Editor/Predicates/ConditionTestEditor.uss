@@ -1,0 +1,121 @@
+
+.hutong-condition-test-editor {
+    /*wide margin-left: 16px;*/
+    margin-right: 3px;
+}
+
+.hutong-condition-test-editor__predicates-list-view {
+    /*margin-left: 4px;*/
+    margin-bottom: 4px;
+}
+
+.hutong-condition-test-editor__predicates-list-view .unity-list-view__empty-label {
+    opacity: 0.3;
+}
+
+.hutong-condition-test-editor__predicates-list-view .unity-list-view__reorderable-handle {
+    padding: 0;
+    justify-content: center;
+}
+
+.hutong-condition-test-editor__predicates-list-view .unity-list-view__reorderable-item {
+    border-bottom-color: var(--unity-colors-inspector_titlebar-border_accent);
+    border-bottom-width: 1px;
+}
+
+.hutong-condition-test-editor__test-row {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    padding-bottom: 4px;
+    margin-top: 8px;
+    border-bottom-color: var(--unity-colors-inspector_titlebar-border_accent);
+    border-bottom-width: 1px;
+}
+
+.hutong-condition-test-editor__test-row > DropdownField > Label {
+    display: none;
+}
+
+.hutong-condition-test-editor__empty-hint {
+    margin-top: 4px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+.hutong-condition-test-editor__test-label {
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+.hutong-condition-test-editor__pass-condition-field {
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 40px;
+    max-width: 50px;
+    padding-right: 2px;
+    margin-right: 0;
+}
+
+.hutong-condition-test-editor__test-field {
+    margin-left: 0;
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 100px;
+    max-width: 170px;
+}
+
+.hutong-condition-test-editor__test-field  PopupTextElement {
+    text-overflow: ellipsis;
+    -unity-text-overflow-position: start;
+}
+
+.hutong-condition-test-editor__add-button {
+    background-image: var(--hutong-editor-add-icon);
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    margin-right: 3px;
+}
+
+.hutong-predicate-item {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.hutong-predicate-item__property-field {
+    flex-grow: 1;
+}
+
+.hutong-predicate-item__remove-button {
+    background-image: var(--hutong-editor-remove-icon);
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    margin-right: -2px;
+}
+
+.hutong-predicate-drawer {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
+}
+
+.hutong-predicate-drawer__condition {
+    width: 150px;
+    flex-shrink: 1;
+}
+
+.hutong-predicate-drawer__parameter {
+    margin-left: 4px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.hutong-predicate-drawer__parameter .hutong-ref-dropdown__label {
+    display: none;
+}

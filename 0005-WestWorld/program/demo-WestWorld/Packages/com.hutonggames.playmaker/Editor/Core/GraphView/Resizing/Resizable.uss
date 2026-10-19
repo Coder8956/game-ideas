@@ -1,0 +1,84 @@
+.hutong-resizable-element
+{
+    position:absolute;
+    top: -4px;
+    bottom: -4px;
+    right: -4px;
+    left: -4px;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.hutong-resizable-element #right
+{
+    width: 10px;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.hutong-resizable-element #left
+{
+    width: 10px;
+    flex-direction: column;
+    align-items: stretch;
+}
+.hutong-resizable-element #middle
+{
+    flex:1 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.hutong-resizable-element #left #top-left-resize
+{
+    height: 10px;
+    cursor: resize-up-left;
+}
+
+.hutong-resizable-element #left #left-resize
+{
+    flex:1 0 auto;
+    cursor: resize-horizontal;
+}
+
+.hutong-resizable-element #left #bottom-left-resize
+{
+    height: 10px;
+    cursor: resize-up-right;
+}
+
+.hutong-resizable-element #middle #top-resize
+{
+    height: 10px;
+    cursor: resize-vertical;
+}
+
+.hutong-resizable-element #middle #middle-center
+{
+    flex:1 0 auto;
+}
+
+.hutong-resizable-element #middle #bottom-resize
+{
+    height: 10px;
+    cursor: resize-vertical;
+}
+
+.hutong-resizable-element #right #top-right-resize
+{
+    height: 10px;
+    cursor: resize-up-right;
+}
+
+.hutong-resizable-element #right #right-resize
+{
+    flex:1 0 auto;
+    cursor: resize-horizontal;
+}
+
+.hutong-resizable-element #right #bottom-right-resize
+{
+    height: 10px;
+    cursor: resize-up-left;
+}

@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.pressure-sensor",
+    "_displayName": "PressureSensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/PressureSensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System PressureSensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.PressureSensor.html",
+    "_icon": "InputSystem/PressureSensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/PressureSensor/Actions/PressureSensorGetAtmosphericPressure.cs",
+            "_guid": "3cc01f32a0644c209e5a13bf48468439",
+            "_checkSum": "404ccb13ae10e7cb7d761e707e8e9832"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/PressureSensor/Constants/PressureSensorCurrentValue.cs",
+            "_guid": "ff5e0cac0e7c440a86785409d560e57f",
+            "_checkSum": "dd2c74158970e69df303b7753c312617"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/PressureSensor/Variables/PressureSensor.cs",
+            "_guid": "f1fdddde0a2547ab8a7573460c59f7cb",
+            "_checkSum": "9b19078b4dcbe2253313bda1da236b5a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479204160656
+}

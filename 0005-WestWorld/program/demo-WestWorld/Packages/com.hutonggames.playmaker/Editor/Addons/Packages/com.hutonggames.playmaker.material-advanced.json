@@ -1,0 +1,318 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.material-advanced",
+    "_displayName": "Material Advanced",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Advanced Material actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Material.html",
+    "_icon": "Rendering/Material",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialComputeCRC.cs",
+            "_guid": "a4a9779b58ba9a04db10049d65509b04",
+            "_checkSum": "6100a47d189a77c1054f23b4a260b5d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialCopyMatchingPropertiesFromMaterial.cs",
+            "_guid": "4ed8af8fec8ab314bbf0c42747ee1ed8",
+            "_checkSum": "496ecfab84cd9b452c86f355eb7e839b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialCopyPropertiesFromMaterial.cs",
+            "_guid": "70e914d579b945542a9cbdbc16e6c619",
+            "_checkSum": "e800c96af2e917ef960c127187928834"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialDisableKeyword.cs",
+            "_guid": "456eba04ace4d2e4a8867f6625114297",
+            "_checkSum": "3c4209c7a7b97de35e5bf64245ea7290"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialEnableKeyword.cs",
+            "_guid": "7af56491652507448a818c1822248e2f",
+            "_checkSum": "343de1294be342f76d0b2973c695dfa2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialFindPass.cs",
+            "_guid": "e9015516ef39d6a4ab7c4b4a44c4332d",
+            "_checkSum": "b07d032e09f7fb47234da4a955ecee6b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetColor.cs",
+            "_guid": "352ee16f069fba94eabb315796c38c11",
+            "_checkSum": "b1c7bfb7c938b1963e5756086dfc0ea5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetColorArray.cs",
+            "_guid": "c34a5e3da74fd8a45940ce3075c0f115",
+            "_checkSum": "d8ab3009a2667c8a160f5d5361076cd8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetColorArray__NonAlloc.cs",
+            "_guid": "3515802e30fb0f0409b9f9619ccd579a",
+            "_checkSum": "4eb86a41781ea72fa67ac09f7097f2d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetDoubleSidedGI.cs",
+            "_guid": "b0d1a308b8f027c46ae9516a73562f74",
+            "_checkSum": "8f0e4642b07a08cd9d95e2d58d7798c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetEnableInstancing.cs",
+            "_guid": "710f2f7833f96a141be3f28c7c0aab37",
+            "_checkSum": "7e82bce8279c72f337e764022f66963b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetFloat.cs",
+            "_guid": "a5b5ae923e6a33849ac5d4c3a5802e06",
+            "_checkSum": "ab6142df2cd2874fab1c524b261bb344"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetFloatArray.cs",
+            "_guid": "de00bb1a507410a4cab84b66148b24b2",
+            "_checkSum": "38094f611c667c534b61a44d8ba4d12b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetFloatArray__NonAlloc.cs",
+            "_guid": "da97949409d7caf4b88def8596f77f01",
+            "_checkSum": "02f1f247732efd6644cd5504df795f6a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetGlobalIlluminationFlags.cs",
+            "_guid": "f8a9a5551c5e972439dfd53bfa012a09",
+            "_checkSum": "b8f864c34da05ce0783d0fc03d7c89c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetInteger.cs",
+            "_guid": "581dd4be394afa542a11b16b6622043d",
+            "_checkSum": "244fec4c8943019bcae8c9e80153e1ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetMatrix.cs",
+            "_guid": "943a673a025bbeb4fa02e2414b8f84cd",
+            "_checkSum": "57163bcb0a36ec88d2e5af04e136bc03"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetMatrixArray.cs",
+            "_guid": "25b58251d416b6c4e8a23b8338938124",
+            "_checkSum": "2819595df8ef081c2e056bfce1faf9d3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetMatrixArray__NonAlloc.cs",
+            "_guid": "e1f3550be60263446b672882c7f75e9a",
+            "_checkSum": "e374538110c3bb30bdfef673536e5e4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetPassCount.cs",
+            "_guid": "4d7d7032a90174c40addc3151212e6a6",
+            "_checkSum": "668fc0daf4b3ad658fd8a3a6fab12e53"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetPassName.cs",
+            "_guid": "9d151604f00494c4ebb4b98823152330",
+            "_checkSum": "feb9be22002ee02a2e7afac2ef7c66d7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetPropertyNames.cs",
+            "_guid": "6162c51f323ae5b4d96a07a2d0e56c19",
+            "_checkSum": "a15dce0bb8eb0555dfc29dcf2391c611"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetRenderQueue.cs",
+            "_guid": "666bd40e582a51a43a4bfa26acd0307d",
+            "_checkSum": "8b3b559065c7e195ecf03e394e1b86dd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetShaderKeywords.cs",
+            "_guid": "662e3ea7576a770429c91681c1e6a224",
+            "_checkSum": "c747f87c395b589b61e61dc01d31903e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetShaderPassEnabled.cs",
+            "_guid": "39a2ebc1ef0a1da428bdfe45d53b6e85",
+            "_checkSum": "b4c83f59a74915cb5645394e8d92b0ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetTag.cs",
+            "_guid": "0140d7ea365bb9943875e6b2fa2018c3",
+            "_checkSum": "486831cb5e4f9c5ccbcf8e37cd29b105"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetTagWithDefault.cs",
+            "_guid": "aa145f9984b28b04391a1705e94968f5",
+            "_checkSum": "0e169de7389272221431ebae98456235"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetTexturePropertyNameIDs.cs",
+            "_guid": "2e1b44e7ba96b8a4dbbe2cb2dda6eed6",
+            "_checkSum": "dc9c528820a19314076fb62f54848c48"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetTexturePropertyNameIDs__NonAlloc.cs",
+            "_guid": "24678c1ecfaa15d4987a4c90a97fd608",
+            "_checkSum": "e7ec61ecc4731db3e005ee610a08880c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetTexturePropertyNames.cs",
+            "_guid": "25ac7d2dce8a12b4ca895b12a93139db",
+            "_checkSum": "162eeeb78f837021c2bed1be0b079d30"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetTexturePropertyNames__NonAlloc.cs",
+            "_guid": "a57314f041f1578448955f2de3a1166a",
+            "_checkSum": "5aa1d73cd1d45d64d3715b8683a9b814"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetVector.cs",
+            "_guid": "57aed8e94e3108145b62f7d427d5ccd1",
+            "_checkSum": "3c162a675d9b5fb10c3dd42e6844b1a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetVectorArray.cs",
+            "_guid": "d7645d0abe9fb6b41a8bd024dd0077b1",
+            "_checkSum": "fade0e7770760cddb6765a39004f009c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialGetVectorArray__NonAlloc.cs",
+            "_guid": "c90a1dedc95c33f468034fb1195bb45b",
+            "_checkSum": "17bca0a42f5521b0b60070868ad1eceb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasBuffer.cs",
+            "_guid": "1c02ef5642a5ea043828afed17602d6d",
+            "_checkSum": "1dd62f80afa99ef8fa702a4a4b26a096"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasColor.cs",
+            "_guid": "2bd01a437225cd44283dc4db9e02eeca",
+            "_checkSum": "48ee48ce43e159997bb5320e75cdc4ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasConstantBuffer.cs",
+            "_guid": "94ba5ae726a3d9442baa8818f01146e2",
+            "_checkSum": "a8a88b1cf785da0815facf5102bdd00d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasFloat.cs",
+            "_guid": "2300b9d6a3bf4ab49ac2312d4c20d5ae",
+            "_checkSum": "7185b65f319f9512e765371d56c80e67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasInteger.cs",
+            "_guid": "4449f54db45a98048adfd6a80b8b7207",
+            "_checkSum": "b5ff801c929d0ef9d97e9a0b7aaefe0a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasMatrix.cs",
+            "_guid": "2e470c83f8309e045a6bdb76d26c4703",
+            "_checkSum": "fa2db822387de7d910d16186be514101"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasProperty.cs",
+            "_guid": "da0cad422b6168243a3f61cb97bfc756",
+            "_checkSum": "8eb22a01a42f41a263dee5e8f411bbc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasTexture.cs",
+            "_guid": "8fcfcffbdcbb9e749b8df14d70292257",
+            "_checkSum": "89bb367a037809a7548c6251ebc5162b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialHasVector.cs",
+            "_guid": "808eeca8ae9944c49bf243a7b31f5ce1",
+            "_checkSum": "1476730275e4134f8fe13e00e620d20b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialIsKeywordEnabled.cs",
+            "_guid": "f0e6ff7eebad01243a0c6ff484282fcf",
+            "_checkSum": "e9485177a809bd7dcaceed4edb93df97"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetColorArray.cs",
+            "_guid": "60594aeb2a5931d43b604404fc842d96",
+            "_checkSum": "39212187614a361f859fc0687d8debf8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetDoubleSidedGI.cs",
+            "_guid": "171a134bc3913fa45b04d2654c2203d1",
+            "_checkSum": "629f5e4fd880fe178eb032bdcb8dd3ad"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetEnableInstancing.cs",
+            "_guid": "b5a2f2c280d8fd74c88fd6d9625f39f7",
+            "_checkSum": "8dedeaf0080c9304684824123cb3f17a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetFloatArray.cs",
+            "_guid": "9279152847a947643aaea6ff61179a2d",
+            "_checkSum": "9b71756b0c41b754fa40a08c7e01bd78"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetGlobalIlluminationFlags.cs",
+            "_guid": "daa75bf1b80094b46b027d40c2d7a6df",
+            "_checkSum": "c95a67502aaec6abee89654359a2b92b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetMatrix.cs",
+            "_guid": "f0a599ec7d462f94bac6a7482bc0f208",
+            "_checkSum": "4eb8b9ccf70f03825386c657302f5e8a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetMatrixArray.cs",
+            "_guid": "8e14b4bd5966d3d4f9dcae5e283d99ed",
+            "_checkSum": "a716c8e264d19a0778cfa92a64771075"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetOverrideTag.cs",
+            "_guid": "164074f7d0a36384c999008f1f8aed8d",
+            "_checkSum": "5d3b966a1bf2313d47584b8892574b93"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetPass.cs",
+            "_guid": "e465290afa555ee4c83108a2ed4261cf",
+            "_checkSum": "cd1dafb5041935e6d0d169964b04c144"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetRenderQueue.cs",
+            "_guid": "591b0fb1dacdc7046923e08a58242b46",
+            "_checkSum": "38e595fee912278b27df5821f21df85f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetShaderKeywords.cs",
+            "_guid": "acfe67f1b0bb7904fbd061998f1d3837",
+            "_checkSum": "7993921a37619eb12c3b071553cd9cfc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetShaderPassEnabled.cs",
+            "_guid": "8de85b28707e4ec4ba1d34e0cdf62440",
+            "_checkSum": "005afdaa83fb22fcdb57d838d3648247"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Material/Advanced/MaterialSetVectorArray.cs",
+            "_guid": "e3383432c75c58047820fc5607d076dd",
+            "_checkSum": "f72d2864da8b1ddf0b65e14c892618f5"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479364460412
+}

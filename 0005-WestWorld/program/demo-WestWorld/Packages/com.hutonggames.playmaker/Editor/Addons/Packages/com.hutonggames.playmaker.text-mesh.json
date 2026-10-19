@@ -1,0 +1,158 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.text-mesh",
+    "_displayName": "TextMesh",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for the legacy TextMesh system.",
+    "_description": "The TextMesh component generates 3D geometry that displays text strings.\n\nNote: This is a legacy component that has limited functionality.",
+    "_helpUrl": "https://docs.unity3d.com/Manual/class-TextMesh.html",
+    "_icon": "Rendering/TextMesh",
+    "_tags": [
+        "Actions",
+        "Legacy"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetAlignment.cs",
+            "_guid": "ede118318f2a0c542a66ebe3e7fd42ef",
+            "_checkSum": "f052d9b302cac10d73fcb72ba8227319"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetAnchor.cs",
+            "_guid": "08c1a75cee637e8489acec75f062d6fa",
+            "_checkSum": "2f37f44c97d5907500b73d7b9f4195ab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetCharacterSize.cs",
+            "_guid": "5d12755afb79a994e92a890407dd02b5",
+            "_checkSum": "104063876e77fceef86e97d12568abea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetColor.cs",
+            "_guid": "d0e0250794137e445bb40bf9968bf07b",
+            "_checkSum": "1ecadb873d615dfb497621b844a3c118"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetFont.cs",
+            "_guid": "5464acc7cacffb543bd6845c3b82fd9e",
+            "_checkSum": "f6392f165a85180d29326b08eec11fcd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetFontSize.cs",
+            "_guid": "8900cb55b8d755d4a8fc5f218fc0f460",
+            "_checkSum": "62a4552056208fb409758d33a1a7416d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetFontStyle.cs",
+            "_guid": "501dcef3022400d48b3d0d6ac50ca77d",
+            "_checkSum": "75563368bd8a08c8bd40841057b3c418"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetLineSpacing.cs",
+            "_guid": "58be9548c3a4f194db47ae979ee2f2a3",
+            "_checkSum": "5a0b88c3085a20755d2f32801ffdf2a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetOffsetZ.cs",
+            "_guid": "622b4a2c1d3d87f45a7b10e908f631c5",
+            "_checkSum": "d78023b79d457f4432e4d2597bd4d7fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetRichText.cs",
+            "_guid": "f7ef6ce3e930acc43932e7336676e4df",
+            "_checkSum": "17ec843f41598dd9dddcf56b4510463f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetTabSize.cs",
+            "_guid": "a177ef499e021a14982a97fcd98acb0b",
+            "_checkSum": "881ab9db3e275ca1a737ea4ba38f2b03"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshGetText.cs",
+            "_guid": "f1023a188e37a004c96b969136e00483",
+            "_checkSum": "b139b12580924ae1ed4fac2d0aaae8ab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetAlignment.cs",
+            "_guid": "9e0d610e46c90fe4296f2bf0acc1fc4a",
+            "_checkSum": "38c82c925a2da3efd58d72526e41ca73"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetAnchor.cs",
+            "_guid": "cefd261b99be24f4fb0af1518a1d5d29",
+            "_checkSum": "e01dd6eacc233d162ac63e6f5eb1d093"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetCharacterSize.cs",
+            "_guid": "29ddf723d9bf084459617fc515e0f8cb",
+            "_checkSum": "146f7a74ea4a3947f6098de451e1b3ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetColor.cs",
+            "_guid": "a48e8c95778bb98418678f4ce292f84f",
+            "_checkSum": "04a4360f4d27cd47fe7a31c7a0cceabc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetFont.cs",
+            "_guid": "5adead84ff68f1345bcdd93c3911413d",
+            "_checkSum": "9b01420e0343f182faabd71a99659271"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetFontSize.cs",
+            "_guid": "5b6983a4435f74c41bc24e94090224de",
+            "_checkSum": "438557ce34fa9c05c3d6a198e9f4ed78"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetFontStyle.cs",
+            "_guid": "0577e1cd48c028f419c1e0d14c2710ee",
+            "_checkSum": "b4aa3bdb2363e4b88ddcaeffc0dffb7e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetLineSpacing.cs",
+            "_guid": "e50681a4af9e7f043ad7bedfd9df53ed",
+            "_checkSum": "4f99d6eee10a08f733511f3d47c69c22"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetOffsetZ.cs",
+            "_guid": "d06403fd0708a554d85348e68b42912b",
+            "_checkSum": "05edfad7388ff280383147eb81a5f9d3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetRichText.cs",
+            "_guid": "a13996327a89f16419b2d47c1174dff0",
+            "_checkSum": "5086698cd41c79f1f88a6ba128711080"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetTabSize.cs",
+            "_guid": "6f959e14f639dfe4a982e94cecf44ff8",
+            "_checkSum": "1fd15b8e8758b968d998e29bd22b2d1a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/TextMeshSetText.cs",
+            "_guid": "dbe9a7af7d1547242ad85fcdb792fcea",
+            "_checkSum": "d541d653f05e768356a9681b47f36738"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextRendering/Actions/TextMesh/Variables/TextMesh.cs",
+            "_guid": "2e9587a66f169194b87300884fbbd56e",
+            "_checkSum": "c77fc0de2a05c920e2514dcbb016c1f1"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479485404130
+}

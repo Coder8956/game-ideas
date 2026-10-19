@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Install/InstallWindow/InstallWindow.uss?fileID=7433441132597879392&amp;guid=cb3cf9e66d3c04c4e80794d660087734&amp;type=3#InstallWindow" />
+    <ui:VisualElement name="container" class="hutong-install-window">
+        <ui:VisualElement name="header" class="hutong-install-window-header">
+            <ui:VisualElement name="logo" class="hutong-install-window__logo" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content" class="hutong-install-window__content">
+            <ui:Label tabindex="-1" parse-escape-sequences="true" name="current-version" class="hutong-install-window__current-info" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" name="install-version" class="hutong-install-window__install-info" />
+            <ui:Button tabindex="-1" text="Install PlayMaker" parse-escape-sequences="true" name="install" class="hutong-install-window__button" />
+            <ui:Button tabindex="-1" text="Online Help" parse-escape-sequences="true" name="help" class="hutong-install-window__button" />
+            <ui:HelpBox name="error" class="hutong-install-window__error" message-type="Error"/>
+            <ui:HelpBox name="notes" class="hutong-install-window__notes" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

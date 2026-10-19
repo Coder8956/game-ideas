@@ -1,0 +1,68 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.mesh-skinned",
+    "_displayName": "Mesh (Skinned)",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for working with Skinned Meshes.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Documentation/ScriptReference/Mesh.html",
+    "_icon": "Rendering/Mesh",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned/MeshGetBindposeCount.cs",
+            "_guid": "3aed0211f1b1a9f4fb80f2123f69aced",
+            "_checkSum": "69571a08127e9c2041a71838afe7c5eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned/MeshGetBindposes.cs",
+            "_guid": "ba072eb58d34b6d468c7444c0a92c93e",
+            "_checkSum": "b7d5516de7cf1ffd0559c99f41dd8d89"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned/MeshGetBoneWeights.cs",
+            "_guid": "d194aec422780264ab4a3610f9d9efb3",
+            "_checkSum": "9be1fb5e695e4c7981deba3518f80131"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned/MeshGetSkinWeightBufferLayout.cs",
+            "_guid": "9ba229b29b92c054f8ec97f98617cfe7",
+            "_checkSum": "813b5c66a374a103e4744fc7a9fb6cf3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned/MeshSetBindposes.cs",
+            "_guid": "323bb005ab2b14048b50486df613fd98",
+            "_checkSum": "5bae9463b1caa4213279dd3202df7d94"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned/MeshSetBoneWeights.cs",
+            "_guid": "25dd647a67bbee049a71a31b43677a2e",
+            "_checkSum": "0125375c4179bfb2920a72e56ceadc58"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Mesh/Skinned/Variables/BoneWeight.cs",
+            "_guid": "ea53c6c25e435984baa92b3d89ebd501",
+            "_checkSum": "99105e28dc41c5283528e0a8413424b9"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479518718487
+}

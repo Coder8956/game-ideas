@@ -1,0 +1,273 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.vehicles",
+    "_displayName": "Vehicles",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for the unity Vehicles module.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html",
+    "_icon": "Physics",
+    "_tags": [
+        "Actions",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Variables/WheelCollider.cs",
+            "_guid": "f52659f1bf3d03344914d7f2b571a3bd",
+            "_checkSum": "7b5039757dcb7ffb6e27edce11df1f59"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Variables/WheelFrictionCurve.cs",
+            "_guid": "cec4559ed9cb77d4c862528198d11a4e",
+            "_checkSum": "c479e8eb5e33b96177a6a113220c8bc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Variables/WheelHit.cs",
+            "_guid": "ea4c0e367115903469a072d7eccb3a6e",
+            "_checkSum": "862216af800aa4350737ad27ac960d5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Variables/WheelJoint2D.cs",
+            "_guid": "0a36a6bd7a311b94c856e2e62e253a8a",
+            "_checkSum": "f5f4ce4ebc0f257dc6e80427eea7860f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderConfigureVehicleSubsteps.cs",
+            "_guid": "4c08b89eca01fc844934f679dc1c6414",
+            "_checkSum": "fc3fb46e9206093e9cbd418d035457b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetBrakeTorque.cs",
+            "_guid": "d40de88da59a9f54a817325b8d55355e",
+            "_checkSum": "68d39175b332c2ba4ad1eb0704f71f1e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetCenter.cs",
+            "_guid": "292f91f05da59da4db0b3bb079bdf583",
+            "_checkSum": "387c6985fe89393db8e3aa414b47be51"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetForceAppPointDistance.cs",
+            "_guid": "693fce99b624c7b4a87d219d637cec88",
+            "_checkSum": "ee2dfff91ca1844999062a6e72ff69ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetForwardFriction.cs",
+            "_guid": "3f31a8a3358f44dba83179eba15362a8",
+            "_checkSum": "f617e5fffe5a5cf2eaa2dff54b51abaa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetGroundHit.cs",
+            "_guid": "aadab06439d14f1c812f729e87d38198",
+            "_checkSum": "42f6d004cb24df5b340e968fab1676c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetIsGrounded.cs",
+            "_guid": "0bcd842ba6773bd4598032caba89621e",
+            "_checkSum": "2f9176a64c6d77250491c5a12a30bb43"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetMass.cs",
+            "_guid": "3bc4cbc0408280142b42dbbf9b17e4ee",
+            "_checkSum": "a8864ae42b8ebb184f6956fe5a272e5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetMotorTorque.cs",
+            "_guid": "25bf5d64e2ab5e64c9a5cb91103e7dee",
+            "_checkSum": "defda508c3d316896ecaa67ea4ebd3f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetRadius.cs",
+            "_guid": "51453939232bc6640a0db864c6efc400",
+            "_checkSum": "81fea661f3a3f7872d5863ad353db74d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetRotationSpeed.cs",
+            "_guid": "8afd943a413087c46975770018bacd47",
+            "_checkSum": "a3416622c91780788a8efe4fba0183de"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetRpm.cs",
+            "_guid": "4b6a4b76c8ef1034e8815b34b8430940",
+            "_checkSum": "c3db6048e8bd27f74a66735d444e8bbb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetSidewaysFriction.cs",
+            "_guid": "36c9cfc549f244dcb2f608bbba138c3a",
+            "_checkSum": "bff480a7de65ebcc7aa1b4e0bf49dbf1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetSprungMass.cs",
+            "_guid": "32f3466983177634aa5f1ae3137eee56",
+            "_checkSum": "f18d8be114c3cb3ab9a63f3b2aa940aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetSteerAngle.cs",
+            "_guid": "735e67dd20220874e92c43987c5cf508",
+            "_checkSum": "26fb3e5753a21c033fad38e1a1cdca4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetSuspensionDistance.cs",
+            "_guid": "04f2518dc8d311d4880b0d6aeee444d2",
+            "_checkSum": "9bdbe480c640fd7bea52bf23549547e7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetSuspensionExpansionLimited.cs",
+            "_guid": "d1504d5bb9b352641ac45775aa2ce88f",
+            "_checkSum": "3436b86a26de852d0cdcc00cffb9a7fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetWheelDampingRate.cs",
+            "_guid": "20c53937525aede4c86d07d42bcaeecc",
+            "_checkSum": "c7f4083a12bef1700e388eeec0f46e55"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderGetWorldPose.cs",
+            "_guid": "3b6312b24ad741478012974a6f704467",
+            "_checkSum": "0d83dfac566c2729fab7fde38bfee0e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderResetSprungMasses.cs",
+            "_guid": "3a6011e94da40ef44ae2694e0c5c8217",
+            "_checkSum": "d69faf98111506e66bfdf77a25a58c13"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetBrakeTorque.cs",
+            "_guid": "d89e4486b67f5174fa538ef3cb444d1d",
+            "_checkSum": "e4b64b92ca495cd03680fbd0f27203f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetCenter.cs",
+            "_guid": "36ade2e89fc1a93458cb3d5d78da19ed",
+            "_checkSum": "e0a3ef4ea376a04332cfc213fd945d42"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetForceAppPointDistance.cs",
+            "_guid": "f177d21dc24d58841be1ad8649c9ef33",
+            "_checkSum": "f67d449cf5bb5f7f1b133c76d219da11"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetForwardFriction.cs",
+            "_guid": "83cd3e70a5a04b36885a1f706b2837c6",
+            "_checkSum": "1d046e8a18a32f016429678f1ae33801"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetMass.cs",
+            "_guid": "e0b23f78bde41b842b3ecb950c3c1b9b",
+            "_checkSum": "91a3da64358b9e08c973c1bd1738a468"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetMotorTorque.cs",
+            "_guid": "a523813912fa29847ab75ba66b34683e",
+            "_checkSum": "cc4bdfad4e86bc656aa42d14d26dbbe6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetRadius.cs",
+            "_guid": "d2a0bb1ff0f28254f940d4a780b5c825",
+            "_checkSum": "1817a4da03f6ac17c2ac2df25b9aca69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetRotationSpeed.cs",
+            "_guid": "498832420be461849b68b2447830dfb5",
+            "_checkSum": "0bd7858681e08dd835b701db5205e7b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetSidewaysFriction.cs",
+            "_guid": "251786378f244ef18aa855f47878889f",
+            "_checkSum": "25106387a0ea42482ac9363c790e75cf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetSprungMass.cs",
+            "_guid": "b124b972b3d67114c8d7cb0a6bbe0026",
+            "_checkSum": "aa3923b039273cf9076081e42fbd9cd9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetSteerAngle.cs",
+            "_guid": "0865c7682c36f90439331b989ba23656",
+            "_checkSum": "a06f87d3ca66f79f95065a8364d3579a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetSuspensionDistance.cs",
+            "_guid": "35736660a90538844850d070c013a3eb",
+            "_checkSum": "0fe7b3207d268a4fcbbd4ac585ed6be4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetSuspensionExpansionLimited.cs",
+            "_guid": "9ea3b30f00a05484abb6838e234bb89e",
+            "_checkSum": "250fd785569d06c502c5aac2649c9d80"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelCollider/WheelColliderSetWheelDampingRate.cs",
+            "_guid": "5d79243fbda5b7649af37a06ead119f3",
+            "_checkSum": "3f03581dc91a714c67be98ca782e35da"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveGetAsymptoteSlip.cs",
+            "_guid": "d17d14820ee8e0e4586f133d55df1205",
+            "_checkSum": "8e419080df08a103ee8d97abced20546"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveGetAsymptoteValue.cs",
+            "_guid": "54523658e37956a44b5863f1c5d1370c",
+            "_checkSum": "160dd0e9b8207fdc98811455960f0572"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveGetExtremumSlip.cs",
+            "_guid": "551abc3e0b2721c469376e37e23daffa",
+            "_checkSum": "1397e3b141edb30f27a959dc37390b7a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveGetExtremumValue.cs",
+            "_guid": "031ef7b99f1df5746ab1af093968c826",
+            "_checkSum": "a5d55fcb1870877924f6589b76b2c3f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveGetStiffness.cs",
+            "_guid": "4cb0b76f19f810b42aa4ffb285b20632",
+            "_checkSum": "9dc55093fd018a45d569d4eeb52f2e95"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveSetAsymptoteSlip.cs",
+            "_guid": "9fe1ae1ed8fd76d4d97b39ae176b6520",
+            "_checkSum": "984f901fab288c8eeddbfeaff976ca71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveSetAsymptoteValue.cs",
+            "_guid": "a6f5a2df14e210c43928df48572c5c91",
+            "_checkSum": "0ccc499591c8a4e57c2065789178305a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveSetExtremumSlip.cs",
+            "_guid": "51769b64cfa81cf439de0c3d51df2f7c",
+            "_checkSum": "d543d7eeec761f26f0d467be8c482a5a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveSetExtremumValue.cs",
+            "_guid": "44ff0413be741fa4fbe5223079a0c44f",
+            "_checkSum": "844533b69888b0e9540ed8408e32401e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Vehicles/Actions/WheelFrictionCurve/WheelFrictionCurveSetStiffness.cs",
+            "_guid": "d9e7e63a15fbb4245b865c0cb815a064",
+            "_checkSum": "3c845c12d8df51760b240e17e8dd4947"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479345918036
+}

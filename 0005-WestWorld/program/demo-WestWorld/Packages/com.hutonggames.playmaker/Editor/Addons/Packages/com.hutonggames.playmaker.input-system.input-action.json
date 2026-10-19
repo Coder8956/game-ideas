@@ -1,0 +1,280 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.input-action",
+    "_displayName": "InputAction",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionAsset"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "InputAction actions.",
+    "_description": "Low-level access to Input Actions without using PlayerInput.\nUse these actions if you want to manually manage InputActionAssets, maps, and events.\nFor simpler workflows, the PlayerInput package is usually easier.",
+    "_helpUrl": "https://hutonggames.com/playmaker/docs/actions/input-system-actions/",
+    "_icon": "InputSystem/InputAction",
+    "_tags": [
+        "Actions",
+        "InputSystem"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionCanceled.cs",
+            "_guid": "411f36343acdc4e4a810237000fd12ae",
+            "_checkSum": "d82ad1f04f12b940ff65d64a5c8ee565"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionCheckIsInProgress.cs",
+            "_guid": "3d12807dfbfc4657aff6b99222b81fa1",
+            "_checkSum": "98142233aed92e7f180b76097cc35ea7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionCheckIsPressed.cs",
+            "_guid": "a973cc10fada41a28e71a630d55d72f0",
+            "_checkSum": "0cdc7154bc8fb7d851521306e765a176"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionCheckWasPerformedThisFrame.cs",
+            "_guid": "56ff7658b72d41a8ae82249b74e84e64",
+            "_checkSum": "3db36afde7087f87cc7f884f32557c21"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionCheckWasPressedThisFrame.cs",
+            "_guid": "d334ff1704e44f478ccc016a5aa98108",
+            "_checkSum": "cbe45c668280fa482a823e1655b8aca0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionCheckWasReleasedThisFrame.cs",
+            "_guid": "1145edc9ccd14f04bef6d54b51d70016",
+            "_checkSum": "0089deed2e5776230eb4d83b21147c96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionDisable.cs",
+            "_guid": "47f55f56cee4f43408c50f09993a642b",
+            "_checkSum": "d861bc241436544656df0d2c2384dafd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionEnable.cs",
+            "_guid": "0eb92f59857c64744b7230a19cfe17df",
+            "_checkSum": "7d77f72be4a41ac74d8802ed35b3ee47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionGetEnabled.cs",
+            "_guid": "8f1bf4cf7ad50984aae55f74ac14a5cc",
+            "_checkSum": "69ffc90309b6fdf02fd1dcd957bb0030"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionGetMoveVector2.cs",
+            "_guid": "a81c43f9a4ed4a1182897742b33f1d93",
+            "_checkSum": "faed0fcbb1b7f2f28767597218c48353"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionGetMoveVector3.cs",
+            "_guid": "ccf9f2076e604b9a9710e00d045a00b0",
+            "_checkSum": "3601d9f7fc36a9635c87256e029ebdae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionGetName.cs",
+            "_guid": "73267622c03f5304ab00b83690b2b8df",
+            "_checkSum": "a6ad0269ab8d265c2f743403b876b5ad"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionGetTimeoutCompletionPercentage.cs",
+            "_guid": "99c504f19c884e244821d67440df026c",
+            "_checkSum": "0bc98944a6515a9b27aec0781e2a49f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionMouseVirtualJoystick.cs",
+            "_guid": "b602ef1c6298466dacb4f64bca65e874",
+            "_checkSum": "47a43ea1776abd633a0b5b96a7bf4893"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionPerformed.cs",
+            "_guid": "24b86a19c29fa4d47a6617033d943c2e",
+            "_checkSum": "4270fb173f934a60fcda5ee90f0024a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionReadBoolValue.cs",
+            "_guid": "d6fc0955738e4d749ef19bcca662ab52",
+            "_checkSum": "1681222b3af1a1ce11e6307c56e47f3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionReadFloatValue.cs",
+            "_guid": "b22f07ce4c7f48ccb66b792ada487619",
+            "_checkSum": "1183a097c9465b1f4669b9180334035d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionReadFloatValueSmooth.cs",
+            "_guid": "f71e0bb6cf094e158e65d1a62f839529",
+            "_checkSum": "8a942906967fac60130739c262219ba8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionReadQuaternionValue.cs",
+            "_guid": "09240a527c184cc9a5a8e82ec4b2ccfe",
+            "_checkSum": "4afea42108c08b28ec1f559c999d41ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionReadVector2Value.cs",
+            "_guid": "35aba2437d4149e09bbc9c04c62688cd",
+            "_checkSum": "856d508d0f9b3d7419260689871e8c71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionReadVector3Value.cs",
+            "_guid": "93fa7e2d103e435c9727dd14cf5c64e0",
+            "_checkSum": "61c321661fc99a668f0c1334658a5c35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionReset.cs",
+            "_guid": "60e755375add3df48a97237cf0e3aec3",
+            "_checkSum": "1f1d31371747b21096e49e624fac6fcd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/InputActionStarted.cs",
+            "_guid": "89207eafe9ea43c4b93c1f16f6c395b3",
+            "_checkSum": "8c75fb0bfd86f9735ab8b99ec2cadade"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionClone.cs",
+            "_guid": "7a014b3f22c01cb40a9f57b9ea4eda47",
+            "_checkSum": "ebd831a51ed2d26ccd86ecba35de562b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionDispose.cs",
+            "_guid": "c9498c2abab149c41b4695d0cbd2c123",
+            "_checkSum": "e853c319eabafb3fb0b4ae1035cc1f84"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionGetActionMap.cs",
+            "_guid": "7b74fb0872bbec449941e9d932e89978",
+            "_checkSum": "c8ed379f11cfb9d17e7b872c4e3a9a0a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionGetExpectedControlType.cs",
+            "_guid": "d59f2037c9c24284c89550065132db6d",
+            "_checkSum": "1b74f124e59d0f8a77309e2fe7b871b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionGetInProgress.cs",
+            "_guid": "ddf8ef910ba0ed947b92285e7571c162",
+            "_checkSum": "3655cb63ec25671dba75dc1f244551cd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionGetInteractions.cs",
+            "_guid": "8b6c27658e7ba55429da972240719638",
+            "_checkSum": "7f90f3a9df3969bd4fd29aa03a4cecab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionGetProcessors.cs",
+            "_guid": "a9f5881b7295a4545a2b1711c8241410",
+            "_checkSum": "6388b49b1b60f0af557c112d7508c9d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionGetTriggered.cs",
+            "_guid": "2afde90404670b04d8ec0ae428722e10",
+            "_checkSum": "ba7f671288f1990af2c3f4bb9b552b9e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionGetWantsInitialStateCheck.cs",
+            "_guid": "a655ccf327310e240ab7b0e4269cb0a5",
+            "_checkSum": "e924ab564f4a9026417367c8b5cf7a3a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionIsInProgress.cs",
+            "_guid": "23e68a619293e3945a1ef95458fb4f7c",
+            "_checkSum": "399d402e643adb544e658868595a0440"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionIsPressed.cs",
+            "_guid": "5f066299daabd494ba1b9f693df22e7a",
+            "_checkSum": "df355569eaebbdda0d5e3d37e83da5ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionSetBindingMask.cs",
+            "_guid": "1fd2b41e4415a5d46a60a5b3a443f0bb",
+            "_checkSum": "9cce4078f40c436a400283c59357ec4f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionSetExpectedControlType.cs",
+            "_guid": "59a64599d3f66bc4db9b9cb85014d0dd",
+            "_checkSum": "d2eba9729dcb649010b8868a189aca54"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionSetWantsInitialStateCheck.cs",
+            "_guid": "285bdda0a1dd29546aa59c6b35161956",
+            "_checkSum": "c6fcf684dbac884da15e9511f7d73ae3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputAction/Actions/Backup/InputActionToString.cs",
+            "_guid": "bf2e92b9abdc98642b46d4979d192436",
+            "_checkSum": "374fd435a4ab763a40adfddef82fc564"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/InputActionMapDisable.cs",
+            "_guid": "98a9be5721acbf4479c5007a1fffb1b5",
+            "_checkSum": "eafdae503be2e6c2817549404607bbf8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/InputActionMapEnable.cs",
+            "_guid": "928b95570785b15429ebe1681e5b07d3",
+            "_checkSum": "8c7f03055654a8a2fabb9bfc4d1e703b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/InputActionMapGetEnabled.cs",
+            "_guid": "93050c8c3071ab049a25d8193786ee2c",
+            "_checkSum": "3175d6caf47355e0793673bf1e8274dc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/Backup/InputActionMapActionTriggered.cs",
+            "_guid": "b473b83404285ed46b7735f26ff9ca09",
+            "_checkSum": "fb548ef58c5290ea61867e8819cb1904"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/Backup/InputActionMapContains.cs",
+            "_guid": "0d97ff880dc35e149a230b10f579e0eb",
+            "_checkSum": "39b2144197ad5d0e22679a33a8aff582"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/Backup/InputActionMapDispose.cs",
+            "_guid": "9cefc37444fafc1438bd9029e41998da",
+            "_checkSum": "0ce76732f36f817ca68be1d00bc972a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/Backup/InputActionMapFindAction.cs",
+            "_guid": "c8fdfd0cee4b0ef44a31a8c086fa9de3",
+            "_checkSum": "b30b8ec5fbfa7382f7524d0350b3ddca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/Backup/InputActionMapGetAsset.cs",
+            "_guid": "98ce569d602a7324db1596f6f5f52309",
+            "_checkSum": "2c469317b216c77eef7d47ba9947c046"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionMap/Actions/Backup/InputActionMapGetName.cs",
+            "_guid": "13775427425194148a78be9e26f57f20",
+            "_checkSum": "aaf44b8357d9a23008ed6ee28841355a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionAsset/Actions/InputActionAssetDisable.cs",
+            "_guid": "55aa9ce9b41e47ac8d8becad76af1197",
+            "_checkSum": "cdac7d2edf956bd35fec5aedfa850a47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/InputActionAsset/Actions/InputActionAssetEnable.cs",
+            "_guid": "ecd59d9a71124d5ea496829346ab5fee",
+            "_checkSum": "0c36e168803c45c24e5c7743813fc98d"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b77",
+    "_datePublished": "2026-07-26",
+    "_timeCode": 134295525648257400
+}

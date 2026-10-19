@@ -1,0 +1,40 @@
+.hutong-todo-list-view {
+    min-width: 100px;
+    min-height: 32px;
+    flex-grow: 1;
+}
+
+.hutong-node-view__header {
+    flex-direction: row;
+}
+
+.hutong-node-view__title {
+    -unity-text-align: middle-left;
+}
+
+ResizableElement #top-resize {
+    display: none;
+}
+
+ResizableElement #bottom-resize {
+    display: none;
+}
+
+ResizableElement #top-left-resize {
+    display: none;
+}
+
+ResizableElement #top-right-resize {
+    display: none;
+}
+
+ResizableElement #bottom-left-resize {
+    display: none;
+}
+
+ResizableElement #bottom-right-resize {
+    display: none;
+}
+
+.hutong-todo-list-view_list-view {
+}

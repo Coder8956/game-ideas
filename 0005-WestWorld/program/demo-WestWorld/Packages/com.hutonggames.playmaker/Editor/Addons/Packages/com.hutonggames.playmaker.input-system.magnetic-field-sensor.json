@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.magnetic-field-sensor",
+    "_displayName": "MagneticFieldSensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/MagneticFieldSensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System MagneticFieldSensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.MagneticFieldSensor.html",
+    "_icon": "InputSystem/MagneticFieldSensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/MagneticFieldSensor/Actions/MagneticFieldSensorGetMagneticField.cs",
+            "_guid": "c5d381426e0b423ca54c3d0f4ae1b0dd",
+            "_checkSum": "2138285047eca565de4959e978671aa5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/MagneticFieldSensor/Constants/MagneticFieldSensorCurrentValue.cs",
+            "_guid": "6770f4993ee3469d87631ba273e8a02e",
+            "_checkSum": "daa228d2b95cdb3d140375bc30b3be31"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/MagneticFieldSensor/Variables/MagneticFieldSensor.cs",
+            "_guid": "fda617788bcb4c39b4e16c6d27fcdb46",
+            "_checkSum": "4e7fc3d3b347d17b099a332cf213c29a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479380213594
+}

@@ -1,0 +1,147 @@
+﻿
+.hutong-editor-variables {
+
+    --hutong-editor-icon-play: resource("Icons/d_PlayIcon");
+    --hutong-editor-variable-toggle-icon: resource("Icons/d_VariableToggleIcon");
+    --hutong-editor-add-icon: resource("Icons/d_AddIcon");
+    --hutong-editor-remove-icon: resource("Icons/d_RemoveIcon");
+    --hutong-editor-delete-icon: resource("Icons/d_DeleteIcon");
+    --hutong-editor-big-add-icon: resource("Icons/d_BigAddIcon");
+    --hutong-editor-expand-all-icon: resource("Icons/d_ExpandAllIcon");
+    --hutong-editor-collapse-all-icon: resource("Icons/d_CollapseAllIcon");
+    --hutong-editor-show-paths-icon: resource("Icons/d_ShowPathsIcon");
+    --hutong-editor-global-icon: resource("Icons/d_GlobalIcon");
+    --hutong-editor-event-data-icon: resource("Icons/d_EventDataIcon");
+    --hutong-editor-minimap-icon: resource("Icons/d_MinimapIcon");
+    --hutong-editor-node-snapping-icon: resource("Icons/d_NodeSnappingIcon");
+    --hutong-editor-back-icon: resource("Icons/d_BackIcon");
+    --hutong-editor-forward-icon: resource("Icons/d_ForwardIcon");
+    --hutong-editor-recent-list-icon: resource("Icons/d_RecentListIcon");
+    --hutong-editor-previous-edit-icon: resource("Icons/d_PreviousEditIcon");
+    --hutong-editor-next-edit-icon: resource("Icons/d_NextEditIcon");
+    --hutong-editor-swap-action-icon: resource("Icons/d_SwapActionIcon");
+    --hutong-editor-update-once-icon: resource("Icons/d_UpdateOnceIcon");
+    --hutong-editor-update-loop-icon: resource("Icons/d_UpdateLoopIcon");
+    --hutong-editor-update-event-icon: resource("Icons/d_OnEventIcon");
+    --hutong-editor-blocking-update-icon: resource("Icons/d_BlockingUpdateIcon");
+    --hutong-editor-no-errors-icon: resource("Icons/d_NoErrorsIcon");
+    --hutong-editor-has-errors-icon: resource("Icons/d_ErrorIcon");
+    --hutong-editor-refresh-icon: resource("Icons/d_RefreshIcon");
+    --hutong-editor-write-only-icon: resource("Icons/d_WriteOnlyIcon");
+    --hutong-editor-send-event-icon: resource("Icons/d_SendEventIcon");
+    --hutong-editor-blocking-icon: resource("Icons/d_BlockingIcon");
+    --hutong-editor-looping-icon: resource("Icons/d_LoopIcon");
+    --hutong-editor-loop-top-icon: resource("Icons/d_LoopTopIcon");
+    --hutong-editor-loop-bottom-icon: resource("Icons/d_LoopBottomIcon");
+    --hutong-editor-loop-skip-icon: resource("Icons/d_LogicFlowIcon");
+    --hutong-editor-loop-stop-icon: resource("Icons/d_LoopSkipIcon");
+    --hutong-editor-favorite-icon: resource("Icons/d_FavoriteIcon");
+    --hutong-editor-favorite-off-icon: resource("Icons/d_FavoriteOffIcon");
+    --hutong-editor-auto-scroll-icon: resource("Icons/d_AutoScrollToEndIcon");
+    --hutong-editor-group-open-icon: resource("Icons/d_GroupOpenIcon");
+    --hutong-editor-group-closed-icon: resource("Icons/d_GroupClosedIcon");
+    --hutong-editor-installed-icon: resource("Icons/d_InstalledIcon");
+    --hutong-editor-update-icon: resource("Icons/d_UpdateIcon");
+    --hutong-editor-swap-module-icon: resource("Icons/d_SwapModuleIcon");
+    --hutong-editor-remove-module-icon: resource("Icons/d_RemoveModuleIcon");
+    --hutong-editor-debug-watch-icon: resource("Icons/d_DebugWatchIcon");
+
+    --hutong-editor-colors-prefab-label: #81b4ff;
+    --hutong-editor-colors-prefab-override: #0593e0;
+    --hutong-editor-colors-icon-tint: #c4c4c4;
+    --hutong-editor-colors-white: #d2d2d2;
+    --hutong-highlight-color: #ff5500;
+    --hutong-highlight-background-color: rgba(255, 85, 0, 0.08);
+    --hutong-editor-colors-text-dimmed: #888888;
+    --hutong-editor-colors-white-dimmed: #888888;
+    --hutong-editor-colors-list-item-background: #3E3E3E;
+    --hutong-editor-colors-list-item-border_accent: #303030;
+    --hutong-editor-selected-item-color: #2c5d87;
+    --hutong-editor-list-view-background-color: #333333;
+    --hutong-editor-default-update-color: #C4C4C4;
+    --hutong-editor-fixed-update-color: #B2FF59;
+    --hutong-editor-on-animator-move-update-color: #7FFDE4;
+    --hutong-editor-late-update-color: #FF4C35;
+    --hutong-editor-colors-drag-handle: rgba(255,255,255,0.5);
+    --hutong-editor-colors-bold-text: white;
+    --hutong-editor-colors-error-background: rgba(255,0,0,0.1);
+    --hutong-editor-colors-list-spacer: rgb(50,50,50);
+    --hutong-editor-colors-used-count-background: rgba(0,0,0,0.1);
+    --hutong-editor-colors-header-background: #3C3C3C;
+    --hutong-editor-colors-header-border_accent: #303030;
+    --hutong-editor-colors-header-background-hover: #474747;
+    --hutong-editor-colors-debug-value-text-color: #999999;
+    --hutong-editor-colors-debug-value-text-color_active: #00dd00;
+    --hutong-editor-colors-debug-value-background: rgba(0,0,0,0.1);
+    --hutong-editor-colors-play: #00dd00;
+    --hutong-editor-colors-paused: rgb(255, 255, 36);
+    --hutong-colors-link: #4C7EFF;
+
+    --hutong-colors-float: #7ED4FB;
+    --hutong-colors-integer: #7FFCE3;
+    --hutong-colors-string: #FF9E59;
+    --hutong-colors-bool: #AD8EF0;
+    --hutong-colors-enum: #E38AD8;
+    --hutong-colors-object: #5070FB;
+    
+    --hutong-log-colors-background: rgb(32, 32, 32);
+    --hutong-log-colors-row-background: rgb(56, 56, 56);
+    --hutong-log-colors-row-border: rgba(0, 0, 0, 0.3);
+    --hutong-log-colors-timecode: rgba(255, 255, 255, 0.6);
+    --hutong-log-colors-timecode-active: rgb(0, 255, 0);
+    --hutong-log-colors-timecode-paused: rgb(255, 255, 0);
+    
+    --hutong-editor-help-icon: resource("d__Help");
+    --hutong-editor-settings-icon: resource("d__Menu");
+    --hutong-editor-search-jump-icon: resource("d_SearchJump Icon");
+    --hutong-editor-action-blocks-icon: resource("Icons/d_AddModuleIcon");
+    
+    --hutong-editor-foldout-icon: resource('d_IN_foldout');
+    --hutong-editor-foldout-on-icon: resource('d_IN_foldout_on');
+    
+    --hutong-editor-play-icon: resource("d_PlayButton");
+    --hutong-editor-pause-icon: resource("d_PauseButton");
+    --hutong-editor-step-icon: resource("d_StepButton");
+    --hutong-editor-action-play-icon: resource("Icons/d_PlayIcon");
+    --unity-back-icon: resource("d_Back");
+    --unity-forward-icon: resource("d_Forward");
+    
+    --hutong-selection-color: rgb(0, 165, 255);
+    --hutong-icon-button-hover-color: rgba(255, 255, 255, .2);
+    --hutong-finished-action-opacity: 0.6;
+    
+    --editor-colors-panel-border: #191919;
+    --editor-colors-panel-background: #383838;
+    --editor-colors-label-text: #C4C4C4;
+    --editor-colors-highlight-border: #3A79BB;
+
+    --editor-colors-tooltip-background: #3E3E3E;
+    --editor-colors-tooltip-border: #181818;
+
+    --editor-colors-helpbox-background: rgba(96, 96, 96, .2);
+    --editor-colors-helpbox-border: #A9A9A9;
+    --editor-colors-helpbox-text: #161616;
+
+    /*Additional Colors for graph-like controls*/
+    --editor-colors-graph-background: #202020;
+    --editor-colors-graph_node-border-selected: rgba(68, 174, 255, .82); /*TODO: Revise this. I'm trying to find a better color*/
+    --editor-colors-graph_node-border-hover: rgba(68, 174, 255, .52);
+
+    /*ListControl colors*/
+    --editor-colors-list-background: #414141;
+    --editor-colors-list-border: #242424;
+    --editor-colors-list_header-background: #353535;
+    --editor-colors-list_item-separator: #2A2A2A;
+    --editor-colors-list_item-background-hover: rgba(255, 255, 255, .026); /*Translucid so it works with nested lists.*/
+    --editor-colors-list_item-background-dragged: rgba(28, 141, 255, .125);
+    --editor-colors-list_item-background-alternated: rgba(0, 0, 0, .095);
+    --editor-colors-list_item-handle: rgba(196, 196, 196, 0.27);
+    --editor-colors-list_button-hover: rgba(255, 255, 255, .044);
+
+    /*Inspector colors*/
+    --editor-colors-inspector_titlebar-background: #3E3E3E;
+    --editor-colors-inspector_titlebar-background-hover: #474747;
+    --editor-colors-inspector_titlebar-border: #1F1F1F;
+    --editor-colors-inspector_titlebar-border_accent: #303030;
+    --editor-colors-inspector_titlebar-button-hover: rgba(255, 255, 255, .044);
+}

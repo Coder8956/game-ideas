@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.gyroscope",
+    "_displayName": "Gyroscope",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gyroscope"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System Gyroscope actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.Gyroscope.html",
+    "_icon": "InputSystem/Gyroscope",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gyroscope/Actions/GyroscopeGetAngularVelocity.cs",
+            "_guid": "0aa453a583cd4e5cad2236338d3c99d5",
+            "_checkSum": "c09e4d522ffcddd40158aaa5af4cf9b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gyroscope/Constants/GyroscopeCurrentValue.cs",
+            "_guid": "4da35066959f4bdca5c171d5c0d08d7d",
+            "_checkSum": "e850cde69e313f4cf3104d8997df5340"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gyroscope/Variables/Gyroscope.cs",
+            "_guid": "62ec9ebd741d422f8f9f74389f3d74ce",
+            "_checkSum": "ff24c2f10954b6d7d31c36c1bc60b888"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479430362730
+}

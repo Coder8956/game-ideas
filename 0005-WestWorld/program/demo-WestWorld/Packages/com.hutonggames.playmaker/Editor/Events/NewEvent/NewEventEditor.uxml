@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <ui:VisualElement name="new-variable" style="margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px;">
+        <ui:TextField name="name" label="Name" class="hutong-short-label" />
+        <ui:Label text="Error" name="error" picking-mode="Ignore" class="hutong-editor-error-text" style="margin-left: 4px; margin-bottom: 5px;" />
+        <ui:TextField multiline="true" label="Tooltip" name="tooltip" class="hutong-short-label" />
+    </ui:VisualElement>
+    <ui:VisualElement name="spacer" style="flex-grow: 1;" />
+    <ui:Button text="Add Event" display-tooltip-when-elided="true" name="add-button" />
+</ui:UXML>

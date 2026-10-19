@@ -1,0 +1,21 @@
+{
+    "name": "com.hutonggames.playmaker",
+    "version": "2.0.0-beta.88",
+    "displayName": "PlayMaker 2",
+    "description": "Visual scripting tool for Unity using finite state machines.",
+    "author":
+    {
+       "name": "Hutong Games",
+       "email": "info@hutonggames.com",
+       "url": "https://hutonggames.com"
+    },
+    "unity": "2022.3",
+    "type": "tool",
+    "documentationUrl": "https://hutonggames.com/playmaker/docs/welcome/",
+    "license": "Asset Store EULA",
+    "keywords": [
+       "visual scripting",
+       "fsm",
+       "state machine"
+    ]
+ }

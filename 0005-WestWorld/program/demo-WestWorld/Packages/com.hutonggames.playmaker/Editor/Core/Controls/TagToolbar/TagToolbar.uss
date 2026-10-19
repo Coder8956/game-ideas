@@ -1,0 +1,23 @@
+.hutong-tag-toolbar {
+    flex-direction: row;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    flex-wrap: wrap;
+    border-bottom-width: 1px;
+    border-color: var(--unity-colors-button-border_accent);
+}
+
+.hutong-tag-toggle {
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 24px;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: transparent;
+}
+
+.hutong-tag-toggle--selected {
+    background-color: var(--hutong-editor-selected-item-color);
+}

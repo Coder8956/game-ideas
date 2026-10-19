@@ -1,0 +1,214 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.touch",
+    "_displayName": "Touch",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Touch actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.Touch.html",
+    "_icon": "InputSystem/Touch",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/BaseTouchFingerEventAction.cs",
+            "_guid": "a649969f516c4480b8ef8d03a13ccc7b",
+            "_checkSum": "3a7de640408b763ad5c2ddadc2f4040a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/EnhancedTouchSupportHelper.cs",
+            "_guid": "3d4f7b0d2e6c4d44b1e2a8b0c6d9f101",
+            "_checkSum": "077bab6d12e07142c891129ca6ae4fe4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/FingerGetCurrentTouch.cs",
+            "_guid": "7668da6aa84f42ba8dfbfeb0bcc1cb12",
+            "_checkSum": "279429f2df005185bc701b694504db0b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/FingerGetIndex.cs",
+            "_guid": "10207bc01bb344f7986bed17d9a65d13",
+            "_checkSum": "371778a3892431fa8874da5ede351d3c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/FingerGetIsActive.cs",
+            "_guid": "4da419ee6aad48919da7420d38db6814",
+            "_checkSum": "7d5e0a73a5bf6ceaa4164e3ad1bb6cef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/FingerGetLastTouch.cs",
+            "_guid": "3c655afefebf49e2869159efbf432d15",
+            "_checkSum": "e899389210d6dbcb839f55cc7396c19c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/FingerGetScreenPosition.cs",
+            "_guid": "ca1e664f749c43d782fc83f57bdb8c16",
+            "_checkSum": "0eaf73306ecef7c893cd8b62fece883e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/PhysicsRaycast__Touch.cs",
+            "_guid": "0d194b5b49674470a2d5aa2150aa781b",
+            "_checkSum": "cb2e10e1c36aece618defc9cd22598f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchEvent.cs",
+            "_guid": "af84da78e27b4ba489691dae167d2cb1",
+            "_checkSum": "0378e5188ed1e6df36f82e619eb5a7d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetDeltaPosition.cs",
+            "_guid": "5b65165361e3405d8c6a1f56747f9d03",
+            "_checkSum": "548d28622970a8bf857f5ef7b3d25e87"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetFingerId.cs",
+            "_guid": "9d70fd0787f2470a8d438e0d97523a04",
+            "_checkSum": "177f087dd7fdb27c9a34881ee9ab1b53"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetPhase.cs",
+            "_guid": "64b7e04ec5344d07a37f6a37f7f56005",
+            "_checkSum": "6863db36b95ac2c0f5dace2a2afa1b46"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetPosition.cs",
+            "_guid": "13c22c2289d94800b797db86f3501906",
+            "_checkSum": "e6a2d8a62dc1be363dfce87b850dd22a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetPressure.cs",
+            "_guid": "3932639dbfd74ad3b96992f5a9273507",
+            "_checkSum": "45e8107b0a0c0ee9d6538969b18a82b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetRadius.cs",
+            "_guid": "52058fed6c82495da8fe9d6aafce7e08",
+            "_checkSum": "40665c90f9b540a51674547216250738"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetRawPosition.cs",
+            "_guid": "c2079bd2bbec4effa0e5dd0c6da5de09",
+            "_checkSum": "1f164c00f3bb315dd52f0642b4b5202d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetStartTime.cs",
+            "_guid": "4e62c47a548b4896bbefee5e888c560a",
+            "_checkSum": "6f46c223e48ad5038a420daade8c38eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetTapCount.cs",
+            "_guid": "235b24d7345d4a5e9121c8da56ff4f0b",
+            "_checkSum": "13c2319af47dcc373f5e25876cfc6282"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetTime.cs",
+            "_guid": "0ff45b4040404212b8dce0d2cd729d0c",
+            "_checkSum": "99fc2580402ae4f153ada4a2c08a8358"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetTouchCount.cs",
+            "_guid": "79b6c2d0a49f4e6ab2d89fb0b8b7b201",
+            "_checkSum": "cdf6ff50754e63fec9ef5a1a300a4100"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchGetTouches.cs",
+            "_guid": "2ad0c4ee8f95411a85f19ea60977a302",
+            "_checkSum": "e2cda863bd23a06e81270892b4e47dcd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchObjectEvent.cs",
+            "_guid": "265cd5ad742342247892a33144d8ee66",
+            "_checkSum": "08ede76d5b1f21c8e65a7c5a4e88bb74"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchOnFingerDown.cs",
+            "_guid": "bfc33b51d616ad643ac9fd4a20c9ecf3",
+            "_checkSum": "5389b95ed2ed361a673db96f0afbe83b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchOnFingerMove.cs",
+            "_guid": "9b60d61c636d30f48b298896cc1d1973",
+            "_checkSum": "2d83eff78882e22875a714fd20cbe14d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchOnFingerUp.cs",
+            "_guid": "4e6d6feeb21c13747843d4f31ec9680a",
+            "_checkSum": "4a927f5a890723247aa0bc1a8e17293e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchSimulationEnable.cs",
+            "_guid": "77d03b9b842544dd9d379ea220eb3a20",
+            "_checkSum": "2eef57012877e73ff2c3634b41eab502"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchSwipeEvent.cs",
+            "_guid": "2d1e6f38055846d9a5c1519fd946530e",
+            "_checkSum": "8d3bdc0e8013eee1c3e6ebdce73ca316"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Actions/TouchTapEvent.cs",
+            "_guid": "ec8fb4bd6b7145b58af1dcb51972ef0d",
+            "_checkSum": "845441fb11fa39d2c99d9d3b4060f5dd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/Finger.cs",
+            "_guid": "e3f6c0ad723148aab1b7ec5d9d7fb011",
+            "_checkSum": "67802e6a3d1989ddf482b07142439571"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/FingerCurrentTouchVariable.cs",
+            "_guid": "8fe4f8523dbb43e49a64d9eb8e1a9017",
+            "_checkSum": "731139cb9187e548db4e870a479c90b7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/FingerIndexVariable.cs",
+            "_guid": "1a8923de1036431eb7d0c21ae0370e1a",
+            "_checkSum": "b8b11a06722d9ed16084f6c2f63a2334"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/FingerIsActiveVariable.cs",
+            "_guid": "0736f2d448dc4a13803e3e8f32a09f1b",
+            "_checkSum": "130c7fd9921563a5c592c78f28970858"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/FingerLastTouchVariable.cs",
+            "_guid": "533fc84e440341f3b84ea22f64b77f18",
+            "_checkSum": "124ae8a530d4ea242c02e311caff974c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/FingerScreenPositionVariable.cs",
+            "_guid": "0f0ef169f6d947a3b35698b5cd2c4d19",
+            "_checkSum": "f86e01d1875cf49dabd5b44ce8d17051"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/Touch.cs",
+            "_guid": "81086d58cc8f4968b8b3bb584b9a2145",
+            "_checkSum": "322b528544c317f3c5415b790ecd128f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Touch/Variables/TouchPhase.cs",
+            "_guid": "bbbe45b5fc92bef479ff20efc5aa1a56",
+            "_checkSum": "7715d60f259b1c84d88447e4d5ee6fc8"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b81",
+    "_datePublished": "2026-08-11",
+    "_timeCode": 134309371805809342
+}

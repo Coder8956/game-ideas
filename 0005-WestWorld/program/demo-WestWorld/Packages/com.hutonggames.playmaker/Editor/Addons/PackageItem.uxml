@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Addons/PackageBrowser.uss?fileID=7433441132597879392&amp;guid=3a6a6cbbc9cd14245aca0886ac1ac242&amp;type=3#PackageBrowser" />
+    <ui:VisualElement name="item" class="hutong-package-item">
+        <ui:Image name="icon" class="hutong-package-icon"  />
+        <ui:VisualElement class="hutong-package-info-container">
+            <ui:Label tabindex="-1" text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" class="hutong-package-title" />
+            <ui:Label tabindex="-1" text="Summary" parse-escape-sequences="true" display-tooltip-when-elided="true" name="summary" class="hutong-package-summary" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status" class="hutong-package-item__status" />
+    </ui:VisualElement>
+    <ui:VisualElement name="tags" class="hutong-package-item__tags" />
+</ui:UXML>

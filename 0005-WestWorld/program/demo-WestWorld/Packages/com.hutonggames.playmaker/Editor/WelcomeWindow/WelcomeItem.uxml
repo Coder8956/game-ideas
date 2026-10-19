@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/WelcomeWindow/WelcomeWindow.uss" />
+    <ui:Button name="item" class="hutong-welcome-item">
+        <ui:Image name="icon" class="hutong-welcome-item__icon"  />
+        <ui:VisualElement class="hutong-welcome-item__info-container">
+            <ui:Label tabindex="-1" text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" class="hutong-welcome-item__title" />
+            <ui:Label tabindex="-1" text="Summary" parse-escape-sequences="true" display-tooltip-when-elided="true" name="summary" class="hutong-welcome-item__summary" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

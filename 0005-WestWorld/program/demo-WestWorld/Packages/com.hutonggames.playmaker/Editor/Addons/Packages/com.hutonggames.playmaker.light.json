@@ -1,0 +1,292 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.light",
+    "_displayName": "Light",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to change Light properties at runtime.",
+    "_description": "In most cases these properties are defined at edit time. These actions allow you to get or set them at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Light.html",
+    "_icon": "Colors/Gradient",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetBounceIntensity.cs",
+            "_guid": "86dde57d69d7ab940b1833a5bd1328c8",
+            "_checkSum": "8a5e344ad345c47965161e3e0e8db465"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetBoundingSphereOverride.cs",
+            "_guid": "ec7292b902fdd154680f708e04f107fc",
+            "_checkSum": "b235c27c7c4c43565ac23b295453969f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetColor.cs",
+            "_guid": "d36aebe84624cb34f8dd8db0a814e858",
+            "_checkSum": "e14ff311ee3a9ba840eab90a5c8c2364"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetColorTemperature.cs",
+            "_guid": "dc40717fd7d3c424595692cd373359ed",
+            "_checkSum": "9a5b8d08c3891ba951829ea166345530"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetCommandBufferCount.cs",
+            "_guid": "bf5bd82b2631f824e9d6154e9cee1422",
+            "_checkSum": "a52447711fba9cc19b136a45aaf908ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetCookie.cs",
+            "_guid": "22e1b074dca88a24ba21daf23e77f0e1",
+            "_checkSum": "be67a8b7097a99b146cf567b7ea9685d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetCookieSize.cs",
+            "_guid": "6a261c3b36f12574b85cf37651c0f386",
+            "_checkSum": "c83956d7cad5cef32be4375fd26614b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetCullingMask.cs",
+            "_guid": "8812124d2c35f6e4fa81f34cadfeafa4",
+            "_checkSum": "2a14f8e8239db9ff7685543a5a055b1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetFlare.cs",
+            "_guid": "c4cda9766e9c2364ba7a5c6f1c354bdc",
+            "_checkSum": "d456e6394d7f958f0b6c6f7bc002867c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetInnerSpotAngle.cs",
+            "_guid": "bd5e6d775309ef245b398354ad2c4dba",
+            "_checkSum": "5cf247008ae3d97c2ae8f892c24dfc83"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetIntensity.cs",
+            "_guid": "6922d47180dd25642a25e0a59b86213a",
+            "_checkSum": "572803b467aa9b58d0d4453ad49f02b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetLayerShadowCullDistances.cs",
+            "_guid": "f042e1715bf1e6444b94c8ba55c6220a",
+            "_checkSum": "7abbf1edc62409e99ad13dc65199149c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetLightShadowCasterMode.cs",
+            "_guid": "958086b86df3d4943a5d80605d9f7135",
+            "_checkSum": "b4586138ed49a4377d0a30e5d5193183"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetRange.cs",
+            "_guid": "bace239508e52d74db1df86027d8b5fe",
+            "_checkSum": "66bfe789c2d820bdf36149c108781009"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetRenderingLayerMask.cs",
+            "_guid": "84330e1b38f9bf44f86f53641dc812f5",
+            "_checkSum": "7d3a1ba8fba22ad5e5cf145547d7961c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetRenderMode.cs",
+            "_guid": "31b470b729369e7469a8697683ec0443",
+            "_checkSum": "2f20d84e03241e49e328f6ce04ebe21a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadowBias.cs",
+            "_guid": "92c0c969814eb0541828738abe674144",
+            "_checkSum": "5fe579c3afb2a2d43c1ed965438ed093"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadowCustomResolution.cs",
+            "_guid": "d17d019404383c7409c7dc500937bb1e",
+            "_checkSum": "8bc18690f984eaa20e8a1ec6bcb47039"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadowMatrixOverride.cs",
+            "_guid": "aa5a8373ac9e1a242ab1977cdc334503",
+            "_checkSum": "319671e777e97baf03aa3105aba7a322"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadowNearPlane.cs",
+            "_guid": "b49639557b1687448845f7a2e731b9be",
+            "_checkSum": "b070f4e8d342b022ad533072c919155a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadowNormalBias.cs",
+            "_guid": "2a4a8726ea22701419781f70fdf7ab52",
+            "_checkSum": "880a640e4667e3fbbd70de84b866bd1b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadowResolution.cs",
+            "_guid": "27415132d3624214987907fa24f9050c",
+            "_checkSum": "d0b925fd4cd3b54c9b496614e1a4bd3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadows.cs",
+            "_guid": "29f61834fc9e8f447a78f9313073bff7",
+            "_checkSum": "cc2d9f816744ca873b83426957787345"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShadowStrength.cs",
+            "_guid": "8e3099073101d744e8ff321421d90ca0",
+            "_checkSum": "941ef1a7da150ce32fb95ceb8cfa35b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetShape.cs",
+            "_guid": "882972d854c3a6541b2cb2d1c84787f5",
+            "_checkSum": "599ceca6db5d18f23b5afe8ea7f66760"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetSpotAngle.cs",
+            "_guid": "a7353409bc6b2b2449c2bfa2d4834ece",
+            "_checkSum": "57edc8007c2a4c36f0713948287b2140"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetType.cs",
+            "_guid": "d6ce7c372c7c9a149973801014bbae8e",
+            "_checkSum": "52de72d88886ff4a7fc1e36524f1e055"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetUseBoundingSphereOverride.cs",
+            "_guid": "5e3dedb502dbd1b409bb55142bc22361",
+            "_checkSum": "748202b1c2599f925621fd578a9741a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetUseColorTemperature.cs",
+            "_guid": "1acbff53a8f300244889bb283a2f67b7",
+            "_checkSum": "417bc45ef6909aa7a41528a9969b3d3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetUseShadowMatrixOverride.cs",
+            "_guid": "bd9654db04dc275479574caf351b560d",
+            "_checkSum": "34dc77b37145e92cad6e86fc9e6ceae9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightGetUseViewFrustumForShadowCasterCull.cs",
+            "_guid": "878e43c5eae2ff44bb9d5fb417b6cd34",
+            "_checkSum": "34c4023224d0a5eca5934a66b4527bb3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightRemoveAllCommandBuffers.cs",
+            "_guid": "81d6e70b95c358a4da9b4fd8a378337a",
+            "_checkSum": "bc0b43cc26785ed45c7511aea7cb70c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightRemoveCommandBuffers.cs",
+            "_guid": "95f2128a266d16c4f867dceee47f6a27",
+            "_checkSum": "c8aacf9ef9ba3609cc48cccae9ba3c69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightReset.cs",
+            "_guid": "cad2591a206f4064f86644c619fc4133",
+            "_checkSum": "5908b1a969d8c7a9f97b76832631a1a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetBounceIntensity.cs",
+            "_guid": "ff91e84f8a9328a409fdb7a3c17ab560",
+            "_checkSum": "f8cf6967aa8586bd499459c210946bfc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetBoundingSphereOverride.cs",
+            "_guid": "39694e3311f45a44cbcb460329b832b4",
+            "_checkSum": "6691f105ef04b22a9a43ec2c40857952"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetColorTemperature.cs",
+            "_guid": "6884f199bbf3d054a860d21e23c2a8ce",
+            "_checkSum": "1e87e30928d5f4cfcbe2a317a99508cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetCullingMask.cs",
+            "_guid": "0b1132e317a78f946a5dd9cbb822b6fb",
+            "_checkSum": "da4f85266a4587ddd5576f225f4b7c85"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetLayerShadowCullDistances.cs",
+            "_guid": "d993376c7059da045a62c40d30c2bc3c",
+            "_checkSum": "ff427699a810decef6278519b5cb2449"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetLightShadowCasterMode.cs",
+            "_guid": "6c60e471418c47a4fac80d5100e0ffc9",
+            "_checkSum": "bddcf12e3653b32c51f1fbd9b80943d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetRenderingLayerMask.cs",
+            "_guid": "2a9a6b7cfc14be746a9df7ecd57ab4ad",
+            "_checkSum": "f1ce8c599a85347e7894a47e7006b588"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetRenderMode.cs",
+            "_guid": "9ae58bbbf81bd0447ab45d58de4cd39d",
+            "_checkSum": "4218e747f4cd4bc53489130315528e24"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetShadowBias.cs",
+            "_guid": "5b3ba7d6c29fb464f8086a0b54c37881",
+            "_checkSum": "acbf7efe63853c83f4dd591efcc6e9d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetShadowCustomResolution.cs",
+            "_guid": "b75d6353239143d41b42cd69eeab1297",
+            "_checkSum": "029f36d30ace220c6b6de50d2e7f39ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetShadowMatrixOverride.cs",
+            "_guid": "909201b09a9945d4e824dfa71627c60b",
+            "_checkSum": "90392fd238650cc82fec3b07efeaac6a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetShadowNearPlane.cs",
+            "_guid": "05fc6994cef74e04898ef9248e2ff9db",
+            "_checkSum": "ba57d9d87d8d1871d114a720f295784e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetShadowNormalBias.cs",
+            "_guid": "9180b9001e7a729428259a05d2d33ddb",
+            "_checkSum": "ed34ab328a0eabbc7c1bf4055c102b79"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetShadowResolution.cs",
+            "_guid": "ffc8e53ce2d056946a8b874e43aa709f",
+            "_checkSum": "1411ec5ffc5e64fb7b67da73a13c1f86"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetUseBoundingSphereOverride.cs",
+            "_guid": "dafa42fc261d8d041ad746722f9100dd",
+            "_checkSum": "adbf51b1ee0a5ea3b75c526e63a14bdc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetUseColorTemperature.cs",
+            "_guid": "9f9fdefc1e540d94bbee399098c8786a",
+            "_checkSum": "ba1c55babb73fc56098dfad53ce5da92"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetUseShadowMatrixOverride.cs",
+            "_guid": "3b89a4f07619dda47a40e8234e4eeae8",
+            "_checkSum": "156315b443ce8fe2d3fb167d80441d9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Light/Properties/LightSetUseViewFrustumForShadowCasterCull.cs",
+            "_guid": "8f4d71fc04f6601469b89acfd363376a",
+            "_checkSum": "ea258d8a3d6f72d088aec3b7988a721d"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479685463443
+}

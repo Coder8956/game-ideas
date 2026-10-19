@@ -1,0 +1,62 @@
+.hutong-group-asset-editor {
+}
+
+.hutong-group-asset-editor__section-header {
+    flex-direction: row;
+    background-color: transparent;
+    border-bottom-width: 0;
+    margin-top: 24px;
+    margin-left: 6px;
+    margin-bottom: 8px;
+}
+
+
+.hutong-group-asset-editor__section-header > Label {
+    font-size: 14px;
+    -unity-font-style: normal;
+}
+
+.hutong-group-asset-editor__group-button {
+    -unity-text-align: middle-left;  
+    background-position-x: left 3px;
+    background-size: 16px 16px;
+    padding-left: 24px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.hutong-group-asset-editor__group-button:hover {
+    background-color: var(--editor-colors-list_button-hover);
+    cursor: link;
+}
+.hutong-group-asset-editor__scan-project-button {
+    margin-top: 24px;
+    width: 120px;
+    height: 24px;
+    align-self: center;
+}
+
+.hutong-group-asset-editor__drop-zone {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: var(--hutong-editor-colors-white-dimmed);
+    margin: 16px;
+    margin-top: 32px;
+    padding: 8px;
+}
+
+.hutong-group-asset-editor__drop-zone-label {
+    white-space: normal;
+    padding: 8px;
+    -unity-text-align: middle-center;
+}
+
+.hutong-drop-area--dropping {
+    border-width: 2px;
+    margin-top: 31px;
+}

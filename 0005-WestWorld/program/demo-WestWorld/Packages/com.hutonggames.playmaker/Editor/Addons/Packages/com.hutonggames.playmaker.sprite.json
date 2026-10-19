@@ -1,0 +1,147 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.sprite",
+    "_displayName": "Sprite",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Change Sprite parameters at runtime.",
+    "_description": "Most of the time these parameters are set at edit time, but you can use these actions to control them at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Sprite.html",
+    "_icon": "Rendering/Sprite",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteCreate.cs",
+            "_guid": "3b16f147072bc2549841f9cc83af9776",
+            "_checkSum": "0f6bfc3b82b6b4f640015f78d6e31272"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetAssociatedAlphaSplitTexture.cs",
+            "_guid": "2f435aabb7430bc449956e6c1280c279",
+            "_checkSum": "09fda674a0e6bc0853c4db25c97c4617"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetBorder.cs",
+            "_guid": "665d4e3d0ff8c2a47a7e6ddd3bf365d8",
+            "_checkSum": "4bdc8789abd73e846e33770ddef7595b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetBounds.cs",
+            "_guid": "9bcc7045d459962478909133b6475b61",
+            "_checkSum": "a31926ee5b4c2e83363c3feb2c58dd03"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetPacked.cs",
+            "_guid": "f5b085383521f39489057b3636162950",
+            "_checkSum": "023c0d014e225847b4decc1cf18ecfc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetPhysicsShape.cs",
+            "_guid": "3ef3846a61c47ca40a27b3409bfc9873",
+            "_checkSum": "1903f8788a4becd616a51294e695e380"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetPhysicsShapeCount.cs",
+            "_guid": "c0f038235b9ef9a4a9c68faaf5b15f9e",
+            "_checkSum": "75d0e1c36e76c8ac40dd660c9cc42ed1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetPhysicsShapePointCount.cs",
+            "_guid": "c2187bc9e69d38c49984cff31b8e15fe",
+            "_checkSum": "aae2fba5ed00e732ee12a8aa7111341a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetPivot.cs",
+            "_guid": "3f7d4882559a8f24fa6990ceea14021e",
+            "_checkSum": "ef5bf38b45e5f9ddd1aa595ebb6c789b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetPixelsPerUnit.cs",
+            "_guid": "f59595a756dc8474bbbb10fce7c4680c",
+            "_checkSum": "f5f91cef4e913fb751669fcbf6672e4d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetRect.cs",
+            "_guid": "173b441fe3575a342a372dfbda976616",
+            "_checkSum": "5ae8d19521b7506815792541bbca4b48"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetSecondaryTextureCount.cs",
+            "_guid": "8aadb8a217b9956489a84cee8f0e452b",
+            "_checkSum": "ca7bb4bf9bd56aa4919220acee5629ab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetSecondaryTextures.cs",
+            "_guid": "6c7e99b5bdcb299478614b5e2084dd1f",
+            "_checkSum": "ed08f6cc6eb5efea50bbeb1203f4e405"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetSpriteAtlasTextureScale.cs",
+            "_guid": "53ced93d1652b8446964b2b5eab0bfba",
+            "_checkSum": "de71bb9823bb15fa7d1d42c6897e61bc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetTexture.cs",
+            "_guid": "3362f0f716d14144d834fda0021a00f0",
+            "_checkSum": "ec590a2343731eb66d3de3dd6da00136"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetTextureRect.cs",
+            "_guid": "1f99af7802ad0dd428381baf335cb010",
+            "_checkSum": "14e4a9080df68e9512ef3b04fd192c5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetTextureRectOffset.cs",
+            "_guid": "b729b9abbf3a0a54cb85051d03e75ea3",
+            "_checkSum": "824e9fefe9d73baaa336d119acaa21d7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetTriangles.cs",
+            "_guid": "47000a56c1a7d074899a4092c03ea9a0",
+            "_checkSum": "3506d8d1ef219b3e234f62137595e3ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetUv.cs",
+            "_guid": "69d4c099911899e42b2b2c28bc19dad2",
+            "_checkSum": "2acaf822b09f6bdfbed3efc69340e927"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteGetVertices.cs",
+            "_guid": "e280d8cc74b555d429413382b074332e",
+            "_checkSum": "6d050706ac524b7cf7334870e4b8547c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteOverrideGeometry.cs",
+            "_guid": "fd8b782bed7e6564cb5e5d062c490192",
+            "_checkSum": "0ec0826268667ec1b04645d06ac6e3b1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteSelectValue.cs",
+            "_guid": "9fd4ac64867f46f7ad605f7b56f6d4d7",
+            "_checkSum": "d038b621e0614a60173c939ea4650b7e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Sprite/SpriteSetValue.cs",
+            "_guid": "5d4be46780dc41c48660f2282d9fb815",
+            "_checkSum": "e1a0722c2c1b63b1bdf31b9e788915b2"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349223137977127
+}

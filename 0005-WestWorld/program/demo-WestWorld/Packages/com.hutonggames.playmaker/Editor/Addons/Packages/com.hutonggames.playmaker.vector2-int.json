@@ -1,0 +1,178 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.vector2-int",
+    "_displayName": "Vector2Int",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Action to work with Vector2Int variables.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Vector2Int.html",
+    "_icon": "Vector2Int",
+    "_tags": [
+        "Actions",
+        "Math"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntAdd.cs",
+            "_guid": "ca39a422d1d841c8b1383fff0cc88a71",
+            "_checkSum": "62ddddd60b150ccdbe27b545948327b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntCeilToInt.cs",
+            "_guid": "7d81f154ea750c74e9575f574786e236",
+            "_checkSum": "f2db69c56b218fef02a5cad8de9510e4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntClamp.cs",
+            "_guid": "95119b6475d68274eb2d95990e58a65b",
+            "_checkSum": "d5b31e80b719660d8bb44c49b5d45bc2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntDistance.cs",
+            "_guid": "1b57312f5736d7a4ca77871fceb73a0b",
+            "_checkSum": "a188137b47c78327c77585a0c2104bfa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntDivide.cs",
+            "_guid": "e5f60a5d79a74273bdab4372311a361d",
+            "_checkSum": "1381abd7b2f2368a4634a0809c20da9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntEquals.cs",
+            "_guid": "ca19cb4a9b64ce747bbcd99dbd690331",
+            "_checkSum": "f08db6c83db37af21d680300bc62796f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntFloorToInt.cs",
+            "_guid": "05ffe2088ef97084eac1e411671bcfd7",
+            "_checkSum": "de2ac74bd98f64bb538e1c9b19abb12d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetDown.cs",
+            "_guid": "7ac770de07d486f4da5642201011744b",
+            "_checkSum": "bbe192328ff85bf00800020d0f928091"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetLeft.cs",
+            "_guid": "02aa375a623c756468559159d9aa0973",
+            "_checkSum": "fc80f68b95ee9c0176787167fd90cfdc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetMagnitude.cs",
+            "_guid": "8579e45825ce26c47ba41f2e6a3c174e",
+            "_checkSum": "1b891db624aea9136fb444f4410d24f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetOne.cs",
+            "_guid": "7acb919fc45321c4b8de5bd6d7b703b9",
+            "_checkSum": "76cbd24249dcf46a9235cbdcfd7af204"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetRight.cs",
+            "_guid": "53d94c1f5da73cc42825546d5f4c8be5",
+            "_checkSum": "282fe27bdaa8202232b8e35b54f50450"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetSqrMagnitude.cs",
+            "_guid": "974ad390c02addf4aac998314ad8c2ce",
+            "_checkSum": "051d3c9cf4ca5531b1e0108f7868ef3c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetUp.cs",
+            "_guid": "ed1ff5988239b9840afde85a62d56393",
+            "_checkSum": "507a9bb6e38354f2d6c1f93f7d3e47ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetX.cs",
+            "_guid": "11afec4be5571e246974495453fbfc28",
+            "_checkSum": "166de5b5b0bb0c5ab6c598d3b50d103e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetY.cs",
+            "_guid": "730bf011c8e521a4abe1d7ea551c90a8",
+            "_checkSum": "c84cf6c5b6b03a93c5e48d5ccb91a00b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntGetZero.cs",
+            "_guid": "5c24d1576511a3245aeab349a2d3ee68",
+            "_checkSum": "cda0ec3265529c3922e26ecd85cb7947"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntMax.cs",
+            "_guid": "672b49f309716e8409c6423dfe73ff6e",
+            "_checkSum": "638b10ebfe6050721214a7f4065f513a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntMin.cs",
+            "_guid": "024fcda1a6f0a714999e2833577be6c1",
+            "_checkSum": "9fdc38fed17a3060180035e90e3d9424"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntMultiply__Integer.cs",
+            "_guid": "e90be2135d744990992cd699aaa2522d",
+            "_checkSum": "000af324722753b8c3dba257facadc15"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntMultiply__Vector2Int.cs",
+            "_guid": "b65a4c8acd5c4374ac5976bc67991f35",
+            "_checkSum": "ac3dc754ca5b40f1a5f6f81ada487f41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntRoundToInt.cs",
+            "_guid": "57950db6d473ca5408da93b8fe8520a5",
+            "_checkSum": "64e0e955755d03ce54a4a3d8643186a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntScale.cs",
+            "_guid": "2f09877e3b9495744a2d951fd3038235",
+            "_checkSum": "75ee97914d63778e823a44f508a1101c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntScaleOperator.cs",
+            "_guid": "bba7bda33af1bfa498b6c11178f5ae86",
+            "_checkSum": "9859a0d0a4cfffa00eaa46719286708e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntSet.cs",
+            "_guid": "2a95cdabfd5ca1a4ea77327397cea3fc",
+            "_checkSum": "8d3a1c3897c8529b0f28a04918ea3427"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntSetX.cs",
+            "_guid": "c5fc7e4a08fcfd34aae9eb49b30138d1",
+            "_checkSum": "399f46da69370ea81a201ccbbdfd9ac1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntSetY.cs",
+            "_guid": "5cdea0b7d8411a44cbeb50dbafb3cdbb",
+            "_checkSum": "97034b407962f444f110c34a02d5aa8b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntSubtract.cs",
+            "_guid": "2b56d17179264eaebc8e2de48b93600d",
+            "_checkSum": "5a2f9c4093ec7df995f871feaf5e9685"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Vector2Int/Vector2IntToString__Format.cs",
+            "_guid": "2aac2881c799adb4c8a867f666cf7bb2",
+            "_checkSum": "700b05dda1b39d1e6a3ffed51393d934"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479297020247
+}

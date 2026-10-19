@@ -1,0 +1,25 @@
+.hutong-global-event-ref-field {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.hutong-global-event-ref-field > .hutong-ref-dropdown {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -2px;
+}
+
+.hutong-global-event-ref-field .hutong-variable-var-field__variable-toggle {
+    margin-right: -2px;
+}
+
+.hutong-global-event-ref-field__event-data {
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.hutong-global-event-ref-field__event-data .hutong-field {
+    margin-left: 0;
+    margin-right: 0;
+    border-left-width: 0px;
+}

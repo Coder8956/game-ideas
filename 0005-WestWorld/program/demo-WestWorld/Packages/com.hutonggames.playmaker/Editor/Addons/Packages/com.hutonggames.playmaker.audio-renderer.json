@@ -1,0 +1,48 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-renderer",
+    "_displayName": "Audio Renderer",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioRenderer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Allow recording the main output of the game or specific groups in the AudioMixer.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AudioRenderer.html",
+    "_icon": "Audio/AudioRenderer",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioRenderer/AudioRendererGetSampleCountForCaptureFrame.cs",
+            "_guid": "0e4914570dd464542ad28c14de1169aa",
+            "_checkSum": "13ba2cf017b102f3cd781855aad56034"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioRenderer/AudioRendererStart.cs",
+            "_guid": "11cfbf4b410a2984290a0d78804bf664",
+            "_checkSum": "1ff4ec8ddb3f32e062f057d47224fac2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioRenderer/AudioRendererStop.cs",
+            "_guid": "5c7c1aca2fa93bc41aec2f40024112aa",
+            "_checkSum": "3aacfafe47b9a7e7365785fc852352b5"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479292828272
+}

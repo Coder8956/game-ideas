@@ -1,0 +1,143 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ai.navmesh-obstacle",
+    "_displayName": "NavMeshObstacle",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to access MavMeshObstacle information at runtime.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AI.NavMeshObstacle.html",
+    "_icon": "AI/NavMeshObstacle",
+    "_tags": [
+        "Actions",
+        "AI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetCarveOnlyStationary.cs",
+            "_guid": "f178a00e6064792408ed5b5c015335f9",
+            "_checkSum": "be39acbb54174b8be8582ccd71d94372"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetCarving.cs",
+            "_guid": "c847df2bbdce55a489eaf397225c588b",
+            "_checkSum": "9669587b633d7b88183eec48712c6ad1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetCarvingMoveThreshold.cs",
+            "_guid": "6f55ed449b79eb4458da76d38083d98a",
+            "_checkSum": "21ee720eec22b86da230b2938b665f1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetCarvingTimeToStationary.cs",
+            "_guid": "a32a6f1591c50f0469a03c2bbb6b8721",
+            "_checkSum": "415e915f5ec056511bd67469fbfc03ec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetCenter.cs",
+            "_guid": "2de96414b2309a2478fe713754ea485a",
+            "_checkSum": "34937b2748636321b2073115e5caca49"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetHeight.cs",
+            "_guid": "94774eb7b62ddc04c8d36aa470c4ada5",
+            "_checkSum": "93fe6aef72a252c633cbcc5139927ce0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetRadius.cs",
+            "_guid": "0a046f9232b1be1488dba987378d5f04",
+            "_checkSum": "ed3b91453c1958236ade2c9b4056d150"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetShape.cs",
+            "_guid": "13306981b13f72a43aa225abdf2bd94f",
+            "_checkSum": "2174050e877bb5220a9c9ac9ed08cb8f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetSize.cs",
+            "_guid": "966352b0ec02eab49a376c3420265dd2",
+            "_checkSum": "b3bff8635976cbdce79ab83302c5cdde"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleGetVelocity.cs",
+            "_guid": "c877cfc74af3d654b8e070aeec30a2af",
+            "_checkSum": "e5b73be763646266c1705d51ef03d15c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetCarveOnlyStationary.cs",
+            "_guid": "c20e915fd5ddb404292c304407164799",
+            "_checkSum": "678fb0f0f7d93ac9e74e78ef42d493d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetCarving.cs",
+            "_guid": "478e4f01f3d72534dac89916f4f7ab18",
+            "_checkSum": "67e778a7101cb47c05d32858157d7e7d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetCarvingMoveThreshold.cs",
+            "_guid": "6643a753bb292534792b04ba1f0e971f",
+            "_checkSum": "cc37738c4c2b604d941c778d067f0078"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetCarvingTimeToStationary.cs",
+            "_guid": "c84f058be3609554d981601d7c49bfdd",
+            "_checkSum": "a56688419b23449c90f7047427cb065e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetCenter.cs",
+            "_guid": "1cbb6a3ad44e3534db48a0e73416d2ee",
+            "_checkSum": "01908d1ee92abf4a73fb6f47bca9a1c7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetHeight.cs",
+            "_guid": "e9fadf3f80fece9438c8b06ae11b3c68",
+            "_checkSum": "ef544fc86b4bdded66780496da66ae7b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetRadius.cs",
+            "_guid": "6fc50fecb08db2143a22a97cc7ac10ee",
+            "_checkSum": "547acb7362263922f22a82902360e1a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetShape.cs",
+            "_guid": "5ecac840d51c3a1449df46f3f8e70e42",
+            "_checkSum": "54408ccded993d8ec3571be6b047406d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetSize.cs",
+            "_guid": "255e1133edb9b0f4e86d4dad4b9ce769",
+            "_checkSum": "39e8c61a46ed63905fe665b5d5aa14c9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/NavMeshObstacleSetVelocity.cs",
+            "_guid": "4ea14b12d1b8ce1448917269c770025a",
+            "_checkSum": "977b98202bf5b3cfccc5b0dfe0c654d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/Variables/NavMeshObstacle.cs",
+            "_guid": "e93f6cc71840b9641b3d6625802c5b8b",
+            "_checkSum": "2e500be44e24ff1cc82511b8cd7a6bf9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/NavMeshObstacle/Variables/NavMeshObstacleShape.cs",
+            "_guid": "3e0318b3251c01144a559f85d7fdbc33",
+            "_checkSum": "a4d718899b62de3baeac9168f2e040ec"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479659328238
+}

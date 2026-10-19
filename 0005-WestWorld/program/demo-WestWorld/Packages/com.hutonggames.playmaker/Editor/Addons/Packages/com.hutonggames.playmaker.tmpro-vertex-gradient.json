@@ -1,0 +1,73 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.tmpro-vertex-gradient",
+    "_displayName": "TextMeshPro Vertex Gradient",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Action to set vertex gradients in TextMeshPro.",
+    "_description": "Normally these are setup at edit time, but you can use these actions to change settings at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/api/TMPro.VertexGradient.html",
+    "_icon": "TMPro",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientGetBottomLeft.cs",
+            "_guid": "9e6c9b636e1a0244698bf3c7c8f1cda4",
+            "_checkSum": "695dc06cf0b8e2e01a02bf81d68f9084"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientGetBottomRight.cs",
+            "_guid": "babae6d6c8a3c624bb58615825c2989a",
+            "_checkSum": "eb36ec4d5ad74fd59cf1ef213c79828d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientGetTopLeft.cs",
+            "_guid": "1c0af99f5f41d54479f224b77ca675f6",
+            "_checkSum": "17f7ebfe91bce6bc64bbb8fc5ddfd8eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientGetTopRight.cs",
+            "_guid": "949eba795cecdd84dabe1dd8f4bced2a",
+            "_checkSum": "b960f6702014da149ca5cc67cdb99ad5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientSetBottomLeft.cs",
+            "_guid": "95dbb3faf94558b46988c8f269edc2c3",
+            "_checkSum": "dd7acdbed8d42546db940ff392d03c21"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientSetBottomRight.cs",
+            "_guid": "d8697f4660b6d19459108dbc0d661cd9",
+            "_checkSum": "ae3eeecaddc434ae088d45195573857e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientSetTopLeft.cs",
+            "_guid": "b6402281489a0ab43898783919e1c6f4",
+            "_checkSum": "71e7481c419a1215683f9990264eeaf3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/VertexGradient/VertexGradientSetTopRight.cs",
+            "_guid": "43a7917dfcf327542a908b61b41e3aff",
+            "_checkSum": "75d4d91e7b8e102c6b56b572b821389f"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479408307352
+}

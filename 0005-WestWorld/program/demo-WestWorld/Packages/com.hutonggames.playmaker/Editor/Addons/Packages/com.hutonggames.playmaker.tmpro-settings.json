@@ -1,0 +1,248 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.tmpro-settings",
+    "_displayName": "TextMeshPro Settings",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to manipulate TextMeshPro Settings.",
+    "_description": "Normally these are setup at edit time, but you can use these actions to change settings at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/api/TMPro.TMP_Settings.html",
+    "_icon": "TMPro",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetAutoSizeTextContainer.cs",
+            "_guid": "f24b94d039218404f8e5c74b917b4dca",
+            "_checkSum": "b543e71a64f7525ca9a0ccd75070eaae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultColorGradientPresetsPath.cs",
+            "_guid": "abae8ed371db0dd4dba6351aa70655af",
+            "_checkSum": "58d3f7c226b0dd37fe28e8287fb99ae6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultFontAsset.cs",
+            "_guid": "2df38c33619cde547ae3d11b71768a38",
+            "_checkSum": "88a4e78a9ab3ade25c9722655385c6d5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultFontAssetPath.cs",
+            "_guid": "08a808dd6effaaa4d98aa1b6415d308c",
+            "_checkSum": "5178476f3963126552cb350236db8c6e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultFontSize.cs",
+            "_guid": "74d904464fedf4d4b9eee8c723e8933d",
+            "_checkSum": "3038a6e3c687fdf2dc5351cbc154587b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultSpriteAsset.cs",
+            "_guid": "9f8877645be93b549868a7afb4b9648d",
+            "_checkSum": "85a859e9730a1b7c5122794fb1196fd9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultSpriteAssetPath.cs",
+            "_guid": "ae366847af054c845a35f0b0bb553c17",
+            "_checkSum": "195191c03f5b8b18f96cbdd9d319ead9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultStyleSheet.cs",
+            "_guid": "f92c9259f4f1eb44c9d8df649aea1722",
+            "_checkSum": "d8571965cf3956f5a8cbf90e7cb09273"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultTextAutoSizingMaxRatio.cs",
+            "_guid": "aa52bceb2b6686042ab4bedc47bb4082",
+            "_checkSum": "9fc0b1d84f8224caf155986b1d348dec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultTextAutoSizingMinRatio.cs",
+            "_guid": "2bb56d37d1ab180488022c6a308c57db",
+            "_checkSum": "dd2c70a0e47f8ff8d757e50bf35f6c54"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultTextMeshProTextContainerSize.cs",
+            "_guid": "69a7ef3abd2c4d74d86481feca64167d",
+            "_checkSum": "69f79cd1b627b379585a746c0789a946"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetDefaultTextMeshProUITextContainerSize.cs",
+            "_guid": "78dbf1d528943bc41908688df7854b4c",
+            "_checkSum": "d0b2d1f700b67b8668380841b91858a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetEnableEmojiSupport.cs",
+            "_guid": "d3851f52c60887846a0cdb6f8fd5726c",
+            "_checkSum": "8c8c4957b6099c0bcefe551616a7c246"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetEnableExtraPadding.cs",
+            "_guid": "7408f6e6f350b1f4d8d15e12d430bc6b",
+            "_checkSum": "21f7703d1459799b2bb72279554e9824"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetEnableKerning.cs",
+            "_guid": "0f2a0ad844c47fa4f84ea2dd805dca3a",
+            "_checkSum": "0c0a7ec09b8fd2ff5eb163ca308e9902"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetEnableParseEscapeCharacters.cs",
+            "_guid": "560edc3ad90fd4e44afc072d2f25fe65",
+            "_checkSum": "29590c901130f5ab25b3d7f27813dc0b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetEnableRaycastTarget.cs",
+            "_guid": "45f22bbef7543a0439ce2e4134b3c27e",
+            "_checkSum": "60a32b4d3b74ba1e83a565dd5c641153"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetEnableTintAllSprites.cs",
+            "_guid": "32aa93e909bf65244aa9b5422aa07fc1",
+            "_checkSum": "b6df3b41fd43c3e82f7a8310be696205"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetEnableWordWrapping.cs",
+            "_guid": "346786f079702a742acca2914ddf52ff",
+            "_checkSum": "5bf8ba0bfb67a539b0cc46d0fc7af7cd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetFallbackFontAssets.cs",
+            "_guid": "00abb3366d37d964d83d4751691e66a6",
+            "_checkSum": "0ee275a4bf2153e0c67ac17f4bac92f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetFollowingCharacters.cs",
+            "_guid": "863751d3b6fb6804e88fec048c63cb39",
+            "_checkSum": "6ee7aa2794ca20061612f32ba18bb5d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetFontAsset.cs",
+            "_guid": "5ca00c2790497134d95e455cf3960209",
+            "_checkSum": "56a9b7fcb792edf33a5f5bffad334d74"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetGetFontFeaturesAtRuntime.cs",
+            "_guid": "c30fdbc598868ba40a4bfec62947e55c",
+            "_checkSum": "e21c1aec5c3029a8c938665a151384e6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetInstance.cs",
+            "_guid": "10ea51e1797fe1c449c9540cc84b299f",
+            "_checkSum": "6379d096d1a984c509fe298c2dcf80f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetIsTextObjectScaleStatic.cs",
+            "_guid": "2bfc8eb6309a9d449bb9e15722c92e6e",
+            "_checkSum": "fc574d5fc412aabdb89617e379a81d96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetLeadingCharacters.cs",
+            "_guid": "d3453ba18261a6045905d351fe2cdd77",
+            "_checkSum": "542557654764cf4e8aee58d52ab23ba7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetMatchMaterialPreset.cs",
+            "_guid": "66184e8ad392f7c42bd877d3a34ea561",
+            "_checkSum": "974fa4c530f046c8b2444e24d708926f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetMissingCharacterSpriteUnicode.cs",
+            "_guid": "b57791e7d85c33446aa6184ccd48f91b",
+            "_checkSum": "12432b4dbb6421842afb2a8ba7d4fb4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetMissingGlyphCharacter.cs",
+            "_guid": "f866fdc1279ab0049a519e2b776ef145",
+            "_checkSum": "4115be23f20c0862d4c22d5245209019"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetSettings.cs",
+            "_guid": "0437a287e29f7d74f979e68eb094e09a",
+            "_checkSum": "9677bc5626fba2d9319a803a8d035fd1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetSpriteAsset.cs",
+            "_guid": "94ca59de045b4b846854bada057d9316",
+            "_checkSum": "25faa0b72ae3e4395bbb975bdd24260e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetStyleSheet.cs",
+            "_guid": "e95ccd2eaaef3ac4fa4c31f78cf55aec",
+            "_checkSum": "d6d5b07675642ce83146e3717f0062b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetStyleSheetsResourcePath.cs",
+            "_guid": "0759b08d46b25494d87b58341db8c1d6",
+            "_checkSum": "57dc0c5d1576730ef7dac3117fe5a098"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetUseModernHangulLineBreakingRules.cs",
+            "_guid": "1d9c316ce2fcba442b3e343849a067f4",
+            "_checkSum": "a7984205f4ea7e09cd4c927c0a5e4925"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetVersion.cs",
+            "_guid": "efafbb616d9886a42935d74289b048df",
+            "_checkSum": "95806d57a4ccbc55180db3edef0fcddb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsGetWarningsDisabled.cs",
+            "_guid": "2b20c2f924d3b72418e53827ed4cb9b8",
+            "_checkSum": "c0d7074e9f523d315d989124f1c8b78f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsLoadDefaultSettings.cs",
+            "_guid": "460989e9bac4f8940ac1385441408159",
+            "_checkSum": "7cb889e32fb818ed19f36dc010be5520"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsLoadLinebreakingRules.cs",
+            "_guid": "1dec434a2453c474397a41f92747e428",
+            "_checkSum": "05d854b08a4f0e9571086bc1b15bbec3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsSetEnableEmojiSupport.cs",
+            "_guid": "5960f0e6c1130ec4984fd3e0b69db98b",
+            "_checkSum": "63c88088f395ba462f4d924e9936728b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsSetIsTextObjectScaleStatic.cs",
+            "_guid": "6bdcbefd80d5d3449ab118e9a52d93b6",
+            "_checkSum": "8405598817c91ecbdb5d527916aec27a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsSetMissingCharacterSpriteUnicode.cs",
+            "_guid": "31b32601a9187804fa3422ee3f6413d2",
+            "_checkSum": "b2110be589dae3616f6bf22e8c477265"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsSetMissingGlyphCharacter.cs",
+            "_guid": "ad63b7ccc0a0b724980cfdf935aace65",
+            "_checkSum": "6d8f59f1047b9f90b10a39a8188ac44c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_Settings/TMP_SettingsSetUseModernHangulLineBreakingRules.cs",
+            "_guid": "100bbdc6b9575d242ba644b586bc92d3",
+            "_checkSum": "c8f6f0847ed8294d77a3fd5e86496e1d"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479254817529
+}

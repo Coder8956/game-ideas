@@ -1,0 +1,58 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-source-spatializer",
+    "_displayName": "Audio Source Spatializer Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Spatializer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Advanced audio spatializer actions.",
+    "_description": "Custom spatializer effects improve the realism of sound propagation by incorporating the binaural head-related transfer function (HRTF) such that the listener can better sense the directionality of the sound through the filtering of the head and the micro-delays between the ears. Unity supports custom spatialization effects as optional plugins through the native audio plugin system.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AudioSource.html",
+    "_icon": "Audio/AudioSource",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Spatializer/AudioSourceGetSpatialize.cs",
+            "_guid": "831e9a5132f9ea54696b62164236e9e6",
+            "_checkSum": "a663b8753e0fbd95a3d473160ebfb7d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Spatializer/AudioSourceGetSpatializePostEffects.cs",
+            "_guid": "096d08e4915a35b4d84d1fdb63737e5a",
+            "_checkSum": "667d8f72142235ed8c367e3a56079d71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Spatializer/AudioSourceSetSpatialize.cs",
+            "_guid": "4b58fa0cf02530747ae0ff7543f5747f",
+            "_checkSum": "cfbaf7396059d73235fc45ec418f09a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Spatializer/AudioSourceSetSpatializePostEffects.cs",
+            "_guid": "2c2540b998fab734b86d47fd097d1a10",
+            "_checkSum": "7f064d132044d9b5172ced3334e15c2b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Spatializer/AudioSourceSetSpatializerFloat.cs",
+            "_guid": "b115527833ca7db479e9924ef7fccb5b",
+            "_checkSum": "381c8d715d8f89d898e970bb8c66b11d"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479677933189
+}

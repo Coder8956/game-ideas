@@ -1,0 +1,59 @@
+.hutong-graph-view {
+    flex-grow: 1;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hutong-graph-view__graph-view-container {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.hutong-graph-view__content-view-container {
+    position: absolute;
+    transform-origin: 0 0;
+}
+
+.hutong-graph-view__link {
+    position: absolute;
+    opacity: 1;
+}
+
+.hutong-graph-view__link--error {
+    opacity: 0.25;
+    --link-color: red;
+}
+
+.hutong-graph-minimap {
+    position: absolute;
+    opacity: 0.25;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hutong-graph-minimap:hover {
+    opacity: 0.6;
+}
+
+.hutong-graph-minimap--top-left {
+    transform-origin: top left;
+    left: 12px;
+    top: 12px;
+}
+
+.hutong-graph-minimap--top-right {
+    transform-origin: top right;
+    right: 12px;
+    top: 12px;
+}
+
+.hutong-graph-minimap--bottom-left {
+    transform-origin: bottom left;
+    left: 12px;
+    bottom: 12px;
+}
+
+.hutong-graph-minimap--bottom-right {
+    transform-origin: bottom right;
+    right: 12px;
+    bottom: 12px;
+}

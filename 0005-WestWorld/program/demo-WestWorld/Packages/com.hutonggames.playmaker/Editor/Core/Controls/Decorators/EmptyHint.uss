@@ -1,0 +1,25 @@
+.hutong-empty-hint {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hutong-empty-hint__label {
+    align-self: center;
+    flex-wrap: wrap;
+    -unity-text-align: middle-center;
+    opacity: 0.5;
+    white-space: normal;
+    max-width: 250px;
+    overflow: hidden;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.hutong-empty-hint--multiline > .hutong-empty-hint__label {
+    -unity-text-align: middle-left;
+}

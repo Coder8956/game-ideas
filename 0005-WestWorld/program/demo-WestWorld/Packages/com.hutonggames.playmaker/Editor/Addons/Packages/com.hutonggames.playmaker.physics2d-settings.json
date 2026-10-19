@@ -1,0 +1,269 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics2d-settings",
+    "_displayName": "Physics2D Settings",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to access Physics2D settings.",
+    "_description": "Normally these are set in the editor, but you can use these actions to change them at runtime.",
+    "_helpUrl": "",
+    "_icon": "Physics2D/Settings",
+    "_tags": [
+        "Actions",
+        "Physics",
+        "2D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetAngularSleepTolerance.cs",
+            "_guid": "52f99979435b28c45aa07604a4118898",
+            "_checkSum": "071a004706bfa6413a231724dec1b5e8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetAutoSyncTransforms.cs",
+            "_guid": "22032bf71116f234ea113f7443770edf",
+            "_checkSum": "0558bd3fe73e83e3233efba630e85496"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetBaumgarteScale.cs",
+            "_guid": "1ba66c3fdda4eaa4aa697aa94b98c5b8",
+            "_checkSum": "1af88a93291b418ad9e209d606812d3b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetBaumgarteTOIScale.cs",
+            "_guid": "4c4e912d4ff2a6544b3196e5df269abc",
+            "_checkSum": "ba7739aae0019989a45df11193b10829"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetBounceThreshold.cs",
+            "_guid": "2479eeaabab94b26a43404d8e2827a82",
+            "_checkSum": "6afd20a6d0906151cc6aba0e5a032830"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetCallbacksOnDisable.cs",
+            "_guid": "ca66ead7fd88e344bb68b00ac2079c37",
+            "_checkSum": "cece6614f91cff07c359fd882f708428"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetDefaultContactOffset.cs",
+            "_guid": "46308424c026f5c45bfef764de4c2b94",
+            "_checkSum": "89ad3a7ab3e845a3a662d8c0b8c614c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetIgnoreCollision.cs",
+            "_guid": "d2e895238c37fa6458b32a906491eb53",
+            "_checkSum": "afea66bb4fbf19f66807b59f105e9874"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetIgnoreLayerCollision.cs",
+            "_guid": "3c80693c2cf9b374e82d02e55f3d48c1",
+            "_checkSum": "2d04631e62d1b48369c4a67d7df55a78"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetLayerCollisionMask.cs",
+            "_guid": "d69ed92f63b24fb4187f928df2d516af",
+            "_checkSum": "ca189175966f95d9d3c1dd469200669c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetLinearSleepTolerance.cs",
+            "_guid": "e4f9f3d9064e1b0419d8eb1e61c48995",
+            "_checkSum": "38522bf0eaaf68321b1997877c5b0f9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetMaxAngularCorrection.cs",
+            "_guid": "2b02c5c4cc5f4b1438acdc1f11e8bebf",
+            "_checkSum": "3684c7554a6bb20e049ddecbc357e97a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetMaxLinearCorrection.cs",
+            "_guid": "676d2e54dc20a8f4db7576a5e98b4269",
+            "_checkSum": "4f02280c005929153ca2911b9c6d611e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetMaxPolygonShapeVertices.cs",
+            "_guid": "b3d78cc625d671f4a802fdc38e1ddde2",
+            "_checkSum": "f9761a2c967c0b0fcb3d9f2555211785"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetMaxRotationSpeed.cs",
+            "_guid": "0864fa1de4598384cbc1186c442e4a1b",
+            "_checkSum": "1c6e24e7944ea05d0b5b7c095ae1df51"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetMaxTranslationSpeed.cs",
+            "_guid": "3ff0ecc56c9259a4982201f040057bb6",
+            "_checkSum": "7eec24ed1a7acf0e17d63869bc87d6d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetPositionIterations.cs",
+            "_guid": "51c9d1776123f5f459bbcfa3e6ddef3c",
+            "_checkSum": "d403d27001d2dff9cb6b75e21ba61174"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetQueriesHitTriggers.cs",
+            "_guid": "efff4491473301c4f872fed5509924b9",
+            "_checkSum": "ccbce721c0a56884e80ed3e8ee4ef263"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetQueriesStartInColliders.cs",
+            "_guid": "47cede7cf72f60544aaeca3deaaf4f94",
+            "_checkSum": "78041e38c7ab82a41a076648fd65f62a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetReuseCollisionCallbacks.cs",
+            "_guid": "faff03ca9ea9ce647bd5c62e067c3cee",
+            "_checkSum": "313392fb06c8d6ab599c4a3ff8ff7676"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetSimulationMode.cs",
+            "_guid": "368c663f031634b41a20862d576e3c03",
+            "_checkSum": "c8cd613ccd5bdd1803f2207b95e7dcaf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetTimeToSleep.cs",
+            "_guid": "2a9322cc54d511445bacea3483558de6",
+            "_checkSum": "dce633ba1d9f9b6c24eca01e05f304e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetVelocityIterations.cs",
+            "_guid": "b2e912a794af78449a68b2a4e5184210",
+            "_checkSum": "1aa24a1b2dc5355ffe5ae72190450811"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DGetVelocityThreshold.cs",
+            "_guid": "b8f0b64135d3a784eb9b4ee9e8a8e3df",
+            "_checkSum": "a79f51a3e9f22813167963ce63e72102"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DIgnoreCollision.cs",
+            "_guid": "d0dbb11e62fde4d44bacf59791097371",
+            "_checkSum": "d81d62104e38f54f117f1446d22750f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DIgnoreLayerCollision.cs",
+            "_guid": "2583d09370af0ca44a3e71d01bce35ee",
+            "_checkSum": "1f0e19dc08a6ba67ef6a6244386fbcfc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetAngularSleepTolerance.cs",
+            "_guid": "d3907f10b9629e540b73ed633503f129",
+            "_checkSum": "cdd357eda75897d30ab2ce21b15d7c6d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetAutoSyncTransforms.cs",
+            "_guid": "35cc79611d7f1244ab94bb7022f644c8",
+            "_checkSum": "b50f5f545be41a4063acee7d0bfd7cd6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetBaumgarteScale.cs",
+            "_guid": "6e0b57da19ef68d48ab043ba019c35f0",
+            "_checkSum": "f70edfa63bffdaeaf332af7799017527"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetBaumgarteTOIScale.cs",
+            "_guid": "e117e0b5775a5c748a9367da92d078fa",
+            "_checkSum": "5a430417830d0c527c0534314be9e792"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetBounceThreshold.cs",
+            "_guid": "06def3299fa9421fbdba41b638a52f1d",
+            "_checkSum": "a5d73cd47a34fdb00b132a15016a395c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetCallbacksOnDisable.cs",
+            "_guid": "935e7334edcd1604d9906fc79341820c",
+            "_checkSum": "9fe4920d9b93c3bc9b3db5fc106fa309"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetDefaultContactOffset.cs",
+            "_guid": "3f57084096513f546ac0d1a3630e2461",
+            "_checkSum": "a074c0d02f9c462cad960bbfabb082eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetLayerCollisionMask.cs",
+            "_guid": "3d456102b1d0fed419bd3a2608d4afb1",
+            "_checkSum": "8befe1012ca1443f5eb40f03b6e7a43d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetLinearSleepTolerance.cs",
+            "_guid": "0a02838dfb42f754cac606794e803934",
+            "_checkSum": "4a4039abdb2bf47c548766b56badaac2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetMaxAngularCorrection.cs",
+            "_guid": "af757acf8cde4dd47889f4d46c307094",
+            "_checkSum": "9605b8a3db503640fb2fc7383a771303"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetMaxLinearCorrection.cs",
+            "_guid": "347bed391495e354f9d0eb68641c117a",
+            "_checkSum": "7c471a82dcb87b1e69159ef3f678007b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetMaxRotationSpeed.cs",
+            "_guid": "f8b0731e4c0fee9468899c183497d177",
+            "_checkSum": "e8d30c840d10bd8e842442ad7ddb25ad"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetMaxTranslationSpeed.cs",
+            "_guid": "b6f867022efbe7043ad7ac510c8b87b5",
+            "_checkSum": "d6a0f2576944578a94bf08c2e3733248"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetPositionIterations.cs",
+            "_guid": "e8ab814f644183a4bae5bebd92e19fb5",
+            "_checkSum": "e2f54871e4781307d065af2d5e20e1c7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetQueriesHitTriggers.cs",
+            "_guid": "64258d988c64a0a48826cad64ad9e4c5",
+            "_checkSum": "fdea2c25ee8c0055128c9d1153e5d1b7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetQueriesStartInColliders.cs",
+            "_guid": "ffa6c1f94f40a73498527aed96f77009",
+            "_checkSum": "81a9f718d50797028e473de83a98ca31"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetReuseCollisionCallbacks.cs",
+            "_guid": "f8d7f837370c87641a62f0014c94a05e",
+            "_checkSum": "33bc6089efe1f61e47a79b204b2f18b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetSimulationMode.cs",
+            "_guid": "4838383bf8ec566418a3a59a9ef1ad3d",
+            "_checkSum": "78e06f998676f51a119a3a1be81c13ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetTimeToSleep.cs",
+            "_guid": "0f90c349ad1307e43a6eb6026a059608",
+            "_checkSum": "beea5826188611239c1267dc8bf68418"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetVelocityIterations.cs",
+            "_guid": "510ba9cfef609c749992f34bb28343c1",
+            "_checkSum": "528aca10e7e6dcd7aad69f53b755a0cd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/Settings/Physics2DSetVelocityThreshold.cs",
+            "_guid": "bd14898b074392b4ba8ed158c12b45e3",
+            "_checkSum": "a069ffeeb60b04049f0456817d376746"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479200803628
+}

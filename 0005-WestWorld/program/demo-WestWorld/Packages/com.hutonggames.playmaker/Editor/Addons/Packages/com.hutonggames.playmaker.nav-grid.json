@@ -1,0 +1,270 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.nav-grid",
+    "_displayName": "NavGrid",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid",
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent",
+        "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/NavGrid"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Movement and pathfinding on a 2D grid.",
+    "_description": "",
+    "_helpUrl": "",
+    "_icon": "AI/NavGrid",
+    "_tags": [
+        "Actions",
+        "2D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridApplyTileCostProfile.cs",
+            "_guid": "e9e34239ed05481f97619b759b3d3575",
+            "_checkSum": "faf7508e023f8803bcd8916fa4166822"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridApplyTileCosts.cs",
+            "_guid": "53e223b695434548b5bf20fe5126a42c",
+            "_checkSum": "a61b5a481c04c17202a092caf7c278d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridBuildFromTilemaps.cs",
+            "_guid": "0f6f0e7dae22416b8ac1d1ee3590a857",
+            "_checkSum": "365881fc43e815c26fdbd94ea829a821"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridFindPath.cs",
+            "_guid": "3921e2dab76f407da4b12f1c6f18d7a4",
+            "_checkSum": "11be625a1012a3e3d91f6b535d6d6079"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridFollowPath.cs",
+            "_guid": "8b065aba81df49b5aa43a569bb76b1b8",
+            "_checkSum": "1ddca63f9843747c0f669a1fb50ee40b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridFollowTarget.cs",
+            "_guid": "c8428a4c3a4d4251a581fde937f4b7db",
+            "_checkSum": "931950faef9b45d50e122561222a29fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridGetCellAtTransformPosition.cs",
+            "_guid": "cd1aca3ac9ce4e61aa6d89fb64e5a73c",
+            "_checkSum": "035829e3674834f91189653c4cb9412b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridGetCellAtWorldPosition.cs",
+            "_guid": "997d6a7759b64ae7a29d5c3449d10610",
+            "_checkSum": "974dd7cbce5c73b59a506113a93db41c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridMove.cs",
+            "_guid": "dd677ae43b404f07aaef3328bbe49d60",
+            "_checkSum": "85348a20d457572bcda247ccf0262432"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridPruneUnreachable.cs",
+            "_guid": "20dab8d3645948368512c6d576f9de3a",
+            "_checkSum": "5108cb615494ba8ae3de053475cb0d24"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/NavGridSmoothPath.cs",
+            "_guid": "e536cc97716149bda143e2c1463c27db",
+            "_checkSum": "0efecffcfefe68805d1616a17feaabd0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Components/NavGridBaker.cs",
+            "_guid": "e7cc1390a66a4899879789ea2ef9e486",
+            "_checkSum": "e185fb3f0e8e30a8846dc4f41e3aff5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Components/NavGridVariable.cs",
+            "_guid": "cde39bd01d39459785f227e080279805",
+            "_checkSum": "08b485d86dc6d2c37a283d1828b55a8a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Debug/NavGridDebugCosts.cs",
+            "_guid": "55babbfd1a523dd45a3e0c8dc577f557",
+            "_checkSum": "8d81d34148909282fcebba7c111cfa29"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Debug/NavGridDebugPath.cs",
+            "_guid": "165b33790e104606b21f499c1b91c3d7",
+            "_checkSum": "5bcf0e6b9eb5a655af95346ffb94ada3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Utility/GridFrame.cs",
+            "_guid": "c496e77a37294bbc94976e6e9b0454d5",
+            "_checkSum": "c879953a8fc43a64cd878d40663fde00"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Utility/NavGrid.cs",
+            "_guid": "99a6785935dc4849b2626d693b62b0c5",
+            "_checkSum": "c7fbddfa65952dfa05c3a13bd4354e91"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Utility/NavGridAStar.cs",
+            "_guid": "dd13787a042148639267d668d2c5ff5d",
+            "_checkSum": "b0c3d87cae892bd8df1a067a206a47e8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Utility/NavGridReachability.cs",
+            "_guid": "314b9a2fa76c46338057c86bca5d72e3",
+            "_checkSum": "3e1ec481a0a7f8349f4d1a560169e8cf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Utility/NavGridTileCostProfile.cs",
+            "_guid": "b2eed590b5ae462f91cac2788053dcd3",
+            "_checkSum": "04adcc69a8fb81ee789d3f645ae9857f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Utility/NavGridTileCostProfileVariable.cs",
+            "_guid": "f9e08b412c3e44318759cb789126c50a",
+            "_checkSum": "2fd5ec77bd46cd1ce9de9273dcdf7261"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGrid/Utility/NavGridUtility.cs",
+            "_guid": "f5bccdff272946968709898d9e2a1af6",
+            "_checkSum": "9223f423c8b7d76a0774409db734fa79"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentGetDirection.cs",
+            "_guid": "97104c45eb134b3c9ccbc6b3d1f73f9c",
+            "_checkSum": "62ef5cd826f2adf1a0954859814960eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentGetSpeed.cs",
+            "_guid": "3a28fa55462e4674bd29e7aa2bdec80a",
+            "_checkSum": "07eb63b216356935e2ee86e4e0f4db52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentMoveToPosition.cs",
+            "_guid": "8553c1a864ab4972bae1341796f14f95",
+            "_checkSum": "d7601aa7cc4d73eec50b4a326cad1429"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentMoveToTarget.cs",
+            "_guid": "8657310be88a40c5b99dcdf783bdd734",
+            "_checkSum": "54104327b34cf8a00b9e663d1b6ada9a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentOnArrived.cs",
+            "_guid": "61b668afaf914871812ba093397a70ad",
+            "_checkSum": "f78071930c508affa9c9e3ed2d24eb04"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSetDirection.cs",
+            "_guid": "83facf266eb54da090a7c94ce7363ef2",
+            "_checkSum": "b007a40f2cbbe9b04712382c5ed3130f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSetNavGrid.cs",
+            "_guid": "5603e422c9b943c0a164e1583020a5f6",
+            "_checkSum": "645e93760b81ebed7c64cd602499007b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSetSettings.cs",
+            "_guid": "821fda805fb742d8b54137acabdb432e",
+            "_checkSum": "f2db7636dc4e358b8abf714bb69dd9c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSetSpeed.cs",
+            "_guid": "9c867044f39142d087dadbf29da659c5",
+            "_checkSum": "89b261dd79275ef439d824cd834bf773"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSetTarget.cs",
+            "_guid": "e7b08b3e446844f2a47da9ea01907b7c",
+            "_checkSum": "0f58747406acfb08eb17061ca5ca97b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSteerAwayFromPosition.cs",
+            "_guid": "c369df2fc4dd43d18f6c5bdf0a5ea3ac",
+            "_checkSum": "18fea74e2b5e4e9f0e876cbc6bf9adf4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSteerAwayFromTarget.cs",
+            "_guid": "0fbe9943d6a544ef8ed5fd582dee24f6",
+            "_checkSum": "58ca136770011b8087527e315858dbe5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSteerHelper.cs",
+            "_guid": "206a410e37b14fe099516c927867dd5e",
+            "_checkSum": "448655482948dde9cf3658474db6e9b0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSteerTowardsPosition.cs",
+            "_guid": "cf13ceae8e1c481cae85f15079a09d8e",
+            "_checkSum": "93d667a1f5a054921bbff370ddc79f35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentSteerTowardsTarget.cs",
+            "_guid": "68b6937f728240dbb1a1dfdb98e4b7d2",
+            "_checkSum": "4b62efb0b389cb6483693a76e7cc94db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentStop.cs",
+            "_guid": "e5890146183f438aa2ece62f5983dc87",
+            "_checkSum": "e0a155cc5796865c44861bb422af54cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/NavGridAgentTeleport.cs",
+            "_guid": "6bf1bdbf81cb47098a37f4ef2d18fa2d",
+            "_checkSum": "606fbda22961b98b22c3ca7723d0e13e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/Components/NavGridAgent.cs",
+            "_guid": "7283d74171ad4ef09b6ad3bc72346b1e",
+            "_checkSum": "d7a12c5c2b94805309eb16d378ec9f2a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Pathfinding/NavGridAgent/Components/NavGridAgentVariable.cs",
+            "_guid": "2222350be6a34f6ca71953e3f4762d44",
+            "_checkSum": "02d8f213272292c6b8ccb8e56cad9d69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/NavGrid/NavGridAgentEditor.cs",
+            "_guid": "a6f74999de7e4d719bd5cdf29214d055",
+            "_checkSum": "b9e05105db0fe0a247af9e3facb1089c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/NavGrid/NavGridBakerEditor.cs",
+            "_guid": "88d97d7344304a54bd5a4139ab03b472",
+            "_checkSum": "dea8440bc0adca40a350ef8271b20d5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/NavGrid/NavGridBakerEditor.uss",
+            "_guid": "a8d1fda0fc15dbf42beee64cf11df7f6",
+            "_checkSum": "b4f3bbefda46548e2647f318ce211e87"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/NavGrid/NavGridEditor.cs",
+            "_guid": "ea64d3fbf345407bbeb0768e0d59b50a",
+            "_checkSum": "637fa5565cd0b4c996a3effbb5eec189"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/NavGrid/NavGridEditor.uss",
+            "_guid": "5b33141567f84e4aa7192df10854d196",
+            "_checkSum": "77299aa21b072ad17d36362281d908a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/NavGrid/NavGridPreview.cs",
+            "_guid": "3e2f321746844666904783479c126e50",
+            "_checkSum": "75fe66c79fe7db8ecd1c2b29f2bcf337"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479396142693
+}

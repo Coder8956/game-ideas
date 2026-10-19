@@ -1,0 +1,454 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.splines",
+    "_displayName": "Splines",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.splines",
+            "MinimumVersion": "2.0.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions and variables for the Unity Splines package.",
+    "_description": "Adds PlayMaker support for Unity Splines.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html",
+    "_icon": "Spline",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/HutongGames.PlayMaker.Splines.asmdef",
+            "_guid": "3e89446caa964d9ba6f3529953aa28b3",
+            "_checkSum": "77a9d8c9a692836db0ad074db312107e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/PathIndexUnit.cs",
+            "_guid": "37b6989beb934231acc97bc1629ec372",
+            "_checkSum": "78f43b8db6ffed51c06938586e1db956"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineAnimate.cs",
+            "_guid": "301c7a5d25164971a92d3ec6f7b9c7be",
+            "_checkSum": "c0c03a56a6bff1df5b91c66511180126"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineAnimateAlignmentMode.cs",
+            "_guid": "6bd784d2c7f24bcfaf9e7f4b8d3c4f3b",
+            "_checkSum": "0c7390db0e282a3313ec98a60c6ee31b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineAnimateEasingMode.cs",
+            "_guid": "d7acb979792643e49ba352b4a3f31ac9",
+            "_checkSum": "6279d87f099cffde6658004e2aced3a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineAnimateLoopMode.cs",
+            "_guid": "e1a1548ba2dc4c819de789b9b8864f9e",
+            "_checkSum": "86937c46a9761fdbd4d4e4b5df166dcf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineAnimateMethod.cs",
+            "_guid": "091b0672dd4f444db6c0f6b2307fb9e7",
+            "_checkSum": "e4370ab412560ffde04bfb7dac8136a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineComponentAlignAxis.cs",
+            "_guid": "2cc089405d714941ac1b87ef2674202d",
+            "_checkSum": "8fe0d783b0fa76deddc6e84ce1935e3f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineContainer.cs",
+            "_guid": "7cfa8d4d132b43a9ad94b322c4ba3d7f",
+            "_checkSum": "00c012d9224c400fb4128beab60c3a23"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineInstantiate.cs",
+            "_guid": "82fd057a399d4143aa0b35ead01bfbb0",
+            "_checkSum": "e7b3a7aa1b032c834a360f06153c0c6e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineInstantiateMethod.cs",
+            "_guid": "00e82cccb6114923a2c804c37303f6ec",
+            "_checkSum": "bc209d28d9312e9b08f3eb2a9cb5cc25"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineInstantiateOffsetSpace.cs",
+            "_guid": "726d856ac84449eba571da7d5d16a13d",
+            "_checkSum": "de111ff8cbf3212206d934cb6faec6fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Variables/SplineInstantiateSpace.cs",
+            "_guid": "5fcc48950db74e6687554250b8b2fd04",
+            "_checkSum": "5a7cdc5bbf3d92d75586dea8ac1166ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/ActionBlocks/SpawnPosition/RandomPointNearSplineGeneratorBlock.cs",
+            "_guid": "bb28e739b18248dd8ab4852b2e5ab6ca",
+            "_checkSum": "660c58e853af69b8dadf25079942b62a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/ActionBlocks/SpawnPosition/RandomPointOnSplineGeneratorBlock.cs",
+            "_guid": "1434046248a84addbeabf943ebc846d7",
+            "_checkSum": "140512e30e913579cadc9ad54ff2bd84"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetAlignment.cs",
+            "_guid": "40b7e815e06a48a4bdfb605e367b6a87",
+            "_checkSum": "ac5b3f3f2e1f5f385c3920084146ce48"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetAnimationMethod.cs",
+            "_guid": "9ae66094556d436a824315b496e32d31",
+            "_checkSum": "e9ecbd4c2360092c2886cc48a40e0fbf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetContainer.cs",
+            "_guid": "4c0cec14eb024b0dafb8375bf29885f5",
+            "_checkSum": "433326d81690c7a2e17b70760aa8cd22"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetDuration.cs",
+            "_guid": "83fa1570a8724d759b97bf1f79222edc",
+            "_checkSum": "313d877c03daa3b7e7d5620e1307f163"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetEasing.cs",
+            "_guid": "5c3173baa2ad4075af4626d191cb34fc",
+            "_checkSum": "c54a749a01c69cba028146d1673653b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetIsPlaying.cs",
+            "_guid": "aab4d87c2fcd4490a26cf296aa5c4008",
+            "_checkSum": "628f75a90e5293bc84a45a518ef96636"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetLoop.cs",
+            "_guid": "95b42be4a46c43799acb5db97726d56b",
+            "_checkSum": "96f90981e9ecbaa1d461f8d917fcb46c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetNormalizedTime.cs",
+            "_guid": "bc3667a66ca64c0f887d9aade54b2a75",
+            "_checkSum": "9506bb5d23f36facf60173bb426baa96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetObjectForwardAxis.cs",
+            "_guid": "aa260966449b448d9178b346f942fe5b",
+            "_checkSum": "f8a2f7924ac9983c630d0eef51b564f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetObjectUpAxis.cs",
+            "_guid": "ec2feaf08d594cecbb5f2d3a6fb8ac77",
+            "_checkSum": "a692efd11dd64a10c0ad6c3a89a98e9b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetPlayOnAwake.cs",
+            "_guid": "6179a549a01c494898d321797eb6b459",
+            "_checkSum": "e1900f74301ca68c225c1f5339f6377c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetSpeed.cs",
+            "_guid": "36a77a00b9d04f8b9fa8fede25b967b8",
+            "_checkSum": "006daa79dc80da5c5910c1d18bc69136"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateGetStartOffset.cs",
+            "_guid": "c40f41cc551f416b9b4ae3e35cdac458",
+            "_checkSum": "8c4c3b0722a661dc678fdbaaa1229849"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimatePause.cs",
+            "_guid": "c0daa7a05d49493aa0da737f86de984f",
+            "_checkSum": "2bf360b1479d1e8b2c7cb0fb1080fe27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimatePlay.cs",
+            "_guid": "4ddc81bc03004e758099f67ff86fe867",
+            "_checkSum": "505cd446b560440b4871a80c0486f0f3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateRestart.cs",
+            "_guid": "c2d009848bd1490899e318d7a2891815",
+            "_checkSum": "2a0243c3ee93f4b02e9d9c53cce28fc7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetAlignment.cs",
+            "_guid": "f95199fad5c04c1180b311f8ae8d3a0b",
+            "_checkSum": "0373221ace0750c6e30282bca3e679c9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetAnimationMethod.cs",
+            "_guid": "0b51d4281e484c5ba7f59cef6118b5b1",
+            "_checkSum": "cb7ec97930e16b7029df1aa1aa2f5905"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetContainer.cs",
+            "_guid": "3bcf4d0a104f4af5a78313bd670d7907",
+            "_checkSum": "e5d47abe08726755e8916bbf62c2ed4c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetDuration.cs",
+            "_guid": "c9192f3368ca4263a86b2542f3044477",
+            "_checkSum": "6c6410a0a5972a076004d0bfa179fc4f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetEasing.cs",
+            "_guid": "4c5b2ecc27cd498d9db9a7a9b82780a8",
+            "_checkSum": "342b19f0ed7ceae5d37cc86f262e5461"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetLoop.cs",
+            "_guid": "3ae73d4bfd224ea1b170c30119e39532",
+            "_checkSum": "ad8feb66f47ae675975e647e08f3d72c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetNormalizedTime.cs",
+            "_guid": "19b3476cadb7491dbec2e0d11268c67b",
+            "_checkSum": "5efd16345d35d67c94508284d310604e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetObjectForwardAxis.cs",
+            "_guid": "0247bd9d505a4402adb5444ff373c17c",
+            "_checkSum": "e9b5476041d72a9e2c5943c4d510d8ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetObjectUpAxis.cs",
+            "_guid": "6c14779c11a04cf5b1684a14b9e890e2",
+            "_checkSum": "a8040f4548e0c472645e473d1e6c230a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetPlayOnAwake.cs",
+            "_guid": "2938b5fa1baf4329935610648da588f6",
+            "_checkSum": "b6ace06ec1030baa8cdc4f339ff0ddfc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetSpeed.cs",
+            "_guid": "26c2a41bcff9413e818d316d44b3eb3e",
+            "_checkSum": "0094fb0ea256987d99a00acda43417f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineAnimate/SplineAnimateSetStartOffset.cs",
+            "_guid": "14cf9e155ec843acab567851c007a6ab",
+            "_checkSum": "36e305469aa06df8451b7304b159ab36"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerEvaluate.cs",
+            "_guid": "c998f998425246ed9394b7bd6c6887a3",
+            "_checkSum": "eaeefac28c3bbe4edf3d00c71e9854bb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerEvaluateAcceleration.cs",
+            "_guid": "1fa23b4f85d04a68a7dfa193bed3fbb8",
+            "_checkSum": "b5bcf1ae54a727c773b8443e9b9b267a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerEvaluatePosition.cs",
+            "_guid": "ca7c63b2a9204e89a56deeeafdb96a2c",
+            "_checkSum": "9d178cdf4d7f0c26c55f53a33f80ba04"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerEvaluateTangent.cs",
+            "_guid": "4f30c9fbdc3741759bbc884d20b53b8b",
+            "_checkSum": "953ff7a9860fbcc34863ee533b4f069a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerEvaluateUpVector.cs",
+            "_guid": "4741e65678db4476972c67c2ee878ae4",
+            "_checkSum": "1fc17a45ae491d1579f2afc18d6554d5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerGetIsClosed.cs",
+            "_guid": "36eb739db3a944f2980d8670e54f5f37",
+            "_checkSum": "b6aac6a9b262ede38bccf4d9f70ec375"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerGetKnotCount.cs",
+            "_guid": "24bebd6d89fb49508f290cdaeebb7b82",
+            "_checkSum": "ba5ed44b49f4ed78366112fea0714c95"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerGetKnotPosition.cs",
+            "_guid": "9f40a2b9d4aa4d709d6a6bd0b6689e2c",
+            "_checkSum": "dadf955136e6c1542e11f3df73388092"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerGetLength.cs",
+            "_guid": "848c0d22e1e34e38855170e5c33f071e",
+            "_checkSum": "6e73378c11b66297c62e11ba7d96d9d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineContainer/SplineContainerGetSplineCount.cs",
+            "_guid": "5d9021aa54c944ef98ae2d2dea8db912",
+            "_checkSum": "591fd70a2f7801df8a81ebaa7cb5a28d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateClear.cs",
+            "_guid": "c425aabcff99498b8a4a965e7bb87914",
+            "_checkSum": "2b034fd389cee1cb3a300e5554772d12"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetContainer.cs",
+            "_guid": "529fd0ed20b54bb49ee17e5a13f1058f",
+            "_checkSum": "66cb63ec5e3bd42a23988d9ad0d3dad5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetCoordinateSpace.cs",
+            "_guid": "7e234a9c69dc42638d798916b968bf21",
+            "_checkSum": "e896e95c504d31985c8df5aabac8d205"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetForwardAxis.cs",
+            "_guid": "a7c3dbac79ed4ca8a69b55e95efad7df",
+            "_checkSum": "db400b5543c8355a0446a799a033582c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetInstantiateMethod.cs",
+            "_guid": "cedb2ee999ac4696b6082fba46bde837",
+            "_checkSum": "06026d30a066d6a5e0b1089d11234e75"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetPositionOffsetRange.cs",
+            "_guid": "306cf840d804421398082d8ec6b7aa75",
+            "_checkSum": "fa310881e289990de9e5de53ab3d4ca5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetPositionSpace.cs",
+            "_guid": "fbac45c56a534d4a8d3f764581c2fb42",
+            "_checkSum": "8b7c74311e798c7ebef58e0f836699b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetRotationOffsetRange.cs",
+            "_guid": "799e5bbac6c441f1bc17e6e3d9eed784",
+            "_checkSum": "cdd85f959f87bf91a9ced9994d030368"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetRotationSpace.cs",
+            "_guid": "e01a0e2fea5c46058be0203ef529501f",
+            "_checkSum": "668e34b58299203548f53c01ea2c354a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetScaleOffsetRange.cs",
+            "_guid": "efb8b7ae400643ff8c765b979f129cc4",
+            "_checkSum": "ce7e6367a635ff114d5f840c99f0dd5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetScaleSpace.cs",
+            "_guid": "e59f37986aa640d489939aef77a1c1e2",
+            "_checkSum": "b7f694037866df56ff742a686cda504e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetSeed.cs",
+            "_guid": "4c86babdaf0649fabdf832dd8f765278",
+            "_checkSum": "2047065d748d8e9b0bbeb7cfe0401471"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetSpacing.cs",
+            "_guid": "34fbe90e72774c6cbcf1aba84715b04c",
+            "_checkSum": "5b5abc51663dc94663bd2463ae732365"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateGetUpAxis.cs",
+            "_guid": "66cb4c6133754aee8a2a7bcfc54ea4bd",
+            "_checkSum": "ba9caf1594907a719901f183bbcda027"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateRandomize.cs",
+            "_guid": "a22307907aab4675a73f98cdc6407032",
+            "_checkSum": "ff043ace7ece850f8f6df24d248a4335"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetContainer.cs",
+            "_guid": "8ffecfae458140c5b4b1f922a9413eaf",
+            "_checkSum": "44d4c931e51919ffca81d89ae880160c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetCoordinateSpace.cs",
+            "_guid": "4a4319760b414798be7858c09e3fd1e2",
+            "_checkSum": "0a3f295d596c9ffb457666282db7ebb0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetDirty.cs",
+            "_guid": "f88bb5388a604d8cbdb038761a60f708",
+            "_checkSum": "dceab895436ca3a3c464704e5017df74"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetForwardAxis.cs",
+            "_guid": "03e755681a8a40f2bb5c78ebb0b0723d",
+            "_checkSum": "27d6cf283036624035c2396514429ee2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetInstantiateMethod.cs",
+            "_guid": "f74d6b3844914a5fbe97efe4a05ebc05",
+            "_checkSum": "dc5bc8bcac2190ddaadc7e7b8a07fb61"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetPositionOffsetRange.cs",
+            "_guid": "7bf6e19c613c4281a652a416951ae3b7",
+            "_checkSum": "3a579485cf6dcd3bfec6004037b494c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetPositionSpace.cs",
+            "_guid": "b573b45258b4482db7a65a3a20f238dd",
+            "_checkSum": "648fb2653f6e7016f48350fbfa7f448b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetRotationOffsetRange.cs",
+            "_guid": "9c453aaf83c84ef199a69ae492959d42",
+            "_checkSum": "4b889ac1730746e5d0ab3f77c3afc91d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetRotationSpace.cs",
+            "_guid": "c7f4b520f9a24718b7ecf2e6b0fa1c9f",
+            "_checkSum": "a9d8344a94381660782d37e90fb673c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetScaleOffsetRange.cs",
+            "_guid": "ec977345bfbb4b73a0d1cba4e1324b04",
+            "_checkSum": "c574f40012add02e9de71c37e7062eb5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetScaleSpace.cs",
+            "_guid": "2b85b9603bd44590b47e0a4c5f9fab25",
+            "_checkSum": "a1cc1de2587634d94bcba65de37d7312"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetSeed.cs",
+            "_guid": "2977706ac3874b47b5171d931beec48d",
+            "_checkSum": "62510f52964a2af7774ae5b82ffcb906"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetSpacing.cs",
+            "_guid": "6d745186df1f443282b1d65c6f9c8310",
+            "_checkSum": "485d0a454654779b46ab87095fa4b3e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateSetUpAxis.cs",
+            "_guid": "3eb470a2f50a474fa3ce4698439cddc4",
+            "_checkSum": "4327d52cf66c10f09c26d196f9afa1fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Splines/Actions/SplineInstantiate/SplineInstantiateUpdateInstances.cs",
+            "_guid": "a504d097e0a34103ad0db260dd282ec9",
+            "_checkSum": "50d5e43efb8fb6e095f2e75547eed7ac"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b77",
+    "_datePublished": "2026-07-26",
+    "_timeCode": 134295525656026751
+}

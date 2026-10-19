@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmLog/FsmLogRow.uss?fileID=7433441132597879392&amp;guid=0ba047b1a5c04dce8267bd62fd314d0d&amp;type=3#FsmLogRow" />
+    <ui:VisualElement name="row" class="hutong-fsm-log-row">
+        <ui:Label name="time-code" enable-rich-text="false" class="hutong-fsm-log-row__time-code" />
+        <ui:VisualElement name="event-log" class="hutong-fsm-log-row__event-log">
+            <ui:VisualElement name="event" class="hutong-fsm-log-row__event">
+                <ui:VisualElement name="event-icon" picking-mode="Ignore" class="hutong-fsm-log-row__event-icon" />
+                <ui:Label name="event-label" picking-mode="Ignore" class="hutong-fsm-log-row__event-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="log" class="hutong-fsm-log-row__log">
+                <ui:VisualElement name="log-indent" picking-mode="Ignore" class="hutong-fsm-log-row__log-indent" />
+                <ui:VisualElement name="log-icon" picking-mode="Ignore" class="hutong-fsm-log-row__log-icon" />
+                <ui:VisualElement name="custom-log" class="hutong-fsm-log-row__custom-log"/>
+                <ui:Label name="log-text" picking-mode="Ignore" enable-rich-text="false" class="hutong-fsm-log-row__log-text" />
+                <ui:Label name="loop-count" picking-mode="Ignore" enable-rich-text="false" class="hutong-fsm-log-row__loop-count" />
+            </ui:VisualElement>
+            <ui:VisualElement name="duration" class="hutong-fsm-log-row__duration" >
+                <ui:Label name="duration-label" picking-mode="Ignore" enable-rich-text="false" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="hutong-fsm-log-row__highlight" />
+        <ui:VisualElement picking-mode="Ignore" class="hutong-fsm-log-row__selected"/>
+        <ui:VisualElement picking-mode="Ignore" class="hutong-fsm-log-row__active" />
+    </ui:VisualElement>
+</ui:UXML>

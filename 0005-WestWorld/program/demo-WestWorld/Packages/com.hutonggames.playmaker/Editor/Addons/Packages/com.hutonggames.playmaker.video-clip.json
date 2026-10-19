@@ -1,0 +1,97 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.video-clip",
+    "_displayName": "Video Clip",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to get information about a VideoClip.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Video.VideoClip.html",
+    "_icon": "Video/VideoClip",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetAudioChannelCount.cs",
+            "_guid": "5814b8eed9a4f164ab65a29720665cc3",
+            "_checkSum": "47304c076545ebfc258092edd233f719"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetAudioLanguage.cs",
+            "_guid": "a15c6280a6f78f74684b42804880ce73",
+            "_checkSum": "5e17ef6c7ffd4e52bd267a5ab30f835a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetAudioSampleRate.cs",
+            "_guid": "5136118e6e0e6ca4fbdafb816c5aeb3f",
+            "_checkSum": "53846a73655570a7ea4e55c75c9b6e41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetAudioTrackCount.cs",
+            "_guid": "15d93c252794c84428e98dee2284eb25",
+            "_checkSum": "64d467c40f73ba48441b9844ae546c02"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetFrameCount.cs",
+            "_guid": "6ac70702eeffd6243b4e81e609dbdeec",
+            "_checkSum": "6584ac02b9d7485abbcb1cca37b586c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetFrameRate.cs",
+            "_guid": "13be9fc574504344b89e859d3ae774a5",
+            "_checkSum": "eb6fd6dfeb50a0488bb003803e8e0cd0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetHeight.cs",
+            "_guid": "1938ad3e1254c3048875ecad43da31a8",
+            "_checkSum": "8c705ce6b0cf7d3d2526ebbe0e2fe929"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetLength.cs",
+            "_guid": "95c5288669a8fcb4f952ccbea3d75a11",
+            "_checkSum": "c2590d41ceb923a79b9d93c275203c01"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetOriginalPath.cs",
+            "_guid": "e9b04c18e8d82ca448d1f6f9bea4653e",
+            "_checkSum": "de21f0742bb4e0b1d73e28881484a714"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetPixelAspectRatioDenominator.cs",
+            "_guid": "28599d31a73d1654994f5155d45b56ad",
+            "_checkSum": "1146e6ad7581d939a51384411bb9ffef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetPixelAspectRatioNumerator.cs",
+            "_guid": "7ace092c2a95e204db99bf872a78d730",
+            "_checkSum": "b4f7194dec42612ae44c6d8f88625086"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetSRGB.cs",
+            "_guid": "9af3bb6339e729740878b9240e96aea5",
+            "_checkSum": "e76945aeb8c065f4c31c540bdf49f2bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoClip/VideoClipGetWidth.cs",
+            "_guid": "3d8b38215f1b2b843a3cdcf0f740cade",
+            "_checkSum": "e7483ff3dcb7ac4f6ad2944a1870b8ec"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479517637626
+}

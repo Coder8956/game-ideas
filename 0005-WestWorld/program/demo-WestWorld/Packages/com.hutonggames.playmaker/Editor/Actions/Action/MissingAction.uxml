@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="padding: 10px;">
+        <ui:VisualElement class="hutong-row hutong-info-title-row">
+            <ui:Image class="error-icon"/>
+            <ui:Label text="Missing Action" display-tooltip-when-elided="true" class="hutong-info-title" />
+        </ui:VisualElement>
+        <ui:Label display-tooltip-when-elided="true" name="type-name" class="hutong-info-body" style="margin-top: 5px; -unity-text-align: middle-left; margin-bottom: 5px;" />
+        <ui:Label text="The script was removed or renamed.&#10;Restore the script to restore the action." display-tooltip-when-elided="true" class="hutong-info-more" />
+    </ui:VisualElement>
+</ui:UXML>

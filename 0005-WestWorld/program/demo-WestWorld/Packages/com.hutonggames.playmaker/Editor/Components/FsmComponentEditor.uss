@@ -1,0 +1,49 @@
+.fsm-component-editor__title-row {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    min-height: 24px;
+    margin-left: -18px;
+    padding-left: 6px;
+    margin-bottom: 4px;
+    /*override bar*/
+    border-left-color: transparent;
+    border-left-width: 2px;
+}
+
+.fsm-component-editor__name {
+    flex-grow: 1;
+    font-size: 14px;
+    margin-left: 1px;
+}
+
+.fsm-component-editor__name-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    margin-right: 4px;
+}
+
+.fsm-component-editor__name-field .unity-base-field__input {
+    min-width: 0;
+}
+
+.fsm-component-editor__title-row .hutong-node-inspector-header__edit-button {
+    flex-shrink: 0;
+}
+
+.fsm-component-editor__error-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background-image: resource("Icons/ErrorIcon");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    flex-shrink: 0;
+}
+
+.fsm-component-editor__description {
+    margin-bottom: 6px;
+}

@@ -1,0 +1,108 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.tmpro-text-utilities",
+    "_displayName": "TextMeshPro Text Utilities",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Various TextMeshPro Utility actions.",
+    "_description": "Can be useful for advanced applications that require dynamic text manipulation.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/api/TMPro.TMP_TextUtilities.html",
+    "_icon": "TMPro",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesDistanceToLine.cs",
+            "_guid": "498348fe7bb17e04a8b1dc9d8ccb43ab",
+            "_checkSum": "44e618a28dc2dcff7d2cb648046fdaea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesFindIntersectingLine.cs",
+            "_guid": "e1ed890ae71893843901b2d97185769a",
+            "_checkSum": "6c73e842d57f8d28c780d144a55736c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesFindIntersectingLink.cs",
+            "_guid": "98e67783740c0a649a9aeaf768a2ab74",
+            "_checkSum": "621faf99ca9c7f03850225527a352af2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesFindIntersectingWord.cs",
+            "_guid": "240aabc40067e9a4eb6799c3f501e3ef",
+            "_checkSum": "e0502c504943864f26d798d3529c4b0d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesFindNearestLine.cs",
+            "_guid": "6d9fa0968f3254245bd838dce3fb9d90",
+            "_checkSum": "6beced64a30bfa2ecb1d1f08f0455520"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesFindNearestLink.cs",
+            "_guid": "2d2340d097f49454eadf83306446e549",
+            "_checkSum": "bed94d07e3480c1eb1972386aa2d2260"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesFindNearestWord.cs",
+            "_guid": "88bf65cc14dbdb74da0d6d6e5a9715d2",
+            "_checkSum": "d67efd1670e8acaf9828000ddc97c356"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesGetCursorIndexFromPosition.cs",
+            "_guid": "73f26b2634ab45e40ab1e4f7fd0772a1",
+            "_checkSum": "ef949aace783bfb5967eae9f46d315db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesGetSimpleHashCode.cs",
+            "_guid": "badcc8369ea852a4eadcaa1681a84168",
+            "_checkSum": "2ec02a440c111c4d74eda1478d0d1ffa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesGetSimpleHashCodeLowercase.cs",
+            "_guid": "a339f93193df41a418a1cc024cb5240d",
+            "_checkSum": "5e313b9e76e10cffc9f58c19cb184ce7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesHexToInt.cs",
+            "_guid": "dd0b6147c7ce65a439e99f2670214ba0",
+            "_checkSum": "a1555c2807cff57febe6050db947996b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesIsIntersectingRectTransform.cs",
+            "_guid": "231dc0f6f4788cd4bbfc1ea8b49c75cb",
+            "_checkSum": "d1b11b17e393d0de1a8428113ca8c26a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesStringHexToInt.cs",
+            "_guid": "e334475f2f147c34bb0c7acd4e54d58a",
+            "_checkSum": "72e747ba11c1e68417cbeaba39c097ee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesToLowerFast.cs",
+            "_guid": "46eea9224bdc929498a6e6e27984dbb2",
+            "_checkSum": "71667dcbbaaaafb932735a58eff0d934"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/TMP_TextUtilities/TMP_TextUtilitiesToUpperFast.cs",
+            "_guid": "1ac80c019bc9b6b4e93ee34e40374d42",
+            "_checkSum": "cc646ebf79750c181dbf4e8d35c82577"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479546766849
+}

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:TwoPaneSplitView fixedPaneIndex="1" fixedPaneStartDimension=".4" orientation="Horizontal" name="split-view" fixed-pane-initial-dimension="300" fixed-pane-index="1" view-data-key="fsm-editor-split-view">
+        <ui:VisualElement name="graph-view" class="hutong-fsm-editor-window__graph-view" />
+        <ui:VisualElement name="inspector-panel" class="hutong-fsm-editor-window__inspector-panel" style="min-width: 250px;" />
+    </ui:TwoPaneSplitView>
+</ui:UXML>

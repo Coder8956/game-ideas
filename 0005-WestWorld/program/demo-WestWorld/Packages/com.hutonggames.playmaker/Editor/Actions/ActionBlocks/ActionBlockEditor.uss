@@ -1,0 +1,98 @@
+.hutong-action-block-editor {
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.hutong-action-block-list-editor__content > .hutong-action-block-editor {
+    margin-bottom: 0;
+}
+
+.hutong-action-block-editor__header {
+    margin-top: 5px;
+    /*wide margin-left: 16px;*/
+    margin-left: 9px;
+    margin-right: 2px;
+    margin-bottom: 7px;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    /*background-color: rgba(0, 0, 0, 0.1);*/
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.hutong-action-block-editor__header:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.hutong-action-block-editor__header-icon {
+    display: none;
+    background-image: resource('d_GameObject Icon');
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-right: 2px;
+}
+
+.hutong-action-block-editor__header-title {
+    /*wide margin-left: 2px;*/
+    -unity-font-style: bold;
+    flex-grow: 1;
+}
+
+.hutong-action-block-editor__action-icon {
+    width: 16px;
+    height: 16px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.8;
+    flex-shrink: 0;
+}
+
+.hutong-action-block-editor__swap-icon {
+    background-image: var(--hutong-editor-swap-module-icon);
+    flex-shrink: 0;
+}
+
+.hutong-action-block-editor__remove-icon {
+    background-image: var(--hutong-editor-remove-module-icon);
+    flex-shrink: 0;
+}
+
+.hutong-action-block-editor__summary-label {
+    /*wide margin-left: 20px;*/
+    margin-left: 11px;
+}
+
+.hutong-action-block-editor__header:hover .hutong-action-block-editor__swap-icon {
+    opacity: 1;
+}
+
+.hutong-action-block-editor__header:hover .hutong-action-block-editor__remove-icon {
+    opacity: 0.8;
+}
+
+.hutong-action-block-editor__parameters {
+}
+
+/*
+.hutong-action-block-editor__parameters > PropertyField > PopupField {
+    padding-left: 8px;
+}*/
+
+.hutong-action-block-editor__parameters > PropertyField > DropdownField {
+    padding-left: 8px;
+}
+
+.hutong-action-block-editor__header-subtitle {
+    opacity: 0;
+    text-overflow: ellipsis;
+    flex-shrink: 1;
+}
+
+.hutong-action-block-editor__header:hover .hutong-action-block-editor__header-subtitle {
+    opacity: 0.4;
+}

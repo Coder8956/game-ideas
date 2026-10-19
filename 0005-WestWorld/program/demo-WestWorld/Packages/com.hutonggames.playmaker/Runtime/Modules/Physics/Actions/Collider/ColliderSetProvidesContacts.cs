@@ -1,0 +1,42 @@
+﻿
+using JetBrains.Annotations;
+using System;
+using UnityEngine;
+
+
+namespace HutongGames.PlayMaker.Actions
+{
+	
+	
+	[System.Serializable]
+	[PublicAPI]
+	[ActionCategory(Category.Collider)]
+	[ActionDescription("Whether or not this Collider generates contacts for Physics.ContactEvent.")]
+	[HelpURL("https://docs.unity3d.com/ScriptReference/Collider-providesContacts.html")]
+	public sealed class ColliderSetProvidesContacts : BaseAction
+	{
+		
+		[Tooltip("The Collider")]
+		[SerializeField]
+		private ColliderVar _collider;
+		
+		[Tooltip("Set Collider Provides Contacts")]
+		[SerializeField]
+		private BoolVar _setProvidesContacts;
+		
+		public override bool CanExecute()
+		{
+			return CheckParameters(_collider, _setProvidesContacts);
+		}
+		
+		public override void Execute()
+		{
+			_collider.Value.providesContacts = _setProvidesContacts.Value;
+		}
+		
+		public override string GetSummary()
+		{
+			return "Set {_collider} provides contacts to {_setProvidesContacts}";
+		}
+	}
+}

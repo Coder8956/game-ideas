@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/FsmGraphView.uss?fileID=7433441132597879392&amp;guid=14cef0a77de71f04797aabda10fc1ea0&amp;type=3#FsmGraphView" />
+    <ui:VisualElement name="header" class="hutong-node-view__header hutong-region-view__header">
+        <ui:VisualElement name="icon" class="hutong-node-view__icon" />
+        <ui:Label name="title" text="Region" class="pm-host--editable-label unity-text-element unity-label hutong-node-view__title" />
+        <ui:VisualElement name="fit-contents" class="hutong-node-view__fit-contents" />
+    </ui:VisualElement>
+    <ui:VisualElement name="runtime-state" picking-mode="Ignore" class="hutong-node-view__runtime-state" style="visibility: hidden;" />
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" class="hutong-node-view__selection-border" />
+    <ui:VisualElement name="content" picking-mode="Ignore" class="hutong-node-view__content-area hutong-region-view__content-area" />
+    <HutongGames.PlayMaker.Editor.NodeDescription />
+    <ui:VisualElement name="dashed-outline" picking-mode="Ignore" class="hutong-region-view__dashed-outline">
+        <ui:VisualElement class="hutong-region-view__left-dashed-line" />
+        <ui:VisualElement class="hutong-region-view__right-dashed-line" />
+        <ui:VisualElement class="hutong-region-view__top-dashed-line" />
+        <ui:VisualElement class="hutong-region-view__bottom-dashed-line" />
+    </ui:VisualElement>
+</ui:UXML>

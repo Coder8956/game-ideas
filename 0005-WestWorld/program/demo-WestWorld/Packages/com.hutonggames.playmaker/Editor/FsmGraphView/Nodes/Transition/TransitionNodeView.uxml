@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/FsmGraphView.uss?fileID=7433441132597879392&amp;guid=14cef0a77de71f04797aabda10fc1ea0&amp;type=3#FsmGraphView" />
+    <ui:VisualElement name="header" class="hutong-transition-view__header">
+        <ui:VisualElement name="icon" class="hutong-node-view__icon" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="title" enable-rich-text="false" class="pm-host--editable-label hutong-transition-view__title" />
+        <ui:VisualElement class="hutong-node-view__header--right-aligned">
+            <ui:Image name="global-icon" class="hutong-node-view__right-icon hutong-node-view__global-icon" />
+            <ui:Image name="event-data-icon" class="hutong-node-view__right-icon hutong-node-view__event-data-icon" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" class="hutong-node-view__selection-border" />
+    <ui:VisualElement name="links" class="hutong-transition-view__links">
+        <HutongGames.PlayMaker.Editor.LinkDragZone name="left-link" class="hutong-transition-view__link hutong-transition-view__left-link "/>
+        <HutongGames.PlayMaker.Editor.LinkDragZone name="right-link" class="hutong-transition-view__link hutong-transition-view__right-link"/>
+        <HutongGames.PlayMaker.Editor.LinkDragZone name="bottom-link" class="hutong-transition-view__link hutong-transition-view__bottom-link"/>
+        <HutongGames.PlayMaker.Editor.LinkDragZone name="top-link" class="hutong-transition-view__link hutong-transition-view__top-link"/>
+    </ui:VisualElement>
+</ui:UXML>

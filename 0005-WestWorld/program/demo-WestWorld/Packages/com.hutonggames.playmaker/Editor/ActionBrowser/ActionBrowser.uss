@@ -1,0 +1,158 @@
+.hutong-action-list-panel {
+    flex-grow: 1;
+    min-width: 150px;
+}
+
+.hutong-action-browser__action-list {
+    min-width: 150px;
+    min-height: 120px;
+    padding: 2px;
+    flex-grow: 1;
+}
+
+.hutong-action-browser__bottom-preview-footer {
+    flex-direction: column;
+    flex-shrink: 0;
+    min-height: 60px;
+}
+
+.hutong-action-browser__bottom-preview-splitter {
+    height: 5px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-top-width: 1px;
+    border-top-color: var(--unity-colors-toolbar-border);
+    cursor: resize-vertical;
+}
+
+.hutong-action-browser__bottom-preview-panel {
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.hutong-action-browser__category {
+    flex-direction: row;
+}
+
+.hutong-action-browser__list-item {
+    flex-direction: row;
+}
+
+.hutong-category-list-view__item-header-flat {
+    justify-content: flex-start;
+}
+
+.hutong-category-list-view--flat .hutong-category-list-view__item-icon {
+    visibility: hidden;
+}
+
+.hutong-category-list-view__item-header-flat .hutong-category-list-view__item-icon {
+    visibility: visible;
+}
+
+.hutong-category-list-view__item-header .hutong-category-list-view__item-icon {
+    visibility: visible;
+}
+
+.unity-list-view__item:hover {
+    background-color: transparent;
+}
+
+.hutong-category-list-view__item {
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+.hutong-action-selector-list-view-item {
+    align-items: flex-start;
+}
+
+.hutong-action-selector-popup__preview-footer {
+    border-top-width: 0;
+}
+
+.hutong-action-selector-popup__preview-splitter {
+    height: 5px;
+    flex-shrink: 0;
+    background-color: transparent;
+    border-top-width: 1px;
+    border-top-color: var(--unity-colors-toolbar-border);
+    border-bottom-width: 0;
+    cursor: resize-vertical;
+}
+
+.hutong-action-selector-popup__preview-panel {
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.hutong-action-selector-list-view-item__path {
+    opacity: 0.5;
+    -unity-text-align: middle-right;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hutong-action-browser__progress-container {
+    display: none;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: 22px;
+    border-top-width: 1px;
+    border-color: var(--unity-colors-toolbar-border);
+}
+
+.hutong-action-browser__progress-bar {
+    flex-grow: 1;
+    height: 22px;
+}
+
+.hutong-editor-count--zero {
+    display: none;
+}
+
+.hutong-action-browser__preview-panel {
+    min-width: 150px;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: var(--unity-colors-box-background);
+}
+
+.preview-toggle-open {
+    background-image: var(--unity-icons-arrow_right);
+}
+
+.preview-toggle-close {
+    background-image: var(--unity-icons-arrow_left);
+}
+
+#help-icon {
+    background-image: var(--hutong-editor-help-icon);
+}
+
+.hutong-action-selector-list-view-item--obsolete {
+    opacity: 0.5;
+}
+
+.hutong-action-selector-list-view-item__favorite-toggle {
+    margin-top: 3px;
+}
+
+.hutong-action-selector-list-view-item__favorite-toggle:hover > .unity-toggle__input > .unity-toggle__checkmark {
+    opacity: 0.8;
+}
+
+.hutong-action-selector-list-view-item__favorite-toggle > .unity-toggle__input > .unity-toggle__checkmark  {
+    background-image: var(--hutong-editor-favorite-off-icon);
+    opacity: 0.1;
+}
+
+.hutong-action-selector-list-view-item__favorite-toggle > .unity-toggle__input:checked > .unity-toggle__checkmark {
+    background-image: var(--hutong-editor-favorite-icon);
+    opacity: 0.8;
+}
+

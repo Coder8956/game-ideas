@@ -1,0 +1,58 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics-internal",
+    "_displayName": "Physics Internal",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Internal"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for specialized Physics methods.",
+    "_description": "Normally these are used in the editor, but you can use these actions to change them at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Physics.html",
+    "_icon": "Physics/Internal",
+    "_tags": [
+        "Actions",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Internal/PhysicsBakeMesh.cs",
+            "_guid": "0b37dd66e038ffc4ca3658ab14960aaf",
+            "_checkSum": "2054324a8848940dc4c0f880088d72a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Internal/PhysicsBakeMesh__Options.cs",
+            "_guid": "d986be81b709bc74b823adba03e9900d",
+            "_checkSum": "b82491b822728f8178134039e9ec0098"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Internal/PhysicsRebuildBroadphaseRegions.cs",
+            "_guid": "681965760ce056045b45ed74ffacd64d",
+            "_checkSum": "345936924f2da05df4035173b2445a1a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Internal/PhysicsSimulate.cs",
+            "_guid": "18a9a2da7a15c3c40b065dd5243885fd",
+            "_checkSum": "01f30730521977bf637442d78047bd6e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Internal/PhysicsSyncTransforms.cs",
+            "_guid": "fedfba05ecf1bed458b59d8d109a91a5",
+            "_checkSum": "9da95425443627de23b6861717059067"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b72",
+    "_datePublished": "2026-06-19",
+    "_timeCode": 134263197450911627
+}

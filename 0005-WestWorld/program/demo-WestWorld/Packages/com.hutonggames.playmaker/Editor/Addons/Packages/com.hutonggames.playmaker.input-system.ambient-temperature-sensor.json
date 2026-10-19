@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.ambient-temperature-sensor",
+    "_displayName": "AmbientTemperatureSensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AmbientTemperatureSensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System AmbientTemperatureSensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.AmbientTemperatureSensor.html",
+    "_icon": "InputSystem/AmbientTemperatureSensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AmbientTemperatureSensor/Actions/AmbientTemperatureSensorGetAmbientTemperature.cs",
+            "_guid": "1f422b9cfd274d20ab8e09d9998beaea",
+            "_checkSum": "10ffa595df423856b96eda31b208f2ec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AmbientTemperatureSensor/Constants/AmbientTemperatureSensorCurrentValue.cs",
+            "_guid": "83c0b78d9410459bbb3c5a222b1a9e31",
+            "_checkSum": "8d13360a61b985cb33f3c5361df6807a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/AmbientTemperatureSensor/Variables/AmbientTemperatureSensor.cs",
+            "_guid": "d6d1c5b2dbe3405d847d06d555b08685",
+            "_checkSum": "aae4af32a5fd1859b3cf9c9a3a6b7b30"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479460363149
+}

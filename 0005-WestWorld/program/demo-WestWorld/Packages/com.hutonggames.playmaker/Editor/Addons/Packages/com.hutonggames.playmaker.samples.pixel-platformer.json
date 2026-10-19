@@ -1,0 +1,2165 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.samples.pixel-platformer",
+    "_displayName": "Pixel Platformer",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Assets/Samples/PlayMaker/Games/PixelPlatformer",
+        "Assets/Samples/PlayMaker/Shared"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "A pixel art platformer with multiple levels.",
+    "_description": "# Pixel Platformer\n\nA mini platformer with player, enemies, pickups, levels, etc.\n\n**NOTE: Add Scenes to Build Settings to load the next level when completed.**\n\n{height=300}![screenshot](Packages/com.hutonggames.playmaker/Editor/Addons/Packages/com.hutonggames.playmaker.samples.pixel-platformer.jpg)\n\n## Features\n\n- Uses Input and 2d Physics to control the player.\n- Sync animator parameters to player state.\n- Collect pickups.\n- Traps that kill the player.\n- Enemies with patrol routes.\n- Respawn player when killed.\n- One way and falling platforms.\n- Detect level cleared and load next level.\n",
+    "_helpUrl": "",
+    "_icon": "GameIcon",
+    "_tags": [
+        "Samples",
+        "Games",
+        "Physics",
+        "2D"
+    ],
+    "_requiresTmpEssentials": true,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Documentation.asset",
+            "_guid": "8dde94dfeb572da41ae149a0207b9a39",
+            "_checkSum": "2a47d736edef6d04c63829d67e0b2a73"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/PixelPlatformer.asset",
+            "_guid": "787077af0923dab4ba75f9596b5960df",
+            "_checkSum": "abdb56e0fb8242e916caea0699d75663"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Audio/coin1.ogg",
+            "_guid": "ba330942abc46884b810226e1a8fc9b4",
+            "_checkSum": "3c22cde9abdedded5f984abd060f15c0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Audio/coin2.ogg",
+            "_guid": "388d4885ec669a04781caefcea4982f6",
+            "_checkSum": "b39a38d86ce7544afc38ee583f2d4ca2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Audio/jump3.ogg",
+            "_guid": "ed5b8cec55c7d504d9734b96fcf9ee05",
+            "_checkSum": "a8a81487994cc4e2cbc836ddc4192363"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Audio/License.txt",
+            "_guid": "42e83006b4741c346840ef6288370823",
+            "_checkSum": "c1cc2c32b552be9f852c798f13eb2bca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Audio/lose3.ogg",
+            "_guid": "a2c5b2f23791b0741bb0b9fc2a4350c9",
+            "_checkSum": "9a4ba6654423d7d2fb636480700fcefe"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Audio/lose4.ogg",
+            "_guid": "2c5d0ac944eab8a41b9b027bd69ab7a7",
+            "_checkSum": "651eafaa99ce88c974652461233c25c2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Audio/upgrade1.ogg",
+            "_guid": "23a31140543c9ad46b5fdc2fca8d95db",
+            "_checkSum": "7ea694110ef041e8bb933cf456e15fef"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Fonts/Kenney Thick.ttf",
+            "_guid": "1e2eda376b84ab34c9eec9b40ddecc23",
+            "_checkSum": "201e9d7a467a75b1ce564f002db88fe1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Globals/Landed.asset",
+            "_guid": "8722c2281c9cadc40b2407b246331f46",
+            "_checkSum": "150f255086e5fcaa69703a59cd8b8a9b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Globals/NextLife.asset",
+            "_guid": "8a88050589f86e14db54d3232224f91b",
+            "_checkSum": "ad7f833aa2e9cad90a4d94b7cfe03a2a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Materials/Particles.mat",
+            "_guid": "a865cfe572251e645a583570dffb4699",
+            "_checkSum": "476c182017cc11a0b9f4f3f063d9ddf3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Collected.prefab",
+            "_guid": "f6b1b65032b6d0846be9fc1379e25b2c",
+            "_checkSum": "6838e0e19a62fdbfaf58a90441875e48"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/FallingPlatform.prefab",
+            "_guid": "cb0f43a0c853b3d4c8ffc25f5b4f9798",
+            "_checkSum": "3705136fe78bda87e3bcc22919153a30"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/LevelClear.prefab",
+            "_guid": "ccb44489ecbfc604cbde2fbd09f54a3a",
+            "_checkSum": "b0d5ca33e99e8a1d10aeaea4cc08b4d5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Player.prefab",
+            "_guid": "0cdb5d82bf58c294dabc765ff706a52b",
+            "_checkSum": "804b90cea889f125531b97cdefa0bdf1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Rock Head.prefab",
+            "_guid": "bbd3f33a0decc5e48a15f893d4a99676",
+            "_checkSum": "94ba049c7d026b9309cef2d9594733b6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Saw.prefab",
+            "_guid": "2627541c4ad51c6468fa0e47a4264516",
+            "_checkSum": "19f9d63c561bfe29199a191985f797d8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/SpawnFX.prefab",
+            "_guid": "df9b6337c4755af47ba963693a01af24",
+            "_checkSum": "e203e57d7417b038ebb368fe996a2b7e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/SpawnPlayer.prefab",
+            "_guid": "02e340ea79062da439c18f29c09cf422",
+            "_checkSum": "6e712bbdbda64f44db95dfd908a2dc64"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level1.unity",
+            "_guid": "860530a6c7ae55c4690b8749b5cf38ad",
+            "_checkSum": "77b5764cd45bd7593bef62a039d86267"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level2.unity",
+            "_guid": "3869e8d7413a1c84da0e717fe48ac0d2",
+            "_checkSum": "509cfa72d1d88acf2f38349e523c8ae2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level3.unity",
+            "_guid": "d04cc74e0dafd443fa6048a4d3659218",
+            "_checkSum": "056d52eee810e87e81d06c7a1373bea1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level4.unity",
+            "_guid": "510dde55c6bb440c8aa18a5197099518",
+            "_checkSum": "e900ba3c17750b0edbd320c9b7806030"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Scenes/Level5.unity",
+            "_guid": "e43a5a254f2d646c6aa3a70ff6402f7a",
+            "_checkSum": "321633653da52b563d80e7319daa2eb8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/license.txt",
+            "_guid": "72e2609e508972d43b68fbf5668b97f6",
+            "_checkSum": "fabd26e53f5a3ceacbb5ff74fb6db2ac"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/SingleSprite.preset",
+            "_guid": "e93917c9816c3294091b0a368ecd691a",
+            "_checkSum": "3c7ad079d05296c241e6409347cb2176"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/SpriteSheet.preset",
+            "_guid": "e134525a32b1376418a075bea397403c",
+            "_checkSum": "afb5e385d3824dc705e666080634b33c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Templates/Collected.asset",
+            "_guid": "74ac0d27b8e6d4a4a81c13100d22e71c",
+            "_checkSum": "81307f87d7dd20951dbde74df2e42137"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Templates/ScrollBackground.asset",
+            "_guid": "7aa29e521234e32439772d608b31ff6c",
+            "_checkSum": "31f1643d293d826340dc975dde4959f1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/license.txt",
+            "_guid": "dd9e6dddf7a14eb3b4e6c1f279dc0325",
+            "_checkSum": "fabd26e53f5a3ceacbb5ff74fb6db2ac"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Pixel Platformer.prefab",
+            "_guid": "497d65738a38fe449b67bb8365b84c95",
+            "_checkSum": "10f8bf86ae8ba826ca47e11a6bfa375a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Apple.prefab",
+            "_guid": "ece9c1ebd70b781409144371bba41973",
+            "_checkSum": "74051537564a837c4968c104cd714f39"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Bananas.prefab",
+            "_guid": "242a3e152d621474db8597fa4bcced62",
+            "_checkSum": "8dc2e7562aa470fd6fb37c7c57d0bbe9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Cherries.prefab",
+            "_guid": "757e2d5042550f5408fc69e2446df420",
+            "_checkSum": "dfe26bcc3c41a01ee54ffa909f8a80ae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Kiwi.prefab",
+            "_guid": "f74d659377dd1b34aa6a7572c19e03ff",
+            "_checkSum": "01f90812c6f77adaabf63d1692d03294"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Melon.prefab",
+            "_guid": "b553537d1efd62948887b8804822a851",
+            "_checkSum": "6d92bbb6ddbdb9d0c2bba6a98313b90c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Orange.prefab",
+            "_guid": "afb1444826e990b4e871bcec9c3a91e5",
+            "_checkSum": "4981e187a6ecf3848304e16149c3da70"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Pineapple.prefab",
+            "_guid": "5611db0ffd707934196b55c76645fa9c",
+            "_checkSum": "963992335c2175e6de016ffc26d29911"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Prefabs/Pickups/Strawberry.prefab",
+            "_guid": "7d7b44d6a9c6da146aa4a3666d495bc7",
+            "_checkSum": "d7f1862fdd3aa0f77b89d5ed545409db"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Appearing (96x96).png",
+            "_guid": "91688aca1fce49542b02eff3238a2c0a",
+            "_checkSum": "9449bf1f8d68ac08331aa091d6095e34"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Desappearing (96x96).png",
+            "_guid": "9fcddaa05c814d946830fabdf4e7a766",
+            "_checkSum": "1284313649da02eccc0d3ed6796996a3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Other/Confetti (16x16).png",
+            "_guid": "c430ef29c7423704d88c99c4acd94b8f",
+            "_checkSum": "e23a201b4bfa7999a176dc9ec004c7bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Other/Dust Particle.png",
+            "_guid": "2cd867f1083021a44ae66acda049ff78",
+            "_checkSum": "c72fceec8ccfcefc030fbc44ccdd68c4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Other/Shadow.png",
+            "_guid": "b399610109781bf409240fe0962cd000",
+            "_checkSum": "e0a519d1a807df82abc87e6a2375d20f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Other/Transition.png",
+            "_guid": "cf3a2a049f360e843964b4d424c76771",
+            "_checkSum": "676092b6943e94a165bea63707f4518f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Terrain/Terrain (16x16).png",
+            "_guid": "4a5038ff4216b2c44bcf7cc3d6a01083",
+            "_checkSum": "df891f02449c0565d51e2bf7823a0e38"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/UI/License.txt",
+            "_guid": "1619ae749010fdc40a119ecd29dc3732",
+            "_checkSum": "8e57ada78b3973a1824cbe212f95644b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/UI/tile_0013.png",
+            "_guid": "ff8425e1a0582894e8fc9d06ed331301",
+            "_checkSum": "5875ae801b4d8381dcb068c7d90d0311"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/UI/tile_0031.png",
+            "_guid": "a47309ebf54717a4f89e9115ade79c3b",
+            "_checkSum": "e657f9eca35c1acb8b4eb954830b5bd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Blue.png",
+            "_guid": "973623c9fb7730343be72f6d6caada5c",
+            "_checkSum": "f86e07aab82505fc49710152f83cc385"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Brown.png",
+            "_guid": "fe07fcb9ef5777c42a5c74bc5ba7320d",
+            "_checkSum": "45c9c887fa73b0ade76974de63ab9157"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Gray.png",
+            "_guid": "f0d66eaeca98961449237539d24a5763",
+            "_checkSum": "31fb9bc36ec926ee64d999d3387b7e09"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Green.png",
+            "_guid": "0f2c25c9c66893841bf636b6cb0632ca",
+            "_checkSum": "e6eeace8a9d516f2e9768e5228e824fb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Pink.png",
+            "_guid": "d75cc42865a904d42a86c69945144518",
+            "_checkSum": "31b5e360eb9610c58138bb7cfdfb96a1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Purple.png",
+            "_guid": "c77a4fde3515995479704003f122705b",
+            "_checkSum": "f8cc6aa8fd738e6e4db8b6607b7e6c37"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Yellow.png",
+            "_guid": "d4276509aa6635f43be5a1eca8b26a68",
+            "_checkSum": "c3f96416e21f366bc0c3635ce5b530d5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_0.asset",
+            "_guid": "1c97a554dc284e9498c8734ea94443ae",
+            "_checkSum": "f7a8a39e8780a1e2a9f22054c775b3f5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_1.asset",
+            "_guid": "6bbd221d48054f74a934e438c62265fe",
+            "_checkSum": "71cd8e9689ee7b13c08c0a588187dcd5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_10.asset",
+            "_guid": "5ddab213b7fa4c6448f5094418e7f475",
+            "_checkSum": "044444a70d8902ed20e9feb1c3f9b371"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_100.asset",
+            "_guid": "648377d8048aee14883692d4d6fb7fbc",
+            "_checkSum": "b7a46ce2229fab615260a291ad9f38ad"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_101.asset",
+            "_guid": "f78535da1274846419955d566befe97d",
+            "_checkSum": "8a51ebde1cb4c6aebbeeeaeb037c54ae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_102.asset",
+            "_guid": "fc0b1e2195be4aa4ba9445d08fc392d1",
+            "_checkSum": "dab6327af72a3314847fcc8c28d1355f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_103.asset",
+            "_guid": "a854d539c9eee11439c10e0b851190a4",
+            "_checkSum": "50cd6ac81a199673438e50a80bda0e0d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_104.asset",
+            "_guid": "34908f985b4939c4598a8d41a539eba2",
+            "_checkSum": "f01da3ebf2392dbcefdcfd39471ee5be"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_105.asset",
+            "_guid": "32de2953903f4f44793702e971504211",
+            "_checkSum": "8d58583985dc7bf0424a58a33d9e836e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_106.asset",
+            "_guid": "4a6f9539e15577f41956c5bf266416e8",
+            "_checkSum": "a571bf3f74cf3eae9da57c183e13dcf5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_107.asset",
+            "_guid": "5228d544685641048ade5e1ead8c322f",
+            "_checkSum": "44a9632b79e3a4ca5c4779b057a1b617"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_108.asset",
+            "_guid": "160ade00ac6c99248905b93ce8e6bbd2",
+            "_checkSum": "9d14add20509b25c3a0311e4f1d403b4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_109.asset",
+            "_guid": "e893e730a1a4bc242b0305819799e10b",
+            "_checkSum": "c5a56e1728737a630447bb5a652cf620"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_11.asset",
+            "_guid": "cedbc1b29c3680841a0038ead60add06",
+            "_checkSum": "bd9eda7996ad023d12434487f267a081"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_110.asset",
+            "_guid": "4503ddc40ebd6cb438108826cf98e407",
+            "_checkSum": "5a4c2fc17b3aeaa72d320d4b0cae770a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_111.asset",
+            "_guid": "d45ac40417023f54590b42c767317e74",
+            "_checkSum": "d599125821a5a0cf3fd254d2ef1616f0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_112.asset",
+            "_guid": "55f2f0f38620fe543af024745ba0fc01",
+            "_checkSum": "731afd24ee047f1be1546a1a195ae874"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_113.asset",
+            "_guid": "09103e324d2098c4fb6cfd6210394d8c",
+            "_checkSum": "e6a3898beb9246b296df7de33aaee536"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_114.asset",
+            "_guid": "059d059d7b7370c418a2868f4a848947",
+            "_checkSum": "c51562215eee2ab01ca306b22216b195"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_115.asset",
+            "_guid": "aee132c4a156cc343b32ea4a6f9bee13",
+            "_checkSum": "d7e9b9bf741e4003f250822a97e2d9b9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_116.asset",
+            "_guid": "fc9be33f43d559f49a42774aa74c7c79",
+            "_checkSum": "55a60ba07962e36aedb184eff4ba0ae7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_117.asset",
+            "_guid": "2824ec5c83cf7364bad6e824b889e31f",
+            "_checkSum": "62131ec05b77d5615f757f0d2aebeae8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_118.asset",
+            "_guid": "cc548930b6f24f240947de9f6ec112c5",
+            "_checkSum": "5df5c69507e20ed0938fe79e30817750"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_119.asset",
+            "_guid": "591970e8166cd65428c9095461d3b405",
+            "_checkSum": "5ec563aee1e736cf0769d417593451c8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_12.asset",
+            "_guid": "97f7078b383ba6142a54828f74bfe947",
+            "_checkSum": "601d57f34da827d6b541f3f64dbc14cb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_120.asset",
+            "_guid": "ed414182fe5d72e44a7d11b0f04cd37d",
+            "_checkSum": "6b24b5652f3cfb0cb7617abac696939c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_121.asset",
+            "_guid": "7e5e7cde77ea9ab40a544621d97af30f",
+            "_checkSum": "d836a37501427ff15102351ab8f7833c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_122.asset",
+            "_guid": "74845bc87fd20ce46b99607a7e7e620f",
+            "_checkSum": "33736c91ad6e0206ac054563964eb8c8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_123.asset",
+            "_guid": "d36573ac7072dc84bb157ccf30b36810",
+            "_checkSum": "f581cc96c7c2deff3b50c1dc8449c115"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_124.asset",
+            "_guid": "9752e11aa2bb9dc44887d5c2fa4fe208",
+            "_checkSum": "7507cd713883392094f8665dc1a5961f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_125.asset",
+            "_guid": "be3dcc0711290ea42a20a9221c6028b2",
+            "_checkSum": "d9222890f2fb5badc1970891148c5a0e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_126.asset",
+            "_guid": "16b6c7357a8f2634e8bd6691b2089f31",
+            "_checkSum": "96436599b0d71d29f5b7fe328d509a5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_127.asset",
+            "_guid": "c68cf810a55191f41a52d3866b4199f6",
+            "_checkSum": "ecc8e199bcd309061ff6f6b59751441f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_128.asset",
+            "_guid": "d74eee59ea3ea8f41b19b0434a42c573",
+            "_checkSum": "5fb402566de2cec3cea58255472a8022"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_129.asset",
+            "_guid": "d9a20acfc7cda3748a5c41769168c8ae",
+            "_checkSum": "338056797efcdcb43b386c0859f11e3a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_13.asset",
+            "_guid": "24a95c39ce50fa64f8eb5daef3d3611e",
+            "_checkSum": "b9b3d1c9af2becf6dbb585120b4a5452"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_130.asset",
+            "_guid": "864801f7fc2060a41a500e38554afe53",
+            "_checkSum": "9f14dfb57310be7dc7a26b074c1348bb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_131.asset",
+            "_guid": "76dac6d0fc1ec9b4986601870f30fcfd",
+            "_checkSum": "622a1063ef659767847a8705dbaa4f6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_132.asset",
+            "_guid": "39e510890edf31746a7fded01c13ab85",
+            "_checkSum": "97f681663341f8514e7c93914877576a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_133.asset",
+            "_guid": "4ba57bf1c720f6d48bb931741e039551",
+            "_checkSum": "4df42681a6deebbc44a20c226defe32d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_134.asset",
+            "_guid": "65a0a29f678ac5040a6ea15fbb030748",
+            "_checkSum": "0fdca9617920a4fb3df8a405bdf2e851"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_135.asset",
+            "_guid": "05f5f3a77f697f84f982fe1a29102979",
+            "_checkSum": "298193bf2c49b5039dff6433dae8428d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_136.asset",
+            "_guid": "3104ec7b238341b459e4158e467549ae",
+            "_checkSum": "e11ef97f6caa93d9f4583d556cfb71cb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_137.asset",
+            "_guid": "43baeda0ccaf129489f318baa43a6121",
+            "_checkSum": "c18b28f8c0462f248105a93902a63348"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_138.asset",
+            "_guid": "9cb5aaeafb2da2c40bc1b0b4ee37a846",
+            "_checkSum": "b590d4437da6a17b4b537cc3774d113b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_139.asset",
+            "_guid": "f5a9836a7c5569044afea5f89c55a241",
+            "_checkSum": "493e48ebf74739c6634335de2424309d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_14.asset",
+            "_guid": "9480e8315450b6549b2af57c3bf65f89",
+            "_checkSum": "0b7fe30c9fbf47559e9898d05c720ba4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_140.asset",
+            "_guid": "986b34c4e68adcc4eb78173740680cfe",
+            "_checkSum": "b1bfb8a6ce3975eb7ea6a43ec546c220"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_141.asset",
+            "_guid": "75b15228c5120664e9d8935c4f7d32c5",
+            "_checkSum": "ab9a8d4782c3e3eb80689b52044bf938"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_142.asset",
+            "_guid": "b2e0011e2ad86034fa4cf3c86208e13d",
+            "_checkSum": "1285e3ca710f994db64156fb9ec28649"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_143.asset",
+            "_guid": "b66e2bb6ee93d4f43b3fac03b271a1c2",
+            "_checkSum": "681fe5ce23fc2b22baeb97b2d7f96ae0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_15.asset",
+            "_guid": "ac7008d684f739c45a11502e78e3f0dc",
+            "_checkSum": "9ce3d5b639f1504ab953d414005255df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_16.asset",
+            "_guid": "a9f2481e52f715d46858ce6b432e2643",
+            "_checkSum": "abc683ffbd2c5ae0294f39574479e6ca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_17.asset",
+            "_guid": "b31bff5acb98c5c44b4810f88a93c3f8",
+            "_checkSum": "4632595965c803ab7e6e16604bdacb2c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_18.asset",
+            "_guid": "3544316819c637445a130c790c8c8f58",
+            "_checkSum": "0cec75e351cbea1a170997b17ccebd78"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_19.asset",
+            "_guid": "e93cb3219e9b61f4d8f642754824cfcd",
+            "_checkSum": "755e2ae252c8fab99958b8b3e9602106"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_2.asset",
+            "_guid": "898a275ae1c339749b7d72683b846e48",
+            "_checkSum": "25fc7d2626ba29c1c868e40622a2a108"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_20.asset",
+            "_guid": "f396bdd8db776f64ca3964638e7f7fa6",
+            "_checkSum": "ae58a025981d4fc9c5c17c6bd3e6bddd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_21.asset",
+            "_guid": "60d88bedf12045040b70a8136ce8b1fa",
+            "_checkSum": "ab40aee2fb578cb809298ca88c08c63d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_22.asset",
+            "_guid": "3a1671a2141e61a44970fb83eee37dca",
+            "_checkSum": "9910209828ab8d092bc2776984385acf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_23.asset",
+            "_guid": "fc8debdd9ca17284fa5c38c4c565c937",
+            "_checkSum": "8b702b5dbad10d41cbe41ee578a1ff88"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_24.asset",
+            "_guid": "9f23151472efe464c9419682dfa7616a",
+            "_checkSum": "50083a62db87eb5f2ae672a95ec84ecc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_25.asset",
+            "_guid": "e12793abf8bc20f4ea0bddd0b6cea504",
+            "_checkSum": "eaf4b27ceeba423713c21dcd7b7d30c8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_26.asset",
+            "_guid": "768661668d1f8fc4ebe1a8bb308e9537",
+            "_checkSum": "50965dd48511217eb187451cb48f8ab3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_27.asset",
+            "_guid": "96fbb5d6c470e0947aff9598535b041e",
+            "_checkSum": "c9d617d1b0a85d71a49bb4ecc2dbea40"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_28.asset",
+            "_guid": "8e6de1303b147084895a81bc64d97831",
+            "_checkSum": "e2c6a58b7337b14af564ea401ebc1d6a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_29.asset",
+            "_guid": "8392a1c7700fe9c4aade3e038d8574ca",
+            "_checkSum": "e28e3d9a9d66f91292886ee22183bde6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_3.asset",
+            "_guid": "ac7e8090910b183479bf5e5b67aa0f4d",
+            "_checkSum": "59ce4d6d4a63b49383b70e4fbd3cb08b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_30.asset",
+            "_guid": "ea22f92bdde9e8e44b6b9ea4e70d299e",
+            "_checkSum": "cd59ff3509d4884ace95510b0f033443"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_31.asset",
+            "_guid": "5e6a76d102a04aa4399006259ff4aaf7",
+            "_checkSum": "9914f71adc98121cbd58d938b100dba2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_32.asset",
+            "_guid": "d4ee73a62d1890d46a1e7c2a2908ff03",
+            "_checkSum": "80cebb6764fe572d49fc82a0a45189a1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_33.asset",
+            "_guid": "e3134d6aacc997d4ebb9d19d75fdacff",
+            "_checkSum": "d72281ffd0b6e2a7bf0e8ac22a4e95ee"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_34.asset",
+            "_guid": "d183df7f8ffbb5f4f95cc5934cc2b9fe",
+            "_checkSum": "d9f0336a5d780f1424f129eb4cc55eaf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_35.asset",
+            "_guid": "5edc068533007f34b86e654a1b328515",
+            "_checkSum": "2eeb634ae68683a0bab243915867db24"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_36.asset",
+            "_guid": "e5d0d3145d04c364db28bdc29c8d3c9f",
+            "_checkSum": "c16d54e75be144fc596a3943864a3597"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_37.asset",
+            "_guid": "34caec252f59ebd4ca01a91574c3e6f1",
+            "_checkSum": "9dda0c4e55990d8aa71ffb65645d8fd4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_38.asset",
+            "_guid": "fa3cdcb9d2e9b924d84a07e4d2796426",
+            "_checkSum": "68b5f2ebc0f93f1e1675b93169cd34bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_39.asset",
+            "_guid": "f9ba3f1134a7a9341907950249ab04bb",
+            "_checkSum": "2c964dacfcc9ee52c9f0ef5f47bf3b62"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_4.asset",
+            "_guid": "e903c79b4c0c3d04aad7f0add2f9faac",
+            "_checkSum": "25fa48d8df4b638056a0db77ffa0d580"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_40.asset",
+            "_guid": "f6e4ae27504ff7b418b4957a0a500e01",
+            "_checkSum": "6a9f6eac2ac96ddc854176afe71cc314"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_41.asset",
+            "_guid": "2aea1d775a06e3245be9d3ecd335dc52",
+            "_checkSum": "6391e8948f80c7a58d8ca4eab4b0e3a4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_42.asset",
+            "_guid": "35f8665e7b1bf7c47a9c79d2dc52d3af",
+            "_checkSum": "ab5c279457646872ea04c89c093bb896"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_43.asset",
+            "_guid": "33fa74d0592286843aa01eccec83e374",
+            "_checkSum": "dc814a9e1de461c62fbf4d791c59b909"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_44.asset",
+            "_guid": "c05b5711477b8d34fb98aa4d2195b67b",
+            "_checkSum": "39297ca36097ee15c8bee83d6609a9ae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_45.asset",
+            "_guid": "ac356586223a78d469ab6bd061c8c701",
+            "_checkSum": "b4ea18bdd1cea0865149371dce71feff"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_46.asset",
+            "_guid": "227f4ff873e3c7741b4b6a0ec3257dad",
+            "_checkSum": "a7f97b0a1437bcb3e184cd4dc0de9f63"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_47.asset",
+            "_guid": "eb61fcc0dcffd25458f268da574ea739",
+            "_checkSum": "0bed0763530792382c3af586e45cf2fe"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_48.asset",
+            "_guid": "cc44447be099b9f41b434fff676c1916",
+            "_checkSum": "ec6ac1159500ad2c1905499ab9ff8bae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_49.asset",
+            "_guid": "d420934c037f8da4eb3d0bc50b47e22b",
+            "_checkSum": "a09dd8ee9223225468e69fec2b671513"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_5.asset",
+            "_guid": "91a169ca2c04eb3438ac7ac3f0b954ba",
+            "_checkSum": "441fcb305c28b3653b17bed6db57572f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_50.asset",
+            "_guid": "6c39f11926260fe4888f4878c03f341b",
+            "_checkSum": "b5f607573791c8f8ea091be9782e5eb9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_51.asset",
+            "_guid": "50941a5ea7c35804681250a9d7401e76",
+            "_checkSum": "c69cd7841629f0bc13dc44e45db7aaca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_52.asset",
+            "_guid": "3fe02384d560ab540a396d056498e5af",
+            "_checkSum": "b6ff10742c018b53b4cc5c4b0bb86115"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_53.asset",
+            "_guid": "d34c710f04ccc9744a52970b89c201ea",
+            "_checkSum": "553e04e777d8cd0fcfa5260a25f5292a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_54.asset",
+            "_guid": "1d2b28df114183a428a63d46faadac34",
+            "_checkSum": "830984dd86c913145d42cefd7accbe39"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_55.asset",
+            "_guid": "075a30482e0a57d4686b27b521d10867",
+            "_checkSum": "c5c76361b24d5c86abac49188ff75d39"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_56.asset",
+            "_guid": "53521168728f3884dba4b4b14022717d",
+            "_checkSum": "108aa85ef88e3583ae1098dfdf507327"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_57.asset",
+            "_guid": "539cffc63761ea14a85d32b117364d6d",
+            "_checkSum": "68f7d8e95cd022f126897f356cdd8273"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_58.asset",
+            "_guid": "fac1fc96a96b1f44393ee42a74e900a3",
+            "_checkSum": "80661ed39dcd0cdab9fd02d641b9b74a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_59.asset",
+            "_guid": "a2beecd702442cd4ea83f0372b1b6649",
+            "_checkSum": "36249f8ad0f63a9f1ec58741363d7df0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_6.asset",
+            "_guid": "6911f91e55cc30b43ac089f2f0119798",
+            "_checkSum": "f702344c5f6eebf6db53ddfa6f6f1919"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_60.asset",
+            "_guid": "5d791c067702d4e4a8ff9188e3d3f5af",
+            "_checkSum": "d31254fc24e8da482233ff0dff332c9a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_61.asset",
+            "_guid": "4e35ed3ec93fe1b4991fc1d1fead16dc",
+            "_checkSum": "d19bf090f0faee829a176e6563bcf6d8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_62.asset",
+            "_guid": "5af8e7ce6d7a3b242b302c0b4b013e43",
+            "_checkSum": "36cce276153074e3f1b97c8b19c85353"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_63.asset",
+            "_guid": "25422e29c06ce9e4aa4dbac6a5abec22",
+            "_checkSum": "6d3afd1642ddd669d3c9f58ff1f0aa0b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_64.asset",
+            "_guid": "a7d66e489b81a99448fe628accf51cf3",
+            "_checkSum": "548e464406b17ddceb3ba2b1ff2fb351"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_65.asset",
+            "_guid": "f5419546c0f3da745bfd73778e0e155b",
+            "_checkSum": "ecb5bb260655971e68aa523e2a67b257"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_66.asset",
+            "_guid": "c1cd45f1ba92ed64589d32fee32e4f5f",
+            "_checkSum": "1b5b29dc7ffe5999cabc7d6bbabb5e13"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_67.asset",
+            "_guid": "3030fe3188a2fd54d9a029217f0c2b38",
+            "_checkSum": "b4bf7c1f262706f8c66845cf59a2d29e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_68.asset",
+            "_guid": "6cfd654c23e64e74eb681438bdb61d9e",
+            "_checkSum": "cd81899d1ebe15eb4cb4b58654b3dd76"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_69.asset",
+            "_guid": "0322e7830994ae5458e2378cc6531275",
+            "_checkSum": "33f9948b23065570d56f41a48f54f14f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_7.asset",
+            "_guid": "6deb7af8e559f874ea3aab9c31025e5f",
+            "_checkSum": "0a71d5c07514536494f8f27eb06fd59c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_70.asset",
+            "_guid": "5ce6beddf4452214c8069f1da4008edc",
+            "_checkSum": "618c2c237b2de0381ef1759982a8ddca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_71.asset",
+            "_guid": "b8ecb6542fe590e419fab690b0e17fe6",
+            "_checkSum": "460bb88be3bb6d21b49d3bf485f3f969"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_72.asset",
+            "_guid": "fe7d48d33a66c72488adb01b2d690353",
+            "_checkSum": "b59007ca5a2037d00b9d3e5b3e36e6b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_73.asset",
+            "_guid": "7f653d6c5f02b8641956ef31a4103505",
+            "_checkSum": "c913b82680e78bd5ea12484c76e4b2a8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_74.asset",
+            "_guid": "1dad62a4589248e4487ce1326ff8f480",
+            "_checkSum": "752c5c89c38187a9f43439e9577cf3e6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_75.asset",
+            "_guid": "b34ae25e3d5ec094f9cd3cd115d99b06",
+            "_checkSum": "c5a9972c0543f252ee49341e81392d72"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_76.asset",
+            "_guid": "1ae19112d92581f4d98c5e053fa5aa39",
+            "_checkSum": "f31b6ad8e8e1306a59b5c766d949ff12"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_77.asset",
+            "_guid": "ac19f77066b376942975d1b5b6e5dcd8",
+            "_checkSum": "5105fc02e05f94503737d477379c4434"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_78.asset",
+            "_guid": "34025a9c826fbdc45815023d79be12a7",
+            "_checkSum": "e03df41049290c8f59bef5185854c916"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_79.asset",
+            "_guid": "f53cd52d16f518f4790581f5ad1a8890",
+            "_checkSum": "75903575cbda3dba6e60f814c9e2d6e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_8.asset",
+            "_guid": "141401186783a664cb2dfe0aced9a46d",
+            "_checkSum": "0b1038b791278ac0180ca93d18d2911d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_80.asset",
+            "_guid": "183601828154c1044a1f17d2a51b1e40",
+            "_checkSum": "ffdfdfbd48a6365eb88314ccd237cb73"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_81.asset",
+            "_guid": "682c7a91e9036bc48be9aca6736ce58e",
+            "_checkSum": "5a5c99c4a6a735a9680481d1a8fecb83"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_82.asset",
+            "_guid": "11b842effacd62847b0f74f5fda4c3ec",
+            "_checkSum": "0877ec4fe994eed8d74b393fc672b057"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_83.asset",
+            "_guid": "66e7148ca9a2c4d4ca9e34f47c086d7d",
+            "_checkSum": "6d887ed2f998e474274dcff9fc3e006c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_84.asset",
+            "_guid": "b21ad25baef47bb4f830ccaa8f378d4e",
+            "_checkSum": "9bc3698d08fb1293dd23b54da2a93ebf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_85.asset",
+            "_guid": "111b2bb741e620640831c6981c4a67b1",
+            "_checkSum": "c7212d4929761f614db2e1f849fd7936"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_86.asset",
+            "_guid": "bc67ac44b06679a42a6cc5f7d55fa11f",
+            "_checkSum": "94b79ac526c352bc09220c2a29343226"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_87.asset",
+            "_guid": "7816415579877664f9723d7c4cacd142",
+            "_checkSum": "9f66deeeb7180596c3b32a91e3f1acd6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_88.asset",
+            "_guid": "1a1cb22df8537134795b256467c8ec94",
+            "_checkSum": "30cece34919b47c609be7a4f76307fec"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_89.asset",
+            "_guid": "79725c6175f1f8547ab5dd9376b8a88c",
+            "_checkSum": "1c0b11bb2160e97fef7217be355438d2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_9.asset",
+            "_guid": "3cdc3a73e3a46594e8dae944a6aba727",
+            "_checkSum": "9b99d2672a229d3546b1bbe37d4a0da2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_90.asset",
+            "_guid": "906e8566db87c5d4e9226a3b741651ed",
+            "_checkSum": "c80b6afbee1a0405a8145a1e7922b5ff"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_91.asset",
+            "_guid": "894168b15e56d0344b25e907add216cb",
+            "_checkSum": "faea5544c79273dd7962ea1eca0b915d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_92.asset",
+            "_guid": "69f632d4695ca1b4d8f0d913715614ab",
+            "_checkSum": "4a559f4524c46e9144b4cd3f8284f836"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_93.asset",
+            "_guid": "7eb36b3c218aef941bfd16bc2eb042ca",
+            "_checkSum": "9d0a2a92929c32f47372b00c47e61f67"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_94.asset",
+            "_guid": "c736b894963d052478bcaa4f422dc466",
+            "_checkSum": "445ccba8e3dfaddaac7cd9993f68f6ef"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_95.asset",
+            "_guid": "e411475d6e781af479d2cb5aa3ea9da8",
+            "_checkSum": "eb089fe1dc94c68f9989d47fdb694982"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_96.asset",
+            "_guid": "ff614caa06b06014aab055fe9e44480e",
+            "_checkSum": "6fa5c0d7a3b13c0603009b04c2bf797f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_97.asset",
+            "_guid": "43ce8fdf64b69594a99afe05b12236d8",
+            "_checkSum": "39f6a8649bf4ebc5084566a22eb612c8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_98.asset",
+            "_guid": "088b1f5852b99f545b4dff62c22134e6",
+            "_checkSum": "2c1cd887cb578f4e45f08fb4e96b9567"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Tilemap/Tiles/Terrain (16x16)_99.asset",
+            "_guid": "f583493050e3e574d8d7da30fdd65da7",
+            "_checkSum": "0cd870936ded71efe9c067b6118f9a32"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Apple.png",
+            "_guid": "888c964adf3c13e4b94e3b4f5e652f07",
+            "_checkSum": "de3dbfa7d33e6bb344d0560e36d8bf53"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Bananas.png",
+            "_guid": "e644378f0e3506c44870c2b1aab8f02f",
+            "_checkSum": "03466a1dbd95724e705efe17e72c1c4e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Cherries.png",
+            "_guid": "fedd25e90e751be41a5449735536b665",
+            "_checkSum": "fc2a60aee885c33d0d10e643157213e4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Collected.png",
+            "_guid": "828ffbca31c25c043b71d47bea20963f",
+            "_checkSum": "0aa8cdedde5af58d5222c2db1e0a96de"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Kiwi.png",
+            "_guid": "8098f3354cc8d9d40b1a2f02f4ea0aad",
+            "_checkSum": "3d903dd9bf3421c31a5373b0920c876e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Melon.png",
+            "_guid": "8b424c35e875a814ca4e74b9491870b5",
+            "_checkSum": "eb6f978fbf95d76587bcf656c649540b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Orange.png",
+            "_guid": "a531b9fbc96e14f40ba273a77080f0d5",
+            "_checkSum": "60e0f68620c442b9403a477bbe3588ed"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Pineapple.png",
+            "_guid": "c886b25a97eac1848b3618b89371e202",
+            "_checkSum": "0740bf84a38504383c80103d60582217"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Strawberry.png",
+            "_guid": "6bd9fbb32cbf1e344bfa9e2736a28500",
+            "_checkSum": "568a3f91b8f6102f1b518c1aba0e8e09"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Mask Dude/Double Jump (32x32).png",
+            "_guid": "75d91e40654c2804386a422ceb5cd167",
+            "_checkSum": "5afb26aa4240eff1eab105eb3263ab83"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Mask Dude/Fall (32x32).png",
+            "_guid": "b211e2b35ef533f4cae5237aa98f48aa",
+            "_checkSum": "469d2d7814fa8258325eb5d305808315"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Mask Dude/Hit (32x32).png",
+            "_guid": "1c417a78085fd6f47b0be029809eb4f4",
+            "_checkSum": "d03a7bbce7fbda59dd057397f86a8899"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Mask Dude/Idle (32x32).png",
+            "_guid": "e59ecfcd1e44c724e91c37f1664581e5",
+            "_checkSum": "29c95dbb63a9bf44c42821aa0cf49de8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Mask Dude/Jump (32x32).png",
+            "_guid": "6d9e602783fcb364c99d86a17d456273",
+            "_checkSum": "99da59b514370539951a76ba1fe51821"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Mask Dude/Run (32x32).png",
+            "_guid": "3dba269ec3ac4a34ebfdd9148da72442",
+            "_checkSum": "b04bbc82dc692516a4b13c0d9d5b9ebd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Mask Dude/Wall Jump (32x32).png",
+            "_guid": "b16891dc57ed2314886f876fd070760d",
+            "_checkSum": "552254b40eac6d10d2c3d779edb92116"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Ninja Frog/Double Jump (32x32).png",
+            "_guid": "1fcfb8af3ba104849b9a564da08b4364",
+            "_checkSum": "351c1df6eb5ac94209e8e490ab816879"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Ninja Frog/Fall (32x32).png",
+            "_guid": "096cde7abb033e74a8d340d9a8b35ad3",
+            "_checkSum": "ef8f3627041b7ae2a1dc76dfc3e419f3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Ninja Frog/Hit (32x32).png",
+            "_guid": "de01cbbb4a182c94495f5887d9c612af",
+            "_checkSum": "4c1ba2bf4e576409abbbd1aacc91d51d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Ninja Frog/Idle (32x32).png",
+            "_guid": "fbeffaa73176ebf43973f5500869d7c2",
+            "_checkSum": "cb655be6f9354444720c7ce1dbd61dae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Ninja Frog/Jump (32x32).png",
+            "_guid": "5abf5b9d097b44f4b95126f716cc0961",
+            "_checkSum": "4f048ccbc783c8eb3824be9651da8a34"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Ninja Frog/Run (32x32).png",
+            "_guid": "464de3ac647cd894b8b161e68de8ec0f",
+            "_checkSum": "fb191b4e6ac599286c38e496a700cfd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Ninja Frog/Wall Jump (32x32).png",
+            "_guid": "e965abfbb1c88644c95d60d0dcf5f89d",
+            "_checkSum": "37ec0be0f82c3750a07efa558c032ee7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Pink Man/Double Jump (32x32).png",
+            "_guid": "97cdedf4851b5dc4bb50779155eab27a",
+            "_checkSum": "c76baa04d956c9d985c79643d7b2f672"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Pink Man/Fall (32x32).png",
+            "_guid": "417cd10bc68ffec43808ccc11ad1e75d",
+            "_checkSum": "a20bd61d76132e4301fcfe7aa02ca9ba"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Pink Man/Hit (32x32).png",
+            "_guid": "b5fe9282a2b19134b86f74cecea505ef",
+            "_checkSum": "5d93268a09fb2959e1755da4ba201f9e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Pink Man/Idle (32x32).png",
+            "_guid": "1d9abade44b93cd468159209db62ff45",
+            "_checkSum": "1b35f85f1241dc1f0597cafbe1eac7f6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Pink Man/Jump (32x32).png",
+            "_guid": "fe5cac338540b244da5946fe5d0ae39e",
+            "_checkSum": "cafaf2f48f36c9a6655a37f9c1c47b4a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Pink Man/Run (32x32).png",
+            "_guid": "d70accd5f874ac44f95a8a558e0bfaab",
+            "_checkSum": "25fcce89dfb6673a81d384091c87353d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Pink Man/Wall Jump (32x32).png",
+            "_guid": "ef21002bcf37abe429a83880172c763b",
+            "_checkSum": "955d352171a2b666ae705b6205856ce1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Double Jump (32x32).png",
+            "_guid": "39df70457c6097d459c5a2baf8c818ba",
+            "_checkSum": "612926916a3e8c5deff2023722c465ac"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Fall (32x32).png",
+            "_guid": "762de4854fe9b8b4695bdf3df3fbe839",
+            "_checkSum": "5eb8c32845fad5fcc7794247eb91aed0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Hit (32x32).png",
+            "_guid": "04e4a333f1c3ac940814612019c279cd",
+            "_checkSum": "bbd39134a77e658b0b9b64ded537972c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Idle (32x32).png",
+            "_guid": "e4ba4ea7663883b418afcd4b08eb186f",
+            "_checkSum": "1cb575929ac10fe13dfafa61d78ba28d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Jump (32x32).png",
+            "_guid": "e746e4e8ee0b22c4fb0318cc420fe4ac",
+            "_checkSum": "f28e95fc98b251913baf3a21d5602381"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Run (32x32).png",
+            "_guid": "41774ac415e3357478fbeca41ea30573",
+            "_checkSum": "016f388a07f71a930fd79a7a806d5da8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Wall Jump (32x32).png",
+            "_guid": "faa9634bcb5b72b41a820f321335c8eb",
+            "_checkSum": "76cbdd4a22d50bd65ac02be8a5eb1547"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Arrow/Hit (18x18).png",
+            "_guid": "9603b78c9eb7e7e4ba81e0ed434dc058",
+            "_checkSum": "5c6f27dc5dca69164b459289dba9b4b3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Arrow/Idle (18x18).png",
+            "_guid": "5ac2f8d61e170714a8626edab43f2e8c",
+            "_checkSum": "92996e892443163c02ae05afdce12aeb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Blocks/HitSide (22x22).png",
+            "_guid": "7ba9c49d95d67484d97a2c76d9651fa1",
+            "_checkSum": "7eed54b86ba05522718b349b13256527"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Blocks/HitTop (22x22).png",
+            "_guid": "b7291f1f1df148f47ab1382d1cf9657a",
+            "_checkSum": "f7a6d02878479b0d8b408ef1d8e071b3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Blocks/Idle.png",
+            "_guid": "c62d320d2381a144a9ea4f91cc197e5a",
+            "_checkSum": "df28a79558854cd172e8d82df8414110"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Blocks/Part 1 (22x22).png",
+            "_guid": "92d6c9a956cf6fa49806a759cb9044fb",
+            "_checkSum": "8ed4876040c692b6f353e40ddc9466d4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Blocks/Part 2 (22x22).png",
+            "_guid": "269ce4e010bebc2439eee906c4c199e9",
+            "_checkSum": "ee32674efcd862136828db547dae6cb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Falling Platforms/Off.png",
+            "_guid": "e2f4c535347838b45b73d745b1e23813",
+            "_checkSum": "61cbabffca58576e5d8e0b7abf38b95e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Falling Platforms/On (32x10).png",
+            "_guid": "b1de313bba047bd43822d0761e2ba044",
+            "_checkSum": "025cf6ddf15c55f73d65ce670e45b94d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Fan/Off.png",
+            "_guid": "51b0ce3c308fec2478d859f5fbc6cafd",
+            "_checkSum": "0e7288b787c57532b4549fbdb6bce311"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Fan/On (24x8).png",
+            "_guid": "87a3722e940a20248ad45fbd124ee583",
+            "_checkSum": "70f1ada6b967d83982dc663d838c88ed"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Fire/Hit (16x32).png",
+            "_guid": "40bb8a1e96e493e4d90756d823a3b5b3",
+            "_checkSum": "b161b5e6801126c9e999d09bf69ccb97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Fire/Off.png",
+            "_guid": "6ce88c888fbc73a48a032666d1303277",
+            "_checkSum": "2984d7e69a4f68c94d6ead997e68e3d3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Fire/On (16x32).png",
+            "_guid": "ed97f86b631b43743aada01d235b67bf",
+            "_checkSum": "eaf35fcb43611e2d738a475b2a66beae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Platforms/Brown Off.png",
+            "_guid": "869473169cca39346a3a76f8ee402b14",
+            "_checkSum": "2c7df5d45d132f6c3e298aaa28f90e94"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Platforms/Brown On (32x8).png",
+            "_guid": "7d11916bb0d43d9488432f85aacff04f",
+            "_checkSum": "9de63939bf58f9e0cdcd28b463724797"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Platforms/Chain.png",
+            "_guid": "0d143bc7ca452fe45b4543d5c0e4f0c4",
+            "_checkSum": "06dd0d1de25353ef396f9850ab16061e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Platforms/Grey Off.png",
+            "_guid": "aec9ac6c55918e34886da2e239867e8b",
+            "_checkSum": "5513eff304a382fc4b984d2cf7975cc4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Platforms/Grey On (32x8).png",
+            "_guid": "d7321c826ade5d14abe32774baeddf2e",
+            "_checkSum": "43a0f74d1389afd48b42aa45455bf1fa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Blink (42x42).png",
+            "_guid": "e485aca3c58a12149b6a9be2d290410a",
+            "_checkSum": "79bec88f1bab85f2d3304eb64c52e6c6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Bottom Hit (42x42).png",
+            "_guid": "5090a66f7704e2b4488bf11933fcbe05",
+            "_checkSum": "a8905ebb8b4ca7775d234e61b70b0e04"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Idle.png",
+            "_guid": "bd0543f6e790fac4e9d44bada062e355",
+            "_checkSum": "d627e29f18b4c88d698fada937fdb4f0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Left Hit (42x42).png",
+            "_guid": "b7ef60a1a58a6904db28c6d9084d436a",
+            "_checkSum": "29e183472fc139814d5245a14b0c2ebd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Right Hit (42x42).png",
+            "_guid": "3fc93b309e4ad0448a42859a1ee8ffe4",
+            "_checkSum": "c2e11c4f2e75253e649d39f6e0dcb46d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Top Hit (42x42).png",
+            "_guid": "b53ff8b5db5bc524c884e1ea07e36858",
+            "_checkSum": "a7bc34c2035ccb90c16b7693209d03fd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Sand Mud Ice/Ice Particle.png",
+            "_guid": "967167dea81fe4b48bea9e15d0194c93",
+            "_checkSum": "e02aefd5f34a1d92c34e403901dfceac"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Sand Mud Ice/Mud Particle.png",
+            "_guid": "03cf2491ef2bf8a448efbb38df5204c7",
+            "_checkSum": "d9b98c54de3691a1112cd98e273eb651"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Sand Mud Ice/Sand Mud Ice (16x6).png",
+            "_guid": "aa2fb22531992164bb2751b4e37c506a",
+            "_checkSum": "5d3b5ca60b81488357c35f295102b2af"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Sand Mud Ice/Sand Particle.png",
+            "_guid": "9c76a813dba2d7a4dba05905a40c7064",
+            "_checkSum": "4eb5d75f4ac258086dc6033848b861c1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Saw/Chain.png",
+            "_guid": "63f9b472a15aeac4ea99e4c083be7be1",
+            "_checkSum": "69669f8f421b508058cdf1232dc49e28"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Saw/Off.png",
+            "_guid": "f08e2b0859b85f84c97c86ccef9a330e",
+            "_checkSum": "66d27386fec46e0b052941957d9bdc22"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Saw/On (38x38).png",
+            "_guid": "6fcb7a87d8915bb4dbb0fc687f3e56b3",
+            "_checkSum": "817477a39df8b330334e3866c1cb574b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spike Head/Blink (54x52).png",
+            "_guid": "539ad9224de716b4883fbb9045dbf174",
+            "_checkSum": "9bbd5e13344ea15e95a0f4fd6aa69c58"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spike Head/Bottom Hit (54x52).png",
+            "_guid": "17fbac490ef72534db0fec5e0e82ce0d",
+            "_checkSum": "874481bac6b073f542879e7463e40803"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spike Head/Idle.png",
+            "_guid": "e16d29c8e60ef5345b4cee0c7f0038ca",
+            "_checkSum": "186a0ffbe08411c54dba5e5e5895fec5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spike Head/Left Hit (54x52).png",
+            "_guid": "a9d7a75913be55c4d88531eced625251",
+            "_checkSum": "1c14ae2c7378d90e92307e9fa5998540"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spike Head/Right Hit (54x52).png",
+            "_guid": "3c4bb8d0cef1d304ba1f1407db33ed08",
+            "_checkSum": "6f7f8c608eb77606721304f074ff439b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spike Head/Top Hit (54x52).png",
+            "_guid": "0bd42abe0e744284295ace41d35efc89",
+            "_checkSum": "cd0107843e57eba78eb61589422d8ec7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spiked Ball/Chain.png",
+            "_guid": "14f53d4099d8e0c4694cc2f2fe9c90ca",
+            "_checkSum": "16dff8265ca29df58e378bebbdd40295"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spiked Ball/Spiked Ball.png",
+            "_guid": "273591050a65be24ca3ec0e6a4611291",
+            "_checkSum": "80489916819a87e28af7fbb56eed2181"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Spikes/Idle.png",
+            "_guid": "8c41cbac964562e4bb80c6739f5dc0ca",
+            "_checkSum": "64c275b1b14a4c8cd49088ce8ebf0db5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Trampoline/Idle.png",
+            "_guid": "6a221915f397d4245af2877b23bdd9b4",
+            "_checkSum": "9a1c4cc3188aaae2247f378b2458b9d9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Trampoline/Jump (28x28).png",
+            "_guid": "9673b2a563130584282cd1d17258e2ac",
+            "_checkSum": "1c868ca3c1adb54c332a149e7e55f130"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Materials/Brown.mat",
+            "_guid": "e8bf8a7ab570fb04581b04b68808c363",
+            "_checkSum": "3cb8fc7db70bfb3f8ad83503bff29e5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Materials/Gray.mat",
+            "_guid": "3d4c799a90367594da62ebfc6f7dfa14",
+            "_checkSum": "b322d7eee3754bd0d49d0eccc55d0eaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Materials/Green.mat",
+            "_guid": "3b389379c2ca5ae4280faa6f612d88bc",
+            "_checkSum": "6ae8831ae5e5e62e7ea2aadb817524e9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Textures/Background/Materials/Pink.mat",
+            "_guid": "2d1a26de68274694ba3124cf8bb83a44",
+            "_checkSum": "b43d5dfcf2726cc0baca6a934608e89d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box1/Break.png",
+            "_guid": "8e68a9bb591a54b40bc3fdc4e62ef977",
+            "_checkSum": "903e8cddbfc8055f0f48b419cf458a60"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box1/Hit (28x24).png",
+            "_guid": "6abdde628d602274ba0340f428688645",
+            "_checkSum": "93801a866811246a9b608fee26b0d1fd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box1/Idle.png",
+            "_guid": "91ec2b86f3f88b94aab710c17db27646",
+            "_checkSum": "d0c63302c00f5e0e9bc3bcffefe3c3fe"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box2/Break.png",
+            "_guid": "5500530bb13a5dc4f84bf0c8b238196d",
+            "_checkSum": "1be585cdc218d7ac43f127498803c283"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box2/Hit (28x24).png",
+            "_guid": "4bb55bbc4703b4742b8c2164cf8c0c4d",
+            "_checkSum": "7640893b496fd0397eeba89e74e40ea5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box2/Idle.png",
+            "_guid": "1e3278bfd4cc6654281d24acf1b0e5a2",
+            "_checkSum": "fd7e46184141631c675a0cb993d3df19"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box3/Break.png",
+            "_guid": "0266296f140a300449f2f45c2397b7cf",
+            "_checkSum": "6d23401e8929d47311c40131196da579"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box3/Hit (28x24).png",
+            "_guid": "b46dc284361582449b1968f79198bd72",
+            "_checkSum": "27ae8e072417ebe7a11dc56476aa295a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Boxes/Box3/Idle.png",
+            "_guid": "e7147ca671dd10a4188b0dfcf520ff5f",
+            "_checkSum": "21bb703677084f2aaf62323b83483f8e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png",
+            "_guid": "09f9afebde0ee2b4ab4a077263880790",
+            "_checkSum": "dd8752c20a0f69ab173f1ead16044462"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png",
+            "_guid": "f941571bc902dfa4eb5b5a07c52adea6",
+            "_checkSum": "c4730e5429a75691e2d2a9351c76738e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png",
+            "_guid": "3d086910d235b194b8f77a33ef28dc04",
+            "_checkSum": "9126203dc833ec3b7dfb7a05e41910e5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Checkpoints/End/End (Idle).png",
+            "_guid": "bf8a0e22f929b7f4fa9f5942702cced4",
+            "_checkSum": "e3627d7da583875ddef9a17036cec767"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Checkpoints/End/End (Pressed) (64x64).png",
+            "_guid": "d32a62e9410dc49489b8e450892ca1c1",
+            "_checkSum": "1ce36017dfe561556f75324a065bc4df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Checkpoints/Start/Start (Idle).png",
+            "_guid": "0b49bb2f71514e44fb2ef194f9344af7",
+            "_checkSum": "3b3666dde41d33e4ae75c6e614dd5f51"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Checkpoints/Start/Start (Moving) (64x64).png",
+            "_guid": "d77815cb8a774314996cb7edfa5ab01d",
+            "_checkSum": "3c1467f4bf5f1e0c877f66a8a05900b8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Apple.anim",
+            "_guid": "078e59a6ffe945647baefcca8bd437bc",
+            "_checkSum": "1571afb3b563e75f559a8f57d3e61346"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Apple.controller",
+            "_guid": "da0fb0b54fff33e4092d17a5d6814a93",
+            "_checkSum": "424666000bcbfe012587e71ad2da2c3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Bananas.anim",
+            "_guid": "1ccb73e439a971842aa387cae3aa46a5",
+            "_checkSum": "9db46b0a99b39c1f778a241b524690e4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Bananas.controller",
+            "_guid": "b6ef9bedee4a78f419e7ddda60fedd2f",
+            "_checkSum": "deac025f1be42d044cbd065fd420aa06"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Cherries.anim",
+            "_guid": "c451e4fbe8c53014cb0722c56b207360",
+            "_checkSum": "92c1a963b126018f481aa07339945049"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Cherries.controller",
+            "_guid": "c29cf2e26bdf48044a68d861d2198376",
+            "_checkSum": "9e7cbcc110e5486a25a3532971fe288a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Collected.anim",
+            "_guid": "f94076f347ee7f24ca5437613e7c2a78",
+            "_checkSum": "08a1bc5325caa8315291113a17dbdaf7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Collected.controller",
+            "_guid": "2d71ae1318d815c419bb069202eaf175",
+            "_checkSum": "3092ddb9730677d42452926fdf1c8de8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Kiwi.anim",
+            "_guid": "f129e888e8a1dc441bf83a1d34964ae7",
+            "_checkSum": "b1eaf75f31153ed8bed4ecc18c1285da"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Kiwi.controller",
+            "_guid": "f6797cfff9e5fd7469191b54f63f5b56",
+            "_checkSum": "7d91d5014895e5226b09d3766de2a2ce"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Melon.anim",
+            "_guid": "22f8c6f1f534ed7418cef5fbe36ebaac",
+            "_checkSum": "3d47b1a296bfbe7d7e2f9e1eee1e99a4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Melon.controller",
+            "_guid": "6bcc28cdc7ddd064da5ec51db3859491",
+            "_checkSum": "5a672166c26f1800b25f11e0beed2efa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Orange.anim",
+            "_guid": "c500546017ffb2747a2958c521b990ff",
+            "_checkSum": "da4c39a4e7406d5174bde83b467bf517"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Orange.controller",
+            "_guid": "ef2802e0938dd734e891e54bbfbc091b",
+            "_checkSum": "00464135aebb5d7594f275292e089b9a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Pineapple.anim",
+            "_guid": "f71e759fb28af924baf6aae1a3b0948d",
+            "_checkSum": "f8954ede1a68300f612d7b6a6f2e5cf8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Pineapple.controller",
+            "_guid": "f290ab56a64ff224cabd17c8b615d211",
+            "_checkSum": "2064cd909c17d618f858100aaaf7b919"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Strawberry.anim",
+            "_guid": "1a2bc69c682933e4bb6da4cc66683e15",
+            "_checkSum": "cab213454c8a8256b59385dc3f345b88"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Items/Fruits/Animations/Strawberry.controller",
+            "_guid": "580f8032d198d5b4182371525f7e0157",
+            "_checkSum": "b9a6d61e374f2e277e4290ed6b08e500"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Animations/Fall.anim",
+            "_guid": "15f73fd845db4b54081d2e0d747ec066",
+            "_checkSum": "6b1a9ada2b79eede19cd8da1ed0e3bf4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Animations/Hit.anim",
+            "_guid": "bcbb2dd22f950dd4193cfff2a67f50b8",
+            "_checkSum": "ee253839fea2fd001f751843fd44410b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Animations/Idle.anim",
+            "_guid": "732f68d49d646d14ebf42066d5d8e617",
+            "_checkSum": "719b9fd19bbfa1b70433af2760d83c2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Animations/Jump.anim",
+            "_guid": "35ec6a31f5b3b2c46bb00a86e1c33df1",
+            "_checkSum": "81ba09ffaa1955dd60a54e4a5b351149"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Animations/Run.anim",
+            "_guid": "73b4035490923774d998ec810d465672",
+            "_checkSum": "f45dbad221a94d03580698d4cea28afd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Main Characters/Virtual Guy/Animations/Virtual Guy.controller",
+            "_guid": "88d119a292378eb4ca65bd338be16a54",
+            "_checkSum": "91a0db9704d416744e56f33e519dba6c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Falling Platforms/Animations/FallingPlatform.controller",
+            "_guid": "8f92b2ebaebdd3241a10bc473998237a",
+            "_checkSum": "3dd98caa4508f57d72b5a03c6d536f01"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Falling Platforms/Animations/Off.anim",
+            "_guid": "4cd78400dc491d84cb49b5a67c15be87",
+            "_checkSum": "b1c1fc083c559b9d5f2187656609b806"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Falling Platforms/Animations/On.anim",
+            "_guid": "d0060ff02acd71343b0d2ba86506351d",
+            "_checkSum": "3c8535dfaadad27cfa4dbece8bddbe1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Animations/Blink.anim",
+            "_guid": "aaca2ff7d00dbe344b22127f43a15deb",
+            "_checkSum": "f4de6326014ad89b2a96ec7e3c44c7e4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Animations/Bottom Hit.anim",
+            "_guid": "7d6060ae28b7cf144b8f968b51c40683",
+            "_checkSum": "59a6870746de87026a19c0ea873838d8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Animations/Idle.anim",
+            "_guid": "c4c2210421e59364581532bcd7d0ada0",
+            "_checkSum": "4e40edbc0ae2ade757017f295f37adc7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Animations/Left Hit.anim",
+            "_guid": "9ea0aa92401ab2342bd6189d5b5914e9",
+            "_checkSum": "e20bf5395b30caefaedf274ba7b9cc91"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Animations/Right Hit.anim",
+            "_guid": "ebb1d106b351c1e438e677f5ba3ec7a5",
+            "_checkSum": "16809a176decee24f588fb3d6487cd93"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Animations/Rock Head.controller",
+            "_guid": "96a7772b19aff994b9729dd05a41cc9c",
+            "_checkSum": "69a214dc9e01b77d379ff779580e2455"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Rock Head/Animations/Top Hit.anim",
+            "_guid": "0b3e26dda233f874e97990ca1c16f84f",
+            "_checkSum": "051033dc5931502545b0005b0f710e91"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Saw/Animations/On.anim",
+            "_guid": "6a8b99cf2d91cd7479a044912087887c",
+            "_checkSum": "9b43f0651a430cbfac6d25a61e2caadf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/PixelPlatformer/Sprites/Traps/Saw/Animations/Saw.controller",
+            "_guid": "69941bb58da6b18429f319922a5b170c",
+            "_checkSum": "8133c1231b7e24d5dc3b2ffd2cb84c3c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
+            "_guid": "1e791f30eb3e9d84e84f065801a5e960",
+            "_checkSum": "f82b5a4cbaa2c47f63b84edbe3d5bf5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Samples.asset",
+            "_guid": "ee5f617a22ae3614793f6ae5d52cc6ba",
+            "_checkSum": "3a1d9e3595f33697d28e48dadbdb462f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/beep.mp3",
+            "_guid": "f2e8a6a4e637a3e47a3825fc1cbdd7f0",
+            "_checkSum": "17ce0037a19ac7ca0f66bf80cb3eddaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/dataChirp.mp3",
+            "_guid": "d356acd0857defe44993ff1b59654fe3",
+            "_checkSum": "a11207e31c18ccc68569e8446ffa7d64"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/doorServos.mp3",
+            "_guid": "fe51bc757964761458c6d5b6fc899d7e",
+            "_checkSum": "fbfb470edcc97c9bf61d6cd46e770a86"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/pressurePlate.mp3",
+            "_guid": "7d5d54edd899d644e8995de4d63baea2",
+            "_checkSum": "9895286c39e7440dcc3b921879ca45a0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/SampleAudioMixer.mixer",
+            "_guid": "1665e9ccdc7e04d4c91405e69a0198ab",
+            "_checkSum": "74a74291a9bbbd00ec32aebe4cb06271"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortAlarm.mp3",
+            "_guid": "46c2c82b71852604f90f60d57bc9e4d1",
+            "_checkSum": "27115bdaedc138bbf215d834a8bbfdaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortBeep.mp3",
+            "_guid": "f8b7b72fcd4468b4288f6f86b3064f50",
+            "_checkSum": "a752a3ab3b115549133bf60e1597b455"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/success.wav",
+            "_guid": "3992fab729161bd4c80bb597a0dcdd42",
+            "_checkSum": "bd5aa70b8142da7a08f9b4c4b2a9d818"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/synthBeep.mp3",
+            "_guid": "3c689c46bcf2d8b4fae30f3169e72aa8",
+            "_checkSum": "36a5fc181a8bcfe1ac698770c6f82a1e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Black.ttf",
+            "_guid": "76348cbe618aaf24685419c3d653a07b",
+            "_checkSum": "e631d2735799aa943d93d301abf423d2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Bold.ttf",
+            "_guid": "42efd3313ae7c0448a792a49e622525e",
+            "_checkSum": "85d339d916479f729938d2911b85bf1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Light.ttf",
+            "_guid": "54ee4b17b85421342a80262adfa1c9f1",
+            "_checkSum": "2fe27d9d10cdfccb1baef28a45d5ba90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Regular.ttf",
+            "_guid": "84a15c2272c6de849816aa30935f3896",
+            "_checkSum": "2d36b1a925432bae7f3c53a340868c6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Thin.ttf",
+            "_guid": "94af4a26a50b2a4439d9a26e1141c1f9",
+            "_checkSum": "9a77fbaa85fa42b73e3b96399daf49c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/OFL.txt",
+            "_guid": "f022cc97c71d75940a9f2ca64f4418d8",
+            "_checkSum": "99aa8fee7ed71044ae773b92d79ab24c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF - Fallback.asset",
+            "_guid": "528c8856f21cc8b42bf5158fcb8dedb3",
+            "_checkSum": "569a29093b0a8f4eff204f8f60053ccd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF.asset",
+            "_guid": "3b973c8e584b61e4784fbee61a60a21a",
+            "_checkSum": "84389414ce2d65f79b5f779bbb3f83ea"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Roboto-Bold.ttf",
+            "_guid": "144b338c0044550479b6d8ac7872fe73",
+            "_checkSum": "ee7b96fa85d8fdb8c126409326ac2d2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Checker.mat",
+            "_guid": "fddf13eac51d6c04da368778921c9bae",
+            "_checkSum": "9cf2cfdfd2564166590696788c03ec97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Default.mat",
+            "_guid": "f7bbdc9c6dbee914d811845bdd27fec0",
+            "_checkSum": "042abdfb79e484c238bbefcc88832353"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Grid.mat",
+            "_guid": "45d6431d5737c9942aab2ea5f40f4fa8",
+            "_checkSum": "1eed8c1fc0b5d52845007fdb5a2460bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Ground.mat",
+            "_guid": "78d9bf08434302945a528d19f61d0c68",
+            "_checkSum": "d788d02ddfce9154bb74403fc1b62018"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Laser.mat",
+            "_guid": "74e31ab6eaff9604086b8bfb2f5ac9e6",
+            "_checkSum": "351dc65df041b594d17421e07e26dab9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Player.mat",
+            "_guid": "660ac48001db659448315c97245df61a",
+            "_checkSum": "d5cefb5294afa77e35f5f25d48168e96"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Red.mat",
+            "_guid": "0958838b7ccb9b846bf5bf4f107530ba",
+            "_checkSum": "6d1684c571298d52f0ba8cc5dab9a317"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Skybox.mat",
+            "_guid": "e9b1a22031bea8e4785888857a897c00",
+            "_checkSum": "5fefc95ed4d7e1b20bdd04eff875292b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/SkyboxDawn.mat",
+            "_guid": "342cf32b16983a94faf9f63c0535b269",
+            "_checkSum": "b9e8c6756cd989fcfc51e8efb1baafd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Floor32x01x32.fbx",
+            "_guid": "de0de8b009a1acd42846fe9db10fe150",
+            "_checkSum": "c09fa117a2e78f146bb8134508d61cb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Hill32x07x32.fbx",
+            "_guid": "5cacea182896d0d45a3e56e31cb505e2",
+            "_checkSum": "d06500a0273195b0d981cf0df174792f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicMaterial",
+            "_guid": "23e5aa8fa6a583949802532a1b73fee2",
+            "_checkSum": "cded2b73c0531b2d9e594ec010f8da5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicsMaterial2D",
+            "_guid": "db0bdc520e4f01a41bfa0d2954842661",
+            "_checkSum": "c4475fa5a0bc8b4d117ca1232ff0b01f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/AutoUpdate.prefab",
+            "_guid": "23da1eef7a529f446b1d8373caa22239",
+            "_checkSum": "1cacfc82c029079a194ebacc1a794f0c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Cube.prefab",
+            "_guid": "583d6eb741ffa524395dc0e13b74c1a2",
+            "_checkSum": "36a5bbef629da48ba2a5ea78895852b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/EventSystem.prefab",
+            "_guid": "2e16bc28d47957841b658e2b5e980dae",
+            "_checkSum": "006f76dd746ad740bf89cd640b911d6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Floor32x01x32.prefab",
+            "_guid": "e8abf9f0f83d0a244ba8d3e71b5334b9",
+            "_checkSum": "a6cb37ee0e57a870910c5c07fe780969"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Hill32x07x32.prefab",
+            "_guid": "295074861b42b3043bc8cbc09e918e56",
+            "_checkSum": "4a94a4c09bd234703f58becf1cf2ac3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/RadarBlip.prefab",
+            "_guid": "b0178bbc0dda35d4787bc07426038800",
+            "_checkSum": "7f368a7d266174583eaf84510223e885"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Stage32x32.prefab",
+            "_guid": "64354fef861314c4c9e8e470494fa5f3",
+            "_checkSum": "cb65539a0dc9f9853d0b751f33b2e695"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/AxisBillboardRibbon.cs",
+            "_guid": "55ce84e98fff3f1468a589458f2545b7",
+            "_checkSum": "f98ec916a4339e136fd386846376aed7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/PlayModePhysics2DSetup.cs",
+            "_guid": "5f2fa1a23f5d49a3a6659a4d3ff95e2f",
+            "_checkSum": "81f7c7517bf1847df90e591df5b72c6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SimpleFaceCameraBillboard.cs",
+            "_guid": "8194cd5718cc4629a0670c4b14d364c1",
+            "_checkSum": "8a06e92d2b2f0620b4109e867af2dc05"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SpriteNearFade.cs",
+            "_guid": "3a0c97bf5bdd480790fea80ef055b59b",
+            "_checkSum": "033122fb7165e0753866ba0a7fa6da6c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeParticle.shader",
+            "_guid": "5911c31b8fe44662b71a5ca0e4401c8c",
+            "_checkSum": "6da1b1a4a68c6151ae49987ecf020b1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeStandardDither.shader",
+            "_guid": "e32711c84d9641afb5d59a5fb19de20c",
+            "_checkSum": "d286e9f48121e378ab95fcbd95d5aff1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/Skybox Gradient.shader",
+            "_guid": "8b20b5c1b1c710d4da9e67331b096e31",
+            "_checkSum": "4566804149b4495a5e1d5b6026f77909"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopCircle.png",
+            "_guid": "39220fd80b39dd44a96de8693c4eee7c",
+            "_checkSum": "6ca29670ba230e243bc8e5a5d8d2f7e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopSquare.png",
+            "_guid": "409e07c936448a541b7fe5e19136841a",
+            "_checkSum": "ab8176ea0e80508377687e2d39a1bd93"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledCircle.png",
+            "_guid": "beb01e11cc8b2784c9dc20f845348db1",
+            "_checkSum": "df951fae597e49963f5ed99a75ad1c02"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledSquare.png",
+            "_guid": "604db4374a8a1a14e86d4b59df5ff081",
+            "_checkSum": "3a467d61bd583a03ce4950bbf3b83b2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/checker.png",
+            "_guid": "01d8784180eb8ea4dbe826f07e471b18",
+            "_checkSum": "76f41ee6a3f97b92890886951cac774c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Grid.png",
+            "_guid": "dda43d596acd98a4b940ebcec5c510b9",
+            "_checkSum": "7c18af9b79ce4a58ca2db56123b186e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/GridBright.png",
+            "_guid": "83e8d34777238f1439158c659ed2d4cb",
+            "_checkSum": "d571d666138fa79484fb9794c8c57cdf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/SolidWhite.png",
+            "_guid": "5921146df0c6d27448c69ea18ea1ed84",
+            "_checkSum": "0c987eb8aa29df0620678b1c6ed23ee4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Transparent.png",
+            "_guid": "dc52f68efbe025248b5bdcfcb7150e2a",
+            "_checkSum": "265145c064b8d066d4fcbf72a04f7165"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Checker.mat",
+            "_guid": "a6dfc9b8b030f444f9bf9a8bb95e4ec4",
+            "_checkSum": "74b394da8619c44a87f1ae2b081a4df9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Default.mat",
+            "_guid": "66083b4abef770341991fcbb6828db55",
+            "_checkSum": "b3e1a1f08a8b0f4c91481e208f01480d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Grid.mat",
+            "_guid": "75a649f7bc2340247b338440bdb19ebe",
+            "_checkSum": "376106f45f9753987b5896c245b83836"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
+            "_guid": "212b8995053a83e4aa6208246bbaad84",
+            "_checkSum": "f019b61740735448be27f97aed2b2059"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
+            "_guid": "13c039b2b9edf494382d0277d57dd8d7",
+            "_checkSum": "98760c5c514c73bbf4c28971adb17b6f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/Editor/PlayModePhysics2DSetupEditor.cs",
+            "_guid": "4dd52637d24f40ee819dcf69d6886d73",
+            "_checkSum": "e162694ac92bc28a8830145f933e1b42"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/URP/DistanceFade_URP_LitDither.shader",
+            "_guid": "13297d6c083dc034e826a46df4044c30",
+            "_checkSum": "5114d038b9a307b93a4cbbfe05813512"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/Characters/ShapeCharacters.png",
+            "_guid": "7492883ae6b6e634c9a445a2e76ca5c6",
+            "_checkSum": "1b0ce3c2a6083e8d6797c7aaa0766f1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/ArrowUp.png",
+            "_guid": "74e39b9f04820d84394b7e28e196e851",
+            "_checkSum": "374dcdf7451b807584c0c58b8c2cfc0b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Card.png",
+            "_guid": "dce7c6101a8a886468de51df84bf41ad",
+            "_checkSum": "a12a6e132dbe9d7cccccd47dff93d0bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/CardHighlight.png",
+            "_guid": "0107dbaaaf5b26d44a1c354e06e5b679",
+            "_checkSum": "4f9194cb712cb306d581b92a9a460744"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/info-background.png",
+            "_guid": "6b370e82d0721824d995bdc03451f29b",
+            "_checkSum": "4f420e4b3256fee9c0e61db8e6f8a555"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Reticle-Simple.png",
+            "_guid": "52973ca95abd7c04896c7920ecb65c6d",
+            "_checkSum": "2daee1f9612ad4863e9ede01c362c15d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/SprintIcon.png",
+            "_guid": "f08e787a07b26c64d983e842e6d0bb2d",
+            "_checkSum": "d8846aeb3a9198d91ddd3da49250b46a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/sword_silver.png",
+            "_guid": "84f2f87b85b9f454d963aa0d561f15e0",
+            "_checkSum": "1ad92a48bbc7af56b4897e3242f6f7cd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/UI-Arrow.png",
+            "_guid": "4871407a71980914ca6f287aadab65ef",
+            "_checkSum": "c36b935e2c77818ee6d9323a7f53a021"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/BlueUI.png",
+            "_guid": "c2e093b169260c341ba07dfb96995e7e",
+            "_checkSum": "d791ab7a5a8f5de97d7bd94e02093c8b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/ExtraUI.png",
+            "_guid": "f03e9fe579d803544b04726a47d42d48",
+            "_checkSum": "db8bf41719f1eb7f2fa0a2baa7c074ec"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/GreyUI.png",
+            "_guid": "fbfe51f381ccd6341a42a1ccb8806ed6",
+            "_checkSum": "f0b1fd3e6d68c0816b2886599d7eb0df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/License.txt",
+            "_guid": "82baf4ad16dac7c4eb10fd0f5b833726",
+            "_checkSum": "7834f429eccd41168be8186cd1460d94"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/panel_border_grey.png",
+            "_guid": "e07b108c722d76041b936aa79ff394d3",
+            "_checkSum": "aea30485c7c4f1cda49de7f8ced82e27"
+        }
+    ],
+    "_usages": {
+        "_actions": [
+            "HutongGames.PlayMaker.Actions.AnimatorSetBool",
+            "HutongGames.PlayMaker.Actions.AnimatorSetTrigger",
+            "HutongGames.PlayMaker.Actions.AnimatorSyncToRigidBody2D",
+            "HutongGames.PlayMaker.Actions.Audio.AudioSourcePlayOneShot",
+            "HutongGames.PlayMaker.Actions.BehaviourDisable",
+            "HutongGames.PlayMaker.Actions.BroadcastEvent",
+            "HutongGames.PlayMaker.Actions.CheckFloatLessThan",
+            "HutongGames.PlayMaker.Actions.CheckIntLessThan",
+            "HutongGames.PlayMaker.Actions.CheckStringEquals",
+            "HutongGames.PlayMaker.Actions.Collider2DSetIsTrigger",
+            "HutongGames.PlayMaker.Actions.GameObjectActivate",
+            "HutongGames.PlayMaker.Actions.GameObjectDeactivate",
+            "HutongGames.PlayMaker.Actions.GameObjectDestroy",
+            "HutongGames.PlayMaker.Actions.GameObjectFind",
+            "HutongGames.PlayMaker.Actions.GameObjectGetLayerName",
+            "HutongGames.PlayMaker.Actions.GameObjectInstantiateAtTransform",
+            "HutongGames.PlayMaker.Actions.InputGetAxisFloat",
+            "HutongGames.PlayMaker.Actions.InputGetButtonDown",
+            "HutongGames.PlayMaker.Actions.IntegerAdd",
+            "HutongGames.PlayMaker.Actions.IntegerSetValue",
+            "HutongGames.PlayMaker.Actions.ListGetNextItem",
+            "HutongGames.PlayMaker.Actions.MaterialScrollMainTexture",
+            "HutongGames.PlayMaker.Actions.ObjectCheckNameStartsWith",
+            "HutongGames.PlayMaker.Actions.ObjectDestroy",
+            "HutongGames.PlayMaker.Actions.ParticleSystemStop",
+            "HutongGames.PlayMaker.Actions.Physics2DCheckIsGrounded__Collider",
+            "HutongGames.PlayMaker.Actions.RendererGetMaterial",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DAddTorque",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DClampFallSpeed",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DGetPosition",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DMoveTowardsTarget",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DMultiplyFallSpeed",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DReduceJumpSpeed",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DSetFreezeRotation",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DSetGravityScale",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DSetIsKinematic",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DSetVelocity",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DSetVelocityX",
+            "HutongGames.PlayMaker.Actions.Rigidbody2DSetVelocityY",
+            "HutongGames.PlayMaker.Actions.SceneManagement.SceneManagerLoadSceneByName__Parameters",
+            "HutongGames.PlayMaker.Actions.SceneManagement.SceneManagerReloadActiveScene",
+            "HutongGames.PlayMaker.Actions.SendEventToGameObject",
+            "HutongGames.PlayMaker.Actions.TransformCheckHasChildren",
+            "HutongGames.PlayMaker.Actions.TransformFlipXToFaceFloatDirection",
+            "HutongGames.PlayMaker.Actions.TransformGetPosition__XYZ",
+            "HutongGames.PlayMaker.Actions.TransformRotateZ",
+            "HutongGames.PlayMaker.Actions.TransformSetEulerAngles",
+            "HutongGames.PlayMaker.Actions.TweenRotation",
+            "HutongGames.PlayMaker.Actions.TweenTransformLocalPosition",
+            "HutongGames.PlayMaker.Actions.Vector2DirectionSwitch",
+            "HutongGames.PlayMaker.Actions.Vector2Subtract",
+            "HutongGames.PlayMaker.Actions.WaitForRandomTime",
+            "HutongGames.PlayMaker.Actions.WaitForSeconds"
+        ]
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349230031667208
+}

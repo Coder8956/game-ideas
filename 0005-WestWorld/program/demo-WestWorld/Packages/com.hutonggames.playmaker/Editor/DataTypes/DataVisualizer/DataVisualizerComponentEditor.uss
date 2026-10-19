@@ -1,0 +1,115 @@
+.hutong-data-visualizer-editor__header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.hutong-data-visualizer-editor__add-button {
+    min-width: 96px;
+}
+
+.hutong-data-visualizer-editor__binding-box {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.hutong-data-visualizer-editor__binding-header {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.hutong-data-visualizer-editor__binding-title {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.hutong-data-visualizer-editor__binding-summary {
+    margin-left: 4px;
+    color: var(--unity-colors-label-text-secondary);
+}
+
+.hutong-data-visualizer-editor__binding-foldout {
+    min-width: 16px;
+    width: 16px;
+    min-height: 16px;
+    margin-right: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 10px;
+}
+
+.hutong-data-visualizer-editor__binding-color-swatch {
+    width: 10px;
+    min-width: 10px;
+    height: 10px;
+    min-height: 10px;
+    margin-left: 4px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgba(255, 255, 255, 0.2);
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.hutong-data-visualizer-editor__binding-actions {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+.hutong-data-visualizer-editor__binding-action-button {
+    min-width: 20px;
+    width: 20px;
+    min-height: 18px;
+    font-size: 9px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 2px;
+}
+
+.hutong-data-visualizer-editor__binding-toggle {
+    margin-right: 4px;
+    flex-shrink: 0;
+}
+
+.hutong-data-visualizer-editor__binding-toggle .unity-base-field__label {
+    display: none;
+}
+
+.hutong-data-visualizer-editor__binding-fields {
+    padding-top: 2px;
+}
+
+.hutong-data-visualizer-editor__section {
+    margin-top: 4px;
+}
+
+.hutong-data-visualizer-editor__section-header {
+    margin-left: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: var(--unity-colors-label-text-secondary);
+    -unity-font-style: bold;
+}
+
+.hutong-field {
+    padding: 0;
+}

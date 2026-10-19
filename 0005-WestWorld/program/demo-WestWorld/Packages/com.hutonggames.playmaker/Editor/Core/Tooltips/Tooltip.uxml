@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Core/Tooltips/Tooltip.uss?fileID=7433441132597879392&amp;guid=168e86e16e1d46ad8e85a809f29b8b4b&amp;type=3#Tooltip" />
+    <ui:VisualElement name="container" picking-mode="Ignore" class="hutong-tooltip__container">
+        <ui:VisualElement name="fit" picking-mode="Ignore" class="hutong-tooltip__fit">
+            <ui:VisualElement name="title-row" picking-mode="Ignore" class="hutong-popup-header hutong-tooltip__header">
+                <ui:Image name="icon" picking-mode="Ignore" class="hutong-tooltip__icon"/>
+                <ui:Label text="Title" display-tooltip-when-elided="true" name="title" enable-rich-text="false" picking-mode="Ignore" class="hutong-tooltip__title hutong-required-child"/>
+                <ui:Label name="type" picking-mode="Ignore" class="hutong-tooltip__type hutong-optional-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="key-image" picking-mode="Ignore" class="hutong-optional-image"/>
+            <ui:VisualElement name="content" picking-mode="Ignore" class="hutong-tooltip__content">
+                <ui:Label name="description" text="Tooltip" picking-mode="Ignore" class="hutong-tooltip__description hutong-optional-label" />
+                <ui:Label name="shortcut" picking-mode="Ignore" class="hutong-tooltip__shortcut hutong-optional-label" />
+                <ui:VisualElement name="value-row" picking-mode="Ignore" class="hutong-tooltip__value-row">
+                    <ui:Label name="value-header" text="Name" picking-mode="Ignore" class="hutong-tooltip__value-header hutong-optional-label" />
+                    <ui:Label name="value-description" text="Description" picking-mode="Ignore" class="hutong-tooltip__value-description hutong-optional-label" />
+                    <ui:Label name="value" text="Value" picking-mode="Ignore" class="hutong-tooltip__value hutong-optional-label" />
+                </ui:VisualElement>
+                <ui:Label name="errors" text="Errors" display-tooltip-when-elided="true" picking-mode="Ignore" class="hutong-editor-error-text hutong-tooltip__errors hutong-optional-label" />
+                <ui:Label name="path" text="Path" picking-mode="Ignore" class="hutong-tooltip__path hutong-optional-label" />
+                <ui:Label name="hints" text="Hints" picking-mode="Ignore" class="hutong-tooltip__hints hutong-optional-label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

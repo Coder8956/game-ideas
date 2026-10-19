@@ -1,0 +1,44 @@
+.hutong-debug-value-field {
+    margin-left: 3px;
+    margin-right: -2px;
+}
+
+.hutong-debug-value-field__label {
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: var(--unity-colors-default-background);
+    color: var(--hutong-editor-colors-text-dimmed);
+    opacity: 0.7;
+    overflow: hidden;
+    min-height: 14px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: var(--unity-colors-default-border);
+    -unity-text-align: middle-left;
+}
+
+.hutong-debug-value-field__error {
+    background-color: var(--hutong-editor-colors-error-background);
+    color: var(--unity-colors-default-text);
+}
+
+.hutong-debug-value-field__label--changed {
+    opacity: 1;
+    color: var(--hutong-editor-colors-debug-value-text-color_active);
+}
+
+.hutong-debug-value-field__label--idle  {
+    opacity: 0.7;
+    transition: color;
+    transition-duration: 0.5s;
+    color: var(--hutong-editor-colors-text-dimmed);
+}
+
+.hutong-debug-value-field__label--idle-no-animation  {
+    opacity: 0.7;
+    color: var(--hutong-editor-colors-text-dimmed);
+}

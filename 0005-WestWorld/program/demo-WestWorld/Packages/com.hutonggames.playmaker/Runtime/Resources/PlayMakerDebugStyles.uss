@@ -1,0 +1,138 @@
+:root {
+    flex-grow: 1;
+    font-size: 10px;
+    color: white;
+    --panel-margin: 12px;
+    -unity-font: resource("Fonts & Materials/PlayMaker_Roboto-Regular");
+}
+
+.anchor {
+    position: absolute;
+}
+
+.frame {
+    position: absolute;
+    border-color: red;
+    border-width: 1px;
+}
+
+.panel {
+    background-color: rgba(20, 20, 20, 0.6);
+    margin-bottom: 1px;
+    padding: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.go-center {
+    transform-origin: center center;
+    translate: -50% -50%;
+}
+
+.go-left {
+    transform-origin: center right;
+    translate: -100% -50%;
+}
+
+.go-top-left {
+    transform-origin: bottom right;
+    translate: -100% -100%;
+}
+
+.go-bottom-left {
+    transform-origin: bottom right;
+    translate: -100% 0;
+}
+
+.go-top {
+    transform-origin: bottom center;
+    translate: -50% -100%;
+}
+
+.go-bottom {
+    transform-origin: top center;
+    translate: -50% 0;
+}
+
+.go-right {
+    transform-origin: center left;
+    translate: 0 -50%;
+}
+
+.go-top-right {
+    transform-origin: bottom left;
+    translate: 0 -100%;
+}
+
+.go-bottom-right {
+    transform-origin: top left;
+    translate: 0 0;
+}
+
+
+.center {
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.left {
+    transform-origin: center left;
+    left: var(--panel-margin);
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.top-left {
+    transform-origin: top left;
+    left: var(--panel-margin);
+    top: var(--panel-margin);
+}
+
+.bottom-left {
+    transform-origin: bottom left;
+    left: var(--panel-margin);
+    bottom: var(--panel-margin);
+}
+
+.right {
+    transform-origin: center right;
+    right: var(--panel-margin);
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.top-right {
+    transform-origin: top right;
+    right: var(--panel-margin);
+    top: var(--panel-margin);
+}
+
+.bottom-right {
+    transform-origin: bottom right;
+    right: var(--panel-margin);
+    bottom: var(--panel-margin);
+}
+
+.top {
+    transform-origin: top center;
+    top: var(--panel-margin);
+    left: 50%;
+    translate: -50% 0;
+}
+
+.bottom {
+    transform-origin: bottom center;
+    bottom: var(--panel-margin);
+    left: 50%;
+    translate: -50% 0;
+}
+
+
+.panel > Label {
+    flex-grow: 1;
+    flex-shrink: 0;
+    white-space: normal;
+}

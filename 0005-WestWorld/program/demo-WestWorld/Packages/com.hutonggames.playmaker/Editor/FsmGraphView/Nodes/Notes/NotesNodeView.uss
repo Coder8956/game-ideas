@@ -1,0 +1,35 @@
+.hutong-notes-node-view {
+    min-width: 64px;
+    min-height: 64px;
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding-top: 6px;
+}
+
+.hutong-notes-nodes-view__frame {
+    border-color: rgb(255, 0, 0);
+    border-width: 1px;
+    border-radius: 8px;
+    flex-grow: 1;
+    /*background-color: rgba(0,0,0,0.2);*/
+}
+
+.hutong-notes-nodes-view__container {
+    flex-direction: row;
+    align-items: center;
+}
+
+.hutong-notes-node-view__text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 8px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgba(0,0,0,0.8);
+}
+
+.hutong-notes-node-view__selection-border {
+    border-radius: 12px;
+}

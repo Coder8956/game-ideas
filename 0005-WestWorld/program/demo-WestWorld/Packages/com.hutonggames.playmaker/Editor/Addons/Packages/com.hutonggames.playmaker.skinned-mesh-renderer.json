@@ -1,0 +1,133 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.skinned-mesh-renderer",
+    "_displayName": "Skinned Mesh Renderer",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Skinned Mesh Renderer actions.",
+    "_description": "Normally the Skinned Mesh Renderer is set up at edit time, but you can use these actions to configure the renderer at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/SkinnedMeshRenderer.html",
+    "_icon": "Rendering/SkinnedMeshRenderer",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererBakeMesh.cs",
+            "_guid": "9d0a75e24e010c84dae76ac0e5355d8d",
+            "_checkSum": "5702510cbabe6d92d985e6349565574b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererBakeMesh__UseScale.cs",
+            "_guid": "25e2c3fd1c839bb44bd1a390e7a161c1",
+            "_checkSum": "29f6f94fbc5720c8ba91fb9598900f91"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetBlendShapeWeight.cs",
+            "_guid": "e24db04f10c4cd74cb1744f838493042",
+            "_checkSum": "ae1b388489b399c345346f318d48a990"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetBones.cs",
+            "_guid": "1ae1a65acb8eb5d4997900c9a9cdc476",
+            "_checkSum": "993356b6b7c4adbc02b86b779413a3fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetForceMatrixRecalculationPerRender.cs",
+            "_guid": "de9bdca2159dfc0458f5cc637de4fdec",
+            "_checkSum": "e2e9b34db96af8efef299cac98f50318"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetQuality.cs",
+            "_guid": "805f4172cd1a31045bf293bdad45a04e",
+            "_checkSum": "2477f1bee34b4a7006b2b352f4418375"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetRootBone.cs",
+            "_guid": "7dcb1df78a1a7634ba64cde32b276a14",
+            "_checkSum": "486086c3edee5f15b8618941187265a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetSharedMesh.cs",
+            "_guid": "af42e378a3e7e874681bf2b477801f02",
+            "_checkSum": "db1a0123e48616810e3a5f5a49c85bc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetSkinnedMotionVectors.cs",
+            "_guid": "2ea861b55f9623b4baad2aab4f3fa63d",
+            "_checkSum": "318a408f4d09ae844767608c461f53d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetUpdateWhenOffscreen.cs",
+            "_guid": "42ae10a1c5eea4842bfd0f3c53c5dc23",
+            "_checkSum": "99a646e1ee58f7fa81fad0287a95d26c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererGetVertexBufferTarget.cs",
+            "_guid": "bf666dc8dccdc3d4589a5464c79bc68d",
+            "_checkSum": "ee95b575c3b107e9bbd7aa1e228b17a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetBlendShapeWeight.cs",
+            "_guid": "82bd530331cff4145af8d592a8eb40f7",
+            "_checkSum": "d4bd7f78e1b9c2a715feb50a6631c621"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetBones.cs",
+            "_guid": "d15f7b8aba277514c8ea6b8a91e84c59",
+            "_checkSum": "94c98b9df0b83bcae1e69eb22c604dc2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetForceMatrixRecalculationPerRender.cs",
+            "_guid": "3bdc36adc321028409233f2a1d49c2b3",
+            "_checkSum": "24f26ac90b05db35f0faceed0450a3d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetQuality.cs",
+            "_guid": "c09921b98ec534d4e8b67024ae778c89",
+            "_checkSum": "814849ab315a43460b0f83514d1ff613"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetRootBone.cs",
+            "_guid": "acb78d93a2c873e47af63e1d30ff5cfc",
+            "_checkSum": "9fabbb59fa0f4dbe6eb445346a785b2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetSharedMesh.cs",
+            "_guid": "8944abefc613a374fb777f3d7439736d",
+            "_checkSum": "bcdf61346debf6087634298a8f728f41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetSkinnedMotionVectors.cs",
+            "_guid": "c7a883ab92075c44cb28a16f174620ad",
+            "_checkSum": "d6f2df94abbb0bdea921d1bf74049b85"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetUpdateWhenOffscreen.cs",
+            "_guid": "249a53610748f3042a6a430f37ba71fb",
+            "_checkSum": "212484e48f24a5ed28732f10b11fd9df"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SkinnedMeshRenderer/SkinnedMeshRendererSetVertexBufferTarget.cs",
+            "_guid": "5397ac186bb57b04e94303762cecd0e7",
+            "_checkSum": "3b900009a402a373c0e9385dfb05930c"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479426267473
+}

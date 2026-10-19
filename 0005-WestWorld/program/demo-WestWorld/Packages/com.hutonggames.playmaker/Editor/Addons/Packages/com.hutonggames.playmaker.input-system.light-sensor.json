@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.light-sensor",
+    "_displayName": "LightSensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LightSensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System LightSensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.LightSensor.html",
+    "_icon": "InputSystem/LightSensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LightSensor/Actions/LightSensorGetLightLevel.cs",
+            "_guid": "3be0337bae914806bcac8d451d12e9cb",
+            "_checkSum": "ee27213ca06d99125f9616ff87e6a2ad"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LightSensor/Constants/LightSensorCurrentValue.cs",
+            "_guid": "8eeeb67c4ee446b99e113c545dbb0a6d",
+            "_checkSum": "b9674689358895014bed8e1dfc3b1148"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/LightSensor/Variables/LightSensor.cs",
+            "_guid": "9c5c632b3a7149cc83acbc52ea634986",
+            "_checkSum": "28f92ed032d6017326dbdaa557bc774b"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479657306877
+}

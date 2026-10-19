@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Runtime/Resources/PlayMakerDebugStyles.uss?fileID=7433441132597879392&amp;guid=6e0a9a5cb4c2bb24a8bd3178ec42821b&amp;type=3#PlayMakerDebugStyles" />
+    <ui:VisualElement name="center" class="panel center" />
+    <ui:VisualElement name="top-left" class="panel top-left" />
+    <ui:VisualElement name="left" class="panel left" />
+    <ui:VisualElement name="bottom-left" class="panel bottom-left" />
+    <ui:VisualElement name="top" class="panel top" />
+    <ui:VisualElement name="bottom" class="panel bottom" />
+    <ui:VisualElement name="right" class="panel right" />
+    <ui:VisualElement name="top-right" class="panel top-right" />
+    <ui:VisualElement name="bottom-right" class="panel bottom-right" />
+</ui:UXML>

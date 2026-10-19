@@ -1,0 +1,24 @@
+.hutong-color-preset-picker {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.hutong-color-preset-picker__color-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border-width: 1px;
+    border-color: rgb(50,50,50);
+}
+
+.hutong-color-preset-picker__color-button--selected {
+    border-color: var(--unity-colors-highlight-background);
+    border-width: 2px;
+}
+
+.hutong-color-preset-picker__color-button:hover {
+    border-color: var(--unity-colors-highlight-background);
+}

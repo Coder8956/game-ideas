@@ -1,0 +1,92 @@
+
+.hutong-asset-editor__name-row {
+    margin-top: 8px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hutong-asset-editor__name {
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.hutong-asset-editor__icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 4px;
+}
+
+.hutong-asset-editor__icon-style-button {
+    width: 20px;
+    height: 20px;
+}
+
+.hutong-asset-editor__description {
+    margin-left: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    white-space: normal;
+}
+
+.hutong-asset-editor__description > TextInput {
+    padding-left: 2px;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.hutong-asset-editor__centered-button {
+    flex-grow: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.hutong-group-asset-field {
+    flex-direction: row;
+    background-color: var(--hutong-editor-colors-header-background);
+    border-color: var(--unity-colors-window-border);
+    border-bottom-width: 1px;
+    flex-grow: 1;
+    margin-top:-2px;
+    padding-top: 0;
+    margin-left: -15px;
+    padding-left: 8px;
+    margin-right: -6px;
+    padding-right: 4px;
+    padding-bottom: 0;
+    margin-bottom: 8px;
+    align-items: center;
+    height: 23px;
+    max-height: 23px;
+}
+
+.hutong-group-asset-field__nav-button {
+    background-size: 12px 12px;
+    width: 18px;
+    height: 18px;
+    margin-left: 0;
+    margin-right: 2px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.hutong-group-asset-field__object-field {
+    margin-left: 0;
+    margin-right: 2px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.hutong-group-asset-field__object-field > Label {
+    max-width: 80px;
+    min-width: 0;
+    flex-shrink: 1;
+    flex-grow: 0.5;
+}
+
+.hutong-group-asset-field__new-button {
+    margin-left: 0;
+    margin-right: 0;
+    height: 19px;
+}

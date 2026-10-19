@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.accelerometer",
+    "_displayName": "Accelerometer",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Accelerometer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System Accelerometer actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.Accelerometer.html",
+    "_icon": "InputSystem/Accelerometer",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Accelerometer/Actions/AccelerometerGetAcceleration.cs",
+            "_guid": "aa8fe57c4b0f4096bb1fb4e40b422d02",
+            "_checkSum": "fac1d4ad59f433ff37038b4669b29961"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Accelerometer/Constants/AccelerometerCurrentValue.cs",
+            "_guid": "3c3dbfa4a53048a382e0f0878dfdc5b0",
+            "_checkSum": "b08ef2bc8fef28ecdde224bb0fcfea97"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Accelerometer/Variables/Accelerometer.cs",
+            "_guid": "9cd38b7c0f8f4a3bb6bebc8d99c2de84",
+            "_checkSum": "f5ef4f21ed8ce5f6971752a0073cfd6e"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479562616312
+}

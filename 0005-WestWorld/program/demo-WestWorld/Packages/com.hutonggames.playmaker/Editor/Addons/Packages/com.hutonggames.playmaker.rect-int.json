@@ -1,0 +1,188 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.rect-int",
+    "_displayName": "RectInt",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Action to work with RectInt variables.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/RectInt.html",
+    "_icon": "Math/RectInt",
+    "_tags": [
+        "Actions",
+        "Math"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntClampToBounds.cs",
+            "_guid": "f79aad4f73111314e922dfe28ebafea3",
+            "_checkSum": "95512abd8bcb1ada2b5e8a6df8fdc834"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntContains.cs",
+            "_guid": "d375803b2a67d9a4f89f3f3921eca798",
+            "_checkSum": "7194052595a1b876c3ccb22a2ffae4b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntEquals.cs",
+            "_guid": "51f10f216e3b52e42a23fc1c50419382",
+            "_checkSum": "dcc219d5f3cca60a0bbdf1632cc0b5ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetCenter.cs",
+            "_guid": "16bfd5fdbc8ee0148b44edd8bfe27a24",
+            "_checkSum": "052d4b60a967df77a496687e7128edef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetHeight.cs",
+            "_guid": "aeceabacae08e754fb9ef25c89843c40",
+            "_checkSum": "4d3ebddde7b332cfb5c9920aab62827a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetMax.cs",
+            "_guid": "4e6138e07026746488a696170f35bf31",
+            "_checkSum": "7d21c98f30622370e8020e3a7852275c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetMin.cs",
+            "_guid": "f0a5642eb80ea1543a32dc78cfd599a7",
+            "_checkSum": "97dedd585ab44516bfe3ae748ecd9f4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetPosition.cs",
+            "_guid": "9407416c19454ad4482e82f78961bc3d",
+            "_checkSum": "c79c388fd35794500a3baf398392b459"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetSize.cs",
+            "_guid": "596200199c07d114c93265948912558e",
+            "_checkSum": "c873de76379294ed20f1f80adcf53f00"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetWidth.cs",
+            "_guid": "429ef4d30f6972749ba2e3464ad5de63",
+            "_checkSum": "08cd46cbf6f043492f38598406e61ac0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetX.cs",
+            "_guid": "2e1073cfa65d1f54790d98260710b56b",
+            "_checkSum": "23128cb57bbb62ba0561407eb990df32"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetXMax.cs",
+            "_guid": "d3f8e288390b2334a99bb85c898b0981",
+            "_checkSum": "9a4b9b91d41d27878f777c9b01f9d39e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetXMin.cs",
+            "_guid": "c3cd84b6653edaa4895af9d2c86a65c8",
+            "_checkSum": "990a0d6550b885c73c7d9964c02e9270"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetY.cs",
+            "_guid": "e62db6c0915ca58459b1152907adb9d2",
+            "_checkSum": "1dccf8c45d492cdd8d971400780fd915"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetYMax.cs",
+            "_guid": "fa704e9b074699045a91c6a4cf4db4a8",
+            "_checkSum": "0416450d71cda43bac9bad00c7eb076b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntGetYMin.cs",
+            "_guid": "3fa46e86cbdfc3249a9fa37cd47a6dbf",
+            "_checkSum": "bafd0eff5ef8c100ece312408bbafd50"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntOverlaps.cs",
+            "_guid": "c5f565ed6316db940a43db770ef3705d",
+            "_checkSum": "d7d4b7127d7482867aa2e2eb597ff9de"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetHeight.cs",
+            "_guid": "52b2f6b9d9920ee4d950a3e09d1c3b69",
+            "_checkSum": "c14158ea4a51ad4afe72835271699770"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetMax.cs",
+            "_guid": "2f67dc8962e9c7e46bb101c6cd713781",
+            "_checkSum": "137a57e8fdedf77c367abb85adeb5e29"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetMin.cs",
+            "_guid": "da136c3c92345e94eb4296c55eff9a16",
+            "_checkSum": "687bdd9b5cd4918920afac3be5c118fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetMinMax.cs",
+            "_guid": "12848e11ae7dfc04aadaf360e9a13ff4",
+            "_checkSum": "044735add804691c3c84c14f98c16f94"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetPosition.cs",
+            "_guid": "144e6a2685cd42143956c0f78e9a2999",
+            "_checkSum": "d8b5df8bb07c617d82a0b1e162839ab1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetSize.cs",
+            "_guid": "831f6634f8b144b4baacb9c5904314b4",
+            "_checkSum": "78aced3e9cbc436da2bf6e0ea7396269"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetWidth.cs",
+            "_guid": "7df99c9534fa4184686a6ce0d4526f13",
+            "_checkSum": "bb453d8088d0cda54112b08425910f3a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetX.cs",
+            "_guid": "571922c134cce5d4998e734dc4aa6d43",
+            "_checkSum": "daf42443d3bf6e62b8463677a4b117e6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetXMax.cs",
+            "_guid": "91cc58fb3d7d12b478deab50bbb3ae89",
+            "_checkSum": "d31b3d7733262af400aa0555eb3ac6c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetXMin.cs",
+            "_guid": "3dcd9d469560f06488cc640c141eaadf",
+            "_checkSum": "f4a81f93fbfca7e8695665abc688ed53"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetY.cs",
+            "_guid": "bdb06eaf6e075ee4ca4ac7abf38534a1",
+            "_checkSum": "3e229b8fc671c4bfa7fa86ae8a42e0b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetYMax.cs",
+            "_guid": "4f465b1b0ec2d174d98b0a03e9a9ecc0",
+            "_checkSum": "f0527c76e0a2e093a5e011e8482bcd2f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntSetYMin.cs",
+            "_guid": "074a50dc566d4594fabbc79f64ef7282",
+            "_checkSum": "aefda2d10b9870085e5cdb04649d4760"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RectInt/RectIntToString__Format.cs",
+            "_guid": "590e71cea51474944b1a9c1ca7059ff0",
+            "_checkSum": "f67019c98af4cacf270bb6600d009e88"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479634325526
+}

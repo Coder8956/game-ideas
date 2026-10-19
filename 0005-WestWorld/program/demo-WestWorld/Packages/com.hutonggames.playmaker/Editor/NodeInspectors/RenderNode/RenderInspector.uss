@@ -1,0 +1,37 @@
+.hutong-render-inspector__snapshot-row {
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.hutong-render-inspector__snapshot-label {
+    width: 40%;
+}
+
+.hutong-render-inspector__snapshot-image-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.hutong-render-inspector__snapshot-image {
+    width: 100%;
+    height: 100%;
+}
+
+.hutong-render-inspector__snapshot-time-code {
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}

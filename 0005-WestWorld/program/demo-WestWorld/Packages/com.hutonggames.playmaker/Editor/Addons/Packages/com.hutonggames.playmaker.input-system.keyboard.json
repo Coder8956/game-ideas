@@ -1,0 +1,103 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.keyboard",
+    "_displayName": "Keyboard",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "InputSystem Keyboard actions.",
+    "_description": "Normally you would use PlayerInput and Actions for more flexibility, but you can use these actions to access the Keyboard directly.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.Keyboard.html",
+    "_icon": "InputSystem/Keyboard",
+    "_tags": [
+        "Actions",
+        "InputSystem"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/BaseKeyboardAction.cs",
+            "_guid": "3564b5cf8dff489091b03f9d5d7f5cc1",
+            "_checkSum": "433678c318dbe2e3cca164cb365b7f9e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardCheckAnyKeyIsPressed.cs",
+            "_guid": "f3da175e1ab147a69ee07444535eb506",
+            "_checkSum": "671e831d03f27620464080fae426c876"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardCheckKeyIsPressed.cs",
+            "_guid": "26563a1962a6451c92e80b879d8f8ba5",
+            "_checkSum": "12278acfe56f2b99bb9d74544bb67381"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardCheckKeyWasPressedThisFrame.cs",
+            "_guid": "63da81d80027446fb587bf4afaa239e7",
+            "_checkSum": "30dfccc4dc96e9521ed5582358682d40"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardCheckKeyWasReleasedThisFrame.cs",
+            "_guid": "57e578c82b2d42e6bf353f0a16526c99",
+            "_checkSum": "5452998be57cf7cb4760505a7bb419ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardGetKeyboardLayout.cs",
+            "_guid": "b21b62cecd8925640acdbbe9177074dc",
+            "_checkSum": "c37326471a1ca15a0d6f0b70e96f7e8b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardGetKeyCount.cs",
+            "_guid": "02dbf94d2b59bee429135b4d6b4f1c08",
+            "_checkSum": "25a64215d73f894f3d7b9949734c2d3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardOnTextInput.cs",
+            "_guid": "50e0161cb00b2c047927fcbce94642cb",
+            "_checkSum": "ab3d3e89e33a96e7388b8adcd8fbc75b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/KeyboardOnTextInputEvent.cs",
+            "_guid": "4cd31a0c49684d045aa602db1f08b130",
+            "_checkSum": "8409810af20e62a6e923f110bb473906"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Constants/KeyboardCurrentValue.cs",
+            "_guid": "8959479cd1bf4b2d84b7bb3172de4c78",
+            "_checkSum": "156e0ef49b7f81036d1dacf0f13927d3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Variables/Key.cs",
+            "_guid": "0d8fca16a8d0e714e9b6eddaea5b837e",
+            "_checkSum": "d1c65e8e04ccb637226b09e0cb1eca27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Variables/Keyboard.cs",
+            "_guid": "3cb85264599f4efc985de4193c71c8d6",
+            "_checkSum": "df8204681962851c0ce914f76ea01d4a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/IME/KeyboardSetIMECursorPosition.cs",
+            "_guid": "649b29530eb95a44f85762f7bc33464e",
+            "_checkSum": "0d4dff43a717291875e6f20ad75e5b5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Keyboard/Actions/IME/KeyboardSetIMEEnabled.cs",
+            "_guid": "c4824af256e4ec54daab967f59c4594e",
+            "_checkSum": "bb3963dd8ccd981925b5fab9d7feab5a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b81",
+    "_datePublished": "2026-08-11",
+    "_timeCode": 134309371752634698
+}

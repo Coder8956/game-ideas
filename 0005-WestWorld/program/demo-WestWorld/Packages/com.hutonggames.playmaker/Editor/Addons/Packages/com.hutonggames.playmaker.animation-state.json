@@ -1,0 +1,158 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animation-state",
+    "_displayName": "Animation State",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "The AnimationState gives full control over animation blending.",
+    "_description": "In most cases the Animation interface is sufficient and easier to use. Use the AnimationState if you need full control over the animation blending any playback process.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AnimationState.html",
+    "_icon": "Animation/AnimationState",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateAddMixingTransform.cs",
+            "_guid": "43357a836e379f749b4d26c3fd10aa8f",
+            "_checkSum": "61ce10fc84c647c91f777f4b777df367"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateAddMixingTransform__Recursive.cs",
+            "_guid": "99b6266f0b77dfa4a87a6a618c317baa",
+            "_checkSum": "30e64b262cca3749c4ca03ac4adddbbb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetBlendMode.cs",
+            "_guid": "388b084f8cb405046b12ab6294bb432a",
+            "_checkSum": "c3f145ddea8a52d6c5879154ba80d0f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetClip.cs",
+            "_guid": "b009863d061e54b4e95c29cfa1e062d8",
+            "_checkSum": "993084066f3454ca77653b66ce9f6a67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetEnabled.cs",
+            "_guid": "0c4cc93994b4098438e69dc327f65116",
+            "_checkSum": "e24bc4163cf4036b4c067648ce108d60"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetLayer.cs",
+            "_guid": "f14075f96c962da4b97af23d78c2c63c",
+            "_checkSum": "5ae025f201ada3c20d2074ea58ec9745"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetLength.cs",
+            "_guid": "669c5b63ce667d342b877bd5650cb610",
+            "_checkSum": "d6e3cac544f34b86b08f6c33bbbae9c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetName.cs",
+            "_guid": "daa68395fa54f4c458218bb26be1343e",
+            "_checkSum": "5d97e1d9025d7221c48dd71a87c30406"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetNormalizedSpeed.cs",
+            "_guid": "115d6feb39f534b499ffb8405662992c",
+            "_checkSum": "4c8fd64d0f7ee3d00b6b577200de2510"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetNormalizedTime.cs",
+            "_guid": "1a04a7137451d8d4585b5e9d149cb7cf",
+            "_checkSum": "239c344d25bc4575f043a18ee406e2a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetSpeed.cs",
+            "_guid": "1dcffcde3ffeffd4c850a16498a10420",
+            "_checkSum": "3102cb9df909eb1775c942f85632b8c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetTime.cs",
+            "_guid": "f3bba8e5cff93c842a74989ae2867f99",
+            "_checkSum": "d4e573f2b582c54922e3a1cb50717b7c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetWeight.cs",
+            "_guid": "9c5174215c9393c4b8598568713763e0",
+            "_checkSum": "87f10d5733bfcf51d0bb1e2f51041d3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateGetWrapMode.cs",
+            "_guid": "635311fd93200514f971a216df77a422",
+            "_checkSum": "6c5d3ff941e5b4e031c18ce026ec2e27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateRemoveMixingTransform.cs",
+            "_guid": "3b19d5288143e134e95f52274e0e1bb3",
+            "_checkSum": "7d67d6b4c8e6514d4b03fe4c218f974f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetBlendMode.cs",
+            "_guid": "a98c3c16d6f5d3b4a8da27a2967e1496",
+            "_checkSum": "33f609dfb0772fffedb9740d91786b61"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetEnabled.cs",
+            "_guid": "ef08d7e607b835b4a8dc1ef75d1dcfc4",
+            "_checkSum": "9e02b7725b92d558c4ddd4955798fff1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetLayer.cs",
+            "_guid": "e5970e9b23a7e2f40a3bb9a1d8d3366a",
+            "_checkSum": "b7bb4424fdc0bd544337f1683f4ec963"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetName.cs",
+            "_guid": "3a88cbe40fdf2ac45944e24eeb354ed8",
+            "_checkSum": "8254896f4c8b5f27afadcd6899ea0ff7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetNormalizedSpeed.cs",
+            "_guid": "c19a5e13a4ed7be45b0d4a7589d14429",
+            "_checkSum": "92eab108f1050be66d704e2c5a593302"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetNormalizedTime.cs",
+            "_guid": "1141aa7135ab72f469eacfe8e6fcb966",
+            "_checkSum": "6ea225b9847025e2dea40e7498eb5bb0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetSpeed.cs",
+            "_guid": "4a232bb4946f6ba419bc070247082477",
+            "_checkSum": "cad25b7125a8a563a5cb1757136269fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetTime.cs",
+            "_guid": "a58ea877c0d0f9145a6665e699372f85",
+            "_checkSum": "4205d5e7f9af4d976dd53c5fc173ca2a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetWeight.cs",
+            "_guid": "bc554bcfdfc60f14797104cd803fb742",
+            "_checkSum": "444e6868c6124efaa9364f42d468356b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationState/AnimationStateSetWrapMode.cs",
+            "_guid": "7408e92a0a3cd56499f879fd0f17cd75",
+            "_checkSum": "3e0630a3fe6f22276c6c3ca93c1532bd"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479435316837
+}

@@ -1,0 +1,213 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.universal-render-pipeline-volumes-overrides",
+    "_displayName": "URP Volume Overrides",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.universal-render-pipeline-volumes-color-grading"
+    ],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.render-pipelines.universal",
+            "MinimumVersion": "14.0.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "",
+    "_summary": "Override state actions for URP Volumes.",
+    "_description": "Adds PlayMaker actions for reading and setting URP Volume parameter override states, including color grading overrides.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/manual/Volumes.html",
+    "_icon": "Rendering/URP Volumes",
+    "_tags": [
+        "Actions",
+        "Render",
+        "URP"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/HutongGames.PlayMaker.UniversalRenderPipelineVolumesOverrides.asmdef",
+            "_guid": "d5e4d7fd71de42139cfc1c1fb167e781",
+            "_checkSum": "1582a2d4bbd01fd94c91af5604dbfaa3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/BloomGetOverrides.cs",
+            "_guid": "3184f03b005e4455906615f3de915e2e",
+            "_checkSum": "0af901b931ccde0b047f1dee3acaed6c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/BloomSetOverrides.cs",
+            "_guid": "c408aff0cb6c4ead97d69e546253b292",
+            "_checkSum": "fd44b199ac4bb74847cf94243afeb60a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/ChromaticAberrationGetOverrides.cs",
+            "_guid": "8a60061af6b241eda51b9e8831daabc0",
+            "_checkSum": "a1fc135cc973d436f27c617aff43644e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/ChromaticAberrationSetOverrides.cs",
+            "_guid": "fcbfc99a43454da38ea7179b02bccc55",
+            "_checkSum": "c415e9d23238cd337a30393aa59737ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/ColorAdjustmentsGetOverrides.cs",
+            "_guid": "a08c308c07b140c7ab42a247e0c16522",
+            "_checkSum": "13bb8afc86722872e9704845f7973414"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/ColorAdjustmentsSetOverrides.cs",
+            "_guid": "8a8b4767b30b4267a01a3078423acbfd",
+            "_checkSum": "ff36c9e73bf29013cea6d138857c3cea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/DepthOfFieldGetOverrides.cs",
+            "_guid": "08776fa6fc8a4da6b54caef95a641ab5",
+            "_checkSum": "ca84376590cc0c960d82eccf1568a263"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/DepthOfFieldSetOverrides.cs",
+            "_guid": "53cbed3c54d74c74902205eec3d84568",
+            "_checkSum": "e1aa4d6205b6af31a193230214723e4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/FilmGrainGetOverrides.cs",
+            "_guid": "588373158e284a159f67cb3f0509fc67",
+            "_checkSum": "a455cf220ddd82822b92ba14cef84e7b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/FilmGrainSetOverrides.cs",
+            "_guid": "5cd48eb90ebb4198a26aed772ea3b003",
+            "_checkSum": "53ca3a80f743623aa711b577de6debfa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/LensDistortionGetOverrides.cs",
+            "_guid": "40528f871f374b2ab2c116d44ac3f5f3",
+            "_checkSum": "972e9369f22e17803b9b58c4706eecfd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/LensDistortionSetOverrides.cs",
+            "_guid": "9c4f7f13aacd48d7b5c266486cc2dde1",
+            "_checkSum": "d898245d604a9df3cd0726fc112524f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/MotionBlurGetOverrides.cs",
+            "_guid": "fce02229e3c84e6d87e600f71783690f",
+            "_checkSum": "8d48b5686b5a34fda261f94793290c78"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/MotionBlurSetOverrides.cs",
+            "_guid": "18e025e35dd544a599bc8244e16e3ade",
+            "_checkSum": "08e11c3f6cf1c94c30041cfe0be67a68"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/PaniniProjectionGetOverrides.cs",
+            "_guid": "7e73cd84e80640f59c33297e1d990004",
+            "_checkSum": "5cba5c5202886495edaf1c3332ed9f9b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/PaniniProjectionSetOverrides.cs",
+            "_guid": "07c9ba9afd764cc89db8724b39cf15c9",
+            "_checkSum": "b593e8925ea56e999af14bad16cdd421"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/VignetteGetOverrides.cs",
+            "_guid": "2d8afef4b2dd4f85a3f59acc976b8ae9",
+            "_checkSum": "3d22b1227f3bb1487f51e13c1480b093"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesOverrides/Actions/VignetteSetOverrides.cs",
+            "_guid": "212c1d9fbeff4f909079a82bbdd57fa4",
+            "_checkSum": "82e18eb81e488bd208d6394842d7d323"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/HutongGames.PlayMaker.UniversalRenderPipelineVolumesColorGradingOverrides.asmdef",
+            "_guid": "85afa89b813d465b9d5574b2eb3f1bd3",
+            "_checkSum": "fa4f8f4444f8ce6237c853ba09486c81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/ChannelMixerGetOverrides.cs",
+            "_guid": "2f701f023bba47a1b19501a45e77add0",
+            "_checkSum": "b52e50631e596759b714290a30099b0d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/ChannelMixerSetOverrides.cs",
+            "_guid": "c1bfd9a35e3b456ea2346203caf447a6",
+            "_checkSum": "de578e47e78f568b105dfacfba0b3c1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/ColorLookupGetOverrides.cs",
+            "_guid": "78c78b8cd654408a910739122559135b",
+            "_checkSum": "be3acaf65901c4cac4abdaec4bac4e44"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/ColorLookupSetOverrides.cs",
+            "_guid": "86e19808639e4429a923fa156e653655",
+            "_checkSum": "2d172538f3e585c5ae606620356069e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/LiftGammaGainGetOverrides.cs",
+            "_guid": "520125611c244715b7b1867cf8a92136",
+            "_checkSum": "9a1591571dd0d42190b22a2c78510e19"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/LiftGammaGainSetOverrides.cs",
+            "_guid": "27f01db775c64505a882609a91b9256d",
+            "_checkSum": "7cc401c0554629f3336b2828a7cb8698"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/ShadowsMidtonesHighlightsGetOverrides.cs",
+            "_guid": "48f2da07b2c540a4b64c3636333042df",
+            "_checkSum": "1dd4f7392ab5e9ec5a3c59fc950dbb7c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/ShadowsMidtonesHighlightsSetOverrides.cs",
+            "_guid": "963e4106c4f7411a911c5b9af585a40b",
+            "_checkSum": "439ec35c331c4a6e2e36d34eedaaa217"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/SplitToningGetOverrides.cs",
+            "_guid": "82013203a5004506ad72812d5beddb15",
+            "_checkSum": "65194c3f59de7ebcaddbf369e2e0a1a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/SplitToningSetOverrides.cs",
+            "_guid": "e05101f1156b44da93ee62e1b6d8d93d",
+            "_checkSum": "2f22730c4a98a8c967ebf55a5252d59b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/TonemappingGetOverrides.cs",
+            "_guid": "63812511354e419ca707ef50cd61e7d3",
+            "_checkSum": "c9046bcdb1a80022efc1eb870cc6047a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/TonemappingSetOverrides.cs",
+            "_guid": "d28118ca24ce436282350e237c01355a",
+            "_checkSum": "d37ecced10f79c3ce769d9e9c7ecb3de"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/WhiteBalanceGetOverrides.cs",
+            "_guid": "ce803275d3ab4b0d8b019e62e3310d95",
+            "_checkSum": "3f56ca6ff72a1326f0f2b8d9d857ee47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGradingOverrides/Actions/WhiteBalanceSetOverrides.cs",
+            "_guid": "3a90e383db104c3692b4c9ff2cca9010",
+            "_checkSum": "c70914ca59542e56e10acaf3ee88bb88"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b74",
+    "_datePublished": "2026-07-04",
+    "_timeCode": 134276614671138038
+}

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/FsmGraphView.uss?fileID=7433441132597879392&amp;guid=14cef0a77de71f04797aabda10fc1ea0&amp;type=3#FsmGraphView" />
+    <ui:VisualElement name="header" class="hutong-node-view__header">
+        <ui:VisualElement name="debug-container" picking-mode="Ignore" class="hutong-node-view__debug-container">
+            <ui:VisualElement name="breakpoint" picking-mode="Ignore" class="hutong-node-view__breakpoint" />
+            <ui:Label name="loop-count" picking-mode="Ignore" tabindex="-1" text="0" display-tooltip-when-elided="true" class="hutong-node-view__loop-count" />
+        </ui:VisualElement>
+        <ui:VisualElement name="icon" picking-mode="Ignore" class="hutong-node-view__icon" />
+        <ui:Label  name="title" enable-rich-text="false" display-tooltip-when-elided="true" class="pm-host--editable-label hutong-node-view__title" />
+    </ui:VisualElement>
+    <ui:VisualElement name="content" picking-mode="Ignore" class="hutong-node-view__content" />
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" class="hutong-node-view__selection-border" />
+    <ui:VisualElement name="runtime-state" picking-mode="Ignore" class="hutong-node-view__runtime-state" style="visibility: hidden;" />
+</ui:UXML>

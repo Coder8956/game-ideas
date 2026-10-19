@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <ui:TwoPaneSplitView fixedPaneIndex="1" fixedPaneStartDimension=".4" orientation="Vertical" name="split-view" fixed-pane-initial-dimension="30" fixed-pane-index="1">
+        <ui:VisualElement name="list-view-panel" class="hutong-list-editor-panel">
+            <uie:Toolbar>
+                <uie:ToolbarButton name="add" focusable="false" class="hutong-editor__toolbar-add-button" />
+                <uie:ToolbarButton name="add2" focusable="false" class="hutong-editor__toolbar-add-button" />
+                <uie:ToolbarButton name="settings" focusable="false" class="hutong-editor__settings-button" />
+            </uie:Toolbar>
+        </ui:VisualElement>
+        <ui:VisualElement name="inspector-panel" class="hutong-list-editor-panel__inspector-panel">
+            <ui:ScrollView name="ScrollView" horizontal-scroller-visibility="Hidden" />
+        </ui:VisualElement>
+    </ui:TwoPaneSplitView>
+</ui:UXML>

@@ -1,0 +1,38 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.simulation",
+    "_displayName": "Simulation",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/Simulation"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Simulation actions, e.g., boids.",
+    "_description": "",
+    "_helpUrl": "",
+    "_icon": "Simulation",
+    "_tags": [
+        "Actions",
+        "2D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Simulation/Boids.cs",
+            "_guid": "283d3a2b15ec4420a3e4d453d0ef68a2",
+            "_checkSum": "aef4c27209548292bf52f64d97e35953"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479381315971
+}

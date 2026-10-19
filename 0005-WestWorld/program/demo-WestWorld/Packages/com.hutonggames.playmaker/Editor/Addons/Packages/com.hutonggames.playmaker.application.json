@@ -1,0 +1,292 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.application",
+    "_displayName": "Application",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Provides access to application runtime data.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Application.html",
+    "_icon": "Application",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationCanStreamedLevelBeLoaded.cs",
+            "_guid": "d6e3cb2fe6b525344883375f23541106",
+            "_checkSum": "0c8227096b8a46f09251de717f0bd094"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationCanStreamedLevelBeLoaded__Name.cs",
+            "_guid": "d1eb09bb7f28efb469f40a875c5ee433",
+            "_checkSum": "55ea2a2fe7063e35abc11d83b9086eb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationDeepLinkActivated.cs",
+            "_guid": "8d43059d77a924643948d4bf4cd98311",
+            "_checkSum": "c7e11afad059088e23e8427b1ed44ad7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationFocusChanged.cs",
+            "_guid": "e681bc9ab593fa9479a2ea9ed7758217",
+            "_checkSum": "e0ab2160a4b4230b44b6f33a0375b243"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetAbsoluteURL.cs",
+            "_guid": "fa5fb0c2395ea8c4ba7c1f21f9aede79",
+            "_checkSum": "514ff0a8ee0000f3f062413d523cb17e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetBackgroundLoadingPriority.cs",
+            "_guid": "0820f75d0dd478345980fa7140efac98",
+            "_checkSum": "c50fa63bf123bcb1c68237c30b3369cf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetBuildGUID.cs",
+            "_guid": "1336b8cb91284d242a54088b701e72db",
+            "_checkSum": "918944246bfea37172117e941f2edb9a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetCloudProjectId.cs",
+            "_guid": "6d0b62f0e4d34a54188a8752a5964b96",
+            "_checkSum": "083c85898f91a49a30a3d32f14e1ffe8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetCompanyName.cs",
+            "_guid": "2093780c37cda4f4f99c2e8434e8d5a9",
+            "_checkSum": "68fcc19ccfe7d3f2af3a3b7e9d71a20d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetConsoleLogPath.cs",
+            "_guid": "8764281b962d40e459986f3bc546b626",
+            "_checkSum": "0d7fa989617fc5b94efdc3635ab45e1b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetDataPath.cs",
+            "_guid": "30c7c7cde9165504493f4a6f9944a35a",
+            "_checkSum": "4a067711ce80d2f86e00301a8f2a5399"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetGenuine.cs",
+            "_guid": "2c5c4e996ecf12a49aed8f14df04eb9e",
+            "_checkSum": "b750538d4b572c564d70bd45baaaf23f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetGenuineCheckAvailable.cs",
+            "_guid": "39381f7bad484b74aa8d7c9dcaca594f",
+            "_checkSum": "545eb979f1472514f34b4a5fe471f54c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetIdentifier.cs",
+            "_guid": "e21c78c12c46e5a40b1cdf474311d18b",
+            "_checkSum": "78e5fccdf13cbf5d8d15bf78e26b2b97"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetInstallerName.cs",
+            "_guid": "c73557016919a2c4f81fdfa38d7a6891",
+            "_checkSum": "92e15fe9fe975431435d06a49370c54c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetInstallMode.cs",
+            "_guid": "91df3669d1a480645ba69c46ab52b33b",
+            "_checkSum": "22eea643476e91d67bd2dae86340a50f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetInternetReachability.cs",
+            "_guid": "87024d0b6c84f094ea0632a56891f1e7",
+            "_checkSum": "39ac600f0ac2c576460737e52fb5135b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetIsBatchMode.cs",
+            "_guid": "ae42bbebcc6b0d04388864b09bb1bc2c",
+            "_checkSum": "0d38487643a38e29541b1a38534fb0fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetIsConsolePlatform.cs",
+            "_guid": "8212624038fc046479a9a3e27776cb1c",
+            "_checkSum": "309780a56222f78dd6fd2d9cd94436f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetIsEditor.cs",
+            "_guid": "bdbe1aa2862a0ca469c0f31f8444aadc",
+            "_checkSum": "adffae7ce0f2d81a6564e500068a5600"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetIsFocused.cs",
+            "_guid": "0b00ba3d9b7d61449be9df1fd70f3610",
+            "_checkSum": "b76b355b0ce2682e3a84620c99db0888"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetIsMobilePlatform.cs",
+            "_guid": "001bfc6b2d6cb6e448f4a4fda3e785a4",
+            "_checkSum": "1b6dd12027cb85a65af3e8b2b95d0125"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetIsPlaying.cs",
+            "_guid": "b54c108a816683146b6c597f6d2ac76b",
+            "_checkSum": "f2c61603c5efd985f4faf53ecb6c8b70"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetPersistentDataPath.cs",
+            "_guid": "8bf50ff49ea5d404686c39f78f23671d",
+            "_checkSum": "c78a25eed6b8c0e0512ee1efd7336906"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetPlatform.cs",
+            "_guid": "aa713af6aed928e42ba9d9e028b23713",
+            "_checkSum": "f9cea1be9c91650575465770dea2c61d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetProductName.cs",
+            "_guid": "14caf556ce74b6c43a57756f6570c516",
+            "_checkSum": "4772304b19458cc5308aa63e0687c3af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetRunInBackground.cs",
+            "_guid": "51a2522d22ebc554197ec0d1af9664fc",
+            "_checkSum": "7a38e5adf7c90b3191e9afc3cce652bb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetSandboxType.cs",
+            "_guid": "0b9d9201cad77df4fb3f8c6e85f5c132",
+            "_checkSum": "0bab25e692db3a387e889dfdacae336e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetStreamingAssetsPath.cs",
+            "_guid": "0333f1e8c2a4f2d448099c8eeb30b814",
+            "_checkSum": "a797d8cde7aaa04ccc5b0cc660a9d343"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetSystemLanguage.cs",
+            "_guid": "d7baed66067f135448b641e2ee3ea4e6",
+            "_checkSum": "8268cf5caeb64b3a0a90b9ae61cd92e5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetTargetFrameRate.cs",
+            "_guid": "0ad243421ee67534a9838b33afb636a7",
+            "_checkSum": "40ad35d8f0581cee75eed8a2b9f58f33"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetTemporaryCachePath.cs",
+            "_guid": "46e21671391e1f14e939541377e1b152",
+            "_checkSum": "7bf1946d42077d8814bbe7fc10fe0779"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetUnityVersion.cs",
+            "_guid": "8dfef33958a87044f872c29769a42b3f",
+            "_checkSum": "fa6be2a075bf65b1b3fe35171d049e22"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationGetVersion.cs",
+            "_guid": "bf222bbee9dc96e4db18d55f93275902",
+            "_checkSum": "caf70f5e9755c2e4550c1bd598566c47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationHasProLicense.cs",
+            "_guid": "9116c89c807e3e74d9801ade236a09e7",
+            "_checkSum": "9f36901b78b137a4cfabf75e0a41d34e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationHasUserAuthorization.cs",
+            "_guid": "be878fe01ba50804cb5e2d1042a127f7",
+            "_checkSum": "f4bd07489dd5da99f8d204b201026f44"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationIsPlaying.cs",
+            "_guid": "f937d1800bf343e4981fec6d5fcb67d6",
+            "_checkSum": "cb7f41ae1621e19b2b2bcd6a3a9c6ce4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationLogMessageReceived.cs",
+            "_guid": "ac33ae0c1fbacae4a890baa51d9b060f",
+            "_checkSum": "8f2f7364066b4da0c0cc1f2a04621d7a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationLogMessageReceivedThreaded.cs",
+            "_guid": "299dc43b2b6352548aa3f15c1bb0e651",
+            "_checkSum": "242c2e746039a2a916ae3c9946207fc3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationLowMemory.cs",
+            "_guid": "d16596745849fe64ea2c450c6269124a",
+            "_checkSum": "649bd857374cbc38d344f60fb76472e5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationMemoryUsageChanged.cs",
+            "_guid": "adbae13ad3fac0b449f307f982b7c639",
+            "_checkSum": "bdb0713114d4d6d77d4bc0a87a5d72a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationOnBeforeRender.cs",
+            "_guid": "addacbe2c5c386d469e6511c63032190",
+            "_checkSum": "59fd80a44eaa7bd93f971eb8c241d31c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationOpenURL.cs",
+            "_guid": "6836f6028e7bfbf42ae496dcfadc9956",
+            "_checkSum": "80534f9f0a204291a284b55929ff5d1a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationQuit.cs",
+            "_guid": "f19a47286ffd6a04bad543e8d2edd753",
+            "_checkSum": "fe94c54414cb8ea78703e0c5943a5190"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationQuitting.cs",
+            "_guid": "74bdf77f36325ed43b1e930f94e7d71a",
+            "_checkSum": "f8eed652673a34168336788a54e4c14a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationSetBackgroundLoadingPriority.cs",
+            "_guid": "c978cca7aaccf6447aed783c811ac989",
+            "_checkSum": "fd3c93937e2cc8a7c1866d90735f46c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationSetRunInBackground.cs",
+            "_guid": "c22c8e83aaae2884fa613d0b0eef059e",
+            "_checkSum": "0636ba6f3021b201db41f75365063c6b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationSetStackTraceLogType.cs",
+            "_guid": "bd95cb4f0dadd9d468cd802b1877cf9b",
+            "_checkSum": "7e2369c60575b67ee730f48748434b94"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationSetTargetFrameRate.cs",
+            "_guid": "c62ec8563c186694581c3ce45bdc9bc6",
+            "_checkSum": "d4a4aaab14299b9559ab0fab0ccc1229"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationUnload.cs",
+            "_guid": "7b66fd28f00f37c449275d49ff51432f",
+            "_checkSum": "014101ea0e293ffc13c6dbb48644d498"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationUnloading.cs",
+            "_guid": "2c889a734842afb4fa7b7b425963de62",
+            "_checkSum": "741e138f8ede2e36371bd9348f8f0484"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Application/ApplicationWantsToQuit.cs",
+            "_guid": "980b30eaa4a26504e89d71581826e017",
+            "_checkSum": "8a288619782c9f9737a2c718cd05adaf"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b84",
+    "_datePublished": "2026-09-01",
+    "_timeCode": 134327090535141478
+}

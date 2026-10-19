@@ -1,0 +1,49 @@
+.hutong-object-pool-inspector {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.hutong-object-pool-inspector__empty-hint {
+    align-self: center;
+    flex-wrap: wrap;
+    -unity-text-align: middle-center;
+    opacity: 0.5;
+    white-space: normal;
+    max-width: 250px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.hutong-object-pool-inspector__pool-count {
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+ObjectFieldSelector {
+    display: none;
+}
+
+.hutong-object-pool__name-row {
+    background-color: #525252;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hutong-object-pool__icon {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+.hutong-object-pool__name {
+    font-size: 14px;
+}
+
+.hutong-object-pool__panel {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+

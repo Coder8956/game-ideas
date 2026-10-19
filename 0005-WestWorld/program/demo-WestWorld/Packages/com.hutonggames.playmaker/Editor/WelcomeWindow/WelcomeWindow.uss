@@ -1,0 +1,74 @@
+.hutong-welcome-window-header {
+    background-color: rgb(45, 45, 45);
+    flex-shrink: 0;
+    padding: 4px;
+    margin: 0;
+}
+
+.hutong-welcome-window__logo {
+    background-image: resource('playMakerHeader');
+    -unity-background-scale-mode: scale-to-fit;
+    max-height: 50px;
+    height: 50px;
+}
+
+ToolbarToggle > Label {
+    -unity-text-align: middle-left;
+    padding-left: 4px;
+}
+
+.hutong-welcome-window__content {
+    padding: 8px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.hutong-welcome-item {
+    flex-direction: row;
+    align-items: center;
+    height: 64px;
+    flex-shrink: 0;
+    margin: 4px;
+    margin-left: 32px;
+    margin-right: 32px;
+    border-width: 1px;
+    padding: 8px;
+    background-color: var(--unity-colors-button-background);
+    border-color: var(--unity-colors-button-border);
+    border-bottom-color: var(--unity-colors-button-border_accent);
+    border-radius: 16px;
+}
+
+.hutong-welcome-item:hover {
+    background-color: var(--unity-colors-button-background-hover);
+    border-color: var(--unity-colors-);
+}
+
+.hutong-welcome-item__icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    margin: 8px;
+    flex-grow: 0;
+}
+
+.hutong-welcome-item__info-container {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    height: 100%;
+    padding: 2px;
+}
+
+.hutong-welcome-item__title {
+    -unity-text-align: middle-left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -unity-font-style: bold;
+}
+
+.hutong-welcome-item__summary {
+    -unity-text-align: middle-left;
+    opacity: 0.8;
+    white-space: normal;
+}

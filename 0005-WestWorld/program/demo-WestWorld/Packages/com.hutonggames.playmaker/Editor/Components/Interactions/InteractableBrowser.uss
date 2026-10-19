@@ -1,0 +1,28 @@
+.hutong-interactable-browser {
+    flex-grow: 1;
+    background-color: var(--hutong-editor-list-view-background-color);
+}
+
+.hutong-interactable-browser__toolbar {
+    flex-shrink: 0;
+}
+
+.hutong-interactable-browser__empty-hint {
+    margin: 8px;
+}
+
+.hutong-interactable-browser__count {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    color: var(--hutong-editor-colors-subtitle);
+}
+
+.hutong-interactable-browser__warning-cell {
+    color: rgb(210, 150, 60);
+}
+
+.hutong-interactable-browser__dim-cell {
+    color: var(--hutong-editor-colors-subtitle);
+}

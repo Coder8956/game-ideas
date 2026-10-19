@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/Nodes/Notes/NotesNodeView.uss" />
+    <ui:VisualElement name="frame" class="hutong-notes-view__frame">
+        <ui:VisualElement name="container" class="hutong-notes-view__container" >
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" class="hutong-node-view__selection-border" />
+</ui:UXML>

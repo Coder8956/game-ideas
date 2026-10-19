@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Events/GlobalEvent/GlobalEventAssetEditor.uss?fileID=7433441132597879392&amp;guid=7591d4b77f8b4344e93513da57f4c3b8&amp;type=3#GlobalEventAssetEditor" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/AssetEditorStyles.uss" />
+    <ui:VisualElement class="hutong-asset-editor__name-row">
+        <HutongGames.PlayMaker.Editor.IconStyleButton class ="hutong-asset-editor__icon-style-button" />
+        <ui:Label name="name" binding-path="m_Name" tooltip="Edit the asset name to rename the event" class="hutong-asset-editor__name" />
+    </ui:VisualElement>
+    <ui:TextField name="description" is-delayed="true" multiline="true" binding-path="_description" class="hutong-editable-label hutong-asset-editor__description pm-host--better-text-field"/>
+</ui:UXML>

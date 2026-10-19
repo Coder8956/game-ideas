@@ -1,0 +1,147 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.trail-renderer",
+    "_displayName": "Trail Renderer",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Control a TrailRenderer at runtime.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/TrailRenderer.html",
+    "_icon": "Rendering/TrailRenderer",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererAddPosition.cs",
+            "_guid": "64b2114301be3ea488c0b52399b9259f",
+            "_checkSum": "0e12fe2e5b682971018d9340a95307d7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererAddPositions.cs",
+            "_guid": "c0ded8c68dc94f247aa102d706fc8b63",
+            "_checkSum": "4bc25e42232495910b4a6d0cd1035362"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererBakeMesh.cs",
+            "_guid": "613153b832c1e8b44964a32d5b554357",
+            "_checkSum": "9786c2243bb5daa4ac57c1d1c90ec835"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererBakeMesh__Camera.cs",
+            "_guid": "aeae686b6cc82f542b4a11b184d01d3b",
+            "_checkSum": "0223f02669bc22ebef815a244a8fff70"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererClear.cs",
+            "_guid": "c8e5b3d2f8051ad4c978a0a75669df05",
+            "_checkSum": "9c070b374d44712142876f418d98dac2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererGetPosition.cs",
+            "_guid": "06ee673dd07e566439d693d05b36d1a7",
+            "_checkSum": "61b731288310fd43d462c06f77ac846b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererGetPositionCount.cs",
+            "_guid": "84a88dcf436115a4ba654aff51d297f6",
+            "_checkSum": "528b90aed957daa500a23a67cfb2e39d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererGetPositions.cs",
+            "_guid": "8497801725646424680a6363d8b1019e",
+            "_checkSum": "13fdfdddc14a0860ae3a6bc2dc3c879d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererGetVisiblePositions.cs",
+            "_guid": "270382320ed05c041bdfb79c3d64a9b9",
+            "_checkSum": "bd465b77dc8d668eca1eda4f6002cc10"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetAutodestruct.cs",
+            "_guid": "a7241124255fdd94b9c7cc7d11645ef2",
+            "_checkSum": "ab9ec64efc5f6baaa11c771a22e78678"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetColorGradient.cs",
+            "_guid": "67d0736e66cff2e409eb618537e6b52d",
+            "_checkSum": "a94417bd5f5b64d43534b322822a7bd4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetEmitting.cs",
+            "_guid": "55378922782ea1040b2429dea26e19ba",
+            "_checkSum": "8565f4ec2ef9b38aa7b973daedf91087"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetEndColor.cs",
+            "_guid": "1b2855e0c50b14944abcd918afc04baa",
+            "_checkSum": "c88b4f21a21a5e9f67e5df4e4ebc1335"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetEndWidth.cs",
+            "_guid": "a63ff613c920c0f4891d5788aa384c67",
+            "_checkSum": "bfdb17c1a91313e84e2442dd2811434a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetMinVertexDistance.cs",
+            "_guid": "2023800b26edfd4429791ef61ef98754",
+            "_checkSum": "887e3835931a12f16cf33237de8445f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetPosition.cs",
+            "_guid": "aa73cf9e597ca8647bd190524e34a9f8",
+            "_checkSum": "18b66386605fb6475770801e1b126b7f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetPositions.cs",
+            "_guid": "3c0eb1e38e9738047a35f45a6c9b78ce",
+            "_checkSum": "44c4bf5b70a8cfa510c8eaff2b0f8ef9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetStartColor.cs",
+            "_guid": "2925f06e28560674fb89e689c5210fef",
+            "_checkSum": "58cfbb132d421cb8763e5ae64ab574fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetStartWidth.cs",
+            "_guid": "bcf962c7c18e7fa43ace812a39ef8fab",
+            "_checkSum": "c4723a6301248f319064cbc9d0b511c3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetTextureScale.cs",
+            "_guid": "43f252f758afbda4cb377934b90c03c8",
+            "_checkSum": "6c4a2b6937251b7311437a964711503d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetTime.cs",
+            "_guid": "6242b8ebf0e73c140bc82eb82ad40761",
+            "_checkSum": "aa2274358a417fdaf49698cff6fa6d8d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetWidthCurve.cs",
+            "_guid": "68091912b205a2c4b9f56a12514e5dff",
+            "_checkSum": "a3038984bda8191934732cb13283ca85"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/TrailRenderer/TrailRendererSetWidthMultiplier.cs",
+            "_guid": "ec9123089be3eb147bf2ca9f62b9ad6c",
+            "_checkSum": "f7db8bc1d7b6edc2b1039259f110420a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479447618379
+}

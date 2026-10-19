@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Clipboard/ClipboardViewer.uss?fileID=7433441132597879392&amp;guid=85f1f373027597143986cd807aae871a&amp;type=3#ClipboardViewer" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/FsmGraphView.uss?fileID=7433441132597879392&amp;guid=14cef0a77de71f04797aabda10fc1ea0&amp;type=3#FsmGraphView" />
+    <ui:Label text="Label" display-tooltip-when-elided="true" name="title" class="hutong-clipboard-viewer__title" />
+    <ui:VisualElement name="graph-view" class="hutong-clipboard-viewer__graph-view" />
+    <ui:ScrollView>
+    <ui:VisualElement name="main-list-view" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+    <ui:VisualElement name="spacer" style="flex-grow: 1; display: none;" />
+    <ui:VisualElement name="used-variables" class="hutong-clipboard-viewer__section">
+        <ui:Label text="Used Variables" display-tooltip-when-elided="true" class="hutong-clipboard-viewer__title" style="margin-bottom: 5px; font-size: 12px;" />
+        <ui:VisualElement name="contents" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="used-events" class="hutong-clipboard-viewer__section">
+        <ui:Label text="Used Events" display-tooltip-when-elided="true" class="title hutong-clipboard-viewer__title" style="margin-bottom: 5px; font-size: 12px;" />
+        <ui:VisualElement name="contents" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+    </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

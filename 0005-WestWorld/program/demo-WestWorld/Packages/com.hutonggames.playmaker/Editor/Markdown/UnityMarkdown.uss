@@ -1,0 +1,289 @@
+.root > .first-block {
+    margin-top: 0;
+}
+
+.root > .last-block {
+    margin-bottom: 0;
+}
+
+.link-cursor {
+    cursor: link;
+}
+
+.red {
+    background-color: red;
+}
+
+.open-in-window-button {
+    position: absolute;
+    top: -10px;
+    right: -6px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-size: 18px 18px;
+    background-image: var(--open-in-window-icon);
+    background-color: transparent;
+    border-width: 0;
+}
+
+/* Paragraph */
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: var(--md-color-text);
+    flex-shrink: 0;
+}
+
+.paragraph .line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: normal;
+    position: relative;
+    align-items: center;
+}
+
+.paragraph .line Label {
+    white-space: normal;
+}
+
+.list-element .paragraph {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+/* Headings */
+
+.heading {
+    color: var(--md-color-header);
+    -unity-font-style: bold;
+    margin-top: 12px;
+}
+
+.icon {
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: var(--md-color-text);
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.image {
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.h1 {
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.h1 .icon { 
+    width: 29px;
+    height: 29px;
+}
+
+.h1 .image {
+    width: 29px;
+    height: 29px;
+}
+
+.icon-warning {
+    color: orange;
+}
+
+.h2 {
+    font-size: 21px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.h2 .icon {
+    width: 22px;
+    height: 22px;
+}
+
+.h2 .image {
+    width: 22px;
+    height: 22px;
+}
+
+.h3 {
+    font-size: 17px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+/* Blockquote */
+
+.blockquote {
+    border-left-width: 4px;
+    border-left-color: var(--md-color-block-quote-border);
+    padding-left: 12px;
+    margin: 8px 0;
+}
+
+.blockquote .paragraph {
+    color: var(--md-color-block-quote-text);
+}
+
+.hr {
+    border-bottom-color: var(--md-color-line);
+    border-bottom-width: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 8px;
+}
+
+.table-container {
+    flex-direction: row;
+}
+
+.table {
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.table-row {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: row;
+    border-bottom-width: 1px;
+    border-color: var(--md-color-table-border);
+}
+
+.row-data {
+    flex-direction: row;
+}
+
+.table-row.header .table-cell {
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 16px;
+}
+
+.table-cell {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.table-row.header {
+    background-color: var(--md-color-table-header-background);
+    -unity-font-style: bold;
+    font-size: 14px;
+    border-bottom-width: 0;
+}
+
+.table-row.header .paragraph {
+    color: var(--md-color-table-header-text);
+}
+
+.table-row.header .table-col {
+    border-right-width: 0;
+}
+
+.table-col {
+    flex-grow: 0;
+}
+
+.list {
+    flex-shrink: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.list-element {
+    flex-direction: row;
+    padding-left: 6px;
+    flex-shrink: 0;
+}
+
+.list-number {
+    opacity: .8;
+    top: 3px;
+    padding-left: 0;
+    width: 13px;
+}
+
+.list-element .list-bullet {
+    opacity: .8;
+    background-color: var(--md-color-text);
+    border-radius: 10px;
+    width: 5px;
+    height: 5px;
+    top: 8px;
+    margin-right: 6px;
+}
+
+.list-element Toggle {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 2px;
+}
+
+.line.task-list {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+LinkImageElement {
+    -unity-background-scale-mode: scale-to-fit;
+    width: 100px;
+}
+
+LinkImageElement.clickable {
+    cursor: link;
+}
+
+.link {
+    position: absolute;
+    cursor: link;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.block {
+    margin-bottom: 12px;
+}
+.block .block {
+    margin-bottom: 0;
+}
+
+.code-text {
+    white-space: normal;
+    color: var(--md-color-code-block-text);
+}
+
+.inline-code {
+    padding: 2px 4px;
+    background-color: var(--md-color-code-block-background);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 8px;
+}
+
+.code-block {
+    padding:6px;
+    background-color: var(--md-color-code-block-background);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.hutong-markdown-text-field {
+    white-space: normal;
+}
+

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Variables/Variable/VariableEditor.uss?fileID=7433441132597879392&amp;guid=4b1d2aa3d8f17544a872501e37ba6547&amp;type=3#VariableEditor" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <ui:Label text="Error" name="error" picking-mode="Ignore" class="error-text hutong-editor-error-text hutong-variable-editor__error-text"  />
+    <ui:TextField picking-mode="Ignore" label="Name" name="name" is-delayed="true" class="hutong-variable-editor__field-label" />
+    <ui:TextField picking-mode="Ignore" name="description" multiline="true" label="Description" is-delayed="true" class="hutong-variable-editor__description hutong-variable-editor__field-label" />
+    <ui:EnumField label="Save Mode" name="save-mode" class="hutong-variable-editor__field-label"/>
+    <ui:VisualElement class="hutong-variable-editor__inspector unity-base-field">
+        <ui:Label text="Inspector" name="inspector" class="hutong-variable-editor__inspector-label unity-text-element unity-label unity-base-field__label unity-base-text-field__label unity-text-field__label" />
+        <uie:ToolbarToggle text="Input" name="input" class="hutong-variable-editor__inspector-toggle" />
+        <uie:ToolbarToggle text="Output" name="output" class="hutong-variable-editor__inspector-toggle" />
+    </ui:VisualElement>
+</ui:UXML>

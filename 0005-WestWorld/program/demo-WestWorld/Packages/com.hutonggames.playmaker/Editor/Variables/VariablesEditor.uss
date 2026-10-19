@@ -1,0 +1,29 @@
+
+.hutong-variables-editor__list-view {
+    flex-grow: 1;
+}
+
+.hutong-variables-editor__list-view-panel {
+    min-height: 60px;
+}
+
+/*
+.hutong-variables-editor__inspector-panel {
+    background-color: var(--hutong-editor-selected-child-item-color);
+    border-top-color: var(--hutong-editor-selected-item-color);
+    border-top-width: 2px;
+}*/
+
+.hutong-variables-editor__edit-global {
+    height: 60px;
+}
+
+.hutong-variables-editor__edit-global-button {
+    align-self: center;
+    flex-shrink: 1;
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: link;
+}

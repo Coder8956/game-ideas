@@ -1,0 +1,34 @@
+.hutong-update-mode-button {
+    width: 16px;
+    margin-right: 3px;
+    opacity: .5;
+}
+
+.hutong-update-mode-button:hover {
+    opacity: 0.8;
+}
+
+.hutong-update-mode-button__update-once-icon {
+    background-image: resource('Icons/UpdateMode/once');
+    height: 16px;
+}
+
+.hutong-update-mode-button__update-loop-icon {
+    background-image: resource('Icons/UpdateMode/loop');
+    height: 16px;
+}
+
+.hutong-update-mode-button__update-disabled-icon {
+    background-image: resource('Icons/UpdateMode/disabled');
+    height: 16px;
+}
+
+.hutong-update-mode-button__update-late-icon {
+    background-image: resource('Icons/UpdateMode/late');
+    height: 4px;
+}
+
+.hutong-update-mode-button__update-fixed-icon {
+    background-image: resource('Icons/UpdateMode/fixed');
+    height: 4px;
+}

@@ -1,0 +1,878 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ui-properties",
+    "_displayName": "UI Properties",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for less common UI properties normally set at edit time.",
+    "_description": "Use these actions to access these properties at runtime.",
+    "_helpUrl": "",
+    "_icon": "Accessibility",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ButtonGetOnClick.cs",
+            "_guid": "f30d655338667f34faff7dbd27c27420",
+            "_checkSum": "ea1ea6eba7c88824c55de992cd3f6f3f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetAdditionalShaderChannels.cs",
+            "_guid": "bcd7b8d7ab4782046b6c3329976fd4ad",
+            "_checkSum": "3aa0356e53f9988965c7e79a8d8b51e0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetCachedSortingLayerValue.cs",
+            "_guid": "8e3eaa32556d1064e839f6dba8b9f962",
+            "_checkSum": "0221ff9f3f510f2525bcefc406db1fa4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetDefaultCanvasMaterial.cs",
+            "_guid": "76b204749c453f24fbc747ef6e228f2f",
+            "_checkSum": "e4ef8f42d90374155e2a18f8bb311cb7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetETC1SupportedCanvasMaterial.cs",
+            "_guid": "e7d283a924aea3c40ad6d19456cf42a0",
+            "_checkSum": "68f9e17902742c62f09684d4718125af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetIsRootCanvas.cs",
+            "_guid": "ff82ac2e1aab35f40b7c1075c62f393d",
+            "_checkSum": "3cae5d0beba039b43f68e455cbfcefae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetNormalizedSortingGridSize.cs",
+            "_guid": "c320771b18d06d841902a81f870322bc",
+            "_checkSum": "901a4fefe13c2fba67dcd85e59d0ae50"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetOverridePixelPerfect.cs",
+            "_guid": "b1b2df8f45b01c541a01afe30cd01fa1",
+            "_checkSum": "738a8eff7880f2774aed82868812ab3f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetOverrideSorting.cs",
+            "_guid": "af9d46a247b41bf4ab738b00110ea317",
+            "_checkSum": "d798521424f34a8443dd468cf19c8cf8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetPixelPerfect.cs",
+            "_guid": "0c2f6b5dbfaa24c41bf48b6dd6c7d5f9",
+            "_checkSum": "b82c4de3dc032c551314822552b8a4a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetPixelRect.cs",
+            "_guid": "3e855723e5b47214fba866152fecbfbf",
+            "_checkSum": "39288bba74943e2c87eec38f8d28938d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetPlaneDistance.cs",
+            "_guid": "93887ba88a72aa24497b66f9ffa20a0e",
+            "_checkSum": "5578266a992234080ac992404846f9a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetReferencePixelsPerUnit.cs",
+            "_guid": "c94c25969c850ea46a10217c77496df4",
+            "_checkSum": "e301df5300efc695f6867fd287617821"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetRenderingDisplaySize.cs",
+            "_guid": "0448c2070c5c0824b95283fe58fd6cd3",
+            "_checkSum": "dc8a84906d21071c8ac2a74c3e7360c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetRenderMode.cs",
+            "_guid": "98f84b305152e914daa72c1998ccf037",
+            "_checkSum": "e5e46b68e8c76c6b5cc502554dc72c29"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetRenderOrder.cs",
+            "_guid": "cc204d8483ac88745b2143d58fd6f67f",
+            "_checkSum": "81efed73f95124c4d728516d764fa6aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetRootCanvas.cs",
+            "_guid": "8902dc33ef9f6ac47acec3e52d4955b4",
+            "_checkSum": "7513bc8c33410686951c4fd560e82016"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetScaleFactor.cs",
+            "_guid": "7ae3efb8eb65861469af1be8d9cb2936",
+            "_checkSum": "48f6af9678c36cb50e08706084cd61fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetSortingLayerID.cs",
+            "_guid": "0831dc3fdc2434d458e31a3665711700",
+            "_checkSum": "e3651e7898d038db2e08fdbafa635bc9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetSortingLayerName.cs",
+            "_guid": "1fcb1529fc1060e47972d76400c13292",
+            "_checkSum": "571b612259e5421bc16dd3816693604a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetSortingOrder.cs",
+            "_guid": "338aa48381df7604ab2f529461926f7a",
+            "_checkSum": "09aabeff546f6991dc3e0e08617a8812"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetTargetDisplay.cs",
+            "_guid": "1e4ceaa56be792646a3ba8388afc287e",
+            "_checkSum": "6aa587baa106c7f8e7797e2a05e58acc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetUpdateRectTransformForStandalone.cs",
+            "_guid": "176a24e93f98b7148905112666d35b1e",
+            "_checkSum": "fae322c4c4b16b12e483a6ef704a129e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetVertexColorAlwaysGammaSpace.cs",
+            "_guid": "85b27802891b6a248a86fe6449693ba5",
+            "_checkSum": "a0f8c65e19c64675b568d9d65d1ff51a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGetWorldCamera.cs",
+            "_guid": "c56d1545646e4a546ba2fea693d522c6",
+            "_checkSum": "c1a49315fd7599d6a199c170168f2851"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGroupGetAlpha.cs",
+            "_guid": "e197e9b738392f04cbcbe26bb7b786f4",
+            "_checkSum": "717304fce0661972c27eba25a728ce62"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGroupGetBlocksRaycasts.cs",
+            "_guid": "bb378e65658bb4d4db45118e6e0b2ae9",
+            "_checkSum": "8831f3bf207e7a3cc0103d93e2a9a44b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGroupGetIgnoreParentGroups.cs",
+            "_guid": "f8bf9d4976963ab479f0c2c8a56e471b",
+            "_checkSum": "f0f21b8efe59be09869e586aca1e1173"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasGroupGetInteractable.cs",
+            "_guid": "1f7e05a676b6cc045a3a9be2afb5c557",
+            "_checkSum": "f14cc03637311779ca838aeb074cb368"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetAbsoluteDepth.cs",
+            "_guid": "a326171712394d748a5a61d517cd787c",
+            "_checkSum": "e42ae029c2e1274bdbefea6bb894e969"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetAlpha.cs",
+            "_guid": "bcc75022cee916942a7da89540600c85",
+            "_checkSum": "855a84467fe59dc384a99a3e34c9e5ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetClippingSoftness.cs",
+            "_guid": "d8f74161998ba49438663bd87618f197",
+            "_checkSum": "9b95ec48ee3c495aa18aba39438c1810"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetColor.cs",
+            "_guid": "dd23dfa6b5e74264faee0d8d99f75455",
+            "_checkSum": "57b8d07732353ee708cea054c1f9755c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetCull.cs",
+            "_guid": "8cc6b8d596348b146a157000f75fc659",
+            "_checkSum": "ba63f5b6da17adfbdeef780958a2b4ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetCullTransparentMesh.cs",
+            "_guid": "959df255d83b10c41a07733236e2c073",
+            "_checkSum": "89a2fb40e900ece69deccb309a21a7aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetHasMoved.cs",
+            "_guid": "612d3637e8b9d6a49867aca842e29c50",
+            "_checkSum": "93be4691958be0ded13006dfde6c5b8b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetHasPopInstruction.cs",
+            "_guid": "8a54d295517f2934eab7798c9b52c441",
+            "_checkSum": "daff70dacae76336f49236784de403fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetHasRectClipping.cs",
+            "_guid": "9e2e6ccd397e5054b91b53aaef391150",
+            "_checkSum": "452f7c5277a622e40626fa4e11fcb62c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetInheritedAlpha.cs",
+            "_guid": "65c00a8d0cb77914eb4306754b901868",
+            "_checkSum": "0d76ae96988e376273b9819aba093368"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetMaterial.cs",
+            "_guid": "3d9a00fb199f51b42a9abad75ee1c507",
+            "_checkSum": "5a0a751ce6fb5570be79b1ada5eaf62a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetMaterialCount.cs",
+            "_guid": "ec633cf9241b82644a90f4491b2d8e29",
+            "_checkSum": "75531485aba3b0cfcc9674518a0fe64d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetMesh.cs",
+            "_guid": "ed5cdbf054f70e84292313c7b76dbdf5",
+            "_checkSum": "5180ebc4038ad1c4ef26ac0eca1bba87"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetPopMaterial.cs",
+            "_guid": "e289d92e93ea15e4a8bd21b0c3ecdfff",
+            "_checkSum": "08061d803aff37fe5ad6d27842f60e09"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetPopMaterialCount.cs",
+            "_guid": "9e0f3b9620837234aaca243ebc885e82",
+            "_checkSum": "7bbad81f26b8284a1ad7deed8216550f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/CanvasRendererGetRelativeDepth.cs",
+            "_guid": "229e014c34aa85c448b15ab2a4a69c6e",
+            "_checkSum": "62fd2d9a8d8d6efdca69f47a7857432e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/DropdownGetAlphaFadeSpeed.cs",
+            "_guid": "3d15f5de9369ffc43b45d0e685ad66c2",
+            "_checkSum": "de2a7a17e161d2ff067f6c8246862dd5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/DropdownGetCaptionImage.cs",
+            "_guid": "9991f6e4e252a624c9516a0b0f4ef521",
+            "_checkSum": "96c7b423030de341d756f9ea7fdef3cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/DropdownGetCaptionText.cs",
+            "_guid": "2db3127ac149b3b4ebc6c63a988dedf6",
+            "_checkSum": "de363f60d79ee2dbb32442b7b7304b74"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/DropdownGetItemImage.cs",
+            "_guid": "ed5116a1000cdbc4ea1c322ac51e9154",
+            "_checkSum": "b60ff6bde059bbabadedc00d86e4f6df"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/DropdownGetItemText.cs",
+            "_guid": "d5e5fa6b822ee0a4a8e4a433722815a9",
+            "_checkSum": "093096b3254a36245e3603767ce98c80"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/DropdownGetOnValueChanged.cs",
+            "_guid": "d1e5f3b4593bb1c4f8671c7bd87d1d15",
+            "_checkSum": "16c4cf75a771ffb2b5a6203937763b4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/GraphicGetDefaultGraphicMaterial.cs",
+            "_guid": "b04c8522454ec06469bc1ddc893f0d5b",
+            "_checkSum": "78fd45105a6d2b0b8f7a3ef5caf3ff71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/GraphicGetDefaultMaterial.cs",
+            "_guid": "c7c41323682792e47853f75b0ca636e2",
+            "_checkSum": "69b4b2425ef0a4111c67c20ed2550528"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/GraphicGetDepth.cs",
+            "_guid": "ef8ede01b7108e248ac9245df4f8c8c0",
+            "_checkSum": "ed9969a08862d17d853a92f023475330"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/GraphicGetRaycastPadding.cs",
+            "_guid": "dfcb31b1d78c01d419beda9bf308aacc",
+            "_checkSum": "9900df47098f2cd9777366c800b0a1a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/GraphicGetRaycastTarget.cs",
+            "_guid": "56038ff459d644949b80cdfd39c6ebc9",
+            "_checkSum": "890e1d8385436a990da54d64fb5dbb15"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageDisableSpriteOptimizations.cs",
+            "_guid": "aa680e3c8d5438543acd592015557b26",
+            "_checkSum": "061c792bec2d65140e0edae5b6a0ba40"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetAlphaHitTestMinimumThreshold.cs",
+            "_guid": "452c3508d35a4384b8202fed0c5d35fd",
+            "_checkSum": "d6707f668fa33fe52315effbb438c25e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetDefaultETC1GraphicMaterial.cs",
+            "_guid": "fddf7d6164b73774b86c9c5750f9ee6c",
+            "_checkSum": "ec65cc34bd62ebb9b9906fda554631a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetFillAmount.cs",
+            "_guid": "9a85d79a33696b4498fd37020e5f9dc5",
+            "_checkSum": "deb97176b14b59123da1c21955f31484"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetFillCenter.cs",
+            "_guid": "87ddc9cd5c4602642b25e17ac2bf67fd",
+            "_checkSum": "f10f9cce23e67e07a66c7fee78f5414d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetFillClockwise.cs",
+            "_guid": "c9019199bf01b7841b1757ec81d173d7",
+            "_checkSum": "6a92ef3785ec18d20358d840fdd2630b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetFillMethod.cs",
+            "_guid": "4bc4257269c90fd4a9d46fad01486226",
+            "_checkSum": "eb9bb339ec32e86b480cbe8f0313f35f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetFillOrigin.cs",
+            "_guid": "19d0bdc60025ff141b70b0ccaeb635f8",
+            "_checkSum": "e700d3a97baa4e2dca8f2e2bf6cc1b32"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetHasBorder.cs",
+            "_guid": "85e3a66169576cf4eadbd7a5c55160f8",
+            "_checkSum": "83f5a193a836c7be3fe9e5a2f1a9467b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetLayoutPriority.cs",
+            "_guid": "481b449b8ba247044a8d3d8f58fca406",
+            "_checkSum": "ab793342ed1c0f742392f0f48686eaf9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetMainTexture.cs",
+            "_guid": "b9257258de6a8374f9d1273c949fe9d8",
+            "_checkSum": "7621148c936dcd69f4ce2107a67ff1b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetMaterial.cs",
+            "_guid": "6609dfa1992228448bc03c0eb1d84ca7",
+            "_checkSum": "5ec24f9a47d0ff5f7b07258a91f1428c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetOverrideSprite.cs",
+            "_guid": "3606a57007675fb4aa730ff7c206a98d",
+            "_checkSum": "84a1d1d927804756c1f923a02c68bd69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetPixelsPerUnit.cs",
+            "_guid": "7e2a5f5a44e491740bd4e48422ee42e9",
+            "_checkSum": "7aae1ffd824000999694c4465a94450c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetPixelsPerUnitMultiplier.cs",
+            "_guid": "98051215a00df3d478fa6db9f27ef01c",
+            "_checkSum": "842cc6d6604d75216adfff9066514a51"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetPreserveAspect.cs",
+            "_guid": "1da300c2ff2e68d4ca07425b70306bfc",
+            "_checkSum": "74b66e34d01be55c52fa82ddc71b4af0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetType.cs",
+            "_guid": "994798f242aa4fb49a2c30bda1fffa42",
+            "_checkSum": "3278d71710e13bbb2687a14ea566decc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ImageGetUseSpriteMesh.cs",
+            "_guid": "9684b37a578782f428af08faa280fa05",
+            "_checkSum": "af7d1e1b154d4354405a6459d6c44f17"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetAsteriskChar.cs",
+            "_guid": "ab6c25a424cddc044a8ee1b3a34ab102",
+            "_checkSum": "84220cb33bc3a11d5c38cd716f6f2996"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetCaretBlinkRate.cs",
+            "_guid": "1acddb5a1ef4ca348a9da2bd22c4c88b",
+            "_checkSum": "c6af859b31961649b09a14d21c905bff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetCaretColor.cs",
+            "_guid": "a5ca1136be7fa824eae993a39d3c02e2",
+            "_checkSum": "a1275625244d0861147ed74b9fead40c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetCaretPosition.cs",
+            "_guid": "72a33629c1ea9a7429be306d3521ce47",
+            "_checkSum": "20edce44a109ed838f7c58a54e08044e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetCaretWidth.cs",
+            "_guid": "799a8ae9b5ef2c64a96df9faaeb2eeb9",
+            "_checkSum": "9254685f4c881244586dd5a71ef76e40"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetCharacterLimit.cs",
+            "_guid": "d5226e6292d1f7849a89bf651a673657",
+            "_checkSum": "7403ec0651292b4345f024e31db3a07d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetCharacterValidation.cs",
+            "_guid": "26f8569ac90a0f746b8fe3a6242a20b5",
+            "_checkSum": "80c2beb5256a0592c768243b2edbad41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetContentType.cs",
+            "_guid": "d4f969523c8a93644bb23fb7b919368f",
+            "_checkSum": "e38ed76e221b54f9914b45e56a760bd2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetCustomCaretColor.cs",
+            "_guid": "ec50532fa7ef5c441a37acdfc36b1f1c",
+            "_checkSum": "6dadeaafd3e038a2881f10838a004b55"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetInputType.cs",
+            "_guid": "cc243f35f961f9d4689ad52d5a0adc91",
+            "_checkSum": "0062dc769084482881ad583585aa4f90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetIsFocused.cs",
+            "_guid": "413d8438050c65544bb0a3cd7d35a1b8",
+            "_checkSum": "7a017d42a5448f7c95a63c5c25e56e71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetKeyboardType.cs",
+            "_guid": "2318fe03555f2a74ca799e7f3ebbb3e3",
+            "_checkSum": "2f64ef9be55aa517708b0abd466d4652"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetLayoutPriority.cs",
+            "_guid": "96d814242f7dd0a42bab89f9c3558c1b",
+            "_checkSum": "b9aafd4d51eb1a7310b55478c207c56a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetLineType.cs",
+            "_guid": "e429758cb8174834db9c44ea7a76565f",
+            "_checkSum": "ef13af4991ddbf21bcddc37ee56addc7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetMultiLine.cs",
+            "_guid": "384721a77727b0243b466c474428cceb",
+            "_checkSum": "b2e97bdfee551f610391e5f5f55f893c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetOnEndEdit.cs",
+            "_guid": "99eef7aeec59976498a71bf4801e675c",
+            "_checkSum": "e63ed3ba54a71daa6cb05101a197a8c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetOnSubmit.cs",
+            "_guid": "f9f5c37e506d71849a64ab69136cf259",
+            "_checkSum": "19d09e3cd60318d29a46cf53b72f2310"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetOnValueChanged.cs",
+            "_guid": "b952a5e119e85684280afe3f5bf2e0fb",
+            "_checkSum": "ecd2c76234a7177185cda6ca173b494b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetPlaceholder.cs",
+            "_guid": "2bf766bd5648826439b467a36a4967be",
+            "_checkSum": "bf7d3fc3e689e0c3702d88dc7b56d4e1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetReadOnly.cs",
+            "_guid": "bd5c55c2cb9a88f40ab8bd7dcd133bc0",
+            "_checkSum": "5506c05203febb14f740b5953b214ec8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetSelectionAnchorPosition.cs",
+            "_guid": "24959c07d80dba9419506a91a98e46c0",
+            "_checkSum": "2c24b9b763d80a2278e11e9cfe17496e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetSelectionColor.cs",
+            "_guid": "2d4b25481579e504e99f685f07c5efeb",
+            "_checkSum": "7c6122e6c12526426ce30e7e281e48a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetSelectionFocusPosition.cs",
+            "_guid": "5e9e622b8546f624abc1701306f3d0ad",
+            "_checkSum": "f4f89c864d42a1b8ebdf80acccf2001a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetShouldActivateOnSelect.cs",
+            "_guid": "ad4f22e67acb7d1459f737801d6e7cac",
+            "_checkSum": "c1d6421167105bb161aeea2a8c235e8b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGetShouldHideMobileInput.cs",
+            "_guid": "ececb8a6cf6e6614482b9117b0521ac8",
+            "_checkSum": "3aac8c96b4f9aa4bbb4e8f00961d328c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldGraphicUpdateComplete.cs",
+            "_guid": "ad2296e0e17e4404ea0b25a15920e1fb",
+            "_checkSum": "eabaacc067771d902ef32402749a35fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/InputFieldLayoutComplete.cs",
+            "_guid": "5b78142d97da0f848a9c42ab78848daf",
+            "_checkSum": "760c2a88cdf414e2be9a6f7adc662e69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetFlexibleHeight.cs",
+            "_guid": "729374d1325a55d44a6a319e823c5c36",
+            "_checkSum": "88c1914187d333eea60c5a6fab865656"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetFlexibleWidth.cs",
+            "_guid": "bfe7cbf3186d56443816a7d5b0bd044c",
+            "_checkSum": "11da42f6e1c0aaaf4ca4c33415976267"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetIgnoreLayout.cs",
+            "_guid": "0d384a71af55aec41b4a87154986092c",
+            "_checkSum": "276d85021eb081246720073248be7da7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetLayoutPriority.cs",
+            "_guid": "7c4977324de12b54a96cc890009b67c8",
+            "_checkSum": "6f42689afc5b7412f4718fb18ac62613"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetMinHeight.cs",
+            "_guid": "d9938c1079982a64d837c72c9ff92997",
+            "_checkSum": "dfca8f90ccba77e25b3f27ed2ad31d82"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetMinWidth.cs",
+            "_guid": "e35df84afb7f1884782f008e28d14d60",
+            "_checkSum": "3eff2bc92c457675895a938fd65de646"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetPreferredHeight.cs",
+            "_guid": "06f811f8f543b7140844e46e7360eccf",
+            "_checkSum": "d5e543b6cddaa5219a9cace54f442190"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/LayoutElementGetPreferredWidth.cs",
+            "_guid": "035c1357bbebba0448649f792597b4e1",
+            "_checkSum": "194ce58f0d52ed770e530dbdef3e8f27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/MaskGetModifiedMaterial.cs",
+            "_guid": "3ccff981929f3fa469e6d55e7d418cc4",
+            "_checkSum": "768b76ad6f0d3ed7554bb6f72c6b5d5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/MaskGetShowMaskGraphic.cs",
+            "_guid": "0820eaec9dc7de74687b0de0d79bb2d6",
+            "_checkSum": "2709e6846b1e5fa3218c326750b1a80a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/OutlineGetEffectColor.cs",
+            "_guid": "2353bbf635bf4ccf85816850bfcb9c9a",
+            "_checkSum": "f9920e70cabef0fc8162bcb25a3908d3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/OutlineGetEffectDistance.cs",
+            "_guid": "6cbc2fc9e7f44c9a899f78fde124d2bd",
+            "_checkSum": "b4451c91164181a603d566d03aedf8f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/OutlineGetUseGraphicAlpha.cs",
+            "_guid": "9f09c58430f44993bc2ccaa44f742978",
+            "_checkSum": "0ce2e1897f1a074bb5b3a7a49c0d3ca8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/RawImageGetUvRect.cs",
+            "_guid": "9d6ed1cdbb60bc6459678c76e86a32a1",
+            "_checkSum": "26cf52a9037bb58f9de536b3db625367"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/RawImageSetNativeSize.cs",
+            "_guid": "0bebd3e35886d7b49949c1a7a19ca89e",
+            "_checkSum": "f01b15e3f686fa01523239662ea27677"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollbarGetDirection.cs",
+            "_guid": "7bdd989541002334481c86cb0b4760aa",
+            "_checkSum": "e566c92798efe5f79f9e41b2126262d3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollbarGetHandleRect.cs",
+            "_guid": "5ccb9bb14f6f8c8409a3129afce9c240",
+            "_checkSum": "b84c465ca9e38c07fe3223a4ff3dd946"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollbarGetNumberOfSteps.cs",
+            "_guid": "19cfe2e4457e1474286d3c5ecad1b0e5",
+            "_checkSum": "26994273a9ddc5230b72b705be58f8b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollbarGetOnValueChanged.cs",
+            "_guid": "dbd7137a361a8724393a68ca57edef3d",
+            "_checkSum": "413ef7b9e9b9818e3c802a5f5d5c1a68"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetDecelerationRate.cs",
+            "_guid": "90fea73a039ab8d4ca9ee5ddf3d404b8",
+            "_checkSum": "e18667e1f3ad68674229d4689f097f90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetElasticity.cs",
+            "_guid": "c3054c55fd1c539408008a691211993c",
+            "_checkSum": "6b627eaceadba6f695945f65cbad97df"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetHorizontal.cs",
+            "_guid": "d91c6380313c126448398007ea7429f9",
+            "_checkSum": "25fc9a6bad8baf8ffb80e7d94f3e8191"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetHorizontalScrollbar.cs",
+            "_guid": "4ba617cbcb97cee42a67ca43bafeeb2e",
+            "_checkSum": "cd45d06dfae9bb6a8ad9c4fe55d6b5bb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetHorizontalScrollbarSpacing.cs",
+            "_guid": "8976b9328e035384fb8b5beb5ef09b9b",
+            "_checkSum": "092c2e68be3c05a19db9f191867ffa1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetHorizontalScrollbarVisibility.cs",
+            "_guid": "a29d5f8944b79ad48b488523abf49476",
+            "_checkSum": "033d95e547d983aea2a748d5c7b84bf8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetInertia.cs",
+            "_guid": "3a1436f1aa4a42d4d8f15cb9b3233891",
+            "_checkSum": "2b2a5ea8f43d87bb3f59a50b4f5dfafc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetLayoutPriority.cs",
+            "_guid": "0edf6fba58e63b54da8a59768f4eb76d",
+            "_checkSum": "ab80f8da9de2fa84521b44a9c6b464b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetMovementType.cs",
+            "_guid": "2b5fa484793bfa645975b938efddcc74",
+            "_checkSum": "606fa86d2d899b188e60418ea406d392"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetOnValueChanged.cs",
+            "_guid": "9822ce04d3401444d9ffcc827f6a9212",
+            "_checkSum": "2083e8ac06c43a4790ab4010079a0842"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetScrollSensitivity.cs",
+            "_guid": "6e460260dbb81204da9305011cebadaa",
+            "_checkSum": "9d2fe4905ea948c3d1987ac300634106"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetVelocity.cs",
+            "_guid": "a591d96d64d9da547a835f942363876c",
+            "_checkSum": "dc9fdfb1d3508b4be6fcf88e6bb01167"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetVertical.cs",
+            "_guid": "9204b899f83696447874d8bda174499f",
+            "_checkSum": "66957f1f0c1d6c95e1fc3093c2d94b85"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetVerticalScrollbar.cs",
+            "_guid": "7603397a13e6b6c41b2f4a0e7047efab",
+            "_checkSum": "5a96f3ae0ffd469ef9db9078b6d45932"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetVerticalScrollbarSpacing.cs",
+            "_guid": "0c09a58b9d7aa8c4886e2b5de93385bf",
+            "_checkSum": "f7e3655338cbcae9301926dda82bdc8f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ScrollRectGetVerticalScrollbarVisibility.cs",
+            "_guid": "2eed5101088eb1142a0d5060eed9e5b4",
+            "_checkSum": "f1e5d5d3085e7a778ad85852628c5f3c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SelectableGetInteractable.cs",
+            "_guid": "332fd0e1cec3f0c45956c1a2ff84a52f",
+            "_checkSum": "30578cb690f8317f5c9c3492070d05d5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SelectableGetNavigation.cs",
+            "_guid": "917819730bb4934488c6e1f8a24af8f1",
+            "_checkSum": "b459b3fc8a355353b38dcd4f178dd753"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SelectableGetSpriteState.cs",
+            "_guid": "34a2ed3a048e70f43b1bb0c1f2f06a18",
+            "_checkSum": "18b9be23bce03def22f4992749e58ee3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SelectableGetTargetGraphic.cs",
+            "_guid": "425478321ed5bee4aa3b78922e53ce11",
+            "_checkSum": "051c51a9a87736e6a78b819215b46d68"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SelectableGetTransition.cs",
+            "_guid": "93193ecfd2091324d9f8bc3246244b74",
+            "_checkSum": "bf6543f4dfd9e3bd96c2853bfd746b87"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ShadowGetEffectColor.cs",
+            "_guid": "03c19e4b77f89f54db2553fcb8fa8361",
+            "_checkSum": "5f5c3e44d95e9f69ae32238ea4c43df0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ShadowGetEffectDistance.cs",
+            "_guid": "6df42a0b450700649a88160dad221b02",
+            "_checkSum": "f88bde4f34f831d6eeaf2529ee770037"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ShadowGetUseGraphicAlpha.cs",
+            "_guid": "0d2fdd6ce57f95f4db0fad41b34d9e16",
+            "_checkSum": "d471427773da3812266f8e70494cdb18"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SliderGetDirection.cs",
+            "_guid": "007f6dd4cedfc7542ab784e3bdeb67d1",
+            "_checkSum": "3adb6dadf87403e37d5c6159b35ae0b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SliderGetFillRect.cs",
+            "_guid": "a347ac589b41f1e43b41eb96dc6ecbdf",
+            "_checkSum": "1319c72ce2ce0518e2b3359438671972"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SliderGetHandleRect.cs",
+            "_guid": "1e9317886745ea2469c065ad6488a458",
+            "_checkSum": "6254af91f46314b09c48533864a5b880"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/SliderGetWholeNumbers.cs",
+            "_guid": "edb61051cfc6f3e4ea928dce66e1d3e7",
+            "_checkSum": "c2c9e8579c89363757265b1e7c1f8144"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetAlignByGeometry.cs",
+            "_guid": "cbc084261969e9f4b8879c5b6508d69c",
+            "_checkSum": "2b99f6ab2ca36777cf4f709e81df77b0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetAlignment.cs",
+            "_guid": "a22c5380e0d98da45be2fcabd340db76",
+            "_checkSum": "ddd12e56f4d468bc2efb2e929e2d86c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetFont.cs",
+            "_guid": "4c8df131c920ada40aaa0e01355bba52",
+            "_checkSum": "07a3fb73cd1e26c5f6b1d4f72a24dec0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetFontSize.cs",
+            "_guid": "913f75301ceba8c4ea5afa622e94a0fa",
+            "_checkSum": "0ddc7dcd1c55ed2069eac6f604156c2c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetFontStyle.cs",
+            "_guid": "26cab37bac460524a9c7598417584fdb",
+            "_checkSum": "eeeafa367ff34ef00b4c1540d2028d38"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetHorizontalOverflow.cs",
+            "_guid": "675a61554410d184189ea7f005aa7e9c",
+            "_checkSum": "ad4c5a001c28493963cc812e61f49fa9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetLayoutPriority.cs",
+            "_guid": "bce84da807937454181d4a1ad74930ac",
+            "_checkSum": "f4001b8f3cad4e85a47bb880d0ae8ced"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetLineSpacing.cs",
+            "_guid": "6983187718ddc3f4a8d9e0a302c47887",
+            "_checkSum": "4d39e49503487d253901c1c31ebf7922"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetMainTexture.cs",
+            "_guid": "4c845cc2e118d434c832fda2eeeb189a",
+            "_checkSum": "824abdf3a66fbf7b3b5effbf52f90002"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetPixelsPerUnit.cs",
+            "_guid": "1809d0b7841593e42a76eafcd8f67c08",
+            "_checkSum": "6c83029dfe1653a35387e9246e614d07"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetResizeTextForBestFit.cs",
+            "_guid": "8d6ff2246ce9b7648936bdd9c3661127",
+            "_checkSum": "7e21df2ed229f778a68014917cb12b8c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetResizeTextMaxSize.cs",
+            "_guid": "c674213afb55aad43bd423b5f80f09d9",
+            "_checkSum": "bc72f106c2e4511da3f1d4dc20d77add"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetResizeTextMinSize.cs",
+            "_guid": "77897ec6379894043a5041eadcd5679f",
+            "_checkSum": "37b32a1e255870ba8708896aff2d03c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetSupportRichText.cs",
+            "_guid": "13fe1039e3f7add4abd1152f740455ba",
+            "_checkSum": "5e9eb5bb0f418f5718e2a36d1aaa4c6f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetTextAnchorPivot.cs",
+            "_guid": "0b1140996b11bc84a997b163b9801a79",
+            "_checkSum": "a03c46eed3f71abbf17b098a205cc9f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextGetVerticalOverflow.cs",
+            "_guid": "8e68565ffff296541bd277b1e3fc6a96",
+            "_checkSum": "b43a48a66941e02bd716498a85894a98"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/TextSetAlignByGeometry.cs",
+            "_guid": "5ed6fd03a4484b242963bf1ed92e1ab0",
+            "_checkSum": "c0c06b2f9c493907aa428654e84f1153"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ToggleGetOnValueChanged.cs",
+            "_guid": "8638ff252d2be5746824770c5554a81d",
+            "_checkSum": "0d2a0205eb99036164ae2af5125d56f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ToggleGetToggleTransition.cs",
+            "_guid": "fd0490ce65974604ba9eec25b4ac5a30",
+            "_checkSum": "3f81dfd16944942dfaf0aee2d7ea8dca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ToggleGroupEnsureValidState.cs",
+            "_guid": "8683261f6cc8426439019792ee92d5a4",
+            "_checkSum": "92a6d18d0e9e02dfd4dde6bbf9f8a2b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Properties/ToggleGroupGetAllowSwitchOff.cs",
+            "_guid": "fb3878f953b7da540aab1e9aaa6e117a",
+            "_checkSum": "975081bb7bb8bd1739c3907b8676af94"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479619431363
+}

@@ -1,0 +1,119 @@
+.hutong-tooltip {
+    position: absolute;
+}
+
+.hutong-tooltip__container {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.hutong-tooltip__fit {
+    background-color: var(--unity-colors-tooltip-background);
+    border-color: var(--unity-colors-tooltip-border);
+    border-width: 1px;
+    padding: 5px;
+    align-items: stretch;
+    min-width: 40px;
+    min-height: 20px;
+    max-width: 350px;
+}
+
+.hutong-popup-header {
+    flex-direction: row;
+    flex-grow: 1;
+    height: 20px;
+    white-space: nowrap;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+}
+
+.hutong-tooltip__header {
+    flex-direction: row;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.hutong-tooltip__content {
+    padding-left: 2px;
+    padding-right: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hutong-tooltip__icon {
+    width: 16px; 
+    height: 16px; 
+    flex-shrink: 0;
+}
+
+.hutong-tooltip__title {
+    -unity-font-style: bold; 
+    margin-left: 2px;
+    flex-grow: 1;
+}
+
+.hutong-tooltip__type {
+    margin-left: 10px;
+    -unity-text-align: upper-right;
+    opacity: 0.3;
+}
+
+.hutong-tooltip__description {
+    min-width: 40px;
+    white-space: normal;
+}
+
+.hutong-tooltip__shortcut {
+    margin-top: 3px;
+    opacity: 0.5;
+}
+
+.hutong-tooltip__value-row {
+    margin-top: 5px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px;
+    border-radius: 3px;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.hutong-tooltip__value-header {
+    -unity-font-style: bold;
+    opacity: 0.9;
+    margin-bottom: 2px;
+}
+
+.hutong-tooltip__value-description {
+    margin-bottom: 4px;
+    opacity: 0.75;
+    white-space: normal;
+}
+
+.hutong-tooltip__value {
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+.hutong-tooltip__path {
+    margin-top: 5px;
+    opacity: 0.5;
+    font-size: 10px;
+    white-space: normal;
+}
+
+.hutong-tooltip__errors {
+    margin-top: 5px;
+}
+
+.hutong-tooltip__hints {
+    margin-top: 10px;
+    color: var(--unity-colors-label-text-focus);
+    opacity: 0.5;
+    font-size: 10px;
+}

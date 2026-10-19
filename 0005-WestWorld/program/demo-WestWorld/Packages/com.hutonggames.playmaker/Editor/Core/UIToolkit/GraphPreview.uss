@@ -1,0 +1,9 @@
+.hutong-graph-preview {
+    margin-top: 8px;
+    margin-left: 11px;
+    margin-right: 8px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 60px;
+    min-width: 60px;
+}

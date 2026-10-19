@@ -1,0 +1,29 @@
+.hutong-group-view {
+    min-width: 32px;
+    min-height: 32px;
+    flex-grow: 1;
+}
+
+.hutong-group-view__frame {
+    border-color: rgb(255, 0, 0);
+    border-width: 1px;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.hutong-node-view__selection-border {
+    border-radius: 12px;
+}
+
+.hutong-group-view__header {
+    border-top-left-radius: var(--node-radius);
+    border-top-right-radius: var(--node-radius);
+    height: var(--node-header-height);
+    min-height: var(--node-header-height);
+    align-items: center;
+}
+
+.hutong-group-view__title {
+    -unity-text-align: upper-center;
+    opacity: 0.7;
+}

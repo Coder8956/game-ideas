@@ -1,0 +1,655 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.post-processing-stack-v2",
+    "_displayName": "Post Processing Stack v2",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.postprocessing",
+            "MinimumVersion": "3.0.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for Post Processing Stack v2.",
+    "_description": "Adds PlayMaker support for Post Processing Stack v2 in the Built-in Render Pipeline. For Built-in Render Pipeline (BiRP).",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.postprocessing@latest/manual/index.html",
+    "_icon": "Rendering/Post Processing Stack v2",
+    "_tags": [
+        "Actions",
+        "Render",
+        "BiRP"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/HutongGames.PlayMaker.PostProcessingStackV2.asmdef",
+            "_guid": "58d1909c6e564865b22d79926427209d",
+            "_checkSum": "d7e14362b2fb1ebcc53bd95a6d7bb3f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionGetParameters.cs",
+            "_guid": "72f71172b672479fb59ec2c4f0a82315",
+            "_checkSum": "92db199641754cec8e95f2b080ea8f6d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetAmbientOnly.cs",
+            "_guid": "a14f8c0479de4af6bf5c879cde37b924",
+            "_checkSum": "1f826958bb391afeae4e98b10c3c2168"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetColor.cs",
+            "_guid": "58e40cf2069c49d59aaf3525afc2a38d",
+            "_checkSum": "7df9644227175015643445428cbc6a3b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetDirectLightingStrength.cs",
+            "_guid": "a534295998cb4849b41a7518de47239f",
+            "_checkSum": "bd42bd8caf8a83ef248917bc791bd800"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetIntensity.cs",
+            "_guid": "6210aca307f1460b974785a8916f34b6",
+            "_checkSum": "06b14016d1b468bbec5cf75ac29feb8d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetMode.cs",
+            "_guid": "764511c3fe044be8806c97b2c78c9525",
+            "_checkSum": "3b2135044920ab218d054842e6e5bfca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetQuality.cs",
+            "_guid": "2d66bd922dad493188d58d376a1d61e4",
+            "_checkSum": "1cd5553a4dc9dde69538d0a0420c235d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetRadius.cs",
+            "_guid": "9cb22533f6634960ad285b72195ad7be",
+            "_checkSum": "3f0b4367c96135b2c8a75a49d2b428f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetThicknessModifier.cs",
+            "_guid": "09597236fb134eaeb1123b168b661d8d",
+            "_checkSum": "0a0c5c3d656777a31b1c296e1446a305"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AmbientOcclusionSetZBias.cs",
+            "_guid": "0e3ee5d3077e46b2a088fd875ac6c3a6",
+            "_checkSum": "7c3b341bd26815eaf50e2681e5a19012"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureGetParameters.cs",
+            "_guid": "97d4fcd471f74634805156fef83c51c6",
+            "_checkSum": "31a6f8492f99734824687ab6bd0ed232"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureSetEyeAdaptation.cs",
+            "_guid": "df85ab2f4d1e4093b35e9f96c03964d0",
+            "_checkSum": "75c685aa21c8ae302f5b1dcd26fb1301"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureSetFiltering.cs",
+            "_guid": "62ac07cfbf8e4bc7a93568889c458690",
+            "_checkSum": "7036ec3edd035dd1c0ae97f3e933ef99"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureSetKeyValue.cs",
+            "_guid": "a4737ac71f8748178470931d15053b48",
+            "_checkSum": "3f1f09780b58305b61365e7c07cd452c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureSetMaxLuminance.cs",
+            "_guid": "3571359f54fc481bb94593367b2da537",
+            "_checkSum": "e6616ce4070411bd4624c362e39a3578"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureSetMinLuminance.cs",
+            "_guid": "d6ab0813cf344146a65884c9468e3cc3",
+            "_checkSum": "d45dad532fe95a0c0d356b535623862a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureSetSpeedDown.cs",
+            "_guid": "b336b5a59c5140d59ab8df417f6985ef",
+            "_checkSum": "1b862eaffac6a65f42feb30bd34527d5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/AutoExposureSetSpeedUp.cs",
+            "_guid": "81803db5a1394a94af0888cbe2e2184d",
+            "_checkSum": "3cceed937ce8029f71c2113808b6ffe5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomGetParameters.cs",
+            "_guid": "d27517b7091a45da9de8d119b70385ad",
+            "_checkSum": "8adf25d676a072a42fb59da6d7f300ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetAnamorphicRatio.cs",
+            "_guid": "f8e533c81217421ca97d5ae3be4d8ee1",
+            "_checkSum": "7e50421d28c9f62931f13692d593b6f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetClamp.cs",
+            "_guid": "a7e97124533747279c9c2d9f7051f760",
+            "_checkSum": "b1c65cb8b9c2294d1715cea592510281"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetColor.cs",
+            "_guid": "6cedb840e2a3440ebd8a80281045f2ea",
+            "_checkSum": "141e3a11d52104e6813da64cd102d267"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetDiffusion.cs",
+            "_guid": "b792f183584b48b2bc6fc2d2b64045bb",
+            "_checkSum": "00f1545507d88bdb437ce2830a184071"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetDirtIntensity.cs",
+            "_guid": "02ccfd879a6a4de080b03e941c5e79ce",
+            "_checkSum": "6b6174738963f7a3c1e448c0415bdc4d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetDirtTexture.cs",
+            "_guid": "e78ff151476f4e0b934890ef8cb334c1",
+            "_checkSum": "e30c0eb2cb7c2880ff5d8fe4c03ef307"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetFastMode.cs",
+            "_guid": "d56628478678410e85dcb739204d7355",
+            "_checkSum": "67dde6035c011b0f2b953df3d018e8b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetIntensity.cs",
+            "_guid": "f005a359852248d2a29518f3a9f006ad",
+            "_checkSum": "62780df781c188cc4714444e9a4bd0fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetSoftKnee.cs",
+            "_guid": "1c6a25d564f34d9a8ebf5c5a3371fc62",
+            "_checkSum": "b33eb90f81f6d57eea25ce9a237f1a3f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/BloomSetThreshold.cs",
+            "_guid": "c422c0c4e087442dba4e84389cf5fbc1",
+            "_checkSum": "00c4b70d3ebba0a6b1cd782c6af4ba90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ChromaticAberrationGetParameters.cs",
+            "_guid": "746d1c83df5b43e89b8f151de76a6c77",
+            "_checkSum": "2a64d70e73c607957bf0654760701916"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ChromaticAberrationSetFastMode.cs",
+            "_guid": "a2f81dc3669a4f5f8d78d6a6b0a2d992",
+            "_checkSum": "39b30f4fa0874d10a035b0968600eaa8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ChromaticAberrationSetIntensity.cs",
+            "_guid": "47e8ef26169c4b75a098b5aa52010caf",
+            "_checkSum": "ec3678ef059f9c18fdfa152596c3c0e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ChromaticAberrationSetSpectralLut.cs",
+            "_guid": "19a5928e5af94670b3e2e72e0bbb3682",
+            "_checkSum": "5b75a903afe6cfe450aac23af0b9b1fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingGetParameters.cs",
+            "_guid": "e32deff117a948be84419a3688440723",
+            "_checkSum": "70c0da6833921f1e54d9a816a97e1564"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetChannelMixer.cs",
+            "_guid": "517efb84fe824fd586da7936e490101a",
+            "_checkSum": "9e686284c2845c947b008fd7ce058e52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetLiftGammaGain.cs",
+            "_guid": "f88c6f11591247b5b4690768f97aff5b",
+            "_checkSum": "c67d062035a04e02ef2c27aa49032f98"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetLut.cs",
+            "_guid": "43f5cb5c14f34750b71b6a25241adcf4",
+            "_checkSum": "22bf003eeed9caaf4395ab9eaec1820d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetMode.cs",
+            "_guid": "0f9654409d6d44399df60cdd13e3108e",
+            "_checkSum": "3ce415e4b7982a8df8db64c0fbf78209"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetTone.cs",
+            "_guid": "0292fabcf61a43988930d793df1bd9fe",
+            "_checkSum": "d78a54add8fbd4da7086157cdb40614c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetToneCurve.cs",
+            "_guid": "a98f3bd4685f443da7dba6e3eb050e05",
+            "_checkSum": "96f2d0c11f43212f1825f767852b1bdf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetTonemapper.cs",
+            "_guid": "00ff9aaed03e46499756c4c27ad70d26",
+            "_checkSum": "553bb0d4efc6cd9ee38c5fcd60465b47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/ColorGradingSetWhiteBalance.cs",
+            "_guid": "e455d6f675cc433d87b8251c2d85a514",
+            "_checkSum": "3f9adab0e59245aacf4bb7bb39b163e1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/DepthOfFieldGetParameters.cs",
+            "_guid": "344644d91880412fb9a9eca5bda218b3",
+            "_checkSum": "31233e00697ec82ca3adb29c352877d7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/DepthOfFieldSetAperture.cs",
+            "_guid": "b7ec05e783fd4815a91766e62c3a68a2",
+            "_checkSum": "5a255c618cc77b022b8a448438e3c63b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/DepthOfFieldSetFocalLength.cs",
+            "_guid": "2e587751e6ca40d18167b91a6d7e7314",
+            "_checkSum": "e40c91ce513f49d4a040acf9fd41cd5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/DepthOfFieldSetFocusDistance.cs",
+            "_guid": "250dba1f50c74ab3bebc6615db1438cb",
+            "_checkSum": "30f3e93b6fe20c6019284de5134aa550"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/DepthOfFieldSetKernelSize.cs",
+            "_guid": "24a2e86221bb41988c5c31aff7d6e668",
+            "_checkSum": "7b259f62e9db95f6ed38648f92bb71b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/FadeInPostProcessVolume.cs",
+            "_guid": "4e0e177f0e0f48e9aa4dff26b8403068",
+            "_checkSum": "ab78bdbb7362d7f7eecca6b286eff4c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/FadeOutPostProcessVolume.cs",
+            "_guid": "6fbcfc7e301f43bfb8b7824c4bdb004e",
+            "_checkSum": "298a851e4ad089285fcc04d64e89dc41"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/FlickerPostProcessVolume.cs",
+            "_guid": "6d264f12fb8b40ef9580ee8e96c4d946",
+            "_checkSum": "65b1a306ac00771d3196b187378facb5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/FxDriverPostProcessVolume.cs",
+            "_guid": "7f3d0ce7d42d4b3f88d9a80c70406c1e",
+            "_checkSum": "9f9a53eab82efdd3c861d954ba38b688"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/GrainGetParameters.cs",
+            "_guid": "c11b8b6415b64feaa11d29a6e66ceda4",
+            "_checkSum": "fcc09899fedb7103c2ccb1faee4b8a58"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/GrainSetColored.cs",
+            "_guid": "2975cfe7ac244b9f8ef0ac448e4ebe33",
+            "_checkSum": "c2d3ee45bc59fe49c6fec67a94276bcd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/GrainSetIntensity.cs",
+            "_guid": "89111e32ed8f4844a4d955a20ac16f37",
+            "_checkSum": "62250f1f075331cb369af85d90a29c49"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/GrainSetLumContrib.cs",
+            "_guid": "eb55d016aaaf447099b2f067f9b5cbd0",
+            "_checkSum": "b70e9dcc87f18807dd76a17d59dffc4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/GrainSetSize.cs",
+            "_guid": "4b6ee942b9df48d093b3ec412eb54e36",
+            "_checkSum": "217db1fa8efef5fda02fb69beb86b8db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/LensDistortionGetParameters.cs",
+            "_guid": "4ae845c25e774f4fa62a3c920d61ee20",
+            "_checkSum": "e4e63e3cb7f11fe46cebfab82fb4a90e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/LensDistortionSetCenterX.cs",
+            "_guid": "0c152396da3f40f7899a9b7720623d32",
+            "_checkSum": "546834ea17085da59b0789aa226668ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/LensDistortionSetCenterY.cs",
+            "_guid": "d7dbb3d64a5148d2a510f92076224977",
+            "_checkSum": "6ed1f01d0869a7684747327819a3d4c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/LensDistortionSetIntensity.cs",
+            "_guid": "f97fdb925e7942059c718bc1b9d86fa9",
+            "_checkSum": "e574be07647d56f9b650bb58825646aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/LensDistortionSetIntensityX.cs",
+            "_guid": "738de5fc34e6416ebe618f04b6bc5941",
+            "_checkSum": "f1403bd3995a78ef971a77f7a7588fbf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/LensDistortionSetIntensityY.cs",
+            "_guid": "b2e76fd0891748f1806cb1958f1c0593",
+            "_checkSum": "c82f4267dcb52fc0b43efa27cedd2c2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/LensDistortionSetScale.cs",
+            "_guid": "49721d0f528943c98e5a2f2f6a9e093f",
+            "_checkSum": "4a108e64d31d0f7ee8ff652fc0aa7424"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/MotionBlurGetParameters.cs",
+            "_guid": "3fc5a662d8f64b72a6bb776a3f64928d",
+            "_checkSum": "454e139fc5ad8974bad63ed2681aa83f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/MotionBlurSetSampleCount.cs",
+            "_guid": "176fb26aa73c4869a55a4c36325b0a65",
+            "_checkSum": "167e80598f112df1aa895d912708a819"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/MotionBlurSetShutterAngle.cs",
+            "_guid": "1e5b50d7b8e64ed1af6f1d1d85485d52",
+            "_checkSum": "ef0ce0ec4bc65b91c532dd6601bb9167"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessAmbientOcclusionUtility.cs",
+            "_guid": "c70f7aa487cb4d55a0e98e4362511ac1",
+            "_checkSum": "e5f241371223a924f398228b5be5a3fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessAutoExposureUtility.cs",
+            "_guid": "bb6aa6af80d04ac1b462dfefb52cbd72",
+            "_checkSum": "49a4da1fc53df0143d2478ed559f7b7f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessBloomUtility.cs",
+            "_guid": "8b5a6c40dc364bbfbc2c224f3dce89af",
+            "_checkSum": "1ba204a0c910227ba84dca1983579350"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessChromaticAberrationUtility.cs",
+            "_guid": "c5eb0a997f304eaab065ca68fe6d78e4",
+            "_checkSum": "a1905422cf36a959adddf0cb4b8c8b44"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessColorGradingUtility.cs",
+            "_guid": "de42598e5df14282899ce846992237ca",
+            "_checkSum": "bdf2782c8097415e3201f1e97d0d74d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessDepthOfFieldUtility.cs",
+            "_guid": "e29e7476e4b047b8b3786167e361ec81",
+            "_checkSum": "67a8e40a3c7f98464318d25188b9afe0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessGrainUtility.cs",
+            "_guid": "ce0f45e662ae4556854f7d8e0f801ce1",
+            "_checkSum": "f7897485a4259114069f26fb861fee0d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessLensDistortionUtility.cs",
+            "_guid": "4606acdac8574146a458d98b08c17bc5",
+            "_checkSum": "bc8d49ef0f2065b603414ebe4e8ec478"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessMotionBlurUtility.cs",
+            "_guid": "4313f8b92a28486dbf792f7450f2b877",
+            "_checkSum": "2a16659ced1e8e7cae8625ce607c9c09"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessQuickVolume.cs",
+            "_guid": "30f0db28619546249cfdd0be5f4edb1f",
+            "_checkSum": "03791bffa6307f8524149991288dd5f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVignetteUtility.cs",
+            "_guid": "99f190539c454c978bd793c9f915bc3a",
+            "_checkSum": "a4f6a66fb430c507fbbde7ae46dcf348"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddAmbientOcclusion.cs",
+            "_guid": "b0f17e3ced7049059c2042d563e9d4ee",
+            "_checkSum": "652ac15ce81b1c75a5052403384c92c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddAutoExposure.cs",
+            "_guid": "0bc34cb2722f4f22be9612c7b32ac670",
+            "_checkSum": "e96d931c97b8376da4795f6e4fa0f247"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddBloom.cs",
+            "_guid": "1b20ef1768604057a066c651f6d6801f",
+            "_checkSum": "cac31eb166685368b68d249c85de24ae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddChromaticAberration.cs",
+            "_guid": "334864303ca244518e9cac89ba6376a9",
+            "_checkSum": "fc2fe67f9065e69a31a5f830fd9b9d50"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddColorGrading.cs",
+            "_guid": "5a509ef26e8c4ef49e96183cd3308270",
+            "_checkSum": "c1d36072ae7cc633582739180ee7a82e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddDepthOfField.cs",
+            "_guid": "118e5a64b1334ee09ecc0f9bfb336e7b",
+            "_checkSum": "ca48ae31bd4ffae0a90639ffaa009e49"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddGrain.cs",
+            "_guid": "7d6ba7231ae74558aed170a7ede04883",
+            "_checkSum": "6d463d938fe1de81f03af11c12c129d8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddLensDistortion.cs",
+            "_guid": "e209f99624ac490ba621521cd61064d0",
+            "_checkSum": "a71a953223aca27f3a87349c2ae4fdc0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddMotionBlur.cs",
+            "_guid": "b9bd958a720c49a28200e2edbe71b983",
+            "_checkSum": "324e4217de4470127a8462e687a8257e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeAddVignette.cs",
+            "_guid": "c7e6c995c6124ed4967fe0dbe9b6d372",
+            "_checkSum": "8db13fde55d1503bba4a3f1afccd9b92"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeDestroy.cs",
+            "_guid": "84a9a3e6cd1742dc876af698daee9f58",
+            "_checkSum": "6b1a4c7f9e285064eb342c71dbee8822"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeGetBlendDistance.cs",
+            "_guid": "106b112ce67e4d23a751744b0f1cfcf7",
+            "_checkSum": "edaaf17fdc652b93381ddf324e1ff956"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeGetEffectEnabled.cs",
+            "_guid": "74aa2125c989488db7f681d6c83137ce",
+            "_checkSum": "bec2987e282eed201d81e546327ec37e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeGetEnabled.cs",
+            "_guid": "325fbc285ac54b1ea6eadc6a6432b7ac",
+            "_checkSum": "2490e0c68a5cd6c449fcd4c5720c0b22"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeGetIsGlobal.cs",
+            "_guid": "da384b962d254d10b3a7e62cf654d149",
+            "_checkSum": "7f8128143a6c0594c599056b550af56d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeGetPriority.cs",
+            "_guid": "aa782d86628c4dff97b854be9f39390a",
+            "_checkSum": "1bcae8c7558b3c9c3dd4e68b476580e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeGetWeight.cs",
+            "_guid": "fff8afdde5c24b659a1ddc5baefd8e74",
+            "_checkSum": "9eab5ae069e5e4f243a7944ca68f9a10"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeHasEffect.cs",
+            "_guid": "4fe67697caeb42f0b51d9fcfd0ea3b0d",
+            "_checkSum": "cd2a06c3ebc671056b7e7cfc0ed16c00"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeRemoveEffect.cs",
+            "_guid": "032d33c7f61142a095285d9cd54bbf4a",
+            "_checkSum": "c1af5037b97d2a06173ccb8fc1e14c46"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeSetBlendDistance.cs",
+            "_guid": "6d5ed64d733a47ffaa40ae38e77e9ac4",
+            "_checkSum": "df79e8cdc1d84397326b17dac9418d10"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeSetEffectEnabled.cs",
+            "_guid": "8c9da376545b48da8745df66f512e456",
+            "_checkSum": "10165304c9e0d331d5494911c37c861e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeSetEnabled.cs",
+            "_guid": "c0c207341c444254809db3c9081c7723",
+            "_checkSum": "d8cdb4af6c4847a6a02b3d830f33d730"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeSetIsGlobal.cs",
+            "_guid": "12446d37f42441dc891e005e2ca2465f",
+            "_checkSum": "293f05aae5b0419eda11acdafb84483c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeSetPriority.cs",
+            "_guid": "0c4f1199bef64f3ebc3a4e290552a127",
+            "_checkSum": "f56db43111600770dc92ae115b1989ab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/PostProcessVolumeSetWeight.cs",
+            "_guid": "0fa107d98838479ea038a5bc1cfbd2d5",
+            "_checkSum": "f20c7725151db1df7041fc13ff57b1eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/TweenPostProcessVolumeWeight.cs",
+            "_guid": "9c6364e4bc7c41ee887f4368a2a8c067",
+            "_checkSum": "5451f15da8746426f5fbb79efccc2ecf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteGetParameters.cs",
+            "_guid": "41aa7e9299ab4049a37af82383be2553",
+            "_checkSum": "df06c3f5958c3fa5013751baf0c9381f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetCenter.cs",
+            "_guid": "9e85d4f90d2a4058a862f7d335c4fdab",
+            "_checkSum": "511fab2e31932f74fa849cc2768378eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetColor.cs",
+            "_guid": "7df81dfd0c58499c80bad3fda3c3328d",
+            "_checkSum": "a94194d3abc1845745a47ba73e40ae24"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetIntensity.cs",
+            "_guid": "b2ea15e3b2d14cf9839ac378a8d51727",
+            "_checkSum": "16439252203c4c9cda104055c769a00d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetMask.cs",
+            "_guid": "6ed4e0d4bc1b4bd9b1260fa2c649c137",
+            "_checkSum": "d0b4738a289751302c8efcfb64158f68"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetMode.cs",
+            "_guid": "61602a1ddf104ed68ea9f147f1e2e0b3",
+            "_checkSum": "50f4646f1ad942817ffe80ce640ab36e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetOpacity.cs",
+            "_guid": "f5af090501af434594372e8de9c2e75b",
+            "_checkSum": "a46aaa43d52f2ba45e91ed53fe0c9240"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetRounded.cs",
+            "_guid": "8c3ef52731584976a1d620758aa37b3f",
+            "_checkSum": "4a221ea4584e890408d943517cf44ce4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetRoundness.cs",
+            "_guid": "c5b0341288f44d7f87c0672bbf13dcf2",
+            "_checkSum": "1b6616c5ffde5dc05dbc57671bf21702"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Actions/VignetteSetSmoothness.cs",
+            "_guid": "f2eb2336c32149cc96e6d92e8323dff2",
+            "_checkSum": "7efc41f07108eefa237e595c17cb86b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/AmbientOcclusionMode.cs",
+            "_guid": "9fb9612a7a624a62bf8a3a88a9b6ff1d",
+            "_checkSum": "e463b73424e0654888c22401927382b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/AmbientOcclusionQuality.cs",
+            "_guid": "3dfb169140f94114967ae15b80b10dcb",
+            "_checkSum": "732d58b2e2dc7691de792b5371231762"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/EyeAdaptation.cs",
+            "_guid": "6d54bcce196c4b69a62e92bcfae0f7d1",
+            "_checkSum": "3d7cf0cdd2ccc4a49a09310e92ac70e5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/GradingMode.cs",
+            "_guid": "821a4dce872a4c5db4b062875cf68329",
+            "_checkSum": "70600859b504bd4817e02bb10686273b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/KernelSize.cs",
+            "_guid": "6761e0d83e054483adf42b6ea822f764",
+            "_checkSum": "b408b42f546e7418c10445907b3be4fd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/PostProcessEffectSettings.cs",
+            "_guid": "d5d6636ce0ba45fbaef285d2d3b40ee0",
+            "_checkSum": "01de99c23162da23d1323afb00483d78"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/PostProcessVolume.cs",
+            "_guid": "fbbc8a553eb74ba7921e65bb7746b15d",
+            "_checkSum": "f25549f48aa92b7aca29dda3ebef2150"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/Tonemapper.cs",
+            "_guid": "52ef5fa4752444d88a6d2a9017639a8b",
+            "_checkSum": "7beff501991689d0e719cb5e1bd9c5a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2/Variables/VignetteMode.cs",
+            "_guid": "544c5a60738941aa86c9d8fabcd08979",
+            "_checkSum": "272a8aa8c0b098f12ac873c3092ceb3f"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b74",
+    "_datePublished": "2026-07-04",
+    "_timeCode": 134276614665783115
+}

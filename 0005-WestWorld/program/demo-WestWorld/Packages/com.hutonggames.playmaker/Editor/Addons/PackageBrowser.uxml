@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Addons/PackageBrowser.uss?fileID=7433441132597879392&amp;guid=3a6a6cbbc9cd14245aca0886ac1ac242&amp;type=3#PackageBrowser" />
+    <ui:TwoPaneSplitView fixedPaneIndex="0" fixedPaneStartDimension=".4" orientation="Horizontal" name="split-view" fixed-pane-initial-dimension="400" view-data-key="action-browser">
+        <ui:VisualElement name="package-list-panel" class="hutong-package-browser__package-list-panel">
+            <uie:Toolbar>
+                <uie:ToolbarPopupSearchField class="hutong-package-browser__search-field" />
+                <uie:ToolbarButton name="hide-tags" text="Hide" tooltip="Hide tags" focusable="false" class="hutong-package-browser__hide-tags-button" />
+                <uie:ToolbarToggle name="show-installed" label="Installed" tooltip="Show only installed packages" class="hutong-package-browser__installed-toggle" />
+                <uie:ToolbarButton name="settings" focusable="false" class="hutong-package-browser__settings-button" />
+            </uie:Toolbar>
+            <ui:VisualElement class="hutong-package-browser" />
+            <ui:VisualElement name="list-view-panel" class="hutong-package-browser__package-list" />
+        </ui:VisualElement>
+        <ui:VisualElement name="preview-panel" class="hutong-package-browser__preview-panel">
+            <ui:VisualElement class="hutong-package-browser__preview-panel-title-container">
+                <ui:Image name="icon" class="hutong-package-browser__preview-panel-icon" />
+                <ui:Label tabindex="-1" name="title" text="Title" class="hutong-package-browser__preview-panel-title" />
+                <ui:Button name="help" class="hutong-package-browser__preview-panel-help" />
+                <ui:Label tabindex="-1" name="version" class="hutong-package-browser__preview-panel-version" />
+            </ui:VisualElement>
+            <ui:ScrollView class="hutong-package-browser__preview-panel-scroll-view">
+                <ui:VisualElement name="page">
+                    <ui:Label tabindex="-1" name="summary" text="Summary" class="hutong-package-browser__preview-panel-summary" />
+                    <ui:Image tabindex="-1" name="screenshot" class="hutong-package-browser__preview-panel-screenshot" />
+                    <ui:Label tabindex="-1" name="description" class="hutong-package-browser__preview-panel-description" />
+                </ui:VisualElement>
+                <ui:VisualElement name = "markdown" class="hutong-package-browser__preview-panel-markdown" />
+                <ui:Label tabindex="-1" name="release-notes-title" text="Release Notes" class="hutong-package-browser__preview-panel-header" />
+                <ui:VisualElement name="release-notes" class="hutong-package-browser__preview-panel-release-notes" />
+                <ui:Label tabindex="-1" name="scenes-title" text="Scenes" class="hutong-package-browser__preview-panel-header" />
+                <ui:VisualElement name="scenes-view" picking-mode="Ignore" focusable="false" class="hutong-package-browser__preview-panel-scenes" />
+                <ui:Label tabindex="-1" name="usages-title" text="Usages" class="hutong-package-browser__preview-panel-header" />
+                <ui:VisualElement name="usages-view" class="hutong-package-browser__preview-panel-usages" >
+                    <ui:Foldout name="action-usages" text="Actions" class="hutong-package-browser__preview-panel-action-usages"/>
+                </ui:VisualElement>
+                <ui:Label tabindex="-1" text="Files" class="hutong-package-browser__preview-panel-path-label hutong-package-browser__preview-panel-header" />
+                <ui:TreeView name="files-view" picking-mode="Ignore" selection-type="None" focusable="false" class="hutong-package-browser__preview-panel-files" />
+            </ui:ScrollView>
+            <ui:Label tabindex="-1" name="dependencies-title" text="Dependencies" class="hutong-package-browser__preview-panel-header" />
+            <ui:Label tabindex="-1" name="dependencies" class="hutong-package-browser__preview-panel-dependencies" />
+            <ui:VisualElement class="hutong-package-browser__preview-panel-buttons">
+                <ui:Button name="import-button" text="Import Package" class="hutong-package-browser__import-button" />
+                <ui:Button name="check-usages-button" text="Check Usages" class="hutong-package-browser__check-usages-button" />
+                <ui:Button name="remove-button" text="Remove Package" class="hutong-package-browser__remove-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:TwoPaneSplitView>
+</ui:UXML>

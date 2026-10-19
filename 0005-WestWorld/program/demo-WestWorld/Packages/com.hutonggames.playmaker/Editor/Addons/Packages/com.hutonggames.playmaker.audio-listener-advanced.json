@@ -1,0 +1,53 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-listener-advanced",
+    "_displayName": "Audio Listener Advanced",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioListener/Advanced"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Advanced AudioListener actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AudioListener.html",
+    "_icon": "Audio/AudioListener",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioListener/Advanced/AudioListenerGetOutputData.cs",
+            "_guid": "6843075eb54d5124ab8839a004d9f9d4",
+            "_checkSum": "2780102fd838e9eee74c78b095098744"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioListener/Advanced/AudioListenerGetSpectrumData.cs",
+            "_guid": "e98bf8523fe094b4f809f7f18ebef6ac",
+            "_checkSum": "10a7f01c8f6b7ec281bf33795d563478"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioListener/Advanced/AudioListenerGetVelocityUpdateMode.cs",
+            "_guid": "0cbeba700f487e94987d7e24fdba0e7d",
+            "_checkSum": "80a0ff1e1814736d56f837616c5765d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioListener/Advanced/AudioListenerSetVelocityUpdateMode.cs",
+            "_guid": "86035ca550c93144d84276f5e324a2cc",
+            "_checkSum": "ca7733da08e3032a1be1bd710308fc65"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479378953243
+}

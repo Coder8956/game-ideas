@@ -1,0 +1,17 @@
+.hutong-popup-header {
+    background-color: rgba(38, 38, 38, 0.61);
+    padding-left: 4px;
+    padding-top: 5px;
+    flex-shrink: 0;
+    padding-bottom: 4px;
+}
+
+.hutong-popup-footer {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: row;
+    padding-top: 5px;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+}

@@ -1,0 +1,70 @@
+.hutong-action-block-list-editor {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hutong-action-block-list-editor__header {
+    margin-left: 9px;
+    margin-right: 2px;
+    margin-bottom: 0;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    /*background-color: rgba(0,0,0,0.1);*/
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.hutong-action-block-list-editor__header:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+
+.hutong-action-block-list-editor__header-icon {
+    display: none;
+    background-image: resource('d_GameObject Icon');
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    margin-right: 2px;
+}
+
+.hutong-action-block-list-editor__header-title {
+    -unity-font-style: bold;
+    flex-grow: 1;
+}
+
+.hutong-action-block-list-editor__add-icon {
+    background-image: var(--hutong-editor-action-blocks-icon);
+    width: 16px;
+    height: 16px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.8;
+}
+
+.hutong-action-block-list-editor__header:hover .hutong-action-block-list-editor__add-icon {
+    opacity: 0.8;
+}
+
+.hutong-action-block-list-editor__content {
+    padding-top: 5px;
+}
+
+/*
+.hutong-action-block-list-editor__content > ActionBlockEditor {
+    margin-top: 10px;
+}
+*/
+
+
+.hutong-action-block-list-editor__empty-label {
+    padding-left: 13px;
+    opacity: 0.6;
+}
+
+
+

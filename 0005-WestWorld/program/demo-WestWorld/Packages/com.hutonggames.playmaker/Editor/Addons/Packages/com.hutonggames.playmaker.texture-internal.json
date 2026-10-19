@@ -1,0 +1,62 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.texture-internal",
+    "_displayName": "Texture Internals",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Internal"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Access more advanced Texture parameters at runtime.",
+    "_description": "Most of the time these parameters are set at edit time, but you can use these actions to control the setup at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Texture.html",
+    "_icon": "Rendering/Texture",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Internal/TextureGetAllowThreadedTextureCreation.cs",
+            "_guid": "1b75fec2935a1ba45922d1d997ca9613",
+            "_checkSum": "37ad1ddf208503d9082c12d65e32cb06"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Internal/TextureGetAnisotropicFiltering.cs",
+            "_guid": "5007be6c8b46f334abe51905018e137a",
+            "_checkSum": "671c805fb06f59ce77aff2f71eb81f20"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Internal/TextureGetUpdateCount.cs",
+            "_guid": "0f6e8a93083f7f0499f12ff5cc7a06d6",
+            "_checkSum": "3bf597f0dbc958cb2fdad5ae65539834"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Internal/TextureIncrementUpdateCount.cs",
+            "_guid": "079ab55498c3c774aba0e8b07157193e",
+            "_checkSum": "f9528dbf4a0e8053014b0d4bc7196d4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Internal/TextureSetAllowThreadedTextureCreation.cs",
+            "_guid": "a465e6501258ba3448ba6c2b4ee66c40",
+            "_checkSum": "fb401d1fee4ebd2d2d515c17d7d2c67c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Internal/TextureSetGlobalAnisotropicFilteringLimits.cs",
+            "_guid": "df398a1d10961c04ab6124f51636e62f",
+            "_checkSum": "ce67f1e03ca065f7acf6f7ffe2708958"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479391067266
+}

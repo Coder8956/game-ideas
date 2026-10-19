@@ -1,0 +1,131 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.playable-director",
+    "_displayName": "Playable Director",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorEvaluate.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorDeferredEvaluate.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorRebuildGraph.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorRebindPlayableGraphOutputs.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorGetGenericBinding.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorSetGenericBinding.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorClearGenericBinding.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorSetReferenceValue.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorClearReferenceValue.cs"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Advanced Playable Director actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Playables.PlayableDirector.html",
+    "_icon": "Animation/PlayableDirector",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorClearGenericBinding.cs",
+            "_guid": "90c8d2da223048edb3708e49363ad80b",
+            "_checkSum": "5c07f15c42b81cb1d3e71b8302995f3e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorClearReferenceValue.cs",
+            "_guid": "ddacdabd3bce4bff9b6ed60cd6785c8b",
+            "_checkSum": "19d9ce52cb26835ab91ce444949e23d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorDeferredEvaluate.cs",
+            "_guid": "dc0896cfda5f4d68a0485fce4df8261c",
+            "_checkSum": "0aff763f86534e8f28fa84cbb91fbbc4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorEvaluate.cs",
+            "_guid": "403ca57e29c24c6a8179f48b7a70eb77",
+            "_checkSum": "f328fb649303a0a8df0c950c9a039167"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorGetGenericBinding.cs",
+            "_guid": "4054d53229884aebbf2b392fe53942c2",
+            "_checkSum": "08c86cf6c4672525c169d011d65831c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorRebindPlayableGraphOutputs.cs",
+            "_guid": "49148b937e5a43aa83ede59b8fef216f",
+            "_checkSum": "2db8941693c62a19c21d7e25f0065d27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorRebuildGraph.cs",
+            "_guid": "c549d34b40b94b71849c36a67a656159",
+            "_checkSum": "1e06f97710144c2ad90e544b62049263"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorSetGenericBinding.cs",
+            "_guid": "72afbbd726e747bea40d82d27469a885",
+            "_checkSum": "a085932f0c6bc1101a2e05f94842c133"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/Advanced/PlayableDirectorSetReferenceValue.cs",
+            "_guid": "b9a9cf363bcb4e22a071e52cdf14a2d0",
+            "_checkSum": "6dc9a13613a646c27c5be9730c7fdef8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorEvaluate.cs",
+            "_guid": "0f3d226ff56bebf4685e0e06f7c3a073",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorDeferredEvaluate.cs",
+            "_guid": "d476683ac27c75545bf25dfc353c5ed8",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorRebuildGraph.cs",
+            "_guid": "b902d30bffb6b4a4984de33f6311b37f",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorRebindPlayableGraphOutputs.cs",
+            "_guid": "ef780517095525f4fa490da6af120df6",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorGetGenericBinding.cs",
+            "_guid": "5014cadb79c9cbb49bc68effb3df38bd",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorSetGenericBinding.cs",
+            "_guid": "32419ceb8a15613449593ffa18920f1c",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorClearGenericBinding.cs",
+            "_guid": "c6e68285042ff8f4f9ae000ee9a14232",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorSetReferenceValue.cs",
+            "_guid": "3487bbccb9de73c4dba8b4df91e4056f",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Director/Actions/PlayableDirector/PlayableDirectorClearReferenceValue.cs",
+            "_guid": "2f75be051deb02941bb07efaa7ed1e38",
+            "_checkSum": "c738fdb66cf0f8efd2b83099b8dc6a45"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479445472629
+}

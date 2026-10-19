@@ -1,0 +1,121 @@
+.playmaker-save-settings-editor__header-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.playmaker-save-settings-editor__header {
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.playmaker-save-settings-editor__help-button {
+    margin-left: auto;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    padding: 0;
+    border-width: 0;
+    border-radius: 0;
+    background-color: transparent;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.playmaker-save-settings-editor__section-title {
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-left: 3px;
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+
+.playmaker-save-settings-editor__section {
+    margin-bottom: 8px;
+}
+
+.playmaker-save-settings-editor__tools-group {
+    margin-top: 4px;
+}
+
+
+.playmaker-save-settings-editor__field {
+    margin-right: 2px;
+}
+
+
+.playmaker-save-settings-editor__field PopupField {
+    margin-right: 0;
+}
+
+.playmaker-save-settings-editor__field > .unity-base-field__input {
+    margin-right: 0;
+}
+
+.playmaker-save-settings-editor__registry-field .unity-property-field__label,
+.playmaker-save-settings-editor__registry-field .unity-foldout__text {
+    /*-unity-font-style: bold;
+    font-size: 13px;
+    margin-top: 3px;*/
+    margin-bottom: 3px;
+}
+
+.playmaker-save-settings-editor__registry-field .unity-list-view__size-field {
+    margin-bottom: 3px;
+}
+
+.playmaker-save-settings-editor__info-panel {
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: var(--unity-colors-window-border);
+    background-color: var(--unity-colors-alternated_rows-background);
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 8px 10px;
+}
+
+.playmaker-save-settings-editor__row {
+    flex-direction: row;
+    align-items: center;
+    padding-right: 0;
+    margin-right: 2px;
+    /*margin-bottom: 8px;*/
+}
+
+.playmaker-save-settings-editor__row > PopupField {
+    height: 19px;
+    margin-right: 2px;
+}
+
+.playmaker-save-settings-editor__apply-button {
+    margin-right: 0;
+    margin-left: 0;
+    width: 50px;
+}
+
+.playmaker-save-settings-editor__default-load-mode {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 8px;
+}
+
+.playmaker-save-settings-editor__populate-note {
+    margin-bottom: 6px;
+}
+
+.playmaker-save-settings-editor__populate-buttons {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.playmaker-save-settings-editor__tool-button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 4px;
+    text-overflow: ellipsis;
+}
+
+.playmaker-save-settings-editor__markdown {
+    margin-left: 3px;
+}

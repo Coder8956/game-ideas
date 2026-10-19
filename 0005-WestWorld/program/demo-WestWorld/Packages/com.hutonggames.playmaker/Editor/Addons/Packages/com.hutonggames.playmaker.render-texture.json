@@ -1,0 +1,293 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.render-texture",
+    "_displayName": "Render Texture",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Render Texture actions.",
+    "_description": "Render textures are textures that can be rendered to.\n\nNormally render textures are set up at edit time, but you can use these actions to change them at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/RenderTexture.html",
+    "_icon": "Rendering/RenderTexture",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureConvertToEquirect.cs",
+            "_guid": "578cc2c8a15f51c438940c1f49138d94",
+            "_checkSum": "761ade0a11b7875d6f56320cf012a17b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureCreate.cs",
+            "_guid": "554cc6dc140d0a64ba2b7fc38cfd756d",
+            "_checkSum": "187d94f3c7834199cd064adfb4862a43"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureDiscardContents.cs",
+            "_guid": "63580c15285e5904cb00eeca0bd6f1f4",
+            "_checkSum": "d9e23a51e90c6acdb3edd1b99cd91f82"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGenerateMips.cs",
+            "_guid": "1174c4cb3b9bf7a40b893c0225dab006",
+            "_checkSum": "3dfd181970e86f3e2c56fdd026657744"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetActive.cs",
+            "_guid": "e1258cc727dda9744b4b31c57d9d2dcb",
+            "_checkSum": "2d3aae207fa27b1f8979ba055277d6e6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetAntiAliasing.cs",
+            "_guid": "f77409c0dcba3584889819a7ff7c908b",
+            "_checkSum": "f745655dba32d901fd9bd2b5cfe65959"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetAutoGenerateMips.cs",
+            "_guid": "b5b97e4bb5dc31741bf168f2d75dbfb7",
+            "_checkSum": "3dea4b54f5c48adfa2833e5dce6e4789"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetBindTextureMS.cs",
+            "_guid": "c05ca2b1b53433e448577d4c9a8b65a7",
+            "_checkSum": "8e485e1a01ea2d660c0b8537477b6a16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetDepth.cs",
+            "_guid": "5d7c3a5f68b6ce74cbf6bb9663495b28",
+            "_checkSum": "6c2857b619bc2c804e2b2e3713a804d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetDepthStencilFormat.cs",
+            "_guid": "9642e2e10611533468eeb0a907bf3773",
+            "_checkSum": "2ae85480bd5d74c7363b4ba5da2baa4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetDimension.cs",
+            "_guid": "89e6609b5377a2643bca9d047eeb3657",
+            "_checkSum": "7607c265c7b251fc9a0133a82099009d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetEnableRandomWrite.cs",
+            "_guid": "13424bdc27746664b8136438892cfc63",
+            "_checkSum": "6682c061cf01df1dec5da72c7c14e4ec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetFormat.cs",
+            "_guid": "231db52608853594888825d3734529b9",
+            "_checkSum": "bbd33afacaa55fc4c4eed7debad8124d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetGraphicsFormat.cs",
+            "_guid": "8747bf00409078c4598d83712d480cd7",
+            "_checkSum": "57d8f6f6d5f94799036f8fe2b6e89071"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetHeight.cs",
+            "_guid": "ec5b91b983225b74b8fdf10ed1f80f16",
+            "_checkSum": "6a6c3d1b771db90998b7b0284c533af5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetIsPowerOfTwo.cs",
+            "_guid": "518722540faf22f42a640ee55da5f381",
+            "_checkSum": "ae90e6410b8aa9430af080c41f0bad76"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetMemorylessMode.cs",
+            "_guid": "9d60ab5568420814eb8763fe4ed0b223",
+            "_checkSum": "54d9d852b90e5203ac25367e607d760e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetSRGB.cs",
+            "_guid": "4d40f4bfd5647c944bb5c735d3b385e1",
+            "_checkSum": "1dfcb6d74e56a50a497a345861d8746c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetStencilFormat.cs",
+            "_guid": "014e7cb5958b7ae4e836ab5bc73ea2d7",
+            "_checkSum": "1661ce0f73a7d86d03e0eaf52dca59f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetTemporary.cs",
+            "_guid": "3520ce2ae1dcaab4782fa8d1b07898fa",
+            "_checkSum": "0ed909a63f55f7e9c0c01226b852285b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetTemporary__Parameters.cs",
+            "_guid": "5c82fe3543f0468facb06a087a97db9d",
+            "_checkSum": "dd107fceacdc404fad7b8045da90abe9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetUseDynamicScale.cs",
+            "_guid": "ae18beabb325a1441acf55de66463431",
+            "_checkSum": "8dcc3dea73ce897762ce07a004dda016"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetUseMipMap.cs",
+            "_guid": "aed61868a34d60a458832b3e089f6772",
+            "_checkSum": "0a9f52dffcb3c8a7d89bb9de6f14256a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetVolumeDepth.cs",
+            "_guid": "ea01b1112e5c6eb45aa76be3f55548b0",
+            "_checkSum": "6e613d71865e4188e8368ac713679007"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetVrUsage.cs",
+            "_guid": "0960403068132b84b97f559c7ba433ae",
+            "_checkSum": "f432811168546ed613b399c2ac578ded"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureGetWidth.cs",
+            "_guid": "32474954b4a4bbf40a66cc6489f2a825",
+            "_checkSum": "058c0c383255ccc3377fa48cd6bd29c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureIsCreated.cs",
+            "_guid": "496d6495ac96dc54ba2204460f3100ab",
+            "_checkSum": "a27724e9d7c05e293b0067c3e372991c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureRelease.cs",
+            "_guid": "bf52c44ff1d62764eb4684a3a1c8258f",
+            "_checkSum": "8df5b14d8197ea5db8e084e372751b67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureReleaseTemporary.cs",
+            "_guid": "3414d9f0c31c6c740878799238f7ba7c",
+            "_checkSum": "b8f997b810f5ef556928b4cd78797bf9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureResolveAntiAliasedSurface.cs",
+            "_guid": "c75eed097f88d0c45a80dccb963dad47",
+            "_checkSum": "d867fff6932a249640fb1d4917cb82bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureResolveAntiAliasedSurface__Target.cs",
+            "_guid": "bf98b4d3324f70443bb0fcf6f7aee1e6",
+            "_checkSum": "50f9ce5690e52a83a20fd4971888a6df"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetActive.cs",
+            "_guid": "f042b018b5847b740a300ca388b09b79",
+            "_checkSum": "d43dd5b30410e8a4184dfc0849cb7664"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetAntiAliasing.cs",
+            "_guid": "69cc1c5a6fba3ff4599b8d55717c55f3",
+            "_checkSum": "73f42e0a90533e0afd4eb5ee39fd3e3f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetAutoGenerateMips.cs",
+            "_guid": "b3a540ef06c81cb4c88727b30617cf6a",
+            "_checkSum": "f3a0e6d594cb3fa0f002cf7132ca8661"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetBindTextureMS.cs",
+            "_guid": "97653248da6e6b041a860e3576db1915",
+            "_checkSum": "60b99a0267ef59487fb652845e1dd883"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetDepth.cs",
+            "_guid": "ae7bba94d70f82d4cba42f7dd0e22082",
+            "_checkSum": "896d7247a88a6b781eb45d9b022b9571"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetDepthStencilFormat.cs",
+            "_guid": "869814987ef5df14690a30bf3eef09c4",
+            "_checkSum": "aa3d42d7dc982fabfe7831ac0dba51f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetDimension.cs",
+            "_guid": "fa066947411cb0045b33d44fa638f1a1",
+            "_checkSum": "9a30a429d0fa5da11b7548dbf4bebc81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetEnableRandomWrite.cs",
+            "_guid": "919394fd3f75f1c48a203ca4d051e2c6",
+            "_checkSum": "8222aa71b3eaea8baca3c4089327027c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetFormat.cs",
+            "_guid": "234d446490db32c4ab9e8743e268a887",
+            "_checkSum": "b86f69efca84e2c13ff548c469c1df5a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetGlobalShaderProperty.cs",
+            "_guid": "95feae1cac7497c46926f6e3bfde768a",
+            "_checkSum": "0760d5e032ac3e986798bd118e89d6da"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetGraphicsFormat.cs",
+            "_guid": "c39b2a11b71306c47bcc891aae3b7311",
+            "_checkSum": "3319286288c759aa18c4f7d5cce9cfe3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetHeight.cs",
+            "_guid": "f1bc4d89cb681c246b577455519512cd",
+            "_checkSum": "af380fa4b4bbb67c6f5833e55b6f038e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetIsPowerOfTwo.cs",
+            "_guid": "435b6a14d71ca4f4da30c8708672b02c",
+            "_checkSum": "2bc82826cb0a095ee957df7cf716fcb2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetMemorylessMode.cs",
+            "_guid": "4751e741bce267c44a19c79cb5c40de5",
+            "_checkSum": "9605c640b60602ca4378a1f6db9be39f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetStencilFormat.cs",
+            "_guid": "017d837005b071645960fefadaaa9df8",
+            "_checkSum": "ad5c2055ef7655ca77093bbb7cf451bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetUseDynamicScale.cs",
+            "_guid": "8a81efd2a7e457b4dbc7ea409222c4e5",
+            "_checkSum": "034946e4d512f32b1651b1d72689a442"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetUseMipMap.cs",
+            "_guid": "0ed9ce0fba2770c418affb943d9e4e58",
+            "_checkSum": "e47abba639ca4740c8bed0b09d15eba9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetVolumeDepth.cs",
+            "_guid": "58248fbcafec1d04c81c54baad626b9c",
+            "_checkSum": "0dfbdcc72d347ee6ef745c7e32c177dc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetVrUsage.cs",
+            "_guid": "c406bdcef6e60a140b95148decd5b850",
+            "_checkSum": "ad86c97e36b2a44cc0786f37f37e535c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSetWidth.cs",
+            "_guid": "1ed7e789537c55f4b8372718288a0c48",
+            "_checkSum": "4ccca4865fc7ee144005a783458dc780"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/RenderTexture/RenderTextureSupportsStencil.cs",
+            "_guid": "a024fef29606e734c86c359abf845aa0",
+            "_checkSum": "306036c0dfa24dfec16936ffdd21237a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b77",
+    "_datePublished": "2026-07-26",
+    "_timeCode": 134295525660600058
+}

@@ -1,0 +1,113 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animation-event",
+    "_displayName": "Animation Event",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to change animation event settings at runtime.",
+    "_description": "In most cases animation events are setup at edit time. These actions allow you to get or set animation event properties at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AnimationEvent.html",
+    "_icon": "Animation/AnimationEvent",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetFloatParameter.cs",
+            "_guid": "6cb9f7ae5c45d3d4ab2ab9dc7537fc13",
+            "_checkSum": "15279c042f414ff7de2fa529af8b2366"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetFunctionName.cs",
+            "_guid": "1c00b16da37485d438013d1b668422bb",
+            "_checkSum": "73eefc192265d1625666684621c838c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetIntParameter.cs",
+            "_guid": "be1a62bb5ea79894d923d029a30bc1aa",
+            "_checkSum": "3481dd10aa8a4b8b4aa71ec4d02137d5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetIsFiredByAnimator.cs",
+            "_guid": "faa551b77b111dc4e8331c45810a9f72",
+            "_checkSum": "06988273ea38ea6e36d2e4b1a4c53bf6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetIsFiredByLegacy.cs",
+            "_guid": "d7cda89c19d613742af2305b29cd0e36",
+            "_checkSum": "0db8e513c12df778e062124ec3ee2bb7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetMessageOptions.cs",
+            "_guid": "dd05762e69840a944806abc96cf98cc4",
+            "_checkSum": "684f296bf061d5ea06b8a8fa80b1a8c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetObjectReferenceParameter.cs",
+            "_guid": "d977bd98929aa9c4290b6d4af801f3df",
+            "_checkSum": "2a4b7c4ecda9b8b45fc2238be8b5b806"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetStringParameter.cs",
+            "_guid": "0cea950c39ce4bb4098cc4e1a01e32b3",
+            "_checkSum": "07eddc6c58917b20a0b88fc1eb0b715b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventGetTime.cs",
+            "_guid": "0856d6f5a2c2ed6448de40bd6b7626d0",
+            "_checkSum": "96205e647b13b652ae7f22df7740075b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventSetFloatParameter.cs",
+            "_guid": "6edfd2ae4a39de646a7f163bfb05eb79",
+            "_checkSum": "1d8da8f398138616e0732458fda58ba4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventSetFunctionName.cs",
+            "_guid": "8563f09c3ecc3be4680a7fcca372ff16",
+            "_checkSum": "ea6d421a5b0eb71b9a010be862552184"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventSetIntParameter.cs",
+            "_guid": "03bc05025ccbc274eb9209a68ffbe4f9",
+            "_checkSum": "4e82a891b71cc6b4e1856aaeef3e8547"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventSetMessageOptions.cs",
+            "_guid": "565791ddb87f2ff4aafa521560f9038b",
+            "_checkSum": "37fe96fa28c0d9f0e00fb86d4f273456"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventSetObjectReferenceParameter.cs",
+            "_guid": "e075a9db97ede804cadc5cbf5971ad36",
+            "_checkSum": "0938e6465043444edd9ad808ea0b9dc2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventSetStringParameter.cs",
+            "_guid": "b645291e71c239f429fef2747ff40a06",
+            "_checkSum": "2a09436fbd72e2df5a3043eaeb98faca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animation/AnimationEvent/AnimationEventSetTime.cs",
+            "_guid": "6268ca0feb5b2a0498396f67eaa6d278",
+            "_checkSum": "6591156d177d356baa265fd26d16a10e"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479549618968
+}

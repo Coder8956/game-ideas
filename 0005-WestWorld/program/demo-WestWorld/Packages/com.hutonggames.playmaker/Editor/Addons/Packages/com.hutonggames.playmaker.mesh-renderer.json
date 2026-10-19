@@ -1,0 +1,58 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.mesh-renderer",
+    "_displayName": "Mesh Renderer",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/MeshRenderer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to manipulate Renders meshes inserted by the MeshFilter or TextMesh.",
+    "_description": "Can be useful for advanced applications that require dynamic mesh manipulation.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/MeshRenderer.html",
+    "_icon": "Rendering/MeshRenderer",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/MeshRenderer/MeshRendererGetAdditionalVertexStreams.cs",
+            "_guid": "52264db851cdfad4c8ae369a16884ca8",
+            "_checkSum": "ac40447fa0ee185fa32f402c29a1b187"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/MeshRenderer/MeshRendererGetEnlightenVertexStream.cs",
+            "_guid": "5fe8cd67b01120641a780cf1f61f063d",
+            "_checkSum": "47dadc2f536b4c7581aa56e5f2afdcc6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/MeshRenderer/MeshRendererGetSubMeshStartIndex.cs",
+            "_guid": "7f5e582e2363a1a41a4f8e1e7b5235ee",
+            "_checkSum": "6ce348527497cacfd120aeac657f1c5f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/MeshRenderer/MeshRendererSetAdditionalVertexStreams.cs",
+            "_guid": "7fdf0e2377becec49876690ccc946a4c",
+            "_checkSum": "28a4be464a9600f1d24180464cc06b7d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/MeshRenderer/MeshRendererSetEnlightenVertexStream.cs",
+            "_guid": "7c06e59efc6617544a01f6b942a49a4e",
+            "_checkSum": "5be1b3d60f1ab6d0599b8f28ed8d9768"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349223127715938
+}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Core/Controls/IconStyleButton/IconStylePopup.uss?fileID=7433441132597879392&amp;guid=a1d7b95f35f84a83a0dc90567baebb2a&amp;type=3#IconStylePopup" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/PopupStyles.uss" />
+    <ui:ScrollView>
+        <ui:Label text="Color" class="hutong-popup-header hutong-icon-style-popup__header" />
+        <ui:VisualElement name="color-palettes" class=".hutong-icon-style-popup__color-palettes" />
+        <ui:Label text="Icon" class="hutong-popup-header hutong-icon-style-popup__header" />
+        <ui:VisualElement name="icon-grid" />
+    </ui:ScrollView>
+    <ui:VisualElement class="hutong-popup-footer">
+        <ui:Button tabindex="-1" text="OK" display-tooltip-when-elided="true" name="ok" class="hutong-icon-style-popup__ok-button" />
+        <ui:Button tabindex="-1" text="Cancel" display-tooltip-when-elided="true" name="cancel" class="hutong-icon-style-popup__cancel-button" />
+    </ui:VisualElement>
+</ui:UXML>

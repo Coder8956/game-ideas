@@ -1,0 +1,19 @@
+.hutong-unity-image-field {
+    flex-direction: row;
+}
+
+.hutong-unity-image-field__object-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 0;
+}
+
+.hutong-unity-image-field__object-field > Label {
+    margin-right: 30px;
+}
+
+.hutong-unity-image-field__image-type {
+    flex-shrink: 1;
+    min-width: 70px;
+    margin-left: 1px;
+}

@@ -1,0 +1,1153 @@
+:root {
+    --node-header-height: 22px;
+    --node-icon-size: 17px;
+    --node-radius: 6px;
+    --node-radius-inset: 5px;
+    --node-title-margin: 28px;
+    --node-title-font-size: 16px;
+    --node-border-width: 1px;
+    --node-selection-offset: -4px;
+    --node-selection-width: 2px;
+    --node-selection-radius: 10px;
+    --node-description-font-size: 11px;
+    --node-description-max-width: 200px;
+    --node-runtime-state-width: 2px;
+    --node-runtime-state-offset: -4px;
+    --node-runtime-state-radius: 10px;
+    --transition-title-font-size: 12px;
+    --transition-border-width: 1px;
+    --transition-radius: 11px;
+    --transition-height: var(--node-header-height);
+    --transition-selection-radius: 14px;
+    --start-node-size: 32px;
+    --start-node-offset: -29px;
+    --node-lock-contents-icon: var(--unity-icons-lock);
+    --node-lock-contents-icon-checked: var(--unity-icons-lock-checked);
+}
+
+/*
+  GraphView
+ */
+
+.hutong-graph-view {
+    flex-grow: 1;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hutong-graph-view__graph-view-container {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.hutong-graph-view__content-view-container {
+    position: absolute;
+    transform-origin: 0 0;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
+.hutong-graph-view__debug-path {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hutong-graph-view__debug-path-node {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: green;
+    translate: -1px -1px;
+}
+
+.hutong-graph-view__debug-path-node--end {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    translate: -2px -2px;
+}
+
+.hutong-graph-view__link {
+    position: absolute;
+    opacity: 1;
+}
+
+.hutong-graph-view__link--error {
+    opacity: 0.25;
+    --link-color: red;
+}
+
+.hutong-graph-minimap {
+    position: absolute;
+    background-color: black;
+}
+
+.hutong-graph-minimap:hover {
+    cursor: move-arrow;
+}
+
+.hutong-graph-minimap--top-left {
+    transform-origin: top left;
+    left: 12px;
+    top: 12px;
+}
+
+.hutong-graph-minimap--top-right {
+    transform-origin: top right;
+    right: 12px;
+    top: 12px;
+}
+
+.hutong-graph-minimap--bottom-left {
+    transform-origin: bottom left;
+    left: 12px;
+    bottom: 12px;
+}
+
+.hutong-graph-minimap--bottom-right {
+    transform-origin: bottom right;
+    right: 12px;
+    bottom: 12px;
+}
+
+.hutong-active-state-gui {
+    background-color: rgba(20,20,20,0.6);
+    padding: 8px;
+    border-radius: 8px;
+    position: absolute;
+    transform-origin: bottom left;
+    left: 12px;
+    bottom: 12px;
+    color: var(--hutong-editor-colors-play);
+}
+
+.hutong-active-state-gui > Label {
+    height: 20px;
+    -unity-text-align: middle-left;
+}
+.hutong-active-state-gui--paused {
+    color: var(--hutong-editor-colors-paused);
+}
+
+.hutong-active-state-gui--not-active > Label {
+    color: var(--hutong-editor-colors-text-dimmed);
+}
+
+.hutong-debug-variables-gui {
+    background-color: rgba(20,20,20,0.6);
+    padding: 8px;
+    border-radius: 8px;
+    position: absolute;
+    transform-origin: bottom right;
+    right: 12px;
+    bottom: 12px;
+}
+
+.hutong-debug-variables-gui__row {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.hutong-debug-variables-gui__row > DebugValueField {
+    width: 120px;
+}
+
+.hutong-debug-variables-gui__row > Label {
+    color: white;
+    padding-bottom: 2px;
+}
+
+/*
+  FsmGraphView
+ */
+
+.hutong-fsm-graph-view {
+    background-color: var(--graph-view-background-color);
+    flex-grow: 1;
+}
+
+.hutong-fsm-graph-view-empty {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hutong-fsm-graph-view-empty__add-button {
+    border-width: 0;
+    background-color: transparent;
+    background-image: var(--hutong-editor-big-add-icon);
+    width: 64px;
+    height: 64px;
+    align-self: center;
+    opacity: 0.4;
+}
+
+.hutong-fsm-graph-view-empty__add-button:hover {
+    opacity: 0.6;
+}
+
+.hutong-fsm-graph-view-empty__empty-hint {
+    opacity: 0.8;
+    color: var(--hutong-editor-colors-white);
+}
+
+
+.hutong-fsm-graph-view__toolbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    align-items: center;
+}
+
+.hutong-fsm-graph-view__edit-mode {
+    position: absolute;
+    left: 4px;
+    top: 0;
+    color: rgba(255, 255, 255, 0.28);
+    /*background-color: rgba(0, 0, 0, 0.28);*/
+    font-size: 36px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+
+.hutong-fsm-start-node {
+    position: absolute;
+    left: var(--start-node-offset);
+    top: var(--start-node-offset);
+    width: var(--start-node-size);
+    height: var(--start-node-size);
+}
+
+.hutong-fsm-start-node-vector {
+    position: absolute;
+    top: -22px;
+    left: -22px;
+    width: 22px;
+    height: 22px;
+}
+
+.hutong-fsm-end-node-vector {
+    position: absolute;
+    /*left: 50%;*/
+    top: 100%;
+    width: 22px;
+    height: 40px;
+}
+
+.hutong-fsm-broadcast-event-origin {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    opacity: 0.6;
+}
+
+.hutong-fsm-broadcast-event-origin:hover {
+    position: absolute;
+    opacity: 1;
+}
+
+.hutong-empty-graph-hint {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.hutong-empty-graph-hint Label {
+    align-self: center;
+    flex-wrap: wrap;
+    -unity-text-align: upper-center;
+    color: rgb(200, 200, 200);
+    white-space: normal;
+    max-width: 300px;
+}
+
+
+
+/*
+  NodeView
+ */
+
+.hutong-node-view--empty {
+    border-bottom-left-radius: var(--node-radius);
+    border-bottom-right-radius: var(--node-radius);
+}
+
+.hutong-node-view__header {
+    background-color: var(--node-background-color);
+    border-color: var(--node-border-color);
+    border-width: var(--node-border-width);
+    border-top-left-radius: var(--node-radius);
+    border-top-right-radius: var(--node-radius);
+    height: var(--node-header-height);
+    min-height: var(--node-header-height);
+    align-items: center;
+}
+
+.hutong-node-view__header--right-aligned {
+    position: absolute;
+    flex-direction: row-reverse;
+    right: 3px;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+}
+
+.hutong-node-view__icon {
+     -unity-background-image-tint-color: white;
+     background-size: 16px 16px;
+     position: absolute;
+     left: 0;
+     top: 1px;
+     bottom: 1px;
+     width: 18px;
+     align-self: center;
+ }
+
+.hutong-node-view__fit-contents {
+    background-image: var(--node-fit-contents-icon);
+    background-size: 16px 16px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    bottom: 1px;
+    width: 18px;
+    align-self: center; 
+}
+
+.hutong-node-view__lock-contents {
+    background-image: var(--node-lock-contents-icon);
+    background-size: 20px 20px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    bottom: 1px;
+    width: 20px;
+    align-self: center;
+    opacity: 0;
+}
+
+.hutong-group-view__header:hover .hutong-node-view__lock-contents {
+    opacity: 0.5;
+}
+
+.hutong-group-view__header:hover .hutong-node-view__lock-contents-checked {
+    opacity: 1;
+}
+
+.hutong-node-view__lock-contents-checked {
+    background-image: var(--node-lock-contents-icon-checked);
+    opacity: 1;
+}
+
+.hutong-state-view__icon {
+    left: 0;
+}
+
+.hutong-state-view__loop-icon {
+    background-image: var(--node-loop-icon);
+    position: absolute;
+    top: 1px;
+    right: 0;
+    background-size: 16px 16px;
+    width: 18px;
+    height: 18px;
+}
+
+.hutong-state-node-view-controls__add-transition {
+    background-image: var(--hutong-editor-big-add-icon);
+    background-color: transparent;
+    border-width: 0;
+    position: absolute;
+    left:50%;
+    bottom:-34px;
+    width: 24px;
+    height: 24px;
+    translate: -34px 0;
+}
+
+.hutong-node-view__title {
+    margin-left: var(--node-title-margin);
+    margin-right: var(--node-title-margin);
+    flex-grow: 1;
+    flex-shrink: 1;
+    -unity-font-style: bold;
+    font-size: var(--node-title-font-size);
+    color: var(--node-title-color);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.27);
+    -unity-text-align: middle-center;
+    overflow: hidden;
+}
+
+.hutong-editor-editable-label--hide-label {
+    color: transparent;
+}
+
+
+.hutong-node-view__content {
+    width: 100%;
+}
+
+.hutong-node-view__content-area {
+    background-color: var(--node-content-area-background-color);
+    border-color: var(--node-border-color);
+    border-width: var(--node-border-width);
+    border-bottom-left-radius: var(--node-radius);
+    border-bottom-right-radius: var(--node-radius);
+    border-top-width: 0;
+    min-height: 50px;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.hutong-node-view__runtime-state {
+    border-color: var(--node-runtime-state-active-color);
+    border-width: var(--node-runtime-state-width);
+    left: var(--node-runtime-state-offset);
+    top: var(--node-runtime-state-offset);
+    right: var(--node-runtime-state-offset);
+    bottom: var(--node-runtime-state-offset);
+    border-radius: var(--node-runtime-state-radius);
+    position: absolute;
+    flex-grow: 1;
+}
+
+.selected > .hutong-node-view__runtime-state {
+    border-width: 4px;
+    border-radius: 12px;
+    left: -6px;
+    top: -6px;
+    bottom: -6px;
+    right: -6px;
+}
+
+.hutong-state-view--paused > .hutong-node-view__runtime-state {
+    border-color: yellow;
+}
+
+.hutong-node-view__selection-border {
+    border-color: var(--node-selection-color);
+    border-top-left-radius: var(--node-selection-radius);
+    border-bottom-left-radius: var(--node-selection-radius);
+    border-top-right-radius: var(--node-selection-radius);
+    border-bottom-right-radius: var(--node-selection-radius);
+    border-width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-grow: 1;
+}
+
+.selected > .hutong-node-view__selection-border {
+    left: var(--node-selection-offset);
+    top: var(--node-selection-offset);
+    right: var(--node-selection-offset);
+    bottom: var(--node-selection-offset);
+    border-width: var(--node-selection-width);
+}
+
+.hutong-node-view__prefab-accent {
+    position: absolute;
+    left: -6px;
+    top: 4px;
+    bottom: 4px;
+    width: 3px;
+    background-color: var(--hutong-editor-colors-prefab-override);
+    /*border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;*/
+    display: none;
+    border-radius: 2px;
+}
+
+.hutong-node-view--prefab-override > .hutong-node-view__prefab-accent {
+    display: flex;
+}
+
+.hutong-region-view--only-region > .hutong-node-view__prefab-accent {
+    display: none;
+}
+
+.hutong-node-view__prefab-badge {
+    position: absolute;
+    left: -18px;
+    top: 4px;
+    min-width: 14px;
+    height: 14px;
+    padding-left: 3px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    background-color: var(--hutong-editor-colors-prefab-override);
+    color: white;
+    -unity-font-style: bold;
+    font-size: 12px;
+    -unity-text-align: middle-center;
+    display: none;
+    border-radius: 2px;
+}
+
+.hutong-node-view--prefab-added > .hutong-node-view__prefab-badge {
+    display: flex;
+}
+
+.hutong-node-description {
+    max-width: var(--node-description-max-width);
+    font-size: var(--node-description-font-size);
+    color: var(--node-description-color);
+    position: absolute;
+    left: 6px;
+    top: 26px;
+    white-space: normal;
+    opacity: 0.7;
+}
+
+.hutong-node-view__debug-text {
+    position: absolute;
+    top: 23px;
+}
+
+.hutong-node-view__debug-rect {
+    position: absolute;
+    border-width: 1px;
+    border-color: red;
+}
+
+.hutong-node-view__breakpoint {
+    background-color: var(--breakpoint-color);
+    height: 14px;
+    width: 14px;
+    border-width: 1px;
+    border-radius: 7px;
+}
+
+.fsm-debugger--breakpoints-disabled .hutong-node-view__breakpoint {
+    opacity: 0.3;
+    border-color: var(--breakpoint-color);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hutong-node-view__loop-count {
+    height: 14px;
+    margin: 2px;
+    border-width: 1px;
+    border-radius: 7px;
+    min-width: 24px;
+    -unity-text-align: middle-left;
+    opacity: 0.6;
+}
+
+.hutong-node-view__debug-container {
+    height: 18px;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    top: -25.5px;
+    margin-left: 2px;
+    padding: 2px;
+    border-radius: 9px;
+    align-items: center;
+}
+
+.hutong-node-view__loop-count--error {
+    -unity-font-style: bold;
+    color: var(--error-text-color);
+    opacity: 1;
+}
+
+.hutong-node-view__debug-container--error {
+    background-color: var(--error-background-color);
+}
+
+.hutong-node-view__error-icon {
+    background-image: var(--node-error-icon);
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+    margin-right: 2px;
+    display: none;
+}
+
+.hutong-node-view__debug-container--error > .hutong-node-view__error-icon {
+    display: flex;
+}
+
+/*
+  State View
+ */
+
+.hutong-state-view {
+    min-width: 80px;
+}
+
+.hutong-state-view__links-layer {
+    top: -22px;
+}
+
+.hutong-node-view__selection-border .hutong-state-view--active .selected  {
+    border-color: var(--node-runtime-state-active-color);
+}
+
+.hutong-state-view--final-state {
+    border-color: black;
+    border-width: 4px;
+}
+
+.hutong-state-view--empty {
+    border-bottom-left-radius: var(--node-radius);
+    border-bottom-right-radius: var(--node-radius);
+}
+
+.hutong-state-view__content-area {
+    border-color: var(--node-border-color);
+    border-width: var(--node-border-width);
+    border-bottom-left-radius: var(--node-radius);
+    border-bottom-right-radius: var(--node-radius);
+    border-top-width: 0;
+    min-height: 30px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.hutong-fsm-view__title {
+    margin-left: 20px;
+}
+
+.hutong-composite-state-view__content-area {
+    padding: 0;
+}
+
+.hutong-composite-state-view--single-region {
+    background-color: rgba(40, 40, 40, 0.8);
+    padding: 0;
+}
+
+.hutong-composite-state-view--single-region .hutong-node-view__content-area {
+    padding: 0;
+}
+
+.hutong-region-view--only-region > .hutong-node-view__prefab-badge {
+    display: none;
+}
+
+/*
+  Region View
+ */
+
+:root {
+    --dash-size: 16px;
+    --dashed-line-width: 3px;
+    --dashed-line-edge-offset: -1px;
+    --dashed-line-corner-inset: 5px;
+    --dashed-line-color: rgb(40,40,40);
+}
+
+/* NOTE: This breaks layout
+.hutong-region-view {
+    min-width: 200px;
+    min-height: 105px;
+}*/
+
+.hutong-region-view--only-region {
+    min-width: 0;
+    min-height: 0;
+}
+
+.hutong-region-view__title {
+    color: rgb(200,200,200);
+    margin-left: 22px;
+}
+
+.hutong-region-view--only-region {
+    /*top: 22px;*/
+    width: 100%;
+    height: 100%;
+}
+
+.hutong-region-view--only-region > .hutong-region-view__header {
+    display: none;
+}
+
+.hutong-region-view--only-region > .hutong-region-view__content-area {
+    border-width: 0;
+    background-color: transparent;
+}
+
+
+.hutong-region-view__header {
+    align-items: flex-start;
+    background-color: var(--node-content-area-background-color);
+    border-bottom-width: 0;
+}
+
+.hutong-region-view__header > .hutong-node-view__icon {
+    margin-left: 2px;
+}
+
+.hutong-region-view__header--only-region {
+    display: none;
+}
+
+.hutong-region-view__content-area {
+    transform-origin: left top;
+    border-bottom-left-radius: var(--node-radius-inset);
+    border-bottom-right-radius: var(--node-radius-inset);
+}
+
+.hutong-region-view__content-area--only-region {
+    border-width: 0;
+    background-color: transparent;
+}
+
+.hutong-region-view__dashed-outline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.hutong-region-view--only-region > .hutong-region-view__dashed-outline {
+    display: none;
+}
+
+.hutong-region-view__left-dashed-line {
+    position: absolute;
+    left: var(--dashed-line-edge-offset);
+    top: var(--dashed-line-corner-inset);
+    bottom: var(--dashed-line-corner-inset);
+    width: var(--dashed-line-width);
+    background-image: resource("VerticalDashedLine");
+    -unity-background-image-tint-color: var(--dashed-line-color);
+    background-repeat: repeat-y;
+    background-size: 100% var(--dash-size);
+}
+
+.hutong-region-view__right-dashed-line {
+    position: absolute;
+    right: var(--dashed-line-edge-offset);
+    top: var(--dashed-line-corner-inset);
+    bottom: var(--dashed-line-corner-inset);
+    width: var(--dashed-line-width);
+    background-image: resource("VerticalDashedLine");
+    -unity-background-image-tint-color: var(--dashed-line-color);
+    background-repeat: repeat-y;
+    background-size: 100% var(--dash-size);
+}
+
+.hutong-region-view__top-dashed-line {
+    position: absolute;
+    right: var(--dashed-line-corner-inset);
+    top: var(--dashed-line-edge-offset);
+    left: var(--dashed-line-corner-inset);
+    height: var(--dashed-line-width);
+    background-image: resource("HorizontalDashedLine");
+    -unity-background-image-tint-color: var(--dashed-line-color);
+    background-repeat: repeat-x;
+    background-size: var(--dash-size) 100%;
+}
+
+.hutong-region-view__bottom-dashed-line {
+    position: absolute;
+    right: var(--dashed-line-corner-inset);
+    bottom: var(--dashed-line-edge-offset);
+    left: var(--dashed-line-corner-inset);
+    height: var(--dashed-line-width);
+    background-image: resource("HorizontalDashedLine");
+    -unity-background-image-tint-color: var(--dashed-line-color);
+    background-repeat: repeat-x;
+    background-size: var(--dash-size) 100%;
+}
+
+
+/*
+  Fsm View
+ */
+
+.hutong-fsm-view {
+    min-width: 100px;
+    min-height: 200px;
+}
+
+.hutong-fsm-view__header {
+    align-items: flex-start;
+}
+
+.hutong-region-view__title {
+    color: rgb(120,120,120);
+}
+
+
+/*
+  Transition View
+ */
+
+.hutong-transition-view {
+    min-width: 100px;
+}
+
+.hutong-transition-view__header {
+    background-color: var(--transition-background-color);
+    border-color: var(--transition-border-color);
+    border-width: var(--transition-border-width);
+    border-radius: var(--transition-radius);
+    height: var(--transition-height);
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    min-width: 100px;
+}
+
+.hutong-transition-view__title {
+    flex-grow: 1;
+    align-self: center;
+    -unity-text-align: middle-center;
+    color: var(--transition-title-color);
+    font-size: var(--transition-title-font-size);
+    -unity-font-style: bold;
+    /*margin-top: 2px;*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hutong-node-view-controls {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hutong-node-view-control {
+    -unity-background-image-tint-color: var(--editor-colors-graph_node-border-selected);
+    opacity: 0.6;
+}
+
+.hutong-node-view-control:hover {
+    -unity-background-image-tint-color: var(--editor-colors-graph_node-border-selected);
+    opacity: 1;
+}
+
+.hutong-transition-view-controls__new-state {
+    background-image: var(--hutong-editor-big-add-icon);
+    background-color: transparent;
+    border-width: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.hutong-transition-view-controls__new-state--left {
+    left:-46px;
+}
+
+.hutong-transition-view-controls__new-state--right {
+    right:-46px;
+}
+
+.hutong-transition-view__add-new-state--bottom {
+}
+
+.hutong-node-view__right-icon {
+    background-size: 14px 14px;
+    width: 14px;
+    height: 14px;
+    align-self: center;
+    opacity: 0.6;
+    flex-shrink: 0;
+}
+
+.hutong-node-view__global-icon {
+    background-image: var(--global-icon);
+
+}
+
+.hutong-node-view__event-data-icon {
+    background-image: var(--event-data-icon);
+}
+
+.hutong-state-transition-view {
+    width: 100%;
+}
+
+.hutong-state-transition-view__header {
+    position: relative;
+    border-radius: 0;
+    border-top-width: 0;
+    flex-grow: 1;
+    width: 100%;
+}
+
+/*
+.hutong-state-transition-view > .hutong-transition-view__header > .hutong-transition-view__title {
+    margin-top: 4px;
+}*/
+
+.hutong-state-transition-view__last-transition > .hutong-state-transition-view__header {
+    border-bottom-left-radius: var(--node-radius);
+    border-bottom-right-radius: var(--node-radius);
+}
+
+
+.hutong-transition-view.selected > .hutong-node-view__selection-border {
+    border-radius: 14px;
+}
+
+.hutong-state-transition-view.selected > .hutong-node-view__selection-border {
+    border-radius: 5px;
+}
+
+.selected > .hutong-state-transition-view__selection-border {
+    border-width: 2px;
+    border-radius: 5px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    margin-top: -2px;
+    margin-bottom: 0;
+}
+
+.hutong-transition-view__links {
+    position: absolute;
+    top:-5px;
+    bottom:-5px;
+    left:-15px;
+    right:-15px;
+}
+
+.hutong-transition-view__link {
+    background-size: 15px 15px;
+    position: absolute;
+    width: 25px;
+    height: 100%;
+    opacity: 0;
+}
+
+.hutong-state-transition-view__link {
+    width: 50px;
+}
+
+.selected .hutong-transition-view__link {
+    -unity-background-image-tint-color: var(--node-selection-color);
+}
+
+.hutong-transition-view__link:hover {
+    opacity: 1;
+}
+
+.hutong-transition-view__any-link {
+    left: 0;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+    width: 100%;
+    height: initial;
+}
+
+.hutong-transition-view__left-link {
+    background-image: var(--left-link-icon);
+    background-position-x: left;
+    left: 0;
+}
+
+.hutong-transition-view__right-link {
+    background-image: var(--right-link-icon);
+    background-position-x: right;
+    right: 0;
+}
+
+.hutong-transition-view__bottom-link {
+    background-image: var(--bottom-link-icon);
+    background-position-y: bottom;
+    height: 20px;
+    left: 50%;
+    top: 80%;
+    translate: -50% 0;
+    width: 60px;
+}
+
+.hutong-transition-view__top-link {
+    background-image: var(--top-link-icon);
+    background-position-y: top;
+    height: 20px;
+    left: 50%;
+    bottom: 80%;
+    translate: -50% 0;
+    width: 60px;
+}
+
+.hutong-shortcut-link__to-button {
+    position: absolute;
+    background-image: var(--shortcut-to-icon);
+    background-size: 16px 16px;
+    background-color: transparent;
+    border-width: 0;
+    width: 20px;
+    height: 20px;
+    cursor: link;
+    translate: -50% -50%;
+    margin: 0;
+}
+
+.hutong-shortcut-link__from-button {
+    position: absolute;
+    background-image: var(--shortcut-from-icon);
+    background-size: 16px 16px;
+    background-color: transparent;
+    border-width: 0;
+    width: 20px;
+    height: 20px;
+    cursor: link;
+    translate: -50% -50%;
+    margin: 0;
+}
+
+.link-drag-zone__locked {
+    background-image: var(--locked-link-icon);
+}
+
+/*
+ResizableNodeView
+ */
+
+.locked > .hutong-resizable-element {
+    display: none;
+}
+
+.hutong-resizable-node-view {
+    min-width: 32px;
+    min-height: 32px;
+    flex-grow: 1;
+}
+
+.hutong-resizable-node-view__frame {
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+.hutong-resizable-node-view__frame:hover {
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+
+.hutong-resizable-node-view > hutong-node-view__selection-border {
+    border-radius: 12px;
+}
+
+.hutong-resizable-node-view__image {
+    flex-grow: 1;
+    background-color: transparent;
+    -unity-background-scale-mode: scale-to-fit;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.hutong-image-node-view__empty {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.hutong-render-node-view__empty {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.hutong-render-node-view__render {
+    border-color: rgba(255, 255, 255, 0.08);
+    border-width: 1px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.hutong-render-node-view__title {
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hutong-render-node-view__time-code {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.hutong-invalid-overlap > #selection-border {
+    border-color: red;
+    border-width: 2px;
+    border-radius: 12px;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+}
+
+.hutong-drop-target > #selection-border{
+    border-width: 4px;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+}
+
+.hutong-drop-target__valid > #selection-border {
+    border-color: green;
+}
+
+.hutong-drop-target__invalid > #selection-border {
+    border-color: red;
+}
+
+.hutong-drop-target__start > #selection-border {
+    opacity: 0.5;
+}
+
+.hutong-region-view--disabled {
+    opacity: 0.5;
+}
+
+.hutong-region-view--disabled .hutong-node-view__runtime-state {
+    display: none;
+    border-width: 0;
+    border-color: transparent;
+}
+
+.hutong-region-view--disabled .hutong-state-view--active {
+    border-color: var(--node-border-color);
+}

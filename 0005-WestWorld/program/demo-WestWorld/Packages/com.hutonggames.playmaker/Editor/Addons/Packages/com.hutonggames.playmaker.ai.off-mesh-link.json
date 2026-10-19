@@ -1,0 +1,169 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ai.off-mesh-link",
+    "_displayName": "OffMeshLink",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLinkData"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to work with OffMeshLinks at runtime. Obsolete in Unity 6+",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AI.OffMeshLink.html",
+    "_icon": "AI/OffMeshLink",
+    "_tags": [
+        "Actions",
+        "AI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/NavMeshAgentGetCurrentOffMeshLinkData.cs",
+            "_guid": "bef46c392e370c44a97502b3d6708f7a",
+            "_checkSum": "81fed73ef7aeca8dfc7c43b4f73cea60"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/NavMeshAgentGetNextOffMeshLinkData.cs",
+            "_guid": "8b4510c1e87e8e34b9af9260569048da",
+            "_checkSum": "edf22d6acc38080aeee9d1117cada7ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetActivated.cs",
+            "_guid": "8b504ffafcef12b4da2a0f8732f9d2e8",
+            "_checkSum": "a3984e4e850626f9b14449e6f864d7c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetArea.cs",
+            "_guid": "02559b5d48eb4ba438cbab5ecc1b3e54",
+            "_checkSum": "5fb06514aaf64c3e3c316ff4ad601ef7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetAutoUpdatePositions.cs",
+            "_guid": "bf755b0dd5946a542adabe000d0a22aa",
+            "_checkSum": "a6c152c52bd38cc32fd9fce3a56cebcb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetBiDirectional.cs",
+            "_guid": "a81651b6d7b38404492d422d89bd331c",
+            "_checkSum": "9f28ea8285e58accc033610e87062a5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetCostOverride.cs",
+            "_guid": "4da5c91e4d847c4429845dc44a848cf3",
+            "_checkSum": "4886c93b3b569f2bc4086aedad047a86"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetEndTransform.cs",
+            "_guid": "dd442d99e15ef924ca1598143fd1e0bb",
+            "_checkSum": "4f15d55eec37ebabb86c546b00ea2775"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetOccupied.cs",
+            "_guid": "f7d1c384d5c447443b9053a24f6964eb",
+            "_checkSum": "773f4b7e10fece03adf40a21808a4721"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkGetStartTransform.cs",
+            "_guid": "66ab990000405764a943eb76d827a1cc",
+            "_checkSum": "5d0422c829a02a36e69bbf13f24514c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkSetActivated.cs",
+            "_guid": "eeffe3dcc44fbcd4a967ca1e1ace8839",
+            "_checkSum": "78701f48e86773d5acfc0064c333ed4a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkSetArea.cs",
+            "_guid": "d55d3288f6f26fd4ca3d0480329cb3c9",
+            "_checkSum": "9e164289f59547757a3af0ca62fb8a49"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkSetAutoUpdatePositions.cs",
+            "_guid": "b6989e9c43009ad4295d974f8a062e05",
+            "_checkSum": "1dc763ad09ab9b1d89bbad0e250fadd4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkSetBiDirectional.cs",
+            "_guid": "6b7bb893b5c14eb408ab381ef72f2c93",
+            "_checkSum": "94f63e4c8280559bcf372f21d359e601"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkSetCostOverride.cs",
+            "_guid": "593d82476148f864fb6dbf013f69c54b",
+            "_checkSum": "92357617a1c29e90c52c9c38bf1b9e96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkSetEndTransform.cs",
+            "_guid": "4f1ef8f4318e85e4eb1dfe6920482b07",
+            "_checkSum": "08c2c37f3509e410a427a8a7d9b2a513"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkSetStartTransform.cs",
+            "_guid": "fa5e8e904fb5bad48b0a600332d531b2",
+            "_checkSum": "22817f1077dc6e5d79c3218cf43c71f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/OffMeshLinkUpdatePositions.cs",
+            "_guid": "e82b99545d183a64d8dc4baf7f671f3d",
+            "_checkSum": "02ec7734b052c9324175ac528ea0b7a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/Variables/OffMeshLink.cs",
+            "_guid": "5c47b0bac5fdd254db13ab059ae7e844",
+            "_checkSum": "62b2a563e15133cc8cae9c4331c36c4d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/Variables/OffMeshLinkData.cs",
+            "_guid": "62e5a4326de20b24aa6662b853ebfa44",
+            "_checkSum": "7811e6d734ae228c812526d1e09b4172"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLink/Variables/OffMeshLinkType.cs",
+            "_guid": "dd2267b16565c0743a09a7aa7a26ed6b",
+            "_checkSum": "bb8e2391b3cd42e14d57add302b71e5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLinkData/OffMeshLinkDataGetActivated.cs",
+            "_guid": "c29335ca9b46f1b42a0bd53021c8b258",
+            "_checkSum": "5b3ca2c52a27f36ee017b52e07088d91"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLinkData/OffMeshLinkDataGetEndPos.cs",
+            "_guid": "a7d74a23e0bf99e43bebf7f1d0e1d30f",
+            "_checkSum": "f86bd6297b23144326ab38acb620864a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLinkData/OffMeshLinkDataGetLinkType.cs",
+            "_guid": "deff8c157f1d09840a351ac4a73522f0",
+            "_checkSum": "e6c64327596432286c91ad1b8a330d84"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLinkData/OffMeshLinkDataGetOffMeshLink.cs",
+            "_guid": "24820458b1cd4cd41ac4153d3ee3efad",
+            "_checkSum": "5614b8e8a7cceb08d8b340e26aeafbc5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLinkData/OffMeshLinkDataGetStartPos.cs",
+            "_guid": "1e35e6b7178ae7a4f8eb5922fdfe4d0e",
+            "_checkSum": "de5b112e3ea05a50efffa9f0a4a5ac6b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AI/Actions/OffMeshLinkData/OffMeshLinkDataGetValid.cs",
+            "_guid": "5a92106921dbbe245993cacc353e5fdd",
+            "_checkSum": "606b912d02ee5257f2b3cde77a05eb13"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479374031192
+}

@@ -1,0 +1,81 @@
+.hutong-variable-editor {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.foldout-no-indent .unity-foldout__content {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/*
+.hutong-variable-editor__field-label {
+    margin-bottom: 3px;
+}*/
+
+.hutong-variable-editor__field-label > Label {
+    min-width: 100px;
+    width: 100px;
+}
+
+/* This broke EnumDrawer property fields, but might have fixed something else?
+.hutong-variable-editor__field-label .unity-property-field__label {
+    min-width: 100px;
+    width: 100px;
+}*/
+
+.hutong-variable-editor__list-view {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.hutong-variable-editor__error-text {
+    margin-left: 4px; 
+    margin-bottom: 5px;
+}
+
+.hutong-variable-editor__hint {
+    opacity: 0.5;
+    padding-left: 4px;
+    margin-top: 4px;
+}
+
+.hutong-variable-editor__type-button {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hutong-variable-editor__description {
+    white-space: normal;
+    max-height: 100px;
+    flex-wrap: wrap;
+}
+
+.hutong-variable-editor__attributes-list .unity-scroller {
+    display: none;
+}
+
+.hutong-variable-editor__inspector {
+    flex-direction: row;
+}
+
+.hutong-variable-editor__inspector-label {
+    min-width: 20px;
+    width: 100px;
+}
+.hutong-variable-editor__inspector-toggle {
+    border-width: 1px;
+    margin-left: 1px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.hutong-variable-editor__inspector-toggle.unity-toolbar-toggle:checked  {
+    background-color: var(--hutong-editor-selected-item-color);
+}

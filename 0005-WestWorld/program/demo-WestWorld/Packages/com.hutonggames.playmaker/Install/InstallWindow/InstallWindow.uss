@@ -1,0 +1,49 @@
+
+.hutong-install-window {
+    width: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.hutong-install-window-header {
+    background-color: rgb(45, 45, 45);
+    flex-shrink: 0;
+    padding: 4px;
+    margin: 0;
+    margin-bottom: 8px;
+    width: 256px;
+}
+
+.hutong-install-window__logo {
+    background-image: resource('playMakerHeader');
+    -unity-background-scale-mode: scale-to-fit;
+    max-height: 51px;
+    height: 51px;
+}
+
+.hutong-install-window__content {
+    padding: 8px;
+    width: 250px;
+}
+
+.hutong-install-window__current-info {
+    margin-left: 3px;
+    opacity: 0.7;
+}
+
+.hutong-install-window__install-info {
+    margin-left: 3px;
+    margin-bottom: 8px;
+    opacity: 0.7;
+}
+
+.hutong-install-window__button {
+    height: 30px;
+    width: 100%;
+}
+
+.hutong-install-window__error,
+.hutong-install-window__notes {
+    padding: 8px;
+    width: 100%;
+}

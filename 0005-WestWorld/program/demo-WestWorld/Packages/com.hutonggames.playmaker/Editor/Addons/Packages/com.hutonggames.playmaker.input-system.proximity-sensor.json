@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.proximity-sensor",
+    "_displayName": "ProximitySensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/ProximitySensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System ProximitySensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.ProximitySensor.html",
+    "_icon": "InputSystem/ProximitySensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/ProximitySensor/Actions/ProximitySensorGetDistance.cs",
+            "_guid": "9dbe044695d54e529716b76ed3c1c194",
+            "_checkSum": "12513c945225bdfda31175466fd1e0ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/ProximitySensor/Constants/ProximitySensorCurrentValue.cs",
+            "_guid": "4f486472042145d59f9bd703fe8b73be",
+            "_checkSum": "99f9c66c8b6174e9a8a65f9d2b6448c3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/ProximitySensor/Variables/ProximitySensor.cs",
+            "_guid": "88766a1d731f4ceca253077befd7e00a",
+            "_checkSum": "a8805fcf1e597c8bcf3427b15047d196"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479375353865
+}

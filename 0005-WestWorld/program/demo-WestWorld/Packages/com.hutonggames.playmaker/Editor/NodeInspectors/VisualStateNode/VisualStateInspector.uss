@@ -1,0 +1,4 @@
+.hutong-visual-state-inspector {
+    flex-grow: 1;
+}
+

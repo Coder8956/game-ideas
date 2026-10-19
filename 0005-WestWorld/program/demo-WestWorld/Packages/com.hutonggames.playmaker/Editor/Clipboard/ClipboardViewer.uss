@@ -1,0 +1,92 @@
+.hutong-clipboard-viewer {
+}
+
+UsedCountLabel {
+    display: none;
+}
+
+.hutong-node-view__selection-border {
+    display: none;
+}
+
+/*
+RegionNodeView {
+    background-color: rgba(40, 40, 40, 0.8);
+}*/
+
+.hutong-clipboard-viewer__section {
+    flex-shrink: 0;
+}
+
+.hutong-clipboard-viewer__title {
+    background-color: rgb(36, 36, 36);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+ActionEditor DebugValueField {
+    display: none;
+}
+
+.hutong-variable-field__debug-toggle {
+    display: none;
+}
+
+.hutong-clipboard-viewer PropertyField {
+}
+
+.unity-list-view__item:hover {
+    background-color: transparent;
+}
+
+.hutong-clipboard-viewer__main-list-view {
+    margin-left: 3px;
+    margin-right: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    flex-grow: 1;
+}
+
+.hutong-clipboard-viewer_secondary-list-view {
+    margin: 5px;
+    flex-grow: 1;
+    /*min-height: 200px;*/
+}
+
+.hutong-clipboard-viewer__graph-view {
+    flex-grow: 1;
+    background-color: rgb(50,50,50);
+    min-height: 50%;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255,255,255,.25);
+}
+
+.hutong-clipboard-viewer__graph-view .hutong-graph-view {
+    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(32, 32, 32);
+}
+
+.hutong-clipboard-viewer__node-view .hutong-graph-view {
+    /*padding-top: 20px;*/
+}
+
+
+.hutong-clipboard-viewer__node-view .hutong-fsm-view__content-area {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.hutong-clipboard-viewer__node-view .hutong-fsm-view__header {
+    display: none;
+}
+
+.hutong-clipboard-viewer__input-blocker {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

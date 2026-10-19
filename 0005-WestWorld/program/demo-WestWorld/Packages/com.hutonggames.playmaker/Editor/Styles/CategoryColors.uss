@@ -1,0 +1,26 @@
+.hutong-action-editor {
+    background-color: var(--unity-colors-inspector_titlebar-background);
+}
+
+.hutong-action-category--random {
+    background-color: #4a3442;
+}
+
+.hutong-action-category--input {
+    background-color: #343e4a;
+}
+
+.hutong-action-category--loop {
+    background-color: #4a3442;
+}
+
+.hutong-action-category--create {
+    background-color: #374a34;
+}
+
+.hutong-action-category--rigidbody,
+.hutong-action-category--physics
+{
+    background-color: #4a3c34;
+}
+

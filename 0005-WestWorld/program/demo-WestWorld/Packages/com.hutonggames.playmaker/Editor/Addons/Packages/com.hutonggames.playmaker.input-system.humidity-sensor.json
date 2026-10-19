@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.humidity-sensor",
+    "_displayName": "HumiditySensor",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/HumiditySensor"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System HumiditySensor actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.HumiditySensor.html",
+    "_icon": "InputSystem/HumiditySensor",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/HumiditySensor/Actions/HumiditySensorGetRelativeHumidity.cs",
+            "_guid": "5e462a2092f749c781e951cec785003c",
+            "_checkSum": "c09d9f21a992b6baba87de0ac4f89f74"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/HumiditySensor/Constants/HumiditySensorCurrentValue.cs",
+            "_guid": "31b480b03fbe48dba60166c361a6109b",
+            "_checkSum": "0873553c263772a8c88677e46a03dc23"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/HumiditySensor/Variables/HumiditySensor.cs",
+            "_guid": "f52237138b6742c181b8957f2f865755",
+            "_checkSum": "dce30e00efc0045a92ad376537741864"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479372908347
+}

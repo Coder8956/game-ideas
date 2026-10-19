@@ -1,0 +1,82 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.texture-streaming",
+    "_displayName": "Texture Streaming",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Access Texture streaming information.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Texture.html",
+    "_icon": "Rendering/Texture",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureGetStreamingMipmapUploadCount.cs",
+            "_guid": "1d576f5783b62c5438c6ea9bf49da9d5",
+            "_checkSum": "9e11127ad86fcccbeb7f58a07a882a44"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureGetStreamingRendererCount.cs",
+            "_guid": "3e6cdde780dff684c86158b1f77f29ac",
+            "_checkSum": "0d6cea91f36e3ee5cc87e78c2b135025"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureGetStreamingTextureCount.cs",
+            "_guid": "c504d3b7f3dc6554a9cc6c7a4de8b533",
+            "_checkSum": "8816aa9a0ad7ed82d794a684911a9e2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureGetStreamingTextureDiscardUnusedMips.cs",
+            "_guid": "c068f1b1a5f93354585c21b438231025",
+            "_checkSum": "fb7d45f3e51a4150309dcbf775b4ed6d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureGetStreamingTextureForceLoadAll.cs",
+            "_guid": "644bfb8fa1dd422408480768f8ea343d",
+            "_checkSum": "d7a9d315be731fe1b1be15e2b4eeac63"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureGetStreamingTextureLoadingCount.cs",
+            "_guid": "76855035cfc346949aa60d6f8ab137bc",
+            "_checkSum": "94b3850eae7abb6a5e75860a718b015d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureGetStreamingTexturePendingLoadCount.cs",
+            "_guid": "707119616a55bf7488e0663f45a4c3d7",
+            "_checkSum": "e0cb9157a1f287fc38fdbf2ef6750141"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureSetStreamingTextureDiscardUnusedMips.cs",
+            "_guid": "3b0ef1b5b7e79cd479acdaa74df6159b",
+            "_checkSum": "1248fa0e018267ccaa77f51182434bcf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureSetStreamingTextureForceLoadAll.cs",
+            "_guid": "b0e1bbc713cd364488445eb2cef30fcb",
+            "_checkSum": "98917f3e2b1452d09224137e10e3b2b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture/Streaming/TextureSetStreamingTextureMaterialDebugProperties.cs",
+            "_guid": "3335f7b3cf3c23a459b388be25c518eb",
+            "_checkSum": "92676a583b2a2ad52094c5ed2cbde188"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479371676984
+}

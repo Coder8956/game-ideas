@@ -1,0 +1,209 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.networking",
+    "_displayName": "Networking",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking",
+        "Packages/com.hutonggames.playmaker/Editor/Modules/Networking"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Networking support for PlayMaker.",
+    "_description": "ALPHA RELEASE\n\nNetworking support is in active development. Actions, events, data formats, and backend APIs may change before the final release.\n\nAdds backend-neutral PlayMaker networking actions, network object events, event data helpers, and backend extension points.\n\nNOTE: Requires a backend like Netcode for GameObjects.",
+    "_helpUrl": "",
+    "_icon": "Network",
+    "_tags": [
+        "Actions",
+        "Network"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/HutongGames.PlayMaker.Networking.asmdef",
+            "_guid": "d034285a27b04914be4a328298132b1d",
+            "_checkSum": "4dfb77131edcff5f12d64fcebbc37b8d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/NetworkEventData.cs",
+            "_guid": "90a0433cfb254759b4d11600d5589688",
+            "_checkSum": "94ed46c7f39b6183d1a30e1ff9cad3c7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/NetworkObjectEvents.cs",
+            "_guid": "16d4e6909f62464cb8b552b338b1acfb",
+            "_checkSum": "88c325fafc53d95f36059d6ddfaed628"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/PlayMakerNetwork.cs",
+            "_guid": "7b565c37553e46d9aa407fd425859780",
+            "_checkSum": "8862e78e48a5d474fee7b296ab650334"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/VariableSyncCapabilities.cs",
+            "_guid": "bb0daf2d54714977b43d85fd5b731993",
+            "_checkSum": "9134570f009c68c82270faee3017e204"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/BaseNetworkAction.cs",
+            "_guid": "fe8adca16cef468394c96104ef759a58",
+            "_checkSum": "8c270fbf3cdd6226db2cc77ce5adfab4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkBroadcastEventToClients.cs",
+            "_guid": "9a416331582545dbb8ab67a10463f305",
+            "_checkSum": "3c4a8d711e60b4871808fd7dab47d3cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkCheckIsClient.cs",
+            "_guid": "9091cd95fa4c4adab457d2ecf95a8e22",
+            "_checkSum": "8fe44dbe9e27df0fd6a6d0d0ed76665e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkCheckIsHost.cs",
+            "_guid": "39e25d48ec894fa9a9651f7da1459f23",
+            "_checkSum": "814191cf981fc1c7444d54ce60064024"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkCheckIsRunning.cs",
+            "_guid": "4210197b64664c04ab7f53d45cfbcaaf",
+            "_checkSum": "bcbaf017a119239daf73eedb01fbf0f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkCheckIsServer.cs",
+            "_guid": "0e4de8bc37d54cdd8bf26eadf1400843",
+            "_checkSum": "37680485759edd2331ac5c0cdc6bc715"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkDespawnObject.cs",
+            "_guid": "8c833cb3a3a841a983064cbcb39af6d6",
+            "_checkSum": "b3d578494d53df4aed8d5f206943abfd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkDisableFsmIfNotOwner.cs",
+            "_guid": "784524aff20242a9a52902c4e1afc9b9",
+            "_checkSum": "3e50d5581ff689ac07fb6c983e83a6e0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkDisableFsmIfNotServer.cs",
+            "_guid": "0db5b39127694e79bb66cefde4760342",
+            "_checkSum": "c543d49437d778d9baea87da2eea3549"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkGetObjectDebugInfo.cs",
+            "_guid": "2915bfb9a45642248e9b91d9bf8701f1",
+            "_checkSum": "e42c96898ab34f0698239a4ab7d4b591"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkGetObjectOwnerId.cs",
+            "_guid": "4294e67bffd34d178eceac4658189257",
+            "_checkSum": "49d77dc9fc1730ee244970bffd4e9323"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkGetSessionState.cs",
+            "_guid": "ca740aeb2a0a44ef8df0347b4c09dfd7",
+            "_checkSum": "8f2cb048c39f10ad565f134cd67be186"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkHasAuthority.cs",
+            "_guid": "7cb224d6db5140eb8303abebfa9e91cd",
+            "_checkSum": "d0361f5b755d85c5de38b143eb40ef9f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkIsObjectSpawned.cs",
+            "_guid": "40866f316d3e4e6dbb63259535429a2e",
+            "_checkSum": "119088708c117d427d20ed70ff14b6f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkIsOwner.cs",
+            "_guid": "0e793f08752d4e20811e8c3aa9dd99ad",
+            "_checkSum": "cc2d9d9b95ff8c9f4fb17a1828c9661a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkSendEventToClients.cs",
+            "_guid": "5794702834534a21bad378c93a925c80",
+            "_checkSum": "8bf4591e49ad7271a2cb98e995cacffe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkSendEventToServer.cs",
+            "_guid": "3c2f325208094234be5838a00eff3246",
+            "_checkSum": "587e715de01509575b7d2b6888c22cc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkSetFsmVariableOnClients.cs",
+            "_guid": "4e040772485e4f3a90c2ae3343027d49",
+            "_checkSum": "33ce714e57a972245184f75be7daeb60"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkSetFsmVariableOnServer.cs",
+            "_guid": "4a1f9d0f4bbd40d2b3ec56f40d7cb26c",
+            "_checkSum": "9c3b208a7350a62da7812e709ce6c9cf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkShutdown.cs",
+            "_guid": "2bcc1cd8fe714dd8bc7a1037f321f6f3",
+            "_checkSum": "c314bfc6b6d6cda84264cf5e86678f9b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkSpawnObject.cs",
+            "_guid": "e0bfb9db0cc94af4a8b707a355e67f1d",
+            "_checkSum": "41da03c7604b53b3cdaaf77aab973881"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkStartClient.cs",
+            "_guid": "e5d164ac02ce408ab5941f82e8840728",
+            "_checkSum": "1a863df31d8b9cd32d8c657e6f749d58"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkStartHost.cs",
+            "_guid": "667d85d85fa44552ba6df93d8945d83c",
+            "_checkSum": "9daffeb8d2db661d534fbd82045b336f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkStartServer.cs",
+            "_guid": "76ce2986785f4e4b99b8ed7dc72f71e5",
+            "_checkSum": "d7581a5a3d1099f7aad86e3644ece364"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/NetworkSyncFsmVariables.cs",
+            "_guid": "7a1a058f0b1146d4ad3e7673fd13640f",
+            "_checkSum": "901dfae96a20c9a983ebdaa6e6fa4e9c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Actions/WaitForNetworkStart.cs",
+            "_guid": "487359448cd948cca2da3642c4005324",
+            "_checkSum": "d29b3887be7adefa5b662e05377a15a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Components/PlayMakerGlobalVariableSync.cs",
+            "_guid": "6d1a6221176b459b8dc71f3af4705643",
+            "_checkSum": "c1693439fb01c17c9f2697086ea9116a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Networking/Components/PlayMakerVariableSync.cs",
+            "_guid": "3970299bb650496e97ba018937df21c6",
+            "_checkSum": "428fda39ea74b300cdef64cdc9bcf068"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Networking/HutongGames.PlayMaker.Networking.Editor.asmdef",
+            "_guid": "7757056811cc4dcfb045c66910781c77",
+            "_checkSum": "ef862a12bff81a77892caf3ee15285bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Modules/Networking/PlayMakerVariableSyncEditor.uss",
+            "_guid": "ff2af2cd3528401dbb724f0e34ffca4c",
+            "_checkSum": "51474b383dd31b5effb0b7a4cdd8d9f5"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349229993692509
+}

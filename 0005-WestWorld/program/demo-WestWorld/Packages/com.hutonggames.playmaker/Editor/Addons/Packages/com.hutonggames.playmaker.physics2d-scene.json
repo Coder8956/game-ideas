@@ -1,0 +1,99 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics2d-scene",
+    "_displayName": "Physics2D Scene",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control a separate Physics2D Scene.",
+    "_description": "These actions are for advanced scenarios where you need multiple Physics2D Scenes.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/PhysicsScene2D.html",
+    "_icon": "Physics 2D/PhysicsScene2D",
+    "_tags": [
+        "Actions",
+        "Physics",
+        "2D"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DIsEmpty.cs",
+            "_guid": "fa03395f96f2dd34cbcacd90e6d57a7e",
+            "_checkSum": "4063a4f1ab8d222fd92dc5e53ce74c22"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DIsValid.cs",
+            "_guid": "860f057edca93b043831d8dea7008ea8",
+            "_checkSum": "b3ad68e229f79e50bba97640c9ac1bec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapArea.cs",
+            "_guid": "1a03f8cda91d1124b89efa0bdaf86a95",
+            "_checkSum": "67783e8c3c53b7a3a50fb2e6df6a502a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapArea__ContactFilter.cs",
+            "_guid": "5652dbb8007ff224c9193a6bc159042d",
+            "_checkSum": "ab8dd7b00886389ee7692af7edd9fa1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapCircle.cs",
+            "_guid": "6c39a47e116ae274daf483d5d757d139",
+            "_checkSum": "1f7219ce208a2a0767ae13e79b0d0722"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapCircle__ContactFilter.cs",
+            "_guid": "1fd5763e02cc5b74a8f296abf95dd994",
+            "_checkSum": "a5704ad0953b9346194438caf6872eec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapCollider.cs",
+            "_guid": "ce4372515f07bd7489e15cd4579efbda",
+            "_checkSum": "0c4b3329ae0df9b6b3fa7e489e5c6134"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapCollider__ContactFilter.cs",
+            "_guid": "8e76cc2bfde1dd848b12981bb54a79f5",
+            "_checkSum": "448b6910f163ed46746de829e53a2e55"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapPoint.cs",
+            "_guid": "714e7bfb2deb3834f831e96c828eb7e9",
+            "_checkSum": "60507efa2f42ba49e4f818f9a0a8409b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapPoint__ContactFilter.cs",
+            "_guid": "b6ddc6e6181ba834ead9c6b3d3ae275a",
+            "_checkSum": "a7f65cd230956223f19f2beebcc6cdd8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapPoint__ContactFilterNonAlloc.cs",
+            "_guid": "4e2a012a8002c054ebcc024cea11ec5e",
+            "_checkSum": "0ae453f24f6f4016e380e6157810fe18"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DOverlapPoint__NonAlloc.cs",
+            "_guid": "2536274eae927bd4884e4c7546f31891",
+            "_checkSum": "3797425f09ef77c4c2de9d7055c78f82"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics2D/Actions/PhysicsScene2D/PhysicsScene2DSimulate.cs",
+            "_guid": "f5b470829444a9b4da950721fbc0295a",
+            "_checkSum": "7230968000c0ef609ad53e6b12d65c89"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b86",
+    "_datePublished": "2026-09-09",
+    "_timeCode": 134334507988203524
+}

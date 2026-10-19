@@ -1,0 +1,123 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.gamepad",
+    "_displayName": "Gamepad",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "InputSystem Gamepad actions.",
+    "_description": "Normally you would use PlayerInput and Actions for more flexibility, but you can use these actions to access Gamepads directly.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.Gamepad.html",
+    "_icon": "InputSystem/Gamepad",
+    "_tags": [
+        "Actions",
+        "InputSystem"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/BaseGamepadAction.cs",
+            "_guid": "d0e8b3c3e1002eb4c973a86079df8e35",
+            "_checkSum": "46efed8f96d080fc1e4dca273765de95"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadCheckButtonIsPressed.cs",
+            "_guid": "a6bca6b2c3e9494fa804140ee48a8de8",
+            "_checkSum": "92799f1b71babe2ce643784e1e9b6b1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadCheckButtonWasPressedThisFrame.cs",
+            "_guid": "49e15d571a4746b9be7eb9b12be6d972",
+            "_checkSum": "db3e6e9e1e191d5e83b466f6433d3faf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadCheckButtonWasReleasedThisFrame.cs",
+            "_guid": "80ac779d9a7e4bc0b665a6d60d2184ca",
+            "_checkSum": "1975127248719edc6e214662091d37d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadGetAll.cs",
+            "_guid": "dc32c590c0b26464f9434a499e008004",
+            "_checkSum": "397ee52db9c825a8146bad67c5f93a93"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadGetCount.cs",
+            "_guid": "ce9840408556442ab5042f7df5ae81c4",
+            "_checkSum": "f61fbda89738d630dcccadf8f37dea65"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadGetName.cs",
+            "_guid": "4c870f96bf5045548f8c279c0754f047",
+            "_checkSum": "4b71a87d3e93676d3b059df2a525c5de"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadHelper.cs",
+            "_guid": "f4cc39f93a874bd787d89d80009a2c66",
+            "_checkSum": "814997b5a5d598a47dd1d88b3bced23e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadMakeCurrent.cs",
+            "_guid": "61b50b90dff465740815fbb74cadf919",
+            "_checkSum": "4c8205103a01267855cdc0b7445c5a78"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadPauseHaptics.cs",
+            "_guid": "b1db8b785dcc2544c9252e00fb84ac7d",
+            "_checkSum": "3e9fe3927c9b857c48fb2d6018d9c2ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadReadButtonValue.cs",
+            "_guid": "82576548469dfc84cb95c43a3f31ab89",
+            "_checkSum": "4ef8477e917ae363b537e46a264dec5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadReadStickValue.cs",
+            "_guid": "1fcbc14fa933a1846b6993a162d46fea",
+            "_checkSum": "6135da4c1b0a82888955613184068cad"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadResetHaptics.cs",
+            "_guid": "6955be10a6e804f41a78085ca991acf9",
+            "_checkSum": "63b4cd2095819368dcbdaf6f2a6da154"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadResumeHaptics.cs",
+            "_guid": "5af6fe0ba94ce3644a5b5b6f9b4e08da",
+            "_checkSum": "4d003585402691780ca7862832dfa6f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Actions/GamepadSetMotorSpeeds.cs",
+            "_guid": "479975ebd9b074f46b9598e2ea254aa6",
+            "_checkSum": "57d19d91f9b73cba90a2a29341e0ab62"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Constants/GamepadCurrentValue.cs",
+            "_guid": "6598dfc287f44a99960ba430d37d6fd2",
+            "_checkSum": "dd0c5990384fa4375cec6c28bbf90fb1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Variables/Gamepad.cs",
+            "_guid": "75085c05515f4514b601839041e978c8",
+            "_checkSum": "4537a714c442e92b32fe8d79312dfdbc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/Gamepad/Variables/GamepadButton.cs",
+            "_guid": "965a9ff5276c8524caabe9cefdd62005",
+            "_checkSum": "b3afdf4de2b01e071ec150d1b0ba8cea"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b81",
+    "_datePublished": "2026-08-11",
+    "_timeCode": 134309371749416859
+}

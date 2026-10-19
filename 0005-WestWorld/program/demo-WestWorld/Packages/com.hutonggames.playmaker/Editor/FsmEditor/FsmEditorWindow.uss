@@ -1,0 +1,23 @@
+.hutong-fsm-editor-window {
+}
+
+.hutong-fsm-editor-window__graph-view {
+}
+
+.hutong-fsm-editor-window__inspector-panel {
+    min-width: 250px;
+}
+
+.hutong-fsm-editor-window__inspector-panel .hutong-tab-view__tab {
+    width: 33%;
+}
+
+.hutong-fsm-selection-toolbar__minimap-toggle {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.hutong-fsm-selection-toolbar__minimap-toggle > .unity-toggle__input {
+    background-image: var(--hutong-editor-minimap-icon);
+    background-size: contain;
+}

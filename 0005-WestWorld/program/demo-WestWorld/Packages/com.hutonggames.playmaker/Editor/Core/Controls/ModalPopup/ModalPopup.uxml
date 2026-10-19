@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Core/Controls/ModalPopup/ModalPopup.uss?fileID=7433441132597879392&amp;guid=3b5205ed62935a84f96cc891e7126ef6&amp;type=3#ModalPopup" />
+    <ui:VisualElement class="hutong-modal-popup__dim-background hutong-modal-popup__background">
+        <ui:VisualElement class="hutong-modal-popup__window" />
+    </ui:VisualElement>
+</ui:UXML>

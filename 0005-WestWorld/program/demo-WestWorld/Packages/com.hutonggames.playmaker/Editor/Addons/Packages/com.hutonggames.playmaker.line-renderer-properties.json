@@ -1,0 +1,153 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.line-renderer-properties",
+    "_displayName": "Line Renderer Properties",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Less common LineRenderer properties.",
+    "_description": "Most of the time these are set at edit time, but you can use these actions to access them at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/LineRenderer.html",
+    "_icon": "Rendering/LineRenderer",
+    "_tags": [
+        "Actions",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetAlignment.cs",
+            "_guid": "20a08ed508898d14d99b2367c7c2c764",
+            "_checkSum": "268d6da7f272b3abae9a71786ec9900b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetColorGradient.cs",
+            "_guid": "d1373428f0b948f48819669baaf148f6",
+            "_checkSum": "9b8ed39e85c0d4e2ff067dcd53ab3b38"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetEndColor.cs",
+            "_guid": "62e2517dbe984464693fea363c126d00",
+            "_checkSum": "559fa0330cce343a2d1a7a1cb6724daf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetEndWidth.cs",
+            "_guid": "8b8d4f6346d1a5a449f5eec5ba7bdafc",
+            "_checkSum": "e0934aeba1b4708c0e6e0ebb94703ee8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetGenerateLightingData.cs",
+            "_guid": "753f031c62070da49bfb86eb516dd541",
+            "_checkSum": "6db5d5b0130b89a77f81c4bda653e06c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetLoop.cs",
+            "_guid": "3da069d5c2f92c948beb4ba09b0bfe4c",
+            "_checkSum": "f12cd959b313cc8edea1cb2a674dc70f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetMaskInteraction.cs",
+            "_guid": "0eddb839893ecc348924ae0bc08bdc81",
+            "_checkSum": "77a7e060ee4adb4679c116c9b1978750"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetNumCapVertices.cs",
+            "_guid": "5a718e85efe1c1743a4451ca2a59ca79",
+            "_checkSum": "b0b184e3ce8bfa70783ea368a0917e28"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetNumCornerVertices.cs",
+            "_guid": "f8532942065b25345b717b8b1899e190",
+            "_checkSum": "284b351e82f1195cf63fe6f2450ff068"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetShadowBias.cs",
+            "_guid": "0e8950ca37ceb464a8b520153e183488",
+            "_checkSum": "c846620131e2a974f45de008b27efcbe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetStartColor.cs",
+            "_guid": "4e8c83e3c3c081247b008edcd227b891",
+            "_checkSum": "ef86932b09282659934e703f41420528"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetStartWidth.cs",
+            "_guid": "eec312a81155cca428bf2bd0a6a22fc5",
+            "_checkSum": "32b2aaad9022e7175fe6282d0653da8a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetTextureMode.cs",
+            "_guid": "5e3d3af779902244bbac144ea0af094d",
+            "_checkSum": "340630658c424f80a5da717613edcd45"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetTextureScale.cs",
+            "_guid": "35b8b54c41d0e8647b745e3ad3d621a2",
+            "_checkSum": "41e58fdc442cc5a857708586f169eb67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetUseWorldSpace.cs",
+            "_guid": "6ad2c8fca2877174b9390755ba196f44",
+            "_checkSum": "97a7a2e044d231c5406b8e6ce6e0bf49"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetWidthCurve.cs",
+            "_guid": "01231e60bdbf533489d591739fa5b6b8",
+            "_checkSum": "f90fdbcadcea517e95dcd6dc585b8fb9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererGetWidthMultiplier.cs",
+            "_guid": "a613f3782e2fdd644b1fb239bbb2b220",
+            "_checkSum": "de3f258464b61f9651ba3b644013edb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererSetAlignment.cs",
+            "_guid": "df60853738b1dfe48b9610f8cd6979a3",
+            "_checkSum": "cceacae94e5ff0529e3db11f0d4664b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererSetGenerateLightingData.cs",
+            "_guid": "168f8b3631f27a2478247a3b185d4e1d",
+            "_checkSum": "95fe9f0f88aa5e846a1d1d398ef2d928"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererSetMaskInteraction.cs",
+            "_guid": "40058d2d56dae0b48a21311fc2b81ea0",
+            "_checkSum": "aacfa8e7b234208f7a9706c9eb2ef155"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererSetNumCapVertices.cs",
+            "_guid": "8b1c692e6f092de45a9ae0a001e4fbb5",
+            "_checkSum": "41ca8ea44c3d12a50214d77e7c948965"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererSetNumCornerVertices.cs",
+            "_guid": "04f6d510959376c44b61eee19d853ce5",
+            "_checkSum": "fe36d03f04500e3b7db63fba2ef2a7dc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererSetShadowBias.cs",
+            "_guid": "958297efe9a54ea40afa49e4fe8232f4",
+            "_checkSum": "40c0ba39fc372c01f7f6c51975a20e57"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/LineRenderer/Properties/LineRendererSetTextureMode.cs",
+            "_guid": "0ffebe78db65fe04b872f5db6ea4eda3",
+            "_checkSum": "8f2abf53f4b1e16b8b12c9bdcc7ef413"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479591182579
+}

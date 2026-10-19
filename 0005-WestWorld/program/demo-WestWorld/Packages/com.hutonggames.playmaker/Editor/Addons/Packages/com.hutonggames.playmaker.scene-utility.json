@@ -1,0 +1,42 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.scene-utility",
+    "_displayName": "Scene Utility",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SceneManagement/SceneUtility"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Scene and Build Settings related utilities.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/SceneManagement.SceneUtility.html",
+    "_icon": "Scenes/SceneUtility",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SceneManagement/SceneUtility/SceneUtilityGetBuildIndexByScenePath.cs",
+            "_guid": "fde69ce7ea9b4e16b013ac77145ef665",
+            "_checkSum": "3fcd8b632ae710c188f81891bf254b7f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SceneManagement/SceneUtility/SceneUtilityGetScenePathByBuildIndex.cs",
+            "_guid": "9c28e4dc225d4965bcb9d3779cc7cd46",
+            "_checkSum": "5a380045c9ebe98ece55c6ccab40f452"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479456454597
+}

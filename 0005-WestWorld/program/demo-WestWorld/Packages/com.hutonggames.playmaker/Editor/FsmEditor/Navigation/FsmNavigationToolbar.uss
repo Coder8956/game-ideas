@@ -1,0 +1,70 @@
+.hutong-fsm-selection-toolbar__minimap-toggle {
+    width: 24px;
+    margin-right: 5px;
+}
+
+.hutong-fsm-selection-toolbar__minimap-toggle > .unity-toggle__input {
+    background-image: var(--hutong-editor-minimap-icon);
+    background-size: 16px 16px;
+}
+
+.hutong-fsm-selection-toolbar__node-snapping-toggle {
+    width: 24px;
+    border-right-width: 0;
+}
+
+.hutong-fsm-selection-toolbar__node-snapping-toggle > .unity-toggle__input {
+    background-image: var(--hutong-editor-node-snapping-icon);
+    background-size: 16px 16px;
+}
+
+.hutong-fsm-view-state-history-toolbar {
+    flex-direction: row;
+}
+
+.hutong-fsm-view-state-history-toolbar__back-button {
+    width: 20px;
+    border-width: 0;
+    background-image: var(--hutong-editor-previous-edit-icon);
+    background-size: 16px 16px;
+    flex-shrink: 0;
+}
+
+.hutong-fsm-view-state-history-toolbar__forward-button {
+    width: 20px;
+    border-width: 0;
+    background-image: var(--hutong-editor-next-edit-icon);
+    background-size: 16px 16px;
+    margin-right: 4px;
+    flex-shrink: 0;
+}
+
+.hutong-fsm-selection-history-toolbar {
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.hutong-fsm-selection-history-toolbar__back-button {
+    width: 24px;
+    border-width: 0;
+    background-image: var(--hutong-editor-back-icon);
+    background-size: 16px 16px;
+    flex-shrink: 0;
+}
+
+.hutong-fsm-selection-history-toolbar__forward-button {
+    width: 24px;
+    border-width: 0;
+    background-image: var(--hutong-editor-forward-icon);
+    background-size: 16px 16px;
+    flex-shrink: 0;
+}
+
+.hutong-fsm-selection-history-toolbar__recent-button {
+    width: 24px;
+    border-width: 0;
+    background-image: var(--hutong-editor-recent-list-icon);
+    background-size: 16px 16px;
+    margin-right: 5px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,49 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-system.step-counter",
+    "_displayName": "StepCounter",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/StepCounter"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Input System StepCounter actions.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.inputsystem@1.12/api/UnityEngine.InputSystem.StepCounter.html",
+    "_icon": "InputSystem/StepCounter",
+    "_tags": [
+        "Actions",
+        "InputSystem",
+        "Mobile"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/StepCounter/Actions/StepCounterGetStepCount.cs",
+            "_guid": "feb32f5559704a5a8ee3366e69960775",
+            "_checkSum": "6a0eb32c73ddc861e1b6fc8d24101303"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/StepCounter/Constants/StepCounterCurrentValue.cs",
+            "_guid": "34acb9c748094a63936b146f6012bd13",
+            "_checkSum": "cc5739f72b107870cba555e6868a3226"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputSystem/StepCounter/Variables/StepCounter.cs",
+            "_guid": "0c4dbb9b4ad748e9ba5b012cfaf36ca0",
+            "_checkSum": "742de4e4b95532ae44491798e6ce1e1a"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479563543986
+}

@@ -1,0 +1,532 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.system-info",
+    "_displayName": "System Info",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Action to get System Info.",
+    "_description": "",
+    "_helpUrl": "",
+    "_icon": "SystemInfo",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetBatteryLevel.cs",
+            "_guid": "139398e0520c3404298212456c847af7",
+            "_checkSum": "393b2955db5cced5b1d5bba9d13001d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetBatteryStatus.cs",
+            "_guid": "14c5475fca774214d9b14d4afeb127a2",
+            "_checkSum": "eab1f174e05fa008c8708ab5a1c71bda"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetCompatibleFormat.cs",
+            "_guid": "ffc8208065e8c2c4e87074a3e6752fa6",
+            "_checkSum": "4d1f70b53de4eed789949507d67b3eb5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetComputeSubGroupSize.cs",
+            "_guid": "a524c56b8552cee4ba13ad2bcda4d281",
+            "_checkSum": "2d9a7352a787096447fcaf3785e66a3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetConstantBufferOffsetAlignment.cs",
+            "_guid": "2706bf2234d74ac44a4867846a8b99fc",
+            "_checkSum": "02065bacc95763fea6e0ca41263fbf66"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetCopyTextureSupport.cs",
+            "_guid": "dca1bed19c15f4a49aad0670746b4295",
+            "_checkSum": "4d37c5ec45aa990bdb35018323df23c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetDeviceModel.cs",
+            "_guid": "7a1b6bc5ca0e34341a71bdae292c90e8",
+            "_checkSum": "b4cefb29163c0dfc04de5cd48dfdbdc2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetDeviceName.cs",
+            "_guid": "798ae925a532a2b4aa6af5c75662c297",
+            "_checkSum": "3d1fa5dec0dce6c047222d514f7e94ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetDeviceType.cs",
+            "_guid": "ea0185182f81e2248900d3404d15edd8",
+            "_checkSum": "fb70b4d7b14ba825c553401afab41d31"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetDeviceUniqueIdentifier.cs",
+            "_guid": "bb49682507d622042bd9d38698d4950e",
+            "_checkSum": "0ea2a2a6331b3171fa05f70c124e0156"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetFoveatedRenderingCaps.cs",
+            "_guid": "2dbc5b78c47a2c24a994af5830ee0db1",
+            "_checkSum": "be38c9c085afe84be50f63ddbc9ca07d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsDeviceID.cs",
+            "_guid": "ae3d925021bfc3f42888f731541e9b24",
+            "_checkSum": "2ab7b66dbad7bf3589ef59d3e9dc32d2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsDeviceName.cs",
+            "_guid": "d96233fe1b0d32640a79c1bd0195a985",
+            "_checkSum": "41290494d1b1065aca8aeb5167a7d353"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsDeviceType.cs",
+            "_guid": "2681646871644d24ab1b03882cf36dc7",
+            "_checkSum": "88af40dd1226392db3e3b9c66662a097"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsDeviceVendor.cs",
+            "_guid": "a1dfbfbf0e8ae364ba41fa2fe2edb3d2",
+            "_checkSum": "734cb47972eed249408de4d3a3f33309"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsDeviceVendorID.cs",
+            "_guid": "85a0eec42092a254b8ecea24c2687d1a",
+            "_checkSum": "7fb0b08b85e29237ba90cda7477f624b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsDeviceVersion.cs",
+            "_guid": "ebf9d153b44f4da469b90dd117be08c6",
+            "_checkSum": "c8531e2d0aa71e92a3e4745ae29beb11"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsFormat.cs",
+            "_guid": "f340ffb08b00c2a488e9db8b097d9e0e",
+            "_checkSum": "9dea0e8f5f613aad88b2bce2620c1278"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsMemorySize.cs",
+            "_guid": "346d79ede3b67a64f9e44f182cd52bab",
+            "_checkSum": "14d29f32b9bfef3f4cd0231082d718e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsMultiThreaded.cs",
+            "_guid": "3eac937e5c51ce5468500f2f680d04a2",
+            "_checkSum": "f75ab04c14936b092642c5ca8bada419"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsShaderLevel.cs",
+            "_guid": "d12d754701a5e64409c176e2ccd1c953",
+            "_checkSum": "832afc1a40ebc465e8e4310a25e4f554"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetGraphicsUVStartsAtTop.cs",
+            "_guid": "4585ac14c66b698459d1fbf03eff52b8",
+            "_checkSum": "0b6852c5c812488aaee430af461ce2ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetHasDynamicUniformArrayIndexingInFragmentShaders.cs",
+            "_guid": "be91f1f4ff9e4944e8366da6307cab57",
+            "_checkSum": "1fbf422caa3629916a9a555a64958b63"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetHasHiddenSurfaceRemovalOnGPU.cs",
+            "_guid": "c8afd9556a4028b4e9accd7279a781ec",
+            "_checkSum": "13ce2503e571ec3bdbf5b174d3b3ce02"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetHasMipMaxLevel.cs",
+            "_guid": "8ac1769b58c6d344fac05b2e5aa84fdb",
+            "_checkSum": "7276cf89f765bc026d01876ae93e5bf4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetHdrDisplaySupportFlags.cs",
+            "_guid": "a54b3e1f5a2fbef438f5e53727572b43",
+            "_checkSum": "181594816962ba137ef1237520bbcbf6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeBufferInputsCompute.cs",
+            "_guid": "5b0909e1f922a8544b04e833158f7686",
+            "_checkSum": "d62c4443eaa88ffa685caa7d116c11a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeBufferInputsDomain.cs",
+            "_guid": "f41b6062cc031e349a4d09cf1d695f5f",
+            "_checkSum": "8c35f52de13ee5021c43aa5e9c907512"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeBufferInputsFragment.cs",
+            "_guid": "460f3ec55baaf3140ac0c8500c14a135",
+            "_checkSum": "acc60275bab3f1ba67188f9afaa889f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeBufferInputsGeometry.cs",
+            "_guid": "d24fcadb259546144aed72e701571155",
+            "_checkSum": "3bd3ee4bd880e55bfb723278a8de6287"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeBufferInputsHull.cs",
+            "_guid": "e37b3bd6256e5ed4cb026f9a2fb07cd4",
+            "_checkSum": "28d885ba3313b5806f089b4e6bfea037"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeBufferInputsVertex.cs",
+            "_guid": "3f3b88722dcbd2d4f8f5df782f4a2918",
+            "_checkSum": "06aec4ce3237fb44f86f06475df2f3ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeWorkGroupSize.cs",
+            "_guid": "7d93615d993fa014f8b67fbf5a50deda",
+            "_checkSum": "ce964309fe7de8fab6f27d991e2e447c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeWorkGroupSizeX.cs",
+            "_guid": "ff1a09f8ba228f1438c7b055bfa451dd",
+            "_checkSum": "674221e75330e595b4d3187661c2fbe8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeWorkGroupSizeY.cs",
+            "_guid": "d41d16d1304f59f428214afd2e691e85",
+            "_checkSum": "9cca09f122aa7bf98d7b93e49ed54d63"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxComputeWorkGroupSizeZ.cs",
+            "_guid": "787c8a1166fe712408b5091563ecad3a",
+            "_checkSum": "ae93e908a2782bf9a21c25d8ae618e8f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxConstantBufferSize.cs",
+            "_guid": "2714bb9d41b773c4cad10094f9ce420b",
+            "_checkSum": "5ed23555d72cd34313b5fd08c7a5db2b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxCubemapSize.cs",
+            "_guid": "2c4e59f3152f9e746944589903b3e3d5",
+            "_checkSum": "e81e44c7138d2377dbe9edfda092bde2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxGraphicsBufferSize.cs",
+            "_guid": "89443a0067c240e4eafdaf3acc9561f5",
+            "_checkSum": "2ca48dc26caa9ead9f5bf0b88c01b75b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxTexture3DSize.cs",
+            "_guid": "fa7d23c35b045eb4e92067f12bae21dc",
+            "_checkSum": "c01581fa6846de28495781e51f3b5e1b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxTextureArraySlices.cs",
+            "_guid": "96388e268f92479438ef036e7e56224d",
+            "_checkSum": "ea00884289c81494bf5f02b2dacfc9eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetMaxTextureSize.cs",
+            "_guid": "702230cc72db7ef4988b76fc3957a842",
+            "_checkSum": "afc1d0d3c3be3cd057dcb9cea1ff0230"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetNpotSupport.cs",
+            "_guid": "9a8cbf53b2ed24348ac3d7cc17448288",
+            "_checkSum": "5f1b7bba7405b7a46e6be56a6b3568f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetOperatingSystem.cs",
+            "_guid": "9f603c96bad7fd043861eac3c49f9db7",
+            "_checkSum": "dac1116a797946c508442cc6d92a24e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetOperatingSystemFamily.cs",
+            "_guid": "02d645ea30a5830469e8ac40a3a3710d",
+            "_checkSum": "0b64fbdea314c7d1b4d6bc6589b07297"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetProcessorCount.cs",
+            "_guid": "a43516090789acc4d9789e149907df84",
+            "_checkSum": "90b26c0c0caed50806d945dd499d26c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetProcessorFrequency.cs",
+            "_guid": "545683cd68edcca45b3cb024291e6c47",
+            "_checkSum": "6ddae0ecc497a2a6b9c3aa9f6d957536"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetProcessorType.cs",
+            "_guid": "8763b5d4744d6eb4383facc119c62849",
+            "_checkSum": "de058c5bd1611b9e0579c9689e6847bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetRenderingThreadingMode.cs",
+            "_guid": "6be580773b5bfa6428044a5ac93f5c31",
+            "_checkSum": "34810318bfa0c28fe7a909daf70f8b2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportedRandomWriteTargetCount.cs",
+            "_guid": "92da4f62f8df81242904967127c98658",
+            "_checkSum": "9fdc35227ffa70b551f42f8fc3ebd212"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportedRenderTargetCount.cs",
+            "_guid": "1f9cf9481e5ff5e458de6c06d8bb8075",
+            "_checkSum": "8e12f97da570146b2e839754e644a0e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupports2DArrayTextures.cs",
+            "_guid": "09ac3bed4a3342241ace3539918fd5eb",
+            "_checkSum": "973bf922b6f8e59cc2a72ea3ab12b963"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupports32bitsIndexBuffer.cs",
+            "_guid": "7cc19016d3f0d924c9ecac04405fb38c",
+            "_checkSum": "fbb6da330b821f1fd6994733dc32a253"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupports3DRenderTextures.cs",
+            "_guid": "2027e02d2fd529b44bc27b010dcf251b",
+            "_checkSum": "19550766f29883af1f5bb321a1344ee0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupports3DTextures.cs",
+            "_guid": "a33c2f6bce9df984a936a29e714a6de7",
+            "_checkSum": "69fb08df8eda641307be0014ac148921"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsAccelerometer.cs",
+            "_guid": "362795baf38a21242aaac4506274ae45",
+            "_checkSum": "e8248466e6cc0ba779feeded9a4cd2ee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsAsyncCompute.cs",
+            "_guid": "211abeefb3570184abf042cc500a90a2",
+            "_checkSum": "fc4606a80fefdf85be9795d10f3b5f5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsAsyncGPUReadback.cs",
+            "_guid": "f8da2ed817da00e49b42adee956a7572",
+            "_checkSum": "05254e13741df176b92c1bb8bc5c37b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsAudio.cs",
+            "_guid": "bea5f4a93b1a6254182ff5ef61a6e64b",
+            "_checkSum": "1dc3d62d0f7c5046b015c2489a9d4e65"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsCompressed3DTextures.cs",
+            "_guid": "1163bcfa307ee5b40be43d1ac7b8b773",
+            "_checkSum": "799b8149aab145b1c5bcd4992a364f07"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsComputeShaders.cs",
+            "_guid": "8c8eef6c1940f9547ad1a255318585eb",
+            "_checkSum": "0b57a7e1bab326e44319dcceb19fe550"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsConservativeRaster.cs",
+            "_guid": "0e3bc89be72d4d2438c36629a864f077",
+            "_checkSum": "3a21d301af07bee373538ca566273773"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsCubemapArrayTextures.cs",
+            "_guid": "f7b354d9b6ecf8c4b8014ce64a9f6fa7",
+            "_checkSum": "a4f65c0c5fe162c48eacd6da9d4191dd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsGeometryShaders.cs",
+            "_guid": "aba15d14307a2c3439a37beb86eef7b1",
+            "_checkSum": "5dd14a7bba542d6dd712cdf97e2aceda"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsGpuRecorder.cs",
+            "_guid": "7fd39902c3dd2c1419347a8ebedd0865",
+            "_checkSum": "29f9aa11691bf3c3654380a2ae706178"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsGraphicsFence.cs",
+            "_guid": "33bea4f125dbf224ba522662e7eee99d",
+            "_checkSum": "c527b7df5fe77c31fe35c6ee52ba7e6a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsGyroscope.cs",
+            "_guid": "7f9885c21fb84c34f9de8faffb3086ae",
+            "_checkSum": "d3f40068282c4c36a4cd77e1b942c7ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsHardwareQuadTopology.cs",
+            "_guid": "7a3c4705a04efb04fb48f2a5b8365864",
+            "_checkSum": "8fa3925aecf99e4a6222c1409b605eac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsIndirectArgumentsBuffer.cs",
+            "_guid": "23ae12ce533ae1e49ad64acf1cf19505",
+            "_checkSum": "2cd01d87861afaf6f49d44cdd298599b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsInstancing.cs",
+            "_guid": "54f1a33b7961b4e47b9c38675d4ba414",
+            "_checkSum": "37f74e22422c03a83575b9a4b307f9ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsLocationService.cs",
+            "_guid": "9dc472b066dddb64a901cc4accab5ed9",
+            "_checkSum": "db1ea8857355eaeef59399723709b97a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMipStreaming.cs",
+            "_guid": "af10dececd2898240b6caaa5612a1770",
+            "_checkSum": "8873db210a54ed1ca44d3703a40ffb81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMotionVectors.cs",
+            "_guid": "e79742cc36f141843ab1c3255e4e2495",
+            "_checkSum": "4b930060c002f630de23234eed632358"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMultisampleAutoResolve.cs",
+            "_guid": "9a243eee1ffbf99499022a533f0c25b6",
+            "_checkSum": "f24c863660ebd1ef5191bfdef068db0d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMultisampled2DArrayTextures.cs",
+            "_guid": "69398d93d2140eb4e86fd0edbb220251",
+            "_checkSum": "eaec3d81991c132611ea25811700e231"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMultisampledTextures.cs",
+            "_guid": "52d073df5479d98409bda1ea6fff743b",
+            "_checkSum": "9d9ed139c61fb85017e7ef9023d1092b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMultisampleResolveDepth.cs",
+            "_guid": "7ca251dba54fc3646bdb577a45642194",
+            "_checkSum": "32894cf1cb55e538a6b42e2b410682e1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMultisampleResolveStencil.cs",
+            "_guid": "5c8480be1748f5b429792d501ca583c9",
+            "_checkSum": "acfa93cc821a59d864af4aacc1f53670"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsMultiview.cs",
+            "_guid": "68988e18ecd63dc4d9b3daa08067631e",
+            "_checkSum": "0e0b6d29dc3129fb7bc70752863d6b35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsRawShadowDepthSampling.cs",
+            "_guid": "26317365c0b153c4cab320d5ab72b367",
+            "_checkSum": "e38839b2e8137e75d3dcc9e4a3fbcedc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsRayTracing.cs",
+            "_guid": "6bb79fbc81aba8048b958a23a13d9117",
+            "_checkSum": "fdd52d82b8e3f13c5591f2e59ab818b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsRenderTargetArrayIndexFromVertexShader.cs",
+            "_guid": "32fbfc42866769a43922f02af8a66631",
+            "_checkSum": "8f531a2378050f95da83683d57578bae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsSeparatedRenderTargetsBlend.cs",
+            "_guid": "7d03842f8bb930747b19c1491761157d",
+            "_checkSum": "193381914d6e2caabb379e9c81c44456"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsSetConstantBuffer.cs",
+            "_guid": "3952677f9ff8e774d8f3027f2a9b7d58",
+            "_checkSum": "f21404c80068eb7fd78c618e6322fe48"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsShadows.cs",
+            "_guid": "cb82b5fa7f84eab4ca28ce70c90ddb03",
+            "_checkSum": "39352a974392d6efad8a184dd1631e9f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsSparseTextures.cs",
+            "_guid": "f3b91abd8c28e2a459c22d718cbb2eb7",
+            "_checkSum": "2acbdf5498a48a79f1c0170f16a81c69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsStoreAndResolveAction.cs",
+            "_guid": "e0475cdcc7efd734b8722a936a83dce2",
+            "_checkSum": "4b73c89b185cd15ad49359404a9628e1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsTessellationShaders.cs",
+            "_guid": "0bd937e033710424688e1ea81cbf5393",
+            "_checkSum": "3515169d130d7099f12d058b6f50295c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsTextureWrapMirrorOnce.cs",
+            "_guid": "c169b77c4bb17cb4898ee6774610ef8b",
+            "_checkSum": "d524bce9070a04a96dbf78fc1d1b76d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSupportsVibration.cs",
+            "_guid": "f75f819a76b2d3b4aabcb6ef2394eeba",
+            "_checkSum": "bc623c5f79834184d2aaaf5908cf46a7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetSystemMemorySize.cs",
+            "_guid": "e201e1151c260714cb6c5b90483bff99",
+            "_checkSum": "252b9fa0c7ea41a37df8b373a95ba507"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetUnsupportedIdentifier.cs",
+            "_guid": "2a7cbb1fd44aae4479161a6968f953c2",
+            "_checkSum": "7f1962a50ac4e71fb4cc2a4fd31524c7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetUsesLoadStoreActions.cs",
+            "_guid": "dbf9151bee1699c47a55a504e35524f3",
+            "_checkSum": "99f6b307ced0d70887438b2d2802231f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoGetUsesReversedZBuffer.cs",
+            "_guid": "ef34ee6124a49f64ba36ad3a1881a588",
+            "_checkSum": "67ded1a16cfd43124a1e7e0d6a992ebf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoIsFormatSupported.cs",
+            "_guid": "d15c72bf40b3558429e935038987bef1",
+            "_checkSum": "bc62b731309d412867b99f3251c00e83"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoSupportsBlendingOnRenderTextureFormat.cs",
+            "_guid": "05725e66640cea84a8dda27854fe5623",
+            "_checkSum": "9270725c1ec5f9ccc68cfb219997a73c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoSupportsRandomWriteOnRenderTextureFormat.cs",
+            "_guid": "ccaf5792017818a4c85ec4f5ab7dae93",
+            "_checkSum": "b671338b27aa2b6c19685f0cd3a9de8e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoSupportsRenderTextureFormat.cs",
+            "_guid": "26f1b3b48e5eb83419ec0191d4b4b09e",
+            "_checkSum": "084c27c3398a1ec11eedcfdd0c8a2069"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoSupportsTextureFormat.cs",
+            "_guid": "398efd8cc7c245543b32ed892b0d371a",
+            "_checkSum": "aedd7fbb973216c3208a64683b09e051"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/SystemInfo/SystemInfoSupportsVertexAttributeFormat.cs",
+            "_guid": "d92aca5800d020e45b1e4c5c293d7257",
+            "_checkSum": "251f63013113a9a9678efec9de0bd427"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479343247980
+}

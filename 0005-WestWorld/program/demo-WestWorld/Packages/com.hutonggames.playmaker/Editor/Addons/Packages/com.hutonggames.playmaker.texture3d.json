@@ -1,0 +1,77 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.texture3d",
+    "_displayName": "Texture3D",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for handling 3D Textures.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Texture3D.html",
+    "_icon": "Rendering/Texture3D",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DApply.cs",
+            "_guid": "6e3772fdefb47b14ab7ce109a42e59c4",
+            "_checkSum": "6e2f797b756b86cf9a2372c6abe9098b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DGetDepth.cs",
+            "_guid": "e6c175ca98465b041bcf11118cd02b91",
+            "_checkSum": "9be51322f39428e4f4eaeae1e9f185ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DGetFormat.cs",
+            "_guid": "dc2f3ecda96cb8b45886bdfc9f59929e",
+            "_checkSum": "3c0e575ad024abb1e4246511e628c84b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DGetIsReadable.cs",
+            "_guid": "80e806f795e44b44c843bb28e875683f",
+            "_checkSum": "6c18416bbd38241ec38a1121d01dc9e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DGetPixel.cs",
+            "_guid": "2184ce66fc74d1c4499788d03266f5ee",
+            "_checkSum": "55f88d9d8825f53a9ef9c146c724c2f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DGetPixelBilinear.cs",
+            "_guid": "4f6368f30841db449a56cf8d4637087e",
+            "_checkSum": "ef6054f087416d74d7a91c1923952d3e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DGetPixels.cs",
+            "_guid": "a36bf9ab1eb08fa41b386fef4b83e4f3",
+            "_checkSum": "f7f38348a7d6b867ad63fbfb95f6ea18"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DSetPixel.cs",
+            "_guid": "7c55d84f79b39dc4da956fa74b26892b",
+            "_checkSum": "4fbf426c182c55d5164855258107125d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/Texture3D/Texture3DSetPixels.cs",
+            "_guid": "e1ad6a66c7560844e855d1390b8f16dc",
+            "_checkSum": "56e40da5bff93be1b7aa058a76180440"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479279247208
+}

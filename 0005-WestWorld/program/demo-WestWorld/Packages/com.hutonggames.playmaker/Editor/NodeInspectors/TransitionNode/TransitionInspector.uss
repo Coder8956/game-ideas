@@ -1,0 +1,113 @@
+
+.hutong-transition-inspector__event-data-getter > VariableRefField {
+    padding-left: 9px;
+}
+
+.hutong-event-sent-by-getter-editor > VariableRefField {
+    padding-left: 9px;
+}
+
+.hutong-transition-inspector__event-data-getter > Foldout > Toggle {
+    display: none;
+}
+
+.hutong-transition-inspector__event-data-getter > Foldout > .unity-foldout__content {
+    margin-left: 0;
+}
+
+.hutong-transition-inspector__event-data-getter .hutong-variable-reference-field__label {
+    margin-right: 0;
+}
+
+.hutong-transition-inspector__description {
+    padding: 4px;
+    margin: 2px;
+    margin-left: 6px;
+    padding-right: 16px;
+}
+
+.hutong-transition-inspector__parameters > .hutong-field {
+    padding-left: 5px;
+}
+
+.hutong-transition-inspector__settings-menu {
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: var(--hutong-editor-settings-icon);
+    width: 16px;
+    max-width: 16px;
+    height: 16px;
+    border-width: 0;
+    border-radius: 0;
+    margin-right: 0;
+    margin-left: 0;
+    align-self: center;
+}
+
+.hutong-transition-inspector__header-content {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*
+.hutong-controls-header__content-container {
+    margin-left: 4px;
+}*/
+
+.hutong-transition-inspector__event-data--empty {
+    margin-left: 11px;
+    -unity-text-align: middle-left;
+    opacity: 0.5;
+}
+
+.hutong-transition-inspector .hutong-ref-dropdown__label {
+    width: 50%;
+}
+
+.hutong-transition-inspector__fixed-width-label {
+    width: 80px;
+    min-width: 80px;
+}
+
+.hutong-controls-header {
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.hutong-controls-header__header {
+    background-color: var(--hutong-editor-colors-header-background);
+    flex-direction: row;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 2px;
+}
+
+.hutong-controls-header__icon {
+    flex-shrink: 0;
+    margin-right: 3px;
+}
+
+.hutong-controls-header__title {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-left: 4px;
+}
+
+.hutong-transition-inspector__link-settings > .hutong-controls-header__content-container{
+    padding-bottom: 0;
+    margin-bottom: 2px;
+}
+
+.hutong-transition-inspector__link-setting {
+    padding-left: 8px;
+}
+
+
+.hutong-controls-header__settings-menu {
+}

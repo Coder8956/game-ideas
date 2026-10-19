@@ -1,0 +1,203 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.bounds-int",
+    "_displayName": "BoundsInt",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Action to work with BoundsInt variables.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/BoundsInt.html",
+    "_icon": "BoundsInt",
+    "_tags": [
+        "Actions",
+        "Math"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntClampToBounds.cs",
+            "_guid": "f80d5874f7ccc8040bd69e16f082fb70",
+            "_checkSum": "c2b1e48eb0966520b913c88fc884ed86"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntContains.cs",
+            "_guid": "d86c4141e547b7e40b6ef7a51c1c1f29",
+            "_checkSum": "831813228b7a92f03d3897ad97f851a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntEquals.cs",
+            "_guid": "c1dfb434aca3a914ab6540b0417768f1",
+            "_checkSum": "ae690b5609e5681d9f1c5f360b457b91"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetCenter.cs",
+            "_guid": "c86387baa772adc4c853e1b0b05ea308",
+            "_checkSum": "7d21c2a07c58e3980297f07c5669cdcb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetHashCode.cs",
+            "_guid": "b32471ef75d7abd4e888faa96bf3d0de",
+            "_checkSum": "7e249f47dd262f01fc0bd775a903627a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetMax.cs",
+            "_guid": "ca5b6213771fd9144b1b52efeedcc112",
+            "_checkSum": "1d9a38439ab8b4fd312ba270f2ec9579"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetMin.cs",
+            "_guid": "aeb596300fe7f394383720b015fba856",
+            "_checkSum": "688c0293c923fadc1ef4ad5015139676"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetPosition.cs",
+            "_guid": "727ced4d314067945aeeea1b530b3d56",
+            "_checkSum": "e093ee8d106288e043a026b8b84c807f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetSize.cs",
+            "_guid": "908392217742b6d47b31d1296d292a35",
+            "_checkSum": "52f401dbab769247a3485ea5b91a9338"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetX.cs",
+            "_guid": "b185153e43e4b0f428f91218a7d331a6",
+            "_checkSum": "5b21b87ffdddfd9a46296db477dd580d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetXMax.cs",
+            "_guid": "0c96446796f1bf7458f26740f29fbc3c",
+            "_checkSum": "d2149a80910351403cc907932906040d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetXMin.cs",
+            "_guid": "36893f4a2c925334aa68ee1b855a7cb8",
+            "_checkSum": "22a906be752111d9bc8f65eb1f95c271"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetY.cs",
+            "_guid": "8f571cac2e79d5b40b029e255b137826",
+            "_checkSum": "ff4c1d7ef591351253daead99cd9a239"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetYMax.cs",
+            "_guid": "233647cecd80428499f73a4ab3e220a6",
+            "_checkSum": "897de59764e00c341bd09e1f1525dcf9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetYMin.cs",
+            "_guid": "b07d34f27cef6ec4f9ff58796ea0c0e8",
+            "_checkSum": "c9803ecc80fba0a2772b87917c0671dc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetZ.cs",
+            "_guid": "8e57fd73d1c6a2044b06e37889a3bbdb",
+            "_checkSum": "e63cbf575f21f0b8e26ec653d99675d8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetZMax.cs",
+            "_guid": "d6644a189a87c544f9351bac66e81987",
+            "_checkSum": "1ed0d6e0dddea6efa7770878ba05ce99"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntGetZMin.cs",
+            "_guid": "1c9805bd1b0c9314eaa7187a927747f3",
+            "_checkSum": "c3dfe301e3614053ea009dfc123b607a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetMax.cs",
+            "_guid": "b97ba6fa41b96eb4abc92e9ef84a318d",
+            "_checkSum": "50f10ee5606fd3109402af0b1b7baae4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetMin.cs",
+            "_guid": "836cbddd5b04b3e489d4d0b956ecdff6",
+            "_checkSum": "86635c057ec8766a2058fadd1baf96ae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetMinMax.cs",
+            "_guid": "63fbf26f6ee01ea4ab8cd5ca963a1453",
+            "_checkSum": "58a19bf82b7278daebd79f3760f7622c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetPosition.cs",
+            "_guid": "d2a9ce414ea0df2449e278e6ef144cfd",
+            "_checkSum": "b9a721ad4911664ef831a4b06e5e842a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetSize.cs",
+            "_guid": "c52a46ec3061d5e45a46677458c0f58d",
+            "_checkSum": "c3795294fc86b88de65aff488fdcfeec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetX.cs",
+            "_guid": "0e8859b0bcb31f841af6bd09b9d78750",
+            "_checkSum": "7d9d71020ef6eb09653ad30570fc0474"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetXMax.cs",
+            "_guid": "574c952030ad4074ebb564f9dcc0fd72",
+            "_checkSum": "2cf7480ff42006cb3ea6848093d2db80"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetXMin.cs",
+            "_guid": "6f4bc5fdc1f81784bab24667bdd64ea0",
+            "_checkSum": "ee50de37df9e51decd4d47737aee3f62"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetY.cs",
+            "_guid": "8c6d4a4d0c96810489e658e1d1e758c6",
+            "_checkSum": "150ade890f33afbefb37ef00facdb6e1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetYMax.cs",
+            "_guid": "8ae740ab0e36d2740a58eaada7cd10c5",
+            "_checkSum": "7b6894cf2552ab94f1f7ff897c805e81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetYMin.cs",
+            "_guid": "d929b2d5b8a7b2b4abf648dd3da2e5e2",
+            "_checkSum": "02c66fd32e24b2ca02b9bad13d12f439"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetZ.cs",
+            "_guid": "7496b0fc489fad2428fb5b80201f45a4",
+            "_checkSum": "63453c18a0615d112080e09d69d281b7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetZMax.cs",
+            "_guid": "4aca1d992c4674a40bcebcd9012e44bd",
+            "_checkSum": "9b5b60a928e5c3a9bd5e2c18a25e6558"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntSetZMin.cs",
+            "_guid": "f1587c280ea5ca048a16d80daf429c2d",
+            "_checkSum": "77368e50d6974b6dd9c796906f802125"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntToString.cs",
+            "_guid": "9f3c0c50fb2da29439b7e2267720a994",
+            "_checkSum": "76792a55000fe26fb73184a2b7d35b5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Core/Actions/BoundsInt/BoundsIntToString1.cs",
+            "_guid": "7bddffe8b9cde81418a96760c3a92edd",
+            "_checkSum": "3055609b54088feae5172e5e166ca559"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479626671936
+}

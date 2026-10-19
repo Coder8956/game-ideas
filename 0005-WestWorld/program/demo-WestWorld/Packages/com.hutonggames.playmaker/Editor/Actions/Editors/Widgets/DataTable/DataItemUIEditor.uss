@@ -1,0 +1,71 @@
+.hutong-data-row-view-editor {
+    
+}
+
+.hutong-data-row-view-editor__auto-bind {
+    /*margin-top: 8px;*/
+}
+
+.hutong-data-row-view-editor__buttons-row {
+    flex-direction: row;
+}
+
+.hutong-data-row-view-editor__title {
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+
+
+.hutong-data-row-view-editor__bindings-container {
+    margin-top: 8px;
+}
+
+.hutong-data-row-view-editor__binding-container {
+    margin-bottom: 8px;
+}
+
+.hutong-data-row-view-editor__binding-header {
+    margin-top: 4px;
+    margin-left: 3px;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 8px;
+}
+
+.hutong-data-row-view-editor__binding-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.hutong-data-row-view-editor__binding-name {
+    margin-left: 2px;
+    -unity-font-style: bold;
+}
+
+.hutong-data-row-view-editor__binding {
+    margin-left: 4px;
+}
+
+.hutong-data-row-view-editor__kind-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.hutong-data-row-view-editor__kind-label {
+    margin-left: 3px;
+    min-width: 120px;
+}
+
+.hutong-data-row-view-editor__kind-dropdown {
+    margin-left: 2px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.hutong-data-row-view-editor__orphan-label {
+    margin-left: 6px;
+    -unity-font-style: bold;
+}

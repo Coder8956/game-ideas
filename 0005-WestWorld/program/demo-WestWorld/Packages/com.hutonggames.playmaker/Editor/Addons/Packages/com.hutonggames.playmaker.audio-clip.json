@@ -1,0 +1,98 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-clip",
+    "_displayName": "Audio Clip",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to change audio clip settings at runtime.",
+    "_description": "In most cases these properties are setup at edit time. These actions allow you to get or set these audio clip properties at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AudioClip.html",
+    "_icon": "Audio/AudioSource",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetAmbisonic.cs",
+            "_guid": "a42ddb6acf571864a8b064776db9da65",
+            "_checkSum": "7f9b29de0a7a1afc4d749dc287d0c1c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetChannels.cs",
+            "_guid": "2e73d2062b7077240b3108270cd4adf4",
+            "_checkSum": "bfbfa5f6684cf4cc9538eb7cbf58f7e7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetData.cs",
+            "_guid": "697dcda50d407564c85c99bd9016d231",
+            "_checkSum": "fb1ea9a6c539d4d4af346d00ba640361"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetFrequency.cs",
+            "_guid": "4d08b2be6f64ae046a9dc69ceb87434c",
+            "_checkSum": "6c9016c4afe29b06bfe4c593f09d7a52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetLength.cs",
+            "_guid": "7a38c9172b3d1cf4191b68c07a227968",
+            "_checkSum": "d7e426597bf873d8ddf51497d6960314"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetLoadInBackground.cs",
+            "_guid": "aa8c9803df9bb3844aa1b8f76951aae2",
+            "_checkSum": "5168e6bfd6bd22d229ee607bc46c6e08"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetLoadState.cs",
+            "_guid": "b678121b4a2409b478916bda2d33a2d0",
+            "_checkSum": "3ac3266434084b89dd25cc41e5f51124"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetLoadType.cs",
+            "_guid": "5dfaa84bfcddcc446966f3344d2c6ee4",
+            "_checkSum": "ae8f2178f06643922c6788d6e95c00c0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetPreloadAudioData.cs",
+            "_guid": "3f374a7b6d6beb448b83b392517a289e",
+            "_checkSum": "3a922dca998802912dda2904e57e08b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipGetSamples.cs",
+            "_guid": "ab40e26919a221841b940696e9c77024",
+            "_checkSum": "324221601ca8eaca673e07befdfa9760"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipLoadAudioData.cs",
+            "_guid": "c6914daed9c72694a8b8dbca5c2bace8",
+            "_checkSum": "0e2a4fbb1b33a9d538cfc35dad9d3530"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipSetData.cs",
+            "_guid": "53c4b32fab048f449a261f1561239091",
+            "_checkSum": "e1f9ce903a49b40a2d249a86d8c54b86"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioClip/AudioClipUnloadAudioData.cs",
+            "_guid": "45b68b858f09be64484f36cbdaa21ae6",
+            "_checkSum": "b00c18b71fbaf9620a2d7dfbdce6c822"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479398177177
+}

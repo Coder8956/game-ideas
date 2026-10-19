@@ -1,0 +1,193 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animator-ik",
+    "_displayName": "Animator IK Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control IK.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Manual/InverseKinematics.html",
+    "_icon": "Animation/Animator",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetBodyPosition.cs",
+            "_guid": "50619ece9244774489d46d39247bc236",
+            "_checkSum": "0f156931cad71a37cfeff5b4143bf6c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetBodyRotation.cs",
+            "_guid": "cb0849972d453774fa841823b3f0c0b1",
+            "_checkSum": "77827ce2d7a251f902d4099e02e8edc5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetFeetPivotActive.cs",
+            "_guid": "f775ea39aca3ef4418a787f431608815",
+            "_checkSum": "2239ff20e064fef533bc28821a8ea1cd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetIKHintPosition.cs",
+            "_guid": "1b6c799f2dfac9c41b732b6e44393119",
+            "_checkSum": "062f71167bf0192d87fcd6e4aaaf3196"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetIKHintPositionWeight.cs",
+            "_guid": "b7fe93d8785f5354f91361ee09786758",
+            "_checkSum": "34d05f7a9fe606acf679efa877909135"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetIKPosition.cs",
+            "_guid": "01d5379dff4442d4d91ad6a449500944",
+            "_checkSum": "ba1335eeeb0625eb2226a6e94cb18f6a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetIKPositionWeight.cs",
+            "_guid": "523878005143f524ab185574c221e5c6",
+            "_checkSum": "a5b66e584e4cb0fd1ebe1c11cb27c699"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetIKRotation.cs",
+            "_guid": "9e7ff2d75ca98be408d9a3d5b44e5db6",
+            "_checkSum": "960ca41e91db54c2ff5e6d1e07f875ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetIKRotationWeight.cs",
+            "_guid": "2f890ac2a6eac4e4f814303d0ee0c401",
+            "_checkSum": "1128a37b421defb9362a070a436f34fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetLeftFeetBottomHeight.cs",
+            "_guid": "765305bb595d1e44690517f861eb39f3",
+            "_checkSum": "45602af4bfbac6bf5f5dd5b01e436251"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetPivotPosition.cs",
+            "_guid": "ad143368c2f56234893bd0dd55f8ef38",
+            "_checkSum": "aeddb848e98e0e530f851ef020af88e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetPivotWeight.cs",
+            "_guid": "d8e7a97f8e2916e4ea22b86cd2fb14bd",
+            "_checkSum": "60add45a77c9f073437c1b462f127061"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetRightFeetBottomHeight.cs",
+            "_guid": "bc1b7d5cb0cd3bc4983ec65a6d003a47",
+            "_checkSum": "fe6dbafd3a42ab6496f87a3c2a42c74b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetRootPosition.cs",
+            "_guid": "7f8139d3e62561741a0c04cfc328ac98",
+            "_checkSum": "f8fba80dd051612dc2a01dd7a26d34c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorGetRootRotation.cs",
+            "_guid": "ddf171cf3d0a27149937d0744fce6782",
+            "_checkSum": "0f36124a2d4b8e4a21b88a9066f12a3c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetBodyPosition.cs",
+            "_guid": "42d209c67b216f34b91b5a3738ef7871",
+            "_checkSum": "ed9ffd07f6dcd515229a53674803dc43"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetBodyRotation.cs",
+            "_guid": "29e4625c3c485db4daac68e1e72a2adb",
+            "_checkSum": "3048893709b1603c07d0f9bbc5ded069"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetBoneLocalRotation.cs",
+            "_guid": "8f98f35deb4fe6346bc1535e1fcccce4",
+            "_checkSum": "30428aa5c10a2419b14d94ae5bea7db7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetFeetPivotActive.cs",
+            "_guid": "061527ffcc836e5459b044a117d7fc5c",
+            "_checkSum": "c6c61864d36ebc2ea3c54e5adbd93c37"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetIKHintPosition.cs",
+            "_guid": "f77f2232ee1471e449399d59e1b39424",
+            "_checkSum": "10a54b6c67fa4f3c46da6db765603447"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetIKHintPositionWeight.cs",
+            "_guid": "e5ea2d5d041c9de46a2caaef54777e58",
+            "_checkSum": "52a2abbddfad86c78cfbbae654305283"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetIKPosition.cs",
+            "_guid": "e5a8cf9167cb0264b9986b474c5c0de1",
+            "_checkSum": "87184a82e08b602067c87006b9d252ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetIKPositionWeight.cs",
+            "_guid": "cdec0d6749e0a1f488d5b081a346a7bf",
+            "_checkSum": "29ffb65b979b76001b4d37bb2d5e6f5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetIKRotation.cs",
+            "_guid": "c19eb57c238052447952746ee3b6e5b3",
+            "_checkSum": "34541ec4efb7114d88af4ea8301fbadd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetIKRotationWeight.cs",
+            "_guid": "9423d6dbcb83fdc469adca77cdffc0b2",
+            "_checkSum": "601f05a2bd34c143fd5eb155e8b66207"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetLookAt.cs",
+            "_guid": "88e4f634c9df4669a48652c8ead802e6",
+            "_checkSum": "74196e8934d3a053635f803616e93b90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetLookAtPosition.cs",
+            "_guid": "422e58e9b381ff54da24ffc7802248aa",
+            "_checkSum": "f878f78a7e5ea9c7cfce8bf67e35a32b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetLookAtWeight.cs",
+            "_guid": "bd3132be304316d48b8018c794364e6c",
+            "_checkSum": "3a55cf2a217f12fbdbd0f24170784843"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetRootPosition.cs",
+            "_guid": "29b9ab78074a5ed4f9d94b323935d83d",
+            "_checkSum": "7f3919f71af057f9d1c6e5bcd1cd86c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/AnimatorSetRootRotation.cs",
+            "_guid": "b3840000aaafbb840ae4bc9c9ca6dbdd",
+            "_checkSum": "b2c9f977f6fe1ce9017774d861357ac3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/BaseAnimatorIKAction.cs",
+            "_guid": "c7802088db974547bbef330496c2c805",
+            "_checkSum": "6b213eec3a16b76c231fcc7476856a47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/IK/TODO.txt",
+            "_guid": "99a38d751efd481286c02fbde38c203e",
+            "_checkSum": "75c79eb82b02f77073be942d1873d9cc"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479428537504
+}

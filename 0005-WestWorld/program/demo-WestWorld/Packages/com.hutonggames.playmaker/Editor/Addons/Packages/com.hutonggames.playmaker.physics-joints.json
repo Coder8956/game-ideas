@@ -1,0 +1,823 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics-joints",
+    "_displayName": "Physics Joints",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for Physics Joints.",
+    "_description": "Normally these are set up in the editor, but you can use these actions to change settings at runtime.",
+    "_helpUrl": "https://docs.unity3d.com/Manual/Joints.html",
+    "_icon": "Physics/Joint",
+    "_tags": [
+        "Actions",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetAnchor.cs",
+            "_guid": "e3a32a9d9caae9d4cb366b96303a989b",
+            "_checkSum": "e34dec111d5c6ba9c9ec27df082a4b14"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetAutoConfigureConnectedAnchor.cs",
+            "_guid": "50c724fdfc33d7f44ab8eae0adad15d6",
+            "_checkSum": "0596c53ca4de64b02a81121d85f1c0b1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetAxis.cs",
+            "_guid": "d68c2b210af604e4ea63d93d017473da",
+            "_checkSum": "835d786968d89419078ce06f5d3234e0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetBreakForce.cs",
+            "_guid": "61d0d948ec9ba6c47acf0cf999873d84",
+            "_checkSum": "d962c3dd492fb093dd8753a06c11a1b7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetBreakTorque.cs",
+            "_guid": "3ec7fc0a1e1a364498a3bb6b44dc18c8",
+            "_checkSum": "5d28db1cfc24a9fed532b43805a6b1b7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetConnectedAnchor.cs",
+            "_guid": "21e1e35206f34b84db3ce5cda9265034",
+            "_checkSum": "81f5def8d831242cea3a2b264e65aa8e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetConnectedArticulationBody.cs",
+            "_guid": "d8bd265beff44f74e809cf3bbb3ffde2",
+            "_checkSum": "fdc2eacec2a741dd49ae0b42984fe07b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetConnectedBody.cs",
+            "_guid": "83cf8990674279c44b8130d7c99d3e0a",
+            "_checkSum": "1e17f8ae5c525a5fbba1bba7ed4a82ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetConnectedMassScale.cs",
+            "_guid": "4f631c321d1b83d42afcd4fe00236850",
+            "_checkSum": "798ddb8e340baf0a44713bc0519cd14d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetCurrentForce.cs",
+            "_guid": "23c496a883cdc894796c5cc9cdb7cc21",
+            "_checkSum": "23b2011209bec6c4bba0f08d5a074eb3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetCurrentTorque.cs",
+            "_guid": "010c1b0f48eb03f409fccf3202f9e06d",
+            "_checkSum": "a3e22bd92bbe0583cb419e18ad61fd6d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetEnableCollision.cs",
+            "_guid": "06aebf1d1da79b94f96b811659a3ca5b",
+            "_checkSum": "bdf4b1a3098a8ee8c3174c623a74e071"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetEnablePreprocessing.cs",
+            "_guid": "eb724b8cde8453b4da3b458474f01c18",
+            "_checkSum": "3fa2a16a4864610dbf96724a2e336e58"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointGetMassScale.cs",
+            "_guid": "7677d683a2e1e2c469f13ada2533bb3e",
+            "_checkSum": "a2bbf75808b8d506393ae2a83c855f16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetAnchor.cs",
+            "_guid": "07f77c00741b8c54ebfb5e7bb8d06483",
+            "_checkSum": "d011b2f473f1fbfaf24b22e44227a546"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetAutoConfigureConnectedAnchor.cs",
+            "_guid": "1cbe6c25558e8c94a944b2dc0e328b74",
+            "_checkSum": "b49fe61ab532ef80be77f473c9e9818c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetAxis.cs",
+            "_guid": "808f0f1d09a2b30498aa8a67d67a4f2c",
+            "_checkSum": "649a2491b58a19c73c8c4b6f49b9d5cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetBreakForce.cs",
+            "_guid": "cf3bb9316dca6bc4cb94b9973412857e",
+            "_checkSum": "16ce02665b69fd896ef6a5d40c655652"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetBreakTorque.cs",
+            "_guid": "a1c301bea783aa342b7cd06efe5e3832",
+            "_checkSum": "1e47b20147a712c47cb3ae3a770389bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetConnectedAnchor.cs",
+            "_guid": "589648baddbb6cc498c9182a621ad6eb",
+            "_checkSum": "bd1fab81907008953d5a0ff60702459e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetConnectedArticulationBody.cs",
+            "_guid": "1090cc1e4904d6a409c81bafc665c57a",
+            "_checkSum": "2086e2902ce981b083f5ca97010407c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetConnectedBody.cs",
+            "_guid": "b69e305a04d72b940b4c9b5b6750817a",
+            "_checkSum": "de2342dd96d3574f6f236835401d36b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetConnectedMassScale.cs",
+            "_guid": "cd7a9e922e5bb4a4292dd78bd5564914",
+            "_checkSum": "86c5f1bdba7f709048bd946bd92fc48d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetEnableCollision.cs",
+            "_guid": "670f2c1927b7e2d498007db09e100156",
+            "_checkSum": "286d57738eeebccce0fb92e39e08450b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetEnablePreprocessing.cs",
+            "_guid": "394b15f1d1e3c644ea06616fbe7420f4",
+            "_checkSum": "7d3d3452c0e0c9de7fde887860dc50a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSetMassScale.cs",
+            "_guid": "5ff340f4eab721943b07f3ae50723466",
+            "_checkSum": "b7045ea38b67a599d0a9b8ac33998920"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointGetEnableProjection.cs",
+            "_guid": "bad542a88f977b14c846f7dcb3892b6e",
+            "_checkSum": "fadf4eeb9d6b5212338b37f88a8977d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointGetProjectionAngle.cs",
+            "_guid": "3faf22de828fd814e86317904c89bcec",
+            "_checkSum": "a1c06e2d12985c2e3229e61b72e548b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointGetProjectionDistance.cs",
+            "_guid": "497084ef70b4ecd4da53ad0c65e7a883",
+            "_checkSum": "964f4acd7d3c9c389b1e32cc1e8d95af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointGetSwingAxis.cs",
+            "_guid": "1d822f80e3c08964ea5b3a63f7b95137",
+            "_checkSum": "326c6f65b2bb1960b81adbe3c58ccb3b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointSetEnableProjection.cs",
+            "_guid": "8a1f6e778ac282a41aa2a7d9a80a7005",
+            "_checkSum": "b329bdde3ac180147f4d991b40f2d012"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointSetProjectionAngle.cs",
+            "_guid": "8b07d768999c81c4c83002f845518a39",
+            "_checkSum": "a579adb71a3769232f0b7d83d38ae6e4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointSetProjectionDistance.cs",
+            "_guid": "53a35ff5e6a444c42bbfadc1acaa3ecf",
+            "_checkSum": "e5e280655b1256f5b8db03ae92431d23"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/CharacterJoint/CharacterJointSetSwingAxis.cs",
+            "_guid": "affd532b6de061c42b82491e31c0bb21",
+            "_checkSum": "c1b9d3b5690106db63e4ddf56b601cb3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularXDrive.cs",
+            "_guid": "b7fd0d6df8b96b640b2c4cb25ff69eb0",
+            "_checkSum": "72961dcad5c5052b29f9cec8d78e7b62"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularXLimitSpring.cs",
+            "_guid": "8f48ee7e6d75acd448d4ed4cdb32f289",
+            "_checkSum": "afdefd0fd37c98060f52a83d6d44ecac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularXMotion.cs",
+            "_guid": "2f00527a25303454baf2e4de5c9b2e86",
+            "_checkSum": "29cbc1b729c531b6333ef5814449e4e2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularYLimit.cs",
+            "_guid": "fb7fdd723db76f84cac7a145ebdf15ff",
+            "_checkSum": "1ac4e90d17ad94acdd2220a4d85cd461"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularYMotion.cs",
+            "_guid": "62abf20ecdc93564d935fc532823ab76",
+            "_checkSum": "281f3ce193caef0089e7e02151e22e8c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularYZDrive.cs",
+            "_guid": "8d3dbe1d4cc531444818e69fa15a83ae",
+            "_checkSum": "1e179fc0438414230caa5e8d1ff2c2a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularYZLimitSpring.cs",
+            "_guid": "0b01a435a125dc44eaec3610603427e1",
+            "_checkSum": "59fa0d79e61acb2bb5337e37c4cd86ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularZLimit.cs",
+            "_guid": "23b95cf8ea1e435448c8e9ae8b3b0b51",
+            "_checkSum": "622286099b12905d66d7818dbe1285d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetAngularZMotion.cs",
+            "_guid": "677fc61771c55624fa5557854d43358f",
+            "_checkSum": "6c6ac0f9be45f2ed7ecc1935f8cfb9af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetConfiguredInWorldSpace.cs",
+            "_guid": "5d550fdcec077c44a87863fd9485369b",
+            "_checkSum": "d796cecaf21e819d7e116c84943fe887"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetHighAngularXLimit.cs",
+            "_guid": "05c7fd6bf5edb9d4695511d8ccc5e03e",
+            "_checkSum": "cb8d44481860e37d5c621fe8614a6599"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetLinearLimit.cs",
+            "_guid": "f1b3ea3c24c6559478206f6e8c7e0c55",
+            "_checkSum": "fd98f3dbdfd6be55bce034e323b406a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetLinearLimitSpring.cs",
+            "_guid": "9538e57bf726d2d4291fbb175a557c80",
+            "_checkSum": "ccb30970b23374280f7da955aa172eac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetLowAngularXLimit.cs",
+            "_guid": "222f4b48909bb914ab84cc557377dec4",
+            "_checkSum": "88c474f1092c4ed9e3e3cd53dddf6307"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetProjectionAngle.cs",
+            "_guid": "e0898771d20000c49954f594079076f8",
+            "_checkSum": "df65029685c4fd9a5f81586ff7e9bc88"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetProjectionDistance.cs",
+            "_guid": "682ae81149c477c4887111fb4fc7233b",
+            "_checkSum": "8c19c981af1d2e4aa2de2bd5d8a55cc9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetProjectionMode.cs",
+            "_guid": "9fd84b1282ee9f94caceab0aedf278c9",
+            "_checkSum": "f9512fb28a53b60c8826e184f0c62405"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetRotationDriveMode.cs",
+            "_guid": "964edfbaf24525e429fe75b5ddf0540c",
+            "_checkSum": "c10ffdb97e0cedd4edfb889ecd0ffabf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetSecondaryAxis.cs",
+            "_guid": "199509889c22c3a44b8aeaa8572372bf",
+            "_checkSum": "eb5d9f63c06f13fe3d5ea85d81cab295"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetSlerpDrive.cs",
+            "_guid": "d12d8454e5cf8e74cb727bbb971f3d79",
+            "_checkSum": "8723b89dd1cd725cf3958585bad04a1e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetSwapBodies.cs",
+            "_guid": "80260a4555eeb224b836b0cb5a7f8abb",
+            "_checkSum": "96c963ca4cdc9ffd66ac84a70189a034"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetTargetAngularVelocity.cs",
+            "_guid": "1a3c413b11e5b48428d100dc687058b5",
+            "_checkSum": "db45b7bc6f7b978162d03bdad070d7f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetTargetPosition.cs",
+            "_guid": "e60360933a66c3148ba4d44170ea4cd1",
+            "_checkSum": "d7c333981873d36f17f03176bea1d3b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetTargetRotation.cs",
+            "_guid": "78fdfef0d2dc33c4b8c815a1ba6ca01f",
+            "_checkSum": "a823444c5703fbd96637753c224254f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetTargetVelocity.cs",
+            "_guid": "7044ab596a963fe44a36915804da6432",
+            "_checkSum": "9808695b87c4c56bc6965636e85a640d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetXDrive.cs",
+            "_guid": "e6522d7494a99334190df95c0ba7de47",
+            "_checkSum": "47ceddda1718bce4dcb1d0f0ff0749fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetXMotion.cs",
+            "_guid": "4bd706b271ec47b45b48f5ad6d22dab1",
+            "_checkSum": "0fe48d7070b8f68c2aef27059fe8acb2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetYDrive.cs",
+            "_guid": "cfa25e7307d4cc14bbaee8df4aa18eb7",
+            "_checkSum": "e114c88babdc313972c6447010dc70f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetYMotion.cs",
+            "_guid": "b9d7738d443ec8c4489c8cbf204002a5",
+            "_checkSum": "9059030e8a473e4e6538b19998e4fc5d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetZDrive.cs",
+            "_guid": "f6414e49143eec74ba5183d540babd20",
+            "_checkSum": "59b686c75cce1cc31b94cd4999a1aaaf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointGetZMotion.cs",
+            "_guid": "b421b101308367f4c8991389ae1b80b5",
+            "_checkSum": "c06a586cc2d28924f89c080d571a8888"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularXDrive.cs",
+            "_guid": "d01ec7e00054f064a9f9d1eedbd70d81",
+            "_checkSum": "4213b7cc41adf6b8302ee821d649d32b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularXLimitSpring.cs",
+            "_guid": "b3f13427c9dfa314d9e1e1e2c090d1ab",
+            "_checkSum": "eaf21aa497950f896f899b7f76b202da"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularXMotion.cs",
+            "_guid": "44e6d28319af7b5469c7863cc908c617",
+            "_checkSum": "4e9eefe507f690a5e7782804012a42b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularYLimit.cs",
+            "_guid": "5499886e817657b4d865935d708f0e5c",
+            "_checkSum": "f205447df570829f8aace7733f7a6c0d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularYMotion.cs",
+            "_guid": "b9c1e87537e08ef4084c32b9aa3ca1f1",
+            "_checkSum": "d3916bf752481342faddd9845b0189dd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularYZDrive.cs",
+            "_guid": "1d94e264829866a428080804fc8e90a8",
+            "_checkSum": "bf3efbe92f6c5296f99f410e6059ee1f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularYZLimitSpring.cs",
+            "_guid": "d59a93435db172544ad4e8c1c7aae7a4",
+            "_checkSum": "79a1ed57319a80437b61e084b67ee134"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularZLimit.cs",
+            "_guid": "6f313c01e08f32a4c90c1b9efc461367",
+            "_checkSum": "7c1ff55db449ba25101903fe535ee30b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetAngularZMotion.cs",
+            "_guid": "ca46b6bb0cc4e084a97e84f9914a7e59",
+            "_checkSum": "ea05d3f5165cf58b2dc6ea7b137c965a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetConfiguredInWorldSpace.cs",
+            "_guid": "0314ae09c9d10da4b8f5bdd23fd8237a",
+            "_checkSum": "c5ebd9e8c2c599e51f3e12038acf287f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetHighAngularXLimit.cs",
+            "_guid": "e7084d20d58be604bb54e0c13f5fcda9",
+            "_checkSum": "f127abde44cdd20ac1c5fa280c9a46ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetLinearLimit.cs",
+            "_guid": "045b1b26bd17b9f48ae5d822232df36c",
+            "_checkSum": "65b09a2eec42feb955ea5144effc6404"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetLinearLimitSpring.cs",
+            "_guid": "3e13849bc11fb0e41a870f4fe8a6ed11",
+            "_checkSum": "fa32d6503391365ba7024d4bab64a9a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetLowAngularXLimit.cs",
+            "_guid": "b2c0f716752f2fc4c829c39a8f8822d0",
+            "_checkSum": "aa1f52d9355b0c442e981d038fec44c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetProjectionAngle.cs",
+            "_guid": "64db9525e1ae865488732444b0c320b7",
+            "_checkSum": "e7bea645edb093f1ff5d0a909d4721d7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetProjectionDistance.cs",
+            "_guid": "364336b9d8b79d340b3c04eb724d3285",
+            "_checkSum": "1e4286b77f67838b84971ffbe64c60b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetProjectionMode.cs",
+            "_guid": "3170de2a36fcf7042a3bcf7bce124554",
+            "_checkSum": "12d7d29c12cbd5da24c239020e6eb6f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetRotationDriveMode.cs",
+            "_guid": "9fbea36a810fe1d40aa515900daf6ea8",
+            "_checkSum": "fe5fa21f3723d8ce38aaab4cde4fe929"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetSecondaryAxis.cs",
+            "_guid": "ada42c1fff4b14448af08decb85aa108",
+            "_checkSum": "090fb0cd594bfbea151bbbdfca8104cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetSlerpDrive.cs",
+            "_guid": "244a4b4f15725574daffbffa2ba187ec",
+            "_checkSum": "37b3d7cc98b6632063f24f3545187a39"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetSwapBodies.cs",
+            "_guid": "468f9832094c5aa4fb2513c839e346b8",
+            "_checkSum": "bca90e9ba6417a41da0c1a00a910777f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetTargetAngularVelocity.cs",
+            "_guid": "5e7b76d87dbb12d4f91595febbd18c37",
+            "_checkSum": "a223c6d4313949d8f376b94075aaff71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetTargetPosition.cs",
+            "_guid": "232a8528bc6681345b3328ef1ac3be33",
+            "_checkSum": "e6bcd5dd7f3a33cde8af89361298078e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetTargetRotation.cs",
+            "_guid": "8a463ac55f804024c88cd85c2243ab0a",
+            "_checkSum": "82adfe8ac5029edb8698da7d0794d00e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetTargetVelocity.cs",
+            "_guid": "d9083b4b95a15b149b075f3910d66787",
+            "_checkSum": "9c5d5cf7a6b49f4f788436533d11f74f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetXDrive.cs",
+            "_guid": "1b00204aaa3641349a433ac84e3b5c55",
+            "_checkSum": "7f642ee5d666aa35d3595c15a75b2906"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetXMotion.cs",
+            "_guid": "e35c6c7423bac8946805b349fcb42a6a",
+            "_checkSum": "9854e4d2a172627144042f60c02cf477"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetYDrive.cs",
+            "_guid": "7f767ed61299e3b43adea026266b5eaa",
+            "_checkSum": "18ea9286bc855a45861f137350190203"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetYMotion.cs",
+            "_guid": "30fd488ff36796e4b93e4b124a208b67",
+            "_checkSum": "fe47d013e53d8d26a908b823180915f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetZDrive.cs",
+            "_guid": "8fa3a6323a1f6a84d9dcda3e49476cbf",
+            "_checkSum": "7fac808a51c3a5e3a1cd8afe9bae8785"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/ConfigurableJoint/ConfigurableJointSetZMotion.cs",
+            "_guid": "8faae94c67096004ba929b52a7d2a343",
+            "_checkSum": "75395299d0c5498b057ee277c95f77c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointGetAngle.cs",
+            "_guid": "c2dc15ac14d22264890a27948fd9cde6",
+            "_checkSum": "dd14b14d34051af899ebfd5cae51d245"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointGetExtendedLimits.cs",
+            "_guid": "e6d5adf39cd8c0647b0faea527a29c16",
+            "_checkSum": "1addf3dfdfa9187af4510436aa509f46"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointGetUseAcceleration.cs",
+            "_guid": "4bcef6a0d80bbd240b9d337c01428184",
+            "_checkSum": "30d9340671d260c4f308778ad5995751"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointGetUseLimits.cs",
+            "_guid": "2d2cd5eee28b3f141b5cb952face2d07",
+            "_checkSum": "dab68033a254abbbca4231e6eb99039a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointGetUseMotor.cs",
+            "_guid": "0518213ee77429445b3cb08e449b2fa2",
+            "_checkSum": "d3e5fe15fcee7a91ac59d5d7708ef5b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointGetUseSpring.cs",
+            "_guid": "409b9ed37107d1e49b4cd6bbef9a1a84",
+            "_checkSum": "3977ceab646780d6fd2c07b9c138ac81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointGetVelocity.cs",
+            "_guid": "b52da5f993334f24c92e98d83f8fff8c",
+            "_checkSum": "e3019fbafb13a8db29c7ca3b611b63fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointSetExtendedLimits.cs",
+            "_guid": "28f68f23c45e70c489f856d85462ef20",
+            "_checkSum": "33df28a3910baaa868657583c7a40fa0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointSetUseAcceleration.cs",
+            "_guid": "8f40d18a21c7591459191ea010993c0a",
+            "_checkSum": "5698e845705926f7ac71c501fa563c2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointSetUseLimits.cs",
+            "_guid": "8d83b35aa1dc80d4fb54ed64a7577d24",
+            "_checkSum": "2568899b1a1758065aa47b78af677101"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointSetUseMotor.cs",
+            "_guid": "10620291eb3673947acf3051fd8117f1",
+            "_checkSum": "a5e7fff951f218e2dec6c14bb1be7b83"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/HingeJoint/HingeJointSetUseSpring.cs",
+            "_guid": "cb30ea4065b806e499f7c2ef1b6886c8",
+            "_checkSum": "04cde45d3d52926e6d8a4078fff4939c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveGetMaximumForce.cs",
+            "_guid": "a6dacbd53fbc92e4696aefee2f0fe0bd",
+            "_checkSum": "d7678f6eea708933a2ced8d2c53db261"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveGetPositionDamper.cs",
+            "_guid": "ba355b99ecb5b4544a6a709688f92bbd",
+            "_checkSum": "a4992a29efdbec6aee3dcf6320b018d8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveGetPositionSpring.cs",
+            "_guid": "713a04f896c086941a5e7102db46f574",
+            "_checkSum": "bff3af6d0249f5e709a1d71c4bbc45d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveGetUseAcceleration.cs",
+            "_guid": "36ce17470a7651e438cf848d70f39555",
+            "_checkSum": "95cf18f27e832fa2112d0b252c04289c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveSetMaximumForce.cs",
+            "_guid": "ff622dd5db1582a49871d724374cfa2a",
+            "_checkSum": "4ba74747a142c9d1292380b864fa0c23"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveSetPositionDamper.cs",
+            "_guid": "a70a20bb2649f1b4887e22377d2b7b50",
+            "_checkSum": "f18a6e1a9312eb2fc9f9d8d927ffe098"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveSetPositionSpring.cs",
+            "_guid": "78ec8cf4cdc3d5e46ac1eedad2010733",
+            "_checkSum": "4e357c819c25c1d432e6ffb539cb6132"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointDrive/JointDriveSetUseAcceleration.cs",
+            "_guid": "c0fb89a7e265c4749811cdfcd63de645",
+            "_checkSum": "11f67e1eefc90f9eb04dea3e27a0f725"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsGetBounceMinVelocity.cs",
+            "_guid": "91049dba8308e464891f785a49292e39",
+            "_checkSum": "f2703db8ca9a301d68446daa6c43a2d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsGetBounciness.cs",
+            "_guid": "0448873c4ee78154b89cb6a3073166da",
+            "_checkSum": "ab201694efe92224dc3582fa87af250f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsGetContactDistance.cs",
+            "_guid": "5978d083ed5b51c40b9f46111ffc2e72",
+            "_checkSum": "815d81417173b90de13b45b9a9d159f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsGetMax.cs",
+            "_guid": "0de6bd13fa91b7d43add8940dca8d07e",
+            "_checkSum": "b8abcc2d150c18531b33890880b6cf46"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsGetMin.cs",
+            "_guid": "90438f37d6c4eae4b958a69ee36cc3fe",
+            "_checkSum": "2c4173831f103e94fb87c7bdddb9b0ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsSetBounceMinVelocity.cs",
+            "_guid": "b9622e1926452304f9f00a80fd381129",
+            "_checkSum": "df7d0f5553e539c2cf9d4e6ea509df91"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsSetBounciness.cs",
+            "_guid": "6a850dbdd69a7ac48a2822f743caa323",
+            "_checkSum": "9487fd70b08f95510930f76da97fe196"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsSetContactDistance.cs",
+            "_guid": "a4e4ff91f296d484ea52493cd2481c11",
+            "_checkSum": "5e23dca8ef36d1902d3c7255218d8d8a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsSetMax.cs",
+            "_guid": "763faf5a48fc4a347b3e84aadd495dca",
+            "_checkSum": "57dcc445c99d8ba75254a8b90324caac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointLimits/JointLimitsSetMin.cs",
+            "_guid": "5a160256b9116a5458bdc2fcb68c451d",
+            "_checkSum": "2f726d009877a8a1a8ab2ac8f3a66b6f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointMotor/JointMotorGetForce.cs",
+            "_guid": "e99049f1a6814d448bd14370a07c07b9",
+            "_checkSum": "957470946f7ce08a43ce4f4c5e0a27d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointMotor/JointMotorGetFreeSpin.cs",
+            "_guid": "85586f52182943a4a9ba2bb05637702f",
+            "_checkSum": "95af316bb9d470b19f4afe96afc081a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointMotor/JointMotorGetTargetVelocity.cs",
+            "_guid": "e3a52e0c34763374f8e0f744569484d1",
+            "_checkSum": "1315e20e965afa14e0026175f7b1a432"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointMotor/JointMotorSetForce.cs",
+            "_guid": "c08eaa3f18d134749baad3b08e57f73b",
+            "_checkSum": "13a2e67c4692584f362eb5ec3a91faa5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointMotor/JointMotorSetFreeSpin.cs",
+            "_guid": "d4e89a9b695158144a14f86804d9176d",
+            "_checkSum": "f8a1347a5b49f9f788241197504b8137"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointMotor/JointMotorSetTargetVelocity.cs",
+            "_guid": "2916fb31a10707941ae3ce2e233b2fab",
+            "_checkSum": "ee28440aea3ec5490aff1c7256a77acf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSpring/JointSpringGetDamper.cs",
+            "_guid": "223418379a62a2d45920cd033fd3577c",
+            "_checkSum": "828ece131836636f21321473c9e38d1e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSpring/JointSpringGetSpring.cs",
+            "_guid": "557d9c8690864574885792f2dfc7ea78",
+            "_checkSum": "2f51c0acb54b7bb0d7c6f0fa5cbf83bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSpring/JointSpringGetTargetPosition.cs",
+            "_guid": "7baa39bf3eac1774cb7d8d5501fb0748",
+            "_checkSum": "ab8453c5f1719bfd1039e7187b4e565c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSpring/JointSpringSetDamper.cs",
+            "_guid": "b30dbe732dc03124ebddc78451c0b479",
+            "_checkSum": "99d71eaab8ec8eef20be003ff8300b7a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSpring/JointSpringSetSpring.cs",
+            "_guid": "474178d8e1a72ce488dc96f3ee5dfa08",
+            "_checkSum": "e61a496d96c3e9e6136d688614d10bc3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/JointSpring/JointSpringSetTargetPosition.cs",
+            "_guid": "c26609a125e67c942b8ed917d58ba6de",
+            "_checkSum": "d3fd7b96f2e6fd5888990a855ba38d4e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimit/SoftJointLimitGetBounciness.cs",
+            "_guid": "40d231f27da5a7943b6038e88c708cfc",
+            "_checkSum": "3539803dcba1fa260c1d1afce6538bf6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimit/SoftJointLimitGetContactDistance.cs",
+            "_guid": "143a00d8b5b1c8a4eb4f22da49a8c119",
+            "_checkSum": "019fbb5461516325ae7b6b286d953d56"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimit/SoftJointLimitGetLimit.cs",
+            "_guid": "0edffb85a88043745bd0b392ac9c7bb7",
+            "_checkSum": "d5ee260d37f257b15fe0013c3a214513"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimit/SoftJointLimitSetBounciness.cs",
+            "_guid": "1bc1bf7b81d64b549a0f2ec0ffe40415",
+            "_checkSum": "056173998b2e23e549ea190ac84e8cd1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimit/SoftJointLimitSetContactDistance.cs",
+            "_guid": "8bfdca54221a6a34c8d4f54696f557ca",
+            "_checkSum": "301b57087c64151ec1c58382da772356"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimit/SoftJointLimitSetLimit.cs",
+            "_guid": "9bbe377c518c86542bb421db3a17f40a",
+            "_checkSum": "08f8afb0995bc3d274917fc79d13d711"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimitSpring/SoftJointLimitSpringGetDamper.cs",
+            "_guid": "e7514dff955c91549a17e8cc61fac3d7",
+            "_checkSum": "35d75d8cf39d2bda5a1e0e278645b013"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimitSpring/SoftJointLimitSpringGetSpring.cs",
+            "_guid": "32fd32434e2ab9447984f029383840a5",
+            "_checkSum": "7155b3d29192682e35ea7ee659723a87"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimitSpring/SoftJointLimitSpringSetDamper.cs",
+            "_guid": "60ba72a357c6fe2439c75eb5540f4093",
+            "_checkSum": "9caacaa2c2685368ace5236da756a546"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SoftJointLimitSpring/SoftJointLimitSpringSetSpring.cs",
+            "_guid": "76cb3ecf909699b4881797b7df44411e",
+            "_checkSum": "923fe00a4d75257b042b144b8fbb625b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointGetDamper.cs",
+            "_guid": "7ab5dac106488724c9c9b9e1492de35a",
+            "_checkSum": "59e50a15f6a67bc1cd5b1ffe5692cf2c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointGetMaxDistance.cs",
+            "_guid": "f4fd669bd729d0f4d8b5b9dd635d663c",
+            "_checkSum": "9fe832ba6fcd5cf9fbf6e98e2c1b1975"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointGetMinDistance.cs",
+            "_guid": "569379b1f1e6b9345b5d1a74217fe5e1",
+            "_checkSum": "d69fe3ab06afb8dd4a2102d7455ae30f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointGetSpring.cs",
+            "_guid": "ca012780c84e4154caa2dd92d084e681",
+            "_checkSum": "0ec035e72fa882a0737d2120379f3dba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointGetTolerance.cs",
+            "_guid": "3cf65421fdfc9714d9c64360305740f1",
+            "_checkSum": "385d3b7d7c197bd30eef8fa8c71e8e60"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointSetDamper.cs",
+            "_guid": "4666769dec915e84ca0c6845d293de19",
+            "_checkSum": "862e0571c7ea11ca6ada731db6aba70c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointSetMaxDistance.cs",
+            "_guid": "fe92178ff9c1c554bbd748230fb57020",
+            "_checkSum": "3e4aeb31fe9da008b912288d33b9d3da"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointSetMinDistance.cs",
+            "_guid": "f164bb96a5420e44a825404eb8a64a6a",
+            "_checkSum": "c2e87105900692eea52da5fdd7f64eb0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointSetSpring.cs",
+            "_guid": "5274dd43089fbfe428c703070ebcd7cb",
+            "_checkSum": "4695d014050305e7d24452b11cea4422"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Joint/SpringJoint/SpringJointSetTolerance.cs",
+            "_guid": "d0156a6360fa97d4b876b11cad5a5012",
+            "_checkSum": "e85d6d60a2b2d90a49a93fffb2dfd6ee"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479577648373
+}

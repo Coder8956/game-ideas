@@ -1,0 +1,75 @@
+.hutong-asset-list-view {
+    flex-grow: 1;
+    background-color: var(--hutong-editor-list-view-background-color);
+}
+
+.hutong-asset-list-view-item {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 4px;
+    flex-shrink: 1;
+    border-bottom-color: var(--hutong-editor-colors-list-item-border_accent);
+    border-bottom-width: 1px;
+    min-height: 25px;
+}
+
+.hutong-asset-list-view-item--indent {
+    padding-left: 22px;
+}
+
+.editor-only-list-view .hutong-asset-list-view-item--selected {
+    background-color: var(--hutong-editor-selected-item-color);
+}
+
+.hutong-asset-list-view-item__icon {
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.hutong-asset-list-view-item__name {
+    margin-left: 4px;
+    overflow: hidden;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+.hutong-asset-list-view-item__foldout {
+    margin-left: 4px;
+    margin-right: 0;
+    margin-top: 3px;
+}
+
+.hutong-asset-list-view-item__foldout > .unity-toggle__input > .unity-toggle__checkmark {
+    background-image: var(--hutong-editor-foldout-icon);
+    height: 16px;
+    width: 16px;
+}
+
+.hutong-asset-list-view-item__foldout > .unity-toggle__input:checked > .unity-toggle__checkmark {
+    background-image: var(--hutong-editor-foldout-on-icon);
+}
+
+.hutong-asset-list-view-item__value {
+    height: 19px;
+    width: 60%;
+}
+
+.hutong-list-view-fsm-template-item {
+    background-color: var(--hutong-editor-colors-header-background);
+}
+
+.hutong-list-view-event-item {
+    background-color: var(--hutong-editor-colors-header-background);
+}
+
+.hutong-list-view-group-item {
+    -unity-font-style: bold;
+}
+
+.unity-collection-view__item--selected {
+    color: var(--unity-colors-default-text);
+}
+

@@ -1,0 +1,492 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.video-player",
+    "_displayName": "Video Player",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control a Video Player component.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Video.VideoPlayer.html",
+    "_icon": "Video/VideoPlayer",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerClockResyncOccurred.cs",
+            "_guid": "6a3ae5c41524a4c48be04b75959a114e",
+            "_checkSum": "ce360cdfceeb024e45314c749eefc99d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerEnableAudioTrack.cs",
+            "_guid": "87620ca0cec3b154986d018c5629032c",
+            "_checkSum": "2753f81bfbd12719a1d0cd024bfcc72c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerErrorReceived.cs",
+            "_guid": "150f254f720804f42bdc2a2670710d9b",
+            "_checkSum": "7f8c916ab211f836c52b5fe4814be7fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerFrameDropped.cs",
+            "_guid": "15b74fdeb83ef7e4e8557a77d5c74400",
+            "_checkSum": "d082faa1aae2f475fbfc0e6af78b6fe4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerFrameReady.cs",
+            "_guid": "8b92793637d003d4c8cd398a7b984965",
+            "_checkSum": "e1d181f8cc88cd554f7cc8516fb7ea8c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetAspectRatio.cs",
+            "_guid": "c48760673649fa4489c3c7fe36517147",
+            "_checkSum": "6cdd9f11ed249e89cf499823a5ea94ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetAudioChannelCount.cs",
+            "_guid": "f8ce936f083c1fc4d8cd8f0ae782cc1e",
+            "_checkSum": "7f6016ff16ca4061ad2ca17150c1dbcb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetAudioLanguageCode.cs",
+            "_guid": "1fd72626a7999db428602ba0ca17ada8",
+            "_checkSum": "7d62717bcd933174318c9ce287ec9c5b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetAudioOutputMode.cs",
+            "_guid": "e405d26e450c29b4e86c8767df60e339",
+            "_checkSum": "48457a1021fa7ace1d32f0a80fe75bf5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetAudioSampleRate.cs",
+            "_guid": "9e74d5b3f234be747a9e46e50c57f622",
+            "_checkSum": "0bf831b51b2f6af7e183087498f73754"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetAudioTrackCount.cs",
+            "_guid": "71f2d096d29bd6247b44e5c352937ead",
+            "_checkSum": "ecf88e14068e7abfc6716214b3d58a59"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetCanSetDirectAudioVolume.cs",
+            "_guid": "9a090a48ceb435f459b8c65b5af6061a",
+            "_checkSum": "faff8906a5cbb260f8ffa50468be2773"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetCanSetPlaybackSpeed.cs",
+            "_guid": "df5e506ae11267c469111502524e8a5a",
+            "_checkSum": "b09fc5e04732fe28d89ac89d7c9b8251"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetCanSetSkipOnDrop.cs",
+            "_guid": "3f3302859c41ace4cb8e6b50ea93cd8e",
+            "_checkSum": "d5da0f073ebe70fd563e6054f5bfcfe2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetCanSetTime.cs",
+            "_guid": "ca89aec0dfef9df4b8b3a5612800d728",
+            "_checkSum": "747e3053b47a558ce5a8f834691208ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetCanSetTimeUpdateMode.cs",
+            "_guid": "c3b09c415368efb4f8cdfd7ec78402ca",
+            "_checkSum": "3e3dcb81e9deeac840ebf06b43ba1511"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetCanStep.cs",
+            "_guid": "dcd248af14c12234fb12c2651e1391e1",
+            "_checkSum": "dd1b85a11b4ef31bf3b5aadc24240af6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetClip.cs",
+            "_guid": "de0f86d57d50db14d921a06f57bbb5c0",
+            "_checkSum": "2883a67a658de1bffe5c9f4cc30e4f02"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetClockTime.cs",
+            "_guid": "7d7f4f63ef22c7343a78060004935b07",
+            "_checkSum": "eabc0a406327fcc9536fb7ed419d4a7f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetControlledAudioTrackCount.cs",
+            "_guid": "5dfb1bd35b9ea08428514c85c41330f1",
+            "_checkSum": "4e3101c2fbeb82443be1459535d477af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetControlledAudioTrackMaxCount.cs",
+            "_guid": "c0ae3d99724558148b1c9d3554b735cd",
+            "_checkSum": "43f5e0fea009f50dcf1fcd26a2add256"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetDirectAudioMute.cs",
+            "_guid": "69a65323475798c41a074a919e0fc8b3",
+            "_checkSum": "2a9fe0a809e3d533de7ef7a5b949215e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetDirectAudioVolume.cs",
+            "_guid": "bba908838d8d2e248b125ee5bbf103d6",
+            "_checkSum": "5744454a1f2007517b1d7f720af73b20"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetExternalReferenceTime.cs",
+            "_guid": "5053f147dd84c064493180c7d0cec0d1",
+            "_checkSum": "6a30c92db594751faa54c9befd3fd6c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetFrame.cs",
+            "_guid": "fc2a8ac529df53a4fa17397dde5264ae",
+            "_checkSum": "7a1c0226d37561fdc923924b9e455002"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetFrameCount.cs",
+            "_guid": "56650db414920c747b63d5308da0cafe",
+            "_checkSum": "7f35e73db20d0fca2c77782cb3949aa5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetFrameRate.cs",
+            "_guid": "95493e8ce6e3c8447a5121aa18e7c71b",
+            "_checkSum": "8147cf1fcaa0f8cf8ef0c50e2672f539"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetHeight.cs",
+            "_guid": "81a94ed3166406d47b9fb8d8c06b9dd9",
+            "_checkSum": "db50f289d6f78033cb9e264b0026e134"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetIsLooping.cs",
+            "_guid": "026865e9c25730746807502ab1d90484",
+            "_checkSum": "2fc12e7cb33a90e8b9eb76c2558d57f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetIsPaused.cs",
+            "_guid": "2b8f6d15ac1bc2f4f9750e0a971341d7",
+            "_checkSum": "0b11d5c5302cb82af8c9c9333706effd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetIsPlaying.cs",
+            "_guid": "51f749cf7bbd5d0478d3dc4f4c992cc6",
+            "_checkSum": "3a6f8954e7d039f60733d357dcd7d6a0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetIsPrepared.cs",
+            "_guid": "160ce3f8fb103be4aa36fa8ba363b4d4",
+            "_checkSum": "ca44db38333a40497a4e2d683f9bf4cd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetLength.cs",
+            "_guid": "f2b294782fc553644b0d2802cd3cff5f",
+            "_checkSum": "8902da74882da524290fc60bac0259a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetPixelAspectRatioDenominator.cs",
+            "_guid": "754d88a26a558a14f8887c13a9f738df",
+            "_checkSum": "42f9b03693276a8a548299ca5d0248a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetPixelAspectRatioNumerator.cs",
+            "_guid": "0857d3b6104ecc142b45c86c32d82aa7",
+            "_checkSum": "bcc08e423e26d00f5d734a302a782e69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetPlaybackSpeed.cs",
+            "_guid": "59b891214266ea4479bad23f93600fc4",
+            "_checkSum": "70e6a64b80651024e011acbfd6c37e5c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetPlayOnAwake.cs",
+            "_guid": "66812f07be58b08458585dd652072a33",
+            "_checkSum": "0fa8e3f28ef18631e94774d0db1456e9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetRenderMode.cs",
+            "_guid": "a0e4ac19e8024f0458adb6e4321474ac",
+            "_checkSum": "9f881600e635a4348f2ddecf713082d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetSendFrameReadyEvents.cs",
+            "_guid": "5f8b9e205dba96349a9c63fd26cfbb07",
+            "_checkSum": "720f96d64b5f5c1ebe23ae6722c7b54e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetSkipOnDrop.cs",
+            "_guid": "46ecc6ffbe44a2f4c95bcaef89fc6733",
+            "_checkSum": "cfd49b09802a989278d70c8ae1cdb052"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetSource.cs",
+            "_guid": "eb543c48725a16d45a461cb6b7205bed",
+            "_checkSum": "f4c62d1a7d7349d090822ed2f4754c38"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTargetAudioSource.cs",
+            "_guid": "c185a1d0e8a0ad049a54b678ce4c8532",
+            "_checkSum": "f97cdff4fd2a342dc3981ee0c6185201"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTargetCamera.cs",
+            "_guid": "02223cd7fff39be4b88f9a3600cd6b40",
+            "_checkSum": "526cbfbe574f01a95db97629614730bb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTargetCamera3DLayout.cs",
+            "_guid": "e9486fda5ab19914cb46bbfd6ad29a72",
+            "_checkSum": "57a2335f6511f961bd5f3ba3ecc3ec11"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTargetCameraAlpha.cs",
+            "_guid": "ae21785fbc5af2e4f89342b383ddea60",
+            "_checkSum": "1d0e3a8d43f41167eb5487cc63727213"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTargetMaterialProperty.cs",
+            "_guid": "476569a15842cc7449154d270b5a6969",
+            "_checkSum": "b6b6e50e6453bf0a3ec22b0d74a0f957"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTargetMaterialRenderer.cs",
+            "_guid": "b3883e348e2c6d242b2b24aff7d9505f",
+            "_checkSum": "54e8d7cb9d3e57227823ae93cc8ba512"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTargetTexture.cs",
+            "_guid": "7145d27965ecc124fbbef749ab805e78",
+            "_checkSum": "a90645cdbe19f40f141620ea45b857f3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTexture.cs",
+            "_guid": "a1c7954e75b70064fb16cad0faa6fd28",
+            "_checkSum": "b8a751bc22ac74da9ad188645c2d8a34"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTime.cs",
+            "_guid": "2c8edfaf41b17ed4ea02474813b07f43",
+            "_checkSum": "3151e66812fd948d13015906744d8e8c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTimeReference.cs",
+            "_guid": "e33ffb65dfae05f4a802cffcb6706f25",
+            "_checkSum": "377e03f7811a256f0a184cf6fe8f2205"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetTimeUpdateMode.cs",
+            "_guid": "dfd49969fc3a78242854c1d3e0615ae8",
+            "_checkSum": "d027dc8e7a02cf809a7f9a4cd4fe3d6a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetUrl.cs",
+            "_guid": "f034add08366efb418a0b998eb60c070",
+            "_checkSum": "84a2430e3072f371aed0231febea7139"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetWaitForFirstFrame.cs",
+            "_guid": "3b1e977c2cffde84e910cd09344890fd",
+            "_checkSum": "79b46454d14262090587188d4ebd4e3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerGetWidth.cs",
+            "_guid": "b20f41bf6ae350140b9df2d8f7498284",
+            "_checkSum": "f8b3f4dda3f7c1e9e31f4093108bf08b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerIsAudioTrackEnabled.cs",
+            "_guid": "d34e8195fd3db5e4cb51c97e634582d5",
+            "_checkSum": "05825dfaf11aa75b23ad456bfff80ba3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerLoopPointReached.cs",
+            "_guid": "ff8b0a03c77a1b84b81bc5348b86abb6",
+            "_checkSum": "47edb1471dcc4fd97127e63d612b8fc4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerPause.cs",
+            "_guid": "a1338d573b088714ba26c6f43bf35df4",
+            "_checkSum": "9d04d06f8adf26f7f33be95451c188b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerPlay.cs",
+            "_guid": "4f90d07bcc2a91e4996a9fe83d4475d7",
+            "_checkSum": "14e9039eaafb707a0c2d233445363996"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerPrepare.cs",
+            "_guid": "815237ebd7ef0c64c8a389ef7a5a869e",
+            "_checkSum": "1dafec74f49829e458e5401d518141a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerPrepareCompleted.cs",
+            "_guid": "48021bf075ffe3a4c876ef23ba8ecb28",
+            "_checkSum": "28eddffc75c6cb1ad6e06f8fc8290702"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSeekCompleted.cs",
+            "_guid": "db4f20b58d7ab194a82f9ef82e2f2b48",
+            "_checkSum": "7af79c387be5a24a1f60072c651f9b3a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetAspectRatio.cs",
+            "_guid": "486f23b5c5b7afe44808f4e053ed4ca2",
+            "_checkSum": "f691e28d0d5774e3d2ae47b6e6d311a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetAudioOutputMode.cs",
+            "_guid": "1813e79e9721b044ab589bc374329981",
+            "_checkSum": "6958d10bb3632ab961bc2b04ca8185f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetClip.cs",
+            "_guid": "9a2fa579c16aa2d4db059dc88fecff43",
+            "_checkSum": "58618755959ac822e9dfda34fe7c3e44"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetControlledAudioTrackCount.cs",
+            "_guid": "f5719d24e91fe824c9027c4f5b0ddcb1",
+            "_checkSum": "dc2a433351284bbc52accf313b4d0fc3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetDirectAudioMute.cs",
+            "_guid": "8c491f698ea430b4599ba0eaa53588f3",
+            "_checkSum": "6588d15e6f3324698091be67b0b4097b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetDirectAudioVolume.cs",
+            "_guid": "3763fcd1692e07d46a5f0a854bc83b50",
+            "_checkSum": "dfc341c97268f08dd9d4157c78367d25"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetExternalReferenceTime.cs",
+            "_guid": "217826c59e614874a80035ac2b57b254",
+            "_checkSum": "f66a0f301ca34d23557a6b033ab99330"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetFrame.cs",
+            "_guid": "395193427b50bfc4fa9e99382a7183df",
+            "_checkSum": "77e97e0b8cd38331ee0a5defae929890"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetIsLooping.cs",
+            "_guid": "f831ca3a90fc07a4593891c01edcfc98",
+            "_checkSum": "63c44bac83b1c60a28c46b9f5108a566"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetPlaybackSpeed.cs",
+            "_guid": "77847c6e0df472f4cb9c4ef290b82d7c",
+            "_checkSum": "564eb9042d1f8517611594b3a47b77aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetPlayOnAwake.cs",
+            "_guid": "459a254f9a4ea94419bd06b7dda515d0",
+            "_checkSum": "f580a1ce9fea5fce9805ed017ac583c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetRenderMode.cs",
+            "_guid": "b4b72465a7a9acb4f9b24e0f8250fdad",
+            "_checkSum": "d92ef0ee118a4592558e401fa4fe02ee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetSendFrameReadyEvents.cs",
+            "_guid": "ddf0addf6638f9a459501331cef1e34b",
+            "_checkSum": "a3a63b61e356f9b92ae4fa8b592ad492"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetSkipOnDrop.cs",
+            "_guid": "faa23b6610026a44fbadb8523f591810",
+            "_checkSum": "9c6622894eb7ce4b05719e86fc545919"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetSource.cs",
+            "_guid": "c8302cd73ff854c47a272feadc0ae366",
+            "_checkSum": "728fe773fe1f7a4094faa6d4bfcf061f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTargetAudioSource.cs",
+            "_guid": "1d96e86957820f6418cc9b5bda9bcc74",
+            "_checkSum": "5857c9191f3cec4265aa2ad4c77f2315"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTargetCamera.cs",
+            "_guid": "e54ae655ad3671f4da86b9e8206cb0f0",
+            "_checkSum": "ba8ae20f8ec7fdf96d1619a20cfe3549"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTargetCamera3DLayout.cs",
+            "_guid": "39bd4d3a04f2bdf408dd47a5d01eb49e",
+            "_checkSum": "cccc9b4f2ca8b16c8d0bba7d4bd83cf3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTargetCameraAlpha.cs",
+            "_guid": "f6987a591ae3ea947a3527175c969693",
+            "_checkSum": "3ec1b7408cd8810652ddf54437832b42"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTargetMaterialProperty.cs",
+            "_guid": "9ef40347fc075734db6350f18bcf2058",
+            "_checkSum": "a2527a2f5152db7518105c58329edfd7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTargetMaterialRenderer.cs",
+            "_guid": "92d8cf887e6fa8747bcbfe79bdb543ec",
+            "_checkSum": "3e34b72a180fba3fa2de912ef6726bd5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTargetTexture.cs",
+            "_guid": "b00b07c862f3674489499dfe3a81fd7c",
+            "_checkSum": "e15c7832b39069d3c395393f0317c465"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTime.cs",
+            "_guid": "9e0ec987c09a8124d87d056452a96a93",
+            "_checkSum": "dda11b5d7195a6452c184b875af2cd42"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTimeReference.cs",
+            "_guid": "6ab1b560907fc4c4fb3505029efa7ba6",
+            "_checkSum": "7bd3ca2e2dd5680284f21e68fb05a8d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetTimeUpdateMode.cs",
+            "_guid": "8d4271f3e877f124b9c9d81d470634e3",
+            "_checkSum": "eab23be73db51fa5aead11984d65bae7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetUrl.cs",
+            "_guid": "aae91e776437d6841a101ad06d603b70",
+            "_checkSum": "f092b629d8cbc0810489a8effdf314d5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerSetWaitForFirstFrame.cs",
+            "_guid": "a2f9f5ab7880f5441bb2c81e675b7441",
+            "_checkSum": "1bc0de234a378d48d328448b8760cc9a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerStarted.cs",
+            "_guid": "46c2be5221fb5434a8d38e0faef014c7",
+            "_checkSum": "0a58e725fc6b797259df2736aac0c6b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerStepForward.cs",
+            "_guid": "d9cfe05199710854ab36fe610824a1e8",
+            "_checkSum": "9fad4529aee5f6ea6d4d58c4d07968b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Video/VideoPlayer/VideoPlayerStop.cs",
+            "_guid": "57fd9b8e930353540900ec079f3f08b6",
+            "_checkSum": "f6808a76c681b5017113d2a2afe60337"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479574181791
+}

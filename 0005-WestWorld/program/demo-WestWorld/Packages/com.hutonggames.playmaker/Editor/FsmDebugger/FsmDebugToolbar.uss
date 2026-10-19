@@ -1,0 +1,128 @@
+
+/*
+ Fsm Debugger
+ */
+
+.hutong-fsm-debug-toolbar {
+    border-top-width: 1px;
+    border-bottom-width: 0;
+}
+
+.hutong-fsm-debug-toolbar__watch-variables {
+    background-image: var(--hutong-editor-debug-watch-icon);
+    background-size: 16px 16px;
+    width: 28px;
+}
+
+.hutong-fsm-debug-toolbar__open-log-button {
+    padding-top: 2px;
+    background-size: 18px 18px;
+    width: 28px;
+}
+
+.hutong-debug-settings-menu {
+    margin-right: 12px;
+    padding-left: 6px;
+    padding-right: 4px;
+}
+
+.hutong-fsm-errors-button {
+    background-image: var(--hutong-editor-no-errors-icon);
+    background-size: 16px 16px;
+    background-position-x: 4px;
+    -unity-slice-right: 0;
+    padding-left: 22px;
+    padding-right: 6px;
+    border-right-width: 0;
+}
+
+.hutong-fsm-errors-button--errors {
+    background-image: var(--hutong-editor-has-errors-icon);
+}
+
+.hutong-fsm-errors-button__prev-error {
+    background-image: var(--unity-back-icon);
+    background-size: 10px 10px;
+    border-right-width: 0;
+    width: 20px;
+    height: 100%;
+}
+
+.hutong-fsm-errors-button__next-error {
+    background-image: var(--unity-forward-icon);
+    background-size: 10px 10px;
+    border-right-width: 0;
+    width: 20px;
+    height: 100%;
+}
+
+
+/*
+ Play Controls
+ */
+
+.hutong-play-controls-toolbar {
+    flex-direction: row;
+}
+
+.hutong-play-controls-toolbar__play-button {
+    background-image: var(--hutong-editor-play-icon);
+    background-size: 16px 16px;
+    border-right-width: 0;
+    width: 36px;
+}
+
+.unity-editor--playing .hutong-play-controls-toolbar__play-button {
+    background-color: var(--unity-colors-highlight-background);
+    background-image: resource("d_PlayButton");
+}
+
+.hutong-play-controls-toolbar__pause-button {
+    background-image: var(--hutong-editor-pause-icon);
+    background-size: 16px 16px;
+    border-right-width: 0;
+    width: 36px;
+}
+
+.unity-editor--paused .hutong-play-controls-toolbar__pause-button {
+    background-color: var(--unity-colors-highlight-background);
+    background-image: resource("d_PauseButton");
+}
+
+.hutong-play-controls-toolbar__step-button {
+    background-image: var(--hutong-editor-step-icon);
+    background-size: 16px 16px;
+    width: 36px;
+}
+
+/*
+ Debug-Flow
+ */
+
+.hutong-debug-flow-toolbar {
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.hutong-debug-flow-toolbar__debug-time{
+    background-color: var(--hutong-editor-colors-debug-value-background);
+    padding-top: 2px;
+    margin-right: 5px;
+    color: rgb(220,220,0);
+}
+
+.hutong-debug-flow-toolbar__prev-button{
+    padding-top: 2px;
+    border-right-width: 0;
+}
+
+.hutong-debug-flow-toolbar__next-button{
+    padding-top: 2px;
+}
+
+.hutong-debug-flow-toolbar__variable-history-disabled{
+    padding-left: 4px;
+    padding-top: 2px;
+    flex-shrink: 1;
+    opacity: 0.6;
+}

@@ -1,0 +1,390 @@
+.hutong-data-table-editor {
+    /*padding-left: 4px;
+    padding-right: 4px;*/
+}
+
+.hutong-data-table-editor__tools-panel {
+    margin-top: 16px;
+}
+
+.unity-multi-column-view__cell > Label {
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    padding: 4px;
+    padding-left: 8px;
+}
+
+.hutong-data-table-editor__sprite-cell {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 0;
+    padding-left: 6px;
+    padding-right: 4px;
+}
+
+.hutong-data-table-editor__sprite-cell-preview {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-right: 6px;
+}
+
+.hutong-data-table-editor__sprite-cell-label {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    align-self: center;
+    -unity-text-align: middle-left;
+    overflow: hidden;
+}
+
+.hutong-data-table-editor__button-row {
+    margin-left: 2px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+/* Small count field next to Add Row */
+.hutong-data-table-editor__add-count {
+    width: 44px;
+    min-width: 44px;
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+/* Make the inner text input a bit tighter (optional) */
+.hutong-data-table-editor__add-count .unity-text-input {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.hutong-data-table-editor__field-row {
+    flex-direction: row;
+    align-items: center;
+    min-width: 0;
+    /*padding-right: 5px;*/
+}
+
+.hutong-data-table-editor__field-row > * {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__field-row > .hutong-variable-var-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor__field-row .unity-base-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor__field-row .unity-base-field__input {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__field-icon {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    align-self: flex-start;
+    margin-top: 2px;
+}
+
+.hutong-data-table-editor__scroll-view {
+    flex-grow: 1;
+    min-height: 0;
+    min-width: 0;
+}
+
+.hutong-data-table-editor__scroll-view > .unity-scroll-view__content-container {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__key-row {
+    flex-direction: row;
+    align-items: center;
+    min-width: 0;
+    margin-left: 3px;
+    margin-bottom: 8px;
+}
+
+.hutong-data-table-editor__key-apply-schema {
+    margin-left: 8px;
+}
+
+.hutong-data-table-editor__key-row Label {
+    width: 40px;
+}
+
+.hutong-data-table-editor__key-row .unity-base-field__label {
+    display: none;
+}
+
+.hutong-data-table-editor__key-row PropertyField {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor__key-row > * {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__key-row .unity-base-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor__key-row .unity-base-field__input {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__list-item {
+    padding: 4px 6px;
+}
+
+.hutong-data-table-editor__list-item > Label {
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    flex-grow: 1;
+}
+
+.hutong-data-table-editor__field-name {
+    width: 40%;
+}
+
+/*
+VariableVarField > .unity-base-field > Label {
+    display: none;
+}*/
+
+
+.hide-variable-toggle .hutong-variable-var-field__variable-toggle {
+    display: none;
+}
+
+.hutong-data-table__mode-button {
+    margin-top:0;
+    margin-right: 0;
+    width: 65px;
+    height: 19px;
+}
+
+.hutong-data-record__data-definition,
+.hutong-data-table-editor__data-definition {
+    margin-right: -2px;
+}
+
+.hutong-data-table-editor--asset .hutong-data-table-editor__data-definition {
+    margin-right: -4px;
+}
+
+.hutong-data-record__data-definition > VisualElement > PropertyField > .unity-base-field > Label,
+.hutong-data-table-editor__data-definition > VisualElement > PropertyField > .unity-base-field > Label {
+    width: 40%;
+    min-width: 40px;
+}
+
+.hutong-data-record__button-row {
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 0;
+    margin-bottom: 8px;
+}
+
+.hutong-data-record__reset-button {
+    width: 140px;
+    margin-left: 6px;
+}
+
+.hutong-data-record__scroll-view {
+    flex-grow: 1;
+}
+
+.hutong-data-record__help-box {
+    margin-bottom: 6px;
+}
+
+/* Hide DataDefinition in controls */
+.hutong-fsm-controls-editor .hutong-data-record__data-definition {
+    display: none;
+}
+
+.hutong-data-table-editor__missing-field {
+    display: none;
+}
+
+.hutong-editor__settings-button {
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: transparent;
+    background-image: var(--hutong-editor-settings-icon);
+    width: 16px;
+    max-width: 16px;
+    height: 16px;
+    border-width: 0;
+    border-radius: 0;
+    margin-right: 0;
+    margin-left: 0;
+    align-self: center;
+}
+
+.hutong-data-record__title {
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    margin-left: 3px;
+}
+
+.hutong-data-table-editor-window {
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor-window__toolbar {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 6px;
+    min-width: 0;
+}
+
+.hutong-data-table-editor-window__target-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+.hutong-data-table-editor-window__target-field > .unity-base-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor-window__target-field .unity-base-field__input {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor-window__target-field .unity-object-field__object {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor-window__header {
+    flex-direction: row;
+    min-width: 0;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.hutong-data-table-editor-window__header-name {
+    -unity-font-style: bold;
+}
+
+.hutong-data-table-editor-window__header-description {
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.hutong-data-table-editor-window__toolbar > Button {
+    flex-shrink: 0;
+}
+
+.hutong-data-table-editor-window__content {
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.hutong-data-table-editor--window {
+    flex-grow: 1;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.hutong-data-table-editor__window-content {
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.hutong-data-table-editor__window-split-view {
+    flex-grow: 1;
+    min-height: 0;
+    min-width: 0;
+}
+
+.hutong-data-table-editor__window-left-pane {
+    flex-grow: 1;
+    min-height: 0;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.hutong-data-table-editor__window-table-container {
+    flex-grow: 1;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.hutong-data-table-editor__window-table {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+}
+
+.hutong-data-table-editor__window-detail-panel {
+    flex-grow: 1;
+    width: 280px;
+    min-height: 0;
+    min-width: 0;
+    border-top-width: 1px;
+    border-top-color: var(--unity-colors-default-border);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.hutong-data-table-editor__window-detail-panel * {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__window-detail-panel .unity-base-field {
+    flex-shrink: 1;
+}
+
+.hutong-data-table-editor__window-detail-panel .unity-base-field__input {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__window-detail-panel .unity-object-field__object {
+    min-width: 0;
+}
+
+.hutong-data-table-editor__window-detail-panel .hutong-variable-var-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+}

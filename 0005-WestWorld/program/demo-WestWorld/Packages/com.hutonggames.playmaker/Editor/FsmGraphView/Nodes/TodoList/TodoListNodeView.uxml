@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/Nodes/TodoList/TodoListNodeView.uss?fileID=7433441132597879392&amp;guid=42492be6991ec234581a0302536714d0&amp;type=3#TodoListNodeView" />
+    <ui:VisualElement name="header" class="hutong-node-view__header">
+        <ui:VisualElement name="icon" picking-mode="Ignore" class="hutong-node-view__icon" />
+        <ui:Label tabindex="-1" name="title" picking-mode="Ignore" enable-rich-text="false" display-tooltip-when-elided="true" text="Todo" class="hutong-node-view__title" />
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" class="hutong-node-view__selection-border" />
+    <ui:VisualElement name="content" picking-mode="Ignore" class="hutong-node-view__content-area hutong-region-view__content-area" />
+</ui:UXML>

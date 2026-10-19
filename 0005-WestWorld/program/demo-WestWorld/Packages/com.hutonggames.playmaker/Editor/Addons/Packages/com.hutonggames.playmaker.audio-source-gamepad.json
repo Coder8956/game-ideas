@@ -1,0 +1,73 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.audio-source-gamepad",
+    "_displayName": "Audio Source Gamepad Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "AudioSource actions for Gamepads.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/AudioSource.html",
+    "_icon": "Audio/AudioSource",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourceDisableGamepadOutput.cs",
+            "_guid": "a2aa6aa82fe954949806dcad1b56ffe0",
+            "_checkSum": "90b584c4a8d5a104d46f43091fa0446c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourceGamepadSpeakerSupportsOutputType.cs",
+            "_guid": "3d3c79a820a3ca943b1212344dbc3eba",
+            "_checkSum": "c6786b66cca125c53edf208bd3dfa4a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourceGetGamepadSpeakerOutputType.cs",
+            "_guid": "88c7ac22054e75444a0c01363a292453",
+            "_checkSum": "c62015f2f791a0f154fb4aa6e9fcfb0c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourcePlayOnGamepad.cs",
+            "_guid": "a1956006355a7fd4693224795986b026",
+            "_checkSum": "64479e4bb684a106dd7e7b32d89fab27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourceSetGamepadSpeakerMixLevel.cs",
+            "_guid": "0f2bf17475bbd424cac410d8b5a83185",
+            "_checkSum": "93fd5572e0b6d607784dc5026f9a8bf9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourceSetGamepadSpeakerMixLevelDefault.cs",
+            "_guid": "1d6e8cd5235e6d34f8db30a73e17f83e",
+            "_checkSum": "b3dda1ed9a423b4a3f3bcefcabc2f341"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourceSetGamepadSpeakerOutputType.cs",
+            "_guid": "05f316beaa56e1143bf82ceb170dac91",
+            "_checkSum": "e91d35ce10e44247e8d2c936063e87d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/AudioSource/Gamepad/AudioSourceSetGamepadSpeakerRestrictedAudio.cs",
+            "_guid": "1bb3521ae37c5b945af1649af00166cd",
+            "_checkSum": "5ef744f2d160eb54083c98af498763b8"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479367492902
+}

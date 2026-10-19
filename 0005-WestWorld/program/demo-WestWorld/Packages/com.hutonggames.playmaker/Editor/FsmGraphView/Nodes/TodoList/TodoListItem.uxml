@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" ue="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/Nodes/TodoList/TodoListItem.uss?fileID=7433441132597879392&amp;guid=d10ecd8dbfc7cae4bb49c42852b9ee6d&amp;type=3#TodoListItem" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <ui:VisualElement class="hutong-todo-list-item" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Toggle binding-path="_complete" class="hutong-todo-list-item__toggle" />
+        <ui:TextField binding-path="_task" multiline="true" class="hutong-editable-label hutong-todo-list-item__text-field" />
+    </ui:VisualElement>
+</ui:UXML>

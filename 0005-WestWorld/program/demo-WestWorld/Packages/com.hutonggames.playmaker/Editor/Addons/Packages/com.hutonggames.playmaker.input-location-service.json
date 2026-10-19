@@ -1,0 +1,132 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.input-location-service",
+    "_displayName": "Input Location Service",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationInfo",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Variables/LocationInfo.cs",
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Variables/LocationServiceStatus.cs"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to get device location.",
+    "_description": "Location Service actions require location permission on supported platforms. Add the permission text in Edit > Project Settings > Player > Other Settings > Configuration > Location Usage Description.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/LocationInfo.html",
+    "_icon": "Input/LocationService",
+    "_tags": [
+        "Actions",
+        "Mobile",
+        "Input"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetAltitude.cs",
+            "_guid": "80d17e2954264054bc72dd91dfdbe726",
+            "_checkSum": "2ba17015acbb00bbcbd7c8d9d1bbf40c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetHorizontalAccuracy.cs",
+            "_guid": "a3b6718a23f04e8991c937ea117bb8d0",
+            "_checkSum": "c40344422ddc1e024426f1dc107b4fc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetIsEnabledByUser.cs",
+            "_guid": "cce85911dfb5e23458cc63de7a47d09a",
+            "_checkSum": "ef7e9202a9be6832747a2a40596548e0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetLastData.cs",
+            "_guid": "5ce5ebe14dd5487698162b3d22b98033",
+            "_checkSum": "dd6263caf3bf12ed96f547ccbda02c74"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetLatitude.cs",
+            "_guid": "cdab2e7598614c61890bc5859389de44",
+            "_checkSum": "4eb8ad4a63d43eaeeabe24b2fa55ac9d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetLongitude.cs",
+            "_guid": "25bf7d1bbae84e3dbdc949131c27a248",
+            "_checkSum": "58829ca02388559bc57c2e8b39b3dfd7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetStatus.cs",
+            "_guid": "7e47bef05f905ee40ab3e65efa87c467",
+            "_checkSum": "08492310d9f89b553526dd5ec77d0fe9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetTimestamp.cs",
+            "_guid": "ef5526380f4241309ae0f277439e85d0",
+            "_checkSum": "61d3fd025fb0bf36c1295d110ae0aadb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceGetVerticalAccuracy.cs",
+            "_guid": "a2504dd1e93d43af84d6c07020107184",
+            "_checkSum": "a85c410063f68513f0dbe4c81291172f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceStart.cs",
+            "_guid": "468560d6407a89a419873b9dec94dde5",
+            "_checkSum": "df062e82b3566c42007e490cccae6faf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationService/LocationServiceStop.cs",
+            "_guid": "695ebd3530795224294dec301023eb02",
+            "_checkSum": "5bcd026aabbe8250e643597dfc92363b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationInfo/LocationInfoGetAltitude.cs",
+            "_guid": "0fa92cb8ace4f684c8b24314ab14beb5",
+            "_checkSum": "4d7d105f7166882e983068da47451365"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationInfo/LocationInfoGetHorizontalAccuracy.cs",
+            "_guid": "cd72cedfe4e2cb44182b054459ff68a0",
+            "_checkSum": "0a17c554cef5d3dde4bc9a6ad40f0571"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationInfo/LocationInfoGetLatitude.cs",
+            "_guid": "3d670126610c467428eae105d79dc30f",
+            "_checkSum": "c7cd72888a35e543d69e705720e30518"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationInfo/LocationInfoGetLongitude.cs",
+            "_guid": "2653cf25a914ff644b00e677932a085a",
+            "_checkSum": "f5a651e245707dd924f3880e03dca192"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationInfo/LocationInfoGetTimestamp.cs",
+            "_guid": "444d1afdc6d6ad246bed5e924aa8c73f",
+            "_checkSum": "90687ae12f2a0e424a0d08902f200da5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Actions/LocationInfo/LocationInfoGetVerticalAccuracy.cs",
+            "_guid": "bb46b28633d66cd4e92699cb3025a692",
+            "_checkSum": "fc7e9ae66e4903336d528193de132662"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Variables/LocationInfo.cs",
+            "_guid": "1b7f404be65c4bec89feb131c98d243a",
+            "_checkSum": "15148371c3b880ca4698df23fd97f951"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/InputLegacy/Variables/LocationServiceStatus.cs",
+            "_guid": "674f8eceee234a8f97d941e9823796b1",
+            "_checkSum": "537008d9ab21bc8a7c74fd95d10cecbe"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479406763622
+}

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Actions/ActionBlocks/ActionBlockListEditor.uss?fileID=7433441132597879392&amp;guid=b3e44d498be04213a64a8281f75247c6&amp;type=3#ActionBlockListEditor" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <ui:VisualElement name="header" class="hutong-action-block-list-editor__header">
+        <ui:VisualElement name="icon" picking-mode="Ignore" class="hutong-action-block-list-editor__header-icon" />
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="hutong-action-block-list-editor__header-title" />
+        <ui:VisualElement display-tooltip-when-elided="true" name="add" class="hutong-action-block-list-editor__add-icon" />
+    </ui:VisualElement>
+    <ui:VisualElement name="content" class="hutong-action-block-list-editor__content" />
+</ui:UXML>

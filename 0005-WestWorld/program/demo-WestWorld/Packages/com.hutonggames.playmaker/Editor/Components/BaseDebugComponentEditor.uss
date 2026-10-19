@@ -1,0 +1,119 @@
+:root {
+    --min: 0;
+    --mid: 30px;
+    --max: 60px;
+}
+
+.debug-panel {
+    flex-grow: 1;
+    flex-direction: row;
+    padding-top: 6px;
+}
+
+.anchors-column {
+    flex-grow: 1;
+    width: 120px;
+    max-width: 110px;
+    flex-shrink: 0;
+}
+
+.debug-column {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 8px;
+    padding-top: 8px;
+}
+
+.debug-toggle > Label {
+    width: 180px;
+    min-width: 60px;
+    flex-shrink: 1;
+}
+
+.anchor-button {
+    position: absolute;
+}
+
+.offset-row {
+    flex-direction: row;
+}
+
+.offset-value {
+}
+
+.offset-type {
+    position: absolute;
+    width: 100px;
+    right: 0;
+}
+
+.offset-row > #offset {
+    flex-grow: 1;
+}
+
+.top-left {
+    left: var(--min);
+    top: var(--min);
+}
+
+.top-center {
+    left: var(--mid);
+    top: var(--min);
+}
+
+.top-right {
+    left: var(--max);
+    top: var(--min);
+}
+
+.middle-left {
+    left: var(--min);
+    top: var(--mid);
+}
+
+.middle-center {
+    left: var(--mid);
+    top: var(--mid);
+}
+
+.middle-right {
+    left: var(--max);
+    top: var(--mid);
+}
+
+.bottom-left {
+    left: var(--min);
+    top: var(--max);
+}
+
+.bottom-center {
+    left: var(--mid);
+    top: var(--max);
+}
+
+.bottom-right {
+    left: var(--max);
+    top: var(--max);
+}
+
+.unity-radio-button__input {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.anchor-position {
+    flex-grow: 0;
+    height: 100px;
+    width: 100px;
+    padding: 8px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.17);
+    position: relative;
+}
+
+PropertyField .unity-base-field > Label{
+    width: 40%;
+}

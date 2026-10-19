@@ -1,0 +1,76 @@
+.hutong-fsm-log-view {
+    background-color:  var(--hutong-log-colors-background);
+    flex-grow: 1;
+}
+
+.hutong-fsm-log-view > ListView {
+}
+
+.hutong-fsm-log-view__empty-hint {
+    margin: 16px;
+    align-self: center;
+}
+
+.hutong-fsm-log-view > TwoPaneSplitView{
+    display: none;
+    position: absolute; 
+    left: 0; 
+    top: 22px; 
+    right: 0; 
+    bottom: 0;
+}
+
+ToolbarButton {
+    padding-top: 2px;
+}
+
+ToolbarToggle {
+    padding-top: 2px;
+}
+
+.hutong-fsm-log-view__collapse-toggle {
+    flex-shrink: 0;
+}
+
+.hutong-fsm-log-view__collapse-toggle > Label {
+    min-width: auto;
+}
+
+.hutong-fsm-log-view__fsm-selector {
+    flex-grow: 1; 
+    border-left-width: 0; 
+    flex-shrink: 0;
+}
+
+.hutong-fsm-log-view__settings {
+    border-left-width: 0;
+    border-right-width: 0;
+    background-image: var(--hutong-editor-settings-icon);
+    background-size: 16px 16px;
+    width: 18px;
+}
+
+.hutong-fsm-log-view__clear-button {
+    flex-shrink: 0;
+}
+
+.hutong-fsm-log-view__list-view {
+    flex-grow: 1;
+}
+
+.hutong-fsm-log-view__break-line {
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: yellow;
+}
+
+.hutong-fsm-log-view__auto-scroll {
+    background-image: var(--hutong-editor-auto-scroll-icon);
+    background-size: 16px 16px;
+    width: 24px;
+    flex-shrink: 0;
+}

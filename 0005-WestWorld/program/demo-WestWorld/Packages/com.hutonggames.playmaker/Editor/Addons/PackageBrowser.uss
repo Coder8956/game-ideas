@@ -1,0 +1,368 @@
+.hutong-package-browser__package-list {
+    flex-grow: 1;
+}
+
+.unity-collection-view__item--selected{
+    color: var(--hutong-editor-colors-bold-text)
+}
+
+.hutong-package-browser__search-field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 8px;
+}
+
+.hutong-package-browser__hide-tags-button {
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.hutong-package-browser__installed-toggle {
+    max-width: 60px;
+    align-self: center;
+}
+
+.hutong-package-browser__settings-button {
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: var(--hutong-editor-settings-icon);
+    width: 16px;
+    max-width: 16px;
+    height: 16px;
+    border-width: 0;
+    border-radius: 0;
+    margin-right: 0;
+    margin-left: 0;
+    align-self: center;
+}
+
+.hutong-package-browser__package-list-panel {
+    flex-grow: 1;
+    min-width: 300px;
+}
+
+.hutong-package-item {
+    flex-direction: row;
+    align-items: center;
+    height: 51px;
+    flex-shrink: 0;
+    padding: 8px;
+    padding-top: 4px;
+    padding-bottom: 0;
+    background-color: var(--unity-colors-box-background);
+
+}
+
+.unity-list-view__item {
+    border-bottom-width: 1px;
+    border-color: var(--unity-colors-button-border_accent);
+}
+
+.hutong-package-browser__package-list .unity-collection-view__item:hover {
+    background-color: var(--editor-colors-list_item-background-hover);
+}
+
+.hutong-package-browser__package-list .unity-collection-view__item--selected,
+.hutong-package-browser__package-list .unity-collection-view__item--selected:hover {
+    background-color: var(--unity-colors-highlight-background);
+}
+
+.hutong-package-item__status {
+    min-width: 20px;
+    min-height: 20px;
+    flex-shrink: 0;
+}
+
+.hutong-package-item__installed {
+    background-image: var(--hutong-editor-installed-icon);
+}
+
+.hutong-package-item__needs-update {
+    background-image: var(--hutong-editor-update-icon);
+}
+
+.hutong-package-item__install-changed {
+    background-image: var(--hutong-editor-refresh-icon);
+}
+
+.hutong-package-item__import {
+}
+
+.hutong-package-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0;
+    margin-right: 8px;
+    flex-grow: 0;
+}
+
+.hutong-package-installed {
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+
+.hutong-package-info-container {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 2px;
+}
+
+.hutong-package-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}
+
+.hutong-package-summary {
+    opacity: 0.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hutong-package-item__tags {
+    background-color: var(--unity-colors-box-background);
+    flex-direction: row;
+    padding-left: 38px;
+    margin-top: 0;
+}
+
+.hutong-editor-tag {
+    margin: 4px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: var(--hutong-editor-colors-text-dimmed);
+    flex-grow: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+.hutong-package-item__tag {
+    opacity: 0.8;
+    margin: 4px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: var(--hutong-editor-colors-text-dimmed);
+    flex-grow: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+.hutong-package-tag {
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: var(--hutong-editor-colors-text-dimmed);
+}
+
+.hutong-package-browser__preview-panel {
+    padding: 16px;
+    min-width: 200px;
+}
+
+.hutong-package-browser__preview-panel-version {
+    opacity: 0.7;
+    -unity-font-style: bold;
+    flex-shrink: 0;
+    margin-left: 8px;
+    flex-grow: 1;
+    -unity-text-align: middle-right;
+}
+
+.hutong-package-browser__preview-panel-scroll-view {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.hutong-package-browser__preview-panel-title-container {
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hutong-package-browser__preview-panel-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.hutong-package-browser__preview-panel-title {
+    -unity-font-style: bold;
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 8px;
+    flex-shrink: 1;
+}
+
+.hutong-package-browser__preview-panel-help {
+    background-image: var(--hutong-editor-help-icon);
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-width: 0;
+    background-color: transparent;
+}
+
+.hutong-package-browser__preview-panel-summary {
+    opacity: 0.8;
+    white-space: normal;
+    margin-bottom: 16px;
+}
+
+.hutong-package-browser__preview-panel-screenshot {
+    margin-bottom: 16px;
+}
+
+.hutong-package-browser__preview-panel-description {
+    opacity: 0.8;
+    white-space: normal;
+    margin-bottom: 24px;
+}
+
+.hutong-package-browser__preview-panel-release-notes {
+    margin-top: 8px;
+    margin-right: 16px;
+    opacity: 0.5;
+    background-color: rgba(0,0,0,.1);
+    padding: 4px;
+    white-space: normal;
+    margin-bottom: 24px;
+}
+
+.hutong-package-browser__preview-panel-markdown {
+    margin-bottom: 24px;
+}
+
+.hutong-package-browser__preview-panel-header {
+    -unity-font-style: bold;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.hutong-package-browser__preview-panel-dependencies {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    white-space: normal;
+    -unity-paragraph-spacing: 40px;
+    opacity: 0.5;
+    background-color: rgba(0,0,0,.1);
+    margin-right: 16px;
+    padding: 8px;
+}
+
+.hutong-package-browser__preview-panel-usages {
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+    background-color: rgba(0,0,0,.1);
+}
+
+.hutong-package-browser__preview-panel-scenes {
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+    background-color: rgba(0,0,0,.1);
+    padding: 4px;
+}
+
+.hutong-package-browser__preview-panel-scene {
+    margin-bottom: 4px;
+}
+
+.hutong-package-browser__preview-panel-files {
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    flex-grow: 1;
+    opacity: 0.5;
+    background-color: rgba(0,0,0,.1);
+}
+
+.unity-tree-view__item-content{
+    margin-top: 3px;
+}
+
+.hutong-package-browser__preview-panel-buttons {
+    flex-direction: row;
+    align-self: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.hutong-package-browser__import-button,
+.hutong-package-browser__check-usages-button,
+.hutong-package-browser__remove-button {
+    margin-top: 16px;
+    height: 24px;
+    width: 150px;
+    flex-shrink: 1;
+}
+
+.hutong-package-browser__preview-panel-buttons .hutong-package-browser__import-button,
+.hutong-package-browser__preview-panel-buttons .hutong-package-browser__check-usages-button,
+.hutong-package-browser__preview-panel-buttons .hutong-package-browser__remove-button {
+    margin-top: 0;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.preview-action {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.preview-action__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.preview-action__label {
+    cursor: link;
+}
+
+.hutong-tag-ai {
+    background-color: var(--hutong-tag-color-ai);
+    border-color: transparent;
+}
+
+.hutong-tag-ui {
+    background-color: var(--hutong-tag-color-ui);
+    border-color: transparent;
+}
+
+.hutong-tag-2d {
+    background-color: var(--hutong-tag-color-2d);
+    border-color: transparent;
+}
+
+.hutong-tag-audio {
+    background-color: var(--hutong-tag-color-audio);
+    border-color: transparent;
+}
+
+.hutong-tag-animation {
+    background-color: var(--hutong-tag-color-animation);
+    border-color: transparent;
+}
+
+.hutong-tag-physics {
+    background-color: var(--hutong-tag-color-physics);
+    border-color: transparent;
+}

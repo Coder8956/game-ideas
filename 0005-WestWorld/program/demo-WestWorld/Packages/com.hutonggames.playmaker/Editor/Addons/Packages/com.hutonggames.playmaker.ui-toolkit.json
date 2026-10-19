@@ -1,0 +1,568 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ui-toolkit",
+    "_displayName": "UI Toolkit",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Runtime UI Toolkit actions and variable types.",
+    "_description": "Adds runtime PlayMaker support for Unity UI Toolkit, including UIDocument, VisualElement querying, common control events, and value access for core UI controls.",
+    "_helpUrl": "https://docs.unity3d.com/Manual/UIElements.html",
+    "_icon": "UI Toolkit",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Utility/UIToolkitQueryUtility.cs",
+            "_guid": "91f78a4c6f4ee484d8aecf697c2d47ef",
+            "_checkSum": "197afc5ddfdbfe412705c355e5c6504b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/Button.cs",
+            "_guid": "d688e2536f07f354fbbea5152e1f5129",
+            "_checkSum": "d0588b9aab6d9433110a193d4a3e1573"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/DisplayStyle.cs",
+            "_guid": "e30436d2d0f6f304a9a568dadeb1996f",
+            "_checkSum": "6b4835a565b8bdaf81a39177fa0b8921"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/DropdownField.cs",
+            "_guid": "5ba6e34932bf4ca2a2c4f5bb1c88d9d4",
+            "_checkSum": "5ea702488f3fb5a60914de0d2d8c6957"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/EnumField.cs",
+            "_guid": "d239b0850cfe4ea097a2d371d4ccf27e",
+            "_checkSum": "8867199af710a3447f88650ef6bb5f6e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/Foldout.cs",
+            "_guid": "94b6ff5c94d4425ca6f7c1ef5db8b567",
+            "_checkSum": "1aa45c65a807c2b4f3108caa8240169f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/Label.cs",
+            "_guid": "b7f1fed7769c33c4cb5e66f056c5f087",
+            "_checkSum": "8c7268129080518ff301673467bb2b8b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/MinMaxSlider.cs",
+            "_guid": "0405d1fb4eb845649fc80d52d0de654f",
+            "_checkSum": "54a729ed0805155689f3f2211e7079e8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/PanelSettings.cs",
+            "_guid": "b85d6931da3742c29808e42d834bb4ac",
+            "_checkSum": "7bf470cc5875cec5704974d3794e6b88"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/Position.cs",
+            "_guid": "7587485eab5847d0b4dba5c2fd90288a",
+            "_checkSum": "9410e8be9fb6881cc3fc3300806f84b1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/ProgressBar.cs",
+            "_guid": "c8dd688e9afe4c3cbfc087ed341fd3b4",
+            "_checkSum": "eb7c398fdcd592e8c6b2aa9625b8226d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/RadioButton.cs",
+            "_guid": "fbfafc11c75448ffb4edecdf1d631937",
+            "_checkSum": "a65645c942dd97a5a006e45f39c23093"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/RadioButtonGroup.cs",
+            "_guid": "597c822a6fbe42bdbf5c2b166c450fc4",
+            "_checkSum": "5ffb3cedffa7dc6b33b5521a7c7087b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/Slider.cs",
+            "_guid": "17882235bc7c4dd8bff155d9f9850b59",
+            "_checkSum": "0bef7d536ca08b4a941763dfc206bc04"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/SliderInt.cs",
+            "_guid": "57c19c0e559f4c42a9d3e78c8fbe7ed8",
+            "_checkSum": "53b67d4126b90288d1f1ab3fe20e4491"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/TextField.cs",
+            "_guid": "c7b94aa73eb729441bd91692d1098e8e",
+            "_checkSum": "cee9be40502186485e2301d29051ee75"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/Toggle.cs",
+            "_guid": "b9287481cfe5f1642b332d5579bd8120",
+            "_checkSum": "65c6df1f270d398f939dec582c2377bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/UIDocument.cs",
+            "_guid": "13a41cee1db54c646980522dc8a17167",
+            "_checkSum": "27ef7c40669f0cfb98d85b0a4483b0e6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/Visibility.cs",
+            "_guid": "f753f61e71604171ad70edbf968655da",
+            "_checkSum": "9358f4572c5d0ea15e31807e4ea52dca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Variables/VisualElement.cs",
+            "_guid": "1590c52d61fee7e4ebe45f9d0d6cda12",
+            "_checkSum": "ce0c0ec5c0f0e4877077698eeecd177e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Button/ButtonOnClick.cs",
+            "_guid": "d752ab11110416c4bb99215d601222ab",
+            "_checkSum": "ea993f5d89b0c3b2fbf9d5d0258df303"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldAddChoice.cs",
+            "_guid": "be01b08329ef4d8d912cd95eb73fd6b9",
+            "_checkSum": "8526ba7c290768cc39231a9f00f26e52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldAddChoiceIfMissing.cs",
+            "_guid": "9782739c58544f658feae83051d18aad",
+            "_checkSum": "d0f0114fb61c49b0996541a4b6f4d1a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldGetChoices.cs",
+            "_guid": "3d61660724064af0bff4a94d0fa7c29c",
+            "_checkSum": "6110a23c1b1a48082e18c45336c83130"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldGetValue.cs",
+            "_guid": "e0d2624dffaf4180ad7d1fb43ed72a5a",
+            "_checkSum": "0e6ba82ed842c11cdd2a42da57528c64"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldOnValueChanged.cs",
+            "_guid": "ca5be7f6d7e74832a0c0b7755df21884",
+            "_checkSum": "a17a9ae369d1588c5d47158130e6989b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldRemoveChoice.cs",
+            "_guid": "0d1683a5ca3340d38e03580936e8456e",
+            "_checkSum": "babbf63f1c195510afecd4c363f47772"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldSetChoices.cs",
+            "_guid": "1eb9ac5d74b242c88410ad0eca608fbf",
+            "_checkSum": "0a94bc81c72936b84e685c4c7eecfbb1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldSetIndex.cs",
+            "_guid": "d3330f73041c4fdd9d56e0ad31301bc8",
+            "_checkSum": "c0b763eb539cdceadbe8a9987e6523b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldSetValue.cs",
+            "_guid": "7e413a88d3c145efbf49531a4f02db12",
+            "_checkSum": "3135834431534df68c201d20d99ca72d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/DropdownField/DropdownFieldSetValueWithoutNotify.cs",
+            "_guid": "46df224a6fc54a5995aee30b40b1bbfa",
+            "_checkSum": "024c5b28d4643f19a5a82c9495457b81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/EnumField/EnumFieldGetValue.cs",
+            "_guid": "f8ab279786ff4677ae091cc7001f176b",
+            "_checkSum": "910f756bed530a95bb29359211eb01ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/EnumField/EnumFieldOnValueChanged.cs",
+            "_guid": "d91fb37d7bb64345a3fd2146044c459d",
+            "_checkSum": "f0872786eab9b0422ef378f5e144ab16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/EnumField/EnumFieldSetValue.cs",
+            "_guid": "5250b818e7cc43409bf7c8ce202c2691",
+            "_checkSum": "7742a8092ba71fb1b4cae963cc306e20"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/EnumField/EnumFieldSetValueWithoutNotify.cs",
+            "_guid": "784ce95ca97f4ee8adb89894bcc7adbd",
+            "_checkSum": "888d4fba57c49feff3d4d41e882404d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Foldout/FoldoutGetValue.cs",
+            "_guid": "5c80e6872edf4d8ba232ce95bd47602b",
+            "_checkSum": "a98f3c03ff1bd35efeffb4af0fdd69fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Foldout/FoldoutOnValueChanged.cs",
+            "_guid": "cf9cd194f96f4118afc0a2a0fb3fd83f",
+            "_checkSum": "a619139cdfde0613ed395deb866c8e09"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Foldout/FoldoutSetValue.cs",
+            "_guid": "286b79c7350b4b84a74c6535d233d0c4",
+            "_checkSum": "b793bbecc9678a7494af0339d2539404"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Label/LabelSetText.cs",
+            "_guid": "b70dbcc73d173354badb64f0b93225be",
+            "_checkSum": "5aaebee1e8650b1a75bc30cf6cd275c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/MinMaxSlider/MinMaxSliderGetValue.cs",
+            "_guid": "2870ab2c76f94f8e9c0f8d733ff70264",
+            "_checkSum": "04d65124af66669293c37c7e77f16b68"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/MinMaxSlider/MinMaxSliderOnValueChanged.cs",
+            "_guid": "b465a53e6cbc495aa953fe094955b786",
+            "_checkSum": "652a343fdf1cc6d0cea877c161e8d671"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/MinMaxSlider/MinMaxSliderSetValue.cs",
+            "_guid": "4d721d636ddd49efa1d153d9db5b7e72",
+            "_checkSum": "3ddcf3f022c53a8ce9f7a47c49123ffe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/PanelSettings/PanelSettingsGetSortingOrder.cs",
+            "_guid": "8ce9977d08974fa9a6226a5476586b1d",
+            "_checkSum": "4bd7cd8e4f91adaeff8dafdeace76463"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/PanelSettings/PanelSettingsGetTargetTexture.cs",
+            "_guid": "bf7f7c3af830405ea0e1d1c303cfc330",
+            "_checkSum": "40d9e97e1e8d969c679481f6807fcd84"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/PanelSettings/PanelSettingsSetSortingOrder.cs",
+            "_guid": "86ee4ed5a6d14d8c92566225a225d6eb",
+            "_checkSum": "384a9763e91f1c126a74964a058095ae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/PanelSettings/PanelSettingsSetTargetTexture.cs",
+            "_guid": "682a4f94580245c4b069ca85f3920c1e",
+            "_checkSum": "9bc382546b58313230388c9d2c3e681c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/ProgressBar/ProgressBarGetValue.cs",
+            "_guid": "10b347fda06e462eb769a334ce6db22e",
+            "_checkSum": "b2adf13b3d343a8d731d669e4d027a50"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/ProgressBar/ProgressBarSetValue.cs",
+            "_guid": "2b8307bcff8a4400bb3d0b31014be674",
+            "_checkSum": "57c62745d21c39bf34ac182dc0cebe88"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButton/RadioButtonGetValue.cs",
+            "_guid": "264e9042911548a5badf495fc17d111a",
+            "_checkSum": "848b5d553e469a904db5ef93909f6ec7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButton/RadioButtonOnValueChanged.cs",
+            "_guid": "7388273b262c4dc4baa4d16f6cb5cd53",
+            "_checkSum": "3ce4576811f6543c01e2995db7cc26fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButton/RadioButtonSetValue.cs",
+            "_guid": "626ec0a69cf34b4e8afd282d063f5ea6",
+            "_checkSum": "5c6d03326cbe5fb798e55d303115dafd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButton/RadioButtonSetValueWithoutNotify.cs",
+            "_guid": "2349e4c8ca4c4bc3ae650fa2c5ed60fe",
+            "_checkSum": "d946c3f7b890075421dce49e1d039047"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButtonGroup/RadioButtonGroupGetValue.cs",
+            "_guid": "3df8bfec268848c8b5c6fd1274d3bf08",
+            "_checkSum": "406bea95f79cb1619dedca768efe9f1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButtonGroup/RadioButtonGroupOnValueChanged.cs",
+            "_guid": "f97d0d24f2bd4fa3adb765dcedd346f3",
+            "_checkSum": "6a6a3f75840fa27384ab670902e78308"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButtonGroup/RadioButtonGroupSetValue.cs",
+            "_guid": "3bf699bac4914e0b9da8ed2022d6d28c",
+            "_checkSum": "aa89480d82a98614c458362c1a92f586"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/RadioButtonGroup/RadioButtonGroupSetValueWithoutNotify.cs",
+            "_guid": "0d676a5c498643ba93d49fca993e709d",
+            "_checkSum": "0cec17309c43321dbd5a3357294e8560"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Slider/SliderGetValue.cs",
+            "_guid": "0b558daffab641ae92ce42e68a7574f3",
+            "_checkSum": "94daf7fe43b950bd1158c499a44b29a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Slider/SliderOnValueChanged.cs",
+            "_guid": "9c58551073184fc89a38392525f3f4d4",
+            "_checkSum": "2f7a0496fe981e1429fb92d79e0e3948"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Slider/SliderSetValue.cs",
+            "_guid": "1122f6764cb44c5587165f2c449c2faa",
+            "_checkSum": "9112a1412a16ec6bed7c08f21d0504b0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Slider/SliderSetValueWithoutNotify.cs",
+            "_guid": "bd628f685ca349fbb5ed70a5f20da1e8",
+            "_checkSum": "273050c52959fd15012bdc862b1dae67"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/SliderInt/SliderIntGetValue.cs",
+            "_guid": "9347ebc978914a76b5fbdfab890e2b91",
+            "_checkSum": "297fd05d058b81b0b28f758c33bb5604"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/SliderInt/SliderIntOnValueChanged.cs",
+            "_guid": "5230746c8cc945db8dc1e16eb07c357c",
+            "_checkSum": "e34dcb451522fb6506f1742357ab8597"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/SliderInt/SliderIntSetValue.cs",
+            "_guid": "c52c8fe4f9324294b01be1ef65616a36",
+            "_checkSum": "d30ed7bd884776dd0407c13cb8aefccc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/SliderInt/SliderIntSetValueWithoutNotify.cs",
+            "_guid": "3e7a8fe8d8db44d2b52635bde865d743",
+            "_checkSum": "56fa6237a986323c480e983239b752ec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/TextField/TextFieldGetValue.cs",
+            "_guid": "34de6269810600d49a815b9abb143f91",
+            "_checkSum": "86d44505045c0c5b482c2df80c2bed76"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/TextField/TextFieldOnValueChanged.cs",
+            "_guid": "d9354516d2ab8de46a21a64beb37add5",
+            "_checkSum": "ff9e3bdb3ee0e71dd90a2d6eb112c802"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/TextField/TextFieldSetValue.cs",
+            "_guid": "c10eb9e5a92431047a9aeb7aea2e6ec6",
+            "_checkSum": "937a4db6d0b048853adf481338da6fc2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/TextField/TextFieldSetValueWithoutNotify.cs",
+            "_guid": "5a0e9f12978d43888f6297edf1a0c49e",
+            "_checkSum": "cb11a4ed8422d76d2ddf473b379cd770"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Toggle/ToggleGetValue.cs",
+            "_guid": "015950646369f6b4eaacbd89ba2cc8ba",
+            "_checkSum": "2399f831c3eed6b7a367dcdfb5b16467"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Toggle/ToggleOnValueChanged.cs",
+            "_guid": "5c5445858056b614e831832705a5108f",
+            "_checkSum": "aa58a46a38ff897a423e11a1724cf3fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Toggle/ToggleSetValue.cs",
+            "_guid": "574c8756f97bcd944879423aa7e12f0e",
+            "_checkSum": "2359f62fddaf675a024d0c625a75a1c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/Toggle/ToggleSetValueWithoutNotify.cs",
+            "_guid": "0fc7ecb6d2fb4528bef7707ee1b21368",
+            "_checkSum": "80b7675cf6f704cd11ce01481d858978"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/UIDocument/UIDocumentGetPanelSettings.cs",
+            "_guid": "a7a59e77732846f68e4c3a50725d4bc9",
+            "_checkSum": "d74dd13f8891bcd67d375701c8ebb9aa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/UIDocument/UIDocumentGetRootVisualElement.cs",
+            "_guid": "bd72b03e5631c97419d6fe7ce0ed3130",
+            "_checkSum": "915994e11d58ef7cc34caf21e1b179d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/UIDocument/UIDocumentQuery.cs",
+            "_guid": "f8fb3adf209f9c34bbf1e79a03e7b145",
+            "_checkSum": "a3176cdc1830d184ee42c71e165d6417"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementAddToClassList.cs",
+            "_guid": "ee1f2637a14846f791078db3c5f037c7",
+            "_checkSum": "87e17a8ea1d94841ae1e02ddc8fa7556"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementBringToFront.cs",
+            "_guid": "034b16414fbb4ed1982579f405d0dfe0",
+            "_checkSum": "66b5a39b423ed2ea74a644de6833a6de"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementClassListContains.cs",
+            "_guid": "dfd9b6ca2d294f9e9d2c61cab8337cae",
+            "_checkSum": "c5374ebdcd825a6ae27c7459de53871a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementClearClassList.cs",
+            "_guid": "71c860eb831843e8b0f7a0a7fd89c7da",
+            "_checkSum": "f9f200ff2c58a8748178559cd4db36b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementEnableInClassList.cs",
+            "_guid": "b6a67d901edf4242b193c48d152d9b88",
+            "_checkSum": "eccd036abc6fcd9bc67e2b46897555d7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementHide.cs",
+            "_guid": "6fc0f858970c45a3985d86d6ce6118c1",
+            "_checkSum": "3de45159866634abd4f84b5fb3824cc0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementPlaceBehind.cs",
+            "_guid": "aa5dcebf3f2c470eb72be852d6447f09",
+            "_checkSum": "df6cae233527f9f9eefda3dfff022e3b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementPlaceInFront.cs",
+            "_guid": "9c11c8a6c6c2496193bf272743e9ec51",
+            "_checkSum": "0f446b241d40e47464bd6d21fa9233ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementQuery.cs",
+            "_guid": "4272dd07c01874d4aabc50f1b9ad9684",
+            "_checkSum": "f89f4e8aa8af54a9ae894438add1c370"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementRemoveFromClassList.cs",
+            "_guid": "8fd696ff917147e999c89632e6d497cc",
+            "_checkSum": "0a2f10cfc1c6b50c6c8b031afdfab433"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSendToBack.cs",
+            "_guid": "f39de0b9a0e74de0a6af508cc13db11f",
+            "_checkSum": "b8e8cddcf6b88933799c67dbe60472c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetBackgroundColor.cs",
+            "_guid": "665e7c9d24134ea58dbf7f01ba0b36b9",
+            "_checkSum": "c54ebaf9c9e1991a4466be8287b1c2f1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetBackgroundImage.cs",
+            "_guid": "389d6ec8db7d48acbcaf88ae95229fa8",
+            "_checkSum": "d21845bf2c33bc7c8db6919ffbdc107d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetBottom.cs",
+            "_guid": "a0cf9d1626e2480d8418e9d0bf6d4d89",
+            "_checkSum": "23cc5adfa9ec86e3070ecdc774b7ca43"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetColor.cs",
+            "_guid": "74cac2b9c7ef44a38b0451b653af5424",
+            "_checkSum": "dcff47e74e85592e7461ba741cd0a46c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetDisplay.cs",
+            "_guid": "fb4e4cc843fbfca48ba78aff626a72f3",
+            "_checkSum": "c23947a82cc605cf63e2d6c65a4c5423"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetEnabled.cs",
+            "_guid": "06368392c49466b4689e0e4d1c313297",
+            "_checkSum": "9ddf626933b542e4e2a0df421d60244c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetHeight.cs",
+            "_guid": "f5c9e7c4d941442e8fef7c3dcc85e6a8",
+            "_checkSum": "7b387d571c461508274e948f172c237e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetLeft.cs",
+            "_guid": "97d5029fa12f413f8128330517359208",
+            "_checkSum": "ca3ef5811e71927a81b41cf2914752f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetOpacity.cs",
+            "_guid": "4fa366af4f6c41e182c8ea136fc1b672",
+            "_checkSum": "719097bd754741cad23513945c494a3c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetPosition.cs",
+            "_guid": "afc910ae9c6949548e657d5d1886725d",
+            "_checkSum": "dd98190c73dce3115a11dfd1d4e679db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetPositionType.cs",
+            "_guid": "96ec2c4c60db4a2caf64c881983bd9cf",
+            "_checkSum": "63b0f767800c828febe55fc957fa726f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetRight.cs",
+            "_guid": "11273d4e9a9546849696e6cd1d67f755",
+            "_checkSum": "b86a96ac8e10c344d3d682f102f312a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetRotate.cs",
+            "_guid": "38608e6ff5de41108f214f6587daa496",
+            "_checkSum": "29ab39413f845018946592ed07da7907"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetScale.cs",
+            "_guid": "852ab68f9ba64848b07199765bd7efa5",
+            "_checkSum": "53d9e0d35e4a8f02592554885b565ee1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetSize.cs",
+            "_guid": "92b2f8fbcac94ce4bf903a0fe19feefd",
+            "_checkSum": "5d7f9f202cd1ea8f4e8a609c0d6da082"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetTop.cs",
+            "_guid": "352423b95374475ab6aa456fd84acb0d",
+            "_checkSum": "0d81a8e6d46941b308fb83072a9e9865"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetVisibility.cs",
+            "_guid": "bf5bbd997be7424ab59f8dac07285061",
+            "_checkSum": "c7f5b0e1472883d73ac7bb82e3ec0291"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSetWidth.cs",
+            "_guid": "c6552ba71d464a08879157a7672ec646",
+            "_checkSum": "77cdc47b1f3d77c2ca5367112e145d90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementShow.cs",
+            "_guid": "2d660661f1f74dbb8842ab90014e9a10",
+            "_checkSum": "130feef4380f75c368e589b74abe182d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementSort.cs",
+            "_guid": "7ece9b2cd51845a6b32f372e689d305c",
+            "_checkSum": "c5b6d56000630caeaae70d33e9afa622"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UIToolkit/Actions/VisualElement/VisualElementToggleInClassList.cs",
+            "_guid": "2b965bb7cb18448daee6b7fc0df9196c",
+            "_checkSum": "b050e53e7f1f71d84a9ddec612fcd8d4"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b71",
+    "_datePublished": "2026-06-16",
+    "_timeCode": 134261105719602626
+}

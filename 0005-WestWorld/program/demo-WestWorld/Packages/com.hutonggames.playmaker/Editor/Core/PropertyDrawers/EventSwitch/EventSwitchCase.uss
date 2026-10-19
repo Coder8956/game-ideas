@@ -1,0 +1,71 @@
+.hutong-event-switch-case {
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+}
+
+.hutong-event-switch-case__label {
+    width: 40px;
+    align-self: center;
+    margin-left: 4px;
+}
+
+.hutong-event-switch-case__event-column {
+    flex-direction: column;
+    width: 50%;
+}
+
+.hutong-event-switch-case .hutong-ref-dropdown__label {
+    display: none;
+}
+
+.hutong-event-switch-case .unity-base-field__label {
+    display: none;
+}
+
+.hutong-event-switch-case > EventRefField > TextField > Label {
+    display: none;
+}
+
+.hutong-event-switch-case > PropertyField > VariableVarField > TextField > Label {
+    display: none;
+}
+
+.hutong-event-switch-case > PropertyField {
+    width: 50%;
+    margin-top: 1px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+
+.hutong-event-switch-case > EventRefField {
+    margin-left: 2px;
+    padding-left: 0;
+    width: 50%;
+}
+
+.hutong-event-switch {
+    margin-left: 8px;
+}
+
+.hutong-event-switch > ListView {
+    margin-right: 3px;
+}
+
+.hutong-event-switch__title {
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+
+.hutong-event-switch #unity-list-view__reorderable-handle {
+    padding-top: 10px;
+}
+
+.hutong-event-switch #unity-list-view__reorderable-item__container {
+    padding-left: 0;
+}
+
+.hutong-event-switch__default-event {
+    padding-left: 2px;
+}

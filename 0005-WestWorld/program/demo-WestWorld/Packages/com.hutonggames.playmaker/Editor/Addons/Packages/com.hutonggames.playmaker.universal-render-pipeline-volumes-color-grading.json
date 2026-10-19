@@ -1,0 +1,162 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.universal-render-pipeline-volumes-color-grading",
+    "_displayName": "URP Volume Color Grading",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.universal-render-pipeline-volumes"
+    ],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.render-pipelines.universal",
+            "MinimumVersion": "14.0.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "",
+    "_summary": "Color grading actions for URP Volumes.",
+    "_description": "Adds PlayMaker support for URP Volume color grading overrides including white balance, tonemapping, split toning, and channel mixer controls.",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/manual/VolumeOverrides.html",
+    "_icon": "Rendering/URP Volumes",
+    "_tags": [
+        "Actions",
+        "Render",
+        "URP"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/HutongGames.PlayMaker.UniversalRenderPipelineVolumesColorGrading.asmdef",
+            "_guid": "fb23fe5712db498595659c42f25a3b97",
+            "_checkSum": "141a76ef164682ea748106eb983ac5c2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/ChannelMixerGetParameters.cs",
+            "_guid": "d49be28c59024b08a7fd5751608f9802",
+            "_checkSum": "d4fcfe3b6e174e2e3aba9535647675a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/ChannelMixerSetParameters.cs",
+            "_guid": "6ea88a284efe459f8f38f6c7a26987da",
+            "_checkSum": "d0027be8927f94924751bc8944002a04"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/ColorLookupGetParameters.cs",
+            "_guid": "091f596a94894c608afff2eb98d16fc3",
+            "_checkSum": "730239082af6309df91d79bf828cb1e1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/ColorLookupSetParameters.cs",
+            "_guid": "306bf749c1334a929da3664ae5bd16a4",
+            "_checkSum": "db102a121241e4dd492e4aa9c6e261d9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/LiftGammaGainGetParameters.cs",
+            "_guid": "213cfa9260604ae98cffb659bbfcc76a",
+            "_checkSum": "d8ec15eb6c9fda07c6e8d855868395ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/LiftGammaGainSetParameters.cs",
+            "_guid": "15f3359f7b5d47fb88da49a180bf4d4b",
+            "_checkSum": "2f0a66ef48366294f672038991e7a950"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/ShadowsMidtonesHighlightsGetParameters.cs",
+            "_guid": "1635a209a77d4a2e862d271b8ca43376",
+            "_checkSum": "5b7a4bb8cba2fa33341e4f79cd5673dc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/ShadowsMidtonesHighlightsSetParameters.cs",
+            "_guid": "d9ff554f0ec44ebe972807be8706482a",
+            "_checkSum": "9d276903f4efefce5ff018ae353f5614"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/SplitToningGetParameters.cs",
+            "_guid": "6d04c9b00f57427f871f335518c4540d",
+            "_checkSum": "a09b4ad314f2026f7f7af8102c23818f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/SplitToningSetParameters.cs",
+            "_guid": "18afc48e9d39410fbf4556251732786a",
+            "_checkSum": "c48b6c58092d20ba2034fdd58cff738b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/TonemappingGetParameters.cs",
+            "_guid": "1d2fc1dc0fb64ee1885726438ab8aaee",
+            "_checkSum": "a6ae4b1c9d5095ba8700f225866f9268"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/TonemappingSetParameters.cs",
+            "_guid": "21543995c72b4c44979b22de21076a11",
+            "_checkSum": "7c7b179acc1bf01a23bd72e01d5129ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/VolumeAddChannelMixer.cs",
+            "_guid": "7494bab9df59420d8502cb39d32915a7",
+            "_checkSum": "0b4acc9da7d71da2b041e6f06827fe0f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/VolumeAddColorLookup.cs",
+            "_guid": "8eae820e6c3e49608ca3c5ba38f6e0c9",
+            "_checkSum": "94be3b5ebd9892123072f00b0319ccf6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/VolumeAddLiftGammaGain.cs",
+            "_guid": "adb4cb07bcea4a8fbcd8e9bdd0872a17",
+            "_checkSum": "3bb75287d65471e265af44e74860cc04"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/VolumeAddShadowsMidtonesHighlights.cs",
+            "_guid": "c3826e71ea2b4557b222f8f131029be3",
+            "_checkSum": "0cda435bed100202fb31af0bae6d4b05"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/VolumeAddSplitToning.cs",
+            "_guid": "43efc866c6864172a5048c3e514e21a7",
+            "_checkSum": "25854e71632f387e0cf0ed1f571a5e3c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/VolumeAddTonemapping.cs",
+            "_guid": "6514932b2f66482b8133758131222697",
+            "_checkSum": "a140f7076c7181d6b449f215e635e439"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/VolumeAddWhiteBalance.cs",
+            "_guid": "2b92c322736840b99974d79c5990554c",
+            "_checkSum": "49cbe4db4b6a3dd42558dd16667f16f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/WhiteBalanceGetParameters.cs",
+            "_guid": "0fd26b2d804b434ebeefff9937e84b41",
+            "_checkSum": "d74d84e60107207d93cafa0fe19e47f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/WhiteBalanceSetParameters.cs",
+            "_guid": "bb49c21f35be46afbe66e138d0b8ae00",
+            "_checkSum": "f058e72d67e1cb3e1f94d1406b856d9b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/WhiteBalanceSetTemperature.cs",
+            "_guid": "8b56bd68b11149b7a030bfd4a0ca17a5",
+            "_checkSum": "c55dc705f30238fdb0ab5714b6304643"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UniversalRenderPipelineVolumesColorGrading/Actions/WhiteBalanceSetTint.cs",
+            "_guid": "4d5d397865644d8ca8a9aad847ab3b9f",
+            "_checkSum": "a7a54103360833f646f33597eaab8494"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b74",
+    "_datePublished": "2026-07-04",
+    "_timeCode": 134276614692907227
+}

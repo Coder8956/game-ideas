@@ -1,0 +1,18 @@
+.root {
+    --open-in-window-icon: resource("SearchJump Icon");
+    /* Unity's light theme background color */
+    --md-color-page-background: #c8c8c8;
+    --md-color-header: #3f3f3f;
+    --md-color-text: #1f1f1f;
+    /* Slightly darker than Unity's line color for better separation */
+    --md-color-line: rgba(0,0,0,.1);
+    /* Lighter than background for subtle distinction */
+    --md-color-code-block-background: #d8d8d8;
+    --md-color-code-block-text: #2b373e;
+    --md-color-block-quote-border: #a0a0a0;
+    --md-color-block-quote-text: #404040;
+    /* Darker than background for contrast */
+    --md-color-table-header-background: #b8b8b8;
+    --md-color-table-header-text: #1f1f1f;
+    --md-color-table-border: #b5b5b5;
+}

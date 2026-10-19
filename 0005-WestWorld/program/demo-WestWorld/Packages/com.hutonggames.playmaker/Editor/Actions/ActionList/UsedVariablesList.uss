@@ -1,0 +1,21 @@
+.hutong-used-variables-list {
+    flex-shrink: 0;
+}
+
+.hutong-used-variables-list__header {
+    margin: 0;
+    height: 24px;
+    align-items: center;
+    padding-left: 6px;
+    border-top-color: var(--unity-colors-default-border);
+    border-top-width: 1px;
+}
+
+.hutong-used-variables-list__header Label {
+    margin-left: 5px;
+}
+
+.hutong-used-variables-list__scroll-view {
+    flex-grow: 0;
+    flex-shrink: 1;
+}

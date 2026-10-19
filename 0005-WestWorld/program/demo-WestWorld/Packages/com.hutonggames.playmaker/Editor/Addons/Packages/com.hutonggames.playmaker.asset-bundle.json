@@ -1,0 +1,157 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.asset-bundle",
+    "_displayName": "AssetBundle",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions for loading and managing AssetBundles.",
+    "_description": "Load AssetBundles from files or memory, load assets from bundles, query bundle contents, unload bundles, and inspect AssetBundle manifests.",
+    "_helpUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/AssetBundlesIntro.html",
+    "_icon": "Assets/AssetBundle",
+    "_tags": [
+        "Actions"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleContains.cs",
+            "_guid": "86f5dbd1baf39854086d7dd4e6f5eae6",
+            "_checkSum": "c5d1612a343f96caa78cc2d6cfa5084f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleGetAllAssetNames.cs",
+            "_guid": "b9e3e2f1517ae434d8df7ff8e41a04f6",
+            "_checkSum": "e8995a2da6f25f6fad50b0b612432866"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleGetAllScenePaths.cs",
+            "_guid": "8af203c43b69c744792e98cf95234d1a",
+            "_checkSum": "b225ba99683121b03e6e09a8c821c394"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleGetIsStreamedSceneAssetBundle.cs",
+            "_guid": "e443c4b8c5b3a444380715b4143e670b",
+            "_checkSum": "38d763cc8c2e125656fe3ca589fc7457"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleGetMemoryBudgetKB.cs",
+            "_guid": "3bdc16bbc491a8f4e9e4958836bb2077",
+            "_checkSum": "4002d74f0bff0054962b911ddaeb82b2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadAllAssets.cs",
+            "_guid": "0e86c21d178e83743bf6de6f2c267084",
+            "_checkSum": "15c52c0e78460d61e8a46b04d3406b86"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadAllAssetsOfType.cs",
+            "_guid": "035f342d1788ce2448de8402b8acbbd3",
+            "_checkSum": "1e4f6e18edcf34a52c5c170b8f40a2f8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadAsset.cs",
+            "_guid": "4f156749123697241ad90b33c4db6968",
+            "_checkSum": "47dd6f249df6cf56be6e836f374c2765"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadAssetOfType.cs",
+            "_guid": "ab6ceee00dc1bbb4f946df155c7920ed",
+            "_checkSum": "d04d853d07130b0c2a0d057a9d6dbe13"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadAssetWithSubAssets.cs",
+            "_guid": "0ccfe5ec05f5fa343a1d47ed8fa5eb0e",
+            "_checkSum": "4a89994e17b082b1ddd1fd2df76b021d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadAssetWithSubAssetsOfType.cs",
+            "_guid": "f91eeea8e92a85a479dbc8001389abc9",
+            "_checkSum": "de1a86175525a0c577a9a99966e1b98d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadFromFile.cs",
+            "_guid": "b69fc7457e082884cafc2e0b9251a274",
+            "_checkSum": "1db5f54770b5cdb6acf563c236e2f7bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadFromFileWithCrc.cs",
+            "_guid": "447356f3d5b111345901632e86f9255e",
+            "_checkSum": "93a69eea0da2a93e12474159441135a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadFromFileWithCrcAndOffset.cs",
+            "_guid": "5530b8c204c0d4c4cb976ced56081f6b",
+            "_checkSum": "52940c2c67c196976b9d07b1ef8d2fe1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadFromMemory.cs",
+            "_guid": "110f34d1af3ca9346bcb0be162db4797",
+            "_checkSum": "8bd0eadd1f56bd2b03357ef6113d2840"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleLoadFromMemoryWithCrc.cs",
+            "_guid": "56b863ed18b6b41479da40203234a3f0",
+            "_checkSum": "49dd5cfdfeb6f5d46877d1f1ef1d506c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleManifestGetAllAssetBundles.cs",
+            "_guid": "7f2cb668ef5a445a962697c84c975753",
+            "_checkSum": "9d9f446b9afb307826a4bb6a3c5a5304"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleManifestGetAllDependencies.cs",
+            "_guid": "4920548b047f42dfa537b96aaf542a24",
+            "_checkSum": "184a4524e9aa9b9fc3ad895d132e01c1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleManifestGetAssetBundleHash.cs",
+            "_guid": "607e1a14b7e14bb6a553f0557387cc0d",
+            "_checkSum": "7703b6868546abe72c72e379180f2862"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleManifestGetDirectDependencies.cs",
+            "_guid": "e8d20bd8d38c4fd08b550d22bc602017",
+            "_checkSum": "20d574b377b6b1ffbd0387e0ad56a776"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleSetMemoryBudgetKB.cs",
+            "_guid": "7628ff6de02c0794aa84166ff6e5faf1",
+            "_checkSum": "8c33c3838bfac0b3ddcdea577a2290c3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleUnload.cs",
+            "_guid": "06718d3c3a17a3a4999d836b6848afae",
+            "_checkSum": "7c0076f8442493ac7390a94359683ff7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Actions/AssetBundleUnloadAllAssetBundles.cs",
+            "_guid": "c93069731565ae24786f04a9b124941f",
+            "_checkSum": "35c072aec999728580f5edb9a10407dd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Variables/AssetBundle.cs",
+            "_guid": "43124bf7bef746f41aa9093b13440806",
+            "_checkSum": "b9a6c6056ad087ba606da6d09adccc26"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/AssetBundle/Variables/AssetBundleManifest.cs",
+            "_guid": "08fd69aaa8f1062488d3d6fc74959f79",
+            "_checkSum": "739523ce0711b4556ce7ed131bf152da"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b79",
+    "_datePublished": "2026-08-04",
+    "_timeCode": 134303431374707377
+}

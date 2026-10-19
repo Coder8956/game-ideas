@@ -1,0 +1,37 @@
+#if ENABLE_INPUT_SYSTEM && UNITY_INPUT_SYSTEM
+
+using System;
+using UnityEngine;
+
+
+namespace HutongGames.PlayMaker.Actions
+{
+	
+	
+	[Serializable]
+	[ActionCategory(Category.InputSystem.InputAction)]
+	[ActionDescription("Check if the action's value crossed the release threshold " +
+	                   "at any point in the frame after being in pressed state.")]
+	[HelpURL(HelpUrls.InputAction+"#UnityEngine_InputSystem_InputAction_WasReleasedThisFrame")]
+	public sealed class InputActionCheckWasReleasedThisFrame : BaseTrueFalseAction
+	{
+		public override UpdateMode DefaultUpdateMode => UpdateMode.UpdateEveryFrame;
+		
+		[Tooltip("The InputAction to check." + Strings.InputActionEnabledNote)]
+		[SerializeField]
+		private InputActionReferenceVar _inputAction;
+		
+		public override bool CanExecute() => CheckParameters(_inputAction) && base.CanExecute();
+
+		protected override bool Test()
+		{
+			var action = _inputAction.Value.action;
+			return action is { enabled: true } && action.WasReleasedThisFrame();
+		}
+
+		protected override string TrueSummary => "{_inputAction} was released";
+		protected override string FalseSummary => "{_inputAction} was not released";
+	}
+}
+
+#endif

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="container" clas="hutong-action-preview__description">
+        <ui:VisualElement name="description-panel" class="hutong-action-preview__description-panel">
+            <ui:Label name="summary" class="hutong-action-preview__description-summary" display-tooltip-when-elided="true" />
+            <ui:Label name="details" class="hutong-action-preview__description-details" display-tooltip-when-elided="true" />
+        </ui:VisualElement>
+        <ui:Button text="More..." name="more" class="link" />
+        <ui:Button text="Less..." name="less" class="link" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,139 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.sketch",
+    "_displayName": "Sketch",
+    "_packageVersion": "0.1.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Processing-style sketch canvas actions.",
+    "_description": "Sketch is an early experimental addon that adds creative coding tools to PlayMaker, with a Sketch Component and Processing-style actions for drawing simple 2D shapes using canvas coordinates, fill, stroke, and mouse position.\n\nSketch makes it easier to follow Processing and p5.js tutorials in Unity, learning fundamental creative coding techniques like coordinates, repetition, randomness, and drawing from data. It favors Processing-style syntax and naming so existing tutorials can be translated more directly.\n\nSketch can also be used to quickly visualize values from other PlayMaker actions.\n\nThis early version focuses on direct canvas drawing. Transform actions such as translate, rotate, push, and pop are planned for future versions if there is user interest.",
+    "_helpUrl": "",
+    "_icon": "Sketch",
+    "_tags": [
+        "Actions",
+        "2D",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchBackground.cs",
+            "_guid": "29cf860f7c1c4bdf8d4c46b4435948cf",
+            "_checkSum": "51cfaf748d5e755cfca893ccc7db629e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchCircle.cs",
+            "_guid": "d916f5593b99473dae3fbc8d2e74f7a0",
+            "_checkSum": "c11e7cece6626f8b5e577f20c66bc467"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchClear.cs",
+            "_guid": "f9e17e04bc0349a2a4b04ff8ddff6bf0",
+            "_checkSum": "51ae696f6060ad388cdd43885b1fa078"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchCreateCanvas.cs",
+            "_guid": "8d1e75c4ddcb4ad6a5b1f9522235807f",
+            "_checkSum": "9501d932b7c1a666308e43400c6a8106"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchEllipse.cs",
+            "_guid": "29358d7f76164f149a5a1737193bda31",
+            "_checkSum": "a2ed2734c1e5201013cfb68f02b2cfe2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchFade.cs",
+            "_guid": "e91adfb6581c4b6988f100a2c09d5801",
+            "_checkSum": "f69c28eb243f84f2eb303da7ed14f89b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchFill.cs",
+            "_guid": "b23672c114d34f6a934e73db8fa2cc25",
+            "_checkSum": "ed19351ac347c1b9f98e091c5f29a87b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchGetMousePosition.cs",
+            "_guid": "4c2771a88f3546ea83aac341771da2e9",
+            "_checkSum": "74b51069cbcc79dda48b2be7421f4748"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchGetTexture.cs",
+            "_guid": "6b21ceb11c2d475baa5fc0de461f274d",
+            "_checkSum": "c0b66e842e5024b6f682a5e70d0ac460"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchGetTransformPosition.cs",
+            "_guid": "6fc7e8e9151f4d7e8e73932a0da8d096",
+            "_checkSum": "1630c573f7dcd8e7cac75aa73cc8105d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchLine.cs",
+            "_guid": "2317f0711dc04d9ba0613e2fd7983c3b",
+            "_checkSum": "6cbed231912c87880afb1420a8c2a7a4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchNoFill.cs",
+            "_guid": "b2c7350cb27349a6b96cba9fcb713f1d",
+            "_checkSum": "afef8cfb8f61267a6e7c3920db1118b8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchNoStroke.cs",
+            "_guid": "cd7b4822a82f414c9c90a771b4aed21c",
+            "_checkSum": "3b9d9ff834c4d02ab1d79148690ba155"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchPlotLine.cs",
+            "_guid": "c8c0a3aa11d7494eaabc42d91ad8acb5",
+            "_checkSum": "95922b4764acd2b70284591dae588ee5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchPoint.cs",
+            "_guid": "85c57e2bf31341dcaaec118ec4f6a9cc",
+            "_checkSum": "f7a70f6f939932277a6f0eb60d5f6308"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchRect.cs",
+            "_guid": "98b175bc29444386910aa0a5d3f1d0d0",
+            "_checkSum": "be6cea34dc58846251a8de34a7be290f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchSize.cs",
+            "_guid": "cb5e935962594ea287635e805f856d3c",
+            "_checkSum": "95eb0f22f91af2b267a82a84ef326f6e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchStroke.cs",
+            "_guid": "38c2ddc1a4a24b248ce52aab9dca3815",
+            "_checkSum": "991a0a6a5332727e16a95d3a903bb3b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/SketchStrokeWeight.cs",
+            "_guid": "f2e712b7930644218fa36236f68d870f",
+            "_checkSum": "d305b6ad2e478170cfcbc7771d87effb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/Components/SketchComponent.cs",
+            "_guid": "2454c019f0f14f5ab85b5f530db51f4a",
+            "_checkSum": "bde97f883f84ab4d53ed8f92fbfa34a7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/Sketch/Components/SketchComponentVariable.cs",
+            "_guid": "2db7b917a96a4a19a051f15eb77735c8",
+            "_checkSum": "762bdc11aa2d352cff4979e6b76d9c49"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b74",
+    "_datePublished": "2026-07-04",
+    "_timeCode": 134276614655257694
+}

@@ -1,0 +1,142 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.post-processing-stack-v2-overrides",
+    "_displayName": "Post Processing Stack v2 Overrides",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.post-processing-stack-v2"
+    ],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [
+        {
+            "Name": "com.unity.postprocessing",
+            "MinimumVersion": "3.0.0",
+            "MaximumVersionExclusive": ""
+        }
+    ],
+    "_minimumUnityVersion": "",
+    "_summary": "Override state actions for Post Processing Stack v2.",
+    "_description": "Adds PlayMaker actions for reading and setting Post Processing Stack v2 parameter override states. For Built-in Render Pipeline (BiRP).",
+    "_helpUrl": "https://docs.unity3d.com/Packages/com.unity.postprocessing@latest/manual/index.html",
+    "_icon": "Rendering/Post Processing Stack v2",
+    "_tags": [
+        "Actions",
+        "Render",
+        "BiRP"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/HutongGames.PlayMaker.PostProcessingStackV2Overrides.asmdef",
+            "_guid": "4cdd4cefa14d4e7c850e3812cc159536",
+            "_checkSum": "79adbb9b6374b77cd4fc414323498d12"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/AmbientOcclusionGetOverrides.cs",
+            "_guid": "a6a0485c7c8940e29c67f7e206e55dec",
+            "_checkSum": "22afa306a0c355fbfa2a4663eae3c38a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/AmbientOcclusionSetOverrides.cs",
+            "_guid": "4f628ac3131f46c68bef42595548c127",
+            "_checkSum": "8c94d103505fe0f44bbc2a4c38dbec51"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/AutoExposureGetOverrides.cs",
+            "_guid": "d2fafa9d43324078bb78958399371733",
+            "_checkSum": "043ddc3903076bda84d5c4d06a73b9ab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/AutoExposureSetOverrides.cs",
+            "_guid": "2e44ecc2db4c40998f95a48303c51bae",
+            "_checkSum": "b0f09ce466b5276851ff54ef67fc6c09"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/BloomGetOverrides.cs",
+            "_guid": "09ed47ced8e1442ca36d5d9ca9b15926",
+            "_checkSum": "7b712261c2106cad241e665bd8d75fc4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/BloomSetOverrides.cs",
+            "_guid": "8d427a86c4d64c93807bb785c4ee3d65",
+            "_checkSum": "539ea120a7fdee5238b2ae34ff78c609"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/ChromaticAberrationGetOverrides.cs",
+            "_guid": "3410cb8962c64119a7e2871ca44c61b6",
+            "_checkSum": "60a3d63f74d20017d0cc18159db92754"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/ChromaticAberrationSetOverrides.cs",
+            "_guid": "13b7fdbfd8c9415cade4a72340813228",
+            "_checkSum": "e55a03066e11ea7eeb2ac95eeefc76c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/ColorGradingSetOverrides.cs",
+            "_guid": "e7f132440b7e4a9fa4e40badcc143f8a",
+            "_checkSum": "e753af6cb1a211acd4b6388e8fb1af20"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/DepthOfFieldGetOverrides.cs",
+            "_guid": "aab9490fa6534d2e8843bc557902fdd7",
+            "_checkSum": "288522bf7a61c726471074ae0b6a783b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/DepthOfFieldSetOverrides.cs",
+            "_guid": "6b203d0c2bb54ad1985c959905f8c6ef",
+            "_checkSum": "8d78f2cf9d93f7876f19986a671ca6ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/GrainGetOverrides.cs",
+            "_guid": "35cf83b338fc44c68fff97dffad8237a",
+            "_checkSum": "ff25babb120bba9779526e2ea07aafde"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/GrainSetOverrides.cs",
+            "_guid": "0794c621ab4a46598b84976d05882105",
+            "_checkSum": "483a6860e2fbcfd10b3191c74463ab7a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/LensDistortionGetOverrides.cs",
+            "_guid": "aca8abda15fe4cd495a516d01aca4e21",
+            "_checkSum": "ad3dc841bdc66312162341cee3ece45e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/LensDistortionSetOverrides.cs",
+            "_guid": "599ae747bfd74a2882c04dcf36f281b1",
+            "_checkSum": "416208164a9ef2c99668a720eb6f30cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/MotionBlurGetOverrides.cs",
+            "_guid": "f5d0661bbb3d4edca035862e53210b86",
+            "_checkSum": "59107ef3fdb3889af07d71c1da344b5e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/MotionBlurSetOverrides.cs",
+            "_guid": "5f03664f18e04191bafc1fe7f7d39c9a",
+            "_checkSum": "fc8bbbd6498afc690fe43ba70c06b64e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/VignetteGetOverrides.cs",
+            "_guid": "652d932367954b24bf48de26bb90b62b",
+            "_checkSum": "fc99f301b81235ba81977ce83306cff2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/PostProcessingStackV2Overrides/Actions/VignetteSetOverrides.cs",
+            "_guid": "66588711545f7fa4cbd09b4b27175c3a",
+            "_checkSum": "2bf6ab08ea0df0a279438d6949ca2e4c"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b74",
+    "_datePublished": "2026-07-04",
+    "_timeCode": 134276614700557624
+}

@@ -1,0 +1,22 @@
+{
+    "name": "HutongGames.PlayMaker.Install",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.hutonggames.playmaker",
+            "expression": "2",
+            "define": "PLAYMAKER_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}

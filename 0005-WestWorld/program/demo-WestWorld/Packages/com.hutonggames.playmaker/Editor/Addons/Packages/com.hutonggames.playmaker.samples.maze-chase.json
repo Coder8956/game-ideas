@@ -1,0 +1,1008 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.samples.maze-chase",
+    "_displayName": "Maze Chase",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Assets/Samples/PlayMaker/Games/MazeChase",
+        "Assets/Samples/PlayMaker/Shared"
+    ],
+    "_dependencies": [
+        "com.hutonggames.playmaker.tilemaps",
+        "com.hutonggames.playmaker.nav-grid"
+    ],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "A version of the classic arcade game made 100% with PlayMaker.",
+    "_description": "# Maze Chase\n\nA re-creation of the classic arcade game.\n\n{height=300}![screenshot](Packages/com.hutonggames.playmaker/Editor/Addons/Packages/com.hutonggames.playmaker.samples.maze-chase.jpg)\n\n## Features\n\n### 2D Pathfinding\n\n- Uses PlayMaker's native [NavGrid](docs:components/#navgrid-system) system.\n- Tilemaps baked into a NavGrid using [NavGridBaker](docs:components/nav-grid-baker/).\n- Ghosts pathfind using a [NavGridAgent](docs:components/nav-grid-agent/) and [NavGrid actions](docs:actions/nav-grid-actions/).\n- Player moves using [NavGridAgent](docs:components/nav-grid-agent/) Manual mode.\n\n\n### Notes\n\n- Doesn't use any physics collisions.",
+    "_helpUrl": "",
+    "_icon": "GameIcon",
+    "_tags": [
+        "Samples",
+        "Games",
+        "2D",
+        "AI"
+    ],
+    "_requiresTmpEssentials": true,
+    "_order": 0,
+    "_unityVersion": "6000.5.0f1",
+    "_files": [
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Documentation.asset",
+            "_guid": "0f644598d5cf93b42b3fec1d93ac4356",
+            "_checkSum": "ea12c6b7b058c5c207fcff6a44f8d7c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/MazeChase.asset",
+            "_guid": "34f966c555e1cc348a7e7877c7646082",
+            "_checkSum": "5fbf627905d9e8394aaff9c2424eea70"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/MazeChase.unity",
+            "_guid": "ffeb85d3ec59fab4e8832600137c57c4",
+            "_checkSum": "7bdbb4bd31f015926eeb978913575259"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/eyes-down.anim",
+            "_guid": "c226c1addfbb8ed419a93c22b72add53",
+            "_checkSum": "07eb4148ee69fe73f593f11c9d32f641"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/eyes-left.anim",
+            "_guid": "d41f5c5003012e64ba15f6f57bd9c522",
+            "_checkSum": "c8124f5e7c85958244e2f0597e7faf6d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/eyes-right.anim",
+            "_guid": "c653180edc3bccd45847ad9c107fe4b0",
+            "_checkSum": "e6b74a854deb6bd0806395b6426e2cae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/eyes-up.anim",
+            "_guid": "b27db883b214a9f47b852e8ee2416a52",
+            "_checkSum": "d53ff5ab6f02466b3c7bb44e6a1374c4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/flicker.anim",
+            "_guid": "2ee06ca2f0bab29409ceb857e200dcb0",
+            "_checkSum": "72857e814fafc5edc6a310e9c7a511fa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-cyan-down.anim",
+            "_guid": "ed1831bb46cdd3347810f6c975a3931f",
+            "_checkSum": "d386fe8fbf6b02eb5b0629d808834da5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-cyan-left.anim",
+            "_guid": "8066565db02533d4d98abd2afde34225",
+            "_checkSum": "d60355c4455de7199174654f31f69d59"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-cyan-right.anim",
+            "_guid": "5c283e715ea848f45ad2c1616fdeae54",
+            "_checkSum": "0eaf692454546e9236ead9559dbfecaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-cyan-up.anim",
+            "_guid": "c88f0d68b51761d4d9b0bc1a19bba1bf",
+            "_checkSum": "0ccd57c1fab17378337176cde7fcdfc0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-cyan.overrideController",
+            "_guid": "ead750829c3fa2a469dfa3b155b142ca",
+            "_checkSum": "624b0c864c1a9416027c31ca6e1c7cd6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-pink-down.anim",
+            "_guid": "e6fea69780ceb6a4bac68512d391b1d9",
+            "_checkSum": "5fc5986c542e79b218f803c9fc01a439"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-pink-left.anim",
+            "_guid": "f507c0fe2bd8e7d4a923b6dbdf7757dc",
+            "_checkSum": "90da9b403727e2c73055899c40f3d654"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-pink-right.anim",
+            "_guid": "495dfd0ab51957946811f4cfbef2583c",
+            "_checkSum": "8532bca2ef1d604806eccb7db0ae3d58"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-pink-up.anim",
+            "_guid": "0483cdd9c178ab14f83402e1c307b1b1",
+            "_checkSum": "d8f688901485a0021b015e0c27e0058a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-pink.overrideController",
+            "_guid": "bbe0966161ff97747aea94a9659cde47",
+            "_checkSum": "75c662a73e0bbbaf15466760bea35518"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-red-down.anim",
+            "_guid": "934202819039dfd44b2b8b0df6ecf7a3",
+            "_checkSum": "9e673fb0a1de5e4b02695cba9ba32dd6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-red-left.anim",
+            "_guid": "0f068b473c05dfa4f8762de1bef98fc1",
+            "_checkSum": "2f77b95b6c5054221228dcfa8f77ed7b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-red-right.anim",
+            "_guid": "c0e06f0fca4efcd42a1a63d44f9f0685",
+            "_checkSum": "5149428673dfba3a16fc8fcba0a0f801"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-red-up.anim",
+            "_guid": "d4bbebaa28f1dbb46976e4a60e031b07",
+            "_checkSum": "400cbcb78bc5766af6900c58c2d0e0c6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-yellow-down.anim",
+            "_guid": "12a506e7be711ba469f5508f97dd48bf",
+            "_checkSum": "bd6d267fa322d10995ca89c34a70b515"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-yellow-left.anim",
+            "_guid": "dd305111747f1fd42b7d4aa638613853",
+            "_checkSum": "0d7baf1fdb30d0be0b275c686d190de5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-yellow-right.anim",
+            "_guid": "0249ba4e7c8188949a9016b7bb8e7564",
+            "_checkSum": "8768c279213d0a470bc1d8e6b033f8a3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-yellow-up.anim",
+            "_guid": "d7a1b5a3c5d278246947940933e2e02a",
+            "_checkSum": "40b3c3af9de6b932d04c320785847c70"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost-yellow.overrideController",
+            "_guid": "96021d90319ad924aa4e97124ec0deb5",
+            "_checkSum": "7a931d53e6b1b0ae34289d71935d840e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/ghost.controller",
+            "_guid": "83acf79cda6741446b85e85381a29056",
+            "_checkSum": "585bb120489b5ef65018f108cf65378a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/player-dead.anim",
+            "_guid": "ecff00691fba912428a3d2b1effb8d66",
+            "_checkSum": "44dd6210d42982f090354cb466de6ac7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/player-stopped.anim",
+            "_guid": "e7aa17b8e2006714ba054a91362c390d",
+            "_checkSum": "d4feeb015572b77284e24883b6e719a3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/player.anim",
+            "_guid": "00c027936f509cb428e20378980fbb13",
+            "_checkSum": "9e54239f2b01065d924ecffddb6e6a2f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/player.controller",
+            "_guid": "0ef9397ca5c134645933313b644a9c46",
+            "_checkSum": "65b3955ed062ae85707aaf51095f4fbf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Animations/scared.anim",
+            "_guid": "8991765d0f2cc7e4b834e7e91e022e37",
+            "_checkSum": "35b716ef4521dfb407a0309df46c3db3"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/CaughtPlayer.asset",
+            "_guid": "2f7d758a9e309574eb7bef75ce1bf43f",
+            "_checkSum": "5e104d1736d7e603bad30bf14d67e811"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/GhostEaten.asset",
+            "_guid": "f13ddf91844ed61468b4cccf4345744a",
+            "_checkSum": "4a461890c84e6ef89c1a0de26755acac"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/GhostPoints.asset",
+            "_guid": "717f673ffa113f345aabaddffacfbddf",
+            "_checkSum": "ac6bd525451c7c4dce0d20ff6daeb9da"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/HighScore.asset",
+            "_guid": "49fac62c87f4d1045b74a21aec929774",
+            "_checkSum": "b75e520cf503d8ca39afb1d7a9d9e3ce"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/Lives.asset",
+            "_guid": "43591563696896b478368cd6d3987ce1",
+            "_checkSum": "2210c86701a0cbf2cdd1234f5699ed42"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/NextLife.asset",
+            "_guid": "f7220fa6cfefa5a45a704b6fd53c821d",
+            "_checkSum": "6cad4492e284a954264d2131ba7352d8"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/PlayerDied.asset",
+            "_guid": "9fa7d76f951e22b4cac6870c8899afed",
+            "_checkSum": "ed5215dd5091cc7f92dd9d1c42118af5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/PlayerPoweredUp.asset",
+            "_guid": "b3e747c9b79860541bce692c4fe0bb9b",
+            "_checkSum": "8cd4f369a5103d7f73e6c54e1f6060ed"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/PowerUpTime.asset",
+            "_guid": "3306a4c8821ad8846bf5c56097f1d90d",
+            "_checkSum": "04f4ffe01328a9d7b709dcf3ceed764f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/RecoverTime.asset",
+            "_guid": "17100ecc0e3dac84493af3dce99cd1ef",
+            "_checkSum": "f9964aa4ccc1c4f856a505b43b075561"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/ResetTime.asset",
+            "_guid": "e21423f12b5737744872222503a55ce7",
+            "_checkSum": "f53924ecde227d9f95d9983017d996eb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/RestartTime.asset",
+            "_guid": "598cceb2a70f5de4c91b0042f3814f34",
+            "_checkSum": "11c551e5a34af466b4513a0b251bc308"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/SaveProfile.asset",
+            "_guid": "940d400489221eb4f9985471b78117ad",
+            "_checkSum": "f2b848862f086829400a1a1ecfc4a0c6"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/Score.asset",
+            "_guid": "c37f50e9905126541b8005ef4c3f1ed6",
+            "_checkSum": "4d93cd03163a0a5793625d64462948c7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Globals/UpdateUI.asset",
+            "_guid": "2cf578bc3e609804aac670543eb818cb",
+            "_checkSum": "42ba3ae6d28c7447c6453be1f357a270"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Prefabs/Dots.prefab",
+            "_guid": "389ed681190e6674398c4017be226c83",
+            "_checkSum": "dd10f8ab5030f1f389ea86d1d102eda5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Prefabs/Ghost.prefab",
+            "_guid": "51692c4866eefaf4d91146d1707ed688",
+            "_checkSum": "c3de305c6579a1337a3d4ba46912a879"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Sprites/ghosts.png",
+            "_guid": "549e09cb059d9194f8f39e8b424f7f5c",
+            "_checkSum": "3a47ea88456b61a139ab15b4c0b508d4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Sprites/life.png",
+            "_guid": "48eb674307dadb64e8bce774c8b2a5f5",
+            "_checkSum": "220442b1477ec20cd756c0a95d834071"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Sprites/maze-tiles.png",
+            "_guid": "0ef9ac9172f842841a0ef114cd2eee57",
+            "_checkSum": "4c8fe0a4c5436f9662c82b3eaa3f672e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Sprites/player.png",
+            "_guid": "98c77ceb7e833714697fb21344ebcb38",
+            "_checkSum": "07750454710cc809cecd3615831b88c9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/DotsSnapshot.asset",
+            "_guid": "2ed9b32f04cae8e449f2ec52bc9d055b",
+            "_checkSum": "b9234ed558bd00d668feed326c9ae162"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Maze.prefab",
+            "_guid": "22ceabc6aa16a8947af013d1d6f14139",
+            "_checkSum": "51c0c2636bb3a4f1819307958546cfe4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/NavGridHome.asset",
+            "_guid": "8fa29673bee30f245b11fef63c4af0e5",
+            "_checkSum": "4771597f40b74da1e5fc86558a2db4eb"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/NavGridMaze.asset",
+            "_guid": "d7c1d8e00c0628b4ca16fe30531bb7dd",
+            "_checkSum": "3d60ec2b411e4c9c7dc41cb769740d6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_0.asset",
+            "_guid": "2f063e2d27eb117488849257f401947a",
+            "_checkSum": "0a9f2a5f9c1d6e658bfec90567d52abf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_1.asset",
+            "_guid": "36f1ac9565d29e746b0fc831ff78dbd7",
+            "_checkSum": "4c5aa7cab83a89acc11481e6fc482825"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_10.asset",
+            "_guid": "374fcff8ed577ba45acdd223f9fdfa50",
+            "_checkSum": "35c3292f106d7839abfb60656c3a0fae"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_11.asset",
+            "_guid": "d4076b1f4da024a428cf7b46bd4a3a89",
+            "_checkSum": "e3350bf96e7edee0de3b1298ed8cdf4c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_12.asset",
+            "_guid": "72b403e587dc7a742a45171eb03a5739",
+            "_checkSum": "98a0fcd84a4de5421c0ce49ad0a47f10"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_13.asset",
+            "_guid": "5b8755c908f7361409e28871d1d1d21d",
+            "_checkSum": "af1d2f2abfc3f2c223977b276c8cc9ba"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_14.asset",
+            "_guid": "3ee4747af997c6a4aaf6d9ed3e9b036e",
+            "_checkSum": "6923365b938ac3d48f58c80f38815ba1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_15.asset",
+            "_guid": "dd710cff1fdd89f4d895147fcef9c2f6",
+            "_checkSum": "4fc57b8d8f04b19275ace3e6e3b31b4f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_16.asset",
+            "_guid": "013398963e5f8da4facb12bff9bf15af",
+            "_checkSum": "735c0ed6f8d92d019f3b809331342864"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_17.asset",
+            "_guid": "a19f3ccedb28355459af7d13e3036d83",
+            "_checkSum": "cafa2cef8776b256a1a6d07ce5bbf875"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_18.asset",
+            "_guid": "e6c92471070062142ab1666a41e490db",
+            "_checkSum": "bf41b528cf127c0361c4d4debd991df4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_19.asset",
+            "_guid": "b19b0f6327d6255488923c89a3cf0533",
+            "_checkSum": "f6816ea54490a62179745d7bf0f1bce1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_2.asset",
+            "_guid": "2114caf452c315545a45f17e60594c61",
+            "_checkSum": "bcda5ccb49d48628180f5671ed5c2186"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_20.asset",
+            "_guid": "a14cb51c4a3a28f459bc35760c59f1cd",
+            "_checkSum": "4bf7797a817686a78aef4d07861dc636"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_21.asset",
+            "_guid": "958e66c75b5390043ab78ce852377816",
+            "_checkSum": "eb8891fa9943c17ad2383a1d7ce11191"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_22.asset",
+            "_guid": "2c86a8ef477e0df42bcc31230fb39a59",
+            "_checkSum": "2b7fecd0523dfe2c6d88d2a95fb7b652"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_23.asset",
+            "_guid": "930a2cbf20a48fd4da795ce09e08a1a7",
+            "_checkSum": "31f3d01d40fb6ee44556f6fd9d931037"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_24.asset",
+            "_guid": "e8911ba5315759c499eb67281e5a7f48",
+            "_checkSum": "fb4b5aeee79d63db8268ed93fbdf6ac1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_25.asset",
+            "_guid": "8fc4ee0738c5fc64185a3e78e41b6132",
+            "_checkSum": "02123351fc9d67ed9a2441cfb1091521"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_26.asset",
+            "_guid": "a59fe496ff85dee49a142853a99ea662",
+            "_checkSum": "4704590ce07b8114fbc75af33432a51c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_27.asset",
+            "_guid": "2079d912f40dc5d4e8ac315402d43956",
+            "_checkSum": "e452cb6b83c864fbe0544a861bafb90c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_28.asset",
+            "_guid": "daa8dea7ab1257446b17ef933448080d",
+            "_checkSum": "8ed700b258a00ad985dbfc9db46f3e8e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_29.asset",
+            "_guid": "f1a7c77d80a8ddf4a937a6f008da67fa",
+            "_checkSum": "d6940201a160cb3fd04a48445820e630"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_3.asset",
+            "_guid": "0a6036984ae255c4ab44ac2721939bcc",
+            "_checkSum": "0976cd6a4b7b8e5e849de062ba2c8eca"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_30.asset",
+            "_guid": "d4a5399764cd90e4396fefce88a478cf",
+            "_checkSum": "b074a17d21022105184b8b0b354564f7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_31.asset",
+            "_guid": "0dda48337e3abbf4c972242bb4c81085",
+            "_checkSum": "cac4ef40f5787a3725378471d3ce7343"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_32.asset",
+            "_guid": "92ebc29f105bde94a8a1008b1eb80c87",
+            "_checkSum": "973d8c1de757e0b26840889a591d9403"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_33.asset",
+            "_guid": "d80ab8f0b0bf7c743894351c3c957174",
+            "_checkSum": "4d494485c5d4fb23072e25afd712949c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_34.asset",
+            "_guid": "c8ac3b15eda0c4c4f87939802740d4b3",
+            "_checkSum": "b07673483fc68c14313b51d00d0000c9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_35.asset",
+            "_guid": "4731d6520191e8447b6b3a6864d200e7",
+            "_checkSum": "fc1fd9ab3f71621fdcc595c9da392f4c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_36.asset",
+            "_guid": "c91fe0f5d494cd045a0dec7b99f623d7",
+            "_checkSum": "2353dd0f75fc29be0ccca1ec34339888"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_37.asset",
+            "_guid": "aa3415a052b93db409ff6c13c99c247d",
+            "_checkSum": "52212a1b648d3efed8ec9e240535bb00"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_38.asset",
+            "_guid": "189b5bc298715334dac690cfb309048f",
+            "_checkSum": "12d00931f953b3bf7f0465a543f7640a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_39.asset",
+            "_guid": "faf325f6cfcbc5745b91758023973f60",
+            "_checkSum": "192c70d39bd559e48a67a95a8333ed57"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_4.asset",
+            "_guid": "d4f2eec5f7d84d4419ec26cb8bf8a094",
+            "_checkSum": "118cc1b9301421f70c7591bd92aa20fa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_40.asset",
+            "_guid": "51bf9043cd926d04aad9ec5572efaacc",
+            "_checkSum": "e67ee352b6e2b78c0158e889a766ee95"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_41.asset",
+            "_guid": "de761f868e77f8b49b8e91d71684e74b",
+            "_checkSum": "b52fa7b6b0c96053f3806c916fb7c1a0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_42.asset",
+            "_guid": "a8315e564d7f56745906278b5d5ae46b",
+            "_checkSum": "3f7c91a4935041acf3fd280cb3af0486"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_43.asset",
+            "_guid": "3b152fb04fda3634bb18d49673288b13",
+            "_checkSum": "4f37923f69858c9e73f235b43012dcfc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_44.asset",
+            "_guid": "add3de2b12bf1084fa60bf1e5c032143",
+            "_checkSum": "32360b7dee5a99d664a8af9018d876ac"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_45.asset",
+            "_guid": "dd0ce636f516767479ebc002a9b2a4e9",
+            "_checkSum": "89e029f18546cd4fe701fc47d19c1d2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_46.asset",
+            "_guid": "e301924681545a943be05d5285ff22d4",
+            "_checkSum": "aa07c0369d56712ad334440c42f90147"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_5.asset",
+            "_guid": "39f00206c4cbe5d4e9f56f257f94c1d5",
+            "_checkSum": "c74f9dfe97a8b7829c7870c63a539679"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_6.asset",
+            "_guid": "2d1ca29a977fc70498fdbd5b64f1f275",
+            "_checkSum": "b57936e8d3da58cec0132a7ac7eeff00"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_7.asset",
+            "_guid": "49d565e0438929b49b02f9fbb3a4547a",
+            "_checkSum": "14cceaaf39bcf6846d04769d7415b230"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_8.asset",
+            "_guid": "31b4c71c90e1d5546a9f23a39e98b2a1",
+            "_checkSum": "7c70847520d5f399e26e83a546957954"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_9.asset",
+            "_guid": "7d9b3191f815f09489fb0aee1db3a48a",
+            "_checkSum": "3563794b6dbe61722c316a8951a06366"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Games/MazeChase/Tilemaps/Tiles/maze-tiles_empty.asset",
+            "_guid": "2ab7bbc1457d02d44aa1f0f7247d88b5",
+            "_checkSum": "e10161f0b2e05f986705fa482feee1c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Readme.txt",
+            "_guid": "1e791f30eb3e9d84e84f065801a5e960",
+            "_checkSum": "f82b5a4cbaa2c47f63b84edbe3d5bf5d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Samples.asset",
+            "_guid": "ee5f617a22ae3614793f6ae5d52cc6ba",
+            "_checkSum": "3a1d9e3595f33697d28e48dadbdb462f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/beep.mp3",
+            "_guid": "f2e8a6a4e637a3e47a3825fc1cbdd7f0",
+            "_checkSum": "17ce0037a19ac7ca0f66bf80cb3eddaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/dataChirp.mp3",
+            "_guid": "d356acd0857defe44993ff1b59654fe3",
+            "_checkSum": "a11207e31c18ccc68569e8446ffa7d64"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/doorServos.mp3",
+            "_guid": "fe51bc757964761458c6d5b6fc899d7e",
+            "_checkSum": "fbfb470edcc97c9bf61d6cd46e770a86"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/pressurePlate.mp3",
+            "_guid": "7d5d54edd899d644e8995de4d63baea2",
+            "_checkSum": "9895286c39e7440dcc3b921879ca45a0"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/SampleAudioMixer.mixer",
+            "_guid": "1665e9ccdc7e04d4c91405e69a0198ab",
+            "_checkSum": "74a74291a9bbbd00ec32aebe4cb06271"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortAlarm.mp3",
+            "_guid": "46c2c82b71852604f90f60d57bc9e4d1",
+            "_checkSum": "27115bdaedc138bbf215d834a8bbfdaa"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/shortBeep.mp3",
+            "_guid": "f8b7b72fcd4468b4288f6f86b3064f50",
+            "_checkSum": "a752a3ab3b115549133bf60e1597b455"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/success.wav",
+            "_guid": "3992fab729161bd4c80bb597a0dcdd42",
+            "_checkSum": "bd5aa70b8142da7a08f9b4c4b2a9d818"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Audio/synthBeep.mp3",
+            "_guid": "3c689c46bcf2d8b4fae30f3169e72aa8",
+            "_checkSum": "36a5fc181a8bcfe1ac698770c6f82a1e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Black.ttf",
+            "_guid": "76348cbe618aaf24685419c3d653a07b",
+            "_checkSum": "e631d2735799aa943d93d301abf423d2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Bold.ttf",
+            "_guid": "42efd3313ae7c0448a792a49e622525e",
+            "_checkSum": "85d339d916479f729938d2911b85bf1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Light.ttf",
+            "_guid": "54ee4b17b85421342a80262adfa1c9f1",
+            "_checkSum": "2fe27d9d10cdfccb1baef28a45d5ba90"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Regular.ttf",
+            "_guid": "84a15c2272c6de849816aa30935f3896",
+            "_checkSum": "2d36b1a925432bae7f3c53a340868c6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Lato-Thin.ttf",
+            "_guid": "94af4a26a50b2a4439d9a26e1141c1f9",
+            "_checkSum": "9a77fbaa85fa42b73e3b96399daf49c5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/OFL.txt",
+            "_guid": "f022cc97c71d75940a9f2ca64f4418d8",
+            "_checkSum": "99aa8fee7ed71044ae773b92d79ab24c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF - Fallback.asset",
+            "_guid": "528c8856f21cc8b42bf5158fcb8dedb3",
+            "_checkSum": "569a29093b0a8f4eff204f8f60053ccd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/PM - LiberationSans SDF.asset",
+            "_guid": "3b973c8e584b61e4784fbee61a60a21a",
+            "_checkSum": "84389414ce2d65f79b5f779bbb3f83ea"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Fonts/Roboto-Bold.ttf",
+            "_guid": "144b338c0044550479b6d8ac7872fe73",
+            "_checkSum": "ee7b96fa85d8fdb8c126409326ac2d2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Checker.mat",
+            "_guid": "fddf13eac51d6c04da368778921c9bae",
+            "_checkSum": "9cf2cfdfd2564166590696788c03ec97"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Default.mat",
+            "_guid": "f7bbdc9c6dbee914d811845bdd27fec0",
+            "_checkSum": "042abdfb79e484c238bbefcc88832353"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Grid.mat",
+            "_guid": "45d6431d5737c9942aab2ea5f40f4fa8",
+            "_checkSum": "1eed8c1fc0b5d52845007fdb5a2460bc"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Ground.mat",
+            "_guid": "78d9bf08434302945a528d19f61d0c68",
+            "_checkSum": "d788d02ddfce9154bb74403fc1b62018"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Laser.mat",
+            "_guid": "74e31ab6eaff9604086b8bfb2f5ac9e6",
+            "_checkSum": "351dc65df041b594d17421e07e26dab9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Player.mat",
+            "_guid": "660ac48001db659448315c97245df61a",
+            "_checkSum": "d5cefb5294afa77e35f5f25d48168e96"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Red.mat",
+            "_guid": "0958838b7ccb9b846bf5bf4f107530ba",
+            "_checkSum": "6d1684c571298d52f0ba8cc5dab9a317"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/Skybox.mat",
+            "_guid": "e9b1a22031bea8e4785888857a897c00",
+            "_checkSum": "5fefc95ed4d7e1b20bdd04eff875292b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/SkyboxDawn.mat",
+            "_guid": "342cf32b16983a94faf9f63c0535b269",
+            "_checkSum": "b9e8c6756cd989fcfc51e8efb1baafd2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Floor32x01x32.fbx",
+            "_guid": "de0de8b009a1acd42846fe9db10fe150",
+            "_checkSum": "c09fa117a2e78f146bb8134508d61cb5"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Models/Hill32x07x32.fbx",
+            "_guid": "5cacea182896d0d45a3e56e31cb505e2",
+            "_checkSum": "d06500a0273195b0d981cf0df174792f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicMaterial",
+            "_guid": "23e5aa8fa6a583949802532a1b73fee2",
+            "_checkSum": "cded2b73c0531b2d9e594ec010f8da5f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Physics/NoFriction.physicsMaterial2D",
+            "_guid": "db0bdc520e4f01a41bfa0d2954842661",
+            "_checkSum": "c4475fa5a0bc8b4d117ca1232ff0b01f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/AutoUpdate.prefab",
+            "_guid": "23da1eef7a529f446b1d8373caa22239",
+            "_checkSum": "1cacfc82c029079a194ebacc1a794f0c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Cube.prefab",
+            "_guid": "583d6eb741ffa524395dc0e13b74c1a2",
+            "_checkSum": "36a5bbef629da48ba2a5ea78895852b2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/EventSystem.prefab",
+            "_guid": "2e16bc28d47957841b658e2b5e980dae",
+            "_checkSum": "006f76dd746ad740bf89cd640b911d6e"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Floor32x01x32.prefab",
+            "_guid": "e8abf9f0f83d0a244ba8d3e71b5334b9",
+            "_checkSum": "a6cb37ee0e57a870910c5c07fe780969"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Hill32x07x32.prefab",
+            "_guid": "295074861b42b3043bc8cbc09e918e56",
+            "_checkSum": "4a94a4c09bd234703f58becf1cf2ac3d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/RadarBlip.prefab",
+            "_guid": "b0178bbc0dda35d4787bc07426038800",
+            "_checkSum": "7f368a7d266174583eaf84510223e885"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/Stage32x32.prefab",
+            "_guid": "64354fef861314c4c9e8e470494fa5f3",
+            "_checkSum": "cb65539a0dc9f9853d0b751f33b2e695"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/AxisBillboardRibbon.cs",
+            "_guid": "55ce84e98fff3f1468a589458f2545b7",
+            "_checkSum": "f98ec916a4339e136fd386846376aed7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/PlayModePhysics2DSetup.cs",
+            "_guid": "5f2fa1a23f5d49a3a6659a4d3ff95e2f",
+            "_checkSum": "81f7c7517bf1847df90e591df5b72c6b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SimpleFaceCameraBillboard.cs",
+            "_guid": "8194cd5718cc4629a0670c4b14d364c1",
+            "_checkSum": "8a06e92d2b2f0620b4109e867af2dc05"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/SpriteNearFade.cs",
+            "_guid": "3a0c97bf5bdd480790fea80ef055b59b",
+            "_checkSum": "033122fb7165e0753866ba0a7fa6da6c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeParticle.shader",
+            "_guid": "5911c31b8fe44662b71a5ca0e4401c8c",
+            "_checkSum": "6da1b1a4a68c6151ae49987ecf020b1f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/DistanceFadeStandardDither.shader",
+            "_guid": "e32711c84d9641afb5d59a5fb19de20c",
+            "_checkSum": "d286e9f48121e378ab95fcbd95d5aff1"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/Skybox Gradient.shader",
+            "_guid": "8b20b5c1b1c710d4da9e67331b096e31",
+            "_checkSum": "4566804149b4495a5e1d5b6026f77909"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopCircle.png",
+            "_guid": "39220fd80b39dd44a96de8693c4eee7c",
+            "_checkSum": "6ca29670ba230e243bc8e5a5d8d2f7e7"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/ChopSquare.png",
+            "_guid": "409e07c936448a541b7fe5e19136841a",
+            "_checkSum": "ab8176ea0e80508377687e2d39a1bd93"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledCircle.png",
+            "_guid": "beb01e11cc8b2784c9dc20f845348db1",
+            "_checkSum": "df951fae597e49963f5ed99a75ad1c02"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/FilledSquare.png",
+            "_guid": "604db4374a8a1a14e86d4b59df5ff081",
+            "_checkSum": "3a467d61bd583a03ce4950bbf3b83b2b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/checker.png",
+            "_guid": "01d8784180eb8ea4dbe826f07e471b18",
+            "_checkSum": "76f41ee6a3f97b92890886951cac774c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Grid.png",
+            "_guid": "dda43d596acd98a4b940ebcec5c510b9",
+            "_checkSum": "7c18af9b79ce4a58ca2db56123b186e2"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/GridBright.png",
+            "_guid": "83e8d34777238f1439158c659ed2d4cb",
+            "_checkSum": "d571d666138fa79484fb9794c8c57cdf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/SolidWhite.png",
+            "_guid": "5921146df0c6d27448c69ea18ea1ed84",
+            "_checkSum": "0c987eb8aa29df0620678b1c6ed23ee4"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Textures/Transparent.png",
+            "_guid": "dc52f68efbe025248b5bdcfcb7150e2a",
+            "_checkSum": "265145c064b8d066d4fcbf72a04f7165"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Checker.mat",
+            "_guid": "a6dfc9b8b030f444f9bf9a8bb95e4ec4",
+            "_checkSum": "74b394da8619c44a87f1ae2b081a4df9"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Default.mat",
+            "_guid": "66083b4abef770341991fcbb6828db55",
+            "_checkSum": "b3e1a1f08a8b0f4c91481e208f01480d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Material/URP/Grid.mat",
+            "_guid": "75a649f7bc2340247b338440bdb19ebe",
+            "_checkSum": "376106f45f9753987b5896c245b83836"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Info.prefab",
+            "_guid": "212b8995053a83e4aa6208246bbaad84",
+            "_checkSum": "f019b61740735448be27f97aed2b2059"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Prefabs/UI/Title.prefab",
+            "_guid": "13c039b2b9edf494382d0277d57dd8d7",
+            "_checkSum": "98760c5c514c73bbf4c28971adb17b6f"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Scripts/Editor/PlayModePhysics2DSetupEditor.cs",
+            "_guid": "4dd52637d24f40ee819dcf69d6886d73",
+            "_checkSum": "e162694ac92bc28a8830145f933e1b42"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Shaders/URP/DistanceFade_URP_LitDither.shader",
+            "_guid": "13297d6c083dc034e826a46df4044c30",
+            "_checkSum": "5114d038b9a307b93a4cbbfe05813512"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/Characters/ShapeCharacters.png",
+            "_guid": "7492883ae6b6e634c9a445a2e76ca5c6",
+            "_checkSum": "1b0ce3c2a6083e8d6797c7aaa0766f1c"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/ArrowUp.png",
+            "_guid": "74e39b9f04820d84394b7e28e196e851",
+            "_checkSum": "374dcdf7451b807584c0c58b8c2cfc0b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Card.png",
+            "_guid": "dce7c6101a8a886468de51df84bf41ad",
+            "_checkSum": "a12a6e132dbe9d7cccccd47dff93d0bf"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/CardHighlight.png",
+            "_guid": "0107dbaaaf5b26d44a1c354e06e5b679",
+            "_checkSum": "4f9194cb712cb306d581b92a9a460744"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/info-background.png",
+            "_guid": "6b370e82d0721824d995bdc03451f29b",
+            "_checkSum": "4f420e4b3256fee9c0e61db8e6f8a555"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Reticle-Simple.png",
+            "_guid": "52973ca95abd7c04896c7920ecb65c6d",
+            "_checkSum": "2daee1f9612ad4863e9ede01c362c15d"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/SprintIcon.png",
+            "_guid": "f08e787a07b26c64d983e842e6d0bb2d",
+            "_checkSum": "d8846aeb3a9198d91ddd3da49250b46a"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/sword_silver.png",
+            "_guid": "84f2f87b85b9f454d963aa0d561f15e0",
+            "_checkSum": "1ad92a48bbc7af56b4897e3242f6f7cd"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/UI-Arrow.png",
+            "_guid": "4871407a71980914ca6f287aadab65ef",
+            "_checkSum": "c36b935e2c77818ee6d9323a7f53a021"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/BlueUI.png",
+            "_guid": "c2e093b169260c341ba07dfb96995e7e",
+            "_checkSum": "d791ab7a5a8f5de97d7bd94e02093c8b"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/ExtraUI.png",
+            "_guid": "f03e9fe579d803544b04726a47d42d48",
+            "_checkSum": "db8bf41719f1eb7f2fa0a2baa7c074ec"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/GreyUI.png",
+            "_guid": "fbfe51f381ccd6341a42a1ccb8806ed6",
+            "_checkSum": "f0b1fd3e6d68c0816b2886599d7eb0df"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/License.txt",
+            "_guid": "82baf4ad16dac7c4eb10fd0f5b833726",
+            "_checkSum": "7834f429eccd41168be8186cd1460d94"
+        },
+        {
+            "_path": "Assets/Samples/PlayMaker/Shared/Sprites/UI/Kenney/panel_border_grey.png",
+            "_guid": "e07b108c722d76041b936aa79ff394d3",
+            "_checkSum": "aea30485c7c4f1cda49de7f8ced82e27"
+        }
+    ],
+    "_usages": {
+        "_actions": [
+            "HutongGames.PlayMaker.Actions.AnimatorPlay",
+            "HutongGames.PlayMaker.Actions.AnimatorSetBool",
+            "HutongGames.PlayMaker.Actions.AnimatorSetFloat",
+            "HutongGames.PlayMaker.Actions.AnimatorSetTrigger",
+            "HutongGames.PlayMaker.Actions.AnimatorSetTriggerRepeated",
+            "HutongGames.PlayMaker.Actions.BroadcastEvent",
+            "HutongGames.PlayMaker.Actions.CheckDistanceToTarget",
+            "HutongGames.PlayMaker.Actions.CheckFloatGreaterThan",
+            "HutongGames.PlayMaker.Actions.CheckFloatLessThan",
+            "HutongGames.PlayMaker.Actions.CheckIntEquals",
+            "HutongGames.PlayMaker.Actions.CheckRectContains",
+            "HutongGames.PlayMaker.Actions.DebugLogVariable",
+            "HutongGames.PlayMaker.Actions.FloatSetValue",
+            "HutongGames.PlayMaker.Actions.ForEachListItem",
+            "HutongGames.PlayMaker.Actions.GameObjectActivate",
+            "HutongGames.PlayMaker.Actions.InputGetAxisVector2",
+            "HutongGames.PlayMaker.Actions.IntegerAdd",
+            "HutongGames.PlayMaker.Actions.IntegerMultiply",
+            "HutongGames.PlayMaker.Actions.IntegerSetValue",
+            "HutongGames.PlayMaker.Actions.IntegerSubtract",
+            "HutongGames.PlayMaker.Actions.LoadGame",
+            "HutongGames.PlayMaker.Actions.MathfMax__Int",
+            "HutongGames.PlayMaker.Actions.NavGridAgentGetDirection",
+            "HutongGames.PlayMaker.Actions.NavGridAgentMoveToPosition",
+            "HutongGames.PlayMaker.Actions.NavGridAgentSetDirection",
+            "HutongGames.PlayMaker.Actions.NavGridAgentSetNavGrid",
+            "HutongGames.PlayMaker.Actions.NavGridAgentSetSpeed",
+            "HutongGames.PlayMaker.Actions.NavGridAgentSetTarget",
+            "HutongGames.PlayMaker.Actions.NavGridAgentSteerAwayFromTarget",
+            "HutongGames.PlayMaker.Actions.NavGridAgentSteerTowardsPosition",
+            "HutongGames.PlayMaker.Actions.NavGridAgentStop",
+            "HutongGames.PlayMaker.Actions.NavGridAgentTeleport",
+            "HutongGames.PlayMaker.Actions.ObjectCheckIsNotNull",
+            "HutongGames.PlayMaker.Actions.ObjectCheckNameEndsWith",
+            "HutongGames.PlayMaker.Actions.SaveGame",
+            "HutongGames.PlayMaker.Actions.SceneManagement.SceneManagerReloadActiveScene",
+            "HutongGames.PlayMaker.Actions.TilemapRestoreSnapshot",
+            "HutongGames.PlayMaker.Actions.Tilemaps.TilemapClearAllTiles",
+            "HutongGames.PlayMaker.Actions.Tilemaps.TilemapCountTiles",
+            "HutongGames.PlayMaker.Actions.Tilemaps.TilemapGetTile",
+            "HutongGames.PlayMaker.Actions.Tilemaps.TilemapSetTile",
+            "HutongGames.PlayMaker.Actions.Tilemaps.TilemapWorldToCell",
+            "HutongGames.PlayMaker.Actions.TimeSetTimeScale",
+            "HutongGames.PlayMaker.Actions.TMP_TextSetText__Format",
+            "HutongGames.PlayMaker.Actions.TransformAlignToDirection2D",
+            "HutongGames.PlayMaker.Actions.TransformGetPosition",
+            "HutongGames.PlayMaker.Actions.TransformGetPosition2D",
+            "HutongGames.PlayMaker.Actions.TransformSetPosition2D",
+            "HutongGames.PlayMaker.Actions.TransformSetRotation",
+            "HutongGames.PlayMaker.Actions.UI.TiledImageMeterUpdate",
+            "HutongGames.PlayMaker.Actions.WaitForAnyKeyDown",
+            "HutongGames.PlayMaker.Actions.WaitForNextFrame",
+            "HutongGames.PlayMaker.Actions.WaitForSeconds"
+        ]
+    },
+    "_playMakerVersion": "2.0.0b88",
+    "_datePublished": "2026-09-26",
+    "_timeCode": 134349229957168664
+}

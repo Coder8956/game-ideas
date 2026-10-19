@@ -1,0 +1,525 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.tilemaps",
+    "_displayName": "Tilemaps",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps",
+        "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/Tilemaps"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Action to work with Tilemaps at runtime.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/Manual/tilemaps/tilemaps.html",
+    "_icon": "Tilemaps",
+    "_tags": [
+        "Actions",
+        "2D",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Assets/TilemapRestoreSnapshot.cs",
+            "_guid": "0c4bb9f404834fcaa91cc7016a28b096",
+            "_checkSum": "8128874914956645aa2b04f17705882d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Assets/TilemapSaveSnapshot.cs",
+            "_guid": "ed0e08bd9fc54eee8712fa1f5b70db82",
+            "_checkSum": "a55176fbe8622f9c2eb4f8b29690af71"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Assets/TilemapSnapshot.cs",
+            "_guid": "06240961e27d41eea3d67e266202a0c9",
+            "_checkSum": "a4847c0c99b80415406a96682a1718ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Variables/TileChangeData.cs",
+            "_guid": "83ea2b69eba14b6094a4300304da60a7",
+            "_checkSum": "14129177daeed2beec3e7605eeb26ee0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Variables/TileData.cs",
+            "_guid": "6c5547e7e64e4ae4913b25757d4d51f6",
+            "_checkSum": "dd8241f68d6873c97c05f4e07ede9c90"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Variables/TileFlags.cs",
+            "_guid": "051eaf7ac68d4c9da51153a48133f85a",
+            "_checkSum": "1314dce1d0849339a917a93e4a0992a5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Variables/TilemapCollider2D.cs",
+            "_guid": "16851bcfaa7947f4ebaa0e2bb1c1b12c",
+            "_checkSum": "6a9edb04302ecfee4a5cb51492388312"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Variables/TilemapSnapshot.cs",
+            "_guid": "fcf334963acf45209c7848e5547187c9",
+            "_checkSum": "5c6fc89ae9f2cb194b2fdba1581d4ee1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Variables/TilemapSyncTile.cs",
+            "_guid": "84df380001a246538efb81519a25ddcd",
+            "_checkSum": "5c7a8bcb4ce3eb4e7ba1b356dfc0ce7b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/readme.txt",
+            "_guid": "3d832028b4bb1a44c87934e1038f79d9",
+            "_checkSum": "0b589ffa3524cd4c55f8d69030d3fa63"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/Tile.cs",
+            "_guid": "9e1a9c21cf86414d81cd8a2a90a947f6",
+            "_checkSum": "c9603e2f3208c3cd3194ed8ead8a34f4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileGetColliderType.cs",
+            "_guid": "9fa322b609cf1d84590350cd172ee118",
+            "_checkSum": "196ae6228798c6ad2dfa89d22733a805"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileGetColor.cs",
+            "_guid": "0c5130ab338278344b153257b6c86564",
+            "_checkSum": "4a2cdbe11ed2c1a03760da596d070173"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileGetFlags.cs",
+            "_guid": "efe8462f19d208c40a4829513de0877f",
+            "_checkSum": "5f7807b465099f7dd129b68654f5923a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileGetGameObject.cs",
+            "_guid": "d6ecf769e0c96014d95c4a22a092b69f",
+            "_checkSum": "12485b349721a15be74d825a9bbb1886"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileGetSprite.cs",
+            "_guid": "e4cb362d7a83bfe48b4a54299d210cfe",
+            "_checkSum": "ad513c65503084d3837fad9d4aa9824b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileGetTransform.cs",
+            "_guid": "c7e09a0b5e1c96c4ab32e62f2a11829e",
+            "_checkSum": "a07346a17b5a0d09d2020f0e44804eb8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileSetColliderType.cs",
+            "_guid": "11e11571b85269f4d858a7c151ac61f6",
+            "_checkSum": "b6ec446fd199714d8e8f74d11156a65e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileSetColor.cs",
+            "_guid": "26156a2682b68c74a8daf2b58c36c435",
+            "_checkSum": "8bef6b178c441e9befacf9ff554877b7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileSetFlags.cs",
+            "_guid": "ce5680ca026ba294c897738031b6e1a2",
+            "_checkSum": "1db3d6d248d0942e5da859a7fe33332e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileSetGameObject.cs",
+            "_guid": "936936dbbad8c134496cbbdba7121333",
+            "_checkSum": "19e5c01c1fb8607c19257d16a72e6f96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileSetSprite.cs",
+            "_guid": "e93ad4f0f392adf429132df8a6851a92",
+            "_checkSum": "75495f6394463564be68c6a1670fd73e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tile/TileSetTransform.cs",
+            "_guid": "383a657a3ec44dc4ca55445378918115",
+            "_checkSum": "7068cfce9ea7edb8a537f1049ed7f5cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapAddTileAnimationFlags.cs",
+            "_guid": "c9efa4f233ae6144790b8f09b0022278",
+            "_checkSum": "3e3f27fa98d5b509cdaade6c137919ee"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapAddTileFlags.cs",
+            "_guid": "a1b13664f61014243bb342966e34bd7b",
+            "_checkSum": "fdc01b9e7818d2fffb6ca25b7685b22d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapBetterBoxFill.cs",
+            "_guid": "fd3362b39bfc4e26a6a8bdb76bf863d8",
+            "_checkSum": "387deb3eab0d32555bd51397f9bdccd6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapBoxFill.cs",
+            "_guid": "85760cf0d29bc294dab7b32bc86e2ff5",
+            "_checkSum": "39cb76269f422381026344f7eb8bda0b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapClearAllTiles.cs",
+            "_guid": "6dade91c32c2ec244888a51fb2e1265e",
+            "_checkSum": "d7aaf94dea57cf5b5bf99e96ee7b98ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapCompressBounds.cs",
+            "_guid": "eb36d5475d11bf1439620a5f8f3bc44a",
+            "_checkSum": "3920e9d5be7554736aad126e11f00ebe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapContainsTile.cs",
+            "_guid": "f4f8ff0a0878e0c409061dc19e49ef35",
+            "_checkSum": "a18723750f96c159aedad722348a19bc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapConvertWorldRectToBounds.cs",
+            "_guid": "d82bf735e6944270a015dcea399d38d8",
+            "_checkSum": "1c5fa42e52839279361a7c90d93844b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapCountTiles.cs",
+            "_guid": "96c6be0c54f24817a0dc5acccf23b803",
+            "_checkSum": "43f7393e0e733b83308d2a8289b1ac91"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapCountTilesFiltered.cs",
+            "_guid": "d11274881b87437cbe412265f015e311",
+            "_checkSum": "3e68ba03e4ec65642e7338efa2c7aa6f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapDeleteCells.cs",
+            "_guid": "15c80dbfe6bbfab48b6ea0a1b09a2aba",
+            "_checkSum": "9d7c407be29210354c3ef978e314769d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapDeleteCells__Advanced.cs",
+            "_guid": "148ba1ceba921aa4ea12448c003fc186",
+            "_checkSum": "ff0d9f558deb2682307fc6bb3629b30f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapFloodFill.cs",
+            "_guid": "d1281d9d0ec92fe42a6817102376405a",
+            "_checkSum": "6e06990ae2e6ef5c663dbffc53681d3f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetAnimationFrame.cs",
+            "_guid": "5a92b2116a555534692cfd11b489deef",
+            "_checkSum": "93c28a4827d63004cfda920157078f64"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetAnimationFrameCount.cs",
+            "_guid": "1fa057d4a323edd49a5cd18c9e5d5d0c",
+            "_checkSum": "3403fbd2606de2d6541ff43bbf624ccc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetAnimationFrameRate.cs",
+            "_guid": "9858b0e09ee540f429963b2cc2988bbc",
+            "_checkSum": "b5fafc635cbbd68787043c82ff34904f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetAnimationTime.cs",
+            "_guid": "e816fb97c42f77d4a90903e80707371b",
+            "_checkSum": "836d9378b43694836350624055436bb5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetCellBounds.cs",
+            "_guid": "8a25d09017cc90249bd5d31d26fb2147",
+            "_checkSum": "2b3bd8011f0718d212218b6cc51be340"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetCellCenterLocal.cs",
+            "_guid": "9e85d45e46188d34a8fb25d14e860549",
+            "_checkSum": "2ef957ebbc97212e16a9d481ebedd6a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetCellCenterWorld.cs",
+            "_guid": "e460ab911dd985d499357eb0a1d90423",
+            "_checkSum": "e6934ce48fc167b9f35d2be278c0a28b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetColliderType.cs",
+            "_guid": "d2b92b69cd2e89e4989f670b6d2a9b95",
+            "_checkSum": "2a2a543ec9b4f72bd36906dcd93a933a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetColor.cs",
+            "_guid": "1396ff10e0d924e49b72424c118102ea",
+            "_checkSum": "a9b709d5bdf7bde89d5a59b9877aa1bb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetColorAtPosition.cs",
+            "_guid": "c850667e0caf80e41ba7b0a34c88f863",
+            "_checkSum": "8a9c9cccd88faa42fe9e5abbe4099b17"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetInstantiatedObject.cs",
+            "_guid": "333b24b8c15d4164693b049bd8e39fd1",
+            "_checkSum": "2f0e7cb32a9a31057cebe586894c7b00"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetLocalBounds.cs",
+            "_guid": "9653c979a42ded941bc3a1b1402830f5",
+            "_checkSum": "2a2dc3acb67b6478fa5a1505d0de79cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetObjectToInstantiate.cs",
+            "_guid": "8bb6534faebce2b4091a4d990f5074fb",
+            "_checkSum": "1437ca2c115a8b01a0002150993df1f5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetOrientation.cs",
+            "_guid": "d246f847ff7b169489ad856d99811662",
+            "_checkSum": "b50646bb229ef842a236bfc6ee27daf5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetOrientationMatrix.cs",
+            "_guid": "7f83f9d3302d7d64f9c694ee68cd6b89",
+            "_checkSum": "58c5d04a5eaa702a0d7b75c2d2673a31"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetOrigin.cs",
+            "_guid": "1f8d4e4ec600fa049a54f8b406d061f8",
+            "_checkSum": "ca26e23b9bbca9bf6dd530dded5faf93"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetSize.cs",
+            "_guid": "6ac7f774d5494d4498ecfdd1b20fe487",
+            "_checkSum": "85e9709160446c47781b1502121f9f99"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetSprite.cs",
+            "_guid": "62e41e7437a693549934682c12a0c8fb",
+            "_checkSum": "df425943056bd18d58a33f8ef13586f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTile.cs",
+            "_guid": "560c46d37f6830248a73feb3c853ab98",
+            "_checkSum": "8ceddf5e62a04420691227b53b99861b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTileAnchor.cs",
+            "_guid": "e0c902e424a667947868afb94a8414f4",
+            "_checkSum": "df1562e47e33de646e51b46d79266c81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTileAnimationFlags.cs",
+            "_guid": "9b84e5de0daebcc4db40db0e23f23ff7",
+            "_checkSum": "5285a01abaab77e62cc95431d479f274"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTileFlags.cs",
+            "_guid": "a4e632b85764b774380196dd8b2452a2",
+            "_checkSum": "520c4ac70cfa13cddaeb1a2348e48bd8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTilesBlock.cs",
+            "_guid": "7c2f8d85902d0a840a657fbf7588ca0e",
+            "_checkSum": "31ee77f47b1e57fd786f073c579231a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTilesBlockNonAlloc.cs",
+            "_guid": "be46449241a0e1b47a3604f6eda9c6b6",
+            "_checkSum": "32003ea6620acd8b24f56653235b4df3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTilesRangeCount.cs",
+            "_guid": "969aa8988c90aa844a00735af7b34f02",
+            "_checkSum": "eb40ffa97349de1f025b9350574eb31a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTilesRangeNonAlloc.cs",
+            "_guid": "b6a35c1d852ca1f42b7204c068ca93a2",
+            "_checkSum": "d80c1572e816a46f6ef36f7bdf1bbba3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetTransformMatrix.cs",
+            "_guid": "b18478bfc3d458d4da4ec46586e8547f",
+            "_checkSum": "7e27e664b8cbda3a0a2b2383dc6c90bd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetUsedSpritesCount.cs",
+            "_guid": "8f356545dd01b914d91d1c9f11141276",
+            "_checkSum": "fe3f891ee6cc69f31fd5c60bbce550f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetUsedSpritesNonAlloc.cs",
+            "_guid": "4f556500d5c95ae4eb8929f3accbdc11",
+            "_checkSum": "be4e848a22e83bb3dfa19278468f73f0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetUsedTilesCount.cs",
+            "_guid": "9bf243588788e6d438edaa73a6e1ad27",
+            "_checkSum": "fb9a06232e5b91d1c214b4f71d484825"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapGetUsedTilesNonAlloc.cs",
+            "_guid": "e4dbf12933535b94d9e78c24ff0e70d2",
+            "_checkSum": "1f7479adf864e4dceea1ee0bd012c827"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapHasTile.cs",
+            "_guid": "9da043ea7d6e74b448c6ed243ef86b0f",
+            "_checkSum": "57b6090157f3c2e98dd47afb991174da"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapInsertCells.cs",
+            "_guid": "728c754a085af3748a1e687fb3cb1494",
+            "_checkSum": "b25f8b504a5924db591f13c0046d1959"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapInsertCells__Advanced.cs",
+            "_guid": "63f13b68396a02548ba296c44884182b",
+            "_checkSum": "7ba87249684ed3670082bb600bc46bb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapPositionsChanged.cs",
+            "_guid": "49102a5abc99de8409f3e5b7d81dcb6d",
+            "_checkSum": "c64da51a123420fdedfa82c86bf37035"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapRefreshAllTiles.cs",
+            "_guid": "563bd13fa91fc5247856a0b77e243621",
+            "_checkSum": "609f411cd46360790899daa3100f18c4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapRefreshTile.cs",
+            "_guid": "46ee4143ed6fa1a4d8cbba9f3fdcf8c6",
+            "_checkSum": "26567f91e73206458f5104d7321b54db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapRemoveTileAnimationFlags.cs",
+            "_guid": "76384d1ac091d564ebd2a4149f7d352e",
+            "_checkSum": "49be2afd761ae95523fc82318062db1b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapRemoveTileFlags.cs",
+            "_guid": "4323c8f95c4c2964e8e9ab971a5df11c",
+            "_checkSum": "285679c5e92bde1c7f037ffdfb54427d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapResizeBounds.cs",
+            "_guid": "81396858f43adaa4fba425d836717892",
+            "_checkSum": "57942104ea57d5cfce6e316c9461dae9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetAnimationFrame.cs",
+            "_guid": "cfa47e9ad59ac194895a73265a3dec31",
+            "_checkSum": "2b573539704ac923874ffe4edc599851"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetAnimationFrameRate.cs",
+            "_guid": "057df760eff2d024099313e297fd95a9",
+            "_checkSum": "96d6396c47c23996501ef059f00ca96f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetAnimationTime.cs",
+            "_guid": "72077d7cf7e8dc94cb6e6a67c0712a82",
+            "_checkSum": "ca40e41241b3d8294b1bd5b38edb914e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetColliderType.cs",
+            "_guid": "a53e591318f9f2a4bb29fb2382f02407",
+            "_checkSum": "34fc97bf0a63805973228f47122724e6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetColor.cs",
+            "_guid": "8420ba2b8cf78d94b9a17134c58c53b8",
+            "_checkSum": "dbef8dbbb6ff0126eb484ad9c0d21c22"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetColorAtPosition.cs",
+            "_guid": "58fbfc64156b5b64a9063cb104106fda",
+            "_checkSum": "d45263352ce833ffd58214e7a9d33e30"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetOrientation.cs",
+            "_guid": "c6b7f2d5bbbe9cd45ab68030cb46a95e",
+            "_checkSum": "79a6cc8f77a909472c830adc0883b54c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetOrientationMatrix.cs",
+            "_guid": "1c39e4fa1ef4dd941940506d0d4a01ce",
+            "_checkSum": "8e07f570843ab8c7bffc38d7dbcd947f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetOrigin.cs",
+            "_guid": "44525c0e102acf541acaf331d94a6d01",
+            "_checkSum": "353c7333e41f8437f846f0c49186006f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetSize.cs",
+            "_guid": "b50adc3780f1b8543bceb329e1398c26",
+            "_checkSum": "a220d952a5809e47c3bd8f296d8e2a12"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTile.cs",
+            "_guid": "e878f613b84122442b436e445a7785de",
+            "_checkSum": "317caaa54546f2307e680bb5ba662e88"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTileAnchor.cs",
+            "_guid": "d5068a7307cf8a845af83c5aa63ff75a",
+            "_checkSum": "c1d6ab3adfa2d975acc17c1a59b24cba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTileAnimationFlags.cs",
+            "_guid": "0bb980861d8e48e41905f26c943b7822",
+            "_checkSum": "515dcd26ab87db708a6bde987346b27d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTileFlags.cs",
+            "_guid": "7fb48e55f2d38154a875dd4286b75555",
+            "_checkSum": "0d725bdd8e5b3b51738b8b0977214f07"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTiles.cs",
+            "_guid": "ad54005df6e4ff049861198a48b73050",
+            "_checkSum": "f20d8ab6f15e8da3a51796a55c2a8158"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTilesBlock.cs",
+            "_guid": "e066649e0abcfad4db97563cc2610480",
+            "_checkSum": "5843aa06adda8da7cbaee193553000d2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTiles__ChangeData.cs",
+            "_guid": "04e0d05e639964148bcd2a5a8df8263c",
+            "_checkSum": "5b80b76100fb7e0b5d82d293d0de685e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSetTransformMatrix.cs",
+            "_guid": "460a94228088ad6439b9e047e2c04ac4",
+            "_checkSum": "29ec14b59101283c542b3274aa67571c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapSwapTile.cs",
+            "_guid": "627a4e64489c0374b86f9d30c91f28f6",
+            "_checkSum": "a12b9d640912eff2bb3bba5b30d6b2a1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapTileChanged.cs",
+            "_guid": "cebd7baeb458ebb42bd108d63bf8fe2f",
+            "_checkSum": "657221b9611ca4e63d53fc1589571493"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Tilemaps/Actions/Tilemap/TilemapWorldToCell.cs",
+            "_guid": "87552ffc521b416087ddf4004d0f6a07",
+            "_checkSum": "4b0f239a86a8cecfcb671a95bb768ced"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Editor/Actions/Editors/Tilemaps/TilemapSnapshotEditor.cs",
+            "_guid": "68e344a1b01f4158b7952514920e06ff",
+            "_checkSum": "760355c42ea66e17afcf74a3704944d7"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b86",
+    "_datePublished": "2026-09-09",
+    "_timeCode": 134334508032426904
+}

@@ -1,0 +1,1258 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.tmpro-info",
+    "_displayName": "TextMeshPro Info",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Action to get advanced information about TextMeshPro components.",
+    "_description": "",
+    "_helpUrl": "",
+    "_icon": "TMPro",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/CaretInfo/CaretInfoGetIndex.cs",
+            "_guid": "71d15d3cd91e2294eb7fd1ca0b0a8425",
+            "_checkSum": "fe58dff97d33ee5d56c6284efb604495"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/CaretInfo/CaretInfoGetPosition.cs",
+            "_guid": "42c62c5b11cbedc4bba6a1cd72d01153",
+            "_checkSum": "640d4217d691c8b40992a88aa0253778"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/CaretInfo/CaretInfoSetIndex.cs",
+            "_guid": "00ad57fd4ae594f4f94cc39df58463d5",
+            "_checkSum": "f3fa6365e278768632a104500b0af8f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/CaretInfo/CaretInfoSetPosition.cs",
+            "_guid": "4b461a526ea854447be16df372dbd556",
+            "_checkSum": "219cd65c22891e5074207cb203fe42a3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetAscender.cs",
+            "_guid": "af6ed5cacd4263b4e97fc594fb3267d0",
+            "_checkSum": "a00dfda496564568cfc5bbefd7646bdc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetAspectRatio.cs",
+            "_guid": "4c5810f3a80d5d948b42fef1f8ed5217",
+            "_checkSum": "c476e3d60da4149cba8159feaa328017"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetBaseLine.cs",
+            "_guid": "4c210cc89c8859f4b9e0b72cccbc513b",
+            "_checkSum": "3152aee4d57186d33110b4c247869f69"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetBottomLeft.cs",
+            "_guid": "7e31304a81a1eb747b6dc9bd83d90626",
+            "_checkSum": "781d57d5b93e9898f2ce6fa552b49b14"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetBottomRight.cs",
+            "_guid": "4b5b4d44bdce43d408778d756ebaf1de",
+            "_checkSum": "d77ea3545be4ce202ddd11f237e3d5a7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetCharacter.cs",
+            "_guid": "dcaf8c271a274ed42a027217f75c14e8",
+            "_checkSum": "6560fec1f19325b9b0fc43716681d164"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetColor.cs",
+            "_guid": "269633a1643ccc946991818581923a6b",
+            "_checkSum": "32ba05bf8f89db8adc2cb81b7e638087"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetDescender.cs",
+            "_guid": "4af7882fc3029af4faa82236df5ce34b",
+            "_checkSum": "14143968f0f59abb99d1ec13735593b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetElementType.cs",
+            "_guid": "3a1db5b6d86377e42a8977c9e5e24340",
+            "_checkSum": "233a47715802584c72e32c07ad111d5c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetFontAsset.cs",
+            "_guid": "e208b0d1f2e271544819d9ace464bb68",
+            "_checkSum": "32ef45545ca79f989023df614b6cc52c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetHighlightColor.cs",
+            "_guid": "57e907c02a68d4a4782312e07a26f3fd",
+            "_checkSum": "27ca878193eb7062349afc5b083c8a01"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetIndex.cs",
+            "_guid": "e154e56a4545aac4ab64b751d27c48ba",
+            "_checkSum": "70c06b038a5c38ee459ef2b7c75bfe35"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetIsUsingAlternateTypeface.cs",
+            "_guid": "036f0d7b0d0f70f4590a11aa591512e3",
+            "_checkSum": "aa34c6929ab7788e8a707ce6ea992531"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetIsVisible.cs",
+            "_guid": "ef79e0ad8dc9e4640b0d44283b9fc2a7",
+            "_checkSum": "61e2c476cf8b3212106d9726b74a62ac"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetLineNumber.cs",
+            "_guid": "92dcabbc2e89d2049857db5a3d887da2",
+            "_checkSum": "57fbb61d00aa01f393f4e55a08f5367c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetMaterial.cs",
+            "_guid": "2faf7705049db9f4db56d6daec7bdfa0",
+            "_checkSum": "373afdbf5c12974e8533c6229c534271"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetMaterialReferenceIndex.cs",
+            "_guid": "ba8ffeef6c51f4c4bbb7be8544dc7bb7",
+            "_checkSum": "6021889e5049d782f6fbe33877798e72"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetOrigin.cs",
+            "_guid": "0e191747dbd22a24994f861d8c55149f",
+            "_checkSum": "be3b7eb9506f79f74bd12958ca0e19f9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetPageNumber.cs",
+            "_guid": "82844bdad83fc0f4ca93a76f09b5c0dd",
+            "_checkSum": "e935a1d5bf9855f08578ca51eb2a91ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetPointSize.cs",
+            "_guid": "c30948ed9928d6342a25e26e8253fd0b",
+            "_checkSum": "a0b2792ec97257c977d9fbda35552b46"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetScale.cs",
+            "_guid": "20e7ec9aa7467724db2ccd580db5c8c7",
+            "_checkSum": "5c26f641532f4d0bd3b7e61dddba38ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetSpriteAsset.cs",
+            "_guid": "a55a2ebcb773c7947b1be610964c0498",
+            "_checkSum": "853148f822c9704b508bd49d28522ae9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetSpriteIndex.cs",
+            "_guid": "1e26e8c3a3bb826458f877b2e04c3a5e",
+            "_checkSum": "2795af7baed26e45faf257e5823d8914"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetStrikethroughColor.cs",
+            "_guid": "3d6904558cb00074b9852f95a1553ca6",
+            "_checkSum": "a2305f60b36bbbff03379380eddf6379"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetStrikethroughVertexIndex.cs",
+            "_guid": "a6070a60b8a3d024b871cac9b2e98e4e",
+            "_checkSum": "dea2301430a8cc8ae398f72f1172eb1f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetStringLength.cs",
+            "_guid": "5a855b7a500c7864d98d432807f500f4",
+            "_checkSum": "8ad158ba3e55e369d7b048f38a290f80"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetStyle.cs",
+            "_guid": "ae14c2fc2c2fba74d8e50dd354c4ff4f",
+            "_checkSum": "4dfdf3588fd008c535c691096e0ece6c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetTextElement.cs",
+            "_guid": "ca6b1742587bd95448156b9a471ae8a2",
+            "_checkSum": "ce805356543acf208bcb738cab6d09b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetTopLeft.cs",
+            "_guid": "1b03dc8c398ac174ab08bf73c9d5a32e",
+            "_checkSum": "7bc21cac9550e7b53943651c85549cb1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetTopRight.cs",
+            "_guid": "0f01ec2f6322ea440b8817ce3dd1b6c7",
+            "_checkSum": "8d21a08a2510992cff298a90be40ef40"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetUnderlineColor.cs",
+            "_guid": "ec0e631ec768f834fbc9d762b40a7e47",
+            "_checkSum": "7ff03e87fc1b9c8205db810d6ef53ea4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetUnderlineVertexIndex.cs",
+            "_guid": "6e5751c6185372d4690fc5fa2d439217",
+            "_checkSum": "6877602255b842ac4afd44347727c6cb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetVertexIndex.cs",
+            "_guid": "2af6e693d54ec774d8f1cd9f77643f17",
+            "_checkSum": "9efa9eb3cfb6e847b5fbb0a2cd966c9a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoGetXAdvance.cs",
+            "_guid": "acce7767175d9584d9eaa4adc2f521e1",
+            "_checkSum": "d53e1af13277317ff9a3c39009b39380"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetAscender.cs",
+            "_guid": "d6181499253257147834bfe7fcb016bd",
+            "_checkSum": "8ddc3538d32e472a34741966e13b4263"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetAspectRatio.cs",
+            "_guid": "c745127ddfe418f4abd1876ca99f116f",
+            "_checkSum": "0b825be77b4594c0a5623407897b8741"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetBaseLine.cs",
+            "_guid": "d372256641de15f45a39169a7a7f8611",
+            "_checkSum": "f9e7135b0917580c56d70ddcd5800cc8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetBottomLeft.cs",
+            "_guid": "21d83c5761d379b4e8c0c81266c068e3",
+            "_checkSum": "fa722453250b58abb7e2fa6216db7199"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetBottomRight.cs",
+            "_guid": "79552f4d899edc444b7e3321418e61a6",
+            "_checkSum": "a3260ff0ec6a96f105a596967620053f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetCharacter.cs",
+            "_guid": "7f8995a30f1b67f4c9f2e911a427f05a",
+            "_checkSum": "0ef0c112793b496ebf7ece25c955d71c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetColor.cs",
+            "_guid": "8963914f3b91e6b469ade18bff30abf6",
+            "_checkSum": "8d95cc2528d3a8bd8953a1c31c59efb1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetDescender.cs",
+            "_guid": "81ed75abf24ba7447a7338241ee5a58e",
+            "_checkSum": "fa79c01cb55e57405fc9c147f052f5ce"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetElementType.cs",
+            "_guid": "f103f9e76b28af84fa54c7f497249a0d",
+            "_checkSum": "aedca1ec73db77eed5ca6e96280dff81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetFontAsset.cs",
+            "_guid": "ed20a3c6ec8ec5b4582efd3e1b1f799a",
+            "_checkSum": "0a7753de8e883c126ceae574ce2b123c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetHighlightColor.cs",
+            "_guid": "eefc0b0e450e9a44a84ecefaf3942f64",
+            "_checkSum": "fc1c9aa05d7bcf73cf5a92463b084d5a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetIndex.cs",
+            "_guid": "03a2d91e603a40c4299cbb2f0c1365db",
+            "_checkSum": "1d174ae0f6798818192279ce42a885b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetIsUsingAlternateTypeface.cs",
+            "_guid": "341e29ba9ad67ba4cbc06466473da75b",
+            "_checkSum": "86e913dbea7dbd69c33170c3a8272546"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetIsVisible.cs",
+            "_guid": "a71ab6cb84bfaef46b3595fab27cbd2f",
+            "_checkSum": "5c81274443c282c5237b8c18abc006e7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetLineNumber.cs",
+            "_guid": "80cd82d45552817448af96cbddfe415a",
+            "_checkSum": "18fa69ae1cefbe394f98b3b7a260d338"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetMaterial.cs",
+            "_guid": "a19df03d579236149b37c15c686c519c",
+            "_checkSum": "d551b0f1ee583f5ae290208696ffce29"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetMaterialReferenceIndex.cs",
+            "_guid": "8f53b58bc004ba443b8b91de236e71ff",
+            "_checkSum": "c86e1700a5af43a34c35fbdad3c2f031"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetOrigin.cs",
+            "_guid": "a13491062802049468cccbddfd404707",
+            "_checkSum": "344e6bfd69113bc754d64388c161191d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetPageNumber.cs",
+            "_guid": "9ed87b9054d9d91438598af0e6dc8a48",
+            "_checkSum": "38f89d57c1fc6f95e0b84aa59ee9196f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetPointSize.cs",
+            "_guid": "31aa5d9ba71d5ad40b896306c8a588fa",
+            "_checkSum": "b97480804ac112bc31f12358bd3cceb6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetScale.cs",
+            "_guid": "965d41fc674c0374bb65d71f0e298435",
+            "_checkSum": "e68fb2f80f4ba67d010aa76fdb1a3464"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetSpriteAsset.cs",
+            "_guid": "918a92deed9df534b86803f7b13936b5",
+            "_checkSum": "e0231705f4893f28ef6bfa0ff306e7b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetSpriteIndex.cs",
+            "_guid": "0542725e67672dc42bfd0c0f7bbab2e2",
+            "_checkSum": "e2470278b0c6ea744bd2082e2c416b78"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetStrikethroughColor.cs",
+            "_guid": "1ed22db7855104d4981c40c0df935c40",
+            "_checkSum": "1ccc0a9bce0da4bf328438d8302196cc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetStrikethroughVertexIndex.cs",
+            "_guid": "3f7ce26d58a5513428606a5b41ad46f2",
+            "_checkSum": "29d6cb586457d63cecd0a82d67437056"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetStringLength.cs",
+            "_guid": "e0471c54d35faa5469c56a1bc481064d",
+            "_checkSum": "84cf765586b16b9989132847792b0b04"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetStyle.cs",
+            "_guid": "13701defc84369e48b5c660a20b5390d",
+            "_checkSum": "7c689c0114c171d1ca6c2275dc085b05"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetTextElement.cs",
+            "_guid": "40022be04302544488f046fe64cbba54",
+            "_checkSum": "feb464c82e1f0a1ba9c61dcbba6d53eb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetTopLeft.cs",
+            "_guid": "cc282f4da9cd17e40a187b958251a335",
+            "_checkSum": "0dd2f23821011ca651d7a2da7ff272fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetTopRight.cs",
+            "_guid": "ffb932c46482dec4ab0ec746384ad76e",
+            "_checkSum": "15dbffc89f158940c7f706241c6a4e87"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetUnderlineColor.cs",
+            "_guid": "3b0fe755017a02b4fb7d49949678ed4f",
+            "_checkSum": "31c2be4248866d0dc6d3953c78867b2d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetUnderlineVertexIndex.cs",
+            "_guid": "4ac7f61420651fa459042773b3b225ce",
+            "_checkSum": "3209da1a4582d63e15e078c06d324e2f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetVertexIndex.cs",
+            "_guid": "45f99c5231fd05943a769a048ee1feba",
+            "_checkSum": "fd57e74171ce76e3b758f63cf2a4d6a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_CharacterInfo/TMP_CharacterInfoSetXAdvance.cs",
+            "_guid": "aa8218abce7e6cd4daad49880f898927",
+            "_checkSum": "4c677cd62edfce773e26d68bc3140207"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetAlignment.cs",
+            "_guid": "468ce09e4b34bc84189672d29f4f691b",
+            "_checkSum": "b4be48af4119061dd0510efb3c6eab53"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetAscender.cs",
+            "_guid": "2a9a0851e5b053d49907bee4d7ec9446",
+            "_checkSum": "1e13985ba22300d6acfcf4748dda7f53"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetBaseline.cs",
+            "_guid": "ff08a88332a5bfc4c824744243967573",
+            "_checkSum": "c60739f0f11e937924a0d0dcb257a85f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetCharacterCount.cs",
+            "_guid": "0c8e5950ed8280c4a8603f1778da36b3",
+            "_checkSum": "4f37565f345570760f1bde4e149545b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetDescender.cs",
+            "_guid": "8743859d86c2e9340a7d389b1b595965",
+            "_checkSum": "afeb8985d6e11c4abafb0c53dd4a787c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetFirstCharacterIndex.cs",
+            "_guid": "6ee292b93f1540545b5aad920a9ddc92",
+            "_checkSum": "8b31b56a8ad4a7ecd0de80dcb3ba1e7a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetFirstVisibleCharacterIndex.cs",
+            "_guid": "4608bfb2ac3ac5848b1db035bda298dc",
+            "_checkSum": "0a83da3f0aae426d86333be04c5619a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetLastCharacterIndex.cs",
+            "_guid": "9b2205eb826f97b41a859d916a877077",
+            "_checkSum": "aefb66a309daa0e4ae708b70041ce5c5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetLastVisibleCharacterIndex.cs",
+            "_guid": "cc8b61317b81e2145929126c42b533b8",
+            "_checkSum": "b77d2c562f3fecebf3d87884986a7f91"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetLength.cs",
+            "_guid": "837ef51825f888048b3aea6abf129cd7",
+            "_checkSum": "682554f0f23687fd337eec89908df4c7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetLineHeight.cs",
+            "_guid": "2c560fd2c7fe73945b55b702f0745fef",
+            "_checkSum": "607155707acc055b327747535f3c5ad1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetMarginLeft.cs",
+            "_guid": "d4ae5c5687bec1c499cf2f028d71aee1",
+            "_checkSum": "d8177b411ba061562bb1978daee68e94"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetMarginRight.cs",
+            "_guid": "86cc7c8e116415847b1ed5adf38930bb",
+            "_checkSum": "838377dcdb033bd543570b93ca992671"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetMaxAdvance.cs",
+            "_guid": "904d7a3484ad4614eaa3685e385e0c85",
+            "_checkSum": "996025c9ebeadb9e4c2c179ae4b86c43"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetSpaceCount.cs",
+            "_guid": "5c43d051e2f881348a1f049dd25d1b95",
+            "_checkSum": "5459fba840cb3c13c832bfb5935cb3a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetVisibleCharacterCount.cs",
+            "_guid": "c2ecd39289aae12459e8cc7e6cbdf930",
+            "_checkSum": "dc632414e8d1cacbd5de800846532858"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetWidth.cs",
+            "_guid": "e8270a3793a8f474fa358c2f46e1bb9f",
+            "_checkSum": "961619e17976f743401f05aa12cde57f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoGetWordCount.cs",
+            "_guid": "46089d30e9f484b42ad075ec8a9a6463",
+            "_checkSum": "5774215962f6ac17b83f41f37bf79476"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetAlignment.cs",
+            "_guid": "53a2005e434122e41b19c675c1b0cb9c",
+            "_checkSum": "08b04b326261a8334ef5b555a51837f7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetAscender.cs",
+            "_guid": "0d63f259f8a786d4ebae286069f730e1",
+            "_checkSum": "4b9077393074c472827a667c75e975b4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetBaseline.cs",
+            "_guid": "b38de3e33b92aa44289a3f01edd68041",
+            "_checkSum": "5c9d2448974476d362abba234e03585e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetCharacterCount.cs",
+            "_guid": "bb369d4a6aa0ca9489c2581528f0b6dd",
+            "_checkSum": "8f34e6502d4a8c5fbceb99dcac775e27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetDescender.cs",
+            "_guid": "221fb6a11e1bf0c4192552be45935b3f",
+            "_checkSum": "84572229d92fec3d30b2cfb8d47e1c05"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetFirstCharacterIndex.cs",
+            "_guid": "b1523db9694791d43abc184b9a5b7334",
+            "_checkSum": "07815c7b40e10938be8f9b54ffe6dbfb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetFirstVisibleCharacterIndex.cs",
+            "_guid": "1229858982240ee43b0bda5fb901ba12",
+            "_checkSum": "a05e005a3cc517a7734becb7f72a55e3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetLastCharacterIndex.cs",
+            "_guid": "d435397b74deb6f44879f5d9d244266b",
+            "_checkSum": "584a33a4803f83a3d3a801ef4e7abee3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetLastVisibleCharacterIndex.cs",
+            "_guid": "64b1bae6df365ac4f998feb4907e2062",
+            "_checkSum": "bfd6904a713d33e87da5975d0d1a63bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetLength.cs",
+            "_guid": "9f3d5f15262de7e4c9b13bee41c66bda",
+            "_checkSum": "5c121aca95f1fc9ac0784a9fc612840d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetLineHeight.cs",
+            "_guid": "67508eb523a3ed645a53f84dae694fa0",
+            "_checkSum": "36877849f5ad68e28ba5f9091c802f99"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetMarginLeft.cs",
+            "_guid": "dc8281ba72db7fd4aac13f55ce0905dd",
+            "_checkSum": "8cf65fef47579ff1210e0aab161c07e8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetMarginRight.cs",
+            "_guid": "a8ed980ae3a57da499c831ab3d2f9e11",
+            "_checkSum": "fcb37e00a5c3f25b1a8aed1f1e29b19b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetMaxAdvance.cs",
+            "_guid": "9e4ad4800e14833448d960a3537b5c41",
+            "_checkSum": "b5c74782a0af501f8dfd7088dbaaea76"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetSpaceCount.cs",
+            "_guid": "523526a258fc5b24ea514eb97ac49d62",
+            "_checkSum": "e3432a807a5eaddcef0a7032fe6500ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetVisibleCharacterCount.cs",
+            "_guid": "7c9d06625c272f2418362f012b32da09",
+            "_checkSum": "47b5e30e18f5e869c55b8e81b0999f68"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetWidth.cs",
+            "_guid": "e984c421564d8e64899044035f8f0ec4",
+            "_checkSum": "d21cbe4238b531464b3decd83dbbbc96"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LineInfo/TMP_LineInfoSetWordCount.cs",
+            "_guid": "26caa34132274f14082846b192c2c4bc",
+            "_checkSum": "955af7b57dbc067cbaa8d1be85ea4d77"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoGetLinkID.cs",
+            "_guid": "29ee63efc3067f849a9a53fd79bcacf3",
+            "_checkSum": "d353afc3390fde1f2688b1e90958348c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoGetLinkIdFirstCharacterIndex.cs",
+            "_guid": "fe8c5b2b8af3b0c42bae678314b23f22",
+            "_checkSum": "e02ef77dad34baf0a6d5095f874a1467"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoGetLinkIdLength.cs",
+            "_guid": "14573f973de0024429670a3878a824c4",
+            "_checkSum": "0ba2f6014315f5af07602e024de18c83"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoGetLinkText.cs",
+            "_guid": "48968d4ca2b850845bd8ac84e0d23d07",
+            "_checkSum": "e068c185ae50410b33eb72ba85c9c6bc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoGetLinkTextfirstCharacterIndex.cs",
+            "_guid": "f408658531e391747a0b48dac300a222",
+            "_checkSum": "0d42647f64de4265ca501afea5a6675c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoGetLinkTextLength.cs",
+            "_guid": "e9c629b7c3cca3e4daefbb162b40fb5d",
+            "_checkSum": "1ca6eb23cb5d1161ff1d7a086ec9fc88"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoGetTextComponent.cs",
+            "_guid": "436970c753f808944818822d6bc7d4a2",
+            "_checkSum": "2373422edf6eb154a19b8b947f5f689e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoSetHashCode.cs",
+            "_guid": "0d160b3aca7dd7a43a15be0b6169acc9",
+            "_checkSum": "f199ad60f46e6e712dc91c7d5cc0326c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoSetLinkIdFirstCharacterIndex.cs",
+            "_guid": "1a500270d3c6cd949a5f640d7ba82138",
+            "_checkSum": "f9dc87d4ffaa90ae6ab3edbd792e0863"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoSetLinkIdLength.cs",
+            "_guid": "d5c40a676a047f743a34e56307f27adc",
+            "_checkSum": "796d1f683e0acfe6317c99f56cc1acbc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoSetLinkTextfirstCharacterIndex.cs",
+            "_guid": "b41a6d4e5d1387440b1e6d00bc6d19e7",
+            "_checkSum": "e615db6df014ac06e25a8b34ebce8a93"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoSetLinkTextLength.cs",
+            "_guid": "c1424e3284f726e479c3686140f7d36e",
+            "_checkSum": "7efbee55bbf067e4f5f6fd428ab3ed19"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_LinkInfo/TMP_LinkInfoSetTextComponent.cs",
+            "_guid": "7893a7f17dcc57f418bb00ae2ab39441",
+            "_checkSum": "33c8da30934b8d8096c5ec130d3d8ebd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoClear.cs",
+            "_guid": "c5e69442911a4e24d85cf8c4b7f8202e",
+            "_checkSum": "d56d2df5892579b7e6d6ad881c7f973a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoClearUnusedVertices.cs",
+            "_guid": "1fc65b49d8e68c243a0053ee871fc66f",
+            "_checkSum": "260d433d02e504479691d3e6e94938ff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoClearUnusedVertices__StartIndex.cs",
+            "_guid": "f0885cfeb96593340b5ae6c200fd2312",
+            "_checkSum": "e55fd50a6be063e43871b9fe9c26b1ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoClearUnusedVertices__StartIndexUpdate.cs",
+            "_guid": "0b9ae017033a3e8409219f50de5da37a",
+            "_checkSum": "2c90e4b0fe741d6a49ccd91c35fd24c3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoClear__UploadChanges.cs",
+            "_guid": "60a6ae369bf033b4aa02951d6b472ed2",
+            "_checkSum": "29de36a93c9414b70d8e3a1e339b12fa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetColors32.cs",
+            "_guid": "fe75acbd5d2f32d4f80da5ae8ee60cfb",
+            "_checkSum": "f069b88064a8f2e1af45b4c09e85f807"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetMaterial.cs",
+            "_guid": "73bde4628ebacbc44b40e2cd0c6be075",
+            "_checkSum": "df1032db98cd692f8728cb33b4e68b68"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetMesh.cs",
+            "_guid": "1d973b4a028bbe64bad65c87a742a6bc",
+            "_checkSum": "6a6797749bd8e2b9a32e313120c0d8af"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetNormals.cs",
+            "_guid": "8a01cecd553e49b408a278114d1c2f61",
+            "_checkSum": "c89ef41a2610e7c85dcf2eae14266b54"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetTangents.cs",
+            "_guid": "156746543b09dce4ea9229795eb50dcd",
+            "_checkSum": "1451925faab21fd5c5ccdfb2bb7c14b9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetTriangles.cs",
+            "_guid": "f4b438baebb33714d95a86aafc4a5f99",
+            "_checkSum": "ccbe2b59120380441e998c3d7a13a051"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetUvs0.cs",
+            "_guid": "9ce8650b3f4564d46ba4e7056b4f53be",
+            "_checkSum": "08cd69bff1f1ce75128454748662d662"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetUvs2.cs",
+            "_guid": "eda42659f585c5d4a9cd08378992a18e",
+            "_checkSum": "be0d910a3bbfa9ff50b12c55871a547a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetVertexCount.cs",
+            "_guid": "7a9293b77dba33146bde11f627d442e8",
+            "_checkSum": "ed658129c176af72e71d390a6459b8bc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoGetVertices.cs",
+            "_guid": "f1c48b40b0c5ea44381e3d44a4df3d5a",
+            "_checkSum": "c8d6421a57d618ca2db20199efd105e8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoResizeMeshInfo.cs",
+            "_guid": "9a9e8f2d5ca62be499f2071c44c48af0",
+            "_checkSum": "a31ffd71edac032eec1e1feadc57d804"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoResizeMeshInfo1.cs",
+            "_guid": "c60a3cc15aa6248449215bbf59b30c6a",
+            "_checkSum": "3c10275320d89466f2a0101b4926974f"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetColors32.cs",
+            "_guid": "490e7479e6886f04e990d27b770bd769",
+            "_checkSum": "2fd38beb6c0e9e9892b166441a844026"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetMaterial.cs",
+            "_guid": "23d854e0d29c2724385c2ba77d73ae5a",
+            "_checkSum": "b550dfc9587619d78b742da936f22cf1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetMesh.cs",
+            "_guid": "73f2cbc74e789ef4c92ddb46a16e4e58",
+            "_checkSum": "f235d82a8157536b09154c5f88e474ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetNormals.cs",
+            "_guid": "bef5bce2b0184ae4181da7f660256f2c",
+            "_checkSum": "241088759f9d86f75f4f8ccdb50259ba"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetTangents.cs",
+            "_guid": "d376505d5a9d27a45ba0299ccdc32122",
+            "_checkSum": "c2a3f4a433080f6e23a35047eebcccfd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetTriangles.cs",
+            "_guid": "08d3f4025a633ef44a9ca2414ad31422",
+            "_checkSum": "4d342b26b72d9e8b63968fbf66161e4b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetUvs0.cs",
+            "_guid": "4005bfc246fd5794aa1a7e23a6dd72eb",
+            "_checkSum": "5ea02661c97f7d204da041e6134aee6b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetUvs2.cs",
+            "_guid": "6a7053dc87e1bb348a7ca67c24df1c86",
+            "_checkSum": "37bbd5071235c3401ea0a37f1fb9af16"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetVertexCount.cs",
+            "_guid": "13af494d0d0194d4b833ad3e046b89cd",
+            "_checkSum": "3d0dfae566f04225ea82eaf2894e18d1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSetVertices.cs",
+            "_guid": "2c0acbbdab45aed408ac0d947566b3f7",
+            "_checkSum": "da980ef8f969141ce418853a04f0fc64"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSortGeometry.cs",
+            "_guid": "197061a00b6c6424eb85522470da7da0",
+            "_checkSum": "734ce1b101a6a2775575425802a77569"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_MeshInfo/TMP_MeshInfoSwapVertexData.cs",
+            "_guid": "b396682923b9fff4496d80c38b23dc57",
+            "_checkSum": "000ad2cb6813730fb69368554a1b89db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetGetBottom.cs",
+            "_guid": "b8ce6ae0e99d49e459c42bf6c9eb7006",
+            "_checkSum": "474303908af6b431408140dde741d794"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetGetHorizontal.cs",
+            "_guid": "8f37375e6258afd47aa6e9daa0387cc0",
+            "_checkSum": "3614efece45382b52badd07e2c2895ca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetGetLeft.cs",
+            "_guid": "723caa994204c984eb499b34d1908175",
+            "_checkSum": "c0b90c9c4fbeb77fc3b3218d12cb91e0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetGetRight.cs",
+            "_guid": "924abff0f3feb1b4587b8982a83dc6cd",
+            "_checkSum": "e1606f5834f566192c1b5faac8c51f60"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetGetTop.cs",
+            "_guid": "458ada8fdb79a5a4f97bbe67d5ed9e15",
+            "_checkSum": "7d404c1781338cd94efd37a17606639d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetGetVertical.cs",
+            "_guid": "4c108c47dd4fefa4fb6aebb5ca7cc42a",
+            "_checkSum": "0ec5b1f7d3aa0d6bf405e5e6f28a8e0d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetSetBottom.cs",
+            "_guid": "1e2d8ee35671aa648ac3f713fd8e65c4",
+            "_checkSum": "351dc725d3085fcd0363f3ff47c971ab"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetSetHorizontal.cs",
+            "_guid": "a91a683d6a7e37e4ea74937115a5605e",
+            "_checkSum": "cf2316f5167e797b6a3fba842c27d4b3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetSetLeft.cs",
+            "_guid": "dec28addb59be9b469d960b46fb037f8",
+            "_checkSum": "f0c95ed0aa3857ad5ab5266d2c62b03d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetSetRight.cs",
+            "_guid": "f3b0af5c8f99fe34e8e8a8ccfe0adc06",
+            "_checkSum": "ecba02d7ef60d2da44655b0eec50e5d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetSetTop.cs",
+            "_guid": "5f08a63d0606949429d3926f0bcc3c60",
+            "_checkSum": "7be2b3c0f835ba7a31ebd73db0803cd1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Offset/TMP_OffsetSetVertical.cs",
+            "_guid": "bccdfc08ddae60c45acb0d1dae4a1c3f",
+            "_checkSum": "5bdda5cf0b71a4763b9e96cd521303ea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoGetAscender.cs",
+            "_guid": "fcffd647bcb31d944bc988141434418f",
+            "_checkSum": "21e3de245c71ce81789326491c098965"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoGetBaseLine.cs",
+            "_guid": "248669906c83fd0488d0d8f3982d7f74",
+            "_checkSum": "937f1bb31f01eba3486d257a8e010f64"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoGetDescender.cs",
+            "_guid": "c76437b00646cc94d918f94fc069f36c",
+            "_checkSum": "bf391a003a3e7b7d832815d8cc15d1d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoGetFirstCharacterIndex.cs",
+            "_guid": "a00fc3b0d5ae4324884be823be3e65b0",
+            "_checkSum": "dcbe6ed8ac17adc2bb614421e4bd53df"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoGetLastCharacterIndex.cs",
+            "_guid": "193f12f4ed6e1dd47891333d4c420d61",
+            "_checkSum": "ca10cb90b7af975b0e46edb7e9f677fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoSetAscender.cs",
+            "_guid": "5a2d0eb8a3dee414f8147953543ac29e",
+            "_checkSum": "b98e71962a172ce212393ecdc0a0608e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoSetBaseLine.cs",
+            "_guid": "8d1325d81a7bb55458bb535f30758595",
+            "_checkSum": "63d62fd0abb46af300bd6bf0e1cb0b34"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoSetDescender.cs",
+            "_guid": "fbf91be1f07c2d846be2859823072dce",
+            "_checkSum": "913ba59624a658d7919b15fa3a7e44ae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoSetFirstCharacterIndex.cs",
+            "_guid": "006c58df4c058214f854fb514f0f0437",
+            "_checkSum": "02118ce556cdfb2fe3313306ba4ad04b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_PageInfo/TMP_PageInfoSetLastCharacterIndex.cs",
+            "_guid": "efb0be464167a414f9273ac4da2b96c2",
+            "_checkSum": "98a210c25c97fc2e4471dc02c5c2f841"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteGlyph/TMP_SpriteGlyphGetSprite.cs",
+            "_guid": "6970e5a16cf3a6b428f4ffef4606eed6",
+            "_checkSum": "58b9982de9de5e2c62f1c68ce1529c4a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteGlyph/TMP_SpriteGlyphSetSprite.cs",
+            "_guid": "40a5729b39991154fb0b0bea302cbec2",
+            "_checkSum": "a3ea5ac101a07c57be7bb27ef27f9da1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteInfo/TMP_SpriteInfoGetCharacterIndex.cs",
+            "_guid": "7307e1f087bcd1048a27b354ef75735d",
+            "_checkSum": "3e79202146ddacd80564b8adab7c4c46"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteInfo/TMP_SpriteInfoGetSpriteIndex.cs",
+            "_guid": "117f8a39286283c4e9298a4429a0e210",
+            "_checkSum": "f0a4322e3930a9b9adcd905fd505b70a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteInfo/TMP_SpriteInfoGetVertexIndex.cs",
+            "_guid": "250f19742d889454fb2d30607075bfd1",
+            "_checkSum": "023d33c749665096e0261733ee7fa2e5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteInfo/TMP_SpriteInfoSetCharacterIndex.cs",
+            "_guid": "9e1ffc3e020e0ad45901e1baaba1c893",
+            "_checkSum": "2120d10f2fa14cbaa2662179696c2292"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteInfo/TMP_SpriteInfoSetSpriteIndex.cs",
+            "_guid": "484e6874a5fc63247ad4d90bd2991632",
+            "_checkSum": "527830d2562d9576ec19ad21af5f956b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_SpriteInfo/TMP_SpriteInfoSetVertexIndex.cs",
+            "_guid": "5174616a843f9b3468801387c7b98540",
+            "_checkSum": "d76e2f3a16d5c2def0081f88ee7c8d3d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementGetElementType.cs",
+            "_guid": "046f115926081f34ba095c9684e7f373",
+            "_checkSum": "29dbd9d8dd932ff0ee1adc4f4cdaceea"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementGetGlyph.cs",
+            "_guid": "fb4b04ca160172046bb747d558ff4c9c",
+            "_checkSum": "8a8f0f17b11683ece8cb87552037be1b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementGetGlyphIndex.cs",
+            "_guid": "81e4115e0b06f3745ad901e71be06e45",
+            "_checkSum": "21088ee961e0c683a1239831e2494d30"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementGetScale.cs",
+            "_guid": "1244a52f1b962b24e95c6c5fde8389bd",
+            "_checkSum": "844b4c283991e21bd9f56612bc2151d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementGetUnicode.cs",
+            "_guid": "d2dc3fda1e9244246a1878c6824f4579",
+            "_checkSum": "b27d48a3e83a39b83a5b294f8e889f9b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementSetGlyph.cs",
+            "_guid": "6cb4a0ae11a0f08479aa70a4059659c5",
+            "_checkSum": "1291a7cda539479331a4711512ca01ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementSetGlyphIndex.cs",
+            "_guid": "39439260cd89dea4cb267d6b3ce602a9",
+            "_checkSum": "b2022f05f9a58dc5bb8be466b6dfbb7b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementSetScale.cs",
+            "_guid": "e6d03191fba4e0144a3765411cac248f",
+            "_checkSum": "e481aa8f7aeeabbb6e1dceb86e6adc03"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextElement/TMP_TextElementSetUnicode.cs",
+            "_guid": "90316fce934adf34995b6533c1c89ce0",
+            "_checkSum": "58c22d36bf8dc775b09b3e49e11cb213"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoClear.cs",
+            "_guid": "589601610367722478dc01f76b9c88fd",
+            "_checkSum": "3faefc8232acecbf9027d8a1c453163e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoClearAllMeshInfo.cs",
+            "_guid": "08852abc270d15049a77fe1e316b85e5",
+            "_checkSum": "80c5b148958e2de016c896826ae21c47"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoClearLineInfo.cs",
+            "_guid": "fa8f9350eaaf0ee4db785bb4b5b68ad6",
+            "_checkSum": "73247c337ac13ff70d2733f0595f4a8b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoClearMeshInfo.cs",
+            "_guid": "c35f27501fd088247b7f5be8fa26d7c9",
+            "_checkSum": "4d85daebee2cedc070805241ac66cd15"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoClearUnusedVertices.cs",
+            "_guid": "24ef3c84d3214d447af733cfceee2790",
+            "_checkSum": "76471518ae8909701bb3da05a4a9f159"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoCopyMeshInfoVertexData.cs",
+            "_guid": "75d0088309ab4754782b39efd9f0e6d3",
+            "_checkSum": "d40bb9ef9355d19a2584094396b71548"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetCharacterCount.cs",
+            "_guid": "7c09532a1ba8a224a80a563289da278a",
+            "_checkSum": "f16198c0dddf1b82c1f5cd50a4fd5b6c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetCharacterInfo.cs",
+            "_guid": "28341fe5f3fbed249a334863f7f272ca",
+            "_checkSum": "e81d21e72efcabc27f251ef1907aed1d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetLineCount.cs",
+            "_guid": "7f412a53aa7efdf4b9c9b13376b848f6",
+            "_checkSum": "809e4d28d5439a80f6f65245e49a8347"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetLineInfo.cs",
+            "_guid": "1071333d608d2f14186124dc6801cef0",
+            "_checkSum": "4595092094a99081aa2a2c464e93edb1"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetLinkCount.cs",
+            "_guid": "7aee5357ad584784abdb486128091699",
+            "_checkSum": "4ec2d937e831594a0d391dbf2f48f782"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetLinkInfo.cs",
+            "_guid": "808948b3c9c299245942881d3c7fc196",
+            "_checkSum": "950b5fcb01e44c8de62f0a2be3714125"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetMaterialCount.cs",
+            "_guid": "fe5f199920a89604d824c496ab79bece",
+            "_checkSum": "48428a04813a8a81a5772af80210db81"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetMeshInfo.cs",
+            "_guid": "daddc00852be1e14e9ab085001d3d5ca",
+            "_checkSum": "9036e8e09c37187bba057adb9d91dca4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetPageCount.cs",
+            "_guid": "0eecfe7cdafd31940804a3f04ddab219",
+            "_checkSum": "58fdb2d98b03e0261c0b1ca40cc26f14"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetPageInfo.cs",
+            "_guid": "9ecdab2370661c64db01352b6009f2c8",
+            "_checkSum": "6be356b1491b60d926a52e4ddfd38093"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetSpaceCount.cs",
+            "_guid": "9532636132e886241b02a6718f80ec10",
+            "_checkSum": "58f86908aaa5154788e483479b61f850"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetSpriteCount.cs",
+            "_guid": "810df1331e255184985b7859614f63e9",
+            "_checkSum": "555bf5eacc4035b17f12507b5196bdb4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetTextComponent.cs",
+            "_guid": "01c0c6c29f298e845a0cfd6c5c4296fc",
+            "_checkSum": "a9ec0c9382aad89980fd52744dec22fb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetWordCount.cs",
+            "_guid": "61ef6c2f63853c1428c25eb4266912d6",
+            "_checkSum": "bbe745c7dd1a5254ee77ff24bbd4f590"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoGetWordInfo.cs",
+            "_guid": "7df9fb7e34e939f4b8c548605e14a779",
+            "_checkSum": "db652a448206a92c88ac3d0b126ba8d0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoResetVertexLayout.cs",
+            "_guid": "be480c5f7d957c14a9f450387f49b691",
+            "_checkSum": "a4426c860f66d2e9719b79d042682f98"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetCharacterCount.cs",
+            "_guid": "f57a1070a3ea35345b273ffe1fa20bfa",
+            "_checkSum": "c5fbc7d031f4062eb3daeaf6cacd4f77"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetCharacterInfo.cs",
+            "_guid": "3ad242f92867f03468e6ed1d1dfb4f10",
+            "_checkSum": "c8e037d9a44fa13e7dd8e169b374fbe9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetLineCount.cs",
+            "_guid": "cc10cae17ad357143a0e4567a843de50",
+            "_checkSum": "5d904be20f3ab2ad969eda9fe8104dc6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetLineInfo.cs",
+            "_guid": "aeb33de7b16658841870ad395b2a744a",
+            "_checkSum": "c2cfe4cf3a4cf33cfb6cdf4e8e4b5814"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetLinkCount.cs",
+            "_guid": "3752961bc22e74f4993ef84f50eb0c49",
+            "_checkSum": "2ba6a747fb7c65c640f51b203cd47696"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetLinkInfo.cs",
+            "_guid": "e441441f54c7a494eb4b80a076f54482",
+            "_checkSum": "42365587fa4dc2c94b7f24f12a79f971"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetMaterialCount.cs",
+            "_guid": "9d3317d71111b184b935ff46170536b0",
+            "_checkSum": "08f75a8ce752dcf712cf72affa3f618a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetMeshInfo.cs",
+            "_guid": "906f1d6c6c68da2459aa82d4bd5b41e5",
+            "_checkSum": "eac423c1fe63d0b64bddd5c0a8cdb2e4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetPageCount.cs",
+            "_guid": "044e614364a61714285167e3846274ff",
+            "_checkSum": "aece9be96e71b1d45c6728517667fd33"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetPageInfo.cs",
+            "_guid": "75723620234a40e4fb0033bf60985b0f",
+            "_checkSum": "c861430d182e7c2f83b7e91f494adde4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetSpaceCount.cs",
+            "_guid": "6fb4fe4da8142d842941a5ab8ca33e1b",
+            "_checkSum": "2b023c3f19e25e24603eaa46e15a261a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetSpriteCount.cs",
+            "_guid": "94174c2911fd7f7409325de6f5d69120",
+            "_checkSum": "1042c83ef450820654e0bb52c656df95"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetTextComponent.cs",
+            "_guid": "94afec4638744e24ca13634eb567a6a4",
+            "_checkSum": "7ba3281c075998cea6716791d9e2ea2b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetWordCount.cs",
+            "_guid": "e393e38877716d8448e91b21d9632c98",
+            "_checkSum": "25a0d6eddee84f29db0837310e5949f2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_TextInfo/TMP_TextInfoSetWordInfo.cs",
+            "_guid": "a8e5e9ca878e4634e8f81c3b72e693c1",
+            "_checkSum": "7e0f2689c997694a32b616280f0c85e0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexGetColor.cs",
+            "_guid": "c7a8847b514f17340a37e31f5ff17b7d",
+            "_checkSum": "7c7f8c67f351a999c5231a538e53155e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexGetPosition.cs",
+            "_guid": "62d3e105fa55c7045bcf4de83baf3109",
+            "_checkSum": "5685890a67f98bd4f5555712c46a268d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexGetUv.cs",
+            "_guid": "d15908695ff6c4f43934502999f5f32b",
+            "_checkSum": "eca0e782ddc299af0009a78e649b0015"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexGetUv2.cs",
+            "_guid": "2311915092a593c4a97c2852e78e7db5",
+            "_checkSum": "5e19618ee620d030001f5cfaea70e98c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexGetUv4.cs",
+            "_guid": "660b852d5a65b0342a5c229c9122d91d",
+            "_checkSum": "096a6bf8f0f300b7487ee06f3e228877"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexSetColor.cs",
+            "_guid": "b9eb92f5ff96af14bafb2456f164b6d5",
+            "_checkSum": "c6e15780b63efe67e54d084c9c17cbe9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexSetPosition.cs",
+            "_guid": "3e408836faffd754b961d599bf902311",
+            "_checkSum": "4d73f58e079d55164acd8edb5feff470"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexSetUv.cs",
+            "_guid": "81b369e367fe68942b45d5b94338c8d0",
+            "_checkSum": "0ec524525aa16c050e5725734a8e28db"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexSetUv2.cs",
+            "_guid": "242446e3345e87f48a96d38a9876cd29",
+            "_checkSum": "8a41448947f30da5fc9a98a46bc97114"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_Vertex/TMP_VertexSetUv4.cs",
+            "_guid": "fd6e190148479f048824a5d01877c9df",
+            "_checkSum": "7eeab6492ea203843328789f00aa2fd3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoGetCharacterCount.cs",
+            "_guid": "1ce10fd737fa56040b64c145e8deb48e",
+            "_checkSum": "5a5bf7af8c2c26f6c4b01766a93efbf3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoGetFirstCharacterIndex.cs",
+            "_guid": "2f6b82af8bb7dae4d894dd4444326650",
+            "_checkSum": "01ef659f8e47728a3675864e0cbf2b7e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoGetLastCharacterIndex.cs",
+            "_guid": "7a00dac253014db48bf03d544feaf78f",
+            "_checkSum": "22cbc9a7ba0937020e37888567fd40f3"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoGetTextComponent.cs",
+            "_guid": "f15c5ac5405810a48803d36d51572e70",
+            "_checkSum": "c2e0f4609a2971e439af67aa1d9bc9e5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoGetWord.cs",
+            "_guid": "48e048d9357dd42418517b56011ca9c3",
+            "_checkSum": "ae0f610397feb000761ff47fa2bae08d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoSetCharacterCount.cs",
+            "_guid": "3f7d8fefe165ae847882be7a1bfe1435",
+            "_checkSum": "4a7703fb0b71ddb90e08591f6ea5a1d4"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoSetFirstCharacterIndex.cs",
+            "_guid": "2f948f5156d9442488600709ff1d0390",
+            "_checkSum": "cad937f44d47065c9a2ca7a42df3e3bf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoSetLastCharacterIndex.cs",
+            "_guid": "e6a9d7fca46a6694c8719cfcc4019c35",
+            "_checkSum": "67dfe3a5985095abcee15227fdbc1eff"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/TextMeshPro/Actions/Info/TMP_WordInfo/TMP_WordInfoSetTextComponent.cs",
+            "_guid": "fc6cd315df1ae584ebd126d2a673f159",
+            "_checkSum": "4ef2576c1b3dbaf67e692a8f5d48f8f8"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479333374229
+}

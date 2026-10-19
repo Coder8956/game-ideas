@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmGraphView/FsmGraphView.uss?fileID=7433441132597879392&amp;guid=14cef0a77de71f04797aabda10fc1ea0&amp;type=3#FsmGraphView" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/FsmLog/FsmLogView.uss?fileID=7433441132597879392&amp;guid=a4eb197b0be3e9f4391bc5293ec0a759&amp;type=3#FsmLogView" />
+    <uie:Toolbar>
+        <uie:ToolbarButton text="Clear" name="clear" focusable="false" class="hutong-fsm-log-view__clear-button"/>
+        <uie:ToolbarToggle focusable="false" label="Collapse" name="collapse" class="hutong-fsm-log-view__collapse-toggle" />
+        <ui:VisualElement class="hutong-flexible-space" picking-mode="Ignore" />
+        <uie:ToolbarToggle name="auto-scroll" class="hutong-fsm-log-view__auto-scroll" />
+        <uie:ToolbarButton name="settings" class="hutong-fsm-log-view__settings" />
+    </uie:Toolbar>
+    <ui:ListView focusable="true" class="hutong-fsm-log-view__list-view" />
+    <ui:TwoPaneSplitView name="splitter" picking-mode="Ignore"  class="hutong-fsm-log-view__split-view" fixedPaneIndex="1" fixedPaneStartDimension=".4" orientation="Horizontal" fixed-pane-initial-dimension="200" fixed-pane-index="0" view-data-key="fsm-editor-split-view">
+        <ui:VisualElement picking-mode="Ignore" style="min-width: 100px;" />
+        <ui:VisualElement picking-mode="Ignore" />
+    </ui:TwoPaneSplitView>
+</ui:UXML>

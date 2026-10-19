@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" ed="UnityEditor.Experimental.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/ActionBrowser/ActionBrowser.uss?fileID=7433441132597879392&amp;guid=bc3abb7fe74426448ae9111b9f2de17a&amp;type=3#ActionBrowser" />
+    <ui:TwoPaneSplitView fixedPaneIndex="0" fixedPaneStartDimension=".4" orientation="Horizontal" name="split-view" fixed-pane-initial-dimension="200" view-data-key="action-browser">
+        <ui:VisualElement name="action-list-panel" class="hutong-action-list-panel">
+            <ui:VisualElement name="action-list" class="hutong-action-browser__action-list" />
+            <ui:VisualElement name="progress-container" class="hutong-action-browser__progress-container">
+                <ui:ProgressBar title="Finding Action Usages..." name="progress-bar" high-value="1" class="hutong-action-browser__progress-bar" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:ScrollView name="preview-panel" class="hutong-action-browser__preview-panel" />
+    </ui:TwoPaneSplitView>
+</ui:UXML>

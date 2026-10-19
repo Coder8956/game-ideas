@@ -1,0 +1,88 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.animator-recording",
+    "_displayName": "Animator Recording Actions",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control recording Animators.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Animator.StartRecording.html",
+    "_icon": "Animation/Animator",
+    "_tags": [
+        "Actions",
+        "Animation"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorGetPlaybackTime.cs",
+            "_guid": "adae7b4d0020b544bbe3f8d3f56005c5",
+            "_checkSum": "13b1ffcfc2e0c2110bb7d314f262b53e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorGetRecorderMode.cs",
+            "_guid": "4d189d9a67b802342a816251ba340b39",
+            "_checkSum": "06fdd6bf6be67fd81b95c6edf66ce124"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorGetRecorderStartTime.cs",
+            "_guid": "217c0af9572f45e41aed4a1cd5fbfd12",
+            "_checkSum": "9f3e3207d9020e894566087dfda2ae83"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorGetRecorderStopTime.cs",
+            "_guid": "4e13b9cbcadcdac4aa60295fee91dc99",
+            "_checkSum": "0fd4ee1ea616b535eea35f0ad461e806"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorSetPlaybackTime.cs",
+            "_guid": "2813aa997f0c55540bc48830fbbd39d2",
+            "_checkSum": "ecd5f54c26223da024ff60bfc8ab25be"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorSetRecorderStartTime.cs",
+            "_guid": "a9e3afb6b5a2311458041a87f63d9ed3",
+            "_checkSum": "f722a0a6889a021be7204d5685754087"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorSetRecorderStopTime.cs",
+            "_guid": "6c718d1c9dd1ec946b2d41c7fb3c6d96",
+            "_checkSum": "50545714662a4d5a397978279e16c7fe"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorStartPlayback.cs",
+            "_guid": "03eabd8494573aa44957838eff1a829b",
+            "_checkSum": "7c522dd95173ca118d15e516575b0849"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorStartRecording.cs",
+            "_guid": "b92521195da409f4a87d0db9f4a248e0",
+            "_checkSum": "a0e82614e70e6adf015c50bfb59ec32a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorStopPlayback.cs",
+            "_guid": "c14e4247158d5ed4b9bf8b3c55c7da50",
+            "_checkSum": "f824e2163311beea54ca309955d42d62"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Animation/Actions/Animator/Recording/AnimatorStopRecording.cs",
+            "_guid": "19863978906e5234ab57ded2d35b7041",
+            "_checkSum": "b36d5940c26095a2fe57e30693cc8f48"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479676272556
+}

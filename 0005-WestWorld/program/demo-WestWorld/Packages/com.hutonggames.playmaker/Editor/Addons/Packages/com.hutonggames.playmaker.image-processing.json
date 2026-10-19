@@ -1,0 +1,109 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.image-processing",
+    "_displayName": "Image Processing",
+    "_packageVersion": "0.1.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Fast pixel buffer actions for image playgrounds.",
+    "_description": "Image Processing is an early experimental addon that adds a reusable Image Buffer data type and pixel actions for creative coding, image sampling, procedural textures, convolution filters, cellular automata, and Sketch integrations.\n\nThe addon exposes simple PlayMaker actions for loading textures, reading and writing pixels, applying changes, copying buffers, swapping buffers, and sampling random pixels while keeping low-level texture data details behind the buffer.",
+    "_helpUrl": "",
+    "_icon": "Image Processing",
+    "_tags": [
+        "Actions",
+        "2D",
+        "Render"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBuffer.cs",
+            "_guid": "f3f0683bcd094edd845c62cc000614cc",
+            "_checkSum": "04d50502b61080b28c502f1bbf2e34c8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferApply.cs",
+            "_guid": "7102f526962e4e88a327c65fcac1608d",
+            "_checkSum": "4b8fbf3af53643a8bf120b1a234cd68b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferCopy.cs",
+            "_guid": "88274e1fc5924c04a96df72aeb304342",
+            "_checkSum": "560e7d1e91130d574f957b200473852b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferCreate.cs",
+            "_guid": "c1dcf429df7641329ebb88615d4a2789",
+            "_checkSum": "7e4daa93adb22deca903e16967d9f2b5"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferDispose.cs",
+            "_guid": "2a085052dcf043bf968ba2c5617c543b",
+            "_checkSum": "76a0c8d387b04bbbf394664192c59487"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferFill.cs",
+            "_guid": "13a6c5f984fa4abb94b07337742e9b6b",
+            "_checkSum": "9d32cf2780b6bc6c70c199d4bd1a51b6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferFlipHorizontal.cs",
+            "_guid": "96b20a64340c4d489c977c4d7468eeda",
+            "_checkSum": "2b0f1c1315f4e34436171bb959e49991"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferFlipVertical.cs",
+            "_guid": "93aef6da14ac445fa86b1bbfda39e258",
+            "_checkSum": "c4a2658761aecf72c5ba088c5854f1ef"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferGetPixel.cs",
+            "_guid": "96d383d9f09747eab62a7217cf75ff82",
+            "_checkSum": "78213dbdfc4a7c90de03b652af078790"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferGetRandomPixel.cs",
+            "_guid": "6274e1ccdef54a7d8ce55894c1f7b814",
+            "_checkSum": "b7d669d7275fb22dc173eafd99869f3a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferGetTexture.cs",
+            "_guid": "bd87064b8a804a08bb32a5d9dcef41e7",
+            "_checkSum": "4e3a797a79eb1777f331282c53796c1a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferLoadTexture.cs",
+            "_guid": "8951076205bd46009a9d50be1411ab6d",
+            "_checkSum": "281236dae5f200cc8e62280737b6ee5a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferSetPixel.cs",
+            "_guid": "d0284eefa6bf4b8782ba1cb1c174281f",
+            "_checkSum": "ba3a752d72989449a416e4ed21a24628"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferSwap.cs",
+            "_guid": "c2ed280aaf14413ba93d284c4cf6d7b3",
+            "_checkSum": "c246e158e9a8c417973e5f1c4cb98db2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Actions/ImageProcessing/ImageBufferVariable.cs",
+            "_guid": "dafb0bc7804f44748d6bb7304698aafe",
+            "_checkSum": "3502d9a9eebdfdf0fe2447af711ad3d1"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b74",
+    "_datePublished": "2026-07-04",
+    "_timeCode": 134276689242777943
+}

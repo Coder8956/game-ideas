@@ -1,0 +1,68 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics-scene",
+    "_displayName": "Physics Scene",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control a separate Physics Scene.",
+    "_description": "These actions are for advanced scenarios where you need multiple Physics Scenes.",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/PhysicsScene.html",
+    "_icon": "Physics/Internal/PhysicsScene",
+    "_tags": [
+        "Actions",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene/PhysicsSceneInterpolateBodies.cs",
+            "_guid": "64605b14c035efa428e8d39ab12c0934",
+            "_checkSum": "ec8fe2e8771e0fd6d8b309d67a6dd773"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene/PhysicsSceneIsEmpty.cs",
+            "_guid": "5484575ddc693584ca7d7de11c325b61",
+            "_checkSum": "19e1c6d5be09e4feb501641cfc7e1ffa"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene/PhysicsSceneIsValid.cs",
+            "_guid": "7bd2e8c0b5566c04799de07753c8b94c",
+            "_checkSum": "ec1a95fc7566da4dcc9e79c25139cac8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene/PhysicsSceneOverlapBox.cs",
+            "_guid": "e8df3d07ad9b88a49af862b67e543f97",
+            "_checkSum": "eaa897dd14121a40539b2b43f107f77c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene/PhysicsSceneResetInterpolationPoses.cs",
+            "_guid": "06ff0079c6b1508499eea9a64f0832cf",
+            "_checkSum": "9718e24d1804192cd04259998a1306dd"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene/PhysicsSceneSimulate.cs",
+            "_guid": "ce620ffabd2b97142be4ca63f591d62c",
+            "_checkSum": "31759a2a40966a13081dbed8c846a120"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/PhysicsScene/PhysicsSceneToString.cs",
+            "_guid": "d845d779626a2eb48b94a83e95da17b7",
+            "_checkSum": "3e7b9bfa7754faa3b83d5f3b333fa5ab"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b86",
+    "_datePublished": "2026-09-09",
+    "_timeCode": 134334508044179933
+}

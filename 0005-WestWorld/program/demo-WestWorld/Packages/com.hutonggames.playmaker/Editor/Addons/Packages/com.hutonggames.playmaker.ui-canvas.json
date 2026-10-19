@@ -1,0 +1,128 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.ui-canvas",
+    "_displayName": "Canvas",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to set Canvas properties.",
+    "_description": "Most of the time these parameters are set at edit time, but you can use these actions to control them at runtime.",
+    "_helpUrl": "",
+    "_icon": "UI",
+    "_tags": [
+        "Actions",
+        "UI"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasForceUpdateCanvases.cs",
+            "_guid": "8a6740ac6bf2cb8438bf544888060707",
+            "_checkSum": "b7d0039ede717d6230569da992ca3baf"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasPreWillRenderCanvases.cs",
+            "_guid": "57a73edc10b282c4986ed70a8901a754",
+            "_checkSum": "2aaa652869bc814a4359141dff9d9302"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetAdditionalShaderChannels.cs",
+            "_guid": "f252815c2af357846ac3d1043b4c8681",
+            "_checkSum": "f8ce015facc95dabb00ee44df45782f6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetNormalizedSortingGridSize.cs",
+            "_guid": "ba1ec086b8b8d8748a2129ba4f94985d",
+            "_checkSum": "464b335b6f82c2443144da0c58b68352"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetOverridePixelPerfect.cs",
+            "_guid": "50e7b2a8783024e40a39ec06fd20c8d7",
+            "_checkSum": "43ab52c18a93a3e514063ad4820b0dfb"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetOverrideSorting.cs",
+            "_guid": "5d134f2584066df4bab3d68863bde0c4",
+            "_checkSum": "13fa709580d94efd82d7b378937eeb9e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetPixelPerfect.cs",
+            "_guid": "f536916ca81bce1449bdbb59d720b4a8",
+            "_checkSum": "f94b6d43d393a956fdaf977c20a86c2e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetPlaneDistance.cs",
+            "_guid": "28d94e9a7584831438c8463d745967ca",
+            "_checkSum": "85d78e4a89f8a331df7be0c9158c76d6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetReferencePixelsPerUnit.cs",
+            "_guid": "8a8540f2525a1134992da5906dde1a84",
+            "_checkSum": "e3518f8543071fe32711ac225c95efca"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetRenderMode.cs",
+            "_guid": "ef995faabb0cdde41a5fc9e94792be99",
+            "_checkSum": "bda65e1559720e2c8bcc6c475dd0610d"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetScaleFactor.cs",
+            "_guid": "fd7addf355f1bb24caa05ebc0fde6c25",
+            "_checkSum": "d204b85d78425280ba1eb6f44807ac9e"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetSortingLayerID.cs",
+            "_guid": "5d8e8364e8cedf24090e5d85d85a5d29",
+            "_checkSum": "efd8fb557dcd76102993bd0310693437"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetSortingLayerName.cs",
+            "_guid": "e38e291203c473e4592aab041e6481e8",
+            "_checkSum": "f13eb85426c01b6a408660b7def24ec8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetSortingOrder.cs",
+            "_guid": "45ec6e06f50515241aada74d2529ef7a",
+            "_checkSum": "97241a652bfc9f11f7e04c2e4c960fb6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetTargetDisplay.cs",
+            "_guid": "2714ca737cc662846ab3573ac2a293d9",
+            "_checkSum": "c27f73764c5e0c3c08e53ea69e78cfec"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetUpdateRectTransformForStandalone.cs",
+            "_guid": "44d487814e9656844899927e143943e1",
+            "_checkSum": "065586b66391a1c1e67c5e28ee96bb46"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetVertexColorAlwaysGammaSpace.cs",
+            "_guid": "dd47fe9cc6f66b5458630d843429a560",
+            "_checkSum": "28d1707157da03cd4e467665898b6002"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasSetWorldCamera.cs",
+            "_guid": "595c6776e6ee41c44a737a619182aebc",
+            "_checkSum": "40a348708bce6a8f625463abaf93b80c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/UI/Actions/Canvas/CanvasWillRenderCanvases.cs",
+            "_guid": "64e5573f5cf5f6e4e8b1f41c84cb8273",
+            "_checkSum": "895eed4cb44423dcaac45f4bd2c7a973"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479403247399
+}

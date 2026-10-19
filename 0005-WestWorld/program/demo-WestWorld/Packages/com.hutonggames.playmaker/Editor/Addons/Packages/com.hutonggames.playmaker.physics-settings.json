@@ -1,0 +1,223 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.physics-settings",
+    "_displayName": "Physics Settings",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to access Physics settings.",
+    "_description": "Normally these are set in the editor, but you can use these actions to change them at runtime.",
+    "_helpUrl": "",
+    "_icon": "Physics",
+    "_tags": [
+        "Actions",
+        "Physics"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetAutoSyncTransforms.cs",
+            "_guid": "2fd89a4a1e295db44bc8e39cc1b4149e",
+            "_checkSum": "2f6b45238eb78c6e5a850d5d426dbf7a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetBounceThreshold.cs",
+            "_guid": "d69626bea920367449e819b2761cd985",
+            "_checkSum": "2ab8282708f6c14cb99862ca8f8f67e7"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetClothGravity.cs",
+            "_guid": "49adc378d025c9f43b86749d6b14ed04",
+            "_checkSum": "15a6c356a51ddf4ca2ab72ad81ace316"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetDefaultContactOffset.cs",
+            "_guid": "f17bb96b6b5f7e540863e568ba873313",
+            "_checkSum": "024b3b47ec5275c597ee2e16bf2b8985"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetDefaultMaxAngularSpeed.cs",
+            "_guid": "c611f1158de771544b4461f83e51ac22",
+            "_checkSum": "d0c2e032328729a9d60513d6b67591a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetDefaultMaxDepenetrationVelocity.cs",
+            "_guid": "ac799bb21de591e46ba7276db7065353",
+            "_checkSum": "da728f547731b493f9ef039c83f0be26"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetDefaultRaycastLayers.cs",
+            "_guid": "d8bad977eb75de6499c3c57a22c038a8",
+            "_checkSum": "af2641001bff8f60a5724df1b598541a"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetDefaultSolverIterations.cs",
+            "_guid": "9bc726b60fde414469c464152c029772",
+            "_checkSum": "59cc5ea177ff134acb6234b5180980fc"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetDefaultSolverVelocityIterations.cs",
+            "_guid": "34832785a26da194ba8fc541ba8c7fc0",
+            "_checkSum": "3b3b98090be063953f639332622db4ae"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetIgnoreCollision.cs",
+            "_guid": "40067bd3214d1754f934809cd726f13b",
+            "_checkSum": "a9e5643ab5995b06bd041195869504ed"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetIgnoreLayerCollision.cs",
+            "_guid": "24642dedbb6c1f04c9907518d55db034",
+            "_checkSum": "86ee90268faed6b40d1736fec1125626"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetIgnoreRaycastLayer.cs",
+            "_guid": "9945cdc7b06a793498070436d3276393",
+            "_checkSum": "14eba0414e762bcbfb2e0ea932581589"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetImprovedPatchFriction.cs",
+            "_guid": "81a1db8206f6cf847addc0801748ac6f",
+            "_checkSum": "1e0a316050966a4349854e0799ad9274"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetInterCollisionDistance.cs",
+            "_guid": "0a65b24dccd71db43a94906379b683fc",
+            "_checkSum": "efde99ee2b12a4e0fd897aaad43fed43"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetInterCollisionSettingsToggle.cs",
+            "_guid": "84b1079af438eec4f98b6a8ae5b72e36",
+            "_checkSum": "c5eae1dd6b05e700019e023a7cc868a9"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetInterCollisionStiffness.cs",
+            "_guid": "3c383a40221ec9043bfb841299e4e7cf",
+            "_checkSum": "4368bba6021c4eab818e36d7d9793d05"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetInvokeCollisionCallbacks.cs",
+            "_guid": "cd284a7b2541ccd4299e6481c08541e2",
+            "_checkSum": "709d4f55bc9e6791f142e65f5f59935c"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetQueriesHitBackfaces.cs",
+            "_guid": "77b8c8ce9e7debc4ab8f26e97c4aa807",
+            "_checkSum": "973649a62ce12b6a64ccccf45f6b9e11"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetQueriesHitTriggers.cs",
+            "_guid": "432a8dc33e19f1a42abecadf7e96d06e",
+            "_checkSum": "cd29ec2601914fbd7c730cbc21a66d44"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetReuseCollisionCallbacks.cs",
+            "_guid": "89e01ab7b612dc24e856c92844563910",
+            "_checkSum": "5cffbde0c5461f28f0ca46b1259cb3a2"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsGetSimulationMode.cs",
+            "_guid": "2a4d7f955d4edb44f8646563717a6103",
+            "_checkSum": "b7abb053f0daf2f74ccd9792598ef29b"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetAutoSyncTransforms.cs",
+            "_guid": "16171daced51ae040b4ec1a1f9e8cb2f",
+            "_checkSum": "67ed11ecc35dfd43669b5eff05a3b242"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetBounceThreshold.cs",
+            "_guid": "8ea88d050b48e0e448999e9d438fbf65",
+            "_checkSum": "d4aeaf1f412880bfeedd750a7aeb49c6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetClothGravity.cs",
+            "_guid": "dabb5f5490a7d664b8b065bd03ac94e6",
+            "_checkSum": "0b6f8dbd92ac2c920f045410f7c3df52"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetDefaultContactOffset.cs",
+            "_guid": "2321fa7d4801d6d4cb016357b09963a3",
+            "_checkSum": "0f62171a1fba693f8f267ceb36f34718"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetDefaultMaxAngularSpeed.cs",
+            "_guid": "efe40e7ce162a9c458ae2be735f3a655",
+            "_checkSum": "474078be2ff4362ee95b17b73c3a71a8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetDefaultMaxDepenetrationVelocity.cs",
+            "_guid": "71f32799a2c253a40ab2d7374d421f1d",
+            "_checkSum": "5c0f65cbd357b420cea8b85a39f656a6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetDefaultSolverIterations.cs",
+            "_guid": "7928b94c4efc70f4c9441aaa18f87268",
+            "_checkSum": "a64fa012ed8cf00e11cdb13f0689cd57"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetDefaultSolverVelocityIterations.cs",
+            "_guid": "375598901be6f014189f5c9cf7afe391",
+            "_checkSum": "66599b51fbea97662af191b3e7a59716"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetImprovedPatchFriction.cs",
+            "_guid": "2df82693ee2807d41935c0ea7b8dde72",
+            "_checkSum": "a9fae712c3da2aa16b76f90b77996e03"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetInterCollisionDistance.cs",
+            "_guid": "988219f7c055ea94692197160eb03057",
+            "_checkSum": "15a054413a332d6f7ebffa35d76c5fc0"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetInterCollisionSettingsToggle.cs",
+            "_guid": "89e6471e58fb8f04481561c9fce492db",
+            "_checkSum": "1cb300c2cd4a27694dfc90d2e73cb169"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetInterCollisionStiffness.cs",
+            "_guid": "4720b1a5424c87843aa34428f24e1609",
+            "_checkSum": "a5c6b0ca047992c0d14302cb09a82051"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetInvokeCollisionCallbacks.cs",
+            "_guid": "b7de65bd5d8a3f04ca1ebb49af06bf04",
+            "_checkSum": "6c93ab845b5aba602ea20247e85b3647"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetQueriesHitBackfaces.cs",
+            "_guid": "0261fe911d5654147a600becea82b760",
+            "_checkSum": "e5dbc71c70e22f84e249c8b89f485ac8"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetQueriesHitTriggers.cs",
+            "_guid": "eac388eea8f97784abfd4d64681d0952",
+            "_checkSum": "689e37c4e082fac0ff3d6f1120bbd487"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetReuseCollisionCallbacks.cs",
+            "_guid": "6643913127c4e604b8504e11a1810b95",
+            "_checkSum": "4ac38fd89541ffd8c45766741394ea25"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Physics/Actions/Settings/PhysicsSetSimulationMode.cs",
+            "_guid": "db6e062c550a99f40b6d7a6b0981e4b7",
+            "_checkSum": "6dcd2056c857908b269da9c3e2b0af22"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479468079786
+}

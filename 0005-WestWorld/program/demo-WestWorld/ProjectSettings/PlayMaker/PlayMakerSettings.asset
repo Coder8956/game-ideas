@@ -26,7 +26,7 @@ MonoBehaviour:
   _fsmGraphViewSettings:
     _snapping: 1
     _showMinimap: 1
-    _defaultLinkStyle: 1
+    _defaultLinkStyle: 2
     _defaultZoom: 1
     _minZoom: 0.1
     _maxZoom: 1.5

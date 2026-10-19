@@ -1,0 +1,28 @@
+:root {
+    --graph-view-background-color: rgb(32, 32, 32);
+    --node-background-color: rgb(120, 120, 120);
+    --node-title-color: rgb(255, 255, 255);
+    --node-border-color: rgb(144, 144, 144);
+    --node-selection-color: rgb(0, 165, 255);
+    --node-content-area-background-color: rgba(40, 40, 40, 0.8);
+    --node-runtime-state-active-color: rgb(0, 255, 0);
+    --node-description-color: rgb(120, 120, 120);
+    --transition-background-color: rgb(56, 56, 56);
+    --transition-border-color: rgb(67, 67, 67);
+    --transition-title-color: rgb(156, 156, 156);
+    --breakpoint-color: rgb(255, 0, 0);
+    --error-text-color: rgb(228, 100, 100);
+    --error-background-color: rgb(50, 0, 0);
+    --node-error-icon: resource("Icons/NodeErrorIcon");
+    --node-loop-icon: resource("Icons/LoopStateIcon");
+    --node-fit-contents-icon: resource("Icons/d_FitContentsIcon");
+    --left-link-icon: resource("Icons/d_LeftLinkIcon");
+    --right-link-icon: resource("Icons/d_RightLinkIcon");
+    --bottom-link-icon: resource("Icons/d_BottomLinkIcon");
+    --top-link-icon: resource("Icons/d_TopLinkIcon");
+    --locked-link-icon: resource("Icons/d_LockedLinkIcon");
+    --shortcut-to-icon: resource("Icons/d_ShortcutToIcon");
+    --shortcut-from-icon: resource("Icons/d_ShortcutFromIcon");
+    --global-icon: resource("Icons/d_GlobalIcon");
+    --event-data-icon: resource("Icons/d_EventDataIcon");
+}

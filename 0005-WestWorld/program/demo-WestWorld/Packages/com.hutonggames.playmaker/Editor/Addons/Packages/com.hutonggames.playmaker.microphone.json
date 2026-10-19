@@ -1,0 +1,58 @@
+{
+    "_version": 6,
+    "_name": "com.hutonggames.playmaker.microphone",
+    "_displayName": "Microphone",
+    "_packageVersion": "1.0.0",
+    "_releaseNotes": "",
+    "_sourcePaths": [
+        "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Microphone"
+    ],
+    "_dependencies": [],
+    "_upmDependencies": [],
+    "_upmPackageRequirements": [],
+    "_minimumUnityVersion": "",
+    "_summary": "Actions to control a microphone.",
+    "_description": "",
+    "_helpUrl": "https://docs.unity3d.com/ScriptReference/Microphone.html",
+    "_icon": "Audio/Microphone",
+    "_tags": [
+        "Actions",
+        "Audio"
+    ],
+    "_requiresTmpEssentials": false,
+    "_order": 0,
+    "_unityVersion": "2022.3.62f1",
+    "_files": [
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Microphone/MicrophoneEnd.cs",
+            "_guid": "26ebe17c8d873f14baa95b139bb09081",
+            "_checkSum": "49a98cabaf6987810f3bb34b9eab2c11"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Microphone/MicrophoneGetDevices.cs",
+            "_guid": "526cf05ec18182d4698952fd929b6273",
+            "_checkSum": "8347b75b284ba12b5d93e767a5a25b27"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Microphone/MicrophoneGetPosition.cs",
+            "_guid": "c3d3f54dad3935f48bd013932bb22309",
+            "_checkSum": "70ae2fe0857586576eabac53b7d33eb6"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Microphone/MicrophoneIsRecording.cs",
+            "_guid": "854e4630f0ff5c846a3e87b82b481cc0",
+            "_checkSum": "80a662a9fe70ebcadccf3de33c73a058"
+        },
+        {
+            "_path": "Packages/com.hutonggames.playmaker/Runtime/Modules/Audio/Actions/Microphone/MicrophoneStart.cs",
+            "_guid": "9b4bea42ef52f2240a4214e1674f870e",
+            "_checkSum": "a0f27f561dd58c20d64523d4f0ed4cd6"
+        }
+    ],
+    "_usages": {
+        "_actions": []
+    },
+    "_playMakerVersion": "2.0.0b69",
+    "_datePublished": "2026-06-07",
+    "_timeCode": 134253479278288693
+}

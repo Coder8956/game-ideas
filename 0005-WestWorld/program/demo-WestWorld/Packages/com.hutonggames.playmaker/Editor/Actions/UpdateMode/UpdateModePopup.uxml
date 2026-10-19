@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Styles/EditorStyles.uss?fileID=7433441132597879392&amp;guid=999810319f964f14f9c53ff11854d258&amp;type=3#EditorStyles" />
+    <Style src="project://database/Packages/com.hutonggames.playmaker/Editor/Actions/UpdateMode/UpdateModePopup.uss?fileID=7433441132597879392&amp;guid=4093888450e892b4aaaaab0a2dbda535&amp;type=3#UpdateModePopup" />
+    <ui:VisualElement name="container" focusable="true" class="hutong-update-mode-popup__container">
+        <ui:Label text="Description" display-tooltip-when-elided="true" name="description" class="hutong-update-mode-popup__description" />
+        <ui:VisualElement name="settings">
+            <ui:VisualElement class="hutong-divider" />
+            <ui:DropdownField index="0" choices="Default Update,Fixed Update,Late Update, On Animator Move" />
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 6px;" />
+            <ui:Toggle label=" Every Frame" name="every-frame" tooltip="Repeat every frame." class="hutong-update-mode-popup__toggle" />
+            <ui:Toggle label=" Per Second" name="per-second" tooltip="Use per-second timing." class="hutong-update-mode-popup__toggle" />
+            <ui:Toggle label=" Blocking" name="blocking" tooltip="Stops other actions from starting until finished." class="hutong-update-mode-popup__toggle" />
+            <ui:VisualElement class="hutong-divider" />
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" style="flex-direction: row;">
+            <ui:Button text="OK" name="ok" focusable="true" />
+            <ui:Button text="Cancel" name="cancel" focusable="true" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
