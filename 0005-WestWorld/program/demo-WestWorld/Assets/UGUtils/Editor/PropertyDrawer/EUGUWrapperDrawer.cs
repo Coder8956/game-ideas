@@ -30,7 +30,7 @@ namespace UGU.Editor
 
         private const float Spacing = 2f;
 
-        private static readonly Dictionary<string, bool> FoldoutStates = new();
+        private static readonly Dictionary<(EntityId, string), bool> FoldoutStates = new();
 
         // ── 公共入口 ──────────────────────────────────────────────
 
@@ -448,10 +448,10 @@ namespace UGU.Editor
 
         // ── Foldout 状态 ─────────────────────────────────────────
 
-        private static string GetFoldoutKey(SerializedProperty property)
+        private static (EntityId, string) GetFoldoutKey(SerializedProperty property)
         {
             var target = property.serializedObject.targetObject;
-            return $"{target.GetInstanceID()}:{property.propertyPath}";
+            return (target.GetEntityId(), property.propertyPath);
         }
 
         private static bool GetFoldout(SerializedProperty property)
