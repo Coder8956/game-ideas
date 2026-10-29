@@ -268,13 +268,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.5291791, y: 0, z: 0, w: 0.8485102}
   m_LocalPosition: {x: 500, y: 40, z: 500}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 63.9, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,6 +653,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6297fc9653b30c54081e4269d5d5c2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SteeringBehaviors
+  m_targetName: PlacedSphere
+  m_maxSpeed: 8
+  m_maxForce: 24
+  m_mass: 1
+  m_debugDrawGizmos: 1
+  m_velocityColor: {r: 0, g: 1, b: 0, a: 1}
+  m_forceColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_targetLineColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
