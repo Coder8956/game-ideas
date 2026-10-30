@@ -102,7 +102,8 @@ public class Arrive : MonoBehaviour
 
         // 原实现的微调常数：配合减速档位控制减速强弱。
         // 慢档值为 3，要求速度较低、较早减速；快档值为 1，减速较晚。
-        const float decelerationTweaker = 0.3f;
+        // const float decelerationTweaker = 0.3f;
+        const float decelerationTweaker = 2f;
         float deceleration = (float) m_deceleration;
 
         // 期望速度大小 = 距离 / (减速档位 × 微调常数)，再限制到最大速度。
