@@ -13,6 +13,7 @@
 - 阅读[参考脚本](#参考脚本)完成[Wander](#Wander脚本文件路径)脚本.
 - 代码功能严格参照C++[参考脚本](#参考脚本)
 - 只生成 Wander 相关的行为.
-- 脚本加上详细的注释
+- 脚本加上详细的注释.
+    - 涉及数学&物理运算的代码加上对应的计算过程注释.
 - `目标地点`是鼠标点击产生的球体(PlacedSphere)
 - 代码格式标准参考文件[Seek脚本](../program/steering/Assets/SteeringBehaviors/00-Seek/Seek.cs)
