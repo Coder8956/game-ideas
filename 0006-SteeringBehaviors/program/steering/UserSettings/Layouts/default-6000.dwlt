@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 26
+  controlID: 50
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 113
+  controlID: 111
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 72
+  controlID: 112
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1182,9 +1182,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 500.72964, y: 1.0042236, z: 230.28088}
+    m_Target: {x: 500.48535, y: 5.0477505, z: 500.1007}
     speed: 2
-    m_Value: {x: 500.72964, y: 1.0042236, z: 230.28088}
+    m_Value: {x: 500.48535, y: 5.0477505, z: 500.1007}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1234,9 +1234,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
   m_Size:
-    m_Target: 19.61119
+    m_Target: 100.53571
     speed: 2
-    m_Value: 19.61119
+    m_Value: 100.53571
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1483,7 +1483,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/SteeringBehaviors/02-Arrive
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Think\Documents\git-repository\game-ideas\0006-SteeringBehaviors\program\demo-SteeringBehaviors
+  m_LastProjectPath: C:\Users\Think\Documents\git-repository\game-ideas\0006-SteeringBehaviors\program\steering
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
@@ -1505,11 +1505,15 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48090
-    - m_Data: 48092
-    - m_Data: 48094
-    - m_Data: 48096
-    - m_Data: 48098
+    - m_Data: 48102
+    - m_Data: 48104
+    - m_Data: 48106
+    - m_Data: 48108
+    - m_Data: 48110
+    - m_Data: 48112
+    - m_Data: 48114
+    - m_Data: 48116
+    - m_Data: 48118
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1538,16 +1542,20 @@ MonoBehaviour:
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 47498
+    - m_Data: 47504
     m_LastClickedID:
-      m_Data: 47498
+      m_Data: 47504
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48090
-    - m_Data: 48092
-    - m_Data: 48094
-    - m_Data: 48096
-    - m_Data: 48098
+    - m_Data: 48102
+    - m_Data: 48104
+    - m_Data: 48106
+    - m_Data: 48108
+    - m_Data: 48110
+    - m_Data: 48112
+    - m_Data: 48114
+    - m_Data: 48116
+    - m_Data: 48118
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1575,8 +1583,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 47498
-    m_LastClickedInstanceID: 47498
+    - m_Data: 47504
+    m_LastClickedInstanceID: 47504
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:

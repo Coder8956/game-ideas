@@ -96,6 +96,7 @@ public class Arrive : MonoBehaviour
 
         // C++ 在 dist == 0 时直接返回 Vector2D(0, 0)，此处保持相同语义。
         if (distance <= 0f)
+        // if (distance <= 2f)
             return Vector3.zero;
 
         // 原实现的微调常数：配合减速档位控制减速强弱。
