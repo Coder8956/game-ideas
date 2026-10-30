@@ -46,13 +46,13 @@ public class Wander : MonoBehaviour
     private void Update()
     {
         // 按名称寻找鼠标点击产生的目标；尚未点击或目标被销毁时不移动。
-        if (m_target == null)
-        {
-            GameObject targetObject = GameObject.Find(m_targetName);
-            if (targetObject == null)
-                return;
-            m_target = targetObject.transform;
-        }
+        // if (m_target == null)
+        // {
+        //     GameObject targetObject = GameObject.Find(m_targetName);
+        //     if (targetObject == null)
+        //         return;
+        //     m_target = targetObject.transform;
+        // }
 
         float deltaTime = Time.deltaTime;
 

@@ -653,6 +653,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63fb27185539494b84ae53e205dd916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Wander
+  m_targetName: PlacedSphere
+  m_wanderRadius: 2
+  m_wanderDistance: 3
+  m_wanderJitter: 1
+  m_maxSpeed: 8
+  m_maxForce: 24
+  m_mass: 1
+  m_debugDrawGizmos: 1
+  m_circleColor: {r: 0, g: 1, b: 1, a: 1}
+  m_targetColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_velocityColor: {r: 0, g: 1, b: 0, a: 1}
+  m_forceColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
