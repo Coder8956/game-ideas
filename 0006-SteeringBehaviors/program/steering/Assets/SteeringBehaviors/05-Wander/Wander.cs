@@ -8,8 +8,8 @@ public class Wander : MonoBehaviour
 {
     // ==================== 私有字段 ====================
 
-    [Header("目标设置")]
-    [SerializeField] private string m_targetName = "PlacedSphere"; // 鼠标点击放置的目标球名称
+    // [Header("目标设置")]
+    // [SerializeField] private string m_targetName = "PlacedSphere"; // 鼠标点击放置的目标球名称
 
     [Header("漫游参数（对应 Buckland 的 Wander 参数）")]
     [SerializeField] private float m_wanderRadius = 2f; // 前方漫游圆盘半径
