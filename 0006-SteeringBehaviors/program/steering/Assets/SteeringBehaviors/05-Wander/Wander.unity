@@ -655,10 +655,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wander
   m_targetName: PlacedSphere
   m_wanderRadius: 2
-  m_wanderDistance: 3
+  m_wanderDistance: 6
   m_wanderJitter: 1
-  m_maxSpeed: 8
-  m_maxForce: 24
+  m_maxSpeed: 2
+  m_maxForce: 5
   m_mass: 1
   m_debugDrawGizmos: 1
   m_circleColor: {r: 0, g: 1, b: 1, a: 1}
