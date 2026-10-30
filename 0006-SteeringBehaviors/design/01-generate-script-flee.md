@@ -14,4 +14,4 @@
 - 只生成 Flee 相关的行为.
 - 脚本加上详细的注释
 - `目标地点`是鼠标点击产生的球体(PlacedSphere)
-- 参考生成文件[Seek脚本](../program/steering/Assets/SteeringBehaviors/00-Seek/Seek.cs)
+- 代码格式标准参考文件[Seek脚本](../program/steering/Assets/SteeringBehaviors/00-Seek/Seek.cs)

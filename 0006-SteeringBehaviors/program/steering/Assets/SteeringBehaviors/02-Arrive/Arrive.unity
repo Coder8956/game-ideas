@@ -650,9 +650,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1337753835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db29b040a877c4644a2f45b5064f6ec5, type: 3}
+  m_Script: {fileID: 11500000, guid: b5501cbe4208eba44b27283ad171f945, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Pursuit
+  m_EditorClassIdentifier: Assembly-CSharp::Arrive
+  m_targetName: PlacedSphere
+  m_maxSpeed: 8
+  m_maxForce: 24
+  m_mass: 1
+  m_deceleration: 2
+  m_debugDrawGizmos: 1
+  m_velocityColor: {r: 0, g: 1, b: 0, a: 1}
+  m_forceColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_targetLineColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
