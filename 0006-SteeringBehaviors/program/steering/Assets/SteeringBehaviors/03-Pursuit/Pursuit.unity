@@ -655,7 +655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Pursuit
   m_targetName: Tank-Wander
   m_maxSpeed: 8
-  m_maxForce: 24
+  m_maxForce: 23
   m_mass: 1
   m_debugDrawGizmos: 1
   m_velocityColor: {r: 0, g: 1, b: 0, a: 1}
