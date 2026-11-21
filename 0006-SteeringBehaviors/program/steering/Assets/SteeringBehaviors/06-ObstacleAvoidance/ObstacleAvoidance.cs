@@ -41,6 +41,9 @@ public class ObstacleAvoidance : MonoBehaviour
     private Vector3 m_velocity;
     private Vector3 m_lastSteeringForce;
     private float m_detectionBoxLength;
+    /// <summary>
+    /// 最近的相交障碍物
+    /// </summary>
     private GameObject m_closestIntersectingObstacle;
 
     // ==================== 生命周期 ====================
